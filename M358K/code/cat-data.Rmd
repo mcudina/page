@@ -1,0 +1,23 @@
+---
+title: "Categorical Data"
+author: "Milica Cudina"
+date: "9/9/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, out.width="80%"}
+pies<-read.csv("pie-survey.csv")
+pielist<-table(pies$What.is.your.favorite.kind.of.pie)
+print(pielist)
+barplot(pielist)
+barplot(pielist, 
+        col=c("red","blue","green","orange","purple"))
+pie(pielist,
+    col=c("red","blue","green","orange","purple"))
+
+```
+

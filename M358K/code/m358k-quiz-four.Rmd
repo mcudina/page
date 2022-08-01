@@ -1,0 +1,66 @@
+---
+title: "Quiz #4: Categorical Data"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Problem 1. **(10)**
+The data set at hand concerns "pre-existing medical conditions of 92 children involved in a study on the optimal duration of antibiotic use in treatment of tracheitis, which is an upper respiratory infection."
+
+**(2 points)**
+First, you should read the data from our csv file "antibiotics.csv" into a data.frame:
+
+```{r, out.width="80%"}
+
+```
+
+**(2 points)**
+Now, create and print out the table of counts of different conditions present in the above dataset. 
+```{r, out.width="80%"}
+
+```
+Now, you feel that your table is not pretty enough. Try the following command (don't forget to un-comment the line of code once you insert the name of your table): 
+```{r}
+#knitr::kable(name-of-your-table-goes-here)
+
+```
+
+**(6 points)**
+Now, you want to plot a bargraph of the data. You do **not** want all of your columns to be gray and you **do** want all the labels of the bars to be visible. To figure out what the available colors are, you can use the command `colors()` in your console. In class, we have used the `barplot` command. To be able to adequately represent the data at hand, you will need to make some modifications to what we did in class. Please, format your barplot so that it satisfies the following properties:
+
+- your chart must have a descriptive *title*, 
+- the barplot is *horizontal*, i.e., bars stretch from left to right, 
+- your labels for both axes are readable without tilting your head, i.e., they are readable from left to right, 
+- your labels for the *conditions* are must be readable in their entirety, i.e., none of the text gets cut off due to inadequate margin sizes. 
+
+This [barplot customization tutorial](https://www.r-graph-gallery.com/210-custom-barplot-layout.html) is sure to be useful. 
+
+```{r, out.width="80%"}
+
+```
+
+\newpage
+
+## Problem 2. **(5 points)**
+Remember that The University of Texas has a subscription to *The Economist* and that you can enjoy their charts and articles whenever you want. 
+
+Consider the following charts which appeared in *The Economist* in late 2020:
+
+```{r, out.width="80%"}
+knitr::include_graphics("bar_graph.png")
+```
+
+According to the above charts, which of the following statements is **not** correct? **Why? Justify** your answer by going through all of the statements below and providing supporting evidence of their veracity (based on the provided charts, of course). 
+
+a. More than three in five 18- to 29-year-old Americans are “very” or “somewhat” worried about contracting COVID-19.
+b. Young people do not fall ill with the virus as often as older people.
+c. The findings **suggest** that many people underestimate the age of a typical COVID-19 victim.
+d. Young people are **underestimating** the number of COVID-19 victims in their age group.
+e. People aged 65 and older account for more than a half of the COVID-19 victims.
+

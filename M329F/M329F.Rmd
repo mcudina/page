@@ -1,0 +1,522 @@
+---
+title: "Theory of Interest (M329F)"
+output: 
+  html_document
+---
+
+
+**Important external links**
+
+Link to the [Sample SoA FM exam
+problems](https://www.soa.org/globalassets/assets/Files/Edu/2018/2018-10-exam-fm-sample-questions.pdf)
+
+Link to the [Sample SoA FM exam
+solutions](https://www.soa.org/globalassets/assets/Files/Edu/2018/2018-10-exam-fm-sample-solutions.pdf)
+
+Link to the [Online FM
+exam](https://www.soa.org/education/exam-req/syllabus-study-materials/edu-exam-p-online-sample/)
+
+\
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+\
+**Class 1: January 22nd**\
+Orientation.\
+
+[The departmental syllabus](m329f-dept-syllabus.pdf)
+
+[First-Day Handout](syllabus-52900.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 2: January 24th**\
+Accumulation and amount functions. Simple interest.\
+
+[Slides: Sections 1.2-4 and 1.7-8.](Lecture1_2to4and7to8.pdf)
+
+[Class notes](m329f-jan-24-2020.pdf): The amount and accumulation
+functions.
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 3: January 27th**\
+The discount function. Simple discount.\
+
+[Class notes](m329f-jan-27-2020.pdf): Review. The discount function.
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 4: January 29th**\
+The effective discount rate. Compound interest.\
+
+[Slides: Sections 1.6, 1.5, and 1.9.](Lecture1_6and1_5and1_9.pdf)
+
+[Class notes](m329f-jan-29-2020.pdf): The effective discount rate.
+
+[Homework \#1](m329f-hw-one.pdf) \-- **due on Thursday, February 6th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 5: January 31st**\
+Compound discount.\
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 6: February 3rd**\
+Net present value.\
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 7: February 5th**\
+Nominal interest rates.\
+
+[Slides: Sections 1.10, 1.11, and 1.12.](Sections1_10to12.pdf)
+
+[Class notes](m329f-feb-5-2020.pdf): NPV  (cont'd). Nominal interest
+rates.
+
+[Homework \#1](m329f-hw-one-solns.pdf) \-- **Solutions**
+
+[Homework \#2](m329f-hw-two.pdf) \-- **due on Thursday, February 13th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 8: February 7th**\
+Nominal discount rates. The constant force of interest.\
+
+[Class notes](m329f-feb-7-2020.pdf): The constant force of interest.
+
+[In-Term One](m329f-sample-one.pdf) \-- **practice problems**
+
+[In-Term One](m329f-sample-one-solns.pdf) \-- **practice solutions**
+
+[Quiz \#1](m329f-quiz-one-force-of-interest.pdf) \-- **due on Tuesday,
+February 11th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 9: February 10th**\
+The time-varying force of interest.\
+
+[Class notes](m329f-feb-10-2020.pdf): The time-varying force of
+interest.
+
+[Quiz \#1](m329f-quiz-one-solns.pdf) \-- **Solutions**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 10: February 12th**\
+Problem-solving session.\
+
+[Homework \#2](m329f-hw-two-solns.pdf) \-- **Solutions**
+
+[Quiz \#2](m329f-quiz-two.pdf) \-- **due on Tuesday, February 18th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 11: February 14th**\
+
+**In-term exam I**
+
+[In-Term One](m329f-one.pdf) \-- **Solutions**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 12: February 17th**\
+Inflation.\
+
+[Slides: Section 1.14.](Lecture1_14.pdf)
+
+Equations of value.\
+
+[Slides: Sections 2.2 and 2.3.](Lecture2_2and2_3.pdf)
+
+The yield rate.\
+
+[Slides: Sections 2.4 and 2.5.](Lecture2_4and5.pdf)
+
+[Class notes](m329f-feb-17-2020.pdf): Inflation. Equations of value.
+
+[Homework \#3](m329f-hw-three.pdf) \-- **due on Tuesday, February 25th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 13: February 19th**\
+Dollar-weighted yield rates.\
+
+[Slides: Section 2.6.](Lecture2_6.pdf)
+
+[Class notes](m329f-feb-19-2020.pdf): Yield rates. Dollar-Weighted Yield
+Rates.
+
+[Quiz \#2](m329f-quiz-two-solns.pdf) \-- **Solutions**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 14: February 21st**\
+Time-weighted yield rates.\
+
+[Slides: Section 2.7.](Lecture2_7.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 15: February 24th**\
+Annuities immediate.\
+
+[Slides: Sections 3.2 and 3.3.](Lecture3_2and3.pdf)
+
+[Class notes](m329f-feb-24-2020.pdf): Annuuities immediate.
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 16: February 26th**\
+More on annuities immediate.\
+
+[Homework \#3](m329f-hw-three-solns.pdf) \-- **Solutions**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 17: February 28th**\
+Annuities due.\
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 18: March 2nd**\
+Non-integral terms. Deferred annuities certain.\
+
+[Slides: Section 3.5.](Lecture3_5.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 19: March 4th**\
+Perpetuities.\
+
+[Slides: Section 3.4.](Lecture3_4.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 20: March 6th**\
+Outstanding loan balances.\
+
+[Slides: Section 3.6.](Lecture3_6.pdf)
+
+[Homework \#4](m329f-hw-four.pdf) \-- **due on Friday, March 13th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 21: March 9th**\
+Non-level annuities.\
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 22: March 11th**\
+Annuities with payments in geometric progression.\
+
+[Slides: Sections 3.8 and 3.9.](Lecture3_8and3_9.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 23: March 13th**\
+UT closed and no class due to COVID-19.\
+
+[The updated First-Day Handout](Cudina_M329F.pdf)
+
+[Homework \#4](m329f-hw-four-solns.pdf) \-- **Solutions**
+
+[In-Term Two](m329f-two-topics.pdf) \-- Topics
+
+[Sample In-Term Two](m329f-sample-two-probs.pdf) \-- Problems
+
+[Sample In-Term Two](m329f-sample-two-solns.pdf) \-- Solutions
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 24: March 30th**\
+Getting used to Zoom\
+
+[Mock In-Term Two](m329f-mock-two-probs.pdf) \-- Problems
+
+[Mock In-Term Two](m329f-mock-two-solns.pdf) \-- Solutions
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 25: April 1st**\
+
+**In-term exam II**
+
+[In-Term Two](m329f-canvas-two.pdf) \-- Solutions
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 26: April 3rd**\
+Annuities with payments in arithmetic progression.\
+
+[Slides: Sections 3.8 and 3.9.](Lecture3_8and3_9.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 27: April 6th**\
+Continuously paying annuities.\
+
+[Slides: Section 4.6.](Lecture4_6.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 28: April 8th**\
+Amortization method.\
+
+[Slides: Sections 5.2 and 5.3.](Lecture5_2and3.pdf)
+
+[Homework \#5](m329f-hw-five.pdf)- **due Wednesday, April 15th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 29: April 10th**\
+The sinking-fund method.\
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 30: April 13th**\
+Bond pricing.\
+
+[Slides: Section 6.2.](Lecture6_2.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 31: April 15th**\
+The premium-discount formula.\
+
+[Slides: Sections 6.3 and 6.4.](Sections6_3and4.pdf)
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 32: April 17th**\
+The bond amortization schedule.\
+
+[Slides: Section 6.5.](Lecture6_5.pdf)
+
+[Homework \#5](m329f-hw-five-solns.pdf) \-- **Solutions**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 33: April 20th**\
+Callable bonds.\
+
+[Slides: Section 6.9.](Lecture6_9.pdf)
+
+[Quiz \#6](m329f-quiz-six.pdf) \-- **due on Wednesday, April 22nd**
+
+[Homework \#6](m329f-hw-six.pdf) \-- **due on Monday, April 27th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 34: April 22nd**\
+More on the book value and callable bonds.\
+
+[Quiz \#6](m329f-quiz-six-solns.pdf) \-- **Solutions**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 35: April 24th**\
+The dividend-discount model. On arbitrage.\
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 36: April 27th**\
+The term structure of interest rates.\
+
+[Homework \#6](m329f-hw-six-solns.pdf) \-- **Solutions**
+
+[Quiz \#7](m329f-quiz-seven.pdf) \-- **due on Thursday, April 30th**
+
+[Homework \#7](m329f-hw-seven.pdf) \-- **due on Monday, May 4th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 37: April 29th**\
+Implied forward rates.\
+
+[Quiz \#8](m329f-quiz-eight.pdf) \-- **due on Wednesday, May 6th**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 38: May 1st**\
+Swaps on interest rates.\
+
+[Old class notes](m339d-may-7.pdf): Interest-rate swaps (only pp.5-8 are
+relevant).
+
+Duration.\
+
+[Slides: Section 9.2.](Section9_2.pdf)
+
+[Quiz \#7](m329f-quiz-seven-solns.pdf) \-- **Solutions**
+
+[In-Term Three](m329f-three-topics.pdf) \-- Topics
+
+[Sample In-Term Three](m329f-sample-three-probs.pdf) \-- Problems
+
+[Sample In-Term Three](m329f-sample-three-solns.pdf) \-- Solutions
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 39: May 4th**\
+More on duration.\
+
+[Homework \#7](m329f-hw-seven-solns.pdf) \-- **Solutions**
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 40: May 6th**\
+Convexity.\
+
+[Slides: Section 9.3.](Lecture9_3.pdf)
+
+Immunization.\
+
+[Slides: Section 9.4.](Lecture9_4.pdf)
+
+[Quiz \#8](m329f-quiz-eight-solns.pdf) \-- **Solutions**
+
+[Mock In-Term Three](m329f-mock-three-probs.pdf) \-- Problems
+
+[Mock In-Term Three](m329f-mock-three-solns.pdf) \-- Solutions
+
+\
+
+------------------------------------------------------------------------
+
+\
+**Class 41: May 8th**\
+
+**In-term exam III**
+
+[In-Term Three](m329f-canvas-three.pdf) \-- Problems and solutions
+
+\
+
+------------------------------------------------------------------------
+
+\
+
+
+
+
+
+
+
+

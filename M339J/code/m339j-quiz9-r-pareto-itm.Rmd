@@ -1,0 +1,53 @@
+---
+title: "Quiz #9"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+Create an `R`-notebook which prints out the answers to the following problems. Knit the Rmd file into a pdf. Upload the pdf of your solutions onto Canvas. All of your work and calculations **must** be done in `R`.
+
+---
+
+## Problem 1. 
+The goal of this exercise is to simulate $10,000$ values from the Pareto distribution using the inverse transform method. Then, you are going to draw a histogram of the simulated values. 
+
+**(4 points)**
+Define the function `pareto.inv.cdf` to be the inverse of the cumulative distribution function of the Pareto distribution. 
+
+
+**(1 point)**
+Set the value of the variable `nsim` to be the required number of simulated draws stipulated in the problem statement above. 
+
+**(1 point)** 
+Set particular values of a variables `theta` and `alpha` to be the parameters of the two-parameter Pareto distribution you want to simulate from. The values of the parameters you settle upon are completely up to you. 
+
+**(2 points)**
+Create the vector `u.s` of `nsim` simulated values from the unit uniform distribution. 
+
+**(4 points)** 
+Set the vector `sims` to contain the `nsim` simulated values from the two-parameter Pareto distribution with the parameters `theta` and `alpha` you defined above. 
+Do **not** print out the simulated values. 
+
+
+**(3 points)**
+Using the command `hist`, plot the histogram of the simulated values. Note that you can alter bin sizes by using `breaks` in the `hist` inputs. 
+
+

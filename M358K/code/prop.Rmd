@@ -1,0 +1,41 @@
+---
+title: "Sample proportions"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Setting up the populations
+First, we set up some proportions in the population of who would be *for* solar panels and who would be *against*.
+```{r}
+n.pop=3*10^8
+opinions=c(rep("for", 0.88*n.pop),rep("against", 0.12*n.pop))
+```
+## Drawing a sample
+Then, we draw a sample of size $1000$ without replacement.  
+```{r}
+sample.size=1000
+srs=sample(opinions, size = sample.size)
+```
+## Finding the point estimate
+Now, we find the sample proportion of the number of supporters. 
+```{r}
+p.hat=mean(srs=="for")
+p.hat
+```
+## What if we repeat this procedure, say, 1000 times?
+Finally, let's see what the shape of the sampling distribution of the sample proportion is. 
+
+```{r}
+p.hat.vector=numeric()
+for (i in 1:1000){
+    srs=sample(opinions, size = sample.size)
+    p.hat=mean(srs=="for")
+    p.hat.vector=append(p.hat.vector,p.hat)  
+}
+hist(p.hat.vector, col="orange")
+```
+

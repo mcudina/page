@@ -1,0 +1,34 @@
+---
+title: "Diamonds"
+author: "Milica Cudina"
+date: "9/14/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+diamonds<-read.csv("diamond.csv")
+
+plot(diamonds$Carats,diamonds$Price)
+
+plot(diamonds$Carats,diamonds$Price, 
+     pch=20)
+plot(diamonds$Carats,diamonds$Price, 
+     pch=20, col="red")
+
+plot(diamonds$Carats,diamonds$Price, 
+     pch=20, col="red", 
+     main="Carats vs. price", 
+     xlab="Carats", ylab="Price")
+
+model=lm(diamonds$Price ~ diamonds$Carats)
+
+abline(model)
+        
+cor(diamonds$Carats,diamonds$Price)
+
+```
+

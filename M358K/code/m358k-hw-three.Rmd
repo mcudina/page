@@ -1,0 +1,61 @@
+---
+title: "Homework assignment #3"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+# More probability review
+## Problem #1. 
+A piggy bank contains coins of three different types: $T_1, T_2$ and $T_3.$ There are twice as many type $T_1$ coins as type $T_2$ coins, and twice as
+% many type $T_2$ coins as type $T_3$ coins. The coins are indistinguishable to touch.
+
+### a. **($5$ points)**
+A coin is extracted from the piggy bank at random. Let the probability that the coin is of type $T_i$ be denoted by $p_i$ for $i = 1,2,3$. Find $p_1, p_2$ and $p_3$.
+
+### b. **($10$ points)**
+Coins of type $T_1$ are fair, coins of type
+$T_2$ come up heads (H) when tossed with probability $3/10$, and coins of type $T_3$ come up heads (H) when tossed with probability $1/10$.
+
+A coin is drawn from the piggy bank at random and tossed. What is the probability that the result of the coin toss was heads?
+
+## Problem 2. **($15$ points)**
+There are three variants of a genetic marker for  *goosepox*: **immune, middling,** and **susceptible**. In the population, 10% are **immune**, 70% are **middling**, and 20% are **susceptible**. 
+Within each category, here are the chances of contracting *goosepox*:
+\begin{itemize}
+  \item[$\bullet$] for {\bf immune} it is 0\%,
+  \item[$\bullet$] for {\bf middling} it is 50\%, and
+  \item[$\bullet$] for {\bf susceptible} it is 90\%. 
+\end{itemize}
+Say that you learn that a randomly chosen individual contracted *goosepox*. What is the probability that this individual was **susceptible**?
+
+---
+
+# The binomial distribution
+## Problem 3. **($5$ points)**
+Using both `R` and analytic methods, find the probability that three independent tosses of a fair coin have exactly two successes. 
+
+
+## Problem 4. **($10$ points)**
+Using both `R` and analytic methods, find the probability that four independent tosses of a fair coin have at most two successes. 
+
+
+## Problem 5. **($5$ points)**
+Consider a coin whose probability of landing on *heads* is $1/5$. You encode *heads* as "success". Using both `R` and analytic methods, find the probability that five independent tosses of this coin have exactly four successes. 
+
+

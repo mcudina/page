@@ -1,0 +1,52 @@
+---
+title: "Homework assignment #11"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE,
+  tidy = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Problem #1 ($4+2=6$ points)
+Solve **Exercise 6.6** from the textbook.
+
+
+## Problem #2 ($1+4+2+2=9$ points)
+Solve **Exercise 6.10** from the textbook.
+
+
+## Problem #3 ($9+2=11$ points)
+Solve **Exercise 6.12** from the textbook. 
+
+
+## Problem #4 ($2$ points)
+Solve **Exercise 6.18** from the textbook.
+
+
+## Problem #5  ($2+2+2+2=8$ points)
+Solve **Exercise 6.20** from the textbook. 
+
+
+## Problem #6 ($6$ points)
+Solve **Exercise 6.22** from the textbook. 
+
+
+## Problem #7 ($6+2=8$ points)
+Solve **Exercise 6.24** from the textbook. 
+

@@ -1,0 +1,57 @@
+---
+title: "Homework assignment #2"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+# More probability review
+## Problem #1. **(5 points)**
+Let $E$ and $F$ be any two events. If
+\begin{equation}%\label{}
+    \nonumber
+    \begin{split}
+      \mathbb{P}[E] = \mathbb{P}[F] = \frac{2}{3}\,,
+    \end{split}
+\end{equation}
+then $E$ and $F$ cannot be mutually exclusive. *True or false? Why?*
+
+## Problem #2. **(5 points)**
+If events $A$ and $B$ are mutually exclusive, they are necessarily independent. *True or false? Why?*
+
+## Problem 3. **(5 points)**
+A test is used to determine whether people exhibiting green spots have the *duckpox* or not. It is believed that at any given time 4% of people exhibiting green spots actually have the *duckpox*. 
+The test is 99% accurate if a person actually has the *duckpox*. The test is 96% accurate if a person does **not** have the *duckpox*. What is the probability that a randomly selected person who tests positive for the *duckpox* actually has the *duckpox*?
+
+---
+
+
+# Textbook problems on the binomial
+## Problem 1. **(a is 4 points; b is 2 points; c is 2 points; d is 3 points; e is 4 points=15 points total)**<br>
+Solve **Problem 4.18** from the textbook.
+
+## Problem 2. **(a is 3 points; b is 2 points; c is 3 points = 8 points total)** 
+Solve **Problem 4.22 (a, b, c) ** from the textbook.
+
+## Problem 3. **(2 points each)** 
+Solve **Problem 4.24 (a, b, c)** from the textbook.
+
+## Problem 4. **(2 points each)** 
+Solve **Problem 4.26** from the textbook.
+
+

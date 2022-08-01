@@ -1,0 +1,105 @@
+---
+title: "Homework assignment #8"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE,
+  tidy = TRUE
+)
+```
+<!-- ... down to here. -->
+
+## Problem #1 (5 points)
+Consider a normal population with mean $10$ and standard deviation $1$. What is the probability that a sample mean of a sample of size $16$ falls into the interval $[9.525, 9.9]$?
+
+## Problem #2 (5 points)
+A particular type of wool for clothes manufacturing has to have a specific tensile strength in order to be used in weaving machines without breaking. We model its tensile strength as normally distributed with standard deviation 0.4 MPa. How is the variance of the sample mean changed when the sample size decreases from 64 to 36?
+
+## Problem #3 (5 points)
+To estimate a population mean, our resident statistician Martyn Rivera plans to pick two independent simple random samples, each of size 100,
+  from the population.  He also plans to calculate the confidence
+  interval with level $C$ for each sample. What is the probability
+  that at least one of his confidence intervals will cover the
+  population mean?
+
+## Problem #4 (5 points)
+Consider the following statement: 
+
+*"At the 95\% confidence level, we estimate that the true population mean of the tail length of rhesus macaques is between 20.7 cm and 22.9 cm. If we were to construct a confidence interval at the 99\% confidence level, the resulting interval would be narrower."*
+
+Are there any errors in the above two statements? Justify your answer. 
+
+\begin{enumerate}
+\item[(a)] This interpretation is correct.  There are no errors.
+\item[(b)] In the first sentence, the phrase ``true population mean'' should be replaced with ``sample mean.''
+\item[(c)] In the second sentence, ``narrower'' should be replaced with ``wider.''
+\item[(d)] In the first sentence, the word ``estimate'' should be replaced with ``know for certain.''
+\item[(e)] None of the above. 
+\end{enumerate}
+
+## Problem #5 (5 points)
+The Chicago Tribune and the Los Angeles Times conducted separate national polls where they asked full-time employees how many hours they work per week, and reported confidence intervals at the 95\% confidence level. The Chicago Tribune surveyed 500 people, and the Los Angeles Times surveyed 300 people. Which paper reported a larger margin of error? Assume the standard deviations of the two populations were equal and justify your answer. 
+
+\begin{enumerate}
+\item[(a)] The Chicago Tribune
+\item[(b)] The Los Angeles Times
+\item[(c)] The margins of error are the same
+\item[(d)] The margins of error will depend on the means of the samples
+\item[(e)] There is not enough information to answer this question
+\end{enumerate}
+
+## Problem #6 (2 points)
+*Source: Problem 6.21 from the Moore/McCabe/Craig.*
+
+Consider the following two scenarios: 
+\begin{itemize}
+\item Take a simple random sample of 100 sophomore students at your
+  college or university. 
+\item Take a simple random sample of 100 students at your college or university. 
+\end{itemize}
+
+For each of these samples you record the amount spent on textbooks used for classes during the fall semester. You should suspect that the
+first sample should have the smaller margin of error.
+*True or false? Why?*
+
+## Problem #7 ($4+4+2=10$ pts)
+*Source: "Probability and Statistics for Engineers and Scientists" by Walpole, Myers, Myers, and Ye.*
+
+The average zinc concentration recovered from a sample of measurements taken at $36$ different locations in a river is found to be $2.6$ grams per milliliter. 
+Assume the normal distribution for the concentration and let the population standard deviation be $0.3$ gram per milliliter. 
+Find the 
+\begin{itemize}
+  \item[(i)] $95\%$ confidence interval, and
+  \item[(ii)] $99\%$ confidence interval
+\end{itemize} 
+for the mean zinc concentration in the river.
+
+Moreover, how large a sample is required if we want to be $95\%$ confident that our estimate of the mean parameter is off by less than $0.05$?
+
+## Problem #8 (5 points)
+*Source: "Mathematical Statistics with Applications" by Ramachandran and Tsokos.*
+
+Fifteen vehicles were observed at random for their speeds (in mph) on a highway with a speed limit posted as 70 mph. It was found that the observed sample average was 73.3 mph. Suppose that from the past experience we can assume that vehicle speeds are normally distributed with the standard deviation of the speed equal to 3.2 mph. Construct a $90\%$ confidence interval for the true mean speed $\mu$ of the vehicles on this highway. 
+
+## Problem #9 (3 points)
+The standard deviation of the zinc concentration in a certain river is given to be $0.45$ grams per milliliter. Assuming the normal distribution as the model for the zinc concentration, you want to create a 90\%-confidence interval for the mean zinc concentration. Your goal is to have the margin of error of at most $0.04$. How large should your sample be?
+
+## Problem #10 (5 points)
+*For your own RT, go to:* [This website](https://humanbenchmark.com/tests/reactiontime). You will also see that the distribution is not really well-modelled as normal.
+
+You want to study the reaction time (RT) of undergraduate students. From past research, you are comfortable modelling the RT using the normal distribution with a standard deviation of 30 ms. You gather a simple random sample of $225$ undergraduates. Their sample average is $215$ ms. What is the 80\%-confidence interval?
+
+
+

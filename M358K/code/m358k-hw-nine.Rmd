@@ -1,0 +1,121 @@
+---
+title: "Homework assignment #9: Solutions"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE,
+  tidy = TRUE
+)
+```
+<!-- ... down to here. -->
+
+## Problem #1 (3 points)
+  The mean area of the several thousand new apartments is advertised
+  to be at least 1350 square feet.  A tenant group thinks that the
+  apartments are smaller than advertised.  They hire an engineer to
+  measure a sample of apartments, they should test
+\begin{description}
+\item[a.] $H_0: \mu=1350$ against $H_a: \mu > 1350.$
+\item[b.] $H_0: \mu=1350$ against $H_a: \mu < 1350.$
+\item[c.] $H_0: \mu<1350$ against $H_a: \mu = 1350.$
+\item[d.] $H_0: \mu=1350$ against $H_a: \mu \not= 1350.$
+\item[e.] $H_0: \mu<1350$ against $H_a: \mu > 1350.$
+\end{description}
+
+
+## Problem #2 (5 points)
+In a hypothesis testing problem, $p-$value = 3\% means that \dots
+\begin{description}
+\item[a.] Null hypothesis has a 3\% chance to be wrong.
+\item[b.] If the null hypothesis is true, the probability of observing
+  as extreme or more extreme than what have been observed is 3\%.
+\item[c.] Alternative hypothesis has a 3\% chance to be wrong.
+\item[d.] If we repeat the procedure a lot times, 
+approximately 3\% of the tests will be 
+significant.
+\item[e.] None of the above.
+\end{description}
+
+
+## Problem #2 (5 points)
+  Freddie Threepwood conducts a hypothesis test. He calculates the
+  observed value of the $z-$statistic to be $0.018$ (under the
+  null). At the significance level of $0.05$, he should reject the
+  null hypothesis. *True or false? Why?*
+
+
+## Problem #3 (15 points)
+  Suppose that the thumb sizes of the US males follow a normal
+  distribution with an unknown mean $\mu$ and known standard deviation
+  $\sigma=20$ on the GPI - scale (*Grey's Pollex Index - GPI -
+    from $50$ to $280$*). The US Department of Thumbs and Toes (DTT)
+  reports that the mean thumb size in the country is $\mu=150$.
+
+  Being the chairman of the Faculty of Thumbs of the local university
+  you see an excellent opportunity here and decide to conduct your own
+  study of the size of the average American thumb. After collecting a
+  SRS of 100 American thumbs you obtain the following sample average
+  $\bar{x}=153$. 
+
+\begin{itemize}
+\item[{\bf i}] ($5$ pts) Construct a 95\%-confidence interval for the
+  unknown parameter $\mu$ based on your study.
+\item[{\bf ii.}] ($8$ pts)
+  Assess the strength of evidence your study carries against the DTT findings. In other words: state the hypotheses and report the $p-$value.
+\item[{\bf iii.}] ($2$ pts) You dream of achieving fame and fortune by
+  being the first person ever to estimate the mean thumb size up to
+  the margin of error equal to $\pm 0.1$. How large a sample size do
+  you need for that? 
+\end{itemize}
+
+
+## Problem #4 (5 points)
+*Source: "Probability and Statistics for Engineers and Scientists" by Walpole, Myers, Myers, and Ye.*
+
+Assume that the compressive strength for a certain type of cement is normal with a known standard deviation of $120$ kilograms and an **unknown** mean $\mu.$ You test the hypotheses
+\begin{equation}\nonumber
+  \begin{split}
+    H_0: \mu = 5000 \quad vs. \quad H_a: \mu < 5000. 
+  \end{split}
+\end{equation}
+For a planned sample of size $50$, 
+your colleague obtains the rejection region $RR=(-\infty, 4970]$. What is the significance level he used? 
+
+
+## Problem #5 (7 points)
+The *Cheesecake Manufacture and Dinery* claims that their famous cheesecake has at most $2000$ per slice. You suspect the contrary and plan a study. You model the calorie content per slice using the normal distribution with un unknown mean $\mu$ and with a **known** standard deviation of $300.$ 
+
+You diligently study a random sample of $25$ slices of cheesecake. The sample average turns out to be $2100.$
+
+What is the $p-$value corresponding to these data?
+
+
+## Problem #6 (10 points)
+The manufacturer of the *Slim Steakburger* brand claims that the
+  mean fat content of this grade of steakburger is at most 18\%.
+
+  The *Fat Fighters* consumer group, concerned about the mean fat
+  content of this grade of steakburger submits to an independent
+  laboratory a random sample of $12$ steakburgers for analysis. 
+
+  Assuming the percentage fat content being normally distributed with
+  a variance of $3$, they carry out an appropriate hypothesis test in
+  order to advise the consumer group as to the validity of the
+  manufacturer's claim.
+
+The rejection region for the significance level of $0.05$ is 
+$[18.8225, \infty)$. With the above significance level of
+  $0.05$, find the power of the test at the alternative population mean of $20$. 
+

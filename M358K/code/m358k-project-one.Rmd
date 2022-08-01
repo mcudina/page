@@ -1,0 +1,50 @@
+---
+title: "Project #1: Part #2"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+urlcolor: blue
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+Before embarking on this project, go to [Wikipedia: the Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem). This Wikipedia entry contains the description of the original Monty Hall problem as well as its analysis and variations. 
+
+---
+
+## Problem #1. **(10 points)**
+Read and understand the description of the original Monty Hall game. Now, write down your own description in your own words. Resist the temptation to copy-paste from an external resource since that will earn you zero points. It might help to imagine that you have a five-year old niece or nephew you are describing the game to. 
+
+## Problem #2. **(10 points)**
+Write and execute code in `R` which will represent **one round** of the original Monty Hall game. More precisely, it should do the following:
+
+- "choose" at random behind which door the prize will be,
+
+- "choose" at random the door that the contestant picks,
+
+- choose which door the host will open,
+
+- determine whether it was optimal to **switch** or **stick** for this particular round and return this determination. 
+
+## Problem #3. **(10 points)**
+Write and execute code in `R` which repeats 100 rounds of the Monty Hall game. For which proportion of these rounds was it optimal to **switch**? *Hint:* If you answer to the previous problem was not in the form of a function, make it so now. 
+
+## Problem #4 **(10 points)**
+Write and execute code in `R` which repeats $n$ rounds of the Monty Hall game for $n=100, 110, 120, ..., 10000$. For each $n$, your code should record the proportion of individual rounds for which it was optimal to **switch**. In `R`, plot this recorded proportion as a function of $n$. 
+Does your computational result agree with the analysis available at [Wikipedia: the Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem)? Why? It might also be useful to consult: [Wikipedia: The Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers). 
+

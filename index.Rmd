@@ -1,0 +1,51 @@
+---
+title: "Milica Cudina"
+output: 
+  html_document
+---
+```{r echo=FALSE, out.width= "45%", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics('Prase.jpg')
+```
+
+Associate Professor of Practice  
+Department of Mathematics   
+The University of Texas at Austin  
+
+
+**Contact info:**\
+
+-   Office: PMA 13.142 (not in office in Spring 2022)
+-   Phone: (512) 232-6186 (not available by phone in Spring 2022)
+-   Email: mcudina\@math.utexas.edu
+
+**Curriculum Vitae:** [cv-cudina.pdf](cv-cudina.pdf)
+
+
+**Teaching:**
+
+Current semester:
+
+-   [Introduction to Financial Mathematics for Actuaries (M339D=M389D)](M339D/M339D.html)
+-   [Financial Mathematics for Actuarial Applications (M339W=M389W)](M339W/M339W.html)
+-   [Probability Models with Actuarial Applications (M339J=M389J)](M339J/M339J.html)
+
+
+Other courses:
+
+-   [Applied Statistics (M358K)](M358K/M358K.html)
+-   [Theory of Interest (M329F=M389F)](M329F/M329F.html)
+
+Resources for students:
+
+-   [Actuarial Miscellany](act-misc.html)
+
+\
+
+**Publications:**
+
+-   \" [Asymptotically Optimal Control for Some Time-varying Stochastic
+    Networks](thesis.pdf) \" (2006), PhD Thesis, Carnegie Mellon
+    University
+-   \" [Asymptotically Optimal Control for Time-inhomogeneous
+    Networks](CudRam11.pdf) \" (2011), SIAM J. CONTROL OPTIM., Vol. 49,
+    No.2, pp. 611-645

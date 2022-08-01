@@ -1,0 +1,96 @@
+---
+title: "Project #2"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+urlcolor: blue
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+\fbox{\parbox{\textwidth} {This project is inspired by the case study \\
+  {\em ``Chuck A. Luck Wagers a Buck: Probabilistic Reasoning and the
+    Gambler’s Ruin''} by Christopher M. Rump.}}
+
+Consider the game of *Chuck-a-Luck*. Here is how it's played as told by Mr. Daniel Reisman of Niverville, New York: 
+
+\textcolor{blue}{\bf``Three dice are rolled in a wire cage. You place a bet on any number
+from 1 to 6. If any one of the three dice comes up with your number,
+you win the amount of your bet. (You also get your original stake
+back.) If more than one die comes up with your number, you win the
+amount of your bet for each match. For example, if you had a \$1 bet
+on number 5, and each of the three dice came up with 5, you would win
+\$3.''}
+
+---
+
+## Problem #1 **(3 points)**
+What is the probability that the gambler wins the game?
+
+## Problem #2 **(5 points)**
+Who has the long-run advantage in the game: the house or the gambler? By how much on the dollar?
+
+## Problem #3 (8 points)
+How would you change the amount of the
+  winnings in every round of *Chuck-a-Luck* to make the game fair?
+  Say that doubles pay $\$a$ per \$1 bet rather than $\$2$ and triples  pay $\$b$ per \$1 bet in stead of \$3. What is the condition on $a$ and $b$?
+
+## Problem #4 (10 points)
+Get three regular dice or use software to create
+  simulated values of the outcomes of rounds of *Chuck-a-Luck*
+  with the original reward system. Play $100$ independent rounds of
+  the game, starting with a new dollar each time. What is the average
+  of the gambler's winnings in these $100$ rounds?
+
+## Problem #5 (2 points)
+Take another look at your answers to the above
+  problems. How do they relate to the
+  Strong Law of Large Numbers? If you forgot about this theorem you studied in *Probability*, see
+  [Wikipedia](https://en.wikipedia.org/wiki/Law_of_large_numbers).
+  
+## Problem #6 (10 points)
+Now we are going to look at a particular
+  gambler who arrives at the casino with \$2 in his pocket intending
+  to play *Chuck-a-Luck*. At the beginning of every round of the
+  game, he invests exactly \$1 (if he has the money). He continues to
+  play round after round of the game until he either loses everything,
+  or his wealth reaches at least \$4.
+
+  Again, you can use real dice or software to play the game. Keep
+  track of the gambler's wealth as the rounds of *Chuck-a-Luck*
+  are repeated until the entire string of rounds is ended by either
+  bankruptcy, or his wealth being at least \$4. Display the gambler's
+  wealth trajectory graphically.
+  
+## Problem #7 (22 points)
+Having completed the above single run,
+  now repeat the same exercise $100$ times. More precisely, you can
+  imagine letting $100$ gamblers enter the casino with \$2 each and
+  play rounds of *Chuck-a-Luck* as above. This time you do not
+  need to keep track of each gambler's wealth as the game-play
+  progresses. For each gambler you should just record:
+\begin{itemize}
+\item the {\bf number of rounds of the game} it took them to either go
+  bankrupt or emerge victorious with at least \$4;
+\item whether the {\bf final result} was bankruptcy or not.
+\end{itemize}
+
+What is the average number of rounds the $100$ gamblers played? What
+is the proportion of gamblers who finished with at least \$4 in their
+pocket? Draw the histogram of the number of rounds played for the
+players who went bankrupt only, the histogram of the number of rounds
+played for the remaining players, and the histogram of the number of
+rounds played for all players. 

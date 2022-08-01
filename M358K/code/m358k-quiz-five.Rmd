@@ -1,0 +1,98 @@
+---
+title: "Quiz #5"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  fig.width=12,
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+## Problem 1. **(3 points)** 
+Please, provide an example from real life (including what you may have read in the press) of **sampling bias** due to *voluntary response.*
+
+*Solution:*
+
+\newpage
+
+## Problem 2. **(2 points)**
+Consider the following histogram:
+```{r, out.width="80%"}
+knitr::include_graphics("hist.png")
+```
+The histogram is ...
+
+a. unimodal.
+b. bimodal, symmetric.
+c. bimodal, asymmetric.
+d. trimodal.
+e. uniform. 
+
+*Why?*
+
+*Solution:*
+
+\newpage
+
+## Problem 3. **(5 points)**
+*Source: AMC8, 2019.*
+
+The diagram shows the number of students at soccer practice each weekday during last week. After computing the mean and median values, Coach discovers that there were actually $21$ participants on Wednesday. 
+```{r, out.width="60%"}
+knitr::include_graphics("amc-8.png")
+```
+Which of the following statements describes the change in the mean and median after the correction is made? *Why?*
+
+a. The mean increases by $1$ and the median does not change.
+b. The mean increases by $1$ and the median increases by $1$.
+c. The mean increases by $1$ and the median increases by $5$.
+d. The mean increases by $5$ and the median increases by $1$.
+e. The mean increases by $5$ and the median increases by $5$.
+
+*Solution:*
+
+\newpage
+
+## Problem 4. **(5 points)**
+Consider the following box plot:
+```{r, out.width="80%"}
+knitr::include_graphics("boxplot.png")
+```
+Which summary statistics does it correspond to?
+
+a. 
+\begin{tabular}{c|c|c|c|c|c}
+Min. & Q1 & Median  &  Mean & Q3 & Max. \\
+3.00 & 7.75  &  9.50  &  9.95  & 12.00 &  19.00\\ 
+\end{tabular}
+b. 
+\begin{tabular}{c|c|c|c|c|c}
+Min. & Q1 & Median  &  Mean & Q3 & Max. \\
+3.00 & 7.75  &  9.50  &  9.95  & 12.00 &  17.00\\ 
+\end{tabular}
+c. 
+\begin{tabular}{c|c|c|c|c|c}
+Min. & Q1 & Median  &  Mean & Q3 & Max. \\
+0.00 & 7.75  &  8.00  &  9.95  & 12.00 &  17.00\\ 
+\end{tabular}
+d. 
+\begin{tabular}{c|c|c|c|c|c}
+Min. & Q1 & Median  &  Mean & Q3 & Max. \\
+3.00 & 7.75  &  9.50  &  9.95  & 10.00 &  17.00\\ 
+\end{tabular}
+e. None of the above.
+
+*Solution:*

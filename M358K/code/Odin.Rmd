@@ -1,0 +1,45 @@
+---
+title: "Odin"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+lambda=0.04
+nsim<-10^7
+everybody<-rexp(nsim,lambda)
+hist(everybody)
+srs<-sample(everybody,400)
+summary(srs)
+1/mean(srs)
+hist(srs,25)
+sample.avg.function<-function(x){
+	result<-mean(sample(x,400))
+	return(result)
+}
+nsamples<-1000
+counter<-0
+sampleaverages<-numeric(0)
+max<-nsamples
+while(counter<max){
+	counter<-counter+1;
+	sampleaverages<-rbind(sampleaverages,sample.avg.function(everybody))
+}
+#sampleaverages
+#pdf("plots.pdf")
+par(mfrow=c(2,2))
+hist(everybody,100)
+srs<-sample(everybody,400)
+hist(srs,25)
+srs<-sample(everybody,400)
+hist(srs,25)
+hist(sampleaverages,50)
+#dev.off()
+summary(sampleaverages)
+```
+

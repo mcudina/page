@@ -1,0 +1,94 @@
+---
+title: "Project # 3: The Experiment Experiment"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+urlcolor: blue 
+---
+
+---
+
+Here is the link to the podcast episode:
+[Click me!](http://www.npr.org/sections/money/2016/01/15/463237871/episode-677-the-experiment-experiment)
+
+The first part of the project pertains to the podcast content; your answers to the questions in the first part will all be graded based on accuracy. The second part is experimental and can be done in R; your submission will be to a great extent graded on your readable and relevant data presentation. The third part is more open-ended; your submission for the third part of the project will be graded based on the following:
+
+* overall composition and presentation;
+* well-foundedness of your conclusions and interpretation. 
+
+## Part One: Guided listening.
+Brian Nosek is a co-founder of the ["Center for Open Science"](https://cos.io/). After (or during) listening to the podcast, please, provide your answers to the following questions: 
+
+### Problem 1.1.(1 point) 
+What was it that prompted Brian Nosek to undertake the project described in the podcast?
+
+### Problem 1.2.(1 point) 
+What did the project designed by Brian Nosek consist of?
+
+### Problem 1.3.(1 point) 
+What is the (at least one) reason that scientists do not habitually repeat studies?
+
+### Problem 1.4.(1 point) 
+How many experiments did the volunteer scientists “do over”?
+
+### Problem 1.5. (2 points) 
+What was the source of the chosen experiments? Were they obscure within the field?
+
+### Problem 1.6.(1 point) 
+What is the “afternoon-treat hypothesis”?
+
+### Problem 1.7.(1 point) 
+Did the project originator Brian Nosek keep constant track of how many of the experiments were successfully replicated? Or did he wait until the entire experiment experiment was completed?
+
+### Problem 1.8.(1 point) 
+How many original conclusions were confirmed?
+
+### Problem 1.9.(1 point) 
+Is the conclusion that the scientists are faking their data?
+
+### Problem 1.10.(2 points) 
+What experiment did the journalist conduct the morning of taping the podcast? What were the results?
+
+### Problem 1.11.(3 points) 
+What is the file-drawer effect? What is its consequence in the field of psychology?
+
+### Problem 1.12.(1 point) 
+Does the file-drawer effectcompletely explain the 39/100 ratio?
+
+### Problem 1.13.(1 point) 
+Which example of a common mistake does Dr. Lindsey describe?
+
+### Problem 1.14.(1 point) 
+Which other disciplines are now trying to do the experiment experiment?
+
+### Problem 1.15.(1 point) 
+What remedy does Brian Nosek propose?
+
+### Problem 1.16. (2 points) 
+Is this idea already being implemented in a certain research field? Has this
+changed the frequency of positive results?
+
+### Problem 1.17.(1 point) 
+Should we lose faith in scientific results?
+
+
+## Part 2: A simple experiment (8 points)
+Design and execute a simple experiment consisting of trials such as coin tosses, or rolls of a die. See
+    how close to “fairness” your results are. Are you tempted to increase the number of trials? Plot
+    your findings and comment on the presented data.
+
+
+## Part 3: Further reading
+
+## Problem 3.1. (10 points) 
+Find **one** available study which was discussed in the podcast. Comment on the original and the replicated study.
+
+## Problem 3.2 (5 points)
+Look into the following [article](http://www.statnews.com/2015/12/18/clinical-trial-reporting/). What is the take-home message? 
+
+## Problem 3.3 (5 points)
+Look into the following [article](http://www.statnews.com/pharmalot/2015/12/16/pharmalot-nih-drug-trials/). What is the take-home message?
+
+## Problem 3.4 (10 points)
+Find out more about Andrew Wakefield. Then go to this [CDC website](https://www.cdc.gov/vaccinesafety/concerns/autism.html). What are your comments? What examples of more contemporary misinformation do you know of (with sources cited, please)? 
+

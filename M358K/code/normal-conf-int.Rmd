@@ -1,0 +1,59 @@
+---
+title: "Normal confidence intervals"
+author: "Milica Cudina"
+date: " "
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+First, I will set up the **confidence level**.
+```{r}
+c=0.80
+```
+The critical value associated with this confidence level is
+```{r}
+z.star=qnorm((1+c)/2)
+z.star
+```
+
+Next, let's draw a sample of size $n=100$ from the standard normal distribution.
+```{r}
+n=100
+srs=rnorm(n,0,1)
+srs
+```
+What's the value of the point estimate for the mean in this sample?
+```{r}
+x.bar=mean(srs)
+x.bar
+```
+Assume that the $\sigma_X$ parameter is known. What's the value of the standard error? 
+```{r}
+s.e=1/sqrt(n)
+s.e
+```
+What's the value of the margin of error?
+```{r}
+m.e=z.star*s.e
+m.e
+```
+Then the confidence interval will be $\bar x \pm z^*\left(\frac{\sigma}{\sqrt{n}}\right)$. Is the theoretical mean in the confidence interval?
+```{r}
+abs(x.bar-0)<m.e
+```
+What if we repeat this procedure a number of times? Say, 1000?
+```{r}
+n=100
+n.sim=1000
+in.conf.int=numeric(0)
+for (i in 1:n.sim){
+  srs=rnorm(n,0,1)
+  x.bar=mean(srs)
+  in.conf.int=append(in.conf.int,as.numeric(abs(x.bar-0)<m.e))
+}
+mean(in.conf.int)
+```
+

@@ -1,0 +1,85 @@
+---
+title: "Homework assignment #12"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE,
+  tidy = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Problem #1 ($2$ points)
+Solve **Exercise 7.2** from the textbook.
+
+
+## Problem #2 ($2+2=4$ points)
+Solve **Exercise 7.4** from the textbook **assuming a two-sided alternative**.
+
+
+## Problem #3 ($1+1+2=4$ points)
+Solve **Exercise 7.6** from the textbook. 
+
+
+## Problem #4 ($2$ points)
+Solve **Exercise 7.10** from the textbook.
+
+
+## Problem #5  ($2+4+4=10$ points)
+Solve **Exercise 7.12** from the textbook. 
+
+
+## Problem #6 ($4$ points)
+Solve **Exercise 7.16** from the textbook. 
+
+
+## Problem #7 ($3$ points)
+Solve **Exercise 7.18** from the textbook. 
+
+
+## Problem #8 ($4+2+1=7$ points)
+Solve **Exercise 7.22** from the textbook. 
+
+
+## Problem #9 ($7$ points)
+*Source: ``Probability and Statistics for Engineers and Scientists'' by Walpole, Myers, Myers, and Ye.* 
+  The contents of seven similar containers of sulfuric acid are
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      9.8, \quad 10.2, \quad 10.4, \quad 9.8, \quad 10.0, \quad 10.2,
+      \quad 9.6
+    \end{split}
+\end{equation}
+liters. Find a 95\%-confidence interval for the mean contents of all
+such containers, assuming a normal distribution of the contents of all
+such containers.  
+
+
+## Problem #10 ($7$ points)
+*Source: ``Probability and Statistics for Engineers and Scientists'' by Walpole, Myers, Myers, and Ye.* 
+  The Edison Electric Institute has published figures on the number of
+  kilowatt hours used annually by various home appliances. It is
+  claimed that a vacuum cleaner uses an average of $46$ kilowatt hours
+  per year. If a random sample of $12$ homes included in a planned
+  study indicates that vacuum cleaners use an average of $42$ kilowatt
+  hours per year with a standard deviation of $11.9$ kilowatt hours,
+  do these data suggest that at the $0.05$ significance level the mean
+  annual usage of vacuum cleaners is less than $46$ kilowatt hours?
+  Assume the population distribution of usage in kilowatt hours to be
+  normal.
+

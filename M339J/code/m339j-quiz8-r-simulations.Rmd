@@ -1,0 +1,52 @@
+---
+title: "Quiz #8"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+Create an `R`-notebook which prints out the answers to the following problems. Knit the Rmd file into a pdf. Upload the pdf of your solutions onto Canvas. All of your work and calculations **must** be done in `R`.
+
+---
+
+## Problem 1. 
+The goal of this exercise is to simulate $10,000$ values from the exponential distribution using the built-in `R` commands. Then, you are going to draw a histogram of the simulated values. Finally, you are going to superimpose the graph of the exponential density on top of the histogram. 
+
+**(1 point)**
+Set the value of the variable `nsim` to be the required number of simulated draws stipulated in the problem statemet above. 
+
+**(1 point)** 
+Set a particular value of a variable `theta` to be the parameter of the exponential distribution you want to simulate from. The value of the parameter you settle upon is completely up to you. 
+
+**(4 points)** 
+Set the vector `sims` to contain the `nsim` simulated values from the exponential distribution with the parameter `theta` you defined above. You can use the built-in `rexp` command.
+Do **not** print out the simulated values. 
+
+**Be particularly careful about the interpretation of the `rate` input of the `rexp` command as it relates to the meaning of the parameter `theta` we use in our parametrization of the exponential distribution. **
+
+**(4 points)**
+Using the command `hist`, plot the histogram of the simulated values. Note that you can alter bin sizes by using `breaks` in the `hist` inputs. Recall that the goal is to superimpose the density curve onto the histogram of simulated values. Hence, you need the histogram with *relative* frequencies. The modification `prob=TRUE` within the `hist` command should come in handy. 
+
+**(5 points)**
+Using the command `curve`, add the graph of the probability density function of the exponential distribution from which you drew the simulated values. The modification `add=TRUE` within the `curve` command should come in handy. 
+
+**Caveat:** The code for the last two parts of the assignment **must** be in the same `R`-chunk. 
+
+

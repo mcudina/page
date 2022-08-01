@@ -1,0 +1,49 @@
+---
+title: "Homework assignment #7: Solutions"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE,
+  tidy = TRUE
+)
+```
+<!-- ... down to here. -->
+
+## Problem #1 (5 points)
+Let $Z \sim N(0,1)$. Given that $Z$ is at least $2$, what is the probability that $Z$ is less than 3?
+
+## Problem #2 (5 points)
+Let $Z \sim N(0,1)$. Given that $Z$ is at least $0.5$, what is the probability that $Z$ is at least 1?
+
+## Problem #3 (5 points)
+Let $Z \sim N(0,1)$. Given that $Z$ is at most $2$, what is the probability that $Z$ is at least 0.5?
+
+
+## Problem #4 (5 points)
+Let $Z \sim N(0,1)$. Given that $Z$ is at most $3$, what is the probability that $Z$ is at most 2.5?
+
+## Problem #5 (10 points)
+The distribution of lengths of adult bass in Cumberland Lake is modeled as normal with mean 32'' and standard deviation 6''.
+
+At the annual Cumberland Lake bass fishing competition, you win a blue ribbon if you catch a bass that is over 38'' in length.  If you catch a bass over 42'' in length you also win a gold medallion.
+
+Assume that an angler (the person fishing) is only allowed to catch the first fish s/he reels in.
+
+Which of the following is the closest to the probability that an angler has not won a gold medallion **given** that s/he has won a blue ribbon?
+
+## Problem #6 (20 points)
+Your diamond scale's measurement have a normally distributed error with mean 
+$0$ and standard deviation of $0.001$ carats. Your procedure is to weigh a single diamond using your scale $n$ times, average out the results, and report the average as the mass of the diamond. How many times $n$ do you have to weigh your diamond so that your reported mass is at most $0.001$ from the actual mass with probability 99\%?  
+

@@ -1,0 +1,22 @@
+---
+title: "Quiz #16: Scatterplots. Correlation. Causation."
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Problem 1. **(15 points)**
+The data set at hand is self-explanatory. 
+
+**(8 points)** Read in the data and create the superimposed scatterplots of height vs. shoe size both for men and women. Your chart must have a descriptive *title*. The color of the dots for females should be different from the color of the dots for males. Both clouds of points should be in the same coordinate system. You will notice that if you use just the `plot` and `points` functions, you will see many overlapping points. The command `jitter` helps in this situation. Figure out what it does and use it. 
+
+**(2 points)** Calculate the correlation between the shoe size and the height both for females and males. 
+
+**(5 points)**
+In this example, would you assign explanatory and response variable roles to the shoe size and height? *Justify your response.*
+

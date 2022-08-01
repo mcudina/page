@@ -1,0 +1,127 @@
+---
+title: "Actuarial Miscellany"
+output: html_document
+---
+
+<style>
+  hr {
+      position: relative; 
+            top: 20px; 
+            border: none; 
+            height: 2px; 
+            background: black; 
+            margin-bottom: 50px; 
+  }
+</style>
+
+---
+
+The resources on this website were partially gathered in the MAA webinar series entitled **"So, you want to be an actuary?"** (June 2021) organized by Jennifer Austin, Shinko Harper, Eric Staron, and Milica Cudina. The presenters in the webinar series were Steve Paris, Susan Staples, Alisa Havens Walch, Lauren Case, Jeffrey Zheng, and Shinko Harper. The panelists were Kirby Baker, Samantha Hart, Riddhi Kumar, and Shelley Zhao. 
+
+---
+
+**What is an actuary?**
+
+[Intro to Actuarial Science](https://www.edx.org/course/introduction-actuarial-science-anux-anu-actuarialx-1): A MOOC on the actuarial profession 
+
+[Wikipedia](https://en.wikipedia.org/wiki/Actuary): Actuary
+
+[Investopedia](https://www.investopedia.com/articles/professionals/090513/day-life-actuary.asp): A day in the life of an actuary
+
+[Be an actuary](https://www.beanactuary.org/what-is-an-actuary/what-do-we-do/): The Society of Actuaries (SOA) and the Casualty Actuarial Society (CAS) on the actuarial profession 
+
+[The Society of Actuaries](https://www.soa.org/future-actuaries/what-is-an-actuary/): What is an actuary?
+
+[Casualty Actuarial Society](https://www.casstudentcentral.org/about-our-profession/what-is-a-property-and-casualty-actuary/): What is a property and casualty actuary?
+
+---
+
+**Learned societies**
+
+[Wikipedia](https://en.wikipedia.org/wiki/International_Actuarial_Association): International Actuarial Association
+
+[International Actuarial Association](https://www.actuaries.org/iaa)
+
+[Wikipedia](https://en.wikipedia.org/wiki/American_Academy_of_Actuaries): American Academy of Actuaries
+
+[American Academy of Actuaries](https://www.actuary.org/)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Casualty_Actuarial_Society): Casualty Actuarial Society
+
+[Casualty Actuarial Society](https://www.casact.org/)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Society_of_Actuaries): Society of Actuaries
+
+[Society of Actuaries](https://www.soa.org/)
+
+---
+
+**Other organizations**
+
+[Wikipedia](https://en.wikipedia.org/wiki/Gamma_Iota_Sigma): Gamma Iota Sigma
+
+[Gamma Iota Sigma](https://www.gammaiotasigma.org/): An international professional fraternity organized to promote, encourage and sustain student interest in insurance, risk management and actuarial science as professions.
+
+[Wikipedia](https://en.wikipedia.org/wiki/International_Association_of_Black_Actuaries): International Association of Black Actuaries
+
+[International Association of Black Actuaries](https://www.blackactuaries.org/)
+
+[Organization of Latino Actuaries](https://www.latinoactuaries.org/)
+
+---
+
+**Why become an actuary?**
+
+[The U.S. Bureau of Labor Statistics](https://www.bls.gov/ooh/math/actuaries.htm): Compensation prospects
+
+[SOA Explorer](https://explorer.soa.org/): A vast network of employers and peers
+
+---
+
+**The BS in Mathematics: Option 1: Actuarial Science @ The University of Texas at Austin**
+
+[UT's Bachelor's Degree in Actuarial Science](https://sites.cns.utexas.edu/actuarial-science/degrees/math-majors)
+
+[Gamma Iota Sigma](https://texas-gis.com/): Gamma Zeta chapter
+
+[Case Studies Competition](https://sites.cns.utexas.edu/actuarial-science/case-competition)
+
+---
+
+**On actuarial exams**
+
+[Casualty Actuarial Society](https://www.casact.org/exams-and-admissions): Exams and admissions
+
+[Casualty Actuarial Society](https://www.casstudentcentral.org/classroom-to-credentials/getting-certified/earning-cas-credentials/): Path to success
+
+[Society of Actuaries](https://www.soa.org/education/exam-req/default/): Exams and requirements
+
+[Guide to the SOA written exams](https://www.soa.org/globalassets/assets/files/edu/edu-guide-to-written-exam.pdf): It's particularly useful to consider the rounding rules towards the end of this document
+
+---
+
+**Joint exams**
+
+[P exam/Exam 1](https://www.soa.org/education/exam-req/edu-exam-p-detail/): The probability exam (compare to *M362K: Probability*) 
+
+[FM exam/Exam 2](https://www.soa.org/education/exam-req/edu-exam-fm-detail/): The financial-mathematics exam (compare to [*M329F: Theory of Interest*](https://www.ma.utexas.edu/academics/courses/course-syllabi#m329f-theory-of-interest-syllabus))
+
+[IFM exam/Exam 3F](https://www.soa.org/education/exam-req/edu-exam-ifm-detail/): Investment and financial markets (compare to [*M339D: Introduction to Financial Mathematics for Actuaries*](https://gordanz.github.io/cudina/M339D/M339D.html) and [*M339W: Financial Mathematics for Actuarial Applications*](https://gordanz.github.io/cudina/M339W/M339W.html))
+
+---
+
+**Fora and other resources**
+
+[The Actuarial Toolkit](https://actuarialtoolkit.soa.org/): An actuarial glossary, an R-console, and a collection of apps
+
+[GoActuary](https://www.goactuary.com/): An actuarial discussion forum
+
+[Reddit](https://www.reddit.com/r/actuary/): A subreddit on actuarial science etc.
+
+[Actuarial zone](https://actuarialzone.org/): A list of free resources with a rather active Twitter account
+
+---
+
+
+
+

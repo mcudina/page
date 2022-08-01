@@ -1,0 +1,54 @@
+---
+title: "Titanic"
+author: "Milica Cudina"
+date: "9/9/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+First, you read the data from our csv file into a data.frame called `titanic`:
+```{r}
+titanic<-read.csv("titanic.csv")
+```
+If you want to see what your data.frame looks like, you can click on it in the **Global environment** in the upper right pane. The data.frame will get displayed in the upper left pane. 
+
+If you interested in the types and names of the variables in your data.frame, you can also run:
+```{r}
+ls.str(titanic)
+```
+You see that the passengers/**cases** all have corresponding **rows**. They are labeled by the row indices. The **column** names stand for the variable names. In the case of the `titanic` data, they are:
+
+- `pclass`: type `int` (integer) - stands for the passenger class; 
+- `survived`: type `int` - indicates whether a particular passenger survived or not; 
+- `sex`: type `chr` (strings) - indicates the gender of a particular passenger; 
+-- `age`: type `num` (number) - stands for the age of a particular passenger. 
+
+Then, you can do a bit of exploratory analysis. One thing you might be interested in is the overall proportion of passengers who survived. In order to do that, you need to isolate just the **column** corresponding to the `survived` variable. To do that, we use the `$` notation: to get the number `alive` of survivors, we would run
+```{r}
+alive<-sum(titanic$survived)
+```
+Then, if we want to figure out the percentage of survivors, we could run
+```{r}
+alive/length(titanic$survived)
+```
+Note that we used the command `length` to get the number of elements in the vector `titanic$survived`.
+
+What if we are interested in comparing the distribution of ages of all passengers vs. the survivors. Then, to get the vector of all ages, we would run
+```{r}
+age<-titanic$age
+```
+I want the total output not to go to the edges of my text width. So, I put `out.width="90%"` in the specifications for my r-chunk. My goal is to draw the two histograms side by side. So, I use the lext line `par(mfrow=c(1,2))` to create an array of subregions where my little graphs are going to sit. Then, I draw the histogram of all the passengers' ages. Finally, I want to draw the histogram of survivors only. The vector `titanic$survived==1` contains the Boolean value `TRUE` at all the spots where the variable `survived` equals 1 and `FALSE` at all the spots where `survived` is different from 1. When I do `age[titanic$survived==1]`, I create a vector which only contains the entries from the vector `age` at which the variable `survived` is equal to 1. Then, I draw the histogram of those values. Note that I adjusted the limits in the vertical direction with `ylim=c(0,200)` so that the two histograms have the same scaling. 
+
+```{r, out.width="90%"}
+par(mfrow=c(1,2))
+hist(age, breaks=25)
+hist(age[titanic$survived==1],breaks=25, 
+     ylim=c(0,200), 
+     main="Histogram of age(survivors)", 
+     xlab="age (survivors)")
+```
+
+
+# What else could we ask?

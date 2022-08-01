@@ -1,0 +1,61 @@
+---
+title: "Homework assignment #10"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE,
+  tidy = TRUE
+)
+```
+<!-- ... down to here. -->
+
+## Problem #1 (10 points)
+You are rolling a fair dodecahedral ($20-$sided) die with numbers $1-20$ noted its sides. You win if the number rolled is prime and you lose if it is not. What is the probability that you win at most $200$ times in $500$ rolls? 
+Calculate your answer \underline{\bf both}:
+\begin{itemize}
+  \item[(i)] ($4$ points) using {\bf R} without an approximation, and
+  \item[(ii)] ($6$ points) using the normal approximation. 
+\end{itemize}
+
+
+## Problem #2 (10 points)
+A biased coin (probability of {\em heads} is 0.7) 
+is tossed 1000 times. Write down the exact expression for the
+probability that more than 750 {\em heads} have been observed. 
+\begin{itemize}
+  \item[(i)] ($4$ points) Use {\bf R} to calculate this probability.
+  \item[(ii)] ($6$ points) Use the normal approximation to approximate this probability.
+\end{itemize}
+
+
+## Problem #3 (2+2+4+1+1=10 points)
+Solve **Exercise 6.8** from the textbook. 
+
+
+## Problem #4 ($4+4=8$ points)
+Solve **Exercise 6.14** from the textbook. 
+
+
+## Problem #5 ($4$ points)
+Solve **Exercise 6.16** from the textbook. 
+
+
+## Problem #6 ($4$ points)
+In a random sample of $1000$ small children, it was found that $880$ of them observe Halloween. Find the 80\%-confidence interval for the population proportion of children who observe Halloween.   
+
+
+## Problem #7 ($4$ points)
+Let $p$ denote the population proportion. How large should the sample size be so that one is at least 95\% confident that the true parameter $p$ is within a 0.02 margin of error from the point estimate?
+

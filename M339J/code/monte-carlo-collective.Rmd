@@ -1,0 +1,87 @@
+---
+title: "Monte Carlo: Collective Risk Model"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## The model
+We are redoing problem \#32 from Exam 3, November 2000, but using Monte Carlo and without the normal approximation. We have that the number of losses and loss amounts are independent with 
+$$ N \sim Poisson(\lambda=25) $$
+and 
+$$ X \sim U(5, 95) $$.
+```{r}
+lambda=25
+min=5
+max=95
+```
+
+
+## Simulating a single realized aggregate loss
+```{r}
+n=rpois(1, lambda)
+x.s=runif(n, min, max)
+s=sum(x.s)
+s
+```
+
+## Creating a function which draws a single aggregate loss
+```{r}
+one.loss<-function(){
+n=rpois(1, lambda)
+x.s=runif(n, min, max)
+s=sum(x.s)
+return(s)  
+}
+```
+
+## Running this function many times
+```{r}
+nsim=10000
+all.losses=replicate(nsim, one.loss())
+hist(all.losses, breaks=50, prob=TRUE)
+```
+
+## The theoretical values of the mean and the standard deviation
+```{r}
+mu.s=lambda*0.5*(min+max)
+mu.s
+sd.s=sqrt(lambda*((1/12)*(max-min)^2+(0.5*(min+max))^2))
+sd.s
+```
+
+## Let's see what the MC estimates of the mean and the standard deviation are
+```{r}
+mean(all.losses)
+sd(all.losses)
+```
+
+## What if we superimpose the normal density onto the histogram of simulated aggregate losses
+```{r}
+hist(all.losses, breaks=50, prob=TRUE)
+curve(dnorm(x,mean=mu.s, sd=sd.s), add=TRUE)
+```
+
+## What about the normal cdf and the "empirical" cdf?
+```{r}
+plot(ecdf(all.losses))
+curve(pnorm(x,mean=mu.s,sd=sd.s), add=TRUE, col="green")
+```
+
+## Here is the probability from the problem
+```{r}
+#the simulated
+sim.prob=mean(all.losses>2000)
+sim.prob
+#the normal approximation
+1-pnorm(2000, mean=mu.s, sd=sd.s)
+```
+
+## What about the normal cdf and the "empirical" cdf?
+```{r}
+plot(ecdf(all.losses), xlim=c(1980,2020), ylim=c(0.989,1))
+curve(pnorm(x,mean=mu.s,sd=sd.s), add=TRUE, col="green")
+```

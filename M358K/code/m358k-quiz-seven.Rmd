@@ -1,0 +1,59 @@
+---
+title: "Quiz #7"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  fig.width=12,
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+## Problem 1. **(1 point)** 
+The mean and median of any normal distribution are equal. *True or false? Why?*
+
+
+## Problem 2. **(3 points)** 
+Let the population distribution be normal with mean $\mu$ and standard deviation $\sigma$. Let $\bar X$ denote the sample mean of a sample of size $n$from this population. Then, we know the following about the distribution of $\bar X$:
+
+**a.** $\bar X \sim Normal(mean=\mu, variance=\sigma^2)$
+
+**b.** $\bar X \sim Normal(mean=\mu, variance=\tfrac{\sigma^2}{n})$
+
+**c.** $\bar X \sim Normal(mean=\mu, variance=\tfrac{\sigma^2}{\sqrt{n}})$
+
+**d.** $\bar X \sim Normal(mean=\frac{\mu}{n}, variance=\tfrac{\sigma^2}{n})$
+
+**e.** None of the above are correct. 
+
+
+## Problem 3. **(1 point)**
+Suppose a poll suggested the US President’s approval rating is 45\%. We would consider 45\% to be \dots
+
+**a.** the population mean.
+
+**b.** the point estimate.
+
+**c.** the statistic.
+
+
+## Problem #4 ($5$ points) 
+Let $Z \sim N(0,1).$ Given that $Z > 0$, find the probability that $Z < 2.$
+
+
+## Problem #5 ($5$ points) 
+Let the monthly profit of a local cupcakery be normally distributed with mean 
+\$20,000 and standard deviation of \$4,000. What is the probability that the combined profit in the months of October and November exceeds \$36,000 (assuming that profits over different months are independent)?  
+

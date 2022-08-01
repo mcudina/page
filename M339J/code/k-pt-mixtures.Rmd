@@ -1,0 +1,47 @@
+---
+title: "k-point mixtures"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## The model
+I am choosing a mixture of the the exponential distributions in this demonstration. Let our 2-point mixture be exponential with mean $10$ with probability $1/4$ and exponential with mean $20$ with probability $3/4$. 
+
+First, we "toss a coin".
+```{r}
+q=1/4
+theta.1=10
+theta.2=20
+nsim=1000
+sims=numeric(0)
+for(i in 1:nsim){
+coin=rbinom(1, size=1, prob=q)
+if (coin==1) {
+        new.sim=rexp(1, rate=1/theta.1)
+} else {
+        new.sim=rexp(1, rate=1/theta.2)
+}
+sims=c(sims,new.sim)
+}
+hist(sims, breaks=25, col="darkslategray1")
+```
+
+Theoretical mean of the mixture:
+```{r}
+q*theta.1+(1-q)*theta.2
+```
+The average of the simulated values:
+```{r}
+mean(sims)
+```
+Let's superimpose the theoretical density onto our histogram. 
+```{r}
+hist(sims, breaks=25, prob=TRUE, col="darkslategray2", 
+     ylim=c(0,q*dexp(0,rate=1/theta.1)+(1-q)*dexp(0, rate=1/theta.2)))
+curve(q*dexp(x,rate=1/theta.1)+(1-q)*dexp(x, rate=1/theta.2), col="blue", lwd=2, add=TRUE)
+```
+

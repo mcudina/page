@@ -1,0 +1,720 @@
+---
+title: "Probability Models with Actuarial Applications (M339J/M389J)"
+output: html_document
+---
+<style>
+  hr {
+      position: relative; 
+            top: 20px; 
+            border: none; 
+            height: 2px; 
+            background: black; 
+            margin-bottom: 50px; 
+  }
+</style>
+
+---
+
+**Important external links**
+
+[Cornell Notes](http://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
+
+A MOOC: [Intro to Actuarial Science](https://www.edx.org/course/introduction-actuarial-science-anux-anu-actuarialx-1)
+
+[The STAM Exam
+curriculum](https://www.soa.org/globalassets/assets/files/edu/2021/2021-02-exam-stam-syllabi.pdf)
+
+[The STAM Exam
+tables](https://www.soa.org/globalassets/assets/Files/Edu/2019/2019-02-exam-stam-tables.pdf)
+
+Link to the [Sample SoA problems for
+STAM](https://www.soa.org/globalassets/assets/Files/Edu/2018/2018-04-exam-stam-questions.pdf)
+
+Link to the [Sample SoA solutions for
+STAM](https://www.soa.org/globalassets/assets/Files/Edu/2018/2018-04-exam-stam-solutions.pdf)
+
+Our open-source textbook: [Loss data analytics](https://ewfrees.github.io/Loss-Data-Analytics/)
+
+Our open-source short course: [Loss data short course](https://openacttexts.github.io/LDACourse1/)
+
+---
+
+**On R and RStudio**
+
+`R` will be used extensively in this course. Quizzes will also (partially) be required to be completed in `R`. I created some resources for *Applied Statistics*. They are linked here: 
+
+[R (main website)](https://www.r-project.org/)
+
+[RStudio (main website)](https://rstudio.com/)
+
+[The instructions slideshow](instructions/m358k-R-instructions.html)
+
+[The basic R slideshow](instructions/m358k-basic-R.html)
+
+[The basic R "cheatsheet"](https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf)
+
+[If ... else](https://www.datamentor.io/r-programming/if-else-statement/)
+
+[A tutorial on functions in R](https://www.tutorialspoint.com/r/r_functions.htm)
+
+
+---
+
+<!--
+
+**Class 1: January 19th**<br>
+Orientation.<br>
+
+[A role model](pics/bilbo.jpeg)
+
+[First-Day Handout](syllabus/syllabus-53880.pdf)
+
+Modeling.<br>
+
+Slides: [Actuarial Sims.](slides/m339j-sims.pdf)
+
+[SIAM Videos on Mathematical Modeling](https://youtube.com/playlist?list=PLf_ipOSbWC87nFTi6MaB4begv56yPKsOJ)
+
+[Quiz #1](quizzes/m339j-quiz-one-probability.pdf) -- **due on Friday, January 21st**
+
+[Homework #1](hw/m339j-hw1.pdf) -- **due on Wednesday, January 26th**
+
+---
+
+**Class 2: January 21st**<br>
+Cumulative distribution function. Survival function. Types of random variables.<br>
+
+[Class notes](notes/m339j-jan-21-2022.pdf): Probability review: Random variables, cdf, types of r.v.s.
+
+[Problem Set #1](problem-sets/m339j-ps1-cdf.pdf) -- **problems**
+
+[Problem Set #1](problem-sets/m339j-ps1-cdf-solns.pdf) -- **solutions**
+
+[Quiz #1](quizzes/m339j-quiz-one-probability-solns.pdf) -- **solutions**
+
+[Quiz #2](quizzes/m339j-quiz2-cdf.pdf) -- **due on Monday, January 24th**
+
+---
+
+**Class 3: January 24th**<br>
+Probability mass function. Probability density function.<br>
+
+[Class notes](notes/m339j-jan-24-2022.pdf): pmf. pdf. 
+
+[Quiz #2](quizzes/m339j-quiz2-cdf-solns.pdf) -- **solutions**
+
+---
+
+**Class 4: January 26th**<br>
+The exponential distribution.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Exponential_distribution): The exponential distribution.
+
+[Class notes](notes/m339j-jan-26-2022.pdf): The exponential distribution.  
+
+[Quiz #3](quizzes/m339j-quiz3-pdf-pmf.pdf) -- **due on Friday, January 28th**
+
+[Quiz #4](quizzes/m339j-quiz4-exponential.pdf) -- **due on Monday, January 31st**
+
+[Homework #1](hw/m339j-hw1-solns.pdf) -- **solutions**
+
+[Homework #2](hw/m339j-hw2.pdf) -- **due on Wednesday, February 2nd**
+
+---
+
+**Class 5: January 28th**<br>
+Random number generation. The inverse transform method.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
+
+[Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister): Mersenne twister
+
+[An atmospheric RNG](https://www.random.org/)
+
+[Class notes](notes/m339j-jan-28-2022.pdf): The inverse transform method.
+
+[Quiz #3](quizzes/m339j-quiz3-pdf-pmf-solns.pdf) -- **solutions**
+
+[Quiz #5](quizzes/m339j-quiz5-inv-trans.pdf) -- **due on Friday, February 4th**
+
+---
+
+**Class 6: January 31st**<br>
+Basics of `R`. `R` scripts and `R` notebooks.<br>
+
+[The R-script from class](code/for-loop.R)
+
+[Quiz #4](quizzes/m339j-quiz4-exponential-solns.pdf) -- **solutions**
+
+[Quiz #6](quizzes/m339j-quiz6-r.pdf) -- **due on Monday, February 7th**
+
+[Quiz #7](quizzes/m339j-quiz7-r-basics.pdf) -- **due on Friday, February 11th**
+
+[Quiz #7](code/m339j-quiz7-r-basics.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
+
+---
+
+**Class 7: February 2nd**<br>
+Functions in `R`. `If ... else` in `R`. Simulations of random variables. <br> 
+
+[The R-script from class](code/ftions-if-else-sims.R)
+
+[Homework #2](hw/m339j-hw2-solns.pdf) -- **solutions**
+
+[Quiz #8](quizzes/m339j-quiz8-r-simulations.pdf) -- **due on Monday, February 14th**
+
+[Quiz #8](code/m339j-quiz8-r-simulations.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
+
+[Quiz #9](quizzes/m339j-quiz9-r-pareto-itm.pdf) -- **due on Friday, February 25th**
+
+[Quiz #9](code/m339j-quiz9-r-pareto-itm.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
+
+---
+
+**Class 8: February 4th**<br>
+No class due to winter weather conditions.<br>
+
+[Quiz #5](quizzes/m339j-quiz5-inv-trans-solns.pdf) -- **solutions**
+
+---
+
+**Class 9: February 7th**<br>
+Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>.<br>
+
+[Class notes](notes/m339j-feb-07-2022.pdf): The expected value.  
+
+---
+
+**Class 10: February 9th**<br>
+The tail formula for the expectation. SLLN. Monte Carlo simulation.<br>
+
+[Class notes](notes/m339j-feb-09-2022.pdf): The tail formula for the expectation. SLLN. Monte Carlo. 
+
+[The R-script from class](code/monte-carlo-in-class.R)
+
+---
+
+**Class 11: February 11th**<br>
+Moments. Variance. Coefficient of variation <span style="color: purple;">**(Section 3.1.1)**</span>
+<br>
+
+The excess loss random variable.<br>
+
+[Class notes](notes/m339j-feb-11-2022.pdf): Moments. Variance. Coefficient of variation. The excess loss random variable.
+
+[Quiz #7](quizzes/m339j-quiz7-r-basics-solns.pdf) -- **solutions**
+
+[In-Term One](exams/m339j-one-topics.pdf): Topics
+
+[Practice for In-Term One](exams/m339j-one-sample-probs.pdf) -- **problems** 
+
+[Practice for In-Term One](exams/m339j-one-sample-solns.pdf) -- **solutions** 
+
+---
+
+**Class 12: February 14th**<br>
+Per-payment and per-loss random variables <span style="color: purple;">**(Section 3.4.1)**</span>.
+<br>
+
+[Class notes](notes/m339j-feb-14-2022.pdf): Per payment and per loss random variables. 
+
+**Suggested textbook examples:** <span style="color: purple;">**3.4.1, 3.4.2**</span>
+
+[Quiz #8](quizzes/m339j-quiz8-r-simulations-solns.pdf) -- **solutions**
+
+[Homework #3](hw/m339j-hw3.pdf) -- **due on Wednesday, March 2nd, 2022**
+
+[In-Term One](exams/m339j-one.pdf) -- **problems** 
+
+---
+
+**Class 13: February 16th**<br>
+More on the per-payment and per-loss random variables. The limited loss random variable. <span style="color: purple;">**(Section 3.4.2)**</span>
+<br>
+
+[Class notes](notes/m339j-feb-16-2022.pdf): More on the per-payment and per-loss random variables. The limited loss random variable.
+
+[Quiz #10](quizzes/m339j-quiz10-loss-mods.pdf) -- **due on Monday, February 28th**
+
+[Homework #4](hw/m339j-hw4.pdf) -- **due on Wednesday, March 9th, 2022**
+
+---
+
+**Class 14: February 18th**<br>
+Loss-modifications demonstration. Percentiles. <span style="color: purple;">**(Section 2.2.2)**</span>
+<br>
+
+[The R-notebook from class](code/loss-modifications.Rmd)
+
+[Class notes](notes/m339j-feb-18-2022.pdf): Percentiles. 
+
+---
+
+**Class 15: February 21st**<br>
+mgf and pgf. Sums of independent random
+variables. <span style="color: purple;">**(Sections 3.1.2, 3.1.3)**</span>
+
+Parametric distributions. Scale distributions. <span style="color: purple;">**(Section 3.3.2)**</span> 
+
+[Class notes](notes/m339j-feb-21-2022.pdf): mgf and pgf. Sums of independent random variables. Parametric distributions. Scale distributions.
+
+**Suggested textbook examples:** <span style="color: purple;">**3.1.1, 3.1.3, 3.1.4**</span>
+
+[In-Term One](exams/m339j-one-solns.pdf) -- **solutions** 
+
+---
+
+**Class 16: February 23rd**<br>
+Transformations <span style="color: purple;">**(Sections 3.3.3, 3.3.4)**</span>. 
+
+[Class notes](notes/m339j-feb-23-2022.pdf): Multiplication by a constant. Raising a r.v. to a power. Exponentiation of a r.v. 
+
+**Suggested textbook examples:** <span style="color: purple;">**3.3.1, 3.3.2, 3.3.3, 3.3.4**</span>
+
+[Quiz #11](quizzes/m339j-quiz11-transforms.pdf) -- **due on Friday, March 4th, 2022**
+
+---
+
+**Class 17: February 25th**<br>
+$k-$point mixtures <span style="color: purple;">**(Sections 3.3.5)**</span>.<br>
+
+[Class notes](notes/m339j-feb-25-2022.pdf): $k-$point mixtures.
+
+[The R-notebook from class](code/k-pt-mixtures.Rmd)
+
+[Quiz #9](quizzes/m339j-quiz9-r-pareto-itm-solns.pdf) -- **solutions**
+
+[Quiz #12](quizzes/m339j-quiz12-k-pt-mixture.pdf) -- **due on Monday, March 7th**
+
+[Quiz #12](code/m339j-quiz12-k-pt-mixture.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
+
+---
+
+**Class 18: February 28th**<br>
+Continuous mixtures <span style="color: purple;">**(Sections 3.3.6)**</span>.
+
+[Class notes](notes/m339j-feb-28-2022.pdf): Continuous mixtures.
+
+**Suggested textbook examples:** <span style="color: purple;">**3.3.5, 3.3.6, 3.3.7, 3.3.8**</span>
+
+[Quiz #10](quizzes/m339j-quiz10-loss-mods-solns.pdf) -- **solutions**
+
+[Quiz #13](quizzes/m339j-quiz13-cont-mixture.pdf) -- **due on Friday, March 11th**
+
+[Quiz #13](code/m339j-quiz13-cont-mixture.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
+
+[Homework #5](hw/m339j-hw5.pdf) -- **due on Wednesday, March 23rd, 2022**
+
+---
+
+**Class 19: March 2nd**<br>
+Splicing.<br>   
+
+[Problem packet](problem-sets/m339j-splicing-ord-ded.pdf)
+
+[Class notes](notes/m339j-mar-02-2022.pdf): Splicing. Ordinary deductible (review).
+
+**Suggested problems**: Sample STAM #168; Course 3 Exam (November 2000), Problem #21
+
+[Homework #3](hw/m339j-hw3-solns.pdf) -- **solutions**
+
+---
+
+**Class 20: March 4th**<br>
+Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
+
+Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>. Inflation.<br> 
+
+[Problem packet](problem-sets/m339j-ler-inflation.pdf)
+
+[Class notes](notes/m339j-mar-04-2022.pdf): Franchise deductibles. Loss elimination ratio. Effects of inflation. 
+
+**Suggested textbook examples:** <span style="color: purple;">**3.4.3, 3.4.4**</span>
+
+[Quiz #11](quizzes/m339j-quiz11-transforms-solns.pdf) -- **solutions**
+
+[Quiz #14](quizzes/m339j-quiz14-splicing-franchise.pdf) -- **due on Monday, March 21st**
+
+---
+
+**Class 21: March 7th**<br>
+Policy limits (with no deductible) <span style="color: purple;">**(Section 3.4.2)**</span>.<br> 
+
+[Problem Set #2](problem-sets/m339j-ps2-policy-mods.pdf) -- **problems**
+
+[Class notes](notes/m339j-mar-07-2022.pdf): Policy modifications I.
+
+[Quiz #12](quizzes/m339j-quiz12-k-pt-mixture-solns.pdf) -- **solutions**
+
+---
+
+**Class 22: March 9th**<br>
+Policy limits with ordinary deductibles. Coinsurance. <span style="color: purple;">**(Section 3.4.3)**</span>.<br>
+
+[Class notes](notes/m339j-mar-09-2022.pdf): More on policy modifications. 
+
+[Homework #4](hw/m339j-hw4-solns.pdf) -- **solutions**
+
+---
+
+**Class 23: March 11th**<br>
+Policy-modifications practice.<br>
+
+[Class notes](notes/m339j-mar-11-2022.pdf): More on policy modifications. The Poisson distribution.
+
+[Problem Set #2](problem-sets/m339j-ps2-policy-mods-solns.pdf) -- **solutions**
+
+**Suggested textbook example:** <span style="color: purple;">**3.4.5**</span>
+
+The Poisson distribution <span style="color: purple;">**(Section 2.2.3.2)**</span>.<br>
+
+[Problem packet](problem-sets/m339j-poisson.pdf)
+
+[Quiz #13](quizzes/m339j-quiz13-cont-mixture-solns.pdf) -- **solutions**
+
+---
+
+**Class 24: March 21st**<br>
+More on the Poisson distribution.<br>
+
+[Class notes](notes/m339j-mar-21-2022.pdf): More on the Poisson distribution.
+
+[Quiz #14](quizzes/m339j-quiz14-splicing-franchise-solns.pdf) -- **solutions**
+
+---
+
+**Class 25: March 23rd**<br>
+Poisson thinning. The negative binomial distribution <span style="color: purple;">**(Section 2.2.3.3)**</span>.<br>
+
+[Class notes](notes/m339j-mar-23-2022.pdf): Poisson thinning. The negative binomial distribution.
+
+[Homework #5](hw/m339j-hw5-solns.pdf) -- **solutions**
+
+[Quiz #15](quizzes/m339j-quiz15-poisson.pdf) -- **due on Friday, March 25th**
+
+[In-Term Two](exams/m339j-two-topics.pdf): Topics
+
+[Practice for In-Term Two](exams/m339j-two-sample-probs.pdf): **problems**
+
+[Practice for In-Term Two](exams/m339j-two-sample-solns.pdf): **solutions**
+
+---
+
+**Class 26: March 25th**<br>
+The Poisson-gamma mixture. The binomial distribution <span style="color: purple;">**(Section 2.2.3.1)**</span>.<br>
+
+[Class notes](notes/m339j-mar-25-2022.pdf): The Poisson-gamma mixture. The binomial-distribution. 
+
+[Proof of the claim from class](notes/m339j-poisson-gamma-proof.pdf): The Poisson-gamma mixture [proof].
+
+**Suggested textbook example:** <span style="color: purple;">**2.6.2**</span>
+
+**Suggested problems**: Sample STAM Problems #90, #105; Course 3 Exam (May 2000), Problem #4
+
+[Quiz #15](quizzes/m339j-quiz15-poisson-solns.pdf) -- **solutions**
+
+[In-Term Two](exams/m339j-two.pdf): **Problems** 
+
+---
+
+**Class 27: March 28th**<br>
+No class. Instructor ill. 
+
+---
+
+**Class 28: March 30th**<br>
+The binomial-Poisson connection. The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>.<br> 
+
+[Problem packet](problem-sets/m339j-binomial-a-b-0.pdf)
+
+[Class notes](notes/m339j-mar-30-2022.pdf): The Poisson-binomial connection. The $(a, b, 0)$ class.
+
+[Extra notes](notes/m339j-alt-soln-stam-p288.pdf): A "drier" solution to STAM problem #288
+
+**Suggested problem**: Sample STAM Problem #25
+
+[Quiz #16](quizzes/m339j-quiz16-discrete.pdf) -- **due on Monday, April 4th**
+
+---
+
+**Class 29: April 1st**<br>
+$(a, b, 0)-$class practice. On compounding.<br>
+
+[Class notes](notes/m339j-apr-01-2022.pdf): $(a, b, 0)-$class practice. On compounding. 
+
+**Suggested textbook example:** <span style="color: purple;">**5.5.2, 5.5.3**</span>
+
+[Quiz #17](quizzes/m339j-quiz17-compound-example.pdf) -- **due on Friday, April 8th**
+
+[In-Term Two](exams/m339j-two-solns.pdf): **Solutions** 
+
+---
+
+**Class 30: April 4th**<br>
+The impact of deductibles on claim frequency <span style="color: purple;">**(Section 5.5.2)**</span>.<br> 
+ 
+[Problem packet](problem-sets/m339j-freq-ded.pdf)
+
+The individual risk model <span style="color: purple;">**(Sections 5.2 and 5.3)**</span>.<br> 
+
+[Class notes](notes/m339j-apr-04-2022.pdf): The impact of deductibles on claim frequency. The individual risk model. 
+
+[Quiz #16](quizzes/m339j-quiz16-discrete-solns.pdf) -- **solutions**
+
+---
+
+**Class 31: April 6th**<br>
+Monte Carlo for the individual risk model.<br> 
+
+---
+
+**Class 32: April 8th**<br>
+The collective risk model.<br> 
+
+[Problem packet](problem-sets/m339j-agg-loss.pdf)
+
+[Class notes](notes/m339j-apr-08-2022.pdf): The collective risk model. 
+
+---
+
+**Class 33: April 11th**<br>
+Monte Carlo for the collective risk model.<br> 
+
+Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>.<br>
+
+[Class notes](notes/m339j-apr-11-2022.pdf): More on aggregate losses. Stop-loss insurance.
+
+[The R-notebook from class](code/monte-carlo-collective.Rmd)
+
+[The R-script from class](code/errors-pic.R)
+
+[Homework #6](hw/m339j-hw6.pdf) -- **due on Wednesday, April 20th**
+
+---
+
+**Class 34: April 13th**<br>
+More on the stop-loss insurance. The interpolation theorem.<br>
+
+[Problem](problem-sets/m339j-stop-loss.pdf): Stop loss. 
+
+[Problem](problem-sets/m339j-interpolation-thm.pdf): The interpolation theorem.
+
+[Class notes](notes/m339j-apr-13-2022.pdf): The net stop-loss premium. The interpolation theorem.
+
+---
+
+**Class 35: April 15th**<br>
+Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**</span>.<br>
+
+[Problem packet](problem-sets/m339j-compound-poisson.pdf)
+
+[Class notes](notes/m339j-apr-15-2022.pdf): Compound Poissons.
+
+---
+
+**Class 36: April 18th**<br>
+A few compound Poissons.<br>
+
+[Problem](problem-sets/m339j-stam-p125.pdf)
+
+[Class notes](notes/m339j-apr-18-2022.pdf): More on compound Poissons.
+
+---
+
+**Class 37: April 20th**<br>
+The recursive formula for the distribution of aggregate losses <span style="color: purple;">**(Section 5.4.1)**</span>.<br>
+
+[Problem packet](problem-sets/m339j-recursive.pdf)
+
+[Class notes](notes/m339j-apr-20-2022.pdf): The recursive formula.
+
+[Homework #6](hw/m339j-hw6-solns.pdf) -- **solutions**
+
+---
+
+**Class 38: April 22nd**<br>
+Aggregate losses with an ordinary deductible per-loss.<br>
+
+[Problem packet](problem-sets/m339j-agg-claims.pdf)
+
+[Class notes](notes/m339j-apr-22-2022.pdf): Deductibles and counts.
+
+[Quiz #18](quizzes/m339j-quiz18-ded-counts.pdf) -- **due on Friday, April 29th**
+
+[Homework #7](hw/m339j-hw7.pdf) -- **due on Wednesday, May 4th**
+
+---
+
+**Class 39: April 25th**<br>
+Problem solving session.<br>
+
+[Class notes](notes/m339j-apr-25-2022.pdf): Problems on deductibles and counts.
+
+---
+
+**Class 40: April 27th**<br>
+Maximum-likelihood estimation: First principles. Individual unmodified data.<br>
+
+Slides: [Maximum likelihood estimation.](slides/m339j-mle.pdf)
+
+[Problem packet](problem-sets/m339j-mle.pdf)
+
+[Class notes](notes/m339j-apr-27-2022.pdf): MLE
+
+---
+
+**Class 41: April 29th**<br>
+Maximum-likelihood estimation: Grouped data.<br>
+
+[Problem packet](problem-sets/m339j-mle-grouped.pdf)
+
+[Class notes](notes/m339j-apr-29-2022.pdf): MLE (grouped data). 
+
+[Quiz #18](quizzes/m339j-quiz18-ded-counts-solns.pdf) -- **solutions**
+
+[Quiz #19](quizzes/m339j-quiz19-mle.pdf) -- **due on Friday, May 6th**
+
+---
+
+**Class 42: May 2nd**<br>
+Maximum-likelihood estimation: Truncation and censoring.<br>
+
+[Problem packet](problem-sets/m339j-mle-censoring-truncation.pdf)
+
+[Class notes](notes/m339j-may-02-2022.pdf): MLE (censoring and truncation). 
+
+---
+
+**Class 43: May 4th**<br>
+Maximum-likelihood estimation: Truncation [practice].<br>
+
+[Problem](problem-sets/m339j-mle-mixture.pdf)
+
+[Class notes](notes/m339j-may-04-2022.pdf): MLE (truncation practice). 
+
+[Homework #7](hw/m339j-hw7-solns.pdf) -- **solutions**
+
+---
+
+**Class 44: May 6th**<br>
+Maximum-likelihood estimation: Bernoulli and Poisson.<br>
+
+[Class notes](notes/m339j-may-06-2022.pdf): MLE (Bernoulli and Poisson). 
+
+Maximum-likelihood estimation: Negative binomial and binomial.<br>
+
+[Quiz #19](quizzes/m339j-quiz19-mle-solns.pdf) -- **solutions**
+
+[In-Term Three](exams/m339j-three-topics.pdf): Topics
+
+[Practice for In-Term Three](exams/m339j-three-sample-probs.pdf) --
+**problems**
+
+[Practice for In-Term Three](exams/m339j-three-sample-solns.pdf) -- **solutions**
+
+[In-Term Three](exams/m339j-three.pdf) -- **due on Saturday, May 14th**
+
+[In-Term Three](exams/m339j-three-solns.pdf) -- **solutions**
+
+---
+
+
+[Mock In-Term One](exams/m339j-one-mock-probs.pdf) -- **Problems** 
+
+[Mock In-Term One](exams/m339j-one-mock-solns.pdf) -- **Solutions** 
+
+<span style="color: red;">**In-Term One**</span><br>
+
+---
+
+[Mock In-Term Two](exams/m339j-two-mock.pdf): **Problems**
+
+[Mock In-Term Two](exams/m339j-two-mock-solns.pdf): **Solutions**
+
+<span style="color: red;">**In-Term Two**</span><br>
+
+[In-Term Three](exams/m339j-three-instructions.pdf): Instructions
+
+[Mock In-Term Three](exams/m339j-three-mock-probs.pdf) --
+**problems**
+
+[Mock In-Term Three](exams/m339j-three-mock-solns.pdf) -- **solutions**
+
+<span style="color: red;">**In-Term Three**</span><br>
+
+---
+
+
+[On random variables.](Lecture2_1and2_2.pdf)
+
+[Moments.](Lecture3_1.pdf)
+
+
+Central Limit Theorem.
+ 
+[Percentiles. Central Limit Theorem. mgf and pgf. Heavy
+tails.](Lecture3_2and3_3and3_4.pdf)
+
+[Class notes](m339j-feb-7-2020.pdf): Percentiles. pgf.
+
+Heavy tails. Risk measures.
+
+[Parametric distributions.](Lecture4_2.pdf)
+
+[Class notes](m339j-feb-10-2020.pdf):  Scaling.
+
+More on scale distributions and k-point mixtures.\
+
+[Class notes](m339j-feb-12-2020.pdf): Scale distributions. k-point
+mixtures.
+
+Continuous models.
+
+[Continuous models.](Lecture5_2.pdf)
+
+[Per loss and per payment.](Lecture8_2.pdf)
+
+
+[The negative binomial distribution.](NegBinDistn.pdf)
+
+Problem-solving session: Mixing distributions and discrete
+distributions.\
+
+Problem-solving session: Policy modifications.\
+
+[Mock In-Term Two](m339j-mock-two-probs.pdf) \-- **Problems**
+
+---
+
+Aggregate payments.\
+
+[Aggregate claims.](Lecture9_7.pdf)
+
+
+[Homework \#7](m339j-hw7-probs.pdf) \-- **NOT TO BE HANDED IN**
+
+[Homework \#8](m339j-hw8.pdf) \-- **due on Friday, May 8th**
+
+---
+
+
+[Mock In-Term Three](m339j-mock-three-probs.pdf) \-- Problems
+
+[Mock In-Term Three](m339j-mock-three-solns.pdf) \-- Solutions
+
+**Class 40: May 6th**\
+
+**In-term exam III**
+
+[In-term Exam \#3](m339j-canvas-three.pdf) \-- **Solutions**
+
+**Class 41: May 8th**
+
+[Homework \#8](m339j-hw8-solns.pdf) \-- **Solutions**
+
+-->
+
+
+
+
+

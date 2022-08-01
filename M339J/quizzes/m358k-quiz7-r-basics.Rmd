@@ -1,0 +1,56 @@
+---
+title: "Quiz #7"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+Create an `R`-notebook which prints out the answers to the following problems. Knit the Rmd file into a pdf. Upload the pdf of your solutions onto Canvas. All of your work and calculations **must** be done in `R`.
+
+---
+
+# Arithmetic (1 point each)
+## Problem 1. 
+Divide 385 by 11. 
+
+## Problem 2. 
+Find the square root of $2\pi$.
+
+## Problem 3. 
+Calculate the square root of $e$.
+
+## Problem 4. 
+Find the third root of 27.
+
+## Problem 5. 
+Calculate the natural logarithm of 10.
+
+# Variables and vectors
+## Problem 6. **(2 points)** 
+Assign the value 7 to variable `a` and  the value 4 to variable `b`; print out their product
+
+## Problem 7. **(3 points)** 
+Set the vector `v` to be the numbers between -1 and 4 (inclusive); set the vector `w` to be the first 6 natural numbers, i.e., integers strictly greater than zero; what do you get when you multiply `v` by `w`?
+
+# Loops
+## Problem 8. **(5 points)**
+Write and execute a chunk of code which calculates and prints out the sum of squares of the first $n$ natural numbers for $n=1, 2, \dots, 25$. 
+
+**Be extra careful: The number of terms in the sum is varying from $1$ to $25$; you need to produce code which outputs $25$ numbers.**

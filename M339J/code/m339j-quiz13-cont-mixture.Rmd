@@ -1,0 +1,37 @@
+---
+title: "Quiz #13"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  fig.width=12,
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+# Simulations
+## Problem 1.  (15 points)
+Consider the following two-step experiment. First you draw a the value of the mixing parameter $\Lambda$ from a uniform distribution on $[0,20]$. Then, you draw the simulated value from an exponential distribution with mean $\Lambda$. 
+
+**(7 points)** Repeat the above two-step experiment $10000$ times and draw the histogram of the simulated values. 
+
+**(2 points)**
+Find the theoretical mean of the above distribution and compare it to the mean of the simulated values. 
+
+
+**(6 points)**
+Find the theoretical variance of the above distribution and compare it to the variance of the simulated values. 
+
+
