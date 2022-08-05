@@ -69,8 +69,33 @@ Orientation. <br>
 **Class 2: August 24th**<br>
 Setting up R and RStudio.<br>
 
-<!--
+---
+
+**Class 3: August 26th**<br>
+Basics of R: Arithmetic. Vectors. <br>
+
+---
+
+**Class 4: August 29th**<br>
+R-scripts and R-notebooks. Data. <br>
+
+---
+
+**Class 5: August 31st**<br>
+Functions in R. `If ... else` in R. `For` loops.<br> 
+
+---
+
+**Class 6: September 2nd**<br>
+Standing assumptions and conventions. Risky assets. Transaction costs. <br>
+
 [Lecture One](lectures/m339d-lecture-one-background.pdf): Background.
+
+[Lecture Two](lectures/m339d-lecture-two-transaction-costs.pdf): Transaction Costs
+
+[Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
+
+<!--
 
 [Class notes](notes/m339d-jan-19-2022.pdf): On the prerequisite material. Financial portfolios.
 
@@ -78,17 +103,10 @@ Setting up R and RStudio.<br>
 
 ---
 
-Standing assumptions. Conventions.
 
 [Problem Set #1](problem-sets/m339d-ps-one.pdf) -- **Problems**
 
 [Problem Set #1](problem-sets/m339d-ps-one-solns.pdf) -- **Solutions**
-
-Risky assets. Transaction costs.
-
-[Lecture Two](lectures/m339d-lecture-two-transaction-costs.pdf): Transaction Costs
-
-[Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
 
 [Class notes](notes/m339d-jan-21-2022.pdf): Notation. Assumptions. Conventions.
 
@@ -102,7 +120,6 @@ Risky assets. Transaction costs.
 
 ---
 
-**Class 3: January 24th**<br>
 Outright purchase. Short sales. Discrete-dividend-paying stocks. <br>
 
 [Class notes](notes/m339d-jan-24-2022.pdf): Outright purchase. Short sales. Discrete-dividend-paying stocks. 
@@ -113,7 +130,6 @@ Outright purchase. Short sales. Discrete-dividend-paying stocks. <br>
 
 ---
 
-**Class 4: January 26th**<br>
 Foreign currencies.<br>
 
 [Class notes](notes/m339d-jan-26-2022.pdf): Outright purchase of stocks. Foreign currencies. 
@@ -128,7 +144,6 @@ Foreign currencies.<br>
 
 ---
 
-**Class 5: January 28th**<br>
 Continuous dividends. Market indices. <br>
 
 [Class notes](notes/m339d-jan-28-2022.pdf): 
@@ -148,7 +163,6 @@ Continuous-dividend-paying stocks.
 
 ---
 
-**Class 6: January 31st**<br>
 Static portfolios.<br>
 
 [Class notes](notes/m339d-jan-31-2022.pdf): Static portfolios. Initial cost. Payoff. Profit.
