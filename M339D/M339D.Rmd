@@ -247,6 +247,16 @@ The limiting behavior of stock prices. <br>
 ---
 
 **Class 36: November 14th**<br>
+The Black-Scholes pricing formula.<br>
+
+---
+
+**Class 37: November 16th**<br>
+Monte Carlo with Black-Scholes pricing. <br>
+
+---
+
+**Class 38: April 22nd**<br>
 
 <!--
 
@@ -711,7 +721,6 @@ Binomial option pricing: Two periods.<br>
 
 ---
 
-**Class 37: April 20th**<br>
 Multiple binomial periods. Early exercise (revisited).<br>
 
 [Problem packet](problem-sets/m339d-early-exercise.pdf)
@@ -724,7 +733,6 @@ Multiple binomial periods. Early exercise (revisited).<br>
 
 ---
 
-**Class 38: April 22nd**<br>
 Binomial pricing of American options. <br>
 
 [Problem packet](problem-sets/m339d-american.pdf)
