@@ -65,38 +65,44 @@ Orientation. <br>
 
 ---
 
-**Class 2: August 27th**<br>
+**Class 2: August 24th**<br>
 Setting up R and RStudio.<br>
 
 [The instructions slideshow](instructions/m358k-R-instructions.html)
 
+<!--
 [Quiz #1](quizzes/m358k-quiz-one-solns.pdf) - **solutions**
+-->
 
 ---
 
-**Class 3: August 30th**<br>
+**Class 3: August 26th**<br>
 Basics of R.<br>
 
 [The basic R slideshow](instructions/m358k-basic-R.html)
 
 [The basic R "cheatsheet"](https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf)
 
+<!--
 [Project #1: Part #1](projects/m358k-team-contract.docx) -- due on **Monday, September 13th**
 
 [Project #1: Part #2](projects/m358k-project-one.pdf) -- due on **Monday, September 13th**
 
 [Project #1: Part #2](code/m358k-project-one.Rmd) -- the Rmd file for those who are interested
+-->
 
 ---
 
-**Class 4: September 1st**<br>
+**Class 4: August 29th**<br>
 R-scripts. R-notebooks.<br>
 
+<!--
 [Quiz #2](quizzes/m358k-quiz-two.pdf) - due on **Friday, September 3rd**
 
 [Quiz #2](code/m358k-quiz-two.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
 
 [Homework #1](hw/m358k-hw-one-solns.pdf) -- **solutions**
+-->
 
 [Homework Instructions](instructions/m358k-hw-instructions.html) -- if in doubt, read and understand all of this before you work on your homework/quiz
 
@@ -105,18 +111,20 @@ complete your computational quizzes, homework assignments and projects
 
 ---
 
-**Class 5: September 3rd**<br> 
+**Class 5: August 31st**<br> 
 Functions in R. `If ... else` in R. Review of discrete random variables.<br>
 
 [A tutorial on functions in R](https://www.tutorialspoint.com/r/r_functions.htm)
 
 [If ... else](https://www.datamentor.io/r-programming/if-else-statement/)
 
+<!--
 [The R-script from class](code/toy-ftions-if-inclass.R)
 
 [Class notes](notes/m358k-sept-03-2021.pdf) 
 
 [Quiz #2](quizzes/m358k-quiz-two-solns.pdf) - **solutions**
+-->
 
 Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br>
 
@@ -132,13 +140,15 @@ Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br
 
 [Open course video](https://youtu.be/tKmyzhvgudw): A review of the binomial distribution
 
+<!--
 [Homework #2](hw/m358k-hw-two.pdf) -- due on **Wednesday, September 8th**
 
 [Homework #2](code/m358k-hw-two.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
+-->
 
 ---
 
-**Class 6: September 8th**<br>
+**Class 6: September 2nd**<br>
 Simulations of random variables. Plots. Histograms.
 <span style="color: purple;">**(Section 2.1.3)**</span><br>
 
@@ -148,6 +158,7 @@ Simulations of random variables. Plots. Histograms.
 
 [An atmospheric RNG](https://www.random.org/)
 
+<!--
 [Class notes](notes/m358k-sept-08-2021.pdf) 
 
 [The R-script from class](code/sample-replicate-binom.R)
@@ -165,6 +176,7 @@ Simulations of random variables. Plots. Histograms.
 [Project #2](projects/m358k-project-two.pdf) -- **due on Monday, September 27th** 
 
 [Project #2](code/m358k-project-two.Rmd) -- this is the Rmd file which you are more than welcome to use to neatly complete your project 
+-->
 
 What is statistics? 
 <span style="color: purple;">**(Sections 1.2.1, 1.2.2)**</span><br>
@@ -175,14 +187,17 @@ What is statistics?
 
 ---
 
-**Class 7: September 10th**<br> 
+**Class 7: September 7th**<br> 
 Data presentation [graphical]
 <span style="color: purple;">**(Sections 2.2.1, 2.2.5)**</span><br>
 
+<!--
 [The R-script from class](code/plot.R)
+-->
 
 [Open course video](https://youtu.be/7NhNeADL8fA): Exploring categorical data
 
+<!--
 R notebook [cat-data.Rmd](code/cat-data.Rmd)
 
 [Quiz #3](quizzes/m358k-quiz-three-solns.pdf) -- **solutions**
@@ -192,17 +207,19 @@ R notebook [cat-data.Rmd](code/cat-data.Rmd)
 [Quiz #4](quizzes/m358k-quiz-four.pdf) -- **due on Friday, September 17th**
 
 [Quiz #4](code/m358k-quiz-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
-
+-->
 
 ---
 
-**Class 8: September 13th**<br>
+**Class 8: September 9th**<br>
 Data presentation [more on graphical; numerical]
 <span style="color: purple;">**(Sections 2.1.2, 2.1.3, 2.1.4)**</span>\
 
 [Data](data/titanic.csv): Simplified Titanic data - courtesy of the *Journal of Statistics Education* 
 
+<!--
 R notebook [titanic.Rmd](code/titanic.Rmd)
+-->
 
 [Data](data/cafedata.csv): Student-run cafe - courtesy of the *Journal of Statistics Education* 
 
@@ -212,7 +229,9 @@ R notebook [titanic.Rmd](code/titanic.Rmd)
 
 [Slides](notes/m358k-2.1-examining-numerical-data.pdf) - **Courtesy of Open Course Statistics**
 
+<!--
 R script [stacked-dotplot.R](code/stacked-dotplot.R)
+-->
 
 [Wikipedia: Mean household income](https://en.wikipedia.org/wiki/Household_income_in_the_United_States#Mean_household_income) 
 
@@ -221,54 +240,70 @@ R script [stacked-dotplot.R](code/stacked-dotplot.R)
 Here is a list of fun sites which make charts: [Infogram](https://infogram.com/), [FastCharts](https://fastcharts.io/), [Flourish](https://flourish.studio/), 
 [Datawrapper](https://www.datawrapper.de/)
 
+<!--
 [Homework #4](hw/m358k-hw-four.pdf) -- due on **Wednesday, September 22nd**
 
 [Homework #4](code/m358k-hw-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework 
+-->
 
 ---
 
-**Class 9: September 15th**<br>
+**Class 9: September 12th**<br>
 Median. Quartiles. <span style="color: purple;">**(Sections 2.1.5, 2.1.6, 2.1.1)**</span><br>
 
+<!--
 R script [invented-data-summary.R](code/invented-data-summary.R) from class
+-->
 
 [Return values from boxplot](https://r-coder.com/boxplot-r/#Return_values_from_boxplot)
 
 [ProPublica](https://projects.propublica.org/climate-migration/): New Climate Maps Show a Transformed United States
 
+<!--
 [Homework #3](hw/m358k-hw-three-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 10: September 17th**<br>
+**Class 10: September 14th**<br>
 Scatterplots  <span style="color: purple;">**(Section 1.2.3)**</span>.<br>
 
 [Data](data/diamond.csv): Carats vs. dollars - courtesy of the *Journal of Statistics Education* 
 
+<!--
+
 R notebook [diamonds.Rmd](code/diamonds.Rmd)
+
+-->
 
 [On plotting scatterplots in R](https://youtu.be/X66b-Jbi15w) - this is a demo in R by yours truly on how to draw scatterplots; feel free to start at 2:35 and watch at twice the speed  
 
 [Gapminder](https://www.gapminder.org/answers/how-does-income-relate-to-life-expectancy/): How Does Income Relate to Life Expectancy?
 
+<!--
 [Homework #5](hw/m358k-hw-five.pdf) -- due on **Wednesday, September 29th**
+-->
 
 Sampling principles and strategies <span style="color: purple;">**(Section 1.3)**</span><br>
 
 [Slides](notes/m358k-1.3-sampling.pdf) - **Courtesy of Open Course Statistics**
 
+<!--
 [Quiz #5](quizzes/m358k-quiz-five.pdf) -- **due on Friday, September 24th**
 
 [Quiz #5](code/m358k-quiz-five.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
+-->
 
 ---
 
-**Class 11: September 20th**<br>
+**Class 11: September 16th**<br>
 Sampling principles and strategies (cont'd). Randomized response <span style="color: purple;">**(Sections 1.3)**</span><br>
 
 [Problem Set #1](exams/m358k-ps-one-sampling.pdf) - **problems**
 
+<!--
 [Problem Set #1](exams/m358k-ps-one-sampling-solns.pdf) - **solutions**
+-->
 
 [James Grime on randomized response](https://youtu.be/nwJ0qY_rP0A) 
 
@@ -276,11 +311,13 @@ Sampling principles and strategies (cont'd). Randomized response <span style="co
 
 [Problem Set #2](exams/m358k-ps-two-rand-resp.pdf) - **problems**
 
+<!--
 [Problem Set #2](exams/m358k-ps-two-rand-resp-solns.pdf) - **solutions**
+-->
 
 ---
 
-**Class 12: September 22nd**<br>
+**Class 12: September 19th**<br>
 Experiments <span style="color: purple;">**(Section 1.4)**</span><br>
 
 [Open Course Video](https://youtu.be/g7JGe_ykB3I)
@@ -289,27 +326,39 @@ Experiments <span style="color: purple;">**(Section 1.4)**</span><br>
 
 [Problem Set #3](exams/m358k-ps-three-collecting-data.pdf) - **problems**
 
+<!--
 [Problem Set #3](exams/m358k-ps-three-collecting-data-solns.pdf) - **solutions**
+-->
 
 [A historical example](https://helix.northwestern.edu/blog/2010/02/when-science-goes-wrong) 
 
 **Suggested textbook problems** (for after you are done with all the homework): <span style="color: purple;">**1.19, 1.20, 1.23, 1.26, 1.27, 1.28, 2.11, 2.13, 3.9, 3.10, 3.13, 3.19**</span><br>
 
+<!--
 [Project #3](projects/m358k-project-three.pdf) -- **due on Monday, October 11th** 
 
 [Project #3](code/m358k-project-three.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
+-->
 
 [Follow up on the "Experiment experiment"](https://www.npr.org/sections/health-shots/2018/08/27/642218377/in-psychology-and-other-social-sciences-many-studies-fail-the-reproducibility-te/)
 
 [Andrew Gelman on the "replication crisis"](http://andrewgelman.com/2016/03/03/more-on-replication-crisis/) 
 
+<!--
 [Homework #4](hw/m358k-hw-four-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 13: September 24th**<br>
+**Class 13: September 21st**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+---
+
+**Class 14: September 23rd**<br>
 Review of continuous distributions. Expectation. Variance. <br>
 
+<!--
 [Class notes](notes/m358k-sept-24-2021.pdf) 
 
 [Quiz #5](quizzes/m358k-quiz-five-solns.pdf) -- **solutions**
@@ -317,11 +366,12 @@ Review of continuous distributions. Expectation. Variance. <br>
 [Quiz #6](quizzes/m358k-quiz-six.pdf) -- **due on Friday, October 1st**
 
 [Quiz #6](code/m358k-quiz-six.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
+-->
 
 ---
 
-**Class 14: September 27th**<br>
-Statistical inference. Statistics and the sampling distribution.
+**Class 15: September 26th**<br>
+Statistical inference. Statistics and the sampling distribution.<br>
 
 R notebook [Odin.Rmd](code/Odin.Rmd)
 
@@ -331,18 +381,24 @@ Point estimates and sampling variability <span style="color: purple;">**(Section
 
 [Slides](notes/m358k-5.1-point-estimates-and-sampling-variability.pdf) - **Courtesy of Open Course Statistics**
 
+<!--
 R notebook [prop.Rmd](code/prop.Rmd)
+-->
 
 [Problem Set #4](problem-sets/m358k-ps-four.pdf) - **problems**
 
+<!--
 [Problem Set #4](problem-sets/m358k-ps-four-solns.pdf) - **solutions**
+-->
 
 ---
 
-**Class 15: September 29th**<br>
+**Class 16: September 28th**<br>
 The normal distribution [review] <span style="color: purple;">**(Section 4.1, Appendix C.1)**</span><br>
 
+<!--
 [Class notes](notes/m358k-sept-29-2021.pdf) 
+-->
 
 [Standard Normal Distribution Areas](http://demonstrations.wolfram.com/StandardNormalDistributionAreas/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
@@ -356,6 +412,7 @@ The normal distribution [review] <span style="color: purple;">**(Section 4.1, Ap
 
 [How to shade in R](http://www.alisonsinclair.ca/2011/03/shading-between-curves-in-r/) 
 
+<!--
 [Homework #6](hw/m358k-hw-six.pdf) -- due on **Wednesday, October 6th**
 
 [Homework #6](code/m358k-hw-six.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
@@ -369,36 +426,45 @@ The normal distribution [review] <span style="color: purple;">**(Section 4.1, Ap
 [Project #4](projects/m358k-project-four.pdf) -- **due on Monday, October 25th** 
 
 [Project #4](code/m358k-project-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+-->
 
 [%in% in `R`](https://www.marsja.se/how-to-use-in-in-r/)
 
 ---
 
-**Class 16: October 1st**<br>
+**Class 17: September 30th**<br>
 More on the normal distribution.<br>
 
+<!--
 [The R-script from class](code/normal.R)
+-->
 
 [Problem Set #5](problem-sets/m358k-ps-five-normal.pdf) -- **problems**
 
+<!--
 [Problem Set #5](problem-sets/m358k-ps-five-normal-solns.pdf) -- **solutions**
 
 [Class notes](notes/m358k-oct-01-2021.pdf) 
 
 [Quiz #6](quizzes/m358k-quiz-six-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 17: October 4th**<br>
+**Class 18: October 3rd**<br>
 The normal approximation to the binomial [review] <span style="color: purple;">**(Sections 4.3.2 and 4.3.3)**</span>.<br>
 
+<!--
 [Class notes](notes/m358k-oct-04-2021.pdf) 
 
 [The R-script from class](code/dML.R)
+-->
 
 [Problem Set #6](problem-sets/m358k-ps-six-dML.pdf) -- **problems**
 
+<!--
 [Problem Set #6](problem-sets/m358k-ps-six-dML-solns.pdf) -- **solutions**
+-->
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/IllustratingTheCentralLimitTheoremWithSumsOfBernoulliRandomV/): The Normal Approximation to the Binomial Distribution
 
@@ -406,7 +472,7 @@ The normal approximation to the binomial [review] <span style="color: purple;">*
 
 ---
 
-**Class 18: October 6th**<br>
+**Class 19: October 5th**<br>
 The Central Limit Theorem [review] <span style="color: purple;">**(Sections 5.1.3 and 7.1.1)**</span>.<br>
 
 [Class notes](notes/m358k-oct-06-2021.pdf)
@@ -425,7 +491,6 @@ The Central Limit Theorem [review] <span style="color: purple;">**(Sections 5.1.
 
 ---
 
-**Class 19: October 8th**<br>
 Sample mean (the normal case).<br>
 
 [Class notes](notes/m358k-oct-08-2021.pdf) 
@@ -850,8 +915,6 @@ R. Fisher: [Mathematics of a Lady Tasting Tea](pdf/m358k-lady-tasting-tea-origin
 [Mock In-Term One](exams/m358k-mock-one-probs.pdf) - **Problems**
 
 [Mock In-Term One](exams/m358k-mock-one.pdf) - **Solutions**
-
-<span style="color: red;">**In-Term One**</span><br>
 
 [In-Term One](exams/m358k-one-solns.pdf) - **Solutions**
 
