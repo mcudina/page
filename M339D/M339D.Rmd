@@ -256,7 +256,28 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 ---
 
-**Class 38: April 22nd**<br>
+**Class 38: November 18th**<br>
+Delta-hedging. <br>
+
+---
+
+**Class 39: November 28th**<br>
+Implied volatility. <br>
+
+---
+
+**Class 40: November 30th**<br>
+Problem-solving session. <br>
+
+---
+
+**Class 41: December 2nd**<br>
+Problem-solving session. <br>
+
+---
+
+**Class 42: December 5th**<br>
+<span style="color: red;">**In-Term Three**</span><br>
 
 <!--
 
@@ -747,7 +768,6 @@ Binomial pricing of American options. <br>
 
 ---
 
-**Class 39: April 25th**<br>
 Binomial pricing of American option [practice].<br>
 
 [Class notes](notes/m339d-apr-25-2022.pdf): Binomial pricing of American options (practice).
@@ -756,7 +776,6 @@ Binomial pricing of American option [practice].<br>
 
 ---
 
-**Class 40: April 27th**<br>
 Properties of American-option prices. Asian options.<br>
 
 [Class notes](notes/m339d-apr-27-2022.pdf): Bounds on American option prices. Definition of Asian options. 
@@ -769,7 +788,6 @@ Properties of American-option prices. Asian options.<br>
 
 ---
 
-**Class 41: April 29th**<br>
 Asian-option pricing. Barrier options.<br>
 
 [Class notes](notes/m339d-apr-29-2022.pdf): More on Asian options. Barrier options. 
@@ -782,7 +800,6 @@ Asian-option pricing. Barrier options.<br>
 
 ---
 
-**Class 42: May 2nd**<br>
 Barrier options.<br>
 
 [Problem packet](problem-sets/m339d-barrier.pdf)
@@ -860,8 +877,6 @@ Problem-solving session.<br>
 [Mock In-Term Three](exams/m339d-three-mock.pdf) -- **problems** 
 
 [Mock In-Term Three](exams/m339d-three-mock-solns.pdf) -- **solutions** 
-
-<span style="color: red;">**In-Term Three**</span><br>
 
 [In-Term Three](exams/m339d-three-histogram.pdf) -- **histogram** 
 
