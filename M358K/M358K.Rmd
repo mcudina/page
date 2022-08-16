@@ -475,52 +475,61 @@ The normal approximation to the binomial [review] <span style="color: purple;">*
 **Class 19: October 5th**<br>
 The Central Limit Theorem [review] <span style="color: purple;">**(Sections 5.1.3 and 7.1.1)**</span>.<br>
 
+<!--
 [Class notes](notes/m358k-oct-06-2021.pdf)
+-->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Gamma_distribution): On the **gamma distribution**
 
+<!--
 [The R-script from class](code/clt.R)
+-->
 
 [Problem Set #7](problem-sets/m358k-ps-seven-CLT.pdf) -- **problems**
 
+<!--
 [Problem Set #7](problem-sets/m358k-ps-seven-CLT-solns.pdf) -- **solutions**
 
 [Homework #7](hw/m358k-hw-seven.pdf) -- due on **Wednesday, October 13th**
 
 [Homework #7](code/m358k-hw-seven.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
+-->
 
 ---
 
+**Class 20: October 7th**<br>
 Sample mean (the normal case).<br>
 
+<!--
 [Class notes](notes/m358k-oct-08-2021.pdf) 
+-->
 
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample.pdf) -- **problems**
 
+<!--
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample-solns.pdf) -- **solutions**
 
 [Quiz #7](quizzes/m358k-quiz-seven-solns.pdf) -- **solutions**
-
----
-
-**Class 20: October 11th**<br>
-Confidence intervals (the normal case). <br>
-
-[Class notes](notes/m358k-oct-11-2021.pdf) 
+-->
 
 --- 
 
-**Class 21: October 13th**<br>
-More on confidence intervals.<br>
+**Class 21: October 10th**<br>
+Confidence intervals (the normal case). <br>
+
+<!--
+[Class notes](notes/m358k-oct-11-2021.pdf) 
 
 [Class notes](notes/m358k-oct-13-2021.pdf) 
 
 R notebook [normal-conf-int.Rmd](code/normal-conf-int.Rmd)
+-->
 
 Shiny: [Confidence intervals](https://milica-cudina.shinyapps.io/Coverage/)
 
 [Problem Set #9](problem-sets/m358k-ps-nine-normal-conf-int.pdf) -- **problems**
 
+<!--
 [Problem Set #9](problem-sets/m358k-ps-nine-normal-conf-int-solns.pdf) -- **solutions**
 
 [Homework #7](hw/m358k-hw-seven-solns.pdf) -- **solutions**
@@ -530,43 +539,55 @@ Shiny: [Confidence intervals](https://milica-cudina.shinyapps.io/Coverage/)
 [Homework #8](hw/m358k-hw-eight.pdf) -- due on **Wednesday, October 20th**
 
 [Homework #8](code/m358k-hw-eight.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
+-->
 
 ---
 
-**Class 22: October 15th**<br>
+**Class 22: October 12th**<br>
 Principles of hypothesis testing. The $p−$value.<br>
 
+<!--
 [Class notes](notes/m358k-oct-15-2021.pdf) 
 
 [Quiz #8](quizzes/m358k-quiz-eight-normal-conf-int-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 23: October 18th**<br>
+**Class 23: October 14th**<br>
 More on hypothesis testing in the normal case. 
 
+<!--
 [Class notes](notes/m358k-oct-18-2021.pdf) 
+-->
 
 [Problem Set #10](problem-sets/m358k-ps-ten-hypothesis-test-p-value-mean.pdf) -- **problems**
 
+<!--
 [Problem Set #10](problem-sets/m358k-ps-ten-hypothesis-test-p-value-mean.pdf) -- **solutions**
 
 [Quiz #9](quizzes/m358k-quiz-nine-normal-hyp-test.pdf) -- **due on Friday, October 22nd, 2021**
 
 [Quiz #10](quizzes/m358k-quiz-ten-more-hyp-test.pdf) -- **due on Friday, October 29th, 2021**
+-->
 
 ---
 
-**Class 24: October 20th**<br>
+**Class 24: October 17th**<br>
 The reasoning of tests of significance. Inference as a decision.<br>
 
+<!--
 [Class notes](notes/m358k-oct-20-2021.pdf) 
 
 [Homework #8](hw/m358k-hw-eight-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 25: October 22nd**<br>
+**Class 25: October 19th**<br>
+
+
+
 Hypothesis-testing practice (the normal case).<br>
 
 [Class notes](notes/m358k-oct-22-2021.pdf) 
