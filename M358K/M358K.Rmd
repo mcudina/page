@@ -585,84 +585,100 @@ The reasoning of tests of significance. Inference as a decision.<br>
 ---
 
 **Class 25: October 19th**<br>
+<span style="color: red;">**In-Term Two**</span><br>
 
+---
 
-
+**Class 26: October 21st**<br>
 Hypothesis-testing practice (the normal case).<br>
 
+<!--
 [Class notes](notes/m358k-oct-22-2021.pdf) 
+-->
 
 [Problem Set #11](problem-sets/m358k-ps-eleven-sign-test-mean.pdf) -- **problems** 
 
+<!--
 [Problem Set #11](problem-sets/m358k-ps-eleven-sign-test-mean-solns.pdf) -- **solutions** 
+-->
 
 An [article](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106) on **p-hacking** in biology
 
 [Problem Set #12](problem-sets/m358k-ps-twelve-normal-hyp-test.pdf) -- **problems** 
 
+<!--
 [Problem Set #12](problem-sets/m358k-ps-twelve-normal-hyp-test-solns.pdf) -- **solutions** 
 
 [Quiz #9](quizzes/m358k-quiz-nine-normal-hyp-test-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 26: October 25th**<br>
+**Class 27: October 24th**<br>
 Types of errors.<br>
 
 [Errors](pics/pregnant.jpg)
 
+<!--
 [Class notes](notes/m358k-oct-25-2021.pdf)
+-->
 
 [Problem Set #13](problem-sets/m358k-ps-thirteen-errors.pdf) -- **problems** 
 
+<!--
 [Problem Set #13](problem-sets/m358k-ps-thirteen-errors-solns.pdf) -- **solutions** 
+-->
 
 [R-bloggers](https://www.r-bloggers.com/2021/06/qq-plots-in-r-quantile-quantile-plots-quick-start-guide/): QQ-plots in `R`
 
+<!--
 [Data](data/temperatures-heart.csv): this data set is necessary for *Project #5*
 
 [Project #5](projects/m358k-project-five.pdf) -- **due on Monday, November 15th** 
 
 [Project #5](code/m358k-project-five.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+-->
 
 ---
 
-**Class 27: October 27th**<br>
+**Class 28: October 26th**<br>
 Power of test (the normal case).<br>
 
 [Power of test](pics/power.png)
 
+<!--
 [Class notes](notes/m358k-oct-27-2021.pdf)
 
 [Homework #9](hw/m358k-hw-nine.pdf) -- due on **Wednesday, November 3rd**
 
 [Homework #9](code/m358k-hw-nine.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
----
-
-**Class 28: October 29th**<br>
-Power-of-test practice (the normal case).<br>
-
 [Class notes](notes/m358k-oct-29-2021.pdf)
+-->
 
 [Problem Set #14](problem-sets/m358k-ps-fourteen-power-of-test.pdf) -- **problems** 
 
+<!--
 [Problem Set #14](problem-sets/m358k-ps-fourteen-power-of-test-solns.pdf) -- **solutions** 
 
 [Quiz #10](quizzes/m358k-quiz-ten-more-hyp-test-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 29: November 1st**<br>
+**Class 29: October 28th**<br>
 The sampling distribution for *counts* and  *proportions*. Confidence intervals 
 <span style="color: purple;">**(Sections 6.1.1, 6.1.2, and 6.1.5)**</span><br>
 
 [Open course video](https://youtu.be/_iFAZgpWsx0): Statistical inference for proportions.
 
+<!--
 [Class notes](notes/m358k-nov-01-2021.pdf)
+-->
 
 [Problem set #15](problem-sets/m358k-ps-fifteen-single-prop-conf-int.pdf) -- **problems**
 
+<!--
 [Problem set #15](problem-sets/m358k-ps-fifteen-single-prop-conf-int-solns.pdf) -- **solutions**
 
 [Quiz #11](quizzes/m358k-quiz-eleven-one-prop-conf-int.pdf) -- **due on Friday, November 5th, 2021**
@@ -670,30 +686,38 @@ The sampling distribution for *counts* and  *proportions*. Confidence intervals
 [Homework #10](hw/m358k-hw-ten.pdf) -- due on **Wednesday, November 10th**
 
 [Homework #10](code/m358k-hw-ten.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
+-->
 
 ---
 
-**Class 30: November 3rd**<br>
+**Class 30: October 31st**<br>
 Hypothesis testing for a  *proportion* 
 <span style="color: purple;">**(Section 6.1.3)**</span><br>
 
+<!--
 [Class notes](notes/m358k-nov-03-2021.pdf)
+-->
 
 [Problem set #16](problem-sets/m358k-ps-sixteen-single-prop-hyp-test.pdf) -- **problems**
 
+<!--
 [Problem set #16](problem-sets/m358k-ps-sixteen-single-prop-hyp-test-solns.pdf) -- **solutions**
 
 [Homework #9](hw/m358k-hw-nine-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 31: November 5th**<br>
+**Class 31: November 2nd**<br>
 Comparing two proportions <span style="color: purple;">**(Sections 6.2.1, 6.2.2, 6.2.3, 6.2.5)**</span><br>
 
+<!--
 [Class notes](notes/m358k-nov-05-2021.pdf)
+-->
 
 [Problem set #17](problem-sets/m358k-ps-seventeen-two-props.pdf) -- **problems**
 
+<!--
 [Problem set #17](problem-sets/m358k-ps-seventeen-two-props-solns.pdf) -- **solutions**
 
 [Quiz #11](quizzes/m358k-quiz-eleven-one-prop-conf-int-solns.pdf) -- **solutions**
@@ -703,13 +727,16 @@ Comparing two proportions <span style="color: purple;">**(Sections 6.2.1, 6.2.2,
 [Homework #11](hw/m358k-hw-eleven.pdf) -- due on **Wednesday, November 17th**
 
 [Homework #11](code/m358k-hw-eleven.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
+-->
 
 ---
 
-**Class 32: November 8th**<br>
+**Class 32: November 4th**<br>
 The $\chi^2-$ distribution <span style="color: purple;">**(Sections 6.3.3, C.3)**</span><br>
 
+<!--
 [Class notes](notes/m358k-nov-08-2021.pdf)
+-->
 
 [Mathematica demonstration: The Chi-Squared Distribution](http://demonstrations.wolfram.com/TheChiSquaredDistribution/)
 
@@ -717,46 +744,56 @@ The $\chi^2-$ distribution <span style="color: purple;">**(Sections 6.3.3, C.3)*
 
 ---
 
-**Class 33: November 10th**<br>
+**Class 33: November 7th**<br>
 Goodness of fit <span style="color: purple;">**(Sections 6.3.1, 6.3.2, 6.3.4)**</span><br> 
 
 [Open course video](https://youtu.be/Uk36WGxujkc): Goodness of fit.
 
+<!--
 [Class notes](notes/m358k-nov-11-2021.pdf)
+-->
 
 [Problem set #18](problem-sets/m358k-ps-eighteen-goodness-of-fit.pdf) -- **problems**
 
+<!--
 [Problem set #18](problem-sets/m358k-ps-eighteen-goodness-of-fit-solns.pdf) -- **solutions**
 
 [Homework #10](hw/m358k-hw-ten-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 34: November 12th**<br>
+**Class 34: November 9th**<br>
 Analysis of two-way tables. 
 
 [James Grime on the Simpson's paradox](https://youtu.be/wgLUDw8eLB4) 
 
 Chi-squared test of independence <span style="color: purple;">**(Section 6.4)**</span><br>
 
+<!--
 [Class notes](notes/m358k-nov-12-2021.pdf)
+-->
 
 [Slides](notes/m358k-6.4-chi-squared-test-independence.pdf) - **Courtesy of Open Course Statistics**
 
+<!--
 [R-code: On-line courses or not?](code/chi-square.R): An example on how to do the $\chi^2-$test of independence in `R`
 
 [Quiz #12](quizzes/m358k-quiz-twelve-prop-hyp-test-solns.pdf) -- **solutions**
 
 [Quiz #13](quizzes/m358k-quiz-thirteen-goodness-of-fit.pdf) -- **due on Friday, November 19th, 2021**
+-->
 
 ---
 
-**Class 36: November 15th**<br>
+**Class 36: November 11th**<br>
 $\chi^2-$connections to normal samples.<br>
 
 [Statistics Associated with Normal Samples](http://demonstrations.wolfram.com/StatisticsAssociatedWithNormalSamples/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Pierre-Emmanuel Robert 
 
+<!--
 [Quiz #14](quizzes/m358k-quiz-fourteen-chi-squared.pdf) -- **due on Friday, December 3rd, 2021**
+-->
 
 The $t-$distribution <span style="color: purple;">**(Sections 7.1.3 and C.2)**</span>.<br>
 
@@ -764,6 +801,7 @@ The $t-$distribution <span style="color: purple;">**(Sections 7.1.3 and C.2)**</
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/StudentsTDistribution/): The Student's t-distribution 
 
+<!--
 [Class notes](notes/m358k-nov-15-2021.pdf)
 
 [Data](data/euro-weights.csv): this data set is necessary for *Project #6*
@@ -771,42 +809,52 @@ The $t-$distribution <span style="color: purple;">**(Sections 7.1.3 and C.2)**</
 [Project #6](projects/m358k-project-six.pdf) -- **due on Monday, December 6th** 
 
 [Project #6](code/m358k-project-six.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+-->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Fisher%27s_exact_test): Fisher's exact test 
 
 ---
 
-**Class 36: November 17th**<br>
+**Class 36: November 14th**<br>
 The confidence interval for the population mean <span style="color: purple;">**(Section 7.1.1, 7.1.2, 7.1.4)**</span><br>
 
-
+<!--
 [Class notes](notes/m358k-nov-17-2021.pdf)
 
 [R-code](code/dobson-ozone.R): Normality check for Dobson
 
 [R-code](code/t-conf-int.R): Confidence intervals with `t.test`
+-->
 
 ---
 
-**Class 37: November 19th**<br>
+**Class 37: November 16th**<br>
 The t-test <span style="color: purple;">**(Section 7.1.5)**</span><br>
 
+<!--
 [Class notes](notes/m358k-nov-19-2021.pdf)
+-->
 
 [Slides](notes/m358k-7.1-one-sample-means-with-the-t-distribution.pdf) - **Courtesy of Open Course Statistics**
 
+<!--
 [Quiz #13](quizzes/m358k-quiz-thirteen-goodness-of-fit-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 38: November 22nd**<br>
+**Class 38: November 18th**<br>
 t-procedures practice.<br>
 
+<!--
 [Class notes](notes/m358k-nov-22-2021.pdf)
+-->
 
 [Problem set #19](problem-sets/m358k-ps-nineteen-t-procedures.pdf) -- **problems**
 
+<!--
 [Problem set #19](problem-sets/m358k-ps-nineteen-t-procedures-solns.pdf) -- **solutions**
+-->
 
 Robustness of t-procedures (optional).
 
@@ -821,43 +869,56 @@ Paired data <span style="color: purple;">**(Section 7.2)**</span><br>
 
 [Homework #12](hw/m358k-hw-twelve.pdf) -- due on **Wednesday, December 1st**
 
+<!--
 [Homework #12](code/m358k-hw-twelve.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
 [The Final Project](projects/m358k-project-final.pdf) -- **due on Tuesday, December 14th for 55545 and on Thursday, December 9th for 55550** 
+-->
 
 ---
 
-**Class 39: November 29th**<br>
+**Class 39: November 28th**<br>
 Difference of two means <span style="color: purple;">**(Section 7.3)**</span><br>
 
+<!--
 [Class notes](notes/m358k-nov-29-2021.pdf)
+-->
 
 [Slides](notes/m358k-7.3-difference-of-two-means.pdf) - **Courtesy of Open Course Statistics**
 
+<!--
 [Quiz #15](quizzes/m358k-quiz-fifteen-two-means.pdf) -- **due on Monday, December 6th for extra credit**
+-->
 
-
----
-
-**Class 40: December 1st**<br>
 t-procedures [practice].<br>
 
+<!--
 [The R-script from class](code/t-test.R)
 
 [Class notes](notes/m358k-dec-01-2021.pdf)
+-->
 
 [Problem set #20](problem-sets/m358k-ps-twenty-two-means.pdf) -- **problems**
 
+<!--
 [Problem set #20](problem-sets/m358k-ps-twenty-two-means-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 41: December 3rd**<br> 
+**Class 40: November 30th**<br>
+<span style="color: red;">**In-Term Three**</span><br>
+
+---
+
+**Class 41: December 2rd**<br> 
 Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><br>
 
 [xkcd](https://xkcd.com/552/): Correlation
 
+<!--
 [Class notes](notes/m358k-dec-03-2021.pdf)
+-->
 
 [Visualizing Correlations](http://demonstrations.wolfram.com/VisualizingCorrelations/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod
 
@@ -865,6 +926,7 @@ Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><b
 
 [Problem set #21](problem-sets/m358k-ps-twenty-one-corr-linear-transforms.pdf) -- **problems**
 
+<!--
 [Problem set #21](problem-sets/m358k-ps-twenty-one-corr-linear-transforms-solns.pdf) -- **solutions**
 
 [Data](data/shoesize.csv): Shoe size and height - courtesy of the *Open Course Statistics*: this data set is necessary for *Quiz #16*
@@ -874,15 +936,18 @@ Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><b
 [Quiz #16](quizzes/m358k-quiz-sixteen.pdf) -- **due on Monday, December 6th for extra credit**
 
 [Quiz #16](code/m358k-quiz-sixteen.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
+-->
 
 ---
 
-**Class 42: December 6th**<br> 
+**Class 42: December 5th**<br> 
 Fitting a line. Residuals <span style="color: purple;">**(Sections 8.1.1, 8.1.2, 8.1.3)**</span><br>
 
 [Slides](notes/m358k-8.1-line-fitting-residuals-correlation.pdf) - **Courtesy of Open Course Statistics**
 
+<!--
 [Class notes](notes/m358k-dec-06-2021.pdf)
+-->
 
 Least-squares. Predictive statistical tools <span style="color: purple;">**(Section 8.2)**</span><br>
 
@@ -898,7 +963,9 @@ Simple linear regression.<br>
 
 [Regression toward the Mean](http://demonstrations.wolfram.com/RegressionTowardTheMean/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod
 
+<!--
 [Quiz #17](quizzes/m358k-quiz-seventeen-regression.pdf) -- **due on Monday, December 6th for extra credit**
+-->
 
 Simple linear regression [cont'd].<br>
 
@@ -926,6 +993,7 @@ R. Fisher: [Mathematics of a Lady Tasting Tea](pdf/m358k-lady-tasting-tea-origin
 
 ---
 
+<!--
 [In-Term One Topics](exams/m358k-one-topics.pdf) 
 
 [Practice for In-Term One](exams/m358k-sample-one.pdf) - **Problems**
@@ -950,8 +1018,6 @@ R. Fisher: [Mathematics of a Lady Tasting Tea](pdf/m358k-lady-tasting-tea-origin
 
 [Mock In-Term Two](exams/m358k-mock-two-solns.pdf) - **Solutions**
 
-<span style="color: red;">**In-Term Two**</span><br>
-
 [In-Term Two](exams/m358k-two-solns.pdf) - **Solutions**
 
 ---
@@ -967,8 +1033,6 @@ R. Fisher: [Mathematics of a Lady Tasting Tea](pdf/m358k-lady-tasting-tea-origin
 [Mock In-Term Three](exams/m358k-mock-three.pdf) - **Problems**
 
 [Mock In-Term Three](exams/m358k-mock-three-solns.pdf) - **Solutions**
-
-<span style="color: red;">**In-Term Three**</span><br>
 
 [In-Term Three](exams/m358k-three.pdf) - **Solutions**
 
