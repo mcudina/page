@@ -107,12 +107,11 @@ Orientation. The binomial asset pricing model [review].<br>
 
 [Quiz #1](quizzes/m339w-quiz-one.pdf) -- **due on Wednesday, August 24th** 
 
-<!--
-[Homework #1](hw/m339w-hw1-prereq.pdf) -- **due on Wednesday, January 26th**
+[Homework #1](hw/m339w-hw1-prereq.pdf) -- **due on Monday, August 29th**
 
 ---
 
-**Class 2: January 21st**<br>
+**Class 2: August 24th**<br>
 Random number generation. The inverse transform method.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -121,10 +120,14 @@ Random number generation. The inverse transform method.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
+<!--
+
 [Class notes](notes/m339w-jan-21-2022.pdf): The inverse transform method.
+-->
 
 [Problem set #1](problem-sets/m339w-ps-one-inverse-transform.pdf): Problems
 
+<!--
 [Problem set #1](problem-sets/m339w-ps-one-inverse-transform-solns.pdf): Solutions
 
 [Quiz #1](quizzes/m339w-quiz-one-solns.pdf) -- **solutions** 
