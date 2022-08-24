@@ -51,11 +51,7 @@ Orientation. <br>
 
 [Open course video](https://youtu.be/HxEz4ZHUY5Y): Conditional probability. Probability trees. Bayes theorem. 
 
-<!--
-
-[Homework #1](hw/m358k-hw-one.pdf) -- due on **Wednesday, September 1st**
-
--->
+[Homework #1](hw/m358k-hw-one.pdf) -- due on **Friday, September 9th**
 
 ---
 
@@ -63,6 +59,8 @@ Orientation. <br>
 Setting up R and RStudio.<br>
 
 [The instructions slideshow](instructions/m358k-R-instructions.html)
+
+[The R-script from class](code/first-script.R)
 
 <!--
 [Quiz #1](quizzes/m358k-quiz-one-solns.pdf) - **solutions**
