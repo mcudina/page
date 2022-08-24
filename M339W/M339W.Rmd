@@ -130,58 +130,69 @@ Random number generation. The inverse transform method.<br>
 [Quiz #1](quizzes/m339w-quiz-one-solns.pdf) -- **solutions** 
 -->
 
-[Quiz #2](quizzes/m339w-quiz-two.pdf) -- **due on Wednesday, August 31st** 
+[Quiz #2](quizzes/m339w-quiz-two.pdf) -- **due on Friday, August 26th** 
 
 ---
 
-**Class 3: January 24th**<br>
+**Class 3: August 26th**<br>
 SLLN. Monte Carlo simulation.<br>
 
+<!--
 [Class notes](notes/m339w-jan-24-2022.pdf): SLLN. Monte Carlo. 
+-->
 
 [Problem set #2](problem-sets/m339w-ps-two-mc.pdf): Problems
 
+<!--
 [Problem set #2](problem-sets/m339w-ps-two-mc-solns.pdf): Solutions
 
 [Quiz #2](quizzes/m339w-quiz-two-solns.pdf) -- **solutions** 
 
-[Quiz #3](quizzes/m339w-quiz-three-slln-mc.pdf) -- **due on Friday, January 28th** 
+-->
+
+[Quiz #3](quizzes/m339w-quiz-three-slln-mc.pdf) -- **due on Wednesday, August 31st** 
 
 ---
 
-**Class 4: January 26th**<br>
+**Class 4: August 29th**<br>
 Binomial option pricing [review]. <br>
 
+<!--
 [Class notes](notes/m339w-jan-26-2022.pdf): Binomial option pricing. 
+-->
 
 [Lecture Seventeen](notes/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing.
 
 [Problem set #3](problem-sets/m339w-ps-three-binomial-pricing.pdf): Problems
 
+<!--
 [Problem set #3](problem-sets/m339w-ps-three-binomial-pricing-solns.pdf): Solutions
 
 [Homework #1](hw/m339w-hw1-prereq-solns.pdf) -- **solutions** 
+-->
 
 Binomial pricing of currency options. **(review)** 
 
 [Class notes](notes/m339w-jan-27-2021.pdf): Currency options (the binomial model). **(review)**
 
-
 Binomial pricing of futures options. **(review)**
 
 [Class notes](notes/m339w-jan-29-2021.pdf): Futures options (the binomial model). **(review)**
 
-[Homework #2](hw/m339w-hw2-bin.pdf) -- **due on Wednesday, February 2nd**
+[Homework #2](hw/m339w-hw2-bin.pdf) -- **due on Tuesday, September 6th**
 
 ---
 
-**Class 5: January 28th**<br>
+**Class 5: August 31st**<br>
 More on binomial option pricing.<br>
 
+<!--
 [Class notes](notes/m339w-jan-28-2022.pdf): More on binomial option pricing. 
+-->
 
 Binomial pricing of American options [review].<br>
 
+<!--
 [Class notes](notes/m339w-jan-31-2022.pdf): Binomial pricing of American options.
 
 [Old class notes](notes/m339w-sept-01-2021.pdf): Binomial pricing of American options [problems].
@@ -189,11 +200,13 @@ Binomial pricing of American options [review].<br>
 [Extra-Credit Homework #1](hw/m339w-extra-hw-one-forwards-solns.pdf) -- **solutions**
 
 [Quiz #3](quizzes/m339w-quiz-three-slln-mc-solns.pdf) -- **solutions** 
+-->
 
-[Quiz #4](quizzes/m339w-quiz-four-bin-amer.pdf) -- **due on Tuesday, February 1st** 
+[Quiz #4](quizzes/m339w-quiz-four-bin-amer.pdf) -- **due on Friday, September 2nd** 
 
 ---
 
+<!--
 **Class 6: January 31st**<br>
 Real options.<br>
 
