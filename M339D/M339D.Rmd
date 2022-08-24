@@ -69,10 +69,14 @@ Orientation. <br>
 **Class 2: August 24th**<br>
 Setting up R and RStudio.<br>
 
+[Console printout](notes/console.txt)
+
 ---
 
 **Class 3: August 26th**<br>
 Basics of R: Arithmetic. Vectors. <br>
+
+[Problem Set #1](code/m339d-ps1.Rmd)
 
 ---
 
