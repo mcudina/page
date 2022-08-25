@@ -206,29 +206,33 @@ Binomial pricing of American options [review].<br>
 
 ---
 
-<!--
-**Class 6: January 31st**<br>
+**Class 6: September 2nd**<br>
 Real options.<br>
 
 Investopedia: [Real options.](https://www.investopedia.com/terms/r/realoption.asp)
 
+<!--
 [Class notes](notes/m339w-real-options.pdf): 
 Real options. 
 
 [Quiz #4](quizzes/m339w-quiz-four-bin-amer-solns.pdf) -- **solutions** 
 
 [Quiz #5](quizzes/m339w-quiz-five-real.pdf) -- **due on Friday, February 4th** 
+-->
 
 ---
 
-**Class 7: February 2nd**<br>
+**Class 7: September 7th**<br>
 Subjective expectations and forward contracts.<br>
 
+<!--
 [Class notes](notes/m339w-subj-prob.pdf): 
 Subjective probabilities.
+-->
 
 [Problem set #4](problem-sets/m339w-ps-four-subj-prob.pdf): Problems
 
+<!--
 [Problem set #4](problem-sets/m339w-ps-four-subj-prob-solns.pdf): Solutions
 
 [Graduate Homework #1](hw/m339w-ghw-one.pdf) -- **due on Wednesday, February 23rd**
@@ -236,18 +240,23 @@ Subjective probabilities.
 [Homework #2](hw/m339w-hw2-bin-solns.pdf) -- **solutions**
 
 [Homework #3](hw/m339w-hw3-bin-subj.pdf) -- **due on Wednesday, February 9th**
+-->
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
 
+<!--
 [Quiz #6](quizzes/m339w-quiz-six-dML.pdf) -- **due on Monday, February 7th** 
+-->
 
 ---
 
-**Class 8: February 4th**<br>
+**Class 8: September 9th**<br>
 Binomial trees proceeding to the limit. The normal approximation to the binomial. Realized returns.<br>
 
+<!--
 [Class notes](notes/m339w-sept-10-2021.pdf): 
 Binomial trees proceeding to the limit. The normal approximation to the binomial. Realized returns.
+-->
 
 [Mathematica Code](code/code_one_rnd_walk.nb): One Random Walk 
 
@@ -255,50 +264,63 @@ Binomial trees proceeding to the limit. The normal approximation to the binomial
 
 [Mathematica Code](code/m339w-binomial-tree-limit.nb): Binomial model limit 
 
+<!--
 [Quiz #5](quizzes/m339w-quiz-five-real-solns.pdf) -- **solutions** 
 
 [Extra-Credit Homework #2](hw/m339w-extra-hw-two-calls-puts-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 9: February 7th**<br>
+**Class 9: September 12th**<br>
 More on realized returns.<br>
 
+<!--
 [Class notes](notes/m339w-feb-07-2022.pdf): Realized returns. 
 
 [Quiz #6](quizzes/m339w-quiz-six-dML-solns.pdf) -- **solutions** 
+-->
 
 ---
 
-**Class 10: February 9th**<br>
+**Class 10: September 14th**<br>
 Moment generating functions. The log-normal distribution. Jensen's inequality.<br>
 
 [Lecture notes](lecture-notes/m339w-lognormal.pdf): The lognormal distribution
 
+<!--
 [Class notes](notes/m339w-feb-09-2022.pdf): mgf. The log-normal distribution. Jensen's inequality.
+-->
 
 [The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
 from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Chris Boucher 
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
 
+<!--
 [Homework #3](hw/m339w-hw3-bin-subj-solns.pdf) -- **solutions**
 
 [Quiz #7](quizzes/m339w-quiz-seven-lognorm-dist.pdf) -- **due on Friday, February 11th** 
+-->
 
 ---
 
-**Class 11: February 11th**<br>
+**Class 11: September 16th**<br>
 Log-normal stock prices: Parameter interpretation.<br>
 
+<!--
 [Class notes](notes/m339w-feb-11-2022.pdf): Lognormal stock prices: Mean. Median. 
+-->
 
 [Problem set #5](problem-sets/m339w-ps-five-lognormal-stocks-probs.pdf): Problems
 
+<!--
 [Problem set #5](problem-sets/m339w-ps-five-lognormal-stocks-solns.pdf): Solutions
+-->
 
 [Lecture notes](lecture-notes/m339w-on-pricing.pdf): On pricing in the Black-Scholes model. 
 
+<!--
 [Extra-Credit Homework #3](hw/m339w-extra-hw-three-normal-solns.pdf) -- **solutions**
 
 [Quiz #7](quizzes/m339w-quiz-seven-lognorm-dist-solns.pdf) -- **solutions** 
@@ -306,25 +328,29 @@ Log-normal stock prices: Parameter interpretation.<br>
 [Quiz #8](quizzes/m339w-quiz-eight-lognormal-and-returns.pdf) -- **due on Monday, February 14th** 
 
 [Homework #4](hw/m339w-hw4-returns.pdf) -- **due on Wednesday, February 16th**
+-->
 
 ---
 
-**Class 12: February 14th**<br>
+**Class 12: September 19th**<br>
 Measures of risk: variance, semi-variance, VaR.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Variance#Semivariance): Variance. Semi-variance. 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Value_at_risk): Value at Risk (VaR). 
 
+<!--
 [Class notes](notes/m339w-feb-14-2022.pdf): VaR.
 
 [Quiz #8](quizzes/m339w-quiz-eight-lognormal-and-returns-solns.pdf) -- **solutions** 
+-->
 
 ---
 
-**Class 13: February 16th**<br>
+**Class 13: September 21st**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
+<!--
 [Class notes](notes/m339w-feb-16-2022.pdf): Tail probabilities.
 
 [Quiz #9](quizzes/m339w-quiz-nine-tail-probs.pdf) -- **due on Friday, February 18th**
@@ -332,6 +358,7 @@ Log-normal stock prices: Tail probabilities.<br>
 [Homework #4](hw/m339w-hw4-returns-solns.pdf) -- **solutions**
 
 [Homework #5](hw/m339w-hw5-lognormal-stocks.pdf) -- **due on February 23rd** 
+-->
 
 Lognormal "confidence" intervals.(**optional material**)<br> 
 
@@ -339,36 +366,44 @@ Lognormal "confidence" intervals.(**optional material**)<br>
 
 ---
 
-**Class 14: February 18th**<br>
+**Class 14: September 23rd**<br>
 Tail probabilities and VaR.<br>
 
+<!--
 [Class notes](notes/m339w-feb-18-2022.pdf): Tail probabilities and VaR.
 
 [Quiz #9](quizzes/m339w-quiz-nine-tail-probs-solns.pdf) -- **solutions**
 
 [Quiz #10](quizzes/m339w-quiz-ten-tail-probs-VaR.pdf) -- **due on Monday, February 21st**
+-->
 
 TVaR. Coherent risk measures.<br>
 
+<!--
 [Class notes](notes/m339w-feb-19-2020.pdf): Tail Value-at-Risk (TVaR). Coherent risk measures.
+-->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Tail_value_at_risk): Tail Value at Risk (TVaR).
 
 [Wikipedia](https://en.wikipedia.org/wiki/Coherent_risk_measure): Coherent risk measures. 
 
+<!--
 [Extra-Credit Homework #4](hw/m339w-extra-hw-four-cov-solns.pdf) -- **Solutions**
+-->
 
 ---
 
-**Class 15: February 21st**<br>
+**Class 15: September 26th**<br>
 Partial expectation. Conditional expectation.<br>
 
+<!--
 [Class notes](notes/m339w-feb-21-2022.pdf): Partial expectation. Conditional expectation.
 
 [Quiz #10](quizzes/m339w-quiz-ten-tail-probs-VaR-solns.pdf) -- **solutions**
 
 [Quiz #11](quizzes/m339w-quiz-eleven-cond-exp.pdf) -- 
 **due on Friday, February 25th**
+-->
 
 [In-Term One](exams/m339w-one-topics.pdf): Topics
 
@@ -378,12 +413,14 @@ Partial expectation. Conditional expectation.<br>
 
 ---
 
-**Class 16: February 23rd**<br>
+**Class 16: September 28th**<br>
 The Black-Scholes pricing formula.<br>
 
 [Problem packet](problem-sets/m339w-bs-problems.pdf)
 
+<!--
 [Class notes](notes/m339w-feb-23-2022.pdf): Black-Scholes.
+-->
 
 [Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
 
@@ -391,19 +428,22 @@ The Black-Scholes pricing formula.<br>
 
 [Mathematica Code](code/BSprice.nb): Black-Scholes price
 
+<!--
 [Homework #5](hw/m339w-hw5-lognormal-stocks-solns.pdf) -- **solutions** 
 
 [Homework #6](hw/m339w-hw6-BS.pdf) -- **due on Wednesday, March 9th** 
 
 [Graduate Homework #2](hw/m339w-ghw-two.pdf) -- **due on Wednesday, March 23rd**
+-->
 
 ---
 
-**Class 17: February 25th**<br>
+**Class 17: September 30th**<br>
 Black-Scholes pricing: Puts. Forward start options. 
 
 [Problem packet](problem-sets/m339w-bs-puts-etc.pdf)
 
+<!--
 [Class notes](notes/m339w-feb-25-2022.pdf): Black-Scholes pricing: Puts. Forward start options.
 
 [Extra-Credit Homework #5](hw/m339w-extra-hw-five-binomial-euro-solns.pdf) -- **solutions**
@@ -414,16 +454,19 @@ Black-Scholes pricing: Puts. Forward start options.
 [Quiz #12](quizzes/m339w-quiz-twelve-BS.pdf) -- **due on Monday, March 7th**
 
 [In-Term One](exams/m339w-one.pdf) -- **problems** 
+-->
 
 ---
 
-**Class 18: February 28th**<br>
+**Class 18: October 3rd**<br>
 Black-Scholes pricing: The rolling insurance strategy.
 Gap options.<br>
 
 [Lecture Twelve](notes/m339d-lecture-twelve-gap-options.pdf): Gap options (**prerequisite material**)
 
+<!--
 [Class notes](notes/m339w-feb-28-2022.pdf): The rolling insurance strategy. Gap options. 
+-->
 
 The "master" Black-Scholes pricing formula (**optional**) Black-Scholes prices: Currency options. Futures options (**optional**)<br>
 
@@ -435,10 +478,12 @@ Black-Scholes prices: Discrete-dividend-paying stocks. (**optional**)<br>
 
 ---
 
-**Class 19: March 2nd**<br>
+**Class 19: October 5th**<br>
 Option Greeks in the Black-Scholes model.<br>
 
+<!--
 [Class notes](notes/m339w-mar-02-2022.pdf): Option Greeks.
+-->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
 
@@ -446,82 +491,97 @@ Option Greeks in the Black-Scholes model.<br>
 
 ---
 
-**Class 20: March 4th**<br>
+**Class 20: October 7th**<br>
 Focus on the delta.<br>
 
 [Problem](problem-sets/m339w-call-delta.pdf)
 
+<!--
 [Class notes](notes/m339w-mar-04-2022.pdf): Focus on the Delta.
 
 [Quiz #13](quizzes/m339w-quiz-thirteen-delta.pdf) -- **due on Friday, March 11th**
+-->
 
 ---
 
-**Class 21: March 7th**<br>
+**Class 21: October 10th**<br>
 Option elasticity and volatility.<br>
 
 [Problem packet](problem-sets/m339w-elasticity.pdf)
 
+<!--
 [Class notes](notes/m339w-mar-07-2022.pdf): Option elasticity.
+-->
 
 **Suggested Problem**: MFE Exam Spring 2007: Problem #5 (option volatility) 
 
+<!--
 [Quiz #12](quizzes/m339w-quiz-twelve-BS-solns.pdf) -- **solutions**
 
 [Quiz #14](quizzes/m339w-quiz-fourteen-opt-vol.pdf) -- **due on Monday, March 21st**
 
 [In-Term One](exams/m339w-one-solns.pdf) -- **solutions** 
+-->
 
 ---
 
-**Class 22: March 9th**<br>
+**Class 22: October 12th**<br>
 More on option elasticity. Focus on the gamma.<br> 
 
+<!--
 [Class notes](notes/m339w-mar-09-2022.pdf): Option elasticity [cont'd]. Gamma.
 
 [Homework #6](hw/m339w-hw6-BS-solns.pdf) -- **solutions** 
+-->
 
 ---
 
-**Class 23: March 11th**<br>
+**Class 23: October 14th**<br>
 Other Greeks.<br>
 
 [Mathematica Code](code/BSprice-greeks.nb): Black-Scholes Greeks 
 
+<!--
 [Homework #7](hw/m339w-hw7-greeks.pdf) -- **due on March 23rd**
+-->
 
 Implied volatility.<br>
 
 [Problem](problem-sets/m339w-mfe-sp2009-p17.pdf)
 
+<!--
 [Class notes](notes/m339w-mar-11-2022.pdf): Implied volatility.
 
 [Extra-Credit Homework #6](hw/m339w-extra-hw-six-binomial-amer-solns.pdf) -- **solutions**
 
 [Quiz #13](quizzes/m339w-quiz-thirteen-delta-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 24: March 21st**<br>
+**Class 24: October 17th**<br>
 Implied-volatility practice. The delta-gamma-theta approximation.<br>
 
 [Problem packet](problem-sets/m339w-delta-gamma-theta.pdf)
 
+<!--
 [Class notes](notes/m339w-mar-21-2022.pdf): The delta-gamma-theta approximation.
 
 [Quiz #14](quizzes/m339w-quiz-fourteen-opt-vol-solns.pdf) -- **solutions**
 
 [Quiz #15](quizzes/m339w-quiz-fifteen-delta-gamma-theta-approx.pdf) -- **due on Friday, March 25th**
+-->
 
 ---
 
-**Class 25: March 23rd**<br>
+**Class 25: October 19th**<br>
 Delta-hedging.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Market_maker): Market maker.
 
 [Problem](problem-sets/m339w-ifm-part1-2-p47.pdf)
 
+<!--
 [Class notes](notes/m339w-mar-23-2022.pdf): Delta-hedging.
 
 [Homework #7](hw/m339w-hw7-greeks-solns.pdf) -- **solutions**
@@ -529,12 +589,14 @@ Delta-hedging.<br>
 [Quiz #16](quizzes/m339w-quiz-sixteen-hedging.pdf) -- **due on Monday, March 28th**
 
 [Homework #8](hw/m339w-hw8-impl-vol.pdf) -- **due on Wednesday, March 30th**
+-->
 
 ---
 
-**Class 26: March 25th**<br>
+**Class 26: October 21st**<br>
 Delta-hedger's profit. Delta-gamma hedging.<br>
 
+<!--
 [Class notes](notes/m339w-mar-25-2022.pdf): Delta-hedger's profit. Delta-gamma hedging.
 
 [Quiz #15](quizzes/m339w-quiz-fifteen-delta-gamma-theta-approx-solns.pdf) -- **solutions**
@@ -542,37 +604,42 @@ Delta-hedger's profit. Delta-gamma hedging.<br>
 [Quiz #17](quizzes/m339w-quiz-seventeen-delta-hedger-profit.pdf) -- **due on Friday, April 1st**
 
 [Graduate Homework #3](hw/m339w-ghw-three.pdf) -- **due on Wednesday, April 13th**
+-->
 
 [In-Term Two](exams/m339w-two-topics.pdf): Topics 
 
 
 ---
 
-**Class 27: March 28th**<br>
+**Class 27: October 24th**<br>
 Exchange options.<br>
 
 [Lecture Thirteen](notes/m339d-lecture-13-exchange-options.pdf): Exchange options (**for review from M339D**)
 
+<!--
 [Class notes](notes/m339w-mar-28-2022.pdf): Exchange options.
 
 [Quiz #16](quizzes/m339w-quiz-sixteen-hedging-solns.pdf) -- **solutions**
 
 [Homework #9](hw/m339w-hw9-hedging-exchange.pdf) -- **due on Wednesday, April 13th**
+-->
 
 ---
 
-**Class 28: March 30th**<br>
+**Class 28: October 26th**<br>
 My favorite problem.<br>
 
 [Problem](problem-sets/m339w-bs-exchange.pdf)
 
+<!--
 [Class notes](notes/m339w-mar-30-2022.pdf): My favorite IFM problem.
 
 [Homework #8](hw/m339w-hw8-impl-vol-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 29: April 1st**<br>
+**Class 29: October 28th**<br>
 Analyzing the project. Break-even analysis.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Cost_of_capital): Cost of capital.
@@ -591,6 +658,7 @@ Information, competition, and stock prices. The efficient market hypothesis. His
 
 [Problem packet](problem-sets/m339w-npv-exp-vol.pdf)
 
+<!--
 [Class notes](notes/m339w-apr-01-2022.pdf): Break-even analysis. Expected return of a portfolio.
 
 [Extra class notes](notes/m339w-exp-return.pdf): Expected return of a portfolio.
@@ -600,34 +668,38 @@ Information, competition, and stock prices. The efficient market hypothesis. His
 [Quiz #18](quizzes/m339w-quiz-eighteen-npv.pdf) -- **due on Monday, April 11th**
 
 [In-Term Two](exams/m339w-two.pdf) -- **due on Friday, April 8th** 
+-->
 
 ---
 
-**Class 30: April 4th**<br>
+**Class 30: October 31st**<br>
 The volatility of a two-stock portfolio.<br>
 
 [Problem packet](problem-sets/m339w-vol-efficient.pdf)
 
+<!--
 [Class notes](notes/m339w-apr-04-2022.pdf): The volatility of a portfolio. 
 
 [Quiz #19](quizzes/m339w-quiz-nineteen-exp-vol.pdf) -- **due on Friday, April 15th**
+-->
 
 ---
 
-**Class 31: April 6th**<br>
+**Class 31: November 2nd**<br>
 The volatility of a large portfolio. Diversification.<br>
 
 [Class notes](notes/m339w-apr-06-2022.pdf): Diversification.
  
 ---
 
-**Class 32: April 8th**<br>
+**Class 32: November 4th**<br>
 Feasible sets. Efficient portfolios. Effect of correlation. <br>
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/TwoAssetMarkowitzFeasibleSet/): A Two-Asset Markowitz Feasible Set 
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/ThreeAssetEfficientFrontier/): A Three-Asset Feasible Set and Efficient Frontier 
 
+<!--
 [Class notes](notes/m339w-apr-08-2022.pdf): Efficient portfolios. Effect of correlation.
 
 [Extra class notes](notes/m339w-effect-of-correlation.pdf): More on the effect of correlation.
@@ -635,55 +707,59 @@ Feasible sets. Efficient portfolios. Effect of correlation. <br>
 [Homework #10](hw/m339w-hw10-intro-corp-finance.pdf) -- **due on Wednesday, April 20th**
 
 [In-Term Two](exams/m339w-two-solns.pdf) -- **solutions** 
-
+-->
 ---
 
-**Class 33: April 11th**<br>
+**Class 33: November 7th**<br>
 Sharpe ratio. <br>
 
 [Problem](problem-sets/m339w-sharpe.pdf)
 
+<!--
 [Class notes](notes/m339w-apr-11-2022.pdf): Sharpe ratio.
 
 [Quiz #18](quizzes/m339w-quiz-eighteen-npv-solns.pdf) -- **solutions**
 
 [Quiz #20](quizzes/m339w-quiz-twenty-Sharpe.pdf) -- **due on Monday, April 18th** 
-
+-->
 ---
 
-**Class 34: April 13th**<br>
+**Class 34: November 9th**<br>
 Required returns. Betas of stocks.<br>
 
 [Problem packet](problem-sets/m339w-required-returns.pdf)
 
+<!--
 [Class notes](notes/m339w-apr-13-2022.pdf): Required returns.
 
 [Extra class notes](notes/m339w-required-returns.pdf): More on required returns.
 
 [Homework #9](hw/m339w-hw9-hedging-exchange-solns.pdf) -- **solutions**
-
+-->
 ---
 
-**Class 35: April 15th**<br>
+**Class 35: November 11th**<br>
 The Capital Asset Pricing Model (CAPM).
 
 [Wikipedia](https://en.wikipedia.org/wiki/Capital_asset_pricing_model): CAPM 
 
+<!--
 [Class notes](notes/m339w-apr-15-2022.pdf): CAPM.
 
 [Quiz #19](quizzes/m339w-quiz-nineteen-exp-vol-solns.pdf) -- **solutions**
 
 [Quiz #21](quizzes/m339w-quiz-twenty-one-req-ret.pdf) -- **due on Friday, April 22nd**
 
-[Homework #11](hw/m339w-hw11-corp-finance.pdf) -- **due on Wednesday, April 27th** 
+[Homework #11](hw/m339w-hw11-corp-finance.pdf) -- **due on Wednesday, April 27th** -->
 
 ---
 
-**Class 36: April 18th**<br>
+**Class 36: November 14th**<br>
 Alphas of stocks.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Linear_regression): Linear regression. 
 
+<!--
 [Extra class notes](notes/m339w-alphas.pdf): Alphas of stocks.
 
 [Problem](problem-sets/m339w-alphas.pdf)
@@ -695,11 +771,12 @@ Alphas of stocks.<br>
 [Quiz #22](quizzes/m339w-quiz-twenty-two-capm.pdf) -- **due on Monday, April 25th**
 
 [Quiz #23](quizzes/m339w-quiz-twenty-three-sml.pdf) -- **due on Friday, April 29th** 
-
+-->
 Behavior of individual investors. Systematic trading biases.<br>
 
+<!--
 [Class notes](notes/m339w-apr-18-2022.pdf): Alphas. Behavior of individual investors.
-
+-->
 [An article on familiarity bias.](http://bogan.dyson.cornell.edu/doc/Hartford/Bogan-6_Familiarity.pdf) 
 
 [Familiarity breeds investment.](https://www0.gsb.columbia.edu/mygsb/faculty/research/pubfiles/1554/Huberman-familiarity-breeds.investment.pdf) 
@@ -712,86 +789,95 @@ Behavior of individual investors. Systematic trading biases.<br>
 
 ---
 
-**Class 37: April 20th**<br>
+**Class 37: November 16th**<br>
 The efficient market hypothesis.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Efficient-market_hypothesis): Efficient-market hypothesis. 
 
 [Problem packet](problem-sets/m339w-emh.pdf)
 
+<!--
 [Extra class notes](notes/m339w-emh.pdf): EMH.
 
 [Quiz #24](quizzes/m339w-quiz-twenty-four-behavior.pdf) -- **due on Monday, May 2nd** 
-
+-->
 Multifactor models.<br>
 
 [Problem](problem-sets/m339w-multifactor.pdf)
 
+<!--
 [Class notes](notes/m339w-apr-20-2022.pdf): EMH. Multifactor models.
 
 [Extra class notes](notes/m339w-multifactor-extra.pdf): More on multifactor models.
-
+-->
 [Wikipedia](https://en.wikipedia.org/wiki/Multiple_factor_models): Multifactor models. 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Fama%E2%80%93French_three-factor_model): The Fama-French model. 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Carhart_four-factor_model): The Carhart four-factor model. 
 
+<!--
 [Homework #10](hw/m339w-hw10-intro-corp-finance-solns.pdf) -- **solutions**
 
 [Quiz #25](quizzes/m339w-quiz-twenty-five-multifactor.pdf) -- **due on Friday, May 6th** 
-
+-->
 ---
 
-**Class 38: April 22nd**<br>
+**Class 38: November 18th**<br>
 Modigliani-Miller I.<br>
 
 [Problem packet](problem-sets/m339w-mm.pdf)
 
+<!--
 [Class notes](notes/m339w-apr-22-2022.pdf): Modigliani-Miller I.
-
+-->
 [Wikipedia](https://en.wikipedia.org/wiki/Modigliani%E2%80%93Miller_theorem): The Modigliani-Miller Theorem
 
+<!--
 [Quiz #21](quizzes/m339w-quiz-twenty-one-req-ret-solns.pdf) -- **solutions**
-
+-->
 ---
 
-**Class 39: April 25th**<br>
+**Class 39: November 28th**<br>
 Modigliani-Miller II.
 
 [Problem](problem-sets/m339w-debt-equity.pdf)
 
+<!--
 [Class notes](notes/m339w-apr-25-2022.pdf): Modigliani-Miller II.
 
 [Quiz #22](quizzes/m339w-quiz-twenty-two-capm-solns.pdf) -- **solutions**
-
+-->
 ---
 
-**Class 40: April 27th**<br>
+**Class 40: November 30th**<br>
 The effect of taxes on the capital structure.<br>
 
 [Problem packet](problem-sets/m339w-taxes.pdf)
 
+<!--
 [Class notes](notes/m339w-apr-27-2022.pdf): The effect of taxes.
 
 [Homework #11](hw/m339w-hw11-corp-finance-solns.pdf) -- **solutions** 
-
+-->
 ---
 
-**Class 41: April 29th**<br>
+**Class 41: December 2nd**<br>
 The effect of taxes on the capital structure [practice].<br>
 
+<!--
 [Class notes](notes/m339w-apr-29-2022.pdf): The effect of taxes (problems).
 
 [Quiz #23](quizzes/m339w-quiz-twenty-three-sml-solns.pdf) -- **solutions** 
-
+-->
 ---
 
-**Class 42: May 2nd**<br>
+**Class 42: December 5th**<br>
 Options embedded in insurance products.
 
 [Problem packet](problem-sets/m339w-gmdb-etc.pdf)
 
+<!--
 [Class notes](notes/m339w-may-02-2022.pdf): GMDB.
 
 [Quiz #24](quizzes/m339w-quiz-twenty-four-behavior-solns.pdf) -- **solutions** 
