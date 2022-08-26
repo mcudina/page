@@ -43,10 +43,6 @@ Orientation. <br>
 
 [Class notes](notes/m358k-aug-22-2022.pdf) 
 
-<!--
-[Quiz #1](quizzes/m358k-quiz-one.pdf) - due on **Friday, August 27th**
--->
-
 [Open course video](https://youtu.be/rG-SLQ2uF8U): The definition of probability and first properties
 
 [Open course video](https://youtu.be/HxEz4ZHUY5Y): Conditional probability. Probability trees. Bayes theorem. 
@@ -70,6 +66,12 @@ Setting up R and RStudio.<br>
 
 **Class 3: August 26th**<br>
 Basics of R.<br>
+
+[Warm-up worksheet #1](ww/m358k-ww1-common-sense.pdf) 
+
+<!--
+[Warm-up worksheet #1](ww/m358k-ww1-common-sense-solns.pdf) 
+-->
 
 [The basic R slideshow](instructions/m358k-basic-R.html)
 
