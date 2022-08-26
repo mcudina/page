@@ -77,6 +77,10 @@ Basics of R.<br>
 
 [The basic R "cheatsheet"](https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf)
 
+[Homework Instructions](instructions/m358k-hw-instructions.html) -- if in doubt, read and understand all of this before you work on your homework/project
+
+[Homework Template](code/homework-template.Rmd) -- this is the template you can use to complete your homework assignments and projects 
+
 [Project #1: Part #1](projects/m358k-team-contract.docx) -- due on **Monday, September 12th**
 
 [Project #1: Part #2](projects/m358k-project-one.pdf) -- due on **Monday, September 12th**
@@ -95,11 +99,6 @@ R-scripts. R-notebooks.<br>
 
 [Homework #1](hw/m358k-hw-one-solns.pdf) -- **solutions**
 -->
-
-[Homework Instructions](instructions/m358k-hw-instructions.html) -- if in doubt, read and understand all of this before you work on your homework/quiz
-
-[Homework Template](code/homework-template.Rmd) -- this is the template you can use to
-complete your computational quizzes, homework assignments and projects 
 
 ---
 
