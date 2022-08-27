@@ -99,9 +99,7 @@ Functions in R. `If ... else` in R.<br>
 [If ... else](https://www.datamentor.io/r-programming/if-else-statement/)
 
 <!--
-[Quiz #2](quizzes/m358k-quiz-two.pdf) - due on **Friday, September 3rd**
-
-[Quiz #2](code/m358k-quiz-two.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
+[The R-script from class](code/toy-ftions-if-inclass.R)
 
 [Homework #1](hw/m358k-hw-one-solns.pdf) -- **solutions**
 -->
@@ -112,11 +110,7 @@ Functions in R. `If ... else` in R.<br>
 Review of discrete random variables.<br>
 
 <!--
-[The R-script from class](code/toy-ftions-if-inclass.R)
-
 [Class notes](notes/m358k-sept-03-2021.pdf) 
-
-[Quiz #2](quizzes/m358k-quiz-two-solns.pdf) - **solutions**
 -->
 
 Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br>
@@ -133,11 +127,9 @@ Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br
 
 [Open course video](https://youtu.be/tKmyzhvgudw): A review of the binomial distribution
 
-<!--
-[Homework #2](hw/m358k-hw-two.pdf) -- due on **Wednesday, September 8th**
+[Homework #2](hw/m358k-hw-two.pdf) -- due on **Friday, September 16th**
 
 [Homework #2](code/m358k-hw-two.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
--->
 
 ---
 
