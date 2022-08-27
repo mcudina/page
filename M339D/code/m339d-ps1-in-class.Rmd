@@ -1,0 +1,110 @@
+---
+title: "Problem Set #1: In Class"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+Create an `R`-notebook which prints out the answers to the following problems. All of your work and calculations **must** be done in `R`.
+
+# Arithmetic (1 point each)
+## Problem 1. 
+Divide 792 by 11. 
+
+*Solution:*
+```{r}
+792/11
+```
+
+
+## Problem 2. 
+Find the square root of $\pi$
+
+```{r}
+sqrt(pi)
+```
+
+## Problem 3. 
+Calculate $e^2$
+
+```{r}
+exp(2)
+```
+
+
+## Problem 4. 
+Find the fourth root of 256.
+
+```{r}
+256**(1/4)
+256^(1/4)
+```
+
+## Problem 5. 
+Calculate the natural logarithm of 2.
+
+```{r}
+log(2)
+```
+
+
+# Variables and vectors
+## Problem 6. **(2 points)** 
+Assign the value 3 to variable `a` and  the value 7 to variable `b`; print out their product
+
+```{r}
+a=3
+b=7
+a*b
+(a*b)
+print(a*b)
+```
+
+
+## Problem 7. **(3 points)** 
+Set the vector `v` to be the numbers between -2 and 4 (inclusive); set the vector `w` to be the first 7 natural numbers; what do you get when you multiply `v` by `w`?
+
+```{r}
+v=-2:4
+v
+w=1:7
+w
+v*w
+```
+
+# Loops
+## Problem 8. **(5 points)**
+Write and execute a chunk of code which calculates and prints out the sum of squares of the first $n$ natural numbers for $n=1, 2, \dots, 25$. 
+
+*Solution:*
+This is how we would create the sum of squares of the first $10$ numbers:
+```{r}
+x=1:10
+w=x^2
+sum(w)
+sum((1:10)^2)
+```
+The full solution is:
+```{r}
+for(n in 1:25){
+  print(sum((1:n)^2))
+}
+```
+

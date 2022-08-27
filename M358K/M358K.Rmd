@@ -58,22 +58,18 @@ Setting up R and RStudio.<br>
 
 [The R-script from class](code/first-script.R)
 
-<!--
-[Quiz #1](quizzes/m358k-quiz-one-solns.pdf) - **solutions**
--->
-
 ---
 
 **Class 3: August 26th**<br>
 Basics of R.<br>
 
-[Warm-up worksheet #1](ww/m358k-ww1-common-sense.pdf) 
+[Warm-up worksheet #1](ww/m358k-ww1-common-sense.pdf): Problems 
 
-<!--
-[Warm-up worksheet #1](ww/m358k-ww1-common-sense-solns.pdf) 
--->
+[Warm-up worksheet #1](ww/m358k-ww1-common-sense-solns.pdf): Solutions
 
 [The basic R slideshow](instructions/m358k-basic-R.html)
+
+[The R-notebook from class](code/first-notebook.Rmd)
 
 [The basic R "cheatsheet"](https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf)
 
