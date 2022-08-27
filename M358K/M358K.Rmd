@@ -52,7 +52,7 @@ Orientation. <br>
 ---
 
 **Class 2: August 24th**<br>
-Setting up R and RStudio.<br>
+Setting up R and RStudio. Basics of R.<br>
 
 [The instructions slideshow](instructions/m358k-R-instructions.html)
 
@@ -61,7 +61,7 @@ Setting up R and RStudio.<br>
 ---
 
 **Class 3: August 26th**<br>
-Basics of R.<br>
+R-scripts. R-notebooks.<br>
 
 [Warm-up worksheet #1](ww/m358k-ww1-common-sense.pdf): Problems 
 
@@ -86,7 +86,17 @@ Basics of R.<br>
 ---
 
 **Class 4: August 29th**<br>
-R-scripts. R-notebooks.<br>
+Functions in R. `If ... else` in R.<br>
+
+[Warm-up worksheet #2](code/m358k-ww2-basic-r.Rmd): Problems 
+
+<!--
+[Warm-up worksheet #2](code/m358k-ww2-basic-r-solns.Rmd): Solutions
+-->
+
+[A tutorial on functions in R](https://www.tutorialspoint.com/r/r_functions.htm)
+
+[If ... else](https://www.datamentor.io/r-programming/if-else-statement/)
 
 <!--
 [Quiz #2](quizzes/m358k-quiz-two.pdf) - due on **Friday, September 3rd**
@@ -99,11 +109,7 @@ R-scripts. R-notebooks.<br>
 ---
 
 **Class 5: August 31st**<br> 
-Functions in R. `If ... else` in R. Review of discrete random variables.<br>
-
-[A tutorial on functions in R](https://www.tutorialspoint.com/r/r_functions.htm)
-
-[If ... else](https://www.datamentor.io/r-programming/if-else-statement/)
+Review of discrete random variables.<br>
 
 <!--
 [The R-script from class](code/toy-ftions-if-inclass.R)
