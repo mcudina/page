@@ -49,6 +49,8 @@ Orientation. <br>
 
 [Homework #1](hw/m358k-hw-one.pdf) -- due on **Friday, September 9th**
 
+[Homework #1](code/m358k-hw-one-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
+
 ---
 
 **Class 2: August 24th**<br>
@@ -90,17 +92,15 @@ Functions in R. `If ... else` in R.<br>
 
 [Warm-up worksheet #2](code/m358k-ww2-basic-r.Rmd): Problems 
 
-<!--
 [Warm-up worksheet #2](code/m358k-ww2-basic-r-solns.Rmd): Solutions
--->
 
 [A tutorial on functions in R](https://www.tutorialspoint.com/r/r_functions.htm)
 
 [If ... else](https://www.datamentor.io/r-programming/if-else-statement/)
 
-<!--
 [The R-script from class](code/toy-ftions-if-inclass.R)
 
+<!--
 [Homework #1](hw/m358k-hw-one-solns.pdf) -- **solutions**
 -->
 

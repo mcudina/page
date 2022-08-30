@@ -1,0 +1,68 @@
+---
+title: "Homework assignment #1"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+# Definitions
+## Problem 1. **(5 points)**
+Write down the definition of *independence* of two *events*.
+
+## Problem 2. **(5 points)**
+Write down the definition of the *cumulative distribution function* of a random variable.
+
+
+---
+
+# Problems
+## Problem 3. **(9 points)**
+Let $\Omega = \{a_1,  a_2, a_3, a_4, a_5\}$ be an outcome space, and let $\mathbb{P}$ be a probability on $\Omega$. Assume that $\mathbb{P}[A] = 0.5$, $\mathbb{P}[B]=0.4$, $\mathbb{P}[C]=0.4$, and $\mathbb{P}[D]=0.2$, where
+\begin{equation}\nonumber
+ \begin{split}
+ A &= \{a_1,a_2,a_3\}, \ B =
+  \{a_2,a_3,a_4\},\\  C &= \{a_3,a_5\}\text{ and } D=\{a_4\}.
+ \end{split}
+\end{equation}
+Are the events $A$ and $B$ independent? Why?
+
+
+---
+
+# Textbook problems
+## Problem 4. **(4 points)** 
+Solve **Problem 3.4** from the textbook. 
+
+
+## Problem 5. **(4 points)** 
+Solve **Problem 3.6** from the textbook. 
+
+
+## Problem 6. **(a-e are 2 points each; f is 5 points=15 points total)**\
+Solve **Problem 3.8** from the textbook.
+
+
+## Problem 7. **(4 points)** 
+Solve **Problem 3.20** from the textbook.
+
+
+## Problem 8. **(4 points)** 
+Solve **Problem 3.22** from the textbook.
+
