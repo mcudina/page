@@ -1,0 +1,119 @@
+---
+title: "The Duke GPA Data Analysis: In Class"
+author: "the class"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Task 1. 
+First, we will read the data from our csv file "gpa.csv" into a data.frame called `gpa.data`:
+```{r}
+gpa.data<-read.csv("gpa.csv")
+#gpa.data
+```
+
+If you want to see what your data.frame looks like, you can click on it in the **Global environment** in the upper right pane. The data.frame will get displayed in the upper left pane. 
+
+## Task 2.
+You interested in the types and names of the variables in your data.frame. What do you run?
+```{r}
+ls.str(gpa.data)
+```
+
+You see that the students/**cases** all have corresponding **rows**. They are labeled by the row indices. The **column** names stand for the variable names.
+
+Then, you can do a bit of exploratory analysis. 
+
+## Task 3. 
+What are the minimum and maximum GPAs? What is the mean GPA? What is the median GPA?
+
+```{r}
+gpa<-gpa.data$gpa
+min(gpa)
+max(gpa)
+mean(gpa)
+sd(gpa)
+summary(gpa)
+```
+
+
+## Task 4. 
+Plot the histogram of the GPAs. Make sure that your plot has the main title and that the axes are also labeled. 
+
+```{r}
+hist(gpa,
+     breaks=15,
+     main="Histogram of GPA",
+     xlab="GPA",
+     ylab="Frequency",
+     col="lightblue")
+```
+
+## Task 5. 
+Plot the histogram of the number of hours spent studying per week. Make sure that your plot has the main title and that the axes are also labeled. 
+
+```{r}
+hrs<-gpa.data$studyweek
+hist(hrs,
+     breaks=18,
+     main="Histogram of hours spent studying",
+     xlab="Hours",
+     ylab="Frequency",
+     col="steelblue")
+```
+
+## Task 6. 
+Is the mean number of hours spent studying different for females than for males? 
+
+```{r}
+gpa.data$gender
+gpa.data$gender=="female"
+hrs.f=hrs[gpa.data$gender=="female"]
+hrs.f
+hrs.m=hrs[gpa.data$gender=="male"]
+hrs.m
+mean(hrs.f)-mean(hrs.m)
+```
+
+
+## Task 7. 
+Any difference in the GPA?
+```{r}
+gpa.f=gpa[gpa.data$gender=="female"]
+gpa.m=gpa[gpa.data$gender=="male"]
+mean(gpa.f)-mean(gpa.m)
+```
+
+## Task 8. 
+Is there a relationship between the hours studied and the GPA?
+
+```{r}
+plot(hrs,gpa, pch=19, col="blue",
+     main="Scatterplot of hours studied and GPA",
+     xlab="Hours",
+     ylab="GPA")
+slr=lm(gpa ~ hrs)
+slr
+summary(slr)
+abline(slr, col="red")
+```
+
+## Task x. 
+What else could we ask? 
