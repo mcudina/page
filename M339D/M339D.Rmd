@@ -102,18 +102,26 @@ Data. <br>
 **Class 5: August 31st**<br>
 Functions in R. `If ... else` in R. `For` loops.<br> 
 
----
+[The R-script from class](code/ftions-ifelse.R)
 
-**Class 6: September 2nd**<br>
-Standing assumptions and conventions. Risky assets. Transaction costs. <br>
+Background. 
 
 [Lecture One](lectures/m339d-lecture-one-background.pdf): Background.
+
+Prerequisite review. 
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf): **Problems**
 
 <!--
 [Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
 -->
+
+[Class notes](notes/m339d-aug-31-2022.pdf) 
+
+---
+
+**Class 6: September 2nd**<br>
+Standing assumptions and conventions. Risky assets. Transaction costs. <br>
 
 [Lecture Two](lectures/m339d-lecture-two-transaction-costs.pdf): Transaction Costs
 
