@@ -143,6 +143,8 @@ Simulations of random variables. Plots. Histograms.
 
 [An atmospheric RNG](https://www.random.org/)
 
+[Setting a seed in `R`](https://r-coder.com/set-seed-r/)
+
 <!--
 [Class notes](notes/m358k-sept-08-2021.pdf) 
 
