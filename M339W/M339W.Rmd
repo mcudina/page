@@ -162,6 +162,8 @@ Binomial option pricing [review]. <br>
 [Homework #1](hw/m339w-hw1-prereq-solns.pdf) -- **solutions** 
 -->
 
+[Extra class notes](notes/m339w-jan-28-2022.pdf): More on binomial option pricing.
+
 Binomial pricing of currency options. **(review)** 
 
 [Class notes](notes/m339w-jan-27-2021.pdf): Currency options (the binomial model). **(review)**
@@ -175,19 +177,13 @@ Binomial pricing of futures options. **(review)**
 ---
 
 **Class 5: August 31st**<br>
-More on binomial option pricing.<br>
-
-<!--
-[Class notes](notes/m339w-jan-28-2022.pdf): More on binomial option pricing. 
--->
-
 Binomial pricing of American options [review].<br>
 
-<!--
-[Class notes](notes/m339w-jan-31-2022.pdf): Binomial pricing of American options.
+[Class notes](notes/m339w-aug-31-2022.pdf): Binomial pricing of American options.
 
 [Old class notes](notes/m339w-sept-01-2021.pdf): Binomial pricing of American options [problems].
 
+<!--
 [Extra-Credit Homework #1](hw/m339w-extra-hw-one-forwards-solns.pdf) -- **solutions**
 
 [Quiz #3](quizzes/m339w-quiz-three-slln-mc-solns.pdf) -- **solutions** 
