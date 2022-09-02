@@ -180,9 +180,17 @@ Data presentation [graphical]
 
 [Open course video](https://youtu.be/7NhNeADL8fA): Exploring categorical data
 
+[Data](data/pie-survey.csv): Favorite pies
+
 <!--
 R notebook [cat-data.Rmd](code/cat-data.Rmd)
 -->
+
+---
+
+**Class 8: September 9th**<br>
+Data presentation [more on graphical; numerical]
+<span style="color: purple;">**(Sections 2.1.2, 2.1.3, 2.1.4)**</span>\
 
 [Data](data/antibiotics.csv): Pre-existing conditions data - courtesy of the *Open Course Statistics*
 
@@ -191,12 +199,6 @@ R notebook [cat-data.Rmd](code/cat-data.Rmd)
 
 [Quiz #4](code/m358k-quiz-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
 -->
-
----
-
-**Class 8: September 9th**<br>
-Data presentation [more on graphical; numerical]
-<span style="color: purple;">**(Sections 2.1.2, 2.1.3, 2.1.4)**</span>\
 
 [Data](data/titanic.csv): Simplified Titanic data - courtesy of the *Journal of Statistics Education* 
 
