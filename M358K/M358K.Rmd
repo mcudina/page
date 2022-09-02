@@ -147,15 +147,15 @@ Simulations of random variables. Plots. Histograms.
 
 <!--
 [Homework #2](hw/m358k-hw-two-solns.pdf) -- **solutions**
+-->
 
-[Homework #3](hw/m358k-hw-three.pdf) -- due on **Wednesday, September 15th**
+[Homework #3](hw/m358k-hw-three.pdf) -- due on **Friday, September 23rd, 2022**
 
 [Homework #3](code/m358k-hw-three.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework 
 
-[Project #2](projects/m358k-project-two.pdf) -- **due on Monday, September 27th** 
+[Project #2](projects/m358k-project-two.pdf) -- **due on Monday, September 26h** 
 
 [Project #2](code/m358k-project-two.Rmd) -- this is the Rmd file which you are more than welcome to use to neatly complete your project 
--->
 
 What is statistics? 
 <span style="color: purple;">**(Sections 1.2.1, 1.2.2)**</span><br>
@@ -182,11 +182,11 @@ Data presentation [graphical]
 
 <!--
 R notebook [cat-data.Rmd](code/cat-data.Rmd)
+-->
 
-[Quiz #3](quizzes/m358k-quiz-three-solns.pdf) -- **solutions**
+[Data](data/antibiotics.csv): Pre-existing conditions data - courtesy of the *Open Course Statistics*
 
-[Data](data/antibiotics.csv): Pre-existing conditions data - courtesy of the *Open Course Statistics*: this data set is necessary for *Quiz #4*
-
+<!--
 [Quiz #4](quizzes/m358k-quiz-four.pdf) -- **due on Friday, September 17th**
 
 [Quiz #4](code/m358k-quiz-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
