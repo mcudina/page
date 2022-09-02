@@ -148,10 +148,6 @@ Simulations of random variables. Plots. Histograms.
 
 [The R-script from class](code/sample-replicate-binom.R)
 
-[Quiz #3](quizzes/m358k-quiz-three.pdf) -- **due on Friday, September 10th**
-
-[Quiz #3](code/m358k-quiz-three.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
-
 [Homework #2](hw/m358k-hw-two-solns.pdf) -- **solutions**
 
 [Homework #3](hw/m358k-hw-three.pdf) -- due on **Wednesday, September 15th**
@@ -176,7 +172,11 @@ What is statistics?
 Data presentation [graphical]
 <span style="color: purple;">**(Sections 2.2.1, 2.2.5)**</span><br>
 
+[Warm-up worksheet #3](code/m358k-ww3-sims-probs.Rmd): Problems
+
 <!--
+[Warm-up worksheet #3](code/m358k-ww3-sims-solns.Rmd): Solutions
+
 [The R-script from class](code/plot.R)
 -->
 
