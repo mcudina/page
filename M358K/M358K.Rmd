@@ -109,17 +109,15 @@ Functions in R. `If ... else` in R.<br>
 **Class 5: August 31st**<br> 
 Review of discrete random variables.<br>
 
-<!--
-[Class notes](notes/m358k-sept-03-2021.pdf) 
--->
-
 Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br>
 
-[Wikipedia: Bernoulli trials](https://en.wikipedia.org/wiki/Bernoulli_trial) 
+[Wikipedia: Bernoulli trials](https://en.wikipedia.org/wiki/Bernoulli_trial) -- if you are interested 
 
-[Wikipedia: Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli)
+[Wikipedia: Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli) -- if you are interested  
 
-[Wikipedia: The Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution) 
+[Wikipedia: The Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution) -- if you are interested
+
+[Class notes](notes/m358k-aug-31-2022.pdf) 
 
 [Mathematica demonstration: The Binomial Distribution](http://demonstrations.wolfram.com/BinomialDistribution/) 
 
