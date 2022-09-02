@@ -141,11 +141,11 @@ Simulations of random variables. Plots. Histograms.
 
 [Setting a seed in `R`](https://r-coder.com/set-seed-r/)
 
+[Class notes](notes/m358k-sept-02-2022.pdf) 
+
+[The R-script from class](code/war-etc.R)
+
 <!--
-[Class notes](notes/m358k-sept-08-2021.pdf) 
-
-[The R-script from class](code/sample-replicate-binom.R)
-
 [Homework #2](hw/m358k-hw-two-solns.pdf) -- **solutions**
 
 [Homework #3](hw/m358k-hw-three.pdf) -- due on **Wednesday, September 15th**
