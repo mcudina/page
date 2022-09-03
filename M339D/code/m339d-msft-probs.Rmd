@@ -29,15 +29,24 @@ First, we will read the data from our csv file "MSFT.csv" into a data.frame call
 Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
 
 ## Task 3. 
+What are the mean and the standard deviation of the prices?
+
+## Task 4. 
 The **simple daily return** of the stock over a day indexed by $t$ is defined as 
 $$
 \frac{\text{price at end of day $t$}-\text{price at end of day $(t-1)$}}{\text{price at end of day $(t-1)$}} 
 $$
 Construct the vector of simple daily returns over the last year. Provide a visualization of the returns. What can you say about the characteristics of the distribution based on the above plot?
 
+## Task 5. 
+What are the mean and the standard deviation of the returns?
 
-## Task 4. 
-What are the mean and the standard deviation of the prices?
+## Task 6. 
+How would you **fit** a distribution to the above histogram? Let's 
+
+* propose a model for the returns; 
+* calculate the point estimates of the parameters of the model;
+* superimpose the density of the modelling distribution onto the histogram. 
 
 
 ## Task x. 
