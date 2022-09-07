@@ -172,19 +172,11 @@ Data presentation [graphical]
 
 [Warm-up worksheet #3](code/m358k-ww3-sims-probs.Rmd): Problems
 
-<!--
 [Warm-up worksheet #3](code/m358k-ww3-sims-solns.Rmd): Solutions
 
-[The R-script from class](code/plot.R)
--->
+[The R-script from class](code/plots.R)
 
 [Open course video](https://youtu.be/7NhNeADL8fA): Exploring categorical data
-
-[Data](data/pie-survey.csv): Favorite pies
-
-<!--
-R notebook [cat-data.Rmd](code/cat-data.Rmd)
--->
 
 ---
 
@@ -192,9 +184,13 @@ R notebook [cat-data.Rmd](code/cat-data.Rmd)
 Data presentation [more on graphical; numerical]
 <span style="color: purple;">**(Sections 2.1.2, 2.1.3, 2.1.4)**</span>\
 
-[Data](data/antibiotics.csv): Pre-existing conditions data - courtesy of the *Open Course Statistics*
+[Data](data/pie-survey.csv): Favorite pies
 
 <!--
+R notebook [cat-data.Rmd](code/cat-data.Rmd)
+
+[Data](data/antibiotics.csv): Pre-existing conditions data - courtesy of the *Open Course Statistics*
+
 [Quiz #4](quizzes/m358k-quiz-four.pdf) -- **due on Friday, September 17th**
 
 [Quiz #4](code/m358k-quiz-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
@@ -343,9 +339,9 @@ Experiments <span style="color: purple;">**(Section 1.4)**</span><br>
 **Class 14: September 23rd**<br>
 Review of continuous distributions. Expectation. Variance. <br>
 
-<!--
 [Class notes](notes/m358k-sept-24-2021.pdf) 
 
+<!--
 [Quiz #5](quizzes/m358k-quiz-five-solns.pdf) -- **solutions**
 
 [Quiz #6](quizzes/m358k-quiz-six.pdf) -- **due on Friday, October 1st**

@@ -1,6 +1,6 @@
 ---
-title: "Warm-up worksheet #3: In class"
-author: "Fantastic Students"
+title: "Warm-up worksheet #3: Solutions"
+author: "Milica Cudina"
 date: "`r Sys.Date()`"
 output: pdf_document
 ---
@@ -27,9 +27,8 @@ Draw 100 simulated values from $Bernoulli(p=0.2)$. What is the proportion of "su
 
 *Solution:*
 ```{r}
-sims=rbinom(100, size=1, prob=0.2)
-sum(sims)/100
-mean(sims)
+x=rbinom(100,1,0.2)
+sum(x)/100
 ```
 
 ## Problem 2.  
@@ -37,14 +36,13 @@ Draw 1000 simulated values from $Binomial(n=100, p=0.2)$. Plot the histogram of 
 
 *Solution:*
 ```{r}
-sims.bin=rbinom(1000, size=100, prob=0.2)
-hist(sims.bin, breaks=seq(-0.5, 100.5, 1),
-     main="Histogram of my simulated values",
+x=rbinom(1000,100,0.2)
+hist(x, breaks=seq(-0.5,100.5,1),
+     main="Histogram of my simulated values from Binomial(100,0.2)", 
      xlab="My simulated values", 
      ylab="Counts",
-     col="bisque")
+     col="pink")
 ```
-
 
 ## Problem 3.  
 Consider the following two-step experiment. First you draw a simulated value from a Bernoulli(p=1/3). If the drawn value from the Bernoulli equals $0$, then you draw a simulated value from Binomial(n=50,p=0.5). On the other hand, if the drawn value from the Bernoulli equals $1$, then you draw a simulated value from Binomial(100,0.5). 
@@ -54,22 +52,20 @@ You should repeat the above two-step experiment $1000$ times and draw the histog
 *Solution:*
 ```{r}
 nsim=1000
-sims.mix=c()
-#sims.mix=numeric()
-#sims.mix=numeric(nsim)
+sims<-c()
 for(i in 1:nsim){
-  coin=rbinom(n=1,size=1,prob=1/3)
-  if (coin==0){
-    new.sim=rbinom(1,size=50, prob=0.5)
+  coin<-rbinom(n=1,size=1,prob=1/3)
+  if(coin==0){
+    new.sim<-rbinom(1,50,0.5)
   } else {
-    new.sim=rbinom(1, size=100, prob=0.5)
+    new.sim<-rbinom(1,100,0.5)
   }
-  sims.mix=c(sims.mix,new.sim)
+  sims<-c(sims,new.sim)
 }
-
-hist(sims.mix, breaks=seq(-0.5,100.5, 1),
-     main="Histogram of simulated values",
-     xlab="Simulated values",
+hist(sims,breaks=seq(-0.5,100,1),
+     main="Histogram of my simulated values", 
+     xlab="My simulated values", 
+     ylab="Counts",
      col="purple")
 ```
 
