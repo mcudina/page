@@ -1,0 +1,91 @@
+---
+title: "The Historical Microsoft Analysis"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Task 1. 
+First, we will read the data from our csv file "MSFT.csv" into a data.frame called `msft`:
+```{r}
+msft<-read.csv("MSFT.csv")
+```
+
+## Task 2.
+Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
+```{r}
+close.price<-msft$Close
+length(close.price)
+plot(close.price, pch=20, col="blue", type="l",
+     main="Daily closing prices of Microsoft over the last year", 
+     xlab="Time",
+     ylab="Price")
+```
+
+## Task 3. 
+What are the mean and the standard deviation of the prices?
+```{r}
+mean(close.price)
+sd(close.price)
+```
+
+## Task 4. 
+The **simple daily return** of the stock over a day indexed by $t$ is defined as 
+$$
+\frac{\text{price at end of day $t$}-\text{price at end of day $(t-1)$}}{\text{price at end of day $(t-1)$}} 
+$$
+Construct the vector of simple daily returns over the last year. Provide a visualization of the returns. What can you say about the characteristics of the distribution based on the above plot?
+Here, I construct the vector of simple daily returns and plot the histogram. 
+```{r}
+close.price.end=close.price[-1]
+close.price.beg=close.price[-length(close.price)]
+returns=(close.price.end-close.price.beg)/close.price.beg
+hist(returns,25, 
+     main="Histogram of simple daily returns of Microsoft",
+     xlab="Returns", col="bisque")
+```
+We see that the histogram is unimodal and symmetric. 
+
+## Task 5. 
+What are the mean and the standard deviation of the returns?
+```{r}
+mu=mean(returns)
+mu
+sigma=sd(returns)
+sigma
+```
+
+## Task 6. 
+How would you **fit** a distribution to the above histogram? Let's 
+
+* propose a model for the returns; 
+* calculate the point estimates of the parameters of the model;
+* superimpose the density of the modelling distribution onto the histogram. 
+
+```{r}
+hist(returns,25, 
+     main="Histogram of simple daily returns of Microsoft",
+     xlab="Returns", col="bisque", 
+     prob=TRUE)
+curve(dnorm(x, mean=mu, sd=sigma), col="brown", lwd=2, add=TRUE)
+```
+
+## Task x. 
+What else could we ask? 

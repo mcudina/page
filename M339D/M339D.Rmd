@@ -136,9 +136,13 @@ Standing assumptions and conventions. Risky assets. Transaction costs. <br>
 **Class 7: September 7th**<br>
 Historical returns of stocks.<br>
 
+[Class notes](notes/m339d-sept-07-2022.pdf) 
+
 [Yahoo! Finance](https://finance.yahoo.com)
 
 [The R-notebook for class](code/m339d-msft-probs.Rmd)
+
+[The R-notebook from class](code/m339d-msft-solns.Rmd)
 
 ---
 
