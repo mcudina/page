@@ -1,7 +1,7 @@
 ---
 title: "Categorical Data"
 author: "Milica Cudina"
-date: "9/9/2020"
+date: "`r Sys.Date()`"
 output: pdf_document
 ---
 
@@ -11,13 +11,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r, out.width="80%"}
 pies<-read.csv("pie-survey.csv")
-pielist<-table(pies$What.is.your.favorite.kind.of.pie)
+pies
+pielist<-table(pies$What.s.your.favorite.kind.of.pie)
 print(pielist)
 barplot(pielist)
 barplot(pielist, 
-        col=c("red","blue","green","orange","purple"))
+         col=c("red","blue","green","orange","purple"))
 pie(pielist,
-    col=c("red","blue","green","orange","purple"))
+     col=c("red","blue","green","orange","purple"))
 
 ```
 

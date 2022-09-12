@@ -100,10 +100,6 @@ Functions in R. `If ... else` in R.<br>
 
 [The R-script from class](code/toy-ftions-if-inclass.R)
 
-<!--
-[Homework #1](hw/m358k-hw-one-solns.pdf) -- **solutions**
--->
-
 ---
 
 **Class 5: August 31st**<br> 
@@ -186,9 +182,9 @@ Data presentation [more on graphical; numerical]
 
 [Data](data/pie-survey.csv): Favorite pies
 
-<!--
 R notebook [cat-data.Rmd](code/cat-data.Rmd)
 
+<!--
 [Data](data/antibiotics.csv): Pre-existing conditions data - courtesy of the *Open Course Statistics*
 
 [Quiz #4](quizzes/m358k-quiz-four.pdf) -- **due on Friday, September 17th**
@@ -198,11 +194,7 @@ R notebook [cat-data.Rmd](code/cat-data.Rmd)
 
 [Data](data/titanic.csv): Simplified Titanic data - courtesy of the *Journal of Statistics Education* 
 
-<!--
 R notebook [titanic.Rmd](code/titanic.Rmd)
--->
-
-[Data](data/cafedata.csv): Student-run cafe - courtesy of the *Journal of Statistics Education* 
 
 [xkcd](https://xkcd.com/1140/) 
 
@@ -220,6 +212,8 @@ R script [stacked-dotplot.R](code/stacked-dotplot.R)
 
 Here is a list of fun sites which make charts: [Infogram](https://infogram.com/), [FastCharts](https://fastcharts.io/), [Flourish](https://flourish.studio/), 
 [Datawrapper](https://www.datawrapper.de/)
+
+[Data](data/cafedata.csv): Student-run cafe - courtesy of the *Journal of Statistics Education* 
 
 <!--
 [Homework #4](hw/m358k-hw-four.pdf) -- due on **Wednesday, September 22nd**
