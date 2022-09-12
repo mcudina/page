@@ -141,10 +141,6 @@ Simulations of random variables. Plots. Histograms.
 
 [The R-script from class](code/war-etc.R)
 
-<!--
-[Homework #2](hw/m358k-hw-two-solns.pdf) -- **solutions**
--->
-
 [Homework #3](hw/m358k-hw-three.pdf) -- due on **Friday, September 23rd, 2022**
 
 [Homework #3](code/m358k-hw-three.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework 
@@ -215,11 +211,9 @@ Here is a list of fun sites which make charts: [Infogram](https://infogram.com/)
 
 [Data](data/cafedata.csv): Student-run cafe - courtesy of the *Journal of Statistics Education* 
 
-<!--
 [Homework #4](hw/m358k-hw-four.pdf) -- due on **Wednesday, September 22nd**
 
-[Homework #4](code/m358k-hw-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework 
--->
+[Homework #4](code/m358k-hw-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework; you will **not** be able to knit this file as is unless you comment out or delete the `R`-chunk which inserts the picture
 
 ---
 
