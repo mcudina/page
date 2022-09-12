@@ -218,9 +218,7 @@ Subjective probabilities.
 
 [Graduate Homework #1](hw/m339w-ghw-one.pdf) -- **due on Wednesday, October 5th**
 
-<!--
 [Homework #2](hw/m339w-hw2-bin-solns.pdf) -- **solutions**
--->
 
 [Homework #3](hw/m339w-hw3-bin-subj.pdf) -- **due on Monday, September 12th**
 
@@ -233,10 +231,8 @@ Subjective probabilities.
 **Class 8: September 9th**<br>
 Binomial trees proceeding to the limit. The normal approximation to the binomial. Realized returns.<br>
 
-<!--
 [Class notes](notes/m339w-sept-10-2021.pdf): 
 Binomial trees proceeding to the limit. The normal approximation to the binomial. Realized returns.
--->
 
 [Mathematica Code](code/code_one_rnd_walk.nb): One Random Walk 
 
@@ -244,11 +240,9 @@ Binomial trees proceeding to the limit. The normal approximation to the binomial
 
 [Mathematica Code](code/m339w-binomial-tree-limit.nb): Binomial model limit 
 
-<!--
 [Quiz #5](quizzes/m339w-quiz-five-real-solns.pdf) -- **solutions** 
 
 [Extra-Credit Homework #2](hw/m339w-extra-hw-two-calls-puts-solns.pdf) -- **solutions**
--->
 
 ---
 

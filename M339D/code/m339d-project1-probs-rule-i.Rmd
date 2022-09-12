@@ -1,0 +1,159 @@
+---
+title: "Project #1: On returns and portfolios"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+urlcolor: blue
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+```{r, warning=FALSE, message=FALSE}
+library(nimble)
+```
+
+---
+
+## Problem #1 **(40 points)**
+Go to [Google historical data](https://finance.yahoo.com/quote/GOOG/history/)
+
+Then, download the historical stock prices of *Alphabet, Inc.* for the last 252 (or so) trading days, i.e., for the last year.
+
+**(5 points)** Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
+
+The **simple daily return** of the stock over a day indexed by $t$ is defined as 
+$$
+\frac{\text{price at end of day $t$}-\text{price at end of day $(t-1)$}}{\text{price at end of day $(t-1)$}} 
+$$
+**(5 points)** Construct the vector of simple daily returns over the last year. Provide a visualization of the returns. What can you say about the characteristics of the distribution based on the above plot?
+
+**(10 points)** Fit the normal distribution to the above returns. Superimpose the appropriate graph for your model onto the appropriate graph of the data to convince your reader that your model is valid.
+
+**(20 points)** You will have to install a package to solve this part of your project. First, run the following in your console: 
+
+`install.packages('nimble')`
+
+When that is finished, you need to uncomment 
+
+`library(nimble)`
+
+from the first chunk in this document. 
+
+Next, you should learn more about the **Laplace (double exponential)** distribution. This is easily done by visiting: 
+
+[Wikipedia: The Laplace distribution](https://en.wikipedia.org/wiki/Laplace_distribution)
+
+Now, you are equipped to fit the Laplace (double exponential) distribution to the above returns. To learn about the parametrization of the Laplace distribution in `R`, type `?ddexp` into the console in RStudio.
+
+After you have completed the fit, superimpose the appropriate graph for your model onto the appropriate graph of the data.
+
+
+## Problem #2 **(70 points)**
+Your initial wealth is exactly \$100. You are allowed to invest in
+shares of a particular stock. You are also allowed to both lend and
+borrow at the continuously compounded, risk-free interest rate of
+0.05. Keeping your money uninvested is \textbf{not allowed}.
+
+You can rebalance your portfolio every morning, once you have observed
+the opening stock price. This means that you can change the number of
+shares you own (if you decide to do so) and accordingly adapt your
+risk-free investment.
+
+You proceed to create a ``rule'' according to which you will be
+rebalancing your portfolio. Here are some possible rules you can use:
+
+\begin{enumerate}
+\def\labelenumi{ \bf \roman{enumi}.}
+\item {\bf (10 points)} 
+  Always own exactly one share and keep the rest of my wealth invested
+  at the risk-free rate. If needed, borrow at the continuously
+  compounded risk-free interest rate.
+\item {\bf (20 points)}
+  Always keep exactly \$100 in the stock and the rest of my wealth
+  invested at the risk-free rate. If needed, borrow at the continuously
+  compounded risk-free interest rate.
+\item {\bf (30 points)}
+  Always keep exactly one half of my wealth invested in the stock and
+  the rest of my wealth invested at the risk-free rate. If needed,
+  borrow at the continuously compounded risk-free interest rate.
+\end{enumerate}
+
+\medskip
+
+Over the following 10 days, you observe the following stock prices for a non-dividend-paying stock:
+
+\medskip
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf Day} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline
+{\bf Stock price} &100 & 80 & 64 & 80 & 64 & 80 & 100 & 80 & 64 & 80 & 100 \\
+\hline
+\end{tabular}
+
+\medskip
+
+As the time passes you follow investment rules above to rebalance your portfolio. Complete the following table describing your portfolio \textbf{just before and just after} the rebalancing is done. 
+Even more precisely, for the $10$ days, both for "before" and "after" the rebalancing, print out:
+
+* the number of shares of stock in the portfolio, 
+* the balance of the risk-free investment, 
+* the wealth in the stock, 
+* the total wealth. 
+
+\medskip
+
+*Solution:*
+First, I will make a vector containing the evolution of the stock price:
+```{r}
+s=c(100, 80, 64, 80, 64, 80, 100, 80, 64, 80, 100)
+```
+
+Define the continuously compounded, risk-free interest rate:
+```{r}
+r=0.05
+```
+
+**Rule i.**
+Always keep one share in the portfolio. 
+```{r}
+pi.v=numeric(11)
+cash=numeric(11)
+wealth=numeric(11)
+
+pi.v[1]=1
+cash[1]=0
+wealth[1]=cash[1]+pi.v[1]*s[1]
+
+rebalance.i<-function(s.beg, s.end, pi, wealth){
+  return(pi)
+}
+
+for (i in 1:10){
+  cash[i+1]=cash[i]*exp(r/365)
+  print(sprintf("Day = %d, %s", i, "before"))
+  print(sprintf("shares = %6.2f, cash = %6.2f, wealth in stock = %6.2f, total wealth = %6.2f", pi.v[i], cash[i+1], pi.v[i]*s[i+1], cash[i+1]+pi.v[i]*s[i+1]))
+  pi.v[i+1]=rebalance.i(s[i], s[i+1], pi.v[i], wealth[i])
+  print(sprintf("Day = %d, %s", i, "after"))
+  print(sprintf("shares = %6.2f, cash = %6.2f, wealth in stock = %6.2f, total wealth = %6.2f", pi.v[i+1], cash[i+1], pi.v[i+1]*s[i+1], cash[i+1]+pi.v[i+1]*s[i+1]))
+  wealth[i+1]=cash[i+1]+pi.v[i+1]*s[i+1]
+  }
+```
+
+
