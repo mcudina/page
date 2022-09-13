@@ -180,13 +180,11 @@ Data presentation [more on graphical; numerical]
 
 R notebook [cat-data.Rmd](code/cat-data.Rmd)
 
-<!--
 [Data](data/antibiotics.csv): Pre-existing conditions data - courtesy of the *Open Course Statistics*
 
-[Quiz #4](quizzes/m358k-quiz-four.pdf) -- **due on Friday, September 17th**
+[Extra credit #1](quizzes/m358k-quiz1-eda.pdf) -- **due on Friday, September 17th**; you can use the points earned towards your homework scores
 
-[Quiz #4](code/m358k-quiz-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
--->
+[Extra credit #1](code/m358k-quiz1-eda.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz; you will **not** be able to knit this file as is unless you comment out or delete the `R`-chunk which inserts the picture 
 
 [Data](data/titanic.csv): Simplified Titanic data - courtesy of the *Journal of Statistics Education* 
 
