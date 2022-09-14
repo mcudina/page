@@ -1,7 +1,7 @@
 ---
 title: "Diamonds"
 author: "Milica Cudina"
-date: "9/14/2020"
+date: "`r Sys.Date()`"
 output: pdf_document
 ---
 
