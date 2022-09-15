@@ -1,0 +1,521 @@
+% !TEX options=--shell-escape
+\documentclass[reqno,letterpaper, onsided,10pt]{amsart}
+\usepackage[dvips, foot=0.3in, left=0.7in, right=0.7in, top=1in,
+bottom=1in]{geometry}
+\usepackage{fancyhdr,lastpage,xcolor,graphicx}%, comment}
+\renewcommand{\footrulewidth}{0.1pt}
+\usepackage{mydefs}
+\usepackage{mythm_long}
+\usepackage{tikz}
+%\usepackage{minted}
+
+% Margins and settings
+
+\renewcommand{\baselinestretch}{1.1}
+\newcommand{\numeric}[1]{\text{\tiny $ \left[ \ = #1 \ \right] $}}
+\raggedbottom
+
+\newcommand{\cond}{\, | \,}
+% counters
+\newcounter{theproblem}
+
+% environments
+\theoremstyle{definition}
+
+\newcommand{\sol}[1]{\par\noindent{\bf Solution:} #1}
+\renewcommand{\sol}[1]{}
+
+\pagestyle{fancy}
+
+
+\lhead{{\sc Exam:} Practice In-term One}
+\chead{{\sc Page:} \thepage \,of \pageref{LastPage}}
+\rhead{{\sc Date:} September $14^{th}$, 2022}
+
+\lfoot{{\sc Course:} M358K}
+\cfoot{{\sc Instructor:} Milica \v Cudina}
+\rfoot{{\sc Semester:} Fall 2022}
+
+
+\begin{document}
+\thispagestyle{fancy}
+
+\begin{center}
+{{\sc University of Texas at Austin, Department of Mathematics}}\\
+M358K - Applied Statistics
+\end{center}
+
+
+\setcounter{section}{1}
+\section*{The Practice In-term One}
+
+\bigskip
+\hrule
+\bigskip
+
+\begin{problem} ($5$ points) Write down the definition of {\em independence}
+  of two {\em events}.
+\end{problem}
+
+\sol{
+Two events $A$ and $B$ are said to be {\em independent} if 
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      \PP[A \cap B] = \PP[A] \cdot \PP[B]
+    \end{split}
+\end{equation}
+}
+
+\medskip
+
+\begin{problem} ($5$ points) Write down the definition of the {\em cumulative
+    distribution function} of a random variable.  
+\end{problem}
+
+  \sol{ 
+  Let $X$ be a random variable. Its {\em cumulative distribution
+      function} is a function $F_X : \R \to [0,1]$ defined by
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      F_X(x) = \PP[X \le x], \quad \text{for every $x\in\R$}. 
+    \end{split}
+\end{equation} 
+}
+
+\medskip
+
+\begin{problem} ($20$ points) %fall 2011 and FINAL -- Spring 2012
+Four balls are drawn (without replacement) from a box which contains
+$4$ black and $5$ red
+balls. Given that the four drawn balls were {\em not} all of
+the same color, what is the probability that there were exactly two
+balls of each color among the four. 
+\end{problem}
+
+\sol{ 
+Let $A$ denote the event that the colors of
+the balls drawn are not all the same, and let $B$ denote the event
+that there are exactly two black balls and two red balls. We are
+looking for $\PP[B|A]$. Since $B\subseteq A$, we have
+\[ \PP[B|A]=\PP[B\cap A]/\PP[A]=\PP[B]/\PP[A].\]
+To compute $\PP[A]$, we note that the event $A^c$ consists of only two
+elementary outcomes: either all balls are black or all balls are red. 
+The probability of picking all red balls is 
+\[ \frac{\binom{5}{4}}{ \binom{9}{4}} \]
+while the probability of picking all black balls is
+\[ \frac{\binom{4}{4}}{\binom{9}{4}}=\frac{1}{\binom{9}{4}}. \]
+Putting these two together, we obtain
+\[ \PP[A]= 1-\frac{\binom{5}{4}+1}{\binom{9}{4}}.\]
+To compute $\PP[B]$ we note that we can choose $2$ red balls out of 
+$5$ in $\binom{5}{2}$ ways and, then, for each such choice, we have
+$\binom{4}{2}$ ways of choosing $2$ black balls from the set of 4 
+black balls. Therefore,
+\[ \PP[B] = \left( \binom{5}{2} \times \binom{4}{2} \right) \Big/
+\binom{9}{4}.\]
+Finally,
+\[ \PP[B|A] = \frac{ \binom{5}{2} \binom{4}{2} }{ \binom{9}{4} -
+\binom{5}{4} - 1 }= \frac{ 10 \times 6}{ 126 - 5 - 1}= \frac{1}{2}.\]
+}
+
+\medskip
+
+\begin{problem} ($15$ points)%fall 2011 and FINAL -- Spring 2012
+Consider a set-up in which a transmitter is transmitting either a $0$
+or a $1$ and the receiver indicates that it received either a $0$ or a
+$1$. Denote the events that $i =0,1$ was transmitted by $T_i$, and the
+events that $i=0,1$ was indicated as received by $R_i$. \\
+It is possible to have transmission errors. In fact, you are given the
+following data on accuracy and the frequency of transmitted signals: 
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      \PP[R_0 \, | \, T_0] = 0.99,  \ 
+    \PP[R_1 \, | \, T_1] = 0.98,
+    \end{split}
+\end{equation}   
+and
+\[ \PP[T_0]=0.75.\]
+\begin{itemize}
+  \item[(a)]  (10pts) Given that the receiver indicated $1$, what is the probability that
+there was an error in the transmission?
+\vskip7cm
+\item[(b)]  (5pts) What is the overall probability that there was an error in
+transmission?
+\end{itemize}
+\end{problem}
+
+\sol{
+\begin{enumerate}
+\item We need $\PP[T_0|R_1]$. By the Bayes formula,
+\begin{equation}\nonumber
+ \begin{split}
+ \PP[ T_0|R_1 ] &= \frac{\PP[ R_1|T_0]\PP[T_0]}{ \PP[
+  R_1|T_0]\PP[T_0] + \PP[R_1|T_1] \PP[T_1]}\\
+  &= \frac{ (1-0.99) \times
+  0.75}{ (1-0.99) \times 0.75 + 0.98 \times 0.25}\\ &=
+  \frac{3}{101}\cong 0.030.
+ \end{split}
+\end{equation}
+\item An error will happen if $T_0\cap R_1$ or $T_1\cap R_0$ occur,
+  i.e.,
+   \begin{equation}\nonumber
+    \begin{split}
+    \PP[\text{error}]&=\PP[ T_0\cap R_1]+ \PP[ T_1\cap R_0]\\ &=
+  \PP[R_1|T_0] \times \PP[T_0] + \PP[ R_0|T_1] \times \PP[T_1]\\
+  &= (1-\PP[R_0|T_0]) \times \PP[T_0]\\ & \qquad + (1-\PP[ R_1|T_1]) \times
+  (1-\PP[T_0]) \\
+  &= 0.01 \times 0.75 + 0.02 \times 0.25 \\ &
+  = \tfrac{1}{80}\cong 0.013
+    \end{split}
+   \end{equation}
+\end{enumerate}
+}
+
+\medskip
+
+\begin{problem} ($25$ points) %in-term one -- Fall 2018
+  {\em Source: ``Probability'' by Pitman.}\\
+  A final exam consists of multiple choice problems -- each problem
+  with $5$ offered answers only one of which is correct.  Before the
+  final exam the diligent student is given a practice set of multiple
+  choice problems. Knowing that exactly 70\% of the final exam will be
+  out of the practice set, the student works out the entire practice
+  set and gets the correct answer to each question. 
+
+When he takes the final exam, the student proceeds to answer the known
+questions correctly. However, for the remaining questions, he panics
+and chooses the answers completely at random. 
+
+\begin{itemize}
+\item[(i)] ($5$ points) What is the probability that the student
+  answers a randomly chosen question correctly? 
+\vskip4cm
+\item[(ii)] ($5$ points) {\bf Given} that the student answered a
+  particular question correctly, what is the probability that he
+  was guessing at random when he was answering that question?
+\vskip4cm
+\end{itemize}
+
+Let the total number of questions in the exam be $20$. Let the random
+variable $N$ represent the total number of questions the student
+answered correctly. 
+
+\begin{itemize}
+\item[(iii)] ($5$ points) What is the distribution of the random
+  variable $N$? 
+\vskip3cm
+\item[(iv)] ($5$ points) What is the expected value of $N$?
+\vskip4cm
+\item[(v)] ($5$ points) What is the standard deviation of $N$?  
+\end{itemize} 
+\end{problem} 
+
+\newpage
+
+\sol{
+\begin{itemize}
+\item[(i)]
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      0.7(1)+0.3(0.2) = 0.76
+    \end{split}
+\end{equation}
+\item[(ii)]
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      \frac{0.3(0.2)}{0.76} = 0.0789
+    \end{split}
+\end{equation}
+\item[(iii)]
+The random variable $N$ can be written as 
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      N = 14+ X,
+    \end{split}
+\end{equation}
+where $X \sim Binomial(n=6, p=1/5)$. 
+\item[(iv)]
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      \EE[N] = 14 + 6*0.2 = 15.2 
+    \end{split}
+\end{equation}
+\item[(v)]
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      Var[N] = Var[X] = 6*0.2*0.8 = 0.96 \quad \Rightarrow \quad SD[N]
+      = \sqrt{0.96} = 0.979796. 
+    \end{split}
+\end{equation}
+\end{itemize}
+
+}
+
+\bigskip
+\hrule
+\bigskip
+
+\begin{problem} ($5$ points) %OK for exams; histograms: modality, skewness
+Consider the following histogram:
+
+\medskip
+
+\includegraphics{blue-hist.png}
+
+\medskip
+
+The histogram is \dots
+\mchoice{\dots unimodal.}{\dots left-skewed.}{\dots right-skewed.}{\dots symmetric.}{None of the above.}
+\end{problem}
+
+\sol{{\bf (b)}\\
+The "hump" is on the right; see how the values "max-out" at $4$. So, it's left-skewed.
+}
+
+\medskip
+
+\begin{problem} ($5$ points) %mean, median;OK for exams
+{\em Source: AMC8, 2016.}
+The following bar graph represents the length (in letters) of the names of 19 people. What is the median length of these names? 
+
+\medskip
+
+\includegraphics[scale=0.4]{names-bar.png}
+
+\medskip
+
+\mchoice{3}{4}{5}{6}{None of the above.}
+\end{problem}
+
+\sol{{\bf (b)}\\
+According to the bar graph, there is a total of $7+3+1+4+4=19$ names. The median name length is, thus, in the $10^{th}$ spot. This means it's of length $4$. 
+}
+
+\medskip
+
+\begin{problem} ($5$ points) %spread; OK for exams
+Which one of the following statements is {\bf false}?
+
+\mchoice{The observed sample variance is more sensitive than the sample
+  average to a few observations with extreme values.}
+{The observed sample variance is equal to zero if and only if all of
+  the observations are identical.}
+{When all observations are multiplied by a constant $\kappa\ne 0$, the IQR increases by $|\kappa|.$}
+{When all the observations are increased by $5$, the IQR increases by $5$.}{None of the above.}
+\end{problem}
+
+\sol{{\bf d}\\
+}
+
+\medskip
+
+\begin{problem} ($5$ points) %boxplots; OK for exams
+Consider the following box plot:
+
+\includegraphics{box-green.png}
+
+Which summary statistics does it correspond to?
+
+\mchoice{Min=0.000, Q1=0.000, median=5.000, mean=7.103, Q3=9.000, Max=27.000}
+{Min=0.000, Q1=0.000, median=5.000, mean=7.103, Q3=12.500, Max=27.000}
+{Min=0.000, Q1=4.000, median=7.103, mean=5.000, Q3=9.000, Max=27.000 }
+{Min=0.000, Q1=4.000, median=5.000, mean=7.103, Q3=9.000, Max=27.000 }
+{None of the above.}
+\end{problem}
+
+\sol{{\bf (d)}\\
+}
+
+\medskip
+
+\begin{problem} ($5$ points) %prereq -- Fall 2017
+A class has 12 boys and 4 girls. If three students are selected at
+random from this class, what is the probability that they are all boys?
+\begin{itemize}
+\item[(a)] 1/4
+\vskip0.1cm
+\item[(b)] 5/9
+\vskip0.1cm
+\item[(c)] 11/28
+\vskip0.1cm
+\item[(d)] 17/36
+\vskip0.1cm
+\item[(e)] None of the above
+\end{itemize}
+\end{problem}
+
+\sol{ {\bf (c)}\\
+Let $A_i$ stand for the event of choosing a boy in the $i^{th}$
+selection with $i =1,2,3.$
+The probability we are seeking is
+\begin{equation}%\label{}
+    \nonumber
+    \begin{split}
+      \PP[A_1 \cap A_2 \cap A_3].
+    \end{split}
+\end{equation}
+By the multiplication rule,
+\begin{equation}%\label{}
+    \nonumber
+    \begin{split}
+      \PP[A_1 \cap A_2 \cap A_3]
+           &  =  \PP[A_1]
+      \PP[A_2 | A_1]
+      \PP[A_3 |A_2 \cap A_1]\\
+      & = \frac{12}{16} \cdot \frac{11}{15} \cdot \frac{10}{14} =
+      \frac{11}{2 \cdot 14} = \frac{11}{28}\, .
+    \end{split}
+\end{equation}
+}
+
+\medskip
+
+\begin{problem} ($5$ points) %independence
+A coin is tossed, and, independently, a 6-sided die is rolled. 
+ Let
+\begin{align*}
+A&=\set{\text{$4$ is obtained on the die}} \eand \\
+B&=\set{\text{\emph{Heads} is
+obtained on the coin and} \\ & \qquad \text{ an even number is obtained on the die}}.
+\end{align*} 
+Then
+\mchoice{$A$ and $B$ are mutually exclusive}{$A$ and $B$ are
+independent}{$A \subseteq B$}{$A \cap B = B$}{none of the above}
+\end{problem}
+\sol{The correct answer is (e).}
+
+\medskip
+
+\begin{problem} ($5$ pts) %Venn
+{\em Source: Sample P exam problem set.}
+
+An insurance company pays hospital claims. 
+
+The number of claims that include emergency room or operating room charges is 85\% of the total number of hospital claims. 
+
+The number of claims that do not include emergency room charges is 25\% of the total number of claims. 
+
+The occurrences of emergency room charges and operating room charges are independent. 
+
+Calculate the probability that a claim submitted to the insurance company includes operating room charges. 
+\begin{itemize}
+\item[(a)] 0.1
+\vskip0.1cm
+\item[(b)] 0.2
+\vskip0.1cm
+\item[(c)] 0.25
+\vskip0.1cm
+\item[(d)] 0.4
+\vskip0.1cm
+\item[(e)] None of the above
+\end{itemize}
+\end{problem}
+
+\sol{{\bf (d)}\\
+Let us denote by $E$ the event that a given claim includes emergency room charges and 
+by $O$ the event that it includes operating room charges. Then, we can formalize the data provided in the problem as 
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      \PP[E \cup O] & = 0.85\\
+      \PP[E^c] & = 0.25 \, \Rightarrow \, \PP[E] = 0.75\\
+      \PP[E \cap O] & = \PP[E] \PP[O]. 
+    \end{split}
+\end{equation}
+We need to find $\PP[O]$. 
+
+From the first equality above, we get 
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      0.85 = \PP[E \cup O] = \PP[E] + \PP[O] - \PP[E \cap O]. 
+    \end{split}
+\end{equation}
+Then, using the second qnd third equalities,  
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+        0.85 = \PP[E \cup O] = 0.75 + \PP[O] - 0.75 \PP[O]. 
+    \end{split}
+\end{equation}
+So, $\PP[O] = 0.1 /0.25 = 0.4.$
+}
+
+\medskip
+
+\begin{problem} ($5$ pts)  %prereq -- Fall 2017 and 2018
+  A class contains 20 men and 10 women. You know that half the men and
+  half the women have brown eyes.  What is the probability that a
+  person chosen at random from this class is a woman or has brown
+  eyes?
+\begin{itemize}
+\item[(a)] $1/3$
+\vskip0.1cm
+\item[(b)] $2/3$
+\vskip0.1cm
+\item[(c)] $7/18$
+\vskip0.1cm
+\item[(d)] $7/9$
+\vskip0.1cm
+\item[(e)] None of the above
+\end{itemize}
+\end{problem}
+
+\sol{
+ {\bf (b)}\\
+Let
+\begin{equation}%\label{}
+    \nonumber
+    \begin{split}
+      W & : = \{\text{the chosen person is a woman}\},\\
+      B & : = \{\text{the chosen person has brown eyes}\}.\\
+    \end{split}
+\end{equation}
+Then, we need to calculate the probability
+\begin{equation}%\label{}
+    \nonumber
+    \begin{split}
+      \PP[W \cup B] = \PP[W] + \PP[B] - \PP[W \cap B] = \frac{1}{3} +
+      \frac{1}{2} - \frac{1}{6} = \frac{2 + 3 - 1}{6} = \frac{4}{6} =
+      \frac{2}{3}\, .
+    \end{split}
+\end{equation}
+}
+
+\medskip
+
+\begin{problem} ($5$ points) %the final exam  -- Spring 2016 and
+                             %in-term one -- Fall 2017 and Fall 2018 
+
+  If a fair coin is flipped 1600 times, what is the probability of
+  getting more than 800 heads?
+
+\begin{description}
+\item[a.] Less than $0.01$.
+\item[b.] More than $0.01$, but less than $0.05$.
+\item[c.] More than $0.05$, but less than $0.10$.
+\item[d.] More than $0.10$, but less than $0.25$.
+\item[e.] None of the above
+\end{description}
+\end{problem}
+
+\sol{{\bf e.}\\
+
+}
+
+\medskip
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
