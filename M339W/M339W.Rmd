@@ -249,9 +249,9 @@ Binomial trees proceeding to the limit. The normal approximation to the binomial
 **Class 9: September 12th**<br>
 More on realized returns.<br>
 
-<!--
 [Class notes](notes/m339w-feb-07-2022.pdf): Realized returns. 
 
+<!--
 [Quiz #6](quizzes/m339w-quiz-six-dML-solns.pdf) -- **solutions** 
 -->
 
@@ -262,9 +262,7 @@ Moment generating functions. The log-normal distribution. Jensen's inequality.<b
 
 [Lecture notes](lecture-notes/m339w-lognormal.pdf): The lognormal distribution
 
-<!--
 [Class notes](notes/m339w-feb-09-2022.pdf): mgf. The log-normal distribution. Jensen's inequality.
--->
 
 [The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
 from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Chris Boucher 
@@ -288,9 +286,7 @@ Log-normal stock prices: Parameter interpretation.<br>
 
 [Problem set #5](problem-sets/m339w-ps-five-lognormal-stocks-probs.pdf): Problems
 
-<!--
 [Problem set #5](problem-sets/m339w-ps-five-lognormal-stocks-solns.pdf): Solutions
--->
 
 [Lecture notes](lecture-notes/m339w-on-pricing.pdf): On pricing in the Black-Scholes model. 
 
@@ -312,6 +308,8 @@ Measures of risk: variance, semi-variance, VaR.<br>
 [Wikipedia](http://en.wikipedia.org/wiki/Variance#Semivariance): Variance. Semi-variance. 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Value_at_risk): Value at Risk (VaR). 
+
+[Problem](problem-sets/m339w-ifm-VaR.pdf)
 
 <!--
 [Class notes](notes/m339w-feb-14-2022.pdf): VaR.

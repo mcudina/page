@@ -214,7 +214,7 @@ Here is a list of fun sites which make charts: [Infogram](https://infogram.com/)
 **Class 9: September 12th**<br>
 Median. Quartiles. <span style="color: purple;">**(Sections 2.1.5, 2.1.6, 2.1.1)**</span><br>
 
-R script [invented-data-summary.R](code/invented-data.R) from class
+R script [invented-data.R](code/invented-data.R) from class
 
 [Return values from boxplot](https://r-coder.com/boxplot-r/#Return_values_from_boxplot)
 
@@ -264,9 +264,7 @@ Sampling principles and strategies (cont'd). Randomized response <span style="co
 
 [Problem Set #1](exams/m358k-ps-one-sampling.pdf) - **problems**
 
-<!--
 [Problem Set #1](exams/m358k-ps-one-sampling-solns.pdf) - **solutions**
--->
 
 [James Grime on randomized response](https://youtu.be/nwJ0qY_rP0A) 
 
@@ -274,9 +272,7 @@ Sampling principles and strategies (cont'd). Randomized response <span style="co
 
 [Problem Set #2](exams/m358k-ps-two-rand-resp.pdf) - **problems**
 
-<!--
 [Problem Set #2](exams/m358k-ps-two-rand-resp-solns.pdf) - **solutions**
--->
 
 ---
 
