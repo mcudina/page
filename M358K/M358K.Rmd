@@ -182,7 +182,7 @@ R notebook [cat-data.Rmd](code/cat-data.Rmd)
 
 [Data](data/antibiotics.csv): Pre-existing conditions data - courtesy of the *Open Course Statistics*
 
-[Extra credit #1](quizzes/m358k-quiz1-eda.pdf) -- **due on Friday, September 17th**; you can use the points earned towards your homework scores
+[Extra credit #1](quizzes/m358k-quiz1-eda.pdf) -- **due on Wednesday, September 28th**; you can use the points earned towards your homework scores
 
 [Extra credit #1](code/m358k-quiz1-eda.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz; you will **not** be able to knit this file as is unless you comment out or delete the `R`-chunk which inserts the picture 
 
@@ -205,7 +205,7 @@ Here is a list of fun sites which make charts: [Infogram](https://infogram.com/)
 
 [Data](data/cafedata.csv): Student-run cafe - courtesy of the *Journal of Statistics Education* 
 
-[Homework #4](hw/m358k-hw-four.pdf) -- due on **Wednesday, September 22nd**
+[Homework #4](hw/m358k-hw-four.pdf) -- due on **Friday, September 30th**
 
 [Homework #4](code/m358k-hw-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework; you will **not** be able to knit this file as is unless you comment out or delete the `R`-chunk which inserts the picture
 
@@ -227,19 +227,13 @@ Scatterplots  <span style="color: purple;">**(Section 1.2.3)**</span>.<br>
 
 [Data](data/diamond.csv): Carats vs. dollars - courtesy of the *Journal of Statistics Education* 
 
-<!--
-
-R notebook [diamonds.Rmd](code/diamonds.Rmd)
-
--->
+`R`-script [diamonds.R](code/diamonds.R)
 
 [On plotting scatterplots in R](https://youtu.be/X66b-Jbi15w) - this is a demo in R by yours truly on how to draw scatterplots; feel free to start at 2:35 and watch at twice the speed  
 
 [Gapminder](https://www.gapminder.org/answers/how-does-income-relate-to-life-expectancy/): How Does Income Relate to Life Expectancy?
 
-<!--
-[Homework #5](hw/m358k-hw-five.pdf) -- due on **Wednesday, September 29th**
--->
+[Homework #5](hw/m358k-hw-five.pdf) -- due on **Friday, October 7th**
 
 Sampling principles and strategies <span style="color: purple;">**(Section 1.3)**</span><br>
 
