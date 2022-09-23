@@ -1,0 +1,82 @@
+---
+title: "Project #2: On volatility and cost of capital"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+urlcolor: blue
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Problem #1 **(60 points)**
+Go to [Yahoo!Finance](https://finance.yahoo.com).
+
+Then, download the historical stock prices of *Walmart* for the last 252 (or so) trading days, i.e., for the last year. Do the same for *IBM* for the same time period. 
+
+**(5 points)** Draw the time-plot of the evolution of the closing stock prices (not the adjusted) for both of the stocks on the same coordinate system. You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates. Make sure that you plot the two trajectories in **different** colors indicating in the text which color corresponds to which company.    
+
+The **simple daily return** of the stock over a day indexed by $t$ is defined as 
+$$
+\frac{\text{price at end of day $t$}-\text{price at end of day $(t-1)$}}{\text{price at end of day $(t-1)$}} 
+$$
+**(5 points)** Construct the vector of simple daily returns over the last year for both stocks. What is the **daily volatility** estimate for both of them?
+
+**(10 points)** In general, **assuming independent, identically distributed** daily returns, what is the relationship between the daily volatility $\sigma_h$ and the annual volatility $\sigma$? Calculate the estimate of the annual volatility for both stocks. 
+
+
+**(10 points)** If you wanted to study the *relationship* between the returns of the two stocks, which plot would you create? What (if anything) can you say after looking at the plot?
+
+**(5 points)** If you wanted to provide one single, unitless quantity which provided you a measure of association between the returns of *Walmart* and *IBM*, which value would you report?
+
+**(5 points)** You create a portfolio in which half your wealth is maintained in the *Walmart* stock and the remaining half of your wealth is kept in the *IBM* stock. What is your estimate of the annual volatility of this portfolio? 
+
+**(20 points)** You create a portfolio in which the weight $w$ of your wealth is maintained in the *Walmart* stock and the remainder of your wealth is kept in the *IBM* stock. Create a function in `R` which calculates the annual volatility of this portfolio as it depends on $w$? Plot the portfolio's volatility as a function of $w$ for $w$ ranging from $-2$ to $2$. In the same plot, add two horizontal lines at the values of the annual volatilities of *Walmart* and *IBM*. 
+
+
+## Problem #2 **(40 points)**
+Go to [Yahoo!Finance](https://finance.yahoo.com).
+
+Then, download the historical prices for the *NASDAQ Composite* index for the **maximum** time period and at the **monthly** frequency. 
+
+**(5 points)** Use the above definitions of returns, changing the period length to a month (rather than a day). What is your *point estimate* for the mean monthly return of *NASDAQ*? Assuming, as usual **independent, identically distributed** monthly returns, what is the mean annual return?
+
+**(5 points)** What is your *point estimate* for the monthly volatility of *NASDAQ*? Assuming, as usual **independent, identically distributed** monthly returns, what is the annual volatility?
+
+**(20 points)** You know that there is uncertainty in point estimation due to sampling variability. So, you want to provide a **confidence interval**. 
+
+For more about confidence intervals in general, please watch:
+
+[Confidence intervals](https://www.youtube.com/watch?v=A6_W8qY8zJo&list=PLkIselvEzpM4SHQojH116fYAQJLaN_4Xo)
+
+A follow up video for the mean parameter is
+
+[Inference for the mean](https://www.youtube.com/watch?v=RYVIGj1l4xs&list=PLkIselvEzpM5G3IO1tzQ-DUThsJKQzQCD)
+
+Let $n$ stand for the number of observation. Let $\hat\mu$ denote our point estimate for the mean parameter. Let $s$ denote the sample standard deviation. At a confidence level $C$, the structure of a **confidence interval** is
+
+$$
+  (\hat \mu - \frac{s}{\sqrt{n}} z^*, \hat \mu + \frac{s}{\sqrt{n}} z^*)
+$$
+where $z^*$ is a critical value of the standard normal distribution such that $\mathbb{P}[-z^* < Z < z^*]=C$ with $Z \sim N(0,1)$. 
+
+You should input `?qnorm` into the console in `R` to learn more about the different functions which have to do with the normal distribution in `R`. 
+
+Provide confidence intervals for the annual mean return at the confidence levels $C=0.90, 0.95, 0.99$. 
+
+**(10 points)** Focus on the $95\%$-confidence interval. Draw the three "accumulation functions" of the form $a(t)=(1+r)^t$ for $t \in [0.10]$ for the lower bound, the midpoint, and the upper bound of the $95\%$-confidence interval. Please, comment on the graphs.Do you find the confidence-interval approach to estimation of the cost of capital entirely satisfactory?
+

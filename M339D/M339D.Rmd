@@ -217,6 +217,12 @@ The Capital Asset Pricing Model (CAPM).<br>
 **Class 14: September 23rd**<br>
 Payoff and profit curves. Long/short positions.<br>
 
+[Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
+
+[Project #2](projects/m339d-project2-probs.pdf) -- **due on September 30th, 2022**
+
+[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
 ---
 
 **Class 15: September 26th**<br>

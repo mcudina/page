@@ -320,9 +320,9 @@ Measures of risk: variance, semi-variance, VaR.<br>
 **Class 13: September 21st**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
-<!--
 [Class notes](notes/m339w-feb-16-2022.pdf): Tail probabilities.
 
+<!--
 [Quiz #9](quizzes/m339w-quiz-nine-tail-probs.pdf) -- **due on Friday, February 18th**
 
 [Homework #4](hw/m339w-hw4-returns-solns.pdf) -- **solutions**
@@ -339,9 +339,9 @@ Lognormal "confidence" intervals.(**optional material**)<br>
 **Class 14: September 23rd**<br>
 Tail probabilities and VaR.<br>
 
-<!--
 [Class notes](notes/m339w-feb-18-2022.pdf): Tail probabilities and VaR.
 
+<!--
 [Quiz #9](quizzes/m339w-quiz-nine-tail-probs-solns.pdf) -- **solutions**
 
 [Quiz #10](quizzes/m339w-quiz-ten-tail-probs-VaR.pdf) -- **due on Monday, February 21st**
@@ -349,9 +349,7 @@ Tail probabilities and VaR.<br>
 
 TVaR. Coherent risk measures.<br>
 
-<!--
 [Class notes](notes/m339w-feb-19-2020.pdf): Tail Value-at-Risk (TVaR). Coherent risk measures.
--->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Tail_value_at_risk): Tail Value at Risk (TVaR).
 
