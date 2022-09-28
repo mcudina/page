@@ -343,17 +343,19 @@ The normal distribution [review] <span style="color: purple;">**(Section 4.1, Ap
 
 [Area of a Normal Distribution](http://demonstrations.wolfram.com/AreaOfANormalDistribution/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Eric Schulz 
 
+[Standard normal table](notes/std-normal-table.pdf)
+
 [Slides](notes/m358k-4.1-normal-distribution.pdf) - **Courtesy of Open Course Statistics**
 
 [Wikipedia: Six sigma](https://en.wikipedia.org/wiki/Six_Sigma)
 
 [How to shade in R](http://www.alisonsinclair.ca/2011/03/shading-between-curves-in-r/) 
 
-<!--
-[Homework #6](hw/m358k-hw-six.pdf) -- due on **Wednesday, October 6th**
+[Homework #6](hw/m358k-hw-six.pdf) -- due on **Friday, October 14th**
 
 [Homework #6](code/m358k-hw-six.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
+<!--
 [Quiz #7](quizzes/m358k-quiz-seven.pdf) -- **due on Friday, October 8th**
 
 [Quiz #7](code/m358k-quiz-seven.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
