@@ -335,9 +335,7 @@ R notebook [prop.Rmd](code/prop.Rmd)
 **Class 16: September 28th**<br>
 The normal distribution [review] <span style="color: purple;">**(Section 4.1, Appendix C.1)**</span><br>
 
-<!--
 [Class notes](notes/m358k-sept-29-2021.pdf) 
--->
 
 [Standard Normal Distribution Areas](http://demonstrations.wolfram.com/StandardNormalDistributionAreas/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
@@ -378,9 +376,7 @@ The normal distribution [review] <span style="color: purple;">**(Section 4.1, Ap
 **Class 17: September 30th**<br>
 More on the normal distribution.<br>
 
-<!--
 [The R-script from class](code/normal.R)
--->
 
 [Problem Set #5](problem-sets/m358k-ps-five-normal.pdf) -- **problems**
 
