@@ -380,9 +380,9 @@ The Black-Scholes pricing formula.<br>
 
 [Homework #5](hw/m339w-hw5-lognormal-stocks-solns.pdf) -- **solutions** 
 
-[Homework #6](hw/m339w-hw6-BS.pdf) -- **due on Wednesday, March 9th** 
+[Homework #6](hw/m339w-hw6-BS.pdf) -- **due on Monday, October 10th** 
 
-[Graduate Homework #2](hw/m339w-ghw-two.pdf) -- **due on Wednesday, March 23rd**
+[Graduate Homework #2](hw/m339w-ghw-two.pdf) -- **due on November 4th**
 
 ---
 
@@ -400,7 +400,7 @@ Black-Scholes pricing: Puts. Forward start options.
 [Quiz #11](quizzes/m339w-quiz-eleven-cond-exp-solns.pdf) -- 
 **solutions**
 
-[Quiz #12](quizzes/m339w-quiz-twelve-BS.pdf) -- **due on Monday, March 7th**
+[Quiz #12](quizzes/m339w-quiz-twelve-BS.pdf) -- **due on Wednesday, October 12th**
 
 <!--
 [In-Term One](exams/m339w-one.pdf) -- **problems** 
@@ -429,9 +429,7 @@ Black-Scholes prices: Discrete-dividend-paying stocks. (**optional**)<br>
 **Class 19: October 5th**<br>
 Option Greeks in the Black-Scholes model.<br>
 
-<!--
 [Class notes](notes/m339w-mar-02-2022.pdf): Option Greeks.
--->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
 
@@ -444,11 +442,9 @@ Focus on the delta.<br>
 
 [Problem](problem-sets/m339w-call-delta.pdf)
 
-<!--
 [Class notes](notes/m339w-mar-04-2022.pdf): Focus on the Delta.
 
 [Quiz #13](quizzes/m339w-quiz-thirteen-delta.pdf) -- **due on Friday, March 11th**
--->
 
 ---
 
