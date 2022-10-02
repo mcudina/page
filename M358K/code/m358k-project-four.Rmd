@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 ---
 
 ```{r, warning=FALSE, message=FALSE}
-#library(nimble)
+library(nimble)
 ```
 
 ---
@@ -56,6 +56,7 @@ Does this set of measurements have any outliers?
 
 **(4 points)** Superimpose the appropriate graph for your model onto the appropriate graph of the data to convince your reader that your model is valid. 
 
+
 ## Problem #3 **(22 points)**
 Here, the goal is to provide a probabilistic model for some of the data available here:
 
@@ -77,25 +78,23 @@ We want to construct a probabilistic model for the number of severe earthquakes 
 
 
 ## Problem #4 **(14 points)**
-Go to [Google historical data](https://finance.yahoo.com/quote/GOOG/history/)
+Go to the course website and download the bitcoin price data. 
 
-Then, download the data for the last 252 (or so) trading days, i.e., for the last year.
+**(2 points)** Draw the time-plot of the evolution of the bitcoin price. You do **not** need to put the timestamps on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
 
-**(2 points)** Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
-
-The **simple daily return** of the stock over a day indexed by $t$ is defined as 
+The **simple return** of the stock over a time period indexed by $t$ is defined as 
 $$
-\frac{\text{price at end of day $t$}-\text{price at end of day $(t-1)$}}{\text{price at end of day $(t-1)$}} 
+\frac{\text{price at end of time period $t$}-\text{price at end of time period $(t-1)$}}{\text{price at end of time period $(t-1)$}} 
 $$
-**(4 points)** Construct the vector of simple daily returns over the last year. Provide a visualization of the returns. What can you say about the characteristics of the distribution based on the above plot?
+**(4 points)** Construct the vector of simple returns over the time horizon for which you were provided the data. Provide a visualization of the returns. What can you say about the characteristics of the distribution based on the above plot?
 
-**(3 points)** Fit the normal distribution to the above returns. Superimpose the appropriate graph for your model onto the appropriate graph of the data to convince your reader that your model is valid.
+**(3 points)** Fit the normal distribution to the above returns. Superimpose the appropriate graph for your model onto the appropriate graph of the data to allow the reader to judge whether your model is valid. 
 
 **(5 points)** You will have to install a package to solve this part of your project. First, run the following in your console: 
 
 `install.packages('nimble')`
 
-When that is finished, you need to run this in your uncomment 
+When that is finished, you need to uncomment 
 
 `library(nimble)`
 
@@ -106,6 +105,8 @@ Next, you should learn more about the **Laplace (double exponential)** distribut
 [Wikipedia: The Laplace distribution](https://en.wikipedia.org/wiki/Laplace_distribution)
 
 Now, you are equipped to fit the Laplace (double exponential) distribution to the above returns. To learn about the parametrization of the Laplace distribution in `R`, type `?ddexp` into the console in RStudio.
+
+This time around, do **not** match the moments to fit the Laplace to the data. Equate the third quartile of the data to the third quantile of the Laplace distribution and figure out your estimate for the shape parameter from there. 
 
 After you have completed the fit, superimpose the appropriate graph for your model onto the appropriate graph of the data.
 
