@@ -365,11 +365,9 @@ The normal distribution [review] <span style="color: purple;">**(Section 4.1, Ap
 
 [Bitcoin Data](data/bitcoin.csv): this data set is necessary for *Project #4*
 
-<!--
 [Project #4](projects/m358k-project-four.pdf) -- **due on Monday, October 25th** 
 
 [Project #4](code/m358k-project-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
--->
 
 [%in% in `R`](https://www.marsja.se/how-to-use-in-in-r/)
 
