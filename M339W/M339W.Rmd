@@ -393,9 +393,7 @@ Black-Scholes pricing: Puts. Forward start options.
 
 [Class notes](notes/m339w-feb-25-2022.pdf): Black-Scholes pricing: Puts. Forward start options.
 
-<!--
 [Extra-Credit Homework #5](hw/m339w-extra-hw-five-binomial-euro-solns.pdf) -- **solutions**
--->
 
 [Quiz #11](quizzes/m339w-quiz-eleven-cond-exp-solns.pdf) -- 
 **solutions**
@@ -442,7 +440,7 @@ Focus on the delta.<br>
 
 [Class notes](notes/m339w-mar-04-2022.pdf): Focus on the Delta.
 
-[Quiz #13](quizzes/m339w-quiz-thirteen-delta.pdf) -- **due on Friday, March 11th**
+[Quiz #13](quizzes/m339w-quiz-thirteen-delta.pdf) -- **due on Friday, October 14th**
 
 ---
 
@@ -451,9 +449,7 @@ Option elasticity and volatility.<br>
 
 [Problem packet](problem-sets/m339w-elasticity.pdf)
 
-<!--
-[Class notes](notes/m339w-mar-07-2022.pdf): Option elasticity.
--->
+[Class notes](notes/m339w-oct-03-2022.pdf): Option elasticity.
 
 **Suggested Problem**: MFE Exam Spring 2007: Problem #5 (option volatility) 
 
