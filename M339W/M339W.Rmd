@@ -468,9 +468,9 @@ Option elasticity and volatility.<br>
 **Class 22: October 12th**<br>
 More on option elasticity. Focus on the gamma.<br> 
 
-<!--
 [Class notes](notes/m339w-mar-09-2022.pdf): Option elasticity [cont'd]. Gamma.
 
+<!--
 [Homework #6](hw/m339w-hw6-BS-solns.pdf) -- **solutions** 
 -->
 
@@ -481,17 +481,17 @@ Other Greeks.<br>
 
 [Mathematica Code](code/BSprice-greeks.nb): Black-Scholes Greeks 
 
-<!--
-[Homework #7](hw/m339w-hw7-greeks.pdf) -- **due on March 23rd**
--->
+[YouTube Video](https://youtu.be/bXmOeaEN2QQ)
+
+[Homework #7](hw/m339w-hw7-greeks.pdf) -- **due on Monday, October 17th, 2022**
 
 Implied volatility.<br>
 
 [Problem](problem-sets/m339w-mfe-sp2009-p17.pdf)
 
-<!--
 [Class notes](notes/m339w-mar-11-2022.pdf): Implied volatility.
 
+<!--
 [Extra-Credit Homework #6](hw/m339w-extra-hw-six-binomial-amer-solns.pdf) -- **solutions**
 
 [Quiz #13](quizzes/m339w-quiz-thirteen-delta-solns.pdf) -- **solutions**
