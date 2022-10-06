@@ -5,7 +5,7 @@ nsims=10000
 sims=rbinom(nsims, trials, suc)
 hist(sims, 20)
 
-#make the area under the histogram euqal to 1
+#make the area under the histogram equal to 1
 hist(sims, 20, prob=TRUE)
 
 #finding the parameters for the bell curve
@@ -21,7 +21,7 @@ sigma=sqrt(trials*suc*(1-suc))
 #the fitted density
 curve(dnorm(x,mu.hat,s), add=TRUE, col="red", lwd=2)
 #the approximate density by dML
-#curve(dnorm(x,mu,sigma), add=TRUE, col="green", lwd=2)
+curve(dnorm(x,mu,sigma), add=TRUE, col="green", lwd=2)
 
 #same as above, but in standard units
 sims.std=(sims-mu.hat)/s
