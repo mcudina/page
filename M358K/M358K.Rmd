@@ -412,21 +412,15 @@ The normal approximation to the binomial [review] <span style="color: purple;">*
 **Class 19: October 5th**<br>
 The Central Limit Theorem [review] <span style="color: purple;">**(Sections 5.1.3 and 7.1.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m358k-oct-06-2021.pdf)
--->
+[Class notes](notes/m358k-oct-07-2022.pdf)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Gamma_distribution): On the **gamma distribution**
 
-<!--
-[The R-script from class](code/clt.R)
--->
+[The R-script from class](code/clt-in-class.R)
 
 [Problem Set #7](problem-sets/m358k-ps-seven-CLT.pdf) -- **problems**
 
-<!--
 [Problem Set #7](problem-sets/m358k-ps-seven-CLT-solns.pdf) -- **solutions**
--->
 
 [Homework #7](hw/m358k-hw-seven.pdf) -- due on **Friday, October 21st, 2022**
 
@@ -438,15 +432,13 @@ The Central Limit Theorem [review] <span style="color: purple;">**(Sections 5.1.
 **Class 20: October 7th**<br>
 Sample mean (the normal case).<br>
 
-<!--
-[Class notes](notes/m358k-oct-08-2021.pdf) 
--->
+[Class notes](notes/m358k-oct-10-2022.pdf) 
 
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample.pdf) -- **problems**
 
-<!--
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample-solns.pdf) -- **solutions**
 
+<!--
 [Quiz #7](quizzes/m358k-quiz-seven-solns.pdf) -- **solutions**
 -->
 
