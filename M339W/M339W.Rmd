@@ -459,9 +459,7 @@ Option elasticity and volatility.<br>
 
 [Quiz #14](quizzes/m339w-quiz-fourteen-opt-vol.pdf) -- **due on Wednesday, October 19th**
 
-<!--
 [In-Term One](exams/m339w-one-solns.pdf) -- **solutions** 
--->
 
 ---
 
@@ -470,9 +468,7 @@ More on option elasticity. Focus on the gamma.<br>
 
 [Class notes](notes/m339w-mar-09-2022.pdf): Option elasticity [cont'd]. Gamma.
 
-<!--
 [Homework #6](hw/m339w-hw6-BS-solns.pdf) -- **solutions** 
--->
 
 ---
 
@@ -504,13 +500,13 @@ Implied-volatility practice. The delta-gamma-theta approximation.<br>
 
 [Problem packet](problem-sets/m339w-delta-gamma-theta.pdf)
 
-<!--
 [Class notes](notes/m339w-mar-21-2022.pdf): The delta-gamma-theta approximation.
 
+<!--
 [Quiz #14](quizzes/m339w-quiz-fourteen-opt-vol-solns.pdf) -- **solutions**
-
-[Quiz #15](quizzes/m339w-quiz-fifteen-delta-gamma-theta-approx.pdf) -- **due on Friday, March 25th**
 -->
+
+[Quiz #15](quizzes/m339w-quiz-fifteen-delta-gamma-theta-approx.pdf) -- **due on Friday, October 21st**
 
 ---
 
@@ -525,11 +521,11 @@ Delta-hedging.<br>
 [Class notes](notes/m339w-mar-23-2022.pdf): Delta-hedging.
 
 [Homework #7](hw/m339w-hw7-greeks-solns.pdf) -- **solutions**
-
-[Quiz #16](quizzes/m339w-quiz-sixteen-hedging.pdf) -- **due on Monday, March 28th**
-
-[Homework #8](hw/m339w-hw8-impl-vol.pdf) -- **due on Wednesday, March 30th**
 -->
+
+[Quiz #16](quizzes/m339w-quiz-sixteen-hedging.pdf) -- **due on Wednesday, October 26th**
+
+[Homework #8](hw/m339w-hw8-impl-vol.pdf) -- **due on Monday, October 24th**
 
 ---
 
