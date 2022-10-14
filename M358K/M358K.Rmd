@@ -287,10 +287,6 @@ Experiments <span style="color: purple;">**(Section 1.4)**</span><br>
 
 [Andrew Gelman on the "replication crisis"](http://andrewgelman.com/2016/03/03/more-on-replication-crisis/) 
 
-<!--
-[Homework #4](hw/m358k-hw-four-solns.pdf) -- **solutions**
--->
-
 ---
 
 **Class 13: September 21st**<br>
@@ -380,15 +376,9 @@ More on the normal distribution.<br>
 
 [Problem Set #5](problem-sets/m358k-ps-five-normal.pdf) -- **problems**
 
-<!--
 [Problem Set #5](problem-sets/m358k-ps-five-normal-solns.pdf) -- **solutions**
--->
 
 [Class notes](notes/m358k-oct-03-2022.pdf) 
-
-<!--
-[Quiz #6](quizzes/m358k-quiz-six-solns.pdf) -- **solutions**
--->
 
 ---
 
@@ -438,10 +428,6 @@ Sample mean (the normal case).<br>
 
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample-solns.pdf) -- **solutions**
 
-<!--
-[Quiz #7](quizzes/m358k-quiz-seven-solns.pdf) -- **solutions**
--->
-
 --- 
 
 **Class 21: October 10th**<br>
@@ -449,19 +435,17 @@ Confidence intervals (the normal case). <br>
 
 [Class notes](notes/m358k-oct-12-2022.pdf) 
 
-<!--
-[Class notes](notes/m358k-oct-13-2021.pdf) 
+[Class notes](notes/m358k-oct-14-2022.pdf) 
 
 R notebook [normal-conf-int.Rmd](code/normal-conf-int.Rmd)
--->
 
 Shiny: [Confidence intervals](https://milica-cudina.shinyapps.io/Coverage/)
 
 [Problem Set #9](problem-sets/m358k-ps-nine-normal-conf-int.pdf) -- **problems**
 
-<!--
 [Problem Set #9](problem-sets/m358k-ps-nine-normal-conf-int-solns.pdf) -- **solutions**
 
+<!--
 [Homework #7](hw/m358k-hw-seven-solns.pdf) -- **solutions**
 
 [Quiz #8](quizzes/m358k-quiz-eight-normal-conf-int.pdf) -- **due on Friday, October 15th**

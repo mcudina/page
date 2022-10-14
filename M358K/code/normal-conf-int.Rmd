@@ -32,7 +32,8 @@ x.bar
 ```
 Assume that the $\sigma_X$ parameter is known. What's the value of the standard error? 
 ```{r}
-s.e=1/sqrt(n)
+sigma=1
+s.e=sigma/sqrt(n)
 s.e
 ```
 What's the value of the margin of error?
