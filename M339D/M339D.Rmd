@@ -311,12 +311,21 @@ Random number generation.<br>
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards-calls-solns.pdf): **Solutions**
 
+[Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
+
+[Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister): Mersenne twister
+
+[An atmospheric RNG](https://www.random.org/)
+
 ---
 
 **Class 23: October 14th**<br>
 The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
 [Class notes](notes/m339d-oct-14-2022.pdf) 
+
+[Problem Set #5](problem-sets/m339d-ps5-mc.Rmd)
+
 
 ---
 
