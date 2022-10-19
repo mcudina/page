@@ -460,9 +460,9 @@ Shiny: [Confidence intervals](https://milica-cudina.shinyapps.io/Coverage/)
 **Class 22: October 12th**<br>
 Principles of hypothesis testing. The $p−$value.<br>
 
-<!--
 [Class notes](notes/m358k-oct-15-2021.pdf) 
 
+<!--
 [Quiz #8](quizzes/m358k-quiz-eight-normal-conf-int-solns.pdf) -- **solutions**
 -->
 
@@ -557,9 +557,9 @@ Types of errors.<br>
 
 [R-bloggers](https://www.r-bloggers.com/2021/06/qq-plots-in-r-quantile-quantile-plots-quick-start-guide/): QQ-plots in `R`
 
-<!--
 [Data](data/temperatures-heart.csv): this data set is necessary for *Project #5*
 
+<!--
 [Project #5](projects/m358k-project-five.pdf) -- **due on Monday, November 15th** 
 
 [Project #5](code/m358k-project-five.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
