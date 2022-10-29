@@ -653,11 +653,11 @@ Required returns. Betas of stocks.<br>
 
 [Problem packet](problem-sets/m339w-required-returns.pdf)
 
-<!--
 [Class notes](notes/m339w-apr-13-2022.pdf): Required returns.
 
 [Extra class notes](notes/m339w-required-returns.pdf): More on required returns.
 
+<!--
 [Homework #9](hw/m339w-hw9-hedging-exchange-solns.pdf) -- **solutions**
 -->
 ---
@@ -667,14 +667,16 @@ The Capital Asset Pricing Model (CAPM).
 
 [Wikipedia](https://en.wikipedia.org/wiki/Capital_asset_pricing_model): CAPM 
 
-<!--
 [Class notes](notes/m339w-apr-15-2022.pdf): CAPM.
 
+<!--
 [Quiz #19](quizzes/m339w-quiz-nineteen-exp-vol-solns.pdf) -- **solutions**
+-->
 
-[Quiz #21](quizzes/m339w-quiz-twenty-one-req-ret.pdf) -- **due on Friday, April 22nd**
+[Quiz #21](quizzes/m339w-quiz-twenty-one-req-ret.pdf) -- **due on Wednesday, November 16th**
 
-[Homework #11](hw/m339w-hw11-corp-finance.pdf) -- **due on Wednesday, April 27th** -->
+
+[Homework #11](hw/m339w-hw11-corp-finance.pdf) -- **due on Monday, November 14th** 
 
 ---
 
@@ -683,26 +685,24 @@ Alphas of stocks.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Linear_regression): Linear regression. 
 
-<!--
 [Extra class notes](notes/m339w-alphas.pdf): Alphas of stocks.
--->
 
 [Problem](problem-sets/m339w-alphas.pdf)
 
-<!--
 [Class notes](notes/m339w-nov-10-2021.pdf): Alphas of stocks. 
 
+<!--
 [Quiz #20](quizzes/m339w-quiz-twenty-Sharpe-solns.pdf) -- **solutions** 
-
-[Quiz #22](quizzes/m339w-quiz-twenty-two-capm.pdf) -- **due on Monday, April 25th**
-
-[Quiz #23](quizzes/m339w-quiz-twenty-three-sml.pdf) -- **due on Friday, April 29th** 
 -->
+
+[Quiz #22](quizzes/m339w-quiz-twenty-two-capm.pdf) -- **due on Friday, November 18th**
+
+[Quiz #23](quizzes/m339w-quiz-twenty-three-sml.pdf) -- **due on Wednesday, November 30th** 
+
 Behavior of individual investors. Systematic trading biases.<br>
 
-<!--
 [Class notes](notes/m339w-apr-18-2022.pdf): Alphas. Behavior of individual investors.
--->
+
 [An article on familiarity bias.](http://bogan.dyson.cornell.edu/doc/Hartford/Bogan-6_Familiarity.pdf) 
 
 [Familiarity breeds investment.](https://www0.gsb.columbia.edu/mygsb/faculty/research/pubfiles/1554/Huberman-familiarity-breeds.investment.pdf) 
@@ -722,11 +722,10 @@ The efficient market hypothesis.<br>
 
 [Problem packet](problem-sets/m339w-emh.pdf)
 
-<!--
 [Extra class notes](notes/m339w-emh.pdf): EMH.
 
-[Quiz #24](quizzes/m339w-quiz-twenty-four-behavior.pdf) -- **due on Monday, May 2nd** 
--->
+[Quiz #24](quizzes/m339w-quiz-twenty-four-behavior.pdf) -- **due on Friday, December 2nd** 
+
 Multifactor models.<br>
 
 [Problem](problem-sets/m339w-multifactor.pdf)
