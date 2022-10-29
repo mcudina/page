@@ -498,10 +498,6 @@ The reasoning of tests of significance. Inference as a decision.<br>
 
 [Class notes](notes/m358k-oct-20-2021.pdf) 
 
-<!--
-[Homework #8](hw/m358k-hw-eight-solns.pdf) -- **solutions**
--->
-
 [$p-$hacking is bad](https://www.popularmechanics.com/science/math/a40971517/p-value-statistics-fragility-index/)
 
 ---
@@ -510,7 +506,6 @@ The reasoning of tests of significance. Inference as a decision.<br>
 <span style="color: red;">**In-Term Two**</span><br>
 
 [In-Term Two](exams/m358k-two-solns.pdf) - **Solutions**
-
 
 ---
 
@@ -540,15 +535,11 @@ Types of errors.<br>
 
 [Errors](pics/pregnant.jpg)
 
-<!--
-[Class notes](notes/m358k-oct-25-2021.pdf)
--->
+[Class notes](notes/m358k-oct-29-2022.pdf)
 
 [Problem Set #13](problem-sets/m358k-ps-thirteen-errors.pdf) -- **problems** 
 
-<!--
 [Problem Set #13](problem-sets/m358k-ps-thirteen-errors-solns.pdf) -- **solutions** 
--->
 
 [R-bloggers](https://www.r-bloggers.com/2021/06/qq-plots-in-r-quantile-quantile-plots-quick-start-guide/): QQ-plots in `R`
 
