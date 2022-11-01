@@ -374,6 +374,8 @@ Binomial option pricing: Risk-neutral probability. <br>
 **Class 28: October 26th**<br>
 Binomial option pricing: Two periods.
 
+[Class notes](notes/m339d-oct-26-2022.pdf) 
+
 [Problem Set #7](problem-sets/m339d-ps7-two-periods-probs.pdf): **Problems**
 
 [Problem Set #7](problem-sets/m339d-ps7-two-periods-solns.pdf): **Solutions**
@@ -383,10 +385,16 @@ Binomial option pricing: Two periods.
 **Class 29: October 28th**<br>
 Multiple binomial periods. <br>
 
+[Class notes](notes/m339d-oct-28-2022.pdf) 
+
 ---
 
 **Class 30: October 31st**<br>
 Monte Carlo for binomial option pricing. <br>
+
+[Class notes](notes/m339d-oct-31-2022.pdf) 
+
+[Homework #5](hw/m339d-hw5-parity-solns.pdf) -- **solutions**
 
 [Homework #6](hw/m339d-hw6-one-period.pdf) -- **due on Monday, November 7th**
 
