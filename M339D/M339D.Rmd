@@ -394,6 +394,8 @@ Monte Carlo for binomial option pricing. <br>
 
 [Class notes](notes/m339d-oct-31-2022.pdf) 
 
+[Problem Set #8](problem-sets/m339d-ps8-binomial-mc-probs.Rmd)
+
 [Homework #5](hw/m339d-hw5-parity-solns.pdf) -- **solutions**
 
 [Homework #6](hw/m339d-hw6-one-period.pdf) -- **due on Monday, November 7th**
@@ -406,6 +408,10 @@ Monte Carlo for binomial option pricing. <br>
 
 **Class 31: November 2nd**<br>
 The normal approximation to the binomial. <br>
+
+[Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
+
+[In-Term Two](exams/m339d-two-topics.pdf): Topics
 
 ---
 
@@ -747,10 +753,6 @@ Exchange options.<br>
 [Quiz #15](quizzes/m339d-quiz15-exchange.pdf) - **due on Wednesday, March 23rd**
 
 [Quiz #16](quizzes/m339d-quiz16-exchange-exp.pdf) - **due on Monday, March 28th**
-
-[In-Term Two](exams/m339d-two-topics.pdf): Topics
-
----
 
 Bounds on option prices.<br>
 
