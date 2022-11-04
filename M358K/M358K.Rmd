@@ -633,6 +633,8 @@ Comparing two proportions <span style="color: purple;">**(Sections 6.2.1, 6.2.2,
 
 [Homework #11](code/m358k-hw-eleven.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
+[Extra-Credit Quiz #2](quizzes/m358k-quiz2-normal-hyp-test-solns.pdf) -- **solutions**
+
 ---
 
 **Class 32: November 4th**<br>
@@ -641,6 +643,10 @@ The $\chi^2-$ distribution <span style="color: purple;">**(Sections 6.3.3, C.3)*
 <!--
 [Class notes](notes/m358k-nov-08-2021.pdf)
 -->
+
+[$\chi^2-$table](notes/chi-squared-table.pdf)
+
+[A better $\chi^2-$table](notes/chi-squared-table-better.pdf)
 
 [Mathematica demonstration: The Chi-Squared Distribution](http://demonstrations.wolfram.com/TheChiSquaredDistribution/)
 
