@@ -68,9 +68,43 @@ v.0
 ## Problem #2: Monte Carlo one period
 Price the option above using Monte Carlo a one period binomial tree. Use $10000$ simulations. 
 
+*Solution:*
+```{r}
+n.sims=10000
+probs=c(p.star, 1-p.star)
+factors=c(u,d)
+final.prices=s0*sample(factors, size=n.sims, prob=probs, replace=TRUE)
+#final.prices
+payoffs<-pmax(final.prices-K,0)
+#payoffs
+v.bar=mean(payoffs)
+#v.bar
+v.0.mc<-exp(-r*T)*v.bar
+v.0.mc
+```
 
 ## Problem #3: Analytic two periods
 Price the above option using a two-period binomial tree. 
+
+*Solution:*
+```{r}
+periods=2
+h=T/periods
+#h
+u=exp(r*h+sigma*sqrt(h))
+d=exp(r*h-sigma*sqrt(h))
+#u
+#d
+
+p.star=(exp(r*h)-d)/(u-d)
+#p.star
+
+s.T=s0*c(u^2, u*d, d^2)
+#s.T
+
+v.T=pmax(s.T-K,0)
+v.T
+```
 
 
 ## Problem #4: Monte Carlo two periods
