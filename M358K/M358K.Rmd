@@ -678,9 +678,9 @@ Chi-squared test of independence <span style="color: purple;">**(Section 6.4)**<
 
 [Slides](notes/m358k-6.4-chi-squared-test-independence.pdf) - **Courtesy of Open Course Statistics**
 
-<!--
 [R-code: On-line courses or not?](code/chi-square.R): An example on how to do the $\chi^2-$test of independence in `R`
 
+<!--
 [Quiz #13](quizzes/m358k-quiz-thirteen-goodness-of-fit.pdf) -- **due on Friday, November 19th, 2021**
 -->
 
