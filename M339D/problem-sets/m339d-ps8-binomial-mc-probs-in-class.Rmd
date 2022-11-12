@@ -163,3 +163,27 @@ v.c
 ## Problem #6: Monte Carlo with one hundred periods
 Price the option above using Monte Carlo with a hundred period binomial tree. Use $10000$ simulations. 
 
+*Solution:*
+```{r}
+#simulating the number of upsteps
+x=rbinom(n.sims, size=periods, prob=p.star)
+#x
+
+#calculate the corresponding simulated stock prices
+s.T=s0*u^x*d^(periods-x)
+#hist(s.T, breaks=25)
+
+#calculating the simulated payoffs
+v.T=pmax(s.T-K,0)
+#v.T
+
+#average the simulated payoffs
+v.bar=mean(v.T)
+#v.bar
+
+#discounting
+v.0.mc=exp(-r*T)*v.bar
+v.0.mc
+```
+
+
