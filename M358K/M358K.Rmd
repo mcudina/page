@@ -722,11 +722,11 @@ The confidence interval for the population mean <span style="color: purple;">**(
 
 <!--
 [Class notes](notes/m358k-nov-17-2021.pdf)
+-->
 
 [R-code](code/dobson-ozone.R): Normality check for Dobson
 
 [R-code](code/t-conf-int.R): Confidence intervals with `t.test`
--->
 
 ---
 

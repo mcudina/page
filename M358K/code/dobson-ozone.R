@@ -4,3 +4,6 @@ hist(dobson)
 boxplot(dobson)
 qqnorm(dobson,col="blue",xlim=c(-3,3),ylim=c(100,450)) 
 qqline(dobson,col="red",lwd=2)
+
+#small p-value => likely not normal
+shapiro.test(dobson)
