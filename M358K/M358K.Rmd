@@ -668,9 +668,7 @@ Analysis of two-way tables.
 
 Chi-squared test of independence <span style="color: purple;">**(Section 6.4)**</span><br>
 
-<!--
 [Class notes](notes/m358k-nov-12-2021.pdf)
--->
 
 [Slides](notes/m358k-6.4-chi-squared-test-independence.pdf) - **Courtesy of Open Course Statistics**
 
@@ -811,7 +809,7 @@ t-procedures [practice].<br>
 
 ---
 
-**Class 41: December 2rd**<br> 
+**Class 41: December 2nd**<br> 
 Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><br>
 
 [xkcd](https://xkcd.com/552/): Correlation
