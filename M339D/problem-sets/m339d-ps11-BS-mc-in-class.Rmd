@@ -29,6 +29,21 @@ K=95
 ## Problem #1: Analytic Black-Scholes
 Price the option above using the Black-Scholes pricing formula. 
 
+*Solution:*
+```{r}
+d.one=(log(s0/K)+(r+sigma^2/2)*T)/(sigma*sqrt(T))
+d.one
+
+d.two=d.one-sigma*sqrt(T)
+d.two
+
+n.d.one=pnorm(d.one)
+n.d.two=pnorm(d.two)
+
+v.c=s0*n.d.one-K*exp(-r*T)*n.d.two
+v.c
+```
+
 
 ## Problem #2: Black-Scholes Monte Carlo with $Z$
 Provide the *Monte Carlo* estimate of the price using the simulated draws from the standard normal distribution with 10000 simulations.

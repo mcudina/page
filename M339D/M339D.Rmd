@@ -483,7 +483,7 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Class notes](notes/m339d-nov-16-2022.pdf) 
 
-[Problem Set #8](problem-sets/m339d-ps11-BS-mc.Rmd)
+[Problem Set #11](problem-sets/m339d-ps11-BS-mc.Rmd)
 
 [Homework #8](hw/m339d-hw8-BS.pdf) -- **due on Wednesday, November 30th**
 
@@ -495,6 +495,8 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 **Class 38: November 18th**<br>
 Delta-hedging. <br>
+
+[Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class.Rmd)
 
 ---
 
