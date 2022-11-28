@@ -49,10 +49,37 @@ v.c
 Provide the *Monte Carlo* estimate of the price using the simulated draws from the standard normal distribution with 10000 simulations.
 
 *Solution:*
+```{r}
+n.sims=10000
+z.s=rnorm(n.sims)
+
+s.T=s0*exp((r-sigma^2/2)*T+sigma*sqrt(T)*z.s)
+#hist(s.T)
+
+v.T=pmax(s.T-K,0)
+v.bar=mean(v.T)
+
+v.c.mc=exp(-r*T)*v.bar
+v.c.mc
+```
 
 
 ## Problem #3: Black-Scholes Monte Carlo with `rlnorm``
 Provide the *Monte Carlo* estimate of the price using the simulated draws from the lognormal distribution with 10000 simulations.
 
 *Solution:*
+```{r}
+mu=r-sigma^2/2
+
+s.T=s0*rlnorm(n.sims, meanlog=mu*T, sdlog=sigma*sqrt(T))
+
+#hist(s.T, breaks=25)
+
+v.T=pmax(s.T-K,0)
+v.bar=mean(v.T)
+
+v.c.mc=exp(-r*T)*v.bar
+v.c.mc
+
+```
 

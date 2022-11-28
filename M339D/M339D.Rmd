@@ -504,7 +504,7 @@ Delta-hedging. <br>
 
 [Class notes](notes/m339d-nov-18-2022.pdf) 
 
-[Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class.Rmd)
+[Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class.Rmd) - **the partial solution**
 
 ---
 
@@ -512,6 +512,10 @@ Delta-hedging. <br>
 Implied volatility. <br>
 
 [Problem](problem-sets/m339d-ifm-impl-vol.pdf)
+
+[Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class-contd.Rmd) - **the complete solution**
+
+[In-Term Three](exams/m339d-three-topics.pdf): Topics
 
 ---
 
@@ -1054,8 +1058,6 @@ Problem-solving session.<br>
 [Problem Set #11](problem-sets/m339d-ps11-currency-futures-solns.pdf) -- **solutions**
 
 [Homework #11](hw/m339d-hw11-exotic-solns.pdf) - **solutions**
-
-[In-Term Three](exams/m339d-three-topics.pdf): Topics
 
 [Practice for In-Term Three](exams/m339d-three-sample-probs.pdf) -- **problems** 
 
