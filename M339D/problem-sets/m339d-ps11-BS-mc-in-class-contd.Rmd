@@ -1,0 +1,58 @@
+---
+title: "Problem set #11: Black-Scholes Monte Carlo: Problems"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+Let the continuously compounded, risk-free interest rate be $0.04$. 
+
+```{r}
+r=0.04
+```
+
+Consider a stock whose current price is \$100 and whose volatility is $0.25$. We will be pricing a one-year, \$95-strike call option. 
+```{r}
+s0=100
+sigma=0.25
+T=1
+K=95
+```
+
+
+## Problem #1: Analytic Black-Scholes
+Price the option above using the Black-Scholes pricing formula. 
+
+*Solution:*
+```{r}
+d.one=(log(s0/K)+(r+sigma^2/2)*T)/(sigma*sqrt(T))
+d.one
+
+d.two=d.one-sigma*sqrt(T)
+d.two
+
+n.d.one=pnorm(d.one)
+n.d.two=pnorm(d.two)
+
+v.c=s0*n.d.one-K*exp(-r*T)*n.d.two
+v.c
+```
+
+
+## Problem #2: Black-Scholes Monte Carlo with $Z$
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the standard normal distribution with 10000 simulations.
+
+*Solution:*
+
+
+## Problem #3: Black-Scholes Monte Carlo with `rlnorm``
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the lognormal distribution with 10000 simulations.
+
+*Solution:*
+

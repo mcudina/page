@@ -790,9 +790,9 @@ Difference of two means <span style="color: purple;">**(Section 7.3)**</span><br
 
 t-procedures [practice].<br>
 
-<!--
 [The R-script from class](code/t-test.R)
 
+<!--
 [Class notes](notes/m358k-dec-01-2021.pdf)
 -->
 
@@ -821,6 +821,8 @@ Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><b
 [Visualizing Correlations](http://demonstrations.wolfram.com/VisualizingCorrelations/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod
 
 [Anscombe Quartet](http://demonstrations.wolfram.com/AnscombeQuartet/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
+
+[Datasaurus](https://cran.r-project.org/web/packages/datasauRus/vignettes/Datasaurus.html)
 
 [Problem set #21](problem-sets/m358k-ps-twenty-one-corr-linear-transforms.pdf) -- **problems**
 
