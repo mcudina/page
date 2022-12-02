@@ -725,9 +725,7 @@ The confidence interval for the population mean <span style="color: purple;">**(
 **Class 37: November 16th**<br>
 The t-test <span style="color: purple;">**(Section 7.1.5)**</span><br>
 
-<!--
 [Class notes](notes/m358k-nov-19-2021.pdf)
--->
 
 [Slides](notes/m358k-7.1-one-sample-means-with-the-t-distribution.pdf) - **Courtesy of Open Course Statistics**
 
@@ -746,15 +744,11 @@ The t-test <span style="color: purple;">**(Section 7.1.5)**</span><br>
 **Class 38: November 18th**<br>
 t-procedures practice.<br>
 
-<!--
 [Class notes](notes/m358k-nov-22-2021.pdf)
--->
 
 [Problem set #19](problem-sets/m358k-ps-nineteen-t-procedures.pdf) -- **problems**
 
-<!--
 [Problem set #19](problem-sets/m358k-ps-nineteen-t-procedures-solns.pdf) -- **solutions**
--->
 
 Robustness of t-procedures (optional).
 
