@@ -57,6 +57,7 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
+<!--
 **Class 1: August 22nd**<br>
 Orientation. <br>
 
@@ -355,7 +356,6 @@ Binomial option pricing: Pricing by replication. <br>
 
 <!--
 [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model.
--->
 
 [Class notes](notes/m339d-oct-19-2022.pdf) 
 
@@ -478,7 +478,6 @@ The Black-Scholes pricing formula.<br>
 
 <!--
 [Problem Set #10](problem-sets/m339d-ps10-BS-solns.pdf): **Solutions**
--->
 
 [Problem](problem-sets/mfe-sp2007-p8.pdf)
 
