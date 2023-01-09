@@ -62,8 +62,9 @@ Orientation. <br>
 
 [A role model](pics/bilbo.jpeg)
 
-
 [First-Day Handout](syllabus/syllabus-54720.pdf)
+
+[Day-by-day](notes/m339d-spring-2023-todo.pdf)
 
 [Funny](http://books.google.com/books?id=8FgF3dOoUVsC&lpg=PA49&ots=UU208Gu6pv&dq=pigg%20vioos&pg=PA49#v=onepage&q=pigg%20vioos&f=false)
 
@@ -71,45 +72,52 @@ Orientation. <br>
 
 ---
 
-<!--
-**Class 2: August 24th**<br>
+**Class 2: January 11th**<br>
 Setting up R and RStudio. Basics of R: Arithmetic. Vectors. <br>
 
+<!--
 [Console printout](notes/console.txt)
+-->
 
-[Homework #1](hw/m339d-hw1-prereq.pdf) -- **due on Tuesday, September 6th**
+[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 20th**
 
 ---
 
-**Class 3: August 26th**<br>
-R-scripts and R-notebooks.<br> 
+**Class 3: January 13th**<br>
+R-scripts and R-notebooks. For loops.<br> 
 
+<!--
 [The R-script from class](code/first-script.R)
 
 [The R-notebook from class](code/first-notebook.Rmd)
+-->
 
 [Problem Set #1](code/m339d-ps1.Rmd)
 
+<!--
 [Problem Set #1](code/m339d-ps1-in-class.Rmd): Solutions from class
+
+-->
 
 ---
 
-**Class 4: August 29th**<br>
-Data. <br>
+**Class 4: January 18th**<br>
+Functions in R. `If ... else` in R.<br> 
 
+<!--
 [Duke gpa](data/gpa.csv) - courtesy of OpenCourse Statistics
 
 [The R-notebook for class](code/m339d-gpa-probs.Rmd)
 
 [The R-notebook from class](code/m339d-gpa-solns.Rmd)
 
----
-
-**Class 5: August 31st**<br>
-Functions in R. `If ... else` in R. `For` loops.<br> 
-
 [The R-script from class](code/ftions-ifelse.R)
 
+-->
+
+---
+
+**Class 5: January 20th**<br>
 Background. 
 
 [Lecture One](lectures/m339d-lecture-one-background.pdf): Background.
@@ -117,6 +125,8 @@ Background.
 Prerequisite review. 
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf): **Problems**
+
+<!--
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
 
