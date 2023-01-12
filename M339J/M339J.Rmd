@@ -92,11 +92,11 @@ Slides: [Actuarial Sims.](slides/m339j-sims.pdf)
 ---
 
 **Class 2: January 11th**<br>
-Cumulative distribution function. Survival function. Percentiles. Value-at-Risk.<br>
+Cumulative distribution function. Survival function.<br> 
 
-[Wikipedia](https://en.wikipedia.org/wiki/Value_at_risk): Value at Risk (VaR). 
-  
 [Class notes](notes/m339j-jan-11-2023.pdf): Probability review: Random variables. 
+
+[Lecture notes](lectures/m339j-lecture1-cdf.pdf): The cumulative distribution function and friends
 
 [Problem Set #1](problem-sets/m339j-ps1-cdf.pdf) -- **problems**
 
@@ -109,6 +109,10 @@ Cumulative distribution function. Survival function. Percentiles. Value-at-Risk.
 ---
 
 **Class 3: January 13th**<br>
+Percentiles. Value-at-Risk. <span style="color: purple;">**(Sections 3.1.2, 4.1.1.3, 10.3.2)**</span> <br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Value_at_risk): Value at Risk (VaR). 
+
 Types of random variables. Probability mass function. Probability density function.<br>
 
 <!--
