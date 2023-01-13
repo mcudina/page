@@ -150,9 +150,7 @@ The exponential distribution.<br>
 
 ---
 
-<!--
-
-**Class 5: January 28th**<br>
+**Class 5: January 20th**<br>
 Random number generation. The inverse transform method.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -161,76 +159,90 @@ Random number generation. The inverse transform method.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
+<!--
 [Class notes](notes/m339j-jan-28-2022.pdf): The inverse transform method.
 
 [Quiz #3](quizzes/m339j-quiz3-pdf-pmf-solns.pdf) -- **solutions**
+-->
 
-[Quiz #5](quizzes/m339j-quiz5-inv-trans.pdf) -- **due on Friday, February 4th**
+[Quiz #5](quizzes/m339j-quiz5-inv-trans.pdf) -- **due on Wednesday, February 15th**
 
 ---
 
-**Class 6: January 31st**<br>
+**Class 6: January 23rd**<br>
 Basics of `R`. `R` scripts and `R` notebooks.<br>
 
+<!--
 [The R-script from class](code/for-loop.R)
 
 [Quiz #4](quizzes/m339j-quiz4-exponential-solns.pdf) -- **solutions**
+-->
 
-[Quiz #6](quizzes/m339j-quiz6-r.pdf) -- **due on Monday, February 7th**
+[Quiz #6](quizzes/m339j-quiz6-r.pdf) -- **due on Wednesday, February 22nd**
 
-[Quiz #7](quizzes/m339j-quiz7-r-basics.pdf) -- **due on Friday, February 11th**
+[Quiz #7](quizzes/m339j-quiz7-r-basics.pdf) -- **due on Wednesday, March 1st**
 
 [Quiz #7](code/m339j-quiz7-r-basics.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
 
 ---
 
-**Class 7: February 2nd**<br>
+**Class 7: January 25th**<br>
 Functions in `R`. `If ... else` in `R`. Simulations of random variables. <br> 
 
+<!--
 [The R-script from class](code/ftions-if-else-sims.R)
 
 [Homework #2](hw/m339j-hw2-solns.pdf) -- **solutions**
+-->
 
-[Quiz #8](quizzes/m339j-quiz8-r-simulations.pdf) -- **due on Monday, February 14th**
+[Quiz #8](quizzes/m339j-quiz8-r-simulations.pdf) -- **due on Wednesday, March 8th**
 
 [Quiz #8](code/m339j-quiz8-r-simulations.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
 
-[Quiz #9](quizzes/m339j-quiz9-r-pareto-itm.pdf) -- **due on Friday, February 25th**
+[Quiz #9](quizzes/m339j-quiz9-r-pareto-itm.pdf) -- **due on Wednesday, March 22nd**
 
 [Quiz #9](code/m339j-quiz9-r-pareto-itm.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
 
 ---
 
-**Class 8: February 4th**<br>
-No class due to winter weather conditions.<br>
+**Class 8: January 27th**<br>
+Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>. TVaR <span style="color: purple;">**(Section 10.3.3)**</span>.<br>
 
-[Quiz #5](quizzes/m339j-quiz5-inv-trans-solns.pdf) -- **solutions**
-
----
-
-**Class 9: February 7th**<br>
-Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>.<br>
-
+<!--
 [Class notes](notes/m339j-feb-07-2022.pdf): The expected value.  
 
+[Quiz #5](quizzes/m339j-quiz5-inv-trans-solns.pdf) -- **solutions**
+-->
+
 ---
 
-**Class 10: February 9th**<br>
+**Class 9: January 30th**<br>
 The tail formula for the expectation. SLLN. Monte Carlo simulation.<br>
 
+<!--
 [Class notes](notes/m339j-feb-09-2022.pdf): The tail formula for the expectation. SLLN. Monte Carlo. 
 
 [The R-script from class](code/monte-carlo-in-class.R)
+-->
 
 ---
 
-**Class 11: February 11th**<br>
+**Class 10: February 1st**<br>
 Moments. Variance. Coefficient of variation <span style="color: purple;">**(Section 3.1.1)**</span>
 <br>
 
+<!--
+[Class notes](notes/m339j-feb-11-2022.pdf): Moments. Variance. Coefficient of variation. The excess loss random variable.
+-->
+
+---
+
+**Class 11: February 3rd**<br>
+
+<!--
+
 The excess loss random variable.<br>
 
-[Class notes](notes/m339j-feb-11-2022.pdf): Moments. Variance. Coefficient of variation. The excess loss random variable.
 
 [Quiz #7](quizzes/m339j-quiz7-r-basics-solns.pdf) -- **solutions**
 
