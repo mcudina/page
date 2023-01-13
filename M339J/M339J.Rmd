@@ -113,13 +113,11 @@ Percentiles. Value-at-Risk. <span style="color: purple;">**(Sections 3.1.2, 4.1.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Value_at_risk): Value at Risk (VaR). 
 
-Types of random variables. Probability mass function. Probability density function.<br>
+Discrete random variables. Probability mass function. <br>
 
 [Lecture notes](lectures/m339j-lecture2-types.pdf): Types of random variables.
 
-<!--
-[Class notes](notes/m339j-jan-24-2022.pdf): pmf. pdf. 
--->
+[Class notes](notes/m339j-jan-13-2023.pdf): pmf. 
 
 [Quiz #2](quizzes/m339j-quiz2-cdf.pdf) -- **due on Wednesday, January 25th**
 
@@ -129,6 +127,8 @@ Types of random variables. Probability mass function. Probability density functi
 ---
 
 **Class 4: January 18th**<br>
+Continuous random variables. Probability density function. Mixed random variables.<br>
+
 The exponential distribution.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Exponential_distribution): The exponential distribution.
