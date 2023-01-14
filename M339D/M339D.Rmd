@@ -107,8 +107,9 @@ Prerequisite review.<br>
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems**
 
-<!--
+[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, January 27th**
 
+<!--
 [Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
 
 [Class notes](notes/m339d-aug-31-2022.pdf) 
@@ -118,26 +119,28 @@ Prerequisite review.<br>
 [The R-notebook for class](code/m339d-gpa-probs.Rmd)
 
 [The R-notebook from class](code/m339d-gpa-solns.Rmd)
-
-
+-->
 ---
 
 **Class 5: January 20th**<br>
-
----
-
-**Class 6: September 2nd**<br>
 Standing assumptions and conventions. Risky assets. Transaction costs. <br>
 
+<!--
 [Class notes](notes/m339d-sept-02-2022.pdf) 
+-->
 
 [Lecture Two](lectures/m339d-lecture-two-transaction-costs.pdf): Transaction Costs
 
 [Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
 
+<!--
 [More class notes](notes/m339d-jan-25-2021.pdf) 
+-->
 
-[Homework #2](hw/m339d-hw2-cov.pdf) -- **due on Monday, September 12th**
+<!--
+
+**Class 6: September 2nd**<br>
+
 
 ---
 
@@ -175,8 +178,6 @@ Expected return of a portfolio.<br>
 [Problem](problem-sets/m339d-ifm-exp-return.pdf)
 
 [Class notes](notes/m339d-sept-12-2022.pdf) 
-
-[Homework #2](hw/m339d-hw2-cov-solns.pdf) -- **solutions**
 
 ---
 
@@ -604,8 +605,6 @@ Continuous-dividend-paying stocks.
 [Quiz #5](quizzes/m339d-quiz5-cont-div.pdf) -- **due on Wednesday, February 2nd**
 
 [Homework #1](hw/m339d-hw-one-prereq-trans-costs-solns.pdf) -- **solutions**
-
-[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, February 4th**
 
 ---
 
