@@ -155,7 +155,7 @@ The exponential distribution.<br>
 
 [Homework #2](hw/m339j-hw2.pdf) -- **due on Friday, January 27th**
 
-Random number generation. The inverse transform method.<br>
+Random number generation. The inverse transform method <span style="color: purple;">**(Section 6.1.2)**</span>.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
 
@@ -163,7 +163,11 @@ Random number generation. The inverse transform method.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
+[Lecture notes](lectures/m339j-lecture4-inv-trans.pdf): The inverse transform method.
+
 <!--
+[Lecture notes with proofs](lectures/m339j-lecture4-inv-trans-w-pfs.pdf): The inverse transform method.
+
 [Class notes](notes/m339j-jan-28-2022.pdf): The inverse transform method.
 
 [Quiz #3](quizzes/m339j-quiz3-pdf-pmf-solns.pdf) -- **solutions**
