@@ -163,10 +163,11 @@ Random number generation. The inverse transform method <span style="color: purpl
 
 [An atmospheric RNG](https://www.random.org/)
 
+<!--
+
 [Lecture notes](lectures/m339j-lecture4-inv-trans.pdf): The inverse transform method.
 
 
-<!--
 [Lecture notes with proofs](lectures/m339j-lecture4-inv-trans-w-pfs.pdf): The inverse transform method.
 
 [Class notes](notes/m339j-jan-28-2022.pdf): The inverse transform method.
