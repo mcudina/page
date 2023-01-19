@@ -99,8 +99,6 @@ Cumulative distribution function. Survival function.<br>
 
 <!--
 [Problem Set #1](problem-sets/m339j-ps1-cdf-solns.pdf) -- **solutions**
-
-[Quiz #1](quizzes/m339j-quiz-one-probability-solns.pdf) -- **solutions**
 -->
 
 ---
@@ -125,6 +123,8 @@ Discrete random variables. Probability mass function. <br>
 Continuous random variables. Probability density function. Mixed random variables.<br>
 
 [Class notes](notes/m339j-jan-18-2023.pdf): pdf. Mixed r.v.s 
+
+[Quiz #1](quizzes/m339j-quiz-one-probability-solns.pdf) -- **solutions**
 
 [Quiz #2](quizzes/m339j-quiz2-cdf.pdf) -- **due on Wednesday, January 25th**
 
@@ -163,10 +163,9 @@ Random number generation. The inverse transform method <span style="color: purpl
 
 [An atmospheric RNG](https://www.random.org/)
 
-<!--
-
 [Lecture notes](lectures/m339j-lecture4-inv-trans.pdf): The inverse transform method.
 
+<!--
 
 [Lecture notes with proofs](lectures/m339j-lecture4-inv-trans-w-pfs.pdf): The inverse transform method.
 
