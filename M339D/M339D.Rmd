@@ -149,6 +149,15 @@ Historical returns of stocks.<br>
 
 [The R-notebook for class](code/m339d-msft-probs.Rmd)
 
+[The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
+
+<!--
+[The R-notebook from class](code/m339d-msft-solns.Rmd)
+-->
+
+[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, February 6th, 2023**
+
+[Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
@@ -179,15 +188,6 @@ Historical returns of stocks.<br>
 **Class 12: February 6th**<br>
 
 <!--
-
-[Class notes](notes/m339d-sept-07-2022.pdf) 
-
-
-[The R-notebook from class](code/m339d-msft-solns.Rmd)
-
-[Project #1](projects/m339d-project1-probs.pdf) -- **due on September 16th, 2022**
-
-[Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 [Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
 
