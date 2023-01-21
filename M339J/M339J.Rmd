@@ -97,9 +97,7 @@ Cumulative distribution function. Survival function.<br>
 
 [Problem Set #1](problem-sets/m339j-ps1-cdf.pdf) -- **problems**
 
-<!--
 [Problem Set #1](problem-sets/m339j-ps1-cdf-solns.pdf) -- **solutions**
--->
 
 ---
 
@@ -157,6 +155,9 @@ The exponential distribution.<br>
 
 [Homework #2](hw/m339j-hw2.pdf) -- **due on Friday, January 27th**
 
+---
+
+**Class 6: January 23rd**<br>
 Random number generation. The inverse transform method <span style="color: purple;">**(Section 6.1.2)**</span>.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -178,9 +179,6 @@ Random number generation. The inverse transform method <span style="color: purpl
 
 [Quiz #5](quizzes/m339j-quiz5-inv-trans.pdf) -- **due on Wednesday, February 15th**
 
----
-
-**Class 6: January 23rd**<br>
 Basics of `R`. `R` scripts and `R` notebooks.<br>
 
 <!--
