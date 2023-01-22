@@ -145,6 +145,8 @@ Outright purchase. Short sales.<br>
 
 [Working directory in `R`](https://r-coder.com/working-directory-r/)
 
+[Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
+
 ---
 
 **Class 6: January 23rd**<br>
@@ -205,9 +207,6 @@ Payoff and profit curves. Long/short positions.<br>
 **Class 14: February 10th**<br>
 
 <!--
-
-[Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
-
 [The R-notebook from class](code/m339d-project1-probs-rule-i.Rmd)
 
 Expected return of a portfolio.<br>
