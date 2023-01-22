@@ -170,6 +170,11 @@ Historical returns of stocks.<br>
 ---
 
 **Class 7: January 25th**<br>
+Payoff and profit curves. Long/short positions.<br>
+
+<!--
+[Class notes](notes/m339d-sept-23-2022.pdf) 
+-->
 
 ---
 
@@ -190,6 +195,14 @@ Historical returns of stocks.<br>
 ---
 
 **Class 12: February 6th**<br>
+
+---
+
+**Class 13: February 8th**<br>
+
+---
+
+**Class 14: February 10th**<br>
 
 <!--
 
@@ -229,9 +242,6 @@ Sharpe ratio.<br>
 
 [Problem](problem-sets/m339d-ifm-sharpe.pdf)
 
----
-
-**Class 13: September 21st**<br>
 The Capital Asset Pricing Model (CAPM).<br>
 
 [Class notes](notes/m339d-sept-21-2022.pdf) 
@@ -242,10 +252,6 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 ---
 
-**Class 14: September 23rd**<br>
-Payoff and profit curves. Long/short positions.<br>
-
-[Class notes](notes/m339d-sept-23-2022.pdf) 
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
 
