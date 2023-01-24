@@ -164,10 +164,11 @@ Historical returns of stocks.<br>
 [The R-notebook from class](code/m339d-msft-solns.Rmd)
 -->
 
+[Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
+
 [Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, February 6th, 2023**
 
 [Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
 
 ---
 
@@ -175,12 +176,13 @@ Historical returns of stocks.<br>
 Payoff and profit curves. Long/short positions.<br>
 
 <!--
-[Class notes](notes/m339d-sept-23-2022.pdf) 
+[Class notes](notes/m339d-sept-28-2022.pdf) 
 -->
 
 ---
 
 **Class 8: January 27th**<br>
+Basic risk management. Forward contracts.<br>
 
 ---
 
@@ -205,6 +207,10 @@ Payoff and profit curves. Long/short positions.<br>
 ---
 
 **Class 14: February 10th**<br>
+
+---
+
+**Class 15: February 13th**<br>
 
 <!--
 [The R-notebook from class](code/m339d-project1-probs-rule-i.Rmd)
@@ -249,19 +255,12 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 [Homework #3](hw/m339d-hw3-intro-corp-finance.pdf) -- **due on Monday, October 3rd**
 
----
-
-
-[Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
-
 [Project #2](projects/m339d-project2-probs.pdf) -- **due on Friday, October 7th, 2022**
 
 [Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-**Class 15: September 26th**<br>
-Basic risk management. Forward contracts.<br>
 
 [Class notes](notes/m339d-sept-26-2022.pdf) 
 

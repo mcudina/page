@@ -1,0 +1,107 @@
+---
+title: "The Historical Microsoft Analysis"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Task 1. 
+First, we will read the data from our csv file "MSFT.csv" into a data.frame called `msft`:
+
+```{r}
+msft<-read.csv("MSFT.csv")
+msft
+ls.str(msft)
+```
+
+
+## Task 2.
+Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
+
+```{r}
+close=msft$Close
+length(close)
+plot(close, type="l", col="blue",
+     main="Daily closing prices of Msft",
+     xlab="Time",
+     ylab="Stock price")
+```
+
+## Task 3. 
+What are the mean and the standard deviation of the prices?
+
+```{r}
+mean(close)
+sd(close)
+```
+
+## Task 4. 
+The **simple daily return** of the stock over a day indexed by $t$ is defined as 
+$$
+\frac{\text{price at end of day $t$}-\text{price at end of day $(t-1)$}}{\text{price at end of day $(t-1)$}} 
+$$
+Construct the vector of simple daily returns over the last year. Provide a visualization of the returns. What can you say about the characteristics of the distribution based on the above plot?
+
+```{r}
+close.end=close[-1]
+close.beg=close[-length(close)]
+returns=(close.end-close.beg)/close.beg
+#plot(returns, type="l")
+hist(returns, breaks=20, 
+     main="Histogram of daily returns",
+     xlab="Returns",
+     col="bisque")
+```
+
+## Task 5. 
+What are the mean and the standard deviation of the returns?
+
+```{r}
+mu=mean(returns)
+mu
+sd=sd(returns)
+sd
+```
+
+## Task 6. 
+How would you **fit** a distribution to the above histogram? Let's 
+
+* propose a model for the returns; 
+* calculate the point estimates of the parameters of the model;
+* superimpose the density of the modelling distribution onto the histogram. 
+
+```{r}
+hist(returns, breaks=20, 
+     main="Histogram of daily returns",
+     xlab="Returns",
+     col="bisque", 
+     prob=TRUE)
+curve(dnorm(x, mean=mu, sd=sd), lwd=2, col="red", add=TRUE)
+```
+
+## Task x. 
+What else could we ask? 
+
+```{r}
+plot(close[-length(close)], returns, pch=20, col="blue")
+lm=lm(returns ~ close[-length(close)])
+abline(lm)
+```
+
