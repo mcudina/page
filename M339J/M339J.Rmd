@@ -176,11 +176,11 @@ Random number generation. The inverse transform method <span style="color: purpl
 
 [Quiz #5](quizzes/m339j-quiz5-inv-trans.pdf) -- **due on Wednesday, February 15th**
 
-Basics of `R`. `R` scripts and `R` notebooks. `For` loops.<br>
+Basics of `R`. <br>
+
+[The console printout](notes/console.txt)
 
 <!--
-[The R-script from class](code/for-loop.R)
-
 [Quiz #4](quizzes/m339j-quiz4-exponential-solns.pdf) -- **solutions**
 -->
 
@@ -193,6 +193,12 @@ Basics of `R`. `R` scripts and `R` notebooks. `For` loops.<br>
 ---
 
 **Class 7: January 25th**<br>
+`R` scripts and `R` notebooks. `For` loops.<br>
+
+<!--
+[The R-script from class](code/for-loop.R)
+-->
+
 Functions in `R`. `If ... else` in `R`. Simulations of random variables. <br> 
 
 <!--
