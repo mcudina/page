@@ -179,6 +179,8 @@ Payoff and profit curves. Long/short positions.<br>
 [Class notes](notes/m339d-sept-28-2022.pdf) 
 -->
 
+[The R-notebook for class](code/m339d-project1-variation.Rmd)
+
 ---
 
 **Class 8: January 27th**<br>
@@ -213,8 +215,6 @@ Basic risk management. Forward contracts.<br>
 **Class 15: February 13th**<br>
 
 <!--
-[The R-notebook from class](code/m339d-project1-probs-rule-i.Rmd)
-
 Expected return of a portfolio.<br>
 
 [Problem](problem-sets/m339d-ifm-exp-return.pdf)

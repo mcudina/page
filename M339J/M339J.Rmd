@@ -195,15 +195,15 @@ Basics of `R`. <br>
 **Class 7: January 25th**<br>
 `R` scripts and `R` notebooks. `For` loops.<br>
 
-<!--
-[The R-script from class](code/for-loop.R)
--->
+[The console printout](notes/console-contd.txt)
 
 Functions in `R`. `If ... else` in `R`. Simulations of random variables. <br> 
 
-<!--
-[The R-script from class](code/ftions-if-else-sims.R)
+[The R-script from class](code/first-script-1pm.R): For loops. Functions. If else.
 
+[The R-script from class](code/expon-1pm.R): The exponential distribution.
+
+<!--
 [Homework #2](hw/m339j-hw2-solns.pdf) -- **solutions**
 -->
 
@@ -218,7 +218,7 @@ Functions in `R`. `If ... else` in `R`. Simulations of random variables. <br>
 ---
 
 **Class 8: January 27th**<br>
-Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>. TVaR <span style="color: purple;">**(Section 10.3.3)**</span>.<br>
+Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>. The tail formula for the expectation. TVaR <span style="color: purple;">**(Section 10.3.3)**</span>.<br>
 
 <!--
 [Class notes](notes/m339j-feb-07-2022.pdf): The expected value.  
@@ -231,7 +231,7 @@ Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>
 ---
 
 **Class 9: January 30th**<br>
-The tail formula for the expectation. SLLN. Monte Carlo simulation.<br>
+SLLN. Monte Carlo simulation.<br>
 
 <!--
 [Class notes](notes/m339j-feb-09-2022.pdf): The tail formula for the expectation. SLLN. Monte Carlo. 

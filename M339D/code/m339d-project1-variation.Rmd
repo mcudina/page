@@ -1,0 +1,68 @@
+---
+title: "On portfolios"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+urlcolor: blue
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Problem #1 
+Your initial wealth is exactly \$100. You are allowed to invest in
+shares of a particular stock. You are also allowed to both lend and
+borrow at the continuously compounded, risk-free interest rate of
+0.05. Keeping your money uninvested is \textbf{not allowed}.
+
+You can rebalance your portfolio every morning, once you have observed
+the opening stock price. This means that you can change the number of
+shares you own (if you decide to do so) and accordingly adapt your
+risk-free investment.
+
+You proceed to create a ``rule'' according to which you will be
+rebalancing your portfolio. Here is a possible rule you can use:
+
+*Start by purchasing half a share of stock. Thereafter, if the stock had gone up overnight, you invest an extra \$10 in the stock (you might need to borrow money); if the stock had gone down, you take out \$10 worth of investment from the stock and put that in the savings account (you might need to short the stock); if the stock price remains the same, change nothing.* 
+
+\medskip
+
+Over the following 10 days, you observe the following stock prices for a non-dividend-paying stock:
+
+\medskip
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf Day} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline
+{\bf Stock price} &100 & 80 & 64 & 80 & 64 & 80 & 100 & 80 & 64 & 80 & 100 \\
+\hline
+\end{tabular}
+
+\medskip
+
+As the time passes you follow investment rules above to rebalance your portfolio. Complete the following table describing your portfolio \textbf{just before and just after} the rebalancing is done. 
+Even more precisely, for the $10$ days, both for "before" and "after" the rebalancing, print out:
+
+* the number of shares of stock in the portfolio, 
+* the balance of the risk-free investment, 
+* the wealth in the stock, 
+* the total wealth. 
+
+\medskip
+
+*Solution:*
