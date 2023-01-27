@@ -112,9 +112,6 @@ Discrete random variables. Probability mass function. <br>
 
 [Class notes](notes/m339j-jan-13-2023.pdf): pmf. 
 
-<!--
-[Quiz #2](quizzes/m339j-quiz2-cdf-solns.pdf) -- **solutions**
--->
 ---
 
 **Class 4: January 18th**<br>
@@ -206,6 +203,8 @@ Functions in `R`. `If ... else` in `R`. Simulations of random variables. <br>
 <!--
 [Homework #2](hw/m339j-hw2-solns.pdf) -- **solutions**
 -->
+
+[Quiz #2](quizzes/m339j-quiz2-cdf-solns.pdf) -- **solutions**
 
 [Quiz #8](quizzes/m339j-quiz8-r-simulations.pdf) -- **due on Wednesday, March 8th**
 
