@@ -217,11 +217,11 @@ Functions in `R`. `If ... else` in `R`. Simulations of random variables. <br>
 ---
 
 **Class 8: January 27th**<br>
-Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>. The tail formula for the expectation. TVaR <span style="color: purple;">**(Section 10.3.3)**</span>.<br>
+Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>. The tail formula for the expectation. <br>
+
+[Class notes](notes/m339j-jan-27-2023.pdf): The expected value.  
 
 <!--
-[Class notes](notes/m339j-feb-07-2022.pdf): The expected value.  
-
 [Quiz #5](quizzes/m339j-quiz5-inv-trans-solns.pdf) -- **solutions**
 -->
 
@@ -230,6 +230,8 @@ Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>
 ---
 
 **Class 9: January 30th**<br>
+TVaR <span style="color: purple;">**(Section 10.3.3)**</span>.<br>
+
 SLLN. Monte Carlo simulation.<br>
 
 <!--
@@ -305,11 +307,12 @@ Loss-modifications demonstration. Loss elimination ratio <span style="color: pur
 
 **Suggested textbook examples:** <span style="color: purple;">**3.4.3, 3.4.4, 3.4.5**</span>
 
-
 ---
 
+**Class 13: February 8th**<br>
+Proportional and excess of loss reinsurance <span style="color: purple;">**(Section 3.4.4)**</span>. 
+
 <!--
-**Class 13: February 16th**<br>
 
 
 [Quiz #10](quizzes/m339j-quiz10-loss-mods.pdf) -- **due on Monday, February 28th**
