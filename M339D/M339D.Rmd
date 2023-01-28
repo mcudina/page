@@ -182,17 +182,16 @@ Payoff and profit.<br>
 **Class 8: January 27th**<br>
 Payoff and profit curves. Long/short positions.<br>
 
-<!--
-[Class notes](notes/m339d-sept-28-2022.pdf) 
-
-[The R-notebook for class](code/m339d-project1-variation.Rmd)
--->
-
-Basic risk management. Forward contracts.<br>
+[Class notes](notes/m339d-jan-27-2023.pdf) 
 
 ---
 
 **Class 9: January 30th**<br>
+Basic risk management. Forward contracts.<br>
+
+<!--
+[The R-notebook for class](code/m339d-project1-variation.Rmd)
+-->
 
 ---
 
