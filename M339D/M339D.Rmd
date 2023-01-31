@@ -195,13 +195,9 @@ Basic risk management. Forward contracts.<br>
 
 [Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration.pdf):  **Problems**
 
-<!--
-[Class notes](notes/m339d-sept-30-2022.pdf) 
+[Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration-solns.pdf):  **Solutions**
 
-[Class notes](notes/m339d-oct-03-2022.pdf) 
--->
-
-[The R-notebook for class](code/m339d-project1-variation.Rmd)
+[Class notes](notes/m339d-jan-30-2023.pdf) 
 
 ---
 
@@ -209,8 +205,12 @@ Basic risk management. Forward contracts.<br>
 Hedging using forward contracts.<br>
 
 <!--
+[Class notes](notes/m339d-oct-03-2022.pdf) 
+
 [Class notes](notes/m339d-oct-05-2022.pdf) 
 -->
+
+[The R-notebook for class](code/m339d-project1-variation.Rmd)
 
 ---
 
