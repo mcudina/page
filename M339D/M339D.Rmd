@@ -202,6 +202,16 @@ Basic risk management. Forward contracts.<br>
 ---
 
 **Class 10: February 1st**<br>
+<span style="color: blue;">**Asynchronous work due to winter conditions.**</span>
+<br>
+
+[The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
+
+[The R-notebook for class](code/m339d-project1-variation-solns.Rmd): **Solutions**
+
+---
+
+**Class 11: February 3rd**<br>
 Hedging using forward contracts.<br>
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards.pdf):  **Problems**
@@ -214,11 +224,6 @@ Hedging using forward contracts.<br>
 [Class notes](notes/m339d-oct-05-2022.pdf) 
 -->
 
-[The R-notebook for class](code/m339d-project1-variation.Rmd)
-
----
-
-**Class 11: February 3rd**<br>
 European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
