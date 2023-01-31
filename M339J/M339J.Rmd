@@ -235,19 +235,17 @@ TVaR <span style="color: purple;">**(Section 10.3.3)**</span>. Strong Law of Lar
 ---
 
 **Class 10: February 1st**<br>
-Monte Carlo simulation.<br>
+<span style="color: blue;">**Asynchronous work due to winter conditions.**</span>
+<br>
 
-<!--
+Monte Carlo simulation. Basics of the binomial distribution.<br>
 
 [The R-script from class](code/monte-carlo-in-class.R)
--->
 
 Moments. Variance. Coefficient of variation <span style="color: purple;">**(Section 3.1.1)**</span>
 <br>
 
-<!--
-[Class notes](notes/m339j-feb-11-2022.pdf): Moments. Variance. Coefficient of variation. The excess loss random variable.
--->
+[Class notes](notes/m339j-moments.pdf): Moments. Variance. Coefficient of variation. 
 
 ---
 
