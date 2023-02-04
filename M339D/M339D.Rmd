@@ -212,6 +212,18 @@ Basic risk management. Forward contracts.<br>
 ---
 
 **Class 11: February 3rd**<br>
+<span style="color: blue;">**Asynchronous work due to winter conditions.**</span>
+<br>
+
+[Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
+
+[Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
+
+[Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
+
+---
+
+**Class 12: February 6th**<br>
 Hedging using forward contracts.<br>
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards.pdf):  **Problems**
@@ -224,6 +236,9 @@ Hedging using forward contracts.<br>
 [Class notes](notes/m339d-oct-05-2022.pdf) 
 -->
 
+---
+
+**Class 13: February 8th**<br>
 European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
@@ -234,7 +249,7 @@ European call options.<br>
 
 ---
 
-**Class 12: February 6th**<br>
+**Class 14: February 10th**<br>
 European put options. Moneyness.<br>
 
 [Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
@@ -247,19 +262,19 @@ European put options. Moneyness.<br>
 
 ---
 
-**Class 13: February 8th**<br>
+**Class 15: February 13th**<br>
 Finite probability spaces [revisited]. Arbitrage portfolios.<br>
 
 ---
 
-**Class 14: February 10th**<br>
+**Class 16: February 15th**<br>
 Law of the Unique Price. Replicating portfolios. Derivative securities. Equity-linked contracts.<br>
 
 [Problem packet](problem-sets/m339d-equity-linked.pdf)
 
 ---
 
-**Class 15: February 13th**<br>
+**Class 17: February 17th**<br>
 Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
@@ -267,14 +282,6 @@ Put-call parity.<br>
 Chooser options.<br>
 
 [Problem packet](problem-sets/m339d-chooser.pdf)
-
----
-
-**Class 16: February 15th**<br>
-
----
-
-**Class 17: February 17th**<br>
 
 ---
 
@@ -683,12 +690,6 @@ More on short sales.<br>
 Fully-leveraged purchase. Basic risk management. Forward contracts.<br>
 
 [Class notes](notes/m339d-feb-07-2022.pdf): Fully-leveraged purchase. Basic risk management. Forwards.
-
-[Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
-
-[Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
-
-[Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
 
 [Quiz #6](quizzes/m339d-quiz6-trans-short-sales-solns.pdf) -- **solutions**
 
