@@ -36,6 +36,7 @@ hist(sims, breaks=25, ylim=c(0, dexp(0, rate=1/theta)),
      prob=TRUE, col="aquamarine")
 curve(dexp(x, rate=1/theta), col="blue", lwd=2, add=TRUE)
 ```
+
 We can create a similar plot for the empirical cumulative distribution function. This is the function which counts how many values in your data set were less than or equal to its argument. There is a command in `R` which constructs the empirical cumulative distribution function. Enter `?ecdf` into your console to learn more about it. I will also add the theoretical plot of the cumulative distribution function. Do the two match well?
 ```{r}
 cum.sims=ecdf(sims)
@@ -90,6 +91,7 @@ hist(y.p, breaks=25, ylim=c(0, dexp(0, rate=1/theta)),
 curve(dexp(x, rate=1/theta), col="blue", lwd=2, add=TRUE)
 
 ```
+
 We can do a similar thing with the empirical cumulative distribution function. 
 ```{r}
 cum.y.p=ecdf(y.p)
@@ -125,6 +127,7 @@ hist(y.l, breaks=25,
                   ylab="Frequency",
      col="darkgoldenrod1")
 ```
+
 Note the tall bar at the far left!
 
 The effect of keeping the zeros for all losses when the deductible was not met is even more evident when you consider the empirical cumulative distribution function. 
@@ -137,6 +140,7 @@ plot(cum.y.l,
      col="deepskyblue", lwd=2)
 curve(pexp(x+d, rate=1/theta), xlim=c(0,1000), add=TRUE)
 ```
+
 **Note the jump at zero!**
 
 ## Limited loss
@@ -156,6 +160,7 @@ hist(x.d, breaks=25,
      col="darkslategray1")
 
 ```
+
 Note the tower at $50$!
 
 Again, it is useful to look at the empirical cumulative distribution function. 

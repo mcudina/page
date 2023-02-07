@@ -224,21 +224,25 @@ Basic risk management. Forward contracts.<br>
 ---
 
 **Class 12: February 6th**<br>
+Forward contracts [practice].<br>
+
+[Class notes](notes/m339d-feb-06-2023.pdf) 
+
+---
+
+**Class 13: February 8th**<br>
 Hedging using forward contracts.<br>
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards.pdf):  **Problems**
 
-<!--
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
 
+<!--
 [Class notes](notes/m339d-oct-03-2022.pdf) 
 
 [Class notes](notes/m339d-oct-05-2022.pdf) 
 -->
 
----
-
-**Class 13: February 8th**<br>
 European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
