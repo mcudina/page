@@ -140,7 +140,7 @@ The exponential distribution.<br>
 
 [Quiz #3](quizzes/m339j-quiz3-pdf-pmf.pdf) -- **due on Wednesday, February 1st**
 
-[Quiz #4](quizzes/m339j-quiz4-exponential.pdf) -- **due on Wednesday, February 8th**
+[Quiz #4](quizzes/m339j-quiz4-exponential.pdf) -- **due on Wednesday, February 15th**
 
 [Homework #1](hw/m339j-hw1-solns.pdf) -- **solutions**
 
@@ -167,7 +167,7 @@ Random number generation. The inverse transform method <span style="color: purpl
 [Quiz #3](quizzes/m339j-quiz3-pdf-pmf-solns.pdf) -- **solutions**
 -->
 
-[Quiz #5](quizzes/m339j-quiz5-inv-trans.pdf) -- **due on Wednesday, February 15th**
+[Quiz #5](quizzes/m339j-quiz5-inv-trans.pdf) -- **due on Wednesday, February 22nd**
 
 Basics of `R`. <br>
 
@@ -177,9 +177,9 @@ Basics of `R`. <br>
 [Quiz #4](quizzes/m339j-quiz4-exponential-solns.pdf) -- **solutions**
 -->
 
-[Quiz #6](quizzes/m339j-quiz6-r.pdf) -- **due on Wednesday, February 22nd**
+[Quiz #6](quizzes/m339j-quiz6-r.pdf) -- **due on Wednesday, March 1st**
 
-[Quiz #7](quizzes/m339j-quiz7-r-basics.pdf) -- **due on Wednesday, March 1st**
+[Quiz #7](quizzes/m339j-quiz7-r-basics.pdf) -- **due on Wednesday, March 8th**
 
 [Quiz #7](code/m339j-quiz7-r-basics.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
 
@@ -198,11 +198,11 @@ Functions in `R`. `If ... else` in `R`. Simulations of random variables. <br>
 
 [Quiz #2](quizzes/m339j-quiz2-cdf-solns.pdf) -- **solutions**
 
-[Quiz #8](quizzes/m339j-quiz8-r-simulations.pdf) -- **due on Wednesday, March 8th**
+[Quiz #8](quizzes/m339j-quiz8-r-simulations.pdf) -- **due on Wednesday, March 22nd**
 
 [Quiz #8](code/m339j-quiz8-r-simulations.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
 
-[Quiz #9](quizzes/m339j-quiz9-r-pareto-itm.pdf) -- **due on Wednesday, March 22nd**
+[Quiz #9](quizzes/m339j-quiz9-r-pareto-itm.pdf) -- **due on Wednesday, March 29th**
 
 [Quiz #9](code/m339j-quiz9-r-pareto-itm.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
 
@@ -223,7 +223,7 @@ Focus on the expectation <span style="color: purple;">**(Section 3.1.1)**</span>
 
 [Homework #2](hw/m339j-hw2-solns.pdf) -- **solutions**
 
-[Homework #3](hw/m339j-hw3.pdf) -- **due on Friday, February 3rd, 2023**
+[Homework #3](hw/m339j-hw3.pdf) -- **due on Friday, February 10th, 2023**
 
 ---
 
@@ -269,14 +269,16 @@ The excess loss random variable. Per-payment and per-loss random variables <span
 
 **Suggested textbook examples:** <span style="color: purple;">**3.4.1, 3.4.2**</span>
 
-[Homework #4](hw/m339j-hw4.pdf) -- **due on Friday, February 10th, 2023**
+[Homework #4](hw/m339j-hw4.pdf) -- **due on Friday, February 17th, 2023**
 
 ---
 
 **Class 13: February 8th**<br>
-Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
+More on the per-payment and per-loss random variables. The limited loss random variable. Loss-modifications demonstration. Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
 
-[Problem packet](problem-sets/m339j-ler-inflation.pdf)
+[Problem packet](problem-sets/m339j-deductible.pdf)
+
+[The R-notebook from class](code/loss-modifications.Rmd)
 
 <!--
 [Class notes](notes/m339j-feb-16-2022.pdf): More on the per-payment and per-loss random variables. The limited loss random variable.
@@ -285,9 +287,18 @@ Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
 [Quiz #7](quizzes/m339j-quiz7-r-basics-solns.pdf) -- **solutions**
 -->
 
-Loss-modifications demonstration. Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>. Other loss modifications (combined) <span style="color: purple;">**(Section 3.4.2, 3.4.3)**</span>.<br>
+[In-Term One](exams/m339j-one-topics.pdf): Topics
 
-[The R-notebook from class](code/loss-modifications.Rmd)
+[Practice for In-Term One](exams/m339j-one-sample-probs.pdf) -- **problems** 
+
+[Practice for In-Term One](exams/m339j-one-sample-solns.pdf) -- **solutions** 
+
+---
+
+**Class 14: February 10th**<br>
+Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>. Other loss modifications (combined) <span style="color: purple;">**(Section 3.4.2, 3.4.3)**</span>.<br>
+
+[Problem packet](problem-sets/m339j-ler-inflation.pdf)
 
 [Problem Set #5](problem-sets/m339j-ps5-policy-mods.pdf) -- **problems**
 
@@ -307,20 +318,7 @@ Loss-modifications demonstration. Loss elimination ratio <span style="color: pur
 
 **Suggested textbook examples:** <span style="color: purple;">**3.4.3, 3.4.4, 3.4.5**</span>
 
-[Quiz #10](quizzes/m339j-quiz10-loss-mods.pdf) -- **due on Wednesday, March 29th**
-
-[In-Term One](exams/m339j-one-topics.pdf): Topics
-
-[Practice for In-Term One](exams/m339j-one-sample-probs.pdf) -- **problems** 
-
-[Practice for In-Term One](exams/m339j-one-sample-solns.pdf) -- **solutions** 
-
----
-
-**Class 14: February 10th**<br>
-Proportional and excess of loss reinsurance <span style="color: purple;">**(Sections 3.4.4, 10.4)**</span>. 
-
-[Problem packet](problem-sets/m339j-reinsurance.pdf)
+[Quiz #10](quizzes/m339j-quiz10-loss-mods.pdf) -- **due on Wednesday, April 5th**
 
 ---
 
@@ -330,6 +328,13 @@ Proportional and excess of loss reinsurance <span style="color: purple;">**(Sect
 ---
 
 **Class 16: February 15th**<br>
+Proportional and excess of loss reinsurance <span style="color: purple;">**(Sections 3.4.4, 10.4)**</span>. 
+
+[Problem packet](problem-sets/m339j-reinsurance.pdf)
+
+---
+
+**Class 17: February 17th**<br>
 Parametric distributions. Scale distributions. <span style="color: purple;">**(Section 3.3.2)**</span> 
 
 <!--
@@ -338,7 +343,7 @@ Parametric distributions. Scale distributions. <span style="color: purple;">**(S
 
 ---
 
-**Class 17: February 17th**<br>
+**Class 18: February 20th**<br>
 mgf and pgf. Sums of independent random
 variables. <span style="color: purple;">**(Sections 3.1.2, 3.1.3)**</span>
 
@@ -346,12 +351,12 @@ variables. <span style="color: purple;">**(Sections 3.1.2, 3.1.3)**</span>
 
 ---
 
-**Class 18: February 20th**<br>
+**Class 19: February 22nd**<br>
 Central Limit Theorem.<br>
 
 ---
 
-**Class 19: February 22nd**<br>
+**Class 20: February 24th**<br>
 The Poisson distribution <span style="color: purple;">**(Section 2.2.3.2)**</span>.<br>
 
 [Problem packet](problem-sets/m339j-poisson.pdf)
@@ -362,18 +367,14 @@ The Poisson distribution <span style="color: purple;">**(Section 2.2.3.2)**</spa
 
 ---
 
-**Class 20: February 24th**<br>
+**Class 21: February 27th**<br>
 Poisson thinning. The negative binomial distribution <span style="color: purple;">**(Section 2.2.3.3)**</span>.<br>
 
 <!--
 [Class notes](notes/m339j-mar-23-2022.pdf): Poisson thinning. The negative binomial distribution.
 -->
 
-[Quiz #11](quizzes/m339j-quiz11-poisson.pdf) -- **due on Wednesday, April 5th**
-
----
-
-**Class 21: February 27th**<br>
+[Quiz #11](quizzes/m339j-quiz11-poisson.pdf) -- **due on Wednesday, April 12th**
 
 ---
 
