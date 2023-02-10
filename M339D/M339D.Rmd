@@ -237,15 +237,24 @@ Hedging using forward contracts.<br>
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
 
-<!--
-[Class notes](notes/m339d-oct-03-2022.pdf) 
-
-[Class notes](notes/m339d-oct-05-2022.pdf) 
--->
-
 [Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, February 17th**
 
 European call options.<br>
+
+[Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
+
+[Class notes](notes/m339d-feb-08-2023.pdf) 
+
+[In-Term One](exams/m339d-one-topics.pdf): Topics
+
+[Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
+
+[Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions** 
+
+---
+
+**Class 14: February 10th**<br>
+More on European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
 
@@ -253,10 +262,11 @@ European call options.<br>
 [Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
 -->
 
----
+[Homework #5](hw/m339d-hw5-calls.pdf) -- **due on Friday, February 24th**
 
-**Class 14: February 10th**<br>
 European put options. Moneyness.<br>
+
+[Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 [Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
 
@@ -357,12 +367,6 @@ The Capital Asset Pricing Model (CAPM).<br>
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
-
-[In-Term One](exams/m339d-one-topics.pdf): Topics
-
-[Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
-
-[Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions** 
 
 [Homework #4](hw/m339d-hw4-corp-finance-solns.pdf) -- **solutions**
 
@@ -729,10 +733,6 @@ Hedging using forward contracts.<br>
 
 ---
 
-European call options.<br>
-
-[Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
-
 [Class notes](notes/m339d-feb-11-2022.pdf): European calls. 
 
 [Homework #3](hw/m339d-hw3-solns.pdf) -- **solutions**
@@ -740,8 +740,6 @@ European call options.<br>
 ---
 
 Caps. Covered option writing. European put options.<br>
-
-[Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 [Class notes](notes/m339d-feb-14-2022.pdf): Covered/naked option writing. European put options.
 
