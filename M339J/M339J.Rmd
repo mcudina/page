@@ -274,18 +274,11 @@ The excess loss random variable. Per-payment and per-loss random variables <span
 ---
 
 **Class 13: February 8th**<br>
-More on the per-payment and per-loss random variables. The limited loss random variable. Loss-modifications demonstration. Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
+More on the per-payment and per-loss random variables. The limited loss random variable.<br>
 
 [Problem packet](problem-sets/m339j-deductible.pdf)
 
-[The R-notebook from class](code/loss-modifications.Rmd)
-
-<!--
-[Class notes](notes/m339j-feb-16-2022.pdf): More on the per-payment and per-loss random variables. The limited loss random variable.
-
-[Class notes](notes/m339j-mar-04-2022.pdf): Franchise deductibles. Loss elimination ratio. Effects of inflation. 
-[Quiz #7](quizzes/m339j-quiz7-r-basics-solns.pdf) -- **solutions**
--->
+[Class notes](notes/m339j-feb-08-2023.pdf): More on the per-payment and per-loss random variables. The limited loss random variable.
 
 [In-Term One](exams/m339j-one-topics.pdf): Topics
 
@@ -296,6 +289,16 @@ More on the per-payment and per-loss random variables. The limited loss random v
 ---
 
 **Class 14: February 10th**<br>
+Loss-modifications demonstration. Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
+
+[The R-notebook from class](code/loss-modifications.Rmd)
+
+<!--
+[Class notes](notes/m339j-mar-04-2022.pdf): Franchise deductibles. Loss elimination ratio. Effects of inflation. 
+
+[Quiz #7](quizzes/m339j-quiz7-r-basics-solns.pdf) -- **solutions**
+-->
+
 Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>. Other loss modifications (combined) <span style="color: purple;">**(Section 3.4.2, 3.4.3)**</span>.<br>
 
 [Problem packet](problem-sets/m339j-ler-inflation.pdf)
