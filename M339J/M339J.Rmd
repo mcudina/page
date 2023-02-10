@@ -163,10 +163,6 @@ Random number generation. The inverse transform method <span style="color: purpl
 
 [Class notes](notes/m339j-jan-23-2023.pdf): The inverse transform method.
 
-<!--
-[Quiz #3](quizzes/m339j-quiz3-pdf-pmf-solns.pdf) -- **solutions**
--->
-
 [Quiz #5](quizzes/m339j-quiz5-inv-trans.pdf) -- **due on Wednesday, February 22nd**
 
 Basics of `R`. <br>
@@ -279,6 +275,8 @@ More on the per-payment and per-loss random variables. The limited loss random v
 [Problem packet](problem-sets/m339j-deductible.pdf)
 
 [Class notes](notes/m339j-feb-08-2023.pdf): More on the per-payment and per-loss random variables. The limited loss random variable.
+
+[Quiz #3](quizzes/m339j-quiz3-pdf-pmf-solns.pdf) -- **solutions**
 
 [In-Term One](exams/m339j-one-topics.pdf): Topics
 
