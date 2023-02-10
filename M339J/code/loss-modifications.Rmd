@@ -61,6 +61,7 @@ p.d
 Here is how you get the proportion of the losses which met the deductible in the above batch of simulated values. 
 ```{r}
 ind.d=(sims>d)
+#ind.d
 prop.d=mean(ind.d)
 prop.d
 ```
