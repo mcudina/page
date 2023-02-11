@@ -456,8 +456,12 @@ Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**<
 
 [Problem packet](problem-sets/m339j-compound-poisson.pdf)
 
+[Problem](problem-sets/m339j-stam-p125.pdf)
+
 <!--
 [Class notes](notes/m339j-apr-15-2022.pdf): Compound Poissons.
+
+[Class notes](notes/m339j-apr-18-2022.pdf): More on compound Poissons.
 -->
 
 [Homework #8](hw/m339j-hw8.pdf) -- **due on Friday, March 24th**
@@ -486,6 +490,8 @@ Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The
 
 [The R-script from class](code/errors-pic.R)
 
+[Homework #9](hw/m339j-hw9.pdf) -- **due on Friday, March 31st**
+
 ---
 
 **Class 29: March 24th**<br>
@@ -510,6 +516,18 @@ Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The
 ---
 
 **Class 34: April 5th**<br>
+
+---
+
+**Class 35: April 7th**<br>
+
+---
+
+**Class 36: April 10th**<br>
+
+---
+
+**Class 37: April 12th**<br>
 
 <!--
 [In-Term One](exams/m339j-one-solns.pdf) -- **solutions** 
@@ -594,22 +612,8 @@ The Poisson-gamma mixture.
 
 
 
----
 
-**Class 35: April 15th**<br>
 
----
-
-**Class 36: April 18th**<br>
-A few compound Poissons.<br>
-
-[Problem](problem-sets/m339j-stam-p125.pdf)
-
-[Class notes](notes/m339j-apr-18-2022.pdf): More on compound Poissons.
-
----
-
-**Class 37: April 20th**<br>
 The recursive formula for the distribution of aggregate losses <span style="color: purple;">**(Section 5.4.1)**</span>.<br>
 
 [Problem packet](problem-sets/m339j-recursive.pdf)
