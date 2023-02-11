@@ -287,16 +287,25 @@ More on the per-payment and per-loss random variables. The limited loss random v
 ---
 
 **Class 14: February 10th**<br>
-Loss-modifications demonstration. Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
+Loss-modifications demonstration. 
+
+[Class notes](notes/m339j-feb-10-2023.pdf): Even more on the per-payment and per-loss random variables. The limited loss random variable.
 
 [The R-notebook from class](code/loss-modifications.Rmd)
 
-<!--
-[Class notes](notes/m339j-mar-04-2022.pdf): Franchise deductibles. Loss elimination ratio. Effects of inflation. 
+[More Practice for In-Term One](exams/m339j-one-sample-extra-probs.pdf) -- **problems** 
 
-[Quiz #7](quizzes/m339j-quiz7-r-basics-solns.pdf) -- **solutions**
--->
+[More Practice for In-Term One](exams/m339j-one-sample-extra-solns.pdf) -- **solutions** 
 
+---
+
+**Class 15: February 13th**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+---
+
+**Class 16: February 15th**<br>
+Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
 Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>. Other loss modifications (combined) <span style="color: purple;">**(Section 3.4.2, 3.4.3)**</span>.<br>
 
 [Problem packet](problem-sets/m339j-ler-inflation.pdf)
@@ -304,6 +313,10 @@ Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>. 
 [Problem Set #5](problem-sets/m339j-ps5-policy-mods.pdf) -- **problems**
 
 <!--
+[Class notes](notes/m339j-mar-04-2022.pdf): Franchise deductibles. Loss elimination ratio. Effects of inflation. 
+
+[Quiz #7](quizzes/m339j-quiz7-r-basics-solns.pdf) -- **solutions**
+
 [Class notes](notes/m339j-mar-07-2022.pdf): Policy modifications I.
 
 [Class notes](notes/m339j-mar-09-2022.pdf): More on policy modifications. 
@@ -321,14 +334,6 @@ Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>. 
 
 [Quiz #10](quizzes/m339j-quiz10-loss-mods.pdf) -- **due on Wednesday, April 5th**
 
----
-
-**Class 15: February 13th**<br>
-<span style="color: red;">**In-Term One**</span><br>
-
----
-
-**Class 16: February 15th**<br>
 Proportional and excess of loss reinsurance <span style="color: purple;">**(Sections 3.4.4, 10.4)**</span>. 
 
 [Problem packet](problem-sets/m339j-reinsurance.pdf)
