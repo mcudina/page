@@ -419,7 +419,7 @@ The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The
 
 [Homework #7](hw/m339j-hw7.pdf) -- **due on Friday, March 10th**
 
-[Quiz #13](quizzes/m339j-quiz13-compound-example.pdf) -- **due on Wednesday, April 8th**
+[Quiz #13](quizzes/m339j-quiz13-compound-example.pdf) -- **due on Wednesday, April 26th**
 
 ---
 
@@ -492,6 +492,22 @@ Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The
 
 [Homework #9](hw/m339j-hw9.pdf) -- **due on Friday, March 31st**
 
+**(asynchronous content)** The recursive formula for the distribution of aggregate losses <span style="color: purple;">**(Section 5.4.1)**</span>.<br>
+
+[Problem packet](problem-sets/m339j-recursive.pdf)
+
+[Class notes](notes/m339j-apr-20-2022.pdf): The recursive formula.
+
+Aggregate losses with an ordinary deductible per-loss.<br>
+
+[Problem packet](problem-sets/m339j-agg-claims.pdf)
+
+<!--
+[Class notes](notes/m339j-apr-22-2022.pdf): Deductibles and counts.
+-->
+
+[Homework #10](hw/m339j-hw10.pdf) -- **due on Friday, April 7th**
+
 ---
 
 **Class 29: March 24th**<br>
@@ -528,6 +544,10 @@ Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The
 ---
 
 **Class 37: April 12th**<br>
+
+---
+
+**Class 38: April 14th**<br>
 
 <!--
 [In-Term One](exams/m339j-one-solns.pdf) -- **solutions** 
@@ -606,30 +626,9 @@ The Poisson-gamma mixture.
 
 [In-Term Two](exams/m339j-two-solns.pdf): **Solutions** 
 
-
-
-
-
-
-
-
-
-The recursive formula for the distribution of aggregate losses <span style="color: purple;">**(Section 5.4.1)**</span>.<br>
-
-[Problem packet](problem-sets/m339j-recursive.pdf)
-
-[Class notes](notes/m339j-apr-20-2022.pdf): The recursive formula.
-
 [Homework #6](hw/m339j-hw6-solns.pdf) -- **solutions**
 
----
 
-**Class 38: April 22nd**<br>
-Aggregate losses with an ordinary deductible per-loss.<br>
-
-[Problem packet](problem-sets/m339j-agg-claims.pdf)
-
-[Class notes](notes/m339j-apr-22-2022.pdf): Deductibles and counts.
 
 [Quiz #18](quizzes/m339j-quiz18-ded-counts.pdf) -- **due on Friday, April 29th**
 
