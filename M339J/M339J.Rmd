@@ -352,6 +352,8 @@ Scale distributions. <span style="color: purple;">**(Section 3.3.2)**</span>
 [Class notes](notes/m339j-feb-21-2022.pdf): mgf and pgf. Sums of independent random variables. Parametric distributions. Scale distributions.
 -->
 
+[Homework #6](hw/m339j-hw6.pdf) -- **due on Friday, March 3rd**
+
 ---
 
 **Class 19: February 22nd**<br>
@@ -415,30 +417,85 @@ The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The
 
 **Suggested textbook example:** <span style="color: purple;">**5.5.2, 5.5.3**</span>
 
+[Quiz #13](quizzes/m339j-quiz13-compound-example.pdf) -- **due on Wednesday, April 8th**
 
 ---
 
 **Class 24: March 6th**<br>
+The impact of deductibles on claim frequency <span style="color: purple;">**(Section 5.5.2)**</span>.<br> 
+ 
+[Problem packet](problem-sets/m339j-freq-ded.pdf)
+
+The individual risk model <span style="color: purple;">**(Sections 5.2 and 5.3)**</span>.<br> 
+
+<!--
+[Class notes](notes/m339j-apr-04-2022.pdf): The impact of deductibles on claim frequency. The individual risk model. 
+
+[Quiz #16](quizzes/m339j-quiz16-discrete-solns.pdf) -- **solutions**
+-->
+
+Monte Carlo for the individual risk model.<br> 
 
 ---
 
 **Class 25: March 8th**<br>
+The collective risk model.<br> 
+
+[Problem packet](problem-sets/m339j-agg-loss.pdf)
+
+<!--
+[Class notes](notes/m339j-apr-08-2022.pdf): The collective risk model. 
+-->
 
 ---
 
 **Class 26: March 10th**<br>
+Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**</span>.<br>
+
+[Problem packet](problem-sets/m339j-compound-poisson.pdf)
+
+<!--
+[Class notes](notes/m339j-apr-15-2022.pdf): Compound Poissons.
+-->
 
 ---
 
 **Class 27: March 20th**<br>
+Monte Carlo for the collective risk model.<br> 
 
 ---
 
 **Class 28: March 22nd**<br>
+Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>.<br>
+
+<!--
+[Class notes](notes/m339j-apr-11-2022.pdf): More on aggregate losses. Stop-loss insurance.
+-->
+
+[The R-notebook from class](code/monte-carlo-collective.Rmd)
+
+[The R-script from class](code/errors-pic.R)
 
 ---
 
 **Class 29: March 24th**<br>
+
+---
+
+**Class 30: March 27th**<br>
+<span style="color: red;">**In-Term Two**</span><br>
+
+---
+
+**Class 31: March 29th**<br>
+
+---
+
+**Class 32: March 31st**<br>
+
+---
+
+**Class 33: April 3rd**<br>
 
 <!--
 [In-Term One](exams/m339j-one-solns.pdf) -- **solutions** 
@@ -517,47 +574,10 @@ The Poisson-gamma mixture.
 
 [In-Term Two](exams/m339j-two-solns.pdf): **Solutions** 
 
----
 
-**Class 30: April 4th**<br>
-The impact of deductibles on claim frequency <span style="color: purple;">**(Section 5.5.2)**</span>.<br> 
- 
-[Problem packet](problem-sets/m339j-freq-ded.pdf)
 
-The individual risk model <span style="color: purple;">**(Sections 5.2 and 5.3)**</span>.<br> 
 
-[Class notes](notes/m339j-apr-04-2022.pdf): The impact of deductibles on claim frequency. The individual risk model. 
 
-[Quiz #16](quizzes/m339j-quiz16-discrete-solns.pdf) -- **solutions**
-
----
-
-**Class 31: April 6th**<br>
-Monte Carlo for the individual risk model.<br> 
-
----
-
-**Class 32: April 8th**<br>
-The collective risk model.<br> 
-
-[Problem packet](problem-sets/m339j-agg-loss.pdf)
-
-[Class notes](notes/m339j-apr-08-2022.pdf): The collective risk model. 
-
----
-
-**Class 33: April 11th**<br>
-Monte Carlo for the collective risk model.<br> 
-
-Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>.<br>
-
-[Class notes](notes/m339j-apr-11-2022.pdf): More on aggregate losses. Stop-loss insurance.
-
-[The R-notebook from class](code/monte-carlo-collective.Rmd)
-
-[The R-script from class](code/errors-pic.R)
-
-[Homework #6](hw/m339j-hw6.pdf) -- **due on Wednesday, April 20th**
 
 ---
 
@@ -573,11 +593,6 @@ More on the stop-loss insurance. The interpolation theorem.<br>
 ---
 
 **Class 35: April 15th**<br>
-Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**</span>.<br>
-
-[Problem packet](problem-sets/m339j-compound-poisson.pdf)
-
-[Class notes](notes/m339j-apr-15-2022.pdf): Compound Poissons.
 
 ---
 
