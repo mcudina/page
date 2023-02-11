@@ -328,22 +328,25 @@ Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>. 
 [Problem Set #5](problem-sets/m339j-ps5-policy-mods-solns.pdf) -- **solutions**
 
 [Quiz #8](quizzes/m339j-quiz8-r-simulations-solns.pdf) -- **solutions**
-
-[In-Term One](exams/m339j-one.pdf) -- **problems** 
 -->
 
 **Suggested textbook examples:** <span style="color: purple;">**3.4.3, 3.4.4, 3.4.5**</span>
 
+[Homework #5](hw/m339j-hw5.pdf) -- **due on Friday, February 24th, 2023**
+
 [Quiz #10](quizzes/m339j-quiz10-loss-mods.pdf) -- **due on Wednesday, April 5th**
 
+---
+
+**Class 17: February 17th**<br>
 Proportional and excess of loss reinsurance <span style="color: purple;">**(Sections 3.4.4, 10.4)**</span>. 
 
 [Problem packet](problem-sets/m339j-reinsurance.pdf)
 
 ---
 
-**Class 17: February 17th**<br>
-Parametric distributions. Scale distributions. <span style="color: purple;">**(Section 3.3.2)**</span> 
+**Class 18: February 20th**<br>
+Scale distributions. <span style="color: purple;">**(Section 3.3.2)**</span> 
 
 <!--
 [Class notes](notes/m339j-feb-21-2022.pdf): mgf and pgf. Sums of independent random variables. Parametric distributions. Scale distributions.
@@ -351,15 +354,12 @@ Parametric distributions. Scale distributions. <span style="color: purple;">**(S
 
 ---
 
-**Class 18: February 20th**<br>
+**Class 19: February 22nd**<br>
 mgf and pgf. Sums of independent random
 variables. <span style="color: purple;">**(Sections 3.1.2, 3.1.3)**</span>
 
 **Suggested textbook examples:** <span style="color: purple;">**3.1.1, 3.1.3, 3.1.4**</span>
 
----
-
-**Class 19: February 22nd**<br>
 Central Limit Theorem.<br>
 
 ---
@@ -387,10 +387,23 @@ Poisson thinning. The negative binomial distribution <span style="color: purple;
 ---
 
 **Class 22: March 1st**<br>
+The binomial distribution <span style="color: purple;">**(Section 2.2.3.1)**</span>. The binomial-Poisson connection.<br> 
+
+[Problem packet](problem-sets/m339j-binomial-a-b-0.pdf)
+
+<!--
+[Class notes](notes/m339j-mar-30-2022.pdf): The Poisson-binomial connection. The $(a, b, 0)$ class.
+
+[Extra notes](notes/m339j-alt-soln-stam-p288.pdf): A "drier" solution to STAM problem #288
+-->
+
+**Suggested problem**: Sample STAM Problem #25
+
 
 ---
 
 **Class 23: March 3rd**<br>
+The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The $(a, b, 1)$ class <span style="color: purple;">**(Section 2.5)**</span>.<br>
 
 ---
 
@@ -435,8 +448,6 @@ Continuous mixtures <span style="color: purple;">**(Sections 3.3.6)**</span>.
 
 [Quiz #13](code/m339j-quiz13-cont-mixture.Rmd) -- **this is the Rmd file you can use to simply insert `R`-chunks with your answers**
 
-[Homework #5](hw/m339j-hw5.pdf) -- **due on Wednesday, March 23rd, 2022**
-
 Splicing.<br>   
 
 [Problem packet](problem-sets/m339j-splicing-ord-ded.pdf)
@@ -468,7 +479,7 @@ Splicing.<br>
 ---
 
 **Class 26: March 25th**<br>
-The Poisson-gamma mixture. The binomial distribution <span style="color: purple;">**(Section 2.2.3.1)**</span>.<br>
+The Poisson-gamma mixture. 
 
 [Class notes](notes/m339j-mar-25-2022.pdf): The Poisson-gamma mixture. The binomial-distribution. 
 
@@ -490,15 +501,6 @@ No class. Instructor ill.
 ---
 
 **Class 28: March 30th**<br>
-The binomial-Poisson connection. The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>.<br> 
-
-[Problem packet](problem-sets/m339j-binomial-a-b-0.pdf)
-
-[Class notes](notes/m339j-mar-30-2022.pdf): The Poisson-binomial connection. The $(a, b, 0)$ class.
-
-[Extra notes](notes/m339j-alt-soln-stam-p288.pdf): A "drier" solution to STAM problem #288
-
-**Suggested problem**: Sample STAM Problem #25
 
 [Quiz #16](quizzes/m339j-quiz16-discrete.pdf) -- **due on Monday, April 4th**
 
