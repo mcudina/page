@@ -1,0 +1,164 @@
+\documentclass[reqno,letterpaper, onsided,10pt]{amsart}
+\usepackage[dvips, foot=0.3in, left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{fancyhdr,lastpage, graphicx}
+\usepackage[usenames,dvipsnames]{color}
+\raggedbottom
+%\renewcommand{\fboxrule}{1pt}
+
+\newcommand{\sol}[1]{\par\noindent{\bf Solution:} #1}
+\renewcommand{\sol}[1]{}
+
+\pagestyle{fancy}
+\thispagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0.4pt}
+
+%\renewcommand{\arraystretch}{1.5}
+\newcommand{\hwnum}{12}
+
+\lhead{{\sc Quiz:} \hwnum}
+\rhead{{\sc Page:} \thepage \,of \pageref{LastPage}}
+\chead{{\sc Course:} M339J - Probability Models}
+
+\cfoot{{\sc Instructor:} Milica \v Cudina}
+%\rfoot{{\sc Semester:} Fall 2013}
+\lfoot{}
+
+% Definitions
+%%%%%%%%%%%%%%
+\usepackage{mydefs}
+\usepackage{mythm_long}
+%\input{local_def.tex}
+
+\begin{document}
+
+\begin{center}
+{{\sc University of Texas at Austin}}
+\end{center}
+\vspace{1ex}
+
+\begin{center}
+\underline{\Large Quiz \#\hwnum}\\
+
+\medskip
+
+{\large Discrete distributions.} 
+\end{center}
+
+\bigskip
+\hrule
+\bigskip
+
+{\color{blue} Provide your \underline{\bf complete solution} to the following problems. Final answers only, without appropriate justification, will receive zero points even if correct.}
+
+\bigskip
+\hrule
+\bigskip
+
+\setcounter{section}{\hwnum}
+
+\begin{problem} ($5$ points) %spring 2021
+%the Poisson distribution
+{\em Source: Sample P exam, Problem \#30.}\\
+An actuary has discovered that policyholders are three times as likely to file two claims as to file four claims. The number of claims filed has a Poisson distribution. Calculate the variance of the number of claims filed.
+
+\mchoice{$1/\sqrt{3}$}{1}{$\sqrt{2}$}{2}{None of the above.}
+\end{problem}
+
+\sol{{\bf (d)}\\
+Let $N$ denote the number of claims. We are given that
+\begin{equation}\nonumber
+  \begin{split}
+    \PP[N=2] = 3\PP[N=4] \quad \Rightarrow \quad
+      e^{-\lambda} \frac{\lambda^2}{2!} = 3e^{-\lambda} \frac{\lambda^4}{4!}
+  \end{split}
+\end{equation}
+where $\lambda$ denotes the parameter of the Poisson distribution. The above equation yields that $\lambda^2=4$, so that $\lambda=2$. Since the variance of the Poisson distribution equals its parameter value, our answer is $2$.
+}
+
+\medskip
+
+\begin{problem} ($5$ points) 
+Let the number of floods in a calendar year be denoted by $N$ and
+modeled using the Poisson distribution with mean 5.  We say that a
+flood is ``minor'' if the damages associated with it do not exceed
+\$1,000,000. Otherwise, a flood is designated as ``major''.  The
+number of floods and the damages caused by individual floods are
+assumed to be independent.
+
+Assume that the probability that an observed  flood is ``major''
+equals 1/5. 
+
+Find the probability that the number of ``major'' floods is 2, 
+given that the {\bf total} number of floods in that year equals 5. 
+\end{problem}
+
+\sol{
+Let $N_1$ denote the r.v. which stands for the number of ``major''floods, and let $N_2$ be the number of
+``minor'' floods. According to the {\em "Thinning" theorem},  $N_1$ and $N_2$ are
+independent and 
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      N_1 & \sim Poisson(\frac{1}{5}\cdot 5=1), \\
+      N_2 & \sim Poisson(\frac{4}{5}\cdot 5=4).  
+    \end{split}
+\end{equation}  
+We are ready to calculate the conditional probability 
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+      \PP[N_1  = 2 \, | \, N = 5] 
+      & = \frac{\PP[N_1  = 2,  N = 5]}{\PP[N=5]}\\
+      & = \frac{\PP[N_1  = 2,  N_1 + N_2 = 5]}{\PP[N=5]}\\
+      & = \frac{\PP[N_1  = 2,  N_2 = 3]}{\PP[N=5]}. 
+    \end{split}
+\end{equation}
+Since $N_1$ and $N_2$ are independent, this probability equals 
+\begin{equation}%\label{}
+    \nonumber 
+    \begin{split}
+     \frac{\PP[N_1  = 2]\,\PP[N_2 = 3]}{\PP[N=5]}
+     & = \frac{e^{-1} \, \frac{1^2}{2!} \cdot
+       e^{-4}\,\frac{4^3}{3!}}{e^{-5}\, \frac{5^5}{5!}}\\ 
+     & = \frac{\frac{1^2}{2!} \cdot
+       \frac{4^3}{3!}}{\frac{5^5}{5!}}\\ 
+     & = \frac{4^3 \cdot 5!}{5^5 \cdot 2!\cdot 3!} = \frac{2^7}{5^4} = 0.2048.
+    \end{split}
+\end{equation}
+Of course, we obtained the binomial conditional distribution above. This is a fact we have shown in class and you could have just used it directly. 
+}
+
+\medskip
+
+\begin{problem} ($5$ points) %three -- spring 2021
+%Poisson conditioning -> binomial
+Suppose that the number $N$ of customers visiting a fast food restaurant in a given morning is Poisson with mean $20$. Assume that each customer purchases a drink with probability $3/4$, independently from other customers, and independently from the value of $N.$ Let $N_1$ be the number of customers who purchase drinks in that time interval and let $N_2$ be the number of customers that do not purchase drinks. 
+
+What is the probability that exactly $3$ customers purchase a drink in a given morning, {\bf given} that there is a total of $10$ customers on that particular morning?
+\end{problem}
+
+\sol{
+We have established in class that 
+\begin{equation}\nonumber
+  \begin{split}
+     N_1 \, |\, N = 10 \sim Binomial(m=10, q=3/4).
+  \end{split}
+\end{equation}
+Hence, 
+\begin{equation}\nonumber
+  \begin{split}
+     \PP[N_1 = 3 \, | \, N = 10] = \binom{10}{3} \left(\frac{3}{4}\right)^3 \left(\frac{1}{4}\right)^7  = \frac{10 \cdot 9 \cdot 8}{3\cdot 2} \cdot \frac{3^3}{4^{10}} = 0.0030899. 
+  \end{split}
+\end{equation}
+}
+
+\medskip
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

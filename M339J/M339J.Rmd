@@ -392,18 +392,29 @@ The binomial distribution <span style="color: purple;">**(Section 2.2.3.1)**</sp
 [Problem packet](problem-sets/m339j-binomial-a-b-0.pdf)
 
 <!--
+[Class notes](notes/m339j-mar-25-2022.pdf): The Poisson-gamma mixture. The binomial-distribution. 
+
 [Class notes](notes/m339j-mar-30-2022.pdf): The Poisson-binomial connection. The $(a, b, 0)$ class.
 
 [Extra notes](notes/m339j-alt-soln-stam-p288.pdf): A "drier" solution to STAM problem #288
 -->
 
-**Suggested problem**: Sample STAM Problem #25
+**Suggested problem**: Sample FAM-S Problem #25
+
+[Quiz #12](quizzes/m339j-quiz12-discrete.pdf) -- **due on Wednesday, April 19th**
 
 
 ---
 
 **Class 23: March 3rd**<br>
-The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The $(a, b, 1)$ class <span style="color: purple;">**(Section 2.5)**</span>.<br>
+The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The $(a, b, 1)$ class <span style="color: purple;">**(Section 2.5)**</span>. On compounding.<br>
+
+<!--
+[Class notes](notes/m339j-apr-01-2022.pdf): $(a, b, 0)-$class practice. On compounding. 
+-->
+
+**Suggested textbook example:** <span style="color: purple;">**5.5.2, 5.5.3**</span>
+
 
 ---
 
@@ -412,6 +423,22 @@ The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The
 ---
 
 **Class 25: March 8th**<br>
+
+---
+
+**Class 26: March 10th**<br>
+
+---
+
+**Class 27: March 20th**<br>
+
+---
+
+**Class 28: March 22nd**<br>
+
+---
+
+**Class 29: March 24th**<br>
 
 <!--
 [In-Term One](exams/m339j-one-solns.pdf) -- **solutions** 
@@ -476,12 +503,7 @@ Splicing.<br>
 
 [Practice for In-Term Two](exams/m339j-two-sample-solns.pdf): **solutions**
 
----
-
-**Class 26: March 25th**<br>
 The Poisson-gamma mixture. 
-
-[Class notes](notes/m339j-mar-25-2022.pdf): The Poisson-gamma mixture. The binomial-distribution. 
 
 [Proof of the claim from class](notes/m339j-poisson-gamma-proof.pdf): The Poisson-gamma mixture [proof].
 
@@ -492,28 +514,6 @@ The Poisson-gamma mixture.
 [Quiz #15](quizzes/m339j-quiz15-poisson-solns.pdf) -- **solutions**
 
 [In-Term Two](exams/m339j-two.pdf): **Problems** 
-
----
-
-**Class 27: March 28th**<br>
-No class. Instructor ill. 
-
----
-
-**Class 28: March 30th**<br>
-
-[Quiz #16](quizzes/m339j-quiz16-discrete.pdf) -- **due on Monday, April 4th**
-
----
-
-**Class 29: April 1st**<br>
-$(a, b, 0)-$class practice. On compounding.<br>
-
-[Class notes](notes/m339j-apr-01-2022.pdf): $(a, b, 0)-$class practice. On compounding. 
-
-**Suggested textbook example:** <span style="color: purple;">**5.5.2, 5.5.3**</span>
-
-[Quiz #17](quizzes/m339j-quiz17-compound-example.pdf) -- **due on Friday, April 8th**
 
 [In-Term Two](exams/m339j-two-solns.pdf): **Solutions** 
 
