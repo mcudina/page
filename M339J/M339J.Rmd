@@ -358,11 +358,10 @@ Scale distributions. <span style="color: purple;">**(Section 3.3.2)**</span>
 
 **Class 19: February 22nd**<br>
 mgf and pgf. Sums of independent random
-variables. <span style="color: purple;">**(Sections 3.1.2, 3.1.3)**</span>
+variables. <span style="color: purple;">**(Sections 3.1.2, 3.1.3)**</span>. Central Limit Theorem.<br>
 
 **Suggested textbook examples:** <span style="color: purple;">**3.1.1, 3.1.3, 3.1.4**</span>
 
-Central Limit Theorem.<br>
 
 ---
 
@@ -419,7 +418,9 @@ The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The
 
 [Homework #7](hw/m339j-hw7.pdf) -- **due on Friday, March 10th**
 
-[Quiz #13](quizzes/m339j-quiz13-compound-example.pdf) -- **due on Wednesday, April 26th**
+<!--
+[Quiz #13](quizzes/m339j-quiz13-compound-example.pdf) -- **due on Thursday, April 28th for extra credit**
+-->
 
 ---
 
@@ -498,19 +499,20 @@ Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The
 
 [Class notes](notes/m339j-apr-20-2022.pdf): The recursive formula.
 
+---
+
+**Class 29: March 24th**<br>
 Aggregate losses with an ordinary deductible per-loss.<br>
 
 [Problem packet](problem-sets/m339j-agg-claims.pdf)
 
 <!--
 [Class notes](notes/m339j-apr-22-2022.pdf): Deductibles and counts.
+
+[Class notes](notes/m339j-apr-25-2022.pdf): Problems on deductibles and counts.
 -->
 
 [Homework #10](hw/m339j-hw10.pdf) -- **due on Friday, April 7th**
-
----
-
-**Class 29: March 24th**<br>
 
 ---
 
@@ -520,34 +522,95 @@ Aggregate losses with an ordinary deductible per-loss.<br>
 ---
 
 **Class 31: March 29th**<br>
+Maximum-likelihood estimation: First principles. Individual unmodified data.<br>
+
+Slides: [Maximum likelihood estimation.](slides/m339j-mle.pdf)
+
+[Problem packet](problem-sets/m339j-mle.pdf)
+
+<!--
+[Class notes](notes/m339j-apr-27-2022.pdf): MLE
+-->
+
+[Homework #11](hw/m339j-hw11.pdf) -- **due on Friday, April 14th**
 
 ---
 
 **Class 32: March 31st**<br>
+Maximum-likelihood estimation: Grouped data.<br>
+
+[Problem packet](problem-sets/m339j-mle-grouped.pdf)
+
+<!--
+[Class notes](notes/m339j-apr-29-2022.pdf): MLE (grouped data). 
+-->
 
 ---
 
 **Class 33: April 3rd**<br>
+Maximum-likelihood estimation: Truncation and censoring.<br>
+
+[Problem packet](problem-sets/m339j-mle-censoring-truncation.pdf)
+
+<!--
+[Class notes](notes/m339j-may-02-2022.pdf): MLE (censoring and truncation). 
+-->
 
 ---
 
 **Class 34: April 5th**<br>
+Maximum-likelihood estimation: Truncation.<br>
+
+[Problem](problem-sets/m339j-mle-mixture.pdf)
+
+<!--
+[Class notes](notes/m339j-may-04-2022.pdf): MLE (truncation practice). 
+-->
 
 ---
 
 **Class 35: April 7th**<br>
+Maximum-likelihood estimation: Bernoulli and Poisson.<br>
+
+<!--
+[Class notes](notes/m339j-may-06-2022.pdf): MLE (Bernoulli and Poisson). 
+-->
 
 ---
 
 **Class 36: April 10th**<br>
+Maximum-likelihood estimation: Negative binomial and binomial.<br>
 
 ---
 
 **Class 37: April 12th**<br>
+Survival analysis.<br>
 
 ---
 
 **Class 38: April 14th**<br>
+Non-parametric estimation.<br>
+
+---
+
+**Class 39: April 17th**<br>
+Maximum-likelihood estimation for mortality.<br>
+
+---
+
+**Class 40: April 19th**<br>
+Kaplan-Meier.<br>
+
+---
+
+**Class 41: April 21st**<br>
+Nelson-Aalen.<br>
+
+---
+
+**Class 42: April 24th**<br>
+<span style="color: red;">**In-Term Three**</span><br>
+
 
 <!--
 [In-Term One](exams/m339j-one-solns.pdf) -- **solutions** 
@@ -628,72 +691,7 @@ The Poisson-gamma mixture.
 
 [Homework #6](hw/m339j-hw6-solns.pdf) -- **solutions**
 
-
-
-[Quiz #18](quizzes/m339j-quiz18-ded-counts.pdf) -- **due on Friday, April 29th**
-
-
----
-
-**Class 39: April 25th**<br>
-Problem solving session.<br>
-
-[Class notes](notes/m339j-apr-25-2022.pdf): Problems on deductibles and counts.
-
----
-
-**Class 40: April 27th**<br>
-Maximum-likelihood estimation: First principles. Individual unmodified data.<br>
-
-Slides: [Maximum likelihood estimation.](slides/m339j-mle.pdf)
-
-[Problem packet](problem-sets/m339j-mle.pdf)
-
-[Class notes](notes/m339j-apr-27-2022.pdf): MLE
-
----
-
-**Class 41: April 29th**<br>
-Maximum-likelihood estimation: Grouped data.<br>
-
-[Problem packet](problem-sets/m339j-mle-grouped.pdf)
-
-[Class notes](notes/m339j-apr-29-2022.pdf): MLE (grouped data). 
-
-[Quiz #18](quizzes/m339j-quiz18-ded-counts-solns.pdf) -- **solutions**
-
-[Quiz #19](quizzes/m339j-quiz19-mle.pdf) -- **due on Friday, May 6th**
-
----
-
-**Class 42: May 2nd**<br>
-Maximum-likelihood estimation: Truncation and censoring.<br>
-
-[Problem packet](problem-sets/m339j-mle-censoring-truncation.pdf)
-
-[Class notes](notes/m339j-may-02-2022.pdf): MLE (censoring and truncation). 
-
----
-
-**Class 43: May 4th**<br>
-Maximum-likelihood estimation: Truncation [practice].<br>
-
-[Problem](problem-sets/m339j-mle-mixture.pdf)
-
-[Class notes](notes/m339j-may-04-2022.pdf): MLE (truncation practice). 
-
 [Homework #7](hw/m339j-hw7-solns.pdf) -- **solutions**
-
----
-
-**Class 44: May 6th**<br>
-Maximum-likelihood estimation: Bernoulli and Poisson.<br>
-
-[Class notes](notes/m339j-may-06-2022.pdf): MLE (Bernoulli and Poisson). 
-
-Maximum-likelihood estimation: Negative binomial and binomial.<br>
-
-[Quiz #19](quizzes/m339j-quiz19-mle-solns.pdf) -- **solutions**
 
 [In-Term Three](exams/m339j-three-topics.pdf): Topics
 
@@ -726,17 +724,13 @@ Maximum-likelihood estimation: Negative binomial and binomial.<br>
 
 [Mock In-Term Three](exams/m339j-three-mock-solns.pdf) -- **solutions**
 
-<span style="color: red;">**In-Term Three**</span><br>
 
 ---
 
 
-[On random variables.](Lecture2_1and2_2.pdf)
 
 [Moments.](Lecture3_1.pdf)
 
-
- 
 [Percentiles. Central Limit Theorem. mgf and pgf. Heavy
 tails.](Lecture3_2and3_3and3_4.pdf)
 
