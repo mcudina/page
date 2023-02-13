@@ -276,6 +276,11 @@ Even more on European call options.<br>
 ---
 
 **Class 16: February 15th**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+---
+
+**Class 17: February 17th**<br>
 European put options. Moneyness.<br>
 
 [Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
@@ -290,7 +295,7 @@ European put options. Moneyness.<br>
 
 ---
 
-**Class 17: February 17th**<br>
+**Class 18: February 20th**<br>
 Finite probability spaces [revisited]. Arbitrage portfolios.<br>
 
 Law of the Unique Price. Replicating portfolios. Derivative securities. Equity-linked contracts.<br>
@@ -303,10 +308,14 @@ Law of the Unique Price. Replicating portfolios. Derivative securities. Equity-l
 
 ---
 
-**Class 18: February 20th**<br>
+**Class 19: February 22nd**<br>
 Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
+
+<!--
+[Class notes](notes/m339d-oct-17-2022.pdf) 
+-->
 
 Chooser options.<br>
 
@@ -314,7 +323,7 @@ Chooser options.<br>
 
 ---
 
-**Class 19: February 22nd**<br>
+**Class 20: February 24th**<br>
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -325,25 +334,62 @@ Random number generation.<br>
 
 The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
+<!--
+[Class notes](notes/m339d-oct-19-2022.pdf) 
+-->
+
 [Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
 
 [Problem Set #7](problem-sets/m339d-ps7-mc-solns.Rmd): **Solutions**
 
 ---
 
-**Class 20: February 24th**<br>
-
----
-
 **Class 21: February 27th**<br>
+The binomial asset-pricing model. Historical returns of stocks. Forward trees. <br>
+
+<!--
+[Class notes](notes/m339d-oct-21-2022.pdf) 
+
+[Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model.
+-->
 
 ---
 
 **Class 22: March 1st**<br>
+Binomial option pricing: Pricing by replication. <br>
+
+<!--
+[Problem Set #6](problem-sets/m339d-ps6-bin-pricing.pdf): **Problems**
+
+[Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
+-->
+
 
 ---
 
 **Class 23: March 3rd**<br>
+Binomial option pricing: Risk-neutral probability. <br>
+
+---
+
+**Class 24: March 6th**<br>
+
+---
+
+**Class 25: March 8th**<br>
+
+---
+
+**Class 26: March 10th**<br>
+
+---
+
+**Class 27: March 20th**<br>
+
+---
+
+**Class 28: March 22nd**<br>
+<span style="color: red;">**In-Term Two**</span><br>
 
 <!--
 Expected return of a portfolio.<br>
@@ -404,50 +450,10 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 
 
-
-
-
----
-
-**Class 24: October 17th**<br>
-The binomial asset-pricing model.<br>
-
-[Class notes](notes/m339d-oct-17-2022.pdf) 
-
----
-
-**Class 25: October 19th**<br>
-Binomial option pricing: Pricing by replication. <br>
-
-[Problem Set #6](problem-sets/m339d-ps6-bin-pricing.pdf): **Problems**
-
-[Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
-
-
-<!--
-[Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model.
-
-[Class notes](notes/m339d-oct-19-2022.pdf) 
-
----
-
-**Class 26: October 21st**<br>
-Binomial option pricing: Risk-neutral probability. <br>
-
-[Class notes](notes/m339d-oct-21-2022.pdf) 
-
----
-
-**Class 27: October 24th**<br>
-<span style="color: red;">**In-Term One**</span><br>
-
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
 
 [Homework #5](hw/m339d-hw5-parity.pdf) -- **due on Monday, October 31st**
 
----
-
-**Class 28: October 26th**<br>
 Binomial option pricing: Two periods.
 
 [Class notes](notes/m339d-oct-26-2022.pdf) 
