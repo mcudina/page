@@ -297,6 +297,10 @@ Law of the Unique Price. Replicating portfolios. Derivative securities. Equity-l
 
 [Problem packet](problem-sets/m339d-equity-linked.pdf)
 
+<!--
+[Class notes](notes/m339d-oct-14-2022.pdf) 
+-->
+
 ---
 
 **Class 18: February 20th**<br>
@@ -318,6 +322,12 @@ Random number generation.<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister): Mersenne twister
 
 [An atmospheric RNG](https://www.random.org/)
+
+The Strong Law of Large Numbers. Monte Carlo simulation.<br>
+
+[Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
+
+[Problem Set #7](problem-sets/m339d-ps7-mc-solns.Rmd): **Solutions**
 
 ---
 
@@ -395,13 +405,7 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 
 
-The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
-[Class notes](notes/m339d-oct-14-2022.pdf) 
-
-[Problem Set #5](problem-sets/m339d-ps5-mc.Rmd)
-
-[Problem Set #5](problem-sets/m339d-ps5-mc-solns.Rmd): **Solutions**
 
 ---
 
