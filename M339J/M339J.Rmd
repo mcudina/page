@@ -308,8 +308,13 @@ Loss-modifications demonstration.
 
 **Class 16: February 15th**<br>
 Franchise deductibles <span style="color: purple;">**(Sections 3.4.1)**</span>.
+
+Slides: [Types of deductibles.](slides/m339j-all-deductibles.pdf)
+
 Loss elimination ratio <span style="color: purple;">**(Section 3.4.1)**</span>.<br>
 Scale distributions. <span style="color: purple;">**(Section 3.3.2)**</span> 
+
+Slides: [Scale distributions.](slides/m339j-scale.pdf)
 
 <!--
 [Class notes](notes/m339j-feb-21-2022.pdf): mgf and pgf. Sums of independent random variables. Parametric distributions. Scale distributions.
@@ -387,6 +392,8 @@ Poisson thinning. The negative binomial distribution <span style="color: purple;
 <!--
 [Class notes](notes/m339j-mar-23-2022.pdf): Poisson thinning. The negative binomial distribution.
 -->
+
+Slides: [The negative binomial distribution.](slides/NegBinDistn.pdf)
 
 [Quiz #11](quizzes/m339j-quiz11-poisson.pdf) -- **due on Wednesday, April 12th**
 
@@ -508,6 +515,8 @@ Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The
 
 **Class 29: March 24th**<br>
 Aggregate losses with an ordinary deductible per-loss.<br>
+
+Slides: [Effect of individual deductibles](slides/m339j-effect-of-ded.pdf)
 
 [Problem packet](problem-sets/m339j-agg-claims.pdf)
 
@@ -732,16 +741,9 @@ The Poisson-gamma mixture.
 [Percentiles. Central Limit Theorem. mgf and pgf. Heavy
 tails.](Lecture3_2and3_3and3_4.pdf)
 
----
-
-
-[Class notes](m339j-feb-7-2020.pdf): Percentiles. pgf.
-
 Heavy tails. Risk measures.
 
 [Parametric distributions.](Lecture4_2.pdf)
-
-[Class notes](m339j-feb-10-2020.pdf):  Scaling.
 
 More on scale distributions and k-point mixtures.
 
@@ -752,26 +754,14 @@ Continuous models.
 
 [Continuous models.](Lecture5_2.pdf)
 
-[Per loss and per payment.](Lecture8_2.pdf)
-
-
-[The negative binomial distribution.](NegBinDistn.pdf)
-
-Problem-solving session: Mixing distributions and discrete
-distributions.\
-
-Problem-solving session: Policy modifications.\
-
-[Mock In-Term Two](m339j-mock-two-probs.pdf) \-- **Problems**
+[Mock In-Term Two](m339j-mock-two-probs.pdf) -- **Problems**
 
 ---
-
-Aggregate payments.\
+***
+---
 
 [Aggregate claims.](Lecture9_7.pdf)
 
-
-[Homework \#7](m339j-hw7-probs.pdf) \-- **NOT TO BE HANDED IN**
 
 
 ---
