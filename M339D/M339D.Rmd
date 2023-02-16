@@ -273,6 +273,12 @@ Even more on European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
 
+[Dow data](data/dow.csv)
+
+[Dow futures data](data/dow-futures.csv)
+
+[Apple call data](data/apple-calls.csv)
+
 [Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, February 27th, 2023**
 
 [Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
