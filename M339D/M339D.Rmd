@@ -395,6 +395,10 @@ Binomial option pricing: Pricing by replication. <br>
 **Class 23: March 3rd**<br>
 Binomial option pricing: Risk-neutral probability. <br>
 
+<!--
+[Class notes](notes/m339d-oct-28-2022.pdf) 
+-->
+
 ---
 
 **Class 24: March 6th**<br>
@@ -409,6 +413,8 @@ Binomial option pricing: Two periods.
 ---
 
 **Class 25: March 8th**<br>
+Multiple binomial periods. <br>
+
 
 ---
 
@@ -422,6 +428,14 @@ Binomial option pricing: Two periods.
 
 **Class 28: March 22nd**<br>
 <span style="color: red;">**In-Term Two**</span><br>
+
+---
+
+**Class 29: March 24th**<br>
+
+---
+
+**Class 30: March 27th**<br>
 
 <!--
 Expected return of a portfolio.<br>
@@ -477,19 +491,6 @@ The Capital Asset Pricing Model (CAPM).<br>
 ---
 
 
-
-
-
----
-
-**Class 29: October 28th**<br>
-Multiple binomial periods. <br>
-
-[Class notes](notes/m339d-oct-28-2022.pdf) 
-
----
-
-**Class 30: October 31st**<br>
 Monte Carlo for binomial option pricing. <br>
 
 [Class notes](notes/m339d-oct-31-2022.pdf) 
