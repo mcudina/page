@@ -360,7 +360,9 @@ The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
 [Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
 
+<!--
 [Problem Set #7](problem-sets/m339d-ps7-mc-solns.Rmd): **Solutions**
+-->
 
 ---
 
@@ -373,17 +375,20 @@ The binomial asset-pricing model. Historical returns of stocks. Forward trees. <
 [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model.
 -->
 
+[Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, March 10th**
+
 ---
 
 **Class 22: March 1st**<br>
 Binomial option pricing: Pricing by replication. <br>
 
+[Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
+
 <!--
-[Problem Set #6](problem-sets/m339d-ps6-bin-pricing.pdf): **Problems**
+[Class notes](notes/m339d-oct-26-2022.pdf) 
 
 [Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
 -->
-
 
 ---
 
@@ -393,6 +398,13 @@ Binomial option pricing: Risk-neutral probability. <br>
 ---
 
 **Class 24: March 6th**<br>
+Binomial option pricing: Two periods.
+
+[Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
+
+<!--
+[Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
+-->
 
 ---
 
@@ -467,15 +479,6 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 
 
-[Homework #5](hw/m339d-hw5-parity.pdf) -- **due on Monday, October 31st**
-
-Binomial option pricing: Two periods.
-
-[Class notes](notes/m339d-oct-26-2022.pdf) 
-
-[Problem Set #7](problem-sets/m339d-ps7-two-periods-probs.pdf): **Problems**
-
-[Problem Set #7](problem-sets/m339d-ps7-two-periods-solns.pdf): **Solutions**
 
 ---
 
