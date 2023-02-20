@@ -399,6 +399,8 @@ Binomial option pricing: Risk-neutral probability. <br>
 [Class notes](notes/m339d-oct-28-2022.pdf) 
 -->
 
+[Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 24th**
+
 ---
 
 **Class 24: March 6th**<br>
@@ -407,6 +409,8 @@ Binomial option pricing: Two periods.
 [Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
 
 <!--
+[Class notes](notes/m339d-oct-31-2022.pdf) 
+
 [Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
 -->
 
@@ -419,6 +423,9 @@ Multiple binomial periods. <br>
 ---
 
 **Class 26: March 10th**<br>
+Monte Carlo for binomial option pricing. <br>
+
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
 
 ---
 
@@ -491,15 +498,6 @@ The Capital Asset Pricing Model (CAPM).<br>
 ---
 
 
-Monte Carlo for binomial option pricing. <br>
-
-[Class notes](notes/m339d-oct-31-2022.pdf) 
-
-[Problem Set #8](problem-sets/m339d-ps8-binomial-mc-probs.Rmd)
-
-[Homework #5](hw/m339d-hw5-parity-solns.pdf) -- **solutions**
-
-[Homework #6](hw/m339d-hw6-one-period.pdf) -- **due on Monday, November 7th**
 
 [Project #4](projects/m339d-project4.pdf) -- **due on November 11th, 2022**
 
