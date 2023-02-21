@@ -347,7 +347,7 @@ Put-call parity.<br>
 [Class notes](notes/m339d-oct-17-2022.pdf) 
 -->
 
-**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with Dividends. 
+**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
 Chooser options.<br>
 
@@ -458,6 +458,7 @@ Monte Carlo for binomial option pricing. <br>
 ---
 
 **Class 27: March 20th**<br>
+Review of the normal distribution.<br>
 
 ---
 
@@ -467,10 +468,29 @@ Monte Carlo for binomial option pricing. <br>
 ---
 
 **Class 29: March 24th**<br>
+The normal approximation to the binomial.<br>
+
+[Standard normal table](notes/std-normal-table.pdf)
+
+[Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
+
+[Problem Set #11](problem-sets/m339d-ps11-dML.pdf): **Problems**
+
+[Problem Set #11](problem-sets/m339d-ps11-dML-solns.pdf): **Solutions**
+
+[Apple parity](data/apple-parity.csv)
+
+[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 24th**
+
+[Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
 **Class 30: March 27th**<br>
+
+---
+
+**Class 31: March 29th**<br>
 
 <!--
 Expected return of a portfolio.<br>
@@ -518,27 +538,12 @@ The Capital Asset Pricing Model (CAPM).<br>
 [Homework #4](hw/m339d-hw4-corp-finance-solns.pdf) -- **solutions**
 
 ---
-
+***
 ---
 
 
 
-[Project #4](projects/m339d-project4.pdf) -- **due on November 11th, 2022**
 
-[Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
-
-**Class 31: November 2nd**<br>
-The normal approximation to the binomial. <br>
-
-[Standard normal table](notes/std-normal-table.pdf)
-
-[Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
-
-[Problem Set #9](problem-sets/m339d-ps9-dML.pdf): **Problems**
-
-[Problem Set #9](problem-sets/m339d-ps9-dML-solns.pdf): **Solutions**
 
 [Class notes](notes/m339d-nov-02-2022.pdf) 
 
