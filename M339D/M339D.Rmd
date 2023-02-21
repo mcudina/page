@@ -353,6 +353,14 @@ Chooser options.<br>
 
 [Problem packet](problem-sets/m339d-chooser.pdf)
 
+**(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
+
+**(Enrichment material)** [Lecture Thirteen](lectures/m339d-lecture-13-exchange-options.pdf): Exchange options
+
+**(Enrichment material)** [Lecture Fourteen](lectures/m339d-lecture-14-bounds-bull-spreads.pdf): Call/put-price bounds. Bull spreads.
+
+**(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
+
 ---
 
 **Class 20: February 24th**<br>
@@ -389,9 +397,9 @@ The binomial asset-pricing model. Historical returns of stocks. Forward trees. <
 
 <!--
 [Class notes](notes/m339d-oct-21-2022.pdf) 
-
-[Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model.
 -->
+
+**(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, March 10th**
 
@@ -418,6 +426,8 @@ Binomial option pricing: Risk-neutral probability. <br>
 -->
 
 [Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 24th**
+
+**(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
 
 ---
 
@@ -875,7 +885,6 @@ Gap options.<br>
 
 [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options-empty.pdf): Gap options (skeleton).
 
-[Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
 
 [Class notes](notes/m339d-mar-07-2022.pdf): Equity-linked contracts. Gap options.
 
@@ -895,8 +904,6 @@ Options on currencies.<br>
 
 Exchange options.<br>
 
-[Lecture Thirteen](lectures/m339d-lecture-13-exchange-options.pdf): Exchange options
-
 [Problem](problem-sets/m339d-mfe-2007-p6.pdf)
 
 [Class notes](notes/m339d-mar-11-2022.pdf): Exchange options. Generalized put-call parity.
@@ -908,8 +915,6 @@ Exchange options.<br>
 [Quiz #16](quizzes/m339d-quiz16-exchange-exp.pdf) - **due on Monday, March 28th**
 
 Bounds on option prices.<br>
-
-[Lecture Fourteen](lectures/m339d-lecture-14-bounds-bull-spreads.pdf): Call/put-price bounds. Bull spreads.
 
 [Class notes](notes/m339d-mar-21-2022.pdf): Bounds on call prices.
 
@@ -944,8 +949,6 @@ No class. Instructor ill.<br>
 ---
 
 Convex functions. Convexity of put/call prices. Butterfly spreads.<br>
-
-[Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
 [Notes](notes/m339d-convexity.pdf): Convexity of functions.
 
@@ -993,8 +996,6 @@ The binomial asset-pricing model.
 [Homework #8](hw/m339d-hw8.pdf) - **due on Friday, April 15th**
 
 Binomial option pricing: Pricing by replication. 
-
-[Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing.
 
 [Problem Set #9](problem-sets/m339d-ps-nine-bin-pricing.pdf): **Problems**
 
