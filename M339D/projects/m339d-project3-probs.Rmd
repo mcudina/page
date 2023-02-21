@@ -1,5 +1,5 @@
 ---
-title: "Project #3: Simple linear regression. CAPM."
+title: "Project #3: Elementary Monte Carlo. More on portfolios. Put prices."
 author: "Milica Cudina"
 date: "`r Sys.Date()`"
 output: pdf_document
@@ -23,79 +23,78 @@ knitr::opts_chunk$set(
 
 ---
 
-Before you start working on this project, watch the following two videos about simple linear regression couretsy of OpenCourse Statistics:
+## Problem #1 **(10 points)**
+A weighted spinner has four different regions: blue, red, green, and yellow. The blue is twice as likely as red, the red is twice as likely as green, and the green is twice as likely as yellow. You are invited to play the game with the following outcomes:
+\begin{itemize}
+\item[$\bullet$] if the spinner lands on blue, you lose \$5;
+\item[$\bullet$] if the spinner lands on red, you win \$2; 
+\item[$\bullet$] if the spinner lands on green, you win \$10; 
+\item[$\bullet$] if the spinner lands on yellow, you win \$20. 
+\end{itemize}
 
-[Ideas of fitting a line](https://youtu.be/mPvtZhdPBhQ)
+Use *Monte Carlo* simulation to figure out the fair price for entering this game. 
 
-[Fitting a least-squares regression line](https://youtu.be/z8DmwG2G4Qc)
+## Problem #2 (10 points)
+Use *Monte Carlo* simulation to estimate the number $\pi$. 
 
-Next, keep this tutorial on *simple linear regression* in `R` handy
+## Problem #3 (10 points)
+Use *Monte Carlo* to estimate the expected distance of a randomly chosen point in a square to the center of that square. 
 
-[Simple Linear Regression in `R`](https://www.r-bloggers.com/2021/07/how-to-do-a-simple-linear-regression-in-r/)
+## Problem #4 (25 points)
+Your initial wealth is exactly \$100. You are allowed to invest in
+shares of a particular stock. You are also allowed to both lend and
+borrow at the continuously compounded risk-free interest rate of
+0.05. Keeping your money uninvested is **not allowed**.
 
-## Problem #1 **(20 points)**
-Download the data set with information about the cricket chirps per second and the temperature available in Canvas. 
+You can rebalance your portfolio every morning, once you have observed
+the opening stock price. This means that you can change the number of
+shares you own (if you decide to do so) and accordingly adapt your
+risk-free investment.
 
-**(5 points)** What plot would you provide to visualize the association between the frequency of cricket chirps and the temperature? Plot it and comment on at least **three** relevant features of the data. 
+You proceed to create a ``rule'' according to which you will be
+rebalancing your portfolio. Here is a possible rule you can use:
 
-**(2 points)** If you were to provide a single value quantifying the *strength* of the relationship, what would it be? Calculate that value. 
+*I start by investing in one share of stoch. Then, every day I will flip a fair coin. If the outcome is heads, I will buy one share of stock. If the outcome is tails, I will
+  short one share. The balance of my wealth is to be invested at the
+  risk-free rate (if needed, I will borrow at the continuously
+  compounded risk-free interest rate).*
 
-**(5 points)** Which trend curve (if any) would you use for the association you visualized? 
+Over the following 10 days, you observe the following stock prices for a non-dividend-paying stock:
 
-**(3 points)** Imagine that you are in the situation where someone tells you they hear $18$ chirps per second, at which temperature would you say it was?
+\medskip
 
-**(5 points)** If you had been asked to provide the same temperature "prediction" for the given value of $10$ chirps per second, what would you say?
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+{\bf Day} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline
+{\bf Stock price} &100 & 80 & 64 & 80 & 64 & 80 & 100 & 80 & 64 & 80 & 100 \\
+\hline
+\end{tabular}
 
+\medskip
 
-## Problem 2. (40 points)
-The data set `mfm.csv` is available in Canvas. Download it and import it into `R`. Identify the names of the columns. 
+As the time passes you follow investment rules above to rebalance your portfolio. Complete the following table describing your portfolio \textbf{just before and just after} the rebalancing is done. 
+Even more precisely, for the $10$ days, both for "morning" and "evening" print out:
 
-The immediately relevant columns are `mktrf`, `rf`, and `wmt`. They contain the daily excess return of the market, the Treasury return (a proxy for the risk-free interest rate), and the daily returns of *Walmart*, respectively. 
+* the number of shares of stock in the portfolio, 
+* the balance of the risk-free investment, 
+* the wealth in the stock, 
+* the total wealth. 
 
-**(10 points)** In the context of CAPM, provide an appropriate visualization of the relationship between excess returns of the market and the excess returns of *Walmart*. Comment on at least three features of the plot you obtain. 
+## Problem #4 (20 points)
+Repeat the above problem, but with a new investment ``rule'' of your own. Make sure that there is an element of **randomness* in your rule. You can use the above rule or any of the rules you encountered in previous projects for inspiration, but do not just merely make simple (trivial!) adjustments.
 
-**(20 points)** Estimate the daily *beta* of *Walmart* based on the above information. More precisely, provide the entire `summary` of your model and, then, emphasize the estimated value of the *beta*. 
+## Problem #5 (25 points)
+### Apple puts
+The file "apple-puts.csv" contains call prices observed on February 14th for European call options on the stocks of Apple Inc with expiry on May 19th and with varying strike prices. 
 
-**(10 points)** 
-Go through the following tutorial on the meaning and construction of **prediction intervals** in `R`. 
+**(5 points)**
+Import the data into a data frame. Create a line plot of the mid price (defined as the midpoint between the bid and the ask price) as it depends on the strike. 
 
-[Prediction intervals](http://www.r-tutor.com/elementary-statistics/simple-linear-regression/prediction-interval-linear-regression)
+**(5 points)**
+What do you notice about the monotonicity and convexity of the above curve? 
 
-On 2022/08/31, the excess return of the market was $-0.0074$, and the Treasury return was $0.00008$. By CAPM, what is the **prediction interval** of the return of *Walmart* on 2022/08/31? 
+**(15 points)**
+**Prove** that the same conclusions regarding the monotonicity and convexity of the call prices with respect to the strike must hold in general **under the no arbitrage assumption**. 
 
-Your instructor calculated the *Walmart* return for that date as $0.0005283816$. Do you have any comments/conclusions that you would like to share?
-
-
-## Problem 3. (20 points)
-Read the following articles. 
-
-[An article on familiarity bias.](http://bogan.dyson.cornell.edu/doc/Hartford/Bogan-6_Familiarity.pdf) 
-
-[Familiarity breeds investment.](https://www0.gsb.columbia.edu/mygsb/faculty/research/pubfiles/1554/Huberman-familiarity-breeds.investment.pdf) 
-
-[Wikipedia: Overconfidence effect.](https://en.wikipedia.org/wiki/Overconfidence_effect) 
-
-[Wikipedia: Disposition effect.](https://en.wikipedia.org/wiki/Disposition_effect) 
-
-[Investopedia: Herd behavior.](https://www.investopedia.com/terms/h/herdinstinct.asp) 
-
-**(10 points)** 
-Do the above behaviors agree with the assumptions of CAPM? Why? Justify your answer. 
-
-**(10 points)** 
-Which of the above behaviors would result in a *systematic bias*, i.e., which of the above behaviors would "push" the security prices away from their fundamental value? Substantiate your response. 
-
-## Problem 5. (10 points)
-Consult the following Wikipedia page: 
-
-[Fama-French](https://en.wikipedia.org/wiki/Fama–French_three-factor_model)
-
-Explain in a short paragraph what modifications to the CAPM model result in the Fama-French model. Which statistical tool would you have to use to estimate the parameters in this model? Look back at the data set `mfm.csv`. Do the names of the columns look familiar now? 
-
-## Problem 6. (10 points)
-Read the following article:
-
-[Beyond Multi-Factor Models](https://mbrjournal.com/2021/01/26/the-cost-of-capital-if-not-the-capm-then-what/)
-
-Write a paragraph or two discussing the pros and cons of CAPM (and its kin, i.e., multi-factor models). 
 
