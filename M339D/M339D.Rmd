@@ -554,11 +554,18 @@ Log-normal stock prices: Partial expectation.<br>
 **Class 35: April 7th**<br>
 The Black-Scholes pricing formula.<br>
 
+[Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
+
+<!--
+[Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
+-->
+
+[Problem](problem-sets/mfe-sp2007-p8.pdf)
 
 ---
 
 **Class 36: April 10th**<br>
-
+Forward-start options. Rolling insurance strategy.<br>
 
 <!--
 Expected return of a portfolio.<br>
@@ -620,12 +627,7 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 
 
-[Problem Set #10](problem-sets/m339d-ps10-BS.pdf): **Problems**
 
-<!--
-[Problem Set #10](problem-sets/m339d-ps10-BS-solns.pdf): **Solutions**
-
-[Problem](problem-sets/mfe-sp2007-p8.pdf)
 
 [Homework #7](hw/m339d-hw7-binom-solns.pdf) -- **solutions**
 
