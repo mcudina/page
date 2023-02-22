@@ -557,6 +557,8 @@ The Black-Scholes pricing formula.<br>
 [Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
 
 <!--
+[Class notes](notes/m339d-nov-18-2022.pdf) 
+
 [Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
 -->
 
@@ -566,6 +568,24 @@ The Black-Scholes pricing formula.<br>
 
 **Class 36: April 10th**<br>
 Forward-start options. Rolling insurance strategy.<br>
+
+---
+
+**Class 37: April 12th**<br>
+Focus on the delta.<br>
+
+[Problem](problem-sets/m339d-ifm-delta.pdf)
+
+---
+
+**Class 38: April 14th**<br>
+Delta-hedging. <br>
+
+[Problem](problem-sets/m339d-ifm-delta-hedge.pdf)
+
+---
+
+**Class 39: April 17th**<br>
 
 <!--
 Expected return of a portfolio.<br>
@@ -628,12 +648,6 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 
 
-
-[Homework #7](hw/m339d-hw7-binom-solns.pdf) -- **solutions**
-
----
-
-**Class 37: November 16th**<br>
 Monte Carlo with Black-Scholes pricing. <br>
 
 [Class notes](notes/m339d-nov-16-2022.pdf) 
@@ -646,22 +660,9 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 38: November 18th**<br>
-Delta-hedging. <br>
-
-[Problem](problem-sets/m339d-ifm-delta.pdf)
-
-[Problem](problem-sets/m339d-ifm-delta-hedge.pdf)
-
-[Class notes](notes/m339d-nov-18-2022.pdf) 
-
 [Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class.Rmd) - **the partial solution**
 
----
 
-**Class 39: November 28th**<br>
 Implied volatility. <br>
 
 [Problem](problem-sets/m339d-ifm-impl-vol.pdf)
