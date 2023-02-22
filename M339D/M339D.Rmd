@@ -451,7 +451,7 @@ Multiple binomial periods. <br>
 [Class notes](notes/m339d-nov-02-2022.pdf) 
 -->
 
-[Homework #7](hw/m339d-hw7-binom.pdf) -- **due on Friday, March 31st**
+[Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, March 31st**
 
 ---
 
@@ -464,6 +464,8 @@ Monte Carlo for binomial option pricing. <br>
 
 **Class 27: March 20th**<br>
 Review of the normal distribution.<br>
+
+[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 7th**
 
 ---
 
@@ -557,6 +559,8 @@ The Black-Scholes pricing formula.<br>
 [Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
 
 <!--
+[Class notes](notes/m339d-nov-16-2022.pdf) 
+
 [Class notes](notes/m339d-nov-18-2022.pdf) 
 
 [Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
@@ -586,6 +590,11 @@ Delta-hedging. <br>
 ---
 
 **Class 39: April 17th**<br>
+Monte Carlo with Black-Scholes pricing. <br>
+
+[Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)
+
+
 
 <!--
 Expected return of a portfolio.<br>
@@ -648,11 +657,6 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 
 
-Monte Carlo with Black-Scholes pricing. <br>
-
-[Class notes](notes/m339d-nov-16-2022.pdf) 
-
-[Problem Set #11](problem-sets/m339d-ps11-BS-mc.Rmd)
 
 [Homework #8](hw/m339d-hw8-BS.pdf) -- **due on Wednesday, November 30th**
 
