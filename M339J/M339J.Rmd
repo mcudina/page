@@ -350,8 +350,6 @@ Even more on loss modifications. <br>
 <!--
 [Quiz #7](quizzes/m339j-quiz7-r-basics-solns.pdf) -- **solutions**
 
-[Class notes](notes/m339j-mar-09-2022.pdf): More on policy modifications. 
-
 [Class notes](notes/m339j-mar-11-2022.pdf): More on policy modifications. The Poisson distribution.
 
 [Problem Set #5](problem-sets/m339j-ps5-policy-mods-solns.pdf) -- **solutions**
@@ -366,6 +364,8 @@ Proportional and excess of loss reinsurance <span style="color: purple;">**(Sect
 
 [Problem packet](problem-sets/m339j-reinsurance.pdf)
 
+[Class notes](notes/m339j-feb-22-2023.pdf): More on policy modifications. Reinsurance.
+
 [Homework #6](hw/m339j-hw6.pdf) -- **due on Friday, March 3rd**
 
 mgf and pgf. Sums of independent random
@@ -374,10 +374,6 @@ variables. <span style="color: purple;">**(Sections 3.1.2, 3.1.3)**</span>. Cent
 [Lecture notes](lectures/m339j-lecture5-mgf-pgf.pdf): Generating functions.
 
 [Lecture notes](lectures/m339j-lecture6-clt.pdf): The Central Limit Theorem.
-
-<!--
-[Class notes](notes/m339j-feb-21-2022.pdf): mgf and pgf. Sums of independent random variables. Parametric distributions. Scale distributions.
--->
 
 **Suggested textbook examples:** <span style="color: purple;">**3.1.1, 3.1.3, 3.1.4**</span>
 

@@ -352,6 +352,9 @@ Put-call parity.<br>
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
+---
+
+**Class 21: February 27th**<br>
 Chooser options.<br>
 
 [Problem packet](problem-sets/m339d-chooser.pdf)
@@ -372,6 +375,9 @@ Random number generation.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
+---
+
+**Class 22: March 1st**<br>
 The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
 <!--
@@ -390,9 +396,6 @@ The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 21: February 27th**<br>
 The binomial asset-pricing model. Historical returns of stocks. Forward trees. <br>
 
 <!--
@@ -405,7 +408,7 @@ The binomial asset-pricing model. Historical returns of stocks. Forward trees. <
 
 ---
 
-**Class 22: March 1st**<br>
+**Class 23: March 3rd**<br>
 Binomial option pricing: Pricing by replication. <br>
 
 [Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
@@ -416,9 +419,6 @@ Binomial option pricing: Pricing by replication. <br>
 [Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
 -->
 
----
-
-**Class 23: March 3rd**<br>
 Binomial option pricing: Risk-neutral probability. <br>
 
 <!--
