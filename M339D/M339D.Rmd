@@ -344,6 +344,11 @@ Equity-linked contracts.<br>
 
 [Problem packet](problem-sets/m339d-equity-linked.pdf)
 
+[Class notes](notes/m339d-feb-24-2023.pdf) 
+
+---
+
+**Class 21: February 27th**<br>
 Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
@@ -354,9 +359,6 @@ Put-call parity.<br>
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
----
-
-**Class 21: February 27th**<br>
 Chooser options.<br>
 
 [Problem packet](problem-sets/m339d-chooser.pdf)
@@ -369,6 +371,9 @@ Chooser options.<br>
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
+---
+
+**Class 22: March 1st**<br>
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -377,9 +382,6 @@ Random number generation.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
----
-
-**Class 22: March 1st**<br>
 The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
 <!--
@@ -398,6 +400,9 @@ The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+---
+
+**Class 23: March 3rd**<br>
 The binomial asset-pricing model. Historical returns of stocks. Forward trees. <br>
 
 <!--
@@ -410,7 +415,7 @@ The binomial asset-pricing model. Historical returns of stocks. Forward trees. <
 
 ---
 
-**Class 23: March 3rd**<br>
+**Class 24: March 6th**<br>
 Binomial option pricing: Pricing by replication. <br>
 
 [Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
@@ -431,9 +436,10 @@ Binomial option pricing: Risk-neutral probability. <br>
 
 **(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
 
+
 ---
 
-**Class 24: March 6th**<br>
+**Class 25: March 8th**<br>
 Binomial option pricing: Two periods.
 
 [Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
@@ -444,9 +450,6 @@ Binomial option pricing: Two periods.
 [Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
 -->
 
----
-
-**Class 25: March 8th**<br>
 Multiple binomial periods. <br>
 
 <!--
