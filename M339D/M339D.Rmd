@@ -273,6 +273,8 @@ Even more on European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
 
+[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for the last problem in the project**
+
 [Dow data](data/dow.csv)
 
 [Dow futures data](data/dow-futures.csv)
@@ -986,8 +988,6 @@ No class. Instructor ill.<br>
 ---
 
 Convex functions. Convexity of put/call prices. Butterfly spreads.<br>
-
-[Notes](notes/m339d-convexity.pdf): Convexity of functions.
 
 [Class notes](notes/m339d-mar-30-2022.pdf): Convexity of call prices. Butterfly spreads.
 
