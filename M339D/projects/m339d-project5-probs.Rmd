@@ -1,5 +1,5 @@
 ---
-title: "Project #5: More Monte Carlo. More on portfolios. Lognormal stock prices."
+title: "Project #5: Lognormal stock prices. Black-Scholes."
 author: "Milica Cudina"
 date: "`r Sys.Date()`"
 output: pdf_document
@@ -24,70 +24,6 @@ knitr::opts_chunk$set(
 ---
 
 ## Problem #1 (25 points)
-Your initial wealth is exactly \$100. You are allowed to invest in
-shares of a particular stock. You are also allowed to both lend and
-borrow at the continuously compounded risk-free interest rate of
-0.05. Keeping your money uninvested is **not allowed**.
-
-You can rebalance your portfolio every morning, once you have observed
-the opening stock price. This means that you can change the number of
-shares you own (if you decide to do so) and accordingly adapt your
-risk-free investment.
-
-You proceed to create a ``rule'' according to which you will be
-rebalancing your portfolio. Here is a possible rule you can use:
-
-*I start by investing in one share of stoch. Then, every day I will flip a fair coin. If the outcome is heads, I will buy one share of stock. If the outcome is tails, I will
-  short one share. The balance of my wealth is to be invested at the
-  risk-free rate (if needed, I will borrow at the continuously
-  compounded risk-free interest rate).*
-
-Over the following 10 days, you observe the following stock prices for a non-dividend-paying stock:
-
-\medskip
-
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
-\hline
-{\bf Day} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
-\hline
-{\bf Stock price} &100 & 80 & 64 & 80 & 64 & 80 & 100 & 80 & 64 & 80 & 100 \\
-\hline
-\end{tabular}
-
-\medskip
-
-As the time passes you follow investment rules above to rebalance your portfolio. Complete the following table describing your portfolio \textbf{just before and just after} the rebalancing is done. 
-Even more precisely, for the $10$ days, both for "morning" and "evening" print out:
-
-* the number of shares of stock in the portfolio, 
-* the balance of the risk-free investment, 
-* the wealth in the stock, 
-* the total wealth. 
-
-## Problem #2 (25 points)
-Repeat the above problem, but with a new investment ``rule'' of your own. You can use the above rule or any of the rules you encountered in previous projects for inspiration, but do not just merely make simple (trivial!) adjustments.
-
-## Problem #3 (25 points)
-Let the continuously compounded, risk-free interest rate be $0.05$. 
-
-Consider a stock whose current price is \$80 and whose volatility is $0.2$. We will be pricing a variety of options using a *forward binomial tree*. 
-
-**(5 points)** 
-Price a one-year, \$85-strike European call option analytically using a $100-$period binomial tree. 
-
-**(5 points)** 
-Price a one-year, \$85-strike European call option using *Monte Carlo* with 10000 simulations with a $100-$period binomial tree. 
-
-**(5 points)** 
-Price a half-year, \$78-strike European put option analytically using a $100-$period binomial tree. 
-
-**(5 points)** 
-Price a half-year, \$78-strike European put option using *Monte Carlo* with 10000 simulations with a $100-$period binomial tree. 
-
-**(5 points)** 
-Comment on the accuracy of the *Monte Carlo* method. Which theorem from probability is useful here?
-
-## Problem #4 (25 points)
 Assume the **Black-Scholes model**.
 The continuously compounded, risk-free interest rate is $0.06.$ Let the current stock price of a non-dividend-paying stock be \$100. Let its volatility be $0.25$. 
 
@@ -113,4 +49,58 @@ What is the theoretical risk-neutral probability that the final asset price exce
 
 **(3 points)** 
 Comment on the comparison between the proportion and the risk-neutral probability you obtained above. Which theorem from probability is useful here?
+
+
+## Problem #2 (25 points)
+Let the continuously compounded, risk-free interest rate be $0.05$. 
+
+Consider a stock whose current price is \$120 and whose volatility is $0.20$. We will be pricing a three-month, \$115-strike call option. 
+
+### Part a: Analytic Black-Scholes (5 points)
+Price the option above using the Black-Scholes pricing formula. 
+
+
+### Part b: Black-Scholes Monte Carlo with $Z$ (10 points)
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the standard normal distribution with 10000 simulations.
+
+
+
+### Part c: Black-Scholes Monte Carlo with `rlnorm`` (10 points)
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the lognormal distribution with 10000 simulations.
+
+
+
+## Problem #3 (25 points)
+Let the continuously compounded, risk-free interest rate be $0.03$. 
+
+
+Consider a stock whose current price is \$90 and whose volatility is $0.30$. We will be pricing a half-year, \$95-strike put option. 
+
+### Part a: Analytic Black-Scholes (5 points)
+Price the option above using the Black-Scholes pricing formula. 
+
+
+### Part b: Black-Scholes Monte Carlo with $Z$ (10 points)
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the standard normal distribution with 10000 simulations.
+
+
+
+### Part c: Black-Scholes Monte Carlo with `rlnorm`` (10 points)
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the lognormal distribution with 10000 simulations.
+
+
+
+## Problem #4 (25 points)
+Let the continuously compounded, risk-free interest rate be $0.04$. 
+
+Consider a stock whose volatility is $0.25$. 
+
+**(5 points)** First, we will be focusing on a one-year, \$100-strike European call option. Define a function which calculates the analytic Black-Scholes price of this call as a function of the initial asset price denoted by $s$. Then, plot the graph of that function. Let the domain of your plot be $[0,200]$. 
+
+
+**(10 points)** 
+Now, plot the graph of the above Black-Scholes price (as a function of the underlying stock price) one year, half a year, quarter year and a week prior to exercise date. Add the plot of the payoff function. Let the domain of your plot be $[50,150]$. Make sure that all the plots are in different colors. What do you notice as the exercise date approaches? What can you say about the call delta?
+
+**(10 points)** 
+Repeat the previous problem for an otherwise identical put option. 
 

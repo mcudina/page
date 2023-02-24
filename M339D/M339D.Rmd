@@ -496,7 +496,7 @@ The normal approximation to the binomial.<br>
 
 [Apple parity](data/apple-parity.csv)
 
-[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 24th**
+[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 10th**
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
@@ -601,6 +601,18 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)
 
+<!--
+[Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class.Rmd) - **the partial solution**
+-->
+
+[Project #5](projects/m339d-project5-probs.pdf) -- **due on April 28th, 2023**
+
+[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
+
+**Class 40: April 19th**<br>
+<span style="color: red;">**In-Term Three**</span><br>
 
 
 <!--
@@ -666,11 +678,7 @@ The Capital Asset Pricing Model (CAPM).<br>
 
 
 
-[Project #5](projects/m339d-project5-probs.pdf) -- **due on December 2nd, 2022**
 
-[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-[Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class.Rmd) - **the partial solution**
 
 
 Implied volatility. <br>
@@ -687,9 +695,6 @@ Implied volatility. <br>
 
 [Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
----
-
-**Class 40: November 30th**<br>
 Problem-solving session. <br>
 
 [Class notes](notes/m339d-nov-30-2022.pdf) 
@@ -706,7 +711,6 @@ Problem-solving session. <br>
 ---
 
 **Class 42: December 5th**<br>
-<span style="color: red;">**In-Term Three**</span><br>
 
 [In-Term Three](exams/m339d-three-solns.pdf) -- **solutions**
 
