@@ -440,6 +440,8 @@ Binomial option pricing: Risk-neutral probability. <br>
 
 **(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
 
+**(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
+
 
 ---
 
@@ -759,12 +761,9 @@ Implied volatility. <br>
 
 [Problem Set #6](problem-sets/m339d-ps-six-yuri-two-solns.pdf): **Solutions**
 
-
 [Problem Set #7](problem-sets/m339d-ps-seven-forwards-hedging.pdf): **Problems**
 
 [Problem Set #7](problem-sets/m339d-ps-seven-forwards-hedging-solns.pdf): **Solutions**
-
-[Quiz #7](quizzes/m339d-quiz7-leveraging-solns.pdf) -- **solutions**
 
 [Quiz #9](quizzes/m339d-quiz9-forwards.pdf) -- **due on Wednesday, February 16th**
 
@@ -777,8 +776,6 @@ Implied volatility. <br>
 Caps. Covered option writing. European put options.<br>
 
 [Class notes](notes/m339d-feb-14-2022.pdf): Covered/naked option writing. European put options.
-
-[Quiz #8](quizzes/m339d-quiz8-two-assets-solns.pdf) -- **solutions**
 
 [Quiz #10](quizzes/m339d-quiz10-calls.pdf) -- **due on Monday, February 28th**
 
@@ -808,22 +805,9 @@ Collars. Derivative securities.<br>
 
 [Quiz #11](quizzes/m339d-quiz11.pdf) -- **due on Wednesday, March 2nd**
 
----
-
-Dynamic portfolios. Finite probability spaces.<br>
+Dynamic portfolios. 
 
 [Class notes](notes/m339d-feb-21-2022.pdf): Arbitrage portfolios. Law of the Unique Price. Replicating portfolios.
-
-[Homework #5](hw/m339d-hw5-calls-puts.pdf) -- **due on Friday, March 11th**
-
----
-
-Arbitrage portfolios. Law of the Unique Price. Replicating portfolios.<br>
-
-[Class notes](notes/m339d-feb-23-2022.pdf): Arbitrage portfolios. Law of the Unique Price. Replicating portfolios.
-
-
----
 
 Pricing prepaid forwards and forwards on stocks.<br>
 
@@ -839,20 +823,11 @@ Pricing prepaid forwards and forwards on stocks.<br>
 
 More on synthetic forwards. Futures.<br>
 
-
 [Class notes](notes/m339d-feb-28-2022.pdf): Synthetic forwards. Futures.
 
 **Suggested problems:** Sample SoA problems (IFM exam: Derivatives: Introductory): #30, #32, #45, #69 (futures)
 
-[Quiz #10](quizzes/m339d-quiz10-calls-solns.pdf) -- **solutions**
-
 ---
-
-Put-call parity.<br>
-
-[Class notes](notes/m339d-mar-02-2022.pdf): Put-call parity.
-
-[Quiz #11](quizzes/m339d-quiz11-solns.pdf) -- **solutions**
 
 [Quiz #13](quizzes/m339d-quiz13-parity.pdf) -- **due on Wednesday, March 9th**
 
@@ -860,18 +835,13 @@ Put-call parity.<br>
 
 [Class notes](notes/m339d-mar-04-2022.pdf): Synthetic forwards (revisited). Chooser options. 
 
-[Homework #4](hw/m339d-hw4-forwards-calls-solns.pdf) -- **solutions**
-
 ---
 
 Gap options.<br>
 
 [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options-empty.pdf): Gap options (skeleton).
 
-
 [Class notes](notes/m339d-mar-07-2022.pdf): Equity-linked contracts. Gap options.
-
-[Quiz #12](quizzes/m339d-quiz12-parity-prep-solns.pdf) -- **solutions**
 
 [Quiz #14](quizzes/m339d-quiz14-gaps.pdf) - **due on Monday, March 21st**
 
@@ -881,8 +851,6 @@ Options on currencies.<br>
 
 [Class notes](notes/m339d-mar-09-2022.pdf): Currency options.
 
-[Quiz #13](quizzes/m339d-quiz13-parity-solns.pdf) -- **solutions**
-
 ---
 
 Exchange options.<br>
@@ -890,8 +858,6 @@ Exchange options.<br>
 [Problem](problem-sets/m339d-mfe-2007-p6.pdf)
 
 [Class notes](notes/m339d-mar-11-2022.pdf): Exchange options. Generalized put-call parity.
-
-[Homework #5](hw/m339d-hw5-calls-puts-solns.pdf) -- **solutions**
 
 [Quiz #15](quizzes/m339d-quiz15-exchange.pdf) - **due on Wednesday, March 23rd**
 
@@ -901,15 +867,11 @@ Bounds on option prices.<br>
 
 [Class notes](notes/m339d-mar-21-2022.pdf): Bounds on call prices.
 
-[Quiz #14](quizzes/m339d-quiz14-gaps-solns.pdf) - **solutions**
-
 ---
 
 Bounds on put prices. Monotonicity of call prices. Bull spreads. <br>
 
 [Class notes](notes/m339d-mar-23-2022.pdf): Bounds on put prices. Monotonicity of call prices. Bull spreads.
-
-[Quiz #15](quizzes/m339d-quiz15-exchange-solns.pdf) - **solutions**
 
 ---
 
@@ -918,16 +880,6 @@ Monotonicity of put prices. "Cord-slope" bounds. Bear spreads.<br>
 [Problem](problem-sets/m339d-properties.pdf)
 
 [Class notes](notes/m339d-mar-25-2022.pdf): Monotonicity of put prices. "Cord-slope" bounds. Bear spreads. 
-
-[Homework #6](hw/m339d-hw6-parity-solns.pdf) -- **solutions**
-
----
-
-No class. Instructor ill.<br>
-
-[Quiz #16](quizzes/m339d-quiz16-exchange-exp-solns.pdf) - **solutions**
-
-[In-Term Two](exams/m339d-two.pdf) -- **problems** 
 
 ---
 
@@ -957,7 +909,6 @@ Straddles. Strangles.<br>
 
 [Quiz #18](quizzes/m339d-quiz-thirteen-straddles.pdf) - **due on Monday, April 11th**
 
-
 ---
 
 More on collars. Ratio spreads. Box spreads.<br>
@@ -966,17 +917,11 @@ More on collars. Ratio spreads. Box spreads.<br>
 
 [Class notes](notes/m339d-apr-06-2022.pdf): More on collars. Ratio spreads. Box spreads. 
 
-[Quiz #17](quizzes/m339d-quiz17-properties-solns.pdf) - **solutions**
-
 [Quiz #19](quizzes/m339d-quiz19-box-ratio.pdf) - **due on Wednesday, April 13th**
 
 ---
 
-The binomial asset-pricing model. 
-
 [Homework #8](hw/m339d-hw8.pdf) - **due on Friday, April 15th**
-
-Binomial option pricing: Pricing by replication. 
 
 [Problem Set #9](problem-sets/m339d-ps-nine-bin-pricing.pdf): **Problems**
 
@@ -984,13 +929,7 @@ Binomial option pricing: Pricing by replication.
 
 ---
 
-Binomial option pricing [cont'd].<br> 
-
 [Class notes](notes/m339d-apr-11-2022.pdf): Pricing by replication. Risk-neutral probability.
-
-[Homework #7](hw/m339d-hw7-price-properties-solns.pdf) - **solutions**
-
-[Quiz #18](quizzes/m339d-quiz-thirteen-straddles-solns.pdf) - **solutions**
 
 [Quiz #20](quizzes/m339d-quiz20-delta-B.pdf) - **due on Monday, April 18th**
 
@@ -1002,21 +941,13 @@ Binomial option pricing: Graphical interpretation.<br>
 
 [Class notes](notes/m339d-apr-13-2022.pdf): Binomial option pricing practice. Graphical interpretation of a call's replicating portfolio.
 
-[Problem Set #9](problem-sets/m339d-ps-nine-bin-pricing-solns.pdf): **Solutions**
-
-[Quiz #19](quizzes/m339d-quiz19-box-ratio-solns.pdf) - **solutions**
-
 ---
 
 Binomial option pricing: The forward tree.<br>
 
-[Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees.
-
 [Class notes](notes/m339d-apr-15-2022.pdf): The forward tree. 
 
 [Problem Set #10](problem-sets/m339d-ps-ten-two-periods.pdf) -- **problems**
-
-[Homework #8](hw/m339d-hw8-solns.pdf) - **solutions**
 
 [Homework #9](hw/m339d-hw9-one-period.pdf) - **due on Friday, April 22nd**
 
@@ -1025,8 +956,6 @@ Binomial option pricing: The forward tree.<br>
 Binomial option pricing: Two periods.<br>
 
 [Class notes](notes/m339d-apr-18-2022.pdf): Two periods.
-
-[Problem Set #10](problem-sets/m339d-ps-ten-two-periods-solns.pdf) -- **solutions**
 
 [Quiz #20](quizzes/m339d-quiz20-delta-B-solns.pdf) - **solutions**
 
@@ -1037,8 +966,6 @@ Multiple binomial periods. Early exercise (revisited).<br>
 [Problem packet](problem-sets/m339d-early-exercise.pdf)
 
 [Class notes](notes/m339d-apr-20-2022.pdf): Binomial option pricing (more periods). Early exercise.
-
-[Quiz #21](quizzes/m339d-quiz21-binomial-solns.pdf) - **solutions**
 
 [Quiz #22](quizzes/m339d-quiz22-Amer-binom-prep.pdf) - **due on Monday, April 25th**
 
@@ -1052,8 +979,6 @@ Binomial pricing of American options. <br>
 
 **Suggested problems:** Sample IFM (Derivatives: Advanced) Problem \#44 (binomial pricing of American options)
 
-[Homework #9](hw/m339d-hw9-one-period-solns.pdf) - **solutions**
-
 [Homework #10](hw/m339d-hw10-binom.pdf) - **due on Friday, April 29th**
 
 ---
@@ -1061,8 +986,6 @@ Binomial pricing of American options. <br>
 Binomial pricing of American option [practice].<br>
 
 [Class notes](notes/m339d-apr-25-2022.pdf): Binomial pricing of American options (practice).
-
-[Quiz #22](quizzes/m339d-quiz22-Amer-binom-prep-solns.pdf) - **solutions**
 
 ---
 
@@ -1084,10 +1007,6 @@ Asian-option pricing. Barrier options.<br>
 
 [Slides](notes/m339d-barrier.pdf): Barrier options.
 
-[Quiz #23](quizzes/m339d-quiz23-American-solns.pdf) - **solutions**
-
-[Homework #10](hw/m339d-hw10-binom-solns.pdf) - **solutions**
-
 ---
 
 Barrier options.<br>
@@ -1095,8 +1014,6 @@ Barrier options.<br>
 [Problem packet](problem-sets/m339d-barrier.pdf)
 
 [Class notes](notes/m339d-may-02-2022.pdf): More on barrier options. 
-
-[Quiz #24](quizzes/m339d-quiz24-Asian-solns.pdf) - **solutions**
 
 [Quiz #25](quizzes/m339d-quiz25-barrier.pdf) - **due on Wednesday, May 4th**
 
@@ -1115,76 +1032,13 @@ Binomial pricing of options on currencies.<br>
 
 [Class notes](notes/m339d-may-04-2022.pdf): Compound options. Currency options (the binomial model).
 
-[Quiz #25](quizzes/m339d-quiz25-barrier-solns.pdf) - **solutions**
-
----
-
-**Class 44: May 6th**<br>
 Binomial pricing of options on futures contracts.<br>
 
 [Problem](problem-sets/m339d-bin-futures.pdf)
 
 [Class notes](notes/m339d-may-06-2022.pdf): Futures options (the binomial model). 
 
-Problem-solving session.<br>
-
 [Problem Set #11](problem-sets/m339d-ps11-currency-futures.pdf) -- **problems**
 
 [Problem Set #11](problem-sets/m339d-ps11-currency-futures-solns.pdf) -- **solutions**
-
-[Homework #11](hw/m339d-hw11-exotic-solns.pdf) - **solutions**
-
-[In-Term Three](exams/m339d-three.pdf) -- **due on Wednesday, May 11th**
-
-
----
-
-[In-Term One](exams/m339d-one-instructions.pdf): Instructions
-
-[Mock In-Term One](exams/m339d-one-mock-probs.pdf) -- **Problems** 
-
-[Mock In-Term One](exams/m339d-one-mock-solns.pdf) -- **Solutions** 
-
----
-
-[In-Term Two](exams/m339d-two-instructions.pdf): Instructions
-
-[Mock In-Term Two](exams/m339d-two-mock.pdf): **Problems** 
-
-[Mock In-Term Two](exams/m339d-two-mock-solns.pdf): **Solutions** 
-
----
-
-[In-Term Three](exams/m339d-three-instructions.pdf): Instructions
-
-[Mock In-Term Three](exams/m339d-three-mock.pdf) -- **problems** 
-
-[Mock In-Term Three](exams/m339d-three-mock-solns.pdf) -- **solutions** 
-
-[In-Term Three](exams/m339d-three-histogram.pdf) -- **histogram** 
-
----
-
-[An old prerequisite exam](m339d-sample-prereq.pdf) -- Problems
-
-[An old prerequisite exam](m339d-sample-prereq-solns.pdf) -- Solutions
-    
-**The Prerequisite In-Term Exam**
-
-[The prerequisite in-term exam](m339d-prereq.pdf) -- **Solutions**
-
----
-
-[Problem set - **Problems**](m339d-ps-final-prep.pdf)
--   [Problem set - **Solutions**](m339d-ps-final-prep-solns.pdf)
--   [Problem set - **More problems**](m339d-ps-final-prep-sequel.pdf)
--   [Problem set - **Solutions to more
-    problems**](m339d-ps-final-prep-sequel-solns.pdf)
-
 -->
-
-
-
-
-
-
