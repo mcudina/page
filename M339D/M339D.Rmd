@@ -587,6 +587,10 @@ Focus on the delta.<br>
 
 [Problem](problem-sets/m339d-ifm-delta.pdf)
 
+<!--
+[Class notes](notes/m339d-nov-28-2022.pdf) 
+-->
+
 ---
 
 **Class 38: April 14th**<br>
@@ -603,6 +607,9 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 <!--
 [Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class.Rmd) - **the partial solution**
+
+[Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class-contd.Rmd) - **the complete solution**
+
 -->
 
 [Project #5](projects/m339d-project5-probs.pdf) -- **due on April 28th, 2023**
@@ -613,6 +620,7 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 **Class 40: April 19th**<br>
 <span style="color: red;">**In-Term Three**</span><br>
+
 
 
 <!--
@@ -685,9 +693,6 @@ Implied volatility. <br>
 
 [Problem](problem-sets/m339d-ifm-impl-vol.pdf)
 
-[Problem Set #11](problem-sets/m339d-ps11-BS-mc-in-class-contd.Rmd) - **the complete solution**
-
-[Class notes](notes/m339d-nov-28-2022.pdf) 
 
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
 
