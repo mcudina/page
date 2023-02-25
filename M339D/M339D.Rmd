@@ -561,6 +561,10 @@ Log-normal stock prices: Partial expectation.<br>
 **Class 35: April 7th**<br>
 The Black-Scholes pricing formula.<br>
 
+[Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
+
+[The original article by Black and Scholes](http://www.cs.princeton.edu/courses/archive/fall09/cos323/papers/black_scholes73.pdf) 
+
 [Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
 
 <!--
@@ -585,6 +589,8 @@ Forward-start options. Rolling insurance strategy.<br>
 **Class 37: April 12th**<br>
 Focus on the delta.<br>
 
+[Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
+
 [Problem](problem-sets/m339d-ifm-delta.pdf)
 
 <!--
@@ -595,6 +601,8 @@ Focus on the delta.<br>
 
 **Class 38: April 14th**<br>
 Delta-hedging. <br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Market_maker): Market maker.
 
 [Problem](problem-sets/m339d-ifm-delta-hedge.pdf)
 
