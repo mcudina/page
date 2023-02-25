@@ -237,6 +237,8 @@ Hedging using forward contracts.<br>
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
 
+[Additional class notes](notes/m339d-extra-forward-hedging.pdf): User/buyer of goods hedging using a forward.
+
 [Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, February 17th**
 
 European call options.<br>
@@ -345,6 +347,8 @@ Equity-linked contracts.<br>
 [Problem packet](problem-sets/m339d-equity-linked.pdf)
 
 [Class notes](notes/m339d-feb-24-2023.pdf) 
+
+[Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
 
 ---
 
@@ -610,6 +614,10 @@ Delta-hedging. <br>
 [Class notes](notes/m339d-nov-30-2022.pdf) 
 
 [Class notes](notes/m339d-delta-hedging.pdf) 
+
+[Delta-Hedging Practice](exams/m339d-final-practice.pdf) -- **problems** 
+
+[Delta-Hedging Practice](exams/m339d-final-practice-solns.pdf) -- **solutions** 
 -->
 
 ---
@@ -638,10 +646,22 @@ Monte Carlo with Black-Scholes pricing. <br>
 ---
 
 **Class 41: April 21st**<br>
+Options embedded in insurance products: Part I.
+
+[Problem packet](problem-sets/m339d-gmdb-etc.pdf)
+
+<!--
+[Class notes](notes/m339w-may-02-2022.pdf): GMDB.
+
+[Class notes](notes/m339w-may-04-2022.pdf): Other variable annuities.
+
+[Class notes](notes/m339w-may-06-2022.pdf): Some exotic options.
+-->
 
 ---
 
 **Class 42: April 24th**<br>
+Options embedded in insurance products: Part II.
 
 <!--
 Expected return of a portfolio.<br>
@@ -710,105 +730,26 @@ Implied volatility. <br>
 
 [Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
-[Homework #8](hw/m339d-hw8-BS-solns.pdf) -- **solutions**
-
-
-
-
 [In-Term Three](exams/m339d-three-solns.pdf) -- **solutions**
 
 ---
 
 [The Final Exam](exams/m339d-final-topics.pdf): Topics
 
-[Delta-Hedging Practice](exams/m339d-final-practice.pdf) -- **problems** 
-
-[Delta-Hedging Practice](exams/m339d-final-practice-solns.pdf) -- **solutions** 
-
-<!--
-
-[Quiz #1](quizzes/m339d-quiz-one.pdf) -- **due on Friday, January 21st** 
-
----
 
 [Quiz #1](quizzes/m339d-quiz-one-solns.pdf) -- **solutions** 
 
 [Quiz #2](quizzes/m339d-quiz-two.pdf) -- due on **Monday, January 24th**
 
----
-
-Outright purchase. Short sales. Discrete-dividend-paying stocks. <br>
-
-[Class notes](notes/m339d-jan-24-2022.pdf): Outright purchase. Short sales. Discrete-dividend-paying stocks. 
-
-[Quiz #2](quizzes/m339d-quiz-two-solns.pdf) -- **solutions**
-
 [Quiz #3](quizzes/m339d-quiz-three.pdf) -- **due on Wednesday, January 26th**
-
----
-
-Foreign currencies.<br>
-
-[Class notes](notes/m339d-jan-26-2022.pdf): Outright purchase of stocks. Foreign currencies. 
-
-[Quiz #3](quizzes/m339d-quiz-three-solns.pdf) -- **solutions**
 
 [Quiz #4](quizzes/m339d-quiz4.pdf) -- **due on Monday, January 31st**
 
----
-
-Continuous dividends. Market indices. <br>
-
-[Class notes](notes/m339d-jan-28-2022.pdf): 
-Continuous-dividend-paying stocks.
-
-[Problem Set #3](problem-sets/m339d-ps-three-cont-div.pdf): **Problems**
-
-[Problem Set #3](problem-sets/m339d-ps-three-cont-div-solns.pdf): **Solutions**
-
 [Quiz #5](quizzes/m339d-quiz5-cont-div.pdf) -- **due on Wednesday, February 2nd**
-
-[Homework #1](hw/m339d-hw-one-prereq-trans-costs-solns.pdf) -- **solutions**
-
----
-
-Static portfolios.<br>
-
-[Class notes](notes/m339d-jan-31-2022.pdf): Static portfolios. Initial cost. Payoff. Profit.
-
----
-
-Static portfolios [cont'd]. Payoff and profit curves. Long/short positions. <br>
-
-[Class notes](notes/m339d-feb-02-2022.pdf): Static portfolios [cont'd].
-
-[Quiz #5](quizzes/m339d-quiz5-cont-div-solns.pdf) -- **solutions**
-
----
-
-More on short sales.<br>
-
-[Class notes](notes/m339d-feb-10-2021.pdf): Short sales. 
-
-[Problem Set #4](problem-sets/m339d-ps-four-short-sales.pdf): **Problems**
-
-[Problem Set #4](problem-sets/m339d-ps-four-short-sales-solns.pdf): **Solutions**
-
-[Quiz #6](quizzes/m339d-quiz6-trans-short-sales.pdf) -- **due on Monday, February 7th**
-
----
-
-Fully-leveraged purchase. Basic risk management. Forward contracts.<br>
-
-[Class notes](notes/m339d-feb-07-2022.pdf): Fully-leveraged purchase. Basic risk management. Forwards.
-
-[Quiz #6](quizzes/m339d-quiz6-trans-short-sales-solns.pdf) -- **solutions**
 
 [Quiz #7](quizzes/m339d-quiz7-leveraging.pdf) -- **due on Wednesday, February 9th**
 
 [Quiz #8](quizzes/m339d-quiz8-two-assets.pdf) -- **due on Monday, February 14th**
-
----
 
 [Problem Set #5](problem-sets/m339d-ps-five-yuri-one.pdf): **Problems**
 
@@ -818,13 +759,6 @@ Fully-leveraged purchase. Basic risk management. Forward contracts.<br>
 
 [Problem Set #6](problem-sets/m339d-ps-six-yuri-two-solns.pdf): **Solutions**
 
----
-
-Hedging using forward contracts.<br>
-
-[Class notes](notes/m339d-feb-09-2022.pdf): More on forwards.
-
-[Additional class notes](notes/m339d-extra-forward-hedging.pdf): User/buyer of goods hedging using a forward.
 
 [Problem Set #7](problem-sets/m339d-ps-seven-forwards-hedging.pdf): **Problems**
 
