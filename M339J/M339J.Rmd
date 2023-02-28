@@ -389,11 +389,16 @@ The Poisson distribution <span style="color: purple;">**(Section 2.2.3.2)**</spa
 ---
 
 **Class 21: February 27th**<br>
+Poisson distribution practice.<br>
+
+[Class notes](notes/m339j-feb-27-2023.pdf): More on the Poisson distribution.
+
+---
+
+**Class 22: March 1st**<br>
 Poisson thinning. The negative binomial distribution <span style="color: purple;">**(Section 2.2.3.3)**</span>.<br>
 
 <!--
-[Class notes](notes/m339j-mar-21-2022.pdf): More on the Poisson distribution.
-
 [Class notes](notes/m339j-mar-23-2022.pdf): Poisson thinning. The negative binomial distribution.
 -->
 
@@ -401,9 +406,6 @@ Slides: [The negative binomial distribution.](slides/NegBinDistn.pdf)
 
 [Quiz #11](quizzes/m339j-quiz11-poisson.pdf) -- **due on Wednesday, April 12th**
 
----
-
-**Class 22: March 1st**<br>
 The binomial distribution <span style="color: purple;">**(Section 2.2.3.1)**</span>. The binomial-Poisson connection.<br> 
 
 [Problem packet](problem-sets/m339j-binomial-a-b-0.pdf)
