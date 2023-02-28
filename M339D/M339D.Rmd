@@ -357,12 +357,13 @@ Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
-<!--
-[Class notes](notes/m339d-oct-17-2022.pdf) 
--->
+[Class notes](notes/m339d-feb-27-2023.pdf) 
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
+---
+
+**Class 22: March 1st**<br>
 Chooser options.<br>
 
 [Problem packet](problem-sets/m339d-chooser.pdf)
@@ -375,9 +376,6 @@ Chooser options.<br>
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
----
-
-**Class 22: March 1st**<br>
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -386,6 +384,9 @@ Random number generation.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
+---
+
+**Class 23: March 3rd**<br>
 The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
 <!--
@@ -404,9 +405,6 @@ The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 23: March 3rd**<br>
 The binomial asset-pricing model. Historical returns of stocks. Forward trees. <br>
 
 <!--
