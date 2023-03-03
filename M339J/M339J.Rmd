@@ -411,18 +411,15 @@ The binomial distribution <span style="color: purple;">**(Section 2.2.3.1)**</sp
 
 [Problem packet](problem-sets/m339j-binomial-a-b-0.pdf)
 
-<!--
-[Class notes](notes/m339j-mar-25-2022.pdf): The Poisson-gamma mixture. The binomial-distribution. 
-
-[Class notes](notes/m339j-mar-30-2022.pdf): The Poisson-binomial connection. The $(a, b, 0)$ class.
-
-[Extra notes](notes/m339j-alt-soln-stam-p288.pdf): A "drier" solution to STAM problem #288
--->
+[Class notes](notes/m339j-mar-03-2023.pdf): The binomial distribution. 
 
 **Suggested problem**: Sample FAM-S Problem #25
 
 [Quiz #12](quizzes/m339j-quiz12-discrete.pdf) -- **due on Wednesday, April 19th**
 
+---
+
+**Class 24: March 6th**<br>
 The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The $(a, b, 1)$ class <span style="color: purple;">**(Section 2.5)**</span>. On compounding.<br>
 
 <!--
@@ -437,9 +434,6 @@ The $(a, b, 0)$ class <span style="color: purple;">**(Section 2.3)**</span>. The
 [Quiz #13](quizzes/m339j-quiz13-compound-example.pdf) -- **due on Thursday, April 28th for extra credit**
 -->
 
----
-
-**Class 24: March 6th**<br>
 The impact of deductibles on claim frequency <span style="color: purple;">**(Section 5.5.2)**</span>.<br> 
  
 [Problem packet](problem-sets/m339j-freq-ded.pdf)
