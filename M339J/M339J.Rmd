@@ -415,6 +415,8 @@ The binomial distribution <span style="color: purple;">**(Section 2.2.3.1)**</sp
 
 **Suggested problem**: Sample FAM-S Problem #25
 
+[Homework #6](hw/m339j-hw6-solns.pdf) -- **solutions**
+
 [Quiz #12](quizzes/m339j-quiz12-discrete.pdf) -- **due on Wednesday, April 19th**
 
 ---
@@ -438,6 +440,9 @@ The impact of deductibles on claim frequency <span style="color: purple;">**(Sec
  
 [Problem packet](problem-sets/m339j-freq-ded.pdf)
 
+---
+
+**Class 25: March 8th**<br>
 The individual risk model <span style="color: purple;">**(Sections 5.2 and 5.3)**</span>.<br> 
 
 <!--
@@ -450,7 +455,7 @@ Monte Carlo for the individual risk model.<br>
 
 ---
 
-**Class 25: March 8th**<br>
+**Class 26: March 10th**<br>
 The collective risk model.<br> 
 
 [Problem packet](problem-sets/m339j-agg-loss.pdf)
@@ -459,9 +464,11 @@ The collective risk model.<br>
 [Class notes](notes/m339j-apr-08-2022.pdf): The collective risk model. 
 -->
 
+Monte Carlo for the collective risk model.<br> 
+
 ---
 
-**Class 26: March 10th**<br>
+**Class 27: March 20th**<br>
 Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**</span>.<br>
 
 [Problem packet](problem-sets/m339j-compound-poisson.pdf)
@@ -475,11 +482,6 @@ Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**<
 -->
 
 [Homework #8](hw/m339j-hw8.pdf) -- **due on Friday, March 24th**
-
----
-
-**Class 27: March 20th**<br>
-Monte Carlo for the collective risk model.<br> 
 
 ---
 
@@ -694,8 +696,6 @@ The Poisson-gamma mixture.
 [In-Term Two](exams/m339j-two.pdf): **Problems** 
 
 [In-Term Two](exams/m339j-two-solns.pdf): **Solutions** 
-
-[Homework #6](hw/m339j-hw6-solns.pdf) -- **solutions**
 
 [Homework #7](hw/m339j-hw7-solns.pdf) -- **solutions**
 
