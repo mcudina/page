@@ -408,17 +408,18 @@ The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 ---
 
 **Class 24: March 6th**<br>
-The binomial asset-pricing model. Historical returns of stocks. Forward trees. <br>
+The binomial asset-pricing model.<br>
 
-<!--
-[Class notes](notes/m339d-oct-21-2022.pdf) 
--->
+[Class notes](notes/m339d-mar-06-2023.pdf) 
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, March 10th**
 
-Binomial option pricing: Pricing by replication. <br>
+---
+
+**Class 25: March 8th**<br>
+Historical returns of stocks. Forward trees. Binomial option pricing: Pricing by replication. <br>
 
 [Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
 
@@ -428,9 +429,6 @@ Binomial option pricing: Pricing by replication. <br>
 [Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
 -->
 
----
-
-**Class 25: March 8th**<br>
 Binomial option pricing: Risk-neutral probability. <br>
 
 <!--
