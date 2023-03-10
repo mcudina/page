@@ -443,13 +443,15 @@ The impact of deductibles on claim frequency <span style="color: purple;">**(Sec
 
 The individual risk model <span style="color: purple;">**(Sections 5.2 and 5.3)**</span>.<br> 
 
-<!--
-[Class notes](notes/m339j-apr-04-2022.pdf): The impact of deductibles on claim frequency. The individual risk model. 
+[Class notes](notes/m339j-mar-08-2023.pdf): The impact of deductibles on claim frequency. The individual risk model. 
 
+<!--
 [Quiz #16](quizzes/m339j-quiz16-discrete-solns.pdf) -- **solutions**
 -->
 
 Monte Carlo for the individual risk model.<br> 
+
+[R-script](code/monte-carlo-individual-risk.R)
 
 ---
 
