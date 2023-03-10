@@ -423,12 +423,15 @@ Historical returns of stocks. Forward trees. Binomial option pricing: Pricing by
 
 [Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-oct-26-2022.pdf) 
+[Class notes](notes/m339d-mar-08-2023.pdf) 
 
+<!--
 [Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
 -->
 
+---
+
+**Class 26: March 10th**<br>
 Binomial option pricing: Risk-neutral probability. <br>
 
 <!--
@@ -441,6 +444,15 @@ Binomial option pricing: Risk-neutral probability. <br>
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
+[In-Term Two](exams/m339d-two-topics.pdf): Topics
+
+[Practice for In-Term Two](exams/m339d-two-sample-probs.pdf): Problems
+
+[Practice for In-Term Two](exams/m339d-two-sample-solns.pdf): Solutions
+
+---
+
+**Class 27: March 20th**<br>
 Binomial option pricing: Two periods.
 
 [Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
@@ -451,9 +463,6 @@ Binomial option pricing: Two periods.
 [Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
 -->
 
----
-
-**Class 26: March 10th**<br>
 Multiple binomial periods. <br>
 
 <!--
@@ -461,23 +470,6 @@ Multiple binomial periods. <br>
 -->
 
 [Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, March 31st**
-
-Monte Carlo for binomial option pricing. <br>
-
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
-
-[In-Term Two](exams/m339d-two-topics.pdf): Topics
-
-[Practice for In-Term Two](exams/m339d-two-sample-probs.pdf): Problems
-
-[Practice for In-Term Two](exams/m339d-two-sample-solns.pdf): Solutions
-
----
-
-**Class 27: March 20th**<br>
-Review of the normal distribution.<br>
-
-[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 7th**
 
 ---
 
@@ -487,6 +479,17 @@ Review of the normal distribution.<br>
 ---
 
 **Class 29: March 24th**<br>
+Monte Carlo for binomial option pricing. <br>
+
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
+
+Review of the normal distribution.<br>
+
+[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 7th**
+
+---
+
+**Class 30: March 27th**<br>
 The normal approximation to the binomial.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
@@ -507,9 +510,6 @@ The normal approximation to the binomial.<br>
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 30: March 27th**<br>
 The limiting behavior of stock prices. More on realized returns.<br> 
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
