@@ -432,17 +432,11 @@ Historical returns of stocks. Forward trees. Binomial option pricing: Pricing by
 ---
 
 **Class 26: March 10th**<br>
-Binomial option pricing: Risk-neutral probability. <br>
+Binomial option pricing [cont'd].<br>
 
-<!--
-[Class notes](notes/m339d-oct-28-2022.pdf) 
--->
+[Class notes](notes/m339d-mar-10-2023.pdf) 
 
 [Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 24th**
-
-**(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
-
-**(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
 [In-Term Two](exams/m339d-two-topics.pdf): Topics
 
@@ -453,7 +447,13 @@ Binomial option pricing: Risk-neutral probability. <br>
 ---
 
 **Class 27: March 20th**<br>
-Binomial option pricing: Two periods.
+Binomial option pricing: Risk-neutral probability. <br>
+
+**(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
+
+**(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
+
+Binomial option pricing: Two periods.<br>
 
 [Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
 
