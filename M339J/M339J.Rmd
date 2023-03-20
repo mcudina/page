@@ -475,6 +475,10 @@ The collective risk model.<br>
 **Class 27: March 20th**<br>
 Monte Carlo for the collective risk model.<br> 
 
+[The R-notebook from class](code/monte-carlo-collective.Rmd)
+
+[The R-script from class](code/errors-pic.R)
+
 Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**</span>.<br>
 
 [Problem packet](problem-sets/m339j-compound-poisson.pdf)
@@ -503,10 +507,6 @@ Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The
 
 [Class notes](notes/m339j-apr-13-2022.pdf): The net stop-loss premium. The interpolation theorem.
 -->
-
-[The R-notebook from class](code/monte-carlo-collective.Rmd)
-
-[The R-script from class](code/errors-pic.R)
 
 [Homework #9](hw/m339j-hw9.pdf) -- **due on Friday, March 31st**
 
