@@ -23,7 +23,9 @@ max=95
 ## Simulating a single realized aggregate loss
 ```{r}
 n=rpois(1, lambda)
+n
 x.s=runif(n, min, max)
+x.s
 s=sum(x.s)
 s
 ```
@@ -42,6 +44,7 @@ return(s)
 ```{r}
 nsim=10000
 all.losses=replicate(nsim, one.loss())
+all.losses
 hist(all.losses, breaks=50, prob=TRUE)
 ```
 
