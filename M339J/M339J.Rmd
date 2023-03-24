@@ -496,13 +496,12 @@ Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**<
 
 [Problem](problem-sets/m339j-compound-poisson-individual.pdf)
 
-<!--
-[Class notes](notes/m339j-apr-15-2022.pdf): Compound Poissons.
+[Class notes](notes/m339j-mar-22-2023.pdf): Compound Poissons.
 
-[Class notes](notes/m339j-apr-18-2022.pdf): More on compound Poissons.
--->
+---
 
-Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The interpolation theorem.<br>
+**Class 29: March 24th**<br>
+More on the stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The interpolation theorem.<br>
 
 [Problem](problem-sets/m339j-stop-loss.pdf): Stop loss. 
 
@@ -522,9 +521,6 @@ Stop-loss insurance <span style="color: purple;">**(Section 5.3.2)**</span>. The
 
 [Class notes](notes/m339j-apr-20-2022.pdf): The recursive formula.
 
----
-
-**Class 29: March 24th**<br>
 Aggregate losses with an ordinary deductible per-loss.<br>
 
 Slides: [Effect of individual deductibles](slides/m339j-effect-of-ded.pdf)
