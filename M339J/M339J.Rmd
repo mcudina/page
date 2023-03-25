@@ -343,13 +343,7 @@ Even more on loss modifications. <br>
 
 [Class notes](notes/m339j-feb-20-2023.pdf): More policy modifications.
 
-<!--
-[Class notes](notes/m339j-mar-11-2022.pdf): More on policy modifications. The Poisson distribution.
-
 [Problem Set #5](problem-sets/m339j-ps5-policy-mods-solns.pdf) -- **solutions**
-
-[Quiz #8](quizzes/m339j-quiz8-r-simulations-solns.pdf) -- **solutions**
--->
 
 ---
 
@@ -497,6 +491,8 @@ Compound Poisson <span style="color: purple;">**(Section 5.3.1: Special case)**<
 [Problem](problem-sets/m339j-compound-poisson-individual.pdf)
 
 [Class notes](notes/m339j-mar-22-2023.pdf): Compound Poissons.
+
+[Quiz #8](quizzes/m339j-quiz8-r-simulations-solns.pdf) -- **solutions**
 
 ---
 
