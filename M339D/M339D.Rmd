@@ -482,15 +482,20 @@ Binomial option pricing: Two periods.<br>
 **Class 30: March 27th**<br>
 Multiple binomial periods. <br>
 
-<!--
-[Class notes](notes/m339d-nov-02-2022.pdf) 
+[Class notes](notes/m339d-mar-27-2023.pdf) 
 
 [Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
--->
 
 Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
+
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-27-2023.Rmd): Phase I
+
+---
+
+**Class 31: March 29th**<br>
+Monte Carlo for binomial option pricing [cont'd]. <br>
 
 Review of the normal distribution.<br>
 
@@ -516,9 +521,6 @@ The normal approximation to the binomial.<br>
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 31: March 29th**<br>
 The limiting behavior of stock prices. More on realized returns.<br> 
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
