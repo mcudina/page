@@ -108,16 +108,78 @@ p.star
 
 #think on this
 #pmf=?
+downsteps=c(0,1,2)
+pmf=dbinom(downsteps, size=2, prob=1-p.star)
+
+#about risk-neutral investors
+sum(s.T*pmf)
+s0*exp(r*T)
+
+v.T<-pmax(s.T-K, 0)
+
+v.0=exp(-r*T)*sum(v.T*pmf)
+v.0
 ```
 
 ## Problem #4: Monte Carlo two periods
 Price the option above using Monte Carlo a two period binomial tree. Use $10000$ simulations. 
 
+```{r}
+n.sims
+upsteps=rbinom(n.sims, size=2, prob = p.star)
+#upsteps
+s.T=s0*u^upsteps*d^(2-upsteps)
+#s.T
+
+v.T=pmax(s.T-K,0)
+#v.T
+
+v.c.mc=exp(-r*T)*mean(v.T)
+v.c.mc
+```
 
 ## Problem #5: Analytic one hundred periods
 Price the above option using a $100-$period binomial tree. 
 
+```{r}
+n=100
+h=T/n
+u=exp(r*h+sigma*sqrt(h))
+u
+d=exp(r*h-sigma*sqrt(h))
+d
+
+p.star=1/(1+exp(sigma*sqrt(h)))
+p.star
+
+k=n:0
+s.T=s0*u^k*d^(n-k)
+s.T
+
+v.T=pmax(s.T-K, 0)
+v.T
+
+pmf=dbinom(k, size=n, prob=p.star)
+pmf
+
+v.c=exp(-r*T)*sum(v.T*pmf)
+v.c
+```
 
 ## Problem #6: Monte Carlo with one hundred periods
 Price the option above using Monte Carlo with a hundred period binomial tree. Use $10000$ simulations. 
+
+```{r}
+upsteps=rbinom(n.sims, size=n, prob = p.star)
+#upsteps
+s.T=s0*u^upsteps*d^(n-upsteps)
+#s.T
+
+v.T=pmax(s.T-K,0)
+#v.T
+
+v.c.mc=exp(-r*T)*mean(v.T)
+v.c.mc
+
+```
 
