@@ -497,12 +497,19 @@ Monte Carlo for binomial option pricing. <br>
 **Class 31: March 29th**<br>
 Monte Carlo for binomial option pricing [cont'd]. <br>
 
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-29-2023.Rmd): Phase II
+
 Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
+[Class notes](notes/m339d-mar-29-2023.pdf): $N(0,1)$
+
 [Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 7th**
 
+---
+
+**Class 32: March 31st**<br>
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
@@ -542,9 +549,6 @@ from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.d
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
 
----
-
-**Class 32: March 31st**<br>
 Log-normal stock prices: Parameter interpretation.<br>
 
 <!--
