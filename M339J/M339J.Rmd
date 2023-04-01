@@ -546,12 +546,15 @@ Slides: [Maximum likelihood estimation.](slides/m339j-mle.pdf)
 
 [Problem packet](problem-sets/m339j-mle.pdf)
 
-<!--
-[Class notes](notes/m339j-apr-27-2022.pdf): MLE
--->
+[Class notes](notes/m339j-mar-31-2023.pdf): MLE
+
+[Homework #9](hw/m339j-hw9-solns.pdf) -- **solutions**
 
 [Homework #11](hw/m339j-hw11.pdf) -- **due on Friday, April 14th**
 
+---
+
+**Class 33: April 3rd**<br>
 Maximum-likelihood estimation: Grouped data.<br>
 
 [Problem packet](problem-sets/m339j-mle-grouped.pdf)
@@ -560,9 +563,6 @@ Maximum-likelihood estimation: Grouped data.<br>
 [Class notes](notes/m339j-apr-29-2022.pdf): MLE (grouped data). 
 -->
 
----
-
-**Class 33: April 3rd**<br>
 Maximum-likelihood estimation: Truncation and censoring.<br>
 
 [Problem packet](problem-sets/m339j-mle-censoring-truncation.pdf)
