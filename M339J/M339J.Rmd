@@ -533,6 +533,8 @@ Slides: [Effect of individual deductibles](slides/m339j-effect-of-ded.pdf)
 
 [Class notes](notes/m339j-mar-29-2023.pdf): Deductibles and counts.
 
+[Quiz #9](quizzes/m339j-quiz9-r-pareto-itm-solns.pdf) -- **solutions**
+
 [Homework #10](hw/m339j-hw10.pdf) -- **due on Friday, April 7th**
 
 ---
@@ -640,8 +642,6 @@ $k-$point mixtures <span style="color: purple;">**(Sections 3.3.5)**</span>.<br>
 [Class notes](notes/m339j-feb-25-2022.pdf): $k-$point mixtures.
 
 [The R-notebook from class](code/k-pt-mixtures.Rmd)
-
-[Quiz #9](quizzes/m339j-quiz9-r-pareto-itm-solns.pdf) -- **solutions**
 
 [Quiz #12](quizzes/m339j-quiz12-k-pt-mixture.pdf) -- **due on Monday, March 7th**
 
