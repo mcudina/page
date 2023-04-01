@@ -552,6 +552,9 @@ from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.d
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
 
+---
+
+**Class 34: April 5th**<br>
 Log-normal stock prices: Parameter interpretation.<br>
 
 <!--
@@ -572,16 +575,13 @@ Log-normal stock prices: Tail probabilities.<br>
 
 ---
 
-**Class 34: April 5th**<br>
+**Class 35: April 7th**<br>
 Log-normal stock prices: Partial expectation.<br>
 
 <!--
 [Class notes](notes/m339w-feb-21-2022.pdf): Partial expectation. Conditional expectation.
 -->
 
----
-
-**Class 35: April 7th**<br>
 The Black-Scholes pricing formula.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
@@ -608,6 +608,10 @@ The Black-Scholes pricing formula.<br>
 Forward-start options. Rolling insurance strategy.<br>
 
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
+
+[Practice for In-Term Three](exams/m339d-three-sample.pdf) -- **problems** 
+
+[Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
 ---
 
@@ -738,10 +742,6 @@ The Capital Asset Pricing Model (CAPM).<br>
 Implied volatility. <br>
 
 [Problem](problem-sets/m339d-ifm-impl-vol.pdf)
-
-[Practice for In-Term Three](exams/m339d-three-sample.pdf) -- **problems** 
-
-[Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
 [In-Term Three](exams/m339d-three-solns.pdf) -- **solutions**
 
