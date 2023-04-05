@@ -535,11 +535,14 @@ The limiting behavior of stock prices. More on realized returns.<br>
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
 
-<!--
-[Class notes](notes/m339d-nov-14-2022.pdf) 
--->
+Moment generating functions.<br>
 
-Moment generating functions. The log-normal distribution. Jensen's inequality.<br>
+[Class notes](notes/m339d-apr-03-2023.pdf): The pre-limit. mgf.
+
+---
+
+**Class 34: April 5th**<br>
+The log-normal distribution. Jensen's inequality.<br>
 
 [Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
 
@@ -552,9 +555,6 @@ from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.d
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
 
----
-
-**Class 34: April 5th**<br>
 Log-normal stock prices: Parameter interpretation.<br>
 
 <!--
