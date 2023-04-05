@@ -559,10 +559,11 @@ Maximum-likelihood estimation: Grouped data.<br>
 
 [Problem packet](problem-sets/m339j-mle-grouped.pdf)
 
-<!--
-[Class notes](notes/m339j-apr-29-2022.pdf): MLE (grouped data). 
--->
+[Class notes](notes/m339j-apr-03-2023.pdf): MLE (grouped data). 
 
+---
+
+**Class 34: April 5th**<br>
 Maximum-likelihood estimation: Truncation and censoring.<br>
 
 [Problem packet](problem-sets/m339j-mle-censoring-truncation.pdf)
@@ -571,9 +572,6 @@ Maximum-likelihood estimation: Truncation and censoring.<br>
 [Class notes](notes/m339j-may-02-2022.pdf): MLE (censoring and truncation). 
 -->
 
----
-
-**Class 34: April 5th**<br>
 Maximum-likelihood estimation: Truncation.<br>
 
 [Problem](problem-sets/m339j-mle-mixture.pdf)
@@ -604,12 +602,12 @@ Survival analysis.<br>
 ---
 
 **Class 38: April 14th**<br>
-Non-parametric estimation.<br>
+Maximum-likelihood estimation for mortality.<br>
 
 ---
 
 **Class 39: April 17th**<br>
-Maximum-likelihood estimation for mortality.<br>
+Non-parametric estimation.<br>
 
 ---
 
