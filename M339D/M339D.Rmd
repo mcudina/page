@@ -558,9 +558,7 @@ from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.d
 **Class 35: April 7th**<br>
 Log-normal stock prices: Parameter interpretation.<br>
 
-<!--
-[Class notes](notes/m339w-feb-11-2022.pdf): Lognormal stock prices: Mean. Median. 
--->
+[Class notes](notes/m339d-apr-07-2023.pdf): Lognormal stock prices: Mean. Median. 
 
 **(Enrichment material)** [Lecture notes](lectures/m339w-on-pricing.pdf): On pricing in the Black-Scholes model with continuous dividends. 
 
@@ -568,6 +566,9 @@ Log-normal stock prices: Parameter interpretation.<br>
 
 [Problem Set](problem-sets/m339d-ps-lognormal-stocks-solns.pdf): **Solutions**
 
+---
+
+**Class 36: April 10th**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
 <!--
@@ -598,11 +599,8 @@ The Black-Scholes pricing formula.<br>
 
 [Problem](problem-sets/mfe-sp2007-p8.pdf)
 
-[Homework #11](hw/m339d-hw11-BS.pdf) -- **due on Friday, April 14th**
+[Homework #11](hw/m339d-hw11-BS.pdf) -- **due on Friday, April 21st**
 
----
-
-**Class 36: April 10th**<br>
 Forward-start options. Rolling insurance strategy.<br>
 
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
@@ -643,7 +641,7 @@ Delta-hedging. <br>
 [Delta-Hedging Practice](exams/m339d-final-practice-solns.pdf) -- **solutions** 
 -->
 
-[Homework #12](hw/m339d-hw12-delta.pdf) -- **due on Friday, April 21st**
+[Homework #12](hw/m339d-hw12-delta.pdf) -- **not to be handed in; final-exam practice**
 
 ---
 
