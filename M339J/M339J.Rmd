@@ -33,6 +33,12 @@ FAM-S](https://www.soa.org/globalassets/assets/files/edu/2022/fam-s-sample-quest
 Link to the [Sample SoA solutions for
 FAM-S](https://www.soa.org/globalassets/assets/files/edu/2022/fam-s-sample-solutions.pdf)
 
+Link to the [Sample SoA problems for
+FAM-L](https://www.soa.org/48d405/globalassets/assets/files/edu/2022/2022-10-exam-fam-l-quest.pdf)
+
+Link to the [Sample SoA solutions for
+FAM-L](https://www.soa.org/493430/globalassets/assets/files/edu/2022/2022-10-exam-fam-l-sol.pdf)
+
 Our open-source textbook: [Loss Data Analytics](https://openacttexts.github.io/Loss-Data-Analytics/)
 
 Our open-source short course: [Loss data short course](https://openacttexts.github.io/LDACourse1/)
@@ -601,12 +607,14 @@ Maximum-likelihood estimation: Negative binomial and binomial.<br>
 ---
 
 **Class 37: April 12th**<br>
-Maximum-likelihood estimation for mortality.<br>
+Survival analysis.<br>
+
+YouTube: [The Gompertz-Makeham Law "Explained"](https://youtu.be/BLASzd3rG_0)
 
 ---
 
 **Class 38: April 14th**<br>
-Survival analysis.<br>
+Maximum-likelihood estimation for mortality.<br>
 
 ---
 
