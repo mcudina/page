@@ -594,19 +594,17 @@ Maximum-likelihood estimation: Bernoulli and Poisson.<br>
 
 [Problem packet](problem-sets/m339j-mle-poisson.pdf)
 
-<!--
-[Class notes](notes/m339j-may-06-2022.pdf): MLE (Bernoulli and Poisson). 
--->
+[Class notes](notes/m339j-apr-10-2023.pdf): MLE (Bernoulli and Poisson). 
 
+---
+
+**Class 37: April 12th**<br>
 Maximum-likelihood estimation: Negative binomial and binomial.<br>
 
 [Problem](problem-sets/m339j-mle-neg-bin.pdf)
 
 [Problem](problem-sets/m339j-mle-binomial.pdf)
 
----
-
-**Class 37: April 12th**<br>
 Survival analysis.<br>
 
 YouTube: [The Gompertz-Makeham Law "Explained"](https://youtu.be/BLASzd3rG_0)
@@ -624,12 +622,12 @@ Non-parametric estimation.<br>
 ---
 
 **Class 40: April 19th**<br>
-Kaplan-Meier.<br>
+Nelson-Aalen.<br>
 
 ---
 
 **Class 41: April 21st**<br>
-Nelson-Aalen.<br>
+Kaplan-Meier.<br>
 
 ---
 
