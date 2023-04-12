@@ -605,7 +605,7 @@ Maximum-likelihood estimation: Negative binomial and binomial.<br>
 
 [Problem](problem-sets/m339j-mle-binomial.pdf)
 
-Survival analysis.<br>
+Hazard rate. Force of mortality. Survival analysis.<br>
 
 YouTube: [The Gompertz-Makeham Law "Explained"](https://youtu.be/BLASzd3rG_0)
 
@@ -728,8 +728,6 @@ The Poisson-gamma mixture.
 
 [Percentiles. Central Limit Theorem. mgf and pgf. Heavy
 tails.](Lecture3_2and3_3and3_4.pdf)
-
-Heavy tails. Risk measures.
 
 More on scale distributions and k-point mixtures.
 

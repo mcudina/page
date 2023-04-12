@@ -573,10 +573,11 @@ Log-normal stock prices: Parameter interpretation.<br>
 **Class 36: April 10th**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
-<!--
-[Class notes](notes/m339w-feb-16-2022.pdf): Tail probabilities.
--->
+[Class notes](notes/m339d-apr-10-2023.pdf): Tail probabilities.
 
+---
+
+**Class 37: April 12th**<br>
 Log-normal stock prices: Partial expectation.<br>
 
 <!--
@@ -613,9 +614,6 @@ Forward-start options. Rolling insurance strategy.<br>
 
 [Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
----
-
-**Class 37: April 12th**<br>
 Focus on the delta.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
