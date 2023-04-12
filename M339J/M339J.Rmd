@@ -599,9 +599,16 @@ Maximum-likelihood estimation: Bernoulli and Poisson.<br>
 ---
 
 **Class 37: April 12th**<br>
-Maximum-likelihood estimation: Negative binomial and binomial.<br>
+Maximum-likelihood estimation: Negative binomial.<br>
 
 [Problem](problem-sets/m339j-mle-neg-bin.pdf)
+
+[Class notes](notes/m339j-apr-12-2023.pdf): MLE (Negative binomial). 
+
+---
+
+**Class 38: April 14th**<br>
+Maximum-likelihood estimation: Binomial.<br>
 
 [Problem](problem-sets/m339j-mle-binomial.pdf)
 
@@ -609,9 +616,6 @@ Hazard rate. Force of mortality. Survival analysis.<br>
 
 YouTube: [The Gompertz-Makeham Law "Explained"](https://youtu.be/BLASzd3rG_0)
 
----
-
-**Class 38: April 14th**<br>
 Maximum-likelihood estimation for mortality.<br>
 
 ---
