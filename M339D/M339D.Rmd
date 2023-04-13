@@ -578,13 +578,7 @@ Log-normal stock prices: Tail probabilities.<br>
 ---
 
 **Class 37: April 12th**<br>
-Log-normal stock prices: Partial expectation.<br>
-
-<!--
-[Class notes](notes/m339w-feb-21-2022.pdf): Partial expectation. Conditional expectation.
--->
-
-The Black-Scholes pricing formula.<br>
+Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
 
@@ -592,11 +586,9 @@ The Black-Scholes pricing formula.<br>
 
 [Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
 
+[Class notes](notes/m339d-apr-12-2023.pdf) 
+
 <!--
-[Class notes](notes/m339d-nov-16-2022.pdf) 
-
-[Class notes](notes/m339d-nov-18-2022.pdf) 
-
 [Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
 -->
 
@@ -604,15 +596,18 @@ The Black-Scholes pricing formula.<br>
 
 [Homework #11](hw/m339d-hw11-BS.pdf) -- **due on Friday, April 21st**
 
-Forward-start options. Rolling insurance strategy.<br>
-
-[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
-
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
 
 [Practice for In-Term Three](exams/m339d-three-sample.pdf) -- **problems** 
 
 [Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
+
+---
+
+**Class 38: April 14th**<br>
+Forward-start options. Rolling insurance strategy.<br>
+
+[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
 
 Focus on the delta.<br>
 
@@ -624,9 +619,6 @@ Focus on the delta.<br>
 [Class notes](notes/m339d-nov-28-2022.pdf) 
 -->
 
----
-
-**Class 38: April 14th**<br>
 Delta-hedging. <br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Market_maker): Market maker.
