@@ -588,12 +588,6 @@ Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.
 
 [Class notes](notes/m339d-apr-12-2023.pdf) 
 
-<!--
-[Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
--->
-
-[Problem](problem-sets/mfe-sp2007-p8.pdf)
-
 [Homework #11](hw/m339d-hw11-BS.pdf) -- **due on Friday, April 21st**
 
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
@@ -605,6 +599,17 @@ Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.
 ---
 
 **Class 38: April 14th**<br>
+Black-Scholes continued. 
+
+[Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
+
+[Problem](problem-sets/mfe-sp2007-p8.pdf)
+
+[Class notes](notes/m339d-apr-14-2023.pdf) 
+
+---
+
+**Class 39: April 17th**<br>
 Forward-start options. Rolling insurance strategy.<br>
 
 [Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
@@ -637,9 +642,6 @@ Delta-hedging. <br>
 
 [Homework #12](hw/m339d-hw12-delta.pdf) -- **not to be handed in; final-exam practice**
 
----
-
-**Class 39: April 17th**<br>
 Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)

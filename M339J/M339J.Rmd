@@ -605,6 +605,8 @@ Maximum-likelihood estimation: Negative binomial.<br>
 
 [Class notes](notes/m339j-apr-12-2023.pdf): MLE (Negative binomial). 
 
+[Quiz #11](quizzes/m339j-quiz11-poisson-solns.pdf) -- **solutions**
+
 ---
 
 **Class 38: April 14th**<br>
@@ -623,6 +625,8 @@ Wikipedia: [Actuarial notation](https://en.wikipedia.org/wiki/Actuarial_notation
 [Problem packet](problem-sets/fam-l-mle.pdf)
 
 [Class notes](notes/m339j-apr-14-2023.pdf): MLE (Binomial, mortality). 
+
+[In-Term Three](exams/m339j-three-topics.pdf): Topics
 
 ---
 
@@ -704,8 +708,6 @@ The Poisson-gamma mixture.
 [Quiz #15](quizzes/m339j-quiz15-poisson-solns.pdf) -- **solutions**
 
 [In-Term Two](exams/m339j-two.pdf): **Problems** 
-
-[In-Term Three](exams/m339j-three-topics.pdf): Topics
 
 [Practice for In-Term Three](exams/m339j-three-sample-probs.pdf) --
 **problems**
