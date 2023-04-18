@@ -614,6 +614,20 @@ Forward-start options. Rolling insurance strategy.<br>
 
 [Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
 
+[Class notes](notes/m339d-apr-17-2023.pdf) 
+
+[Project #5](projects/m339d-project5-probs.pdf) -- **due on April 28th, 2023**
+
+[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
+
+**Class 40: April 19th**<br>
+<span style="color: red;">**In-Term Three**</span><br>
+
+---
+
+**Class 41: April 21st**<br>
 Focus on the delta.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
@@ -653,18 +667,6 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 -->
 
-[Project #5](projects/m339d-project5-probs.pdf) -- **due on April 28th, 2023**
-
-[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
-
-**Class 40: April 19th**<br>
-<span style="color: red;">**In-Term Three**</span><br>
-
----
-
-**Class 41: April 21st**<br>
 Options embedded in insurance products: Part I.
 
 [Problem packet](problem-sets/m339d-gmdb-etc.pdf)
