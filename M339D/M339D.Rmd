@@ -57,11 +57,12 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
-**Class 1: January 9th**<br>
+**Class 1: August 21st**<br>
 Orientation. <br>
 
 [A role model](pics/bilbo.jpeg)
 
+<!--
 [First-Day Handout](syllabus/syllabus-54720.pdf)
 
 [Day-by-day](notes/m339d-spring-2023-todo.pdf)
@@ -117,21 +118,18 @@ Prerequisite review [cont'd]. Standing assumptions and conventions. Risky assets
 
 [Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, January 27th**
 
-<!--
 [Duke gpa](data/gpa.csv) - courtesy of OpenCourse Statistics
 
 [The R-notebook for class](code/m339d-gpa-probs.Rmd)
 
 [The R-notebook from class](code/m339d-gpa-solns.Rmd)
--->
+
 ---
 
 **Class 5: January 20th**<br>
 Transaction costs. <br>
 
-<!--
 [More class notes](notes/m339d-jan-25-2021.pdf) 
--->
 
 [Lecture Two](lectures/m339d-lecture-two-transaction-costs.pdf): Transaction Costs
 
@@ -425,9 +423,7 @@ Historical returns of stocks. Forward trees. Binomial option pricing: Pricing by
 
 [Class notes](notes/m339d-mar-08-2023.pdf) 
 
-<!--
 [Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
--->
 
 ---
 
@@ -657,9 +653,7 @@ Delta-hedging. <br>
 
 [Class notes](notes/m339d-apr-24-2023.pdf) 
 
-<!--
 [Class notes](notes/m339d-delta-hedging.pdf) 
--->
 
 [Homework #12](hw/m339d-hw12-delta.pdf) -- **not to be handed in; final-exam practice**
 
@@ -677,11 +671,9 @@ Options embedded in insurance products: Part I.
 [Class notes](notes/m339w-may-04-2022.pdf): Other variable annuities.
 
 [Class notes](notes/m339w-may-06-2022.pdf): Some exotic options.
--->
 
 Options embedded in insurance products: Part II.
 
-<!--
 Expected return of a portfolio.<br>
 
 [Problem](problem-sets/m339d-ifm-exp-return.pdf)
