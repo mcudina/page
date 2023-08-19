@@ -64,8 +64,6 @@ Orientation. <br>
 
 [First-Day Handout](syllabus/syllabus-55535.pdf)
 
-<!--
-[Day-by-day](notes/m339d-spring-2023-todo.pdf)
 
 [Funny](http://books.google.com/books?id=8FgF3dOoUVsC&lpg=PA49&ots=UU208Gu6pv&dq=pigg%20vioos&pg=PA49#v=onepage&q=pigg%20vioos&f=false)
 
@@ -73,29 +71,35 @@ Orientation. <br>
 
 ---
 
-**Class 2: January 11th**<br>
+**Class 2: August 23rd**<br>
 Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts and R-notebooks.<br>
 
+<!--
 [Console printout](notes/console.txt)
 
 [The R-script from class](code/first-script.R)
 
 [The R-notebook from class](code/first-notebook.Rmd)
+-->
 
-[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 20th**
+[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, September 1st**
 
 ---
 
-**Class 3: January 13th**<br>
+**Class 3: August 25th**<br>
 `For` loops.<br> 
 
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
 
+<!--
 [Problem Set #1](code/m339d-ps1-in-class.Rmd): **Solutions from class**
+-->
 
 Functions in R. `If ... else` in R.<br> 
 
+<!--
 [The R-script from class](code/ftions-ifelse.R)
+-->
 
 Background. 
 
@@ -105,19 +109,24 @@ Prerequisite review.<br>
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-jan-13-2023.pdf) 
+-->
 
 ---
 
-**Class 4: January 18th**<br>
+**Class 4: August 28th**<br>
 Prerequisite review [cont'd]. Standing assumptions and conventions. Risky assets. <br>
 
+<!--
 [Class notes](notes/m339d-jan-18-2023.pdf) 
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
+-->
 
-[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, January 27th**
+[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, September 8th**
 
+<!--
 [Duke gpa](data/gpa.csv) - courtesy of OpenCourse Statistics
 
 [The R-notebook for class](code/m339d-gpa-probs.Rmd)
