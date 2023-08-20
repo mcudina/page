@@ -140,14 +140,16 @@ Transaction costs. <br>
 [The R-notebook for class](code/m339d-gpa-probs.Rmd)
 
 [The R-notebook from class](code/m339d-gpa-solns.Rmd)
+-->
 
 ---
 
-**Class 5: January 20th**<br>
+**Class 5: August 30th**<br>
 Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
 
+<!--
 [Class notes](notes/m339d-jan-20-2023.pdf)
 
 [Working directory in `R`](https://r-coder.com/working-directory-r/)
