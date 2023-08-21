@@ -66,14 +66,16 @@ Setting up R and RStudio. Basics of R.<br>
 
 <!--
 [The R-script from class](code/first-script.R)
+-->
 
 ---
 
-**Class 3: August 26th**<br>
-R-scripts. R-notebooks.<br>
+**Class 3: August 25th**<br>
+R-scripts. R-notebooks. Functions in R. `If ... else` in R.<br>
 
 [Warm-up worksheet #1](ww/m358k-ww1-common-sense.pdf): Problems 
 
+<!--
 [Warm-up worksheet #1](ww/m358k-ww1-common-sense-solns.pdf): Solutions
 
 [The basic R slideshow](instructions/m358k-basic-R.html)
@@ -92,7 +94,6 @@ R-scripts. R-notebooks.<br>
 ---
 
 **Class 4: August 29th**<br>
-Functions in R. `If ... else` in R.<br>
 
 [Warm-up worksheet #2](code/m358k-ww2-basic-r.Rmd): Problems 
 
