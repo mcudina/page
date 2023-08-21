@@ -64,9 +64,13 @@ Setting up R and RStudio. Basics of R.<br>
 
 [The instructions slideshow](instructions/m358k-R-instructions.html)
 
+[The basic R slideshow](instructions/m358k-basic-R.html)
+
 <!--
 [The R-script from class](code/first-script.R)
 -->
+
+[The basic R "cheatsheet"](https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf)
 
 ---
 
@@ -78,19 +82,16 @@ R-scripts. R-notebooks. Functions in R. `If ... else` in R.<br>
 <!--
 [Warm-up worksheet #1](ww/m358k-ww1-common-sense-solns.pdf): Solutions
 
-[The basic R slideshow](instructions/m358k-basic-R.html)
-
 [The R-notebook from class](code/first-notebook.Rmd)
+-->
 
-[The basic R "cheatsheet"](https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf)
+[Project #1: Part #1](projects/m358k-team-contract.docx) -- due on **Monday, September 11th**
 
-
-[Project #1: Part #1](projects/m358k-team-contract.docx) -- due on **Monday, September 12th**
-
-[Project #1: Part #2](projects/m358k-project-one.pdf) -- due on **Monday, September 12th**
+[Project #1: Part #2](projects/m358k-project-one.pdf) -- due on **Monday, September 11th**
 
 [Project #1: Part #2](code/m358k-project-one.Rmd) -- the Rmd file for those who are interested
 
+<!--
 ---
 
 **Class 4: August 29th**<br>
