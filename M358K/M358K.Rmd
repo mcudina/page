@@ -91,25 +91,23 @@ R-scripts. R-notebooks. Functions in R. `If ... else` in R.<br>
 
 [Project #1: Part #2](code/m358k-project-one.Rmd) -- the Rmd file for those who are interested
 
-<!--
 ---
 
-**Class 4: August 29th**<br>
+**Class 4: August 28th**<br>
+Review of discrete random variables.<br>
 
 [Warm-up worksheet #2](code/m358k-ww2-basic-r.Rmd): Problems 
 
+<!--
 [Warm-up worksheet #2](code/m358k-ww2-basic-r-solns.Rmd): Solutions
-
+-->
 [A tutorial on functions in R](https://www.tutorialspoint.com/r/r_functions.htm)
 
 [If ... else](https://www.datamentor.io/r-programming/if-else-statement/)
 
+<!--
 [The R-script from class](code/toy-ftions-if-inclass.R)
-
----
-
-**Class 5: August 31st**<br> 
-Review of discrete random variables.<br>
+-->
 
 Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br>
 
@@ -119,21 +117,22 @@ Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br
 
 [Wikipedia: The Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution) -- if you are interested
 
+<!--
 [Class notes](notes/m358k-aug-31-2022.pdf) 
+-->
 
 [Mathematica demonstration: The Binomial Distribution](http://demonstrations.wolfram.com/BinomialDistribution/) 
 
 [Open course video](https://youtu.be/tKmyzhvgudw): A review of the binomial distribution
 
-[Homework #2](hw/m358k-hw-two.pdf) -- due on **Friday, September 16th**
+[Homework #2](hw/m358k-hw-two.pdf) -- due on **Friday, September 8th**
 
 [Homework #2](code/m358k-hw-two.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
 ---
 
-**Class 6: September 2nd**<br>
-Simulations of random variables. Plots. Histograms.
-<span style="color: purple;">**(Section 2.1.3)**</span><br>
+**Class 5: August 30th**<br> 
+Simulations of random variables.<br>
 
 [Wikipedia: Random number generation](https://en.wikipedia.org/wiki/Random_number_generation)
 
@@ -142,6 +141,15 @@ Simulations of random variables. Plots. Histograms.
 [An atmospheric RNG](https://www.random.org/)
 
 [Setting a seed in `R`](https://r-coder.com/set-seed-r/)
+
+<!--
+
+---
+
+**Class 6: September 2nd**<br>
+Plots. Histograms.
+<span style="color: purple;">**(Section 2.1.3)**</span><br>
+
 
 [Class notes](notes/m358k-sept-02-2022.pdf) 
 
