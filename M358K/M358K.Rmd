@@ -66,9 +66,9 @@ Setting up R and RStudio. Basics of R.<br>
 
 [The basic R slideshow](instructions/m358k-basic-R.html)
 
-<!--
+[Console printout](notes/console.txt)
+
 [The R-script from class](code/first-script.R)
--->
 
 [The basic R "cheatsheet"](https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf)
 
