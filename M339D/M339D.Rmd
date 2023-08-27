@@ -85,26 +85,23 @@ Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts. `For` loo
 **Class 3: August 25th**<br>
 `R`-notebooks.<br> 
 
-<!--
 [The R-notebook from class](code/first-notebook.Rmd)
--->
 
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
 
-<!--
 [Problem Set #1](code/m339d-ps1-in-class.Rmd): **Solutions from class**
--->
 
 Functions in R. `If ... else` in R.<br> 
 
-<!--
 [The R-script from class](code/ftions-ifelse.R)
--->
 
 Background. 
 
 [Lecture One](lectures/m339d-lecture-one-background.pdf): Background.
 
+---
+
+**Class 4: August 28th**<br>
 Prerequisite review.<br>
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems**
@@ -113,10 +110,7 @@ Prerequisite review.<br>
 [Class notes](notes/m339d-jan-13-2023.pdf) 
 -->
 
----
-
-**Class 4: August 28th**<br>
-Prerequisite review [cont'd]. Standing assumptions and conventions. Risky assets. <br>
+Standing assumptions and conventions. Risky assets. <br>
 
 <!--
 [Class notes](notes/m339d-jan-18-2023.pdf) 
