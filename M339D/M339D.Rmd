@@ -122,8 +122,6 @@ Standing assumptions and conventions. Risky assets. <br>
 
 Transaction costs. <br>
 
-[More class notes](notes/m339d-jan-25-2021.pdf) 
-
 [Lecture Two](lectures/m339d-lecture-two-transaction-costs.pdf): Transaction Costs
 
 [Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
@@ -151,10 +149,11 @@ Outright purchase. Short sales.<br>
 
 <!--
 [Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 6: January 23rd**<br>
+**Class 6: September 1st**<br>
 Historical returns of stocks.<br>
 
 [Yahoo! Finance](https://finance.yahoo.com)
@@ -165,13 +164,15 @@ Historical returns of stocks.<br>
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
+<!--
 [Class notes](notes/m339d-jan-23-2023.pdf)
 
 [The R-notebook from class](code/m339d-msft-probs-4.Rmd)
+-->
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
 
-[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, February 6th, 2023**
+[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, September 18th, 2023**
 
 [Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
@@ -180,6 +181,7 @@ Historical returns of stocks.<br>
 **Class 7: January 25th**<br>
 Payoff and profit.<br>
 
+<!--
 [Class notes](notes/m339d-jan-25-2023.pdf) 
 
 ---
