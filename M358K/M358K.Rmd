@@ -104,9 +104,7 @@ Review of discrete random variables.<br>
 
 [Warm-up worksheet #2](code/m358k-ww2-basic-r.Rmd): Problems 
 
-<!--
 [Warm-up worksheet #2](code/m358k-ww2-basic-r-solns.Rmd): Solutions
--->
 
 Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br>
 
@@ -114,11 +112,14 @@ Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br
 
 [Wikipedia: Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli) -- if you are interested  
 
-[Wikipedia: The Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution) -- if you are interested
+[Class notes](notes/m358k-aug-28-2023.pdf) 
 
-<!--
-[Class notes](notes/m358k-aug-31-2022.pdf) 
--->
+---
+
+**Class 5: August 30th**<br> 
+Bernoulli and binomial [cont'd] <span style="color: purple;">**(Section 4.3)**</span>.<br>
+
+[Wikipedia: The Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution) -- if you are interested
 
 [Mathematica demonstration: The Binomial Distribution](http://demonstrations.wolfram.com/BinomialDistribution/) 
 
@@ -128,9 +129,6 @@ Bernoulli and binomial <span style="color: purple;">**(Section 4.3)**</span>.<br
 
 [Homework #2](code/m358k-hw-two.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
----
-
-**Class 5: August 30th**<br> 
 Simulations of random variables.<br>
 
 [Wikipedia: Random number generation](https://en.wikipedia.org/wiki/Random_number_generation)
