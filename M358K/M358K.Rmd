@@ -127,12 +127,13 @@ Bernoulli and binomial [cont'd] <span style="color: purple;">**(Section 4.3)**</
 
 [Open course video](https://youtu.be/tKmyzhvgudw): A review of the binomial distribution
 
+[Class notes](notes/m358k-aug-30-2023.pdf) 
+
 [Homework #2](hw/m358k-hw-two.pdf) -- due on **Friday, September 8th, 2023**
 
 [Homework #2](code/m358k-hw-two.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
-Simulations of random variables.<br>
-Plots. Histograms.<span style="color: purple;">**(Section 2.1.3)**</span><br>
+Simulations of random variables. Plots. Histograms. <span style="color: purple;">**(Section 2.1.3)**</span><br>
 
 [Wikipedia: Random number generation](https://en.wikipedia.org/wiki/Random_number_generation)
 
@@ -142,11 +143,7 @@ Plots. Histograms.<span style="color: purple;">**(Section 2.1.3)**</span><br>
 
 [Setting a seed in `R`](https://r-coder.com/set-seed-r/)
 
-<!--
-[Class notes](notes/m358k-sept-02-2022.pdf) 
-
-[The R-script from class](code/war-etc.R)
--->
+[The R-script from class](code/binomial-demo.R)
 
 [Homework #3](hw/m358k-hw-three.pdf) -- due on **Friday, September 25th, 2023**
 
@@ -166,9 +163,6 @@ What is statistics?
 
 [Old class notes](notes/m358k-sept-09-2020.pdf) 
 
----
-
-**Class 7: September 6th**<br> 
 Data presentation [graphical]
 <span style="color: purple;">**(Sections 2.2.1, 2.2.5)**</span><br>
 
@@ -184,7 +178,7 @@ Data presentation [graphical]
 
 ---
 
-**Class 8: September 8th**<br>
+**Class 7: September 6th**<br> 
 Data presentation [more on graphical; numerical]
 <span style="color: purple;">**(Sections 2.1.2, 2.1.3, 2.1.4)**</span>\
 
@@ -223,7 +217,7 @@ Here is a list of fun sites which make charts: [Infogram](https://infogram.com/)
 
 ---
 
-**Class 9: September 11th**<br>
+**Class 8: September 8th**<br>
 Median. Quartiles. <span style="color: purple;">**(Sections 2.1.5, 2.1.6, 2.1.1)**</span><br>
 
 R script [invented-data.R](code/invented-data.R) from class
@@ -232,6 +226,9 @@ R script [invented-data.R](code/invented-data.R) from class
 
 [ProPublica](https://projects.propublica.org/climate-migration/): New Climate Maps Show a Transformed United States
 
+---
+
+**Class 9: September 11th**<br>
 Scatterplots  <span style="color: purple;">**(Section 1.2.3)**</span>.<br>
 
 [Data](data/diamond.csv): Carats vs. dollars - courtesy of the *Journal of Statistics Education* 
@@ -239,6 +236,14 @@ Scatterplots  <span style="color: purple;">**(Section 1.2.3)**</span>.<br>
 `R`-script [diamonds.R](code/diamonds.R)
 
 [On plotting scatterplots in R](https://youtu.be/X66b-Jbi15w) - this is a demo in R by yours truly on how to draw scatterplots; feel free to start at 2:35 and watch at twice the speed  
+
+[Duke gpa](data/gpa.csv) - courtesy of OpenCourse Statistics
+
+<!--
+[The R-notebook for class](code/m339d-gpa-probs.Rmd)
+
+[The R-notebook from class](code/m339d-gpa-solns.Rmd)
+-->
 
 [Gapminder](https://www.gapminder.org/answers/how-does-income-relate-to-life-expectancy/): How Does Income Relate to Life Expectancy?
 
