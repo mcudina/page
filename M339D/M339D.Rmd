@@ -124,15 +124,13 @@ Transaction costs. <br>
 
 [Extra class notes](notes/m339d-aug-28-2023-extra-notes.pdf) 
 
-Outright purchase. Short sales.<br>
-
-[Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
-
-<!--
-[Class notes](notes/m339d-jan-20-2023.pdf)
--->
-
 [Working directory in `R`](https://r-coder.com/working-directory-r/)
+
+[Yahoo! Finance](https://finance.yahoo.com)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
+
+[The R-notebook for class](code/m339d-msft-probs.Rmd)
 
 <!--
 [Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
@@ -141,13 +139,15 @@ Outright purchase. Short sales.<br>
 ---
 
 **Class 6: September 1st**<br>
+Outright purchase. Short sales.<br>
+
+[Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
+
+<!--
+[Class notes](notes/m339d-jan-20-2023.pdf)
+-->
+
 Historical returns of stocks.<br>
-
-[Yahoo! Finance](https://finance.yahoo.com)
-
-[Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
-
-[The R-notebook for class](code/m339d-msft-probs.Rmd)
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
