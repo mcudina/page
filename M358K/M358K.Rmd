@@ -156,23 +156,23 @@ Simulations of random variables. Plots. Histograms. <span style="color: purple;"
 ---
 
 **Class 6: September 1st**<br>
+Warm-up.<br>
+
+[Warm-up worksheet #3](ww/m358k-ww3-sims-probs.Rmd): Problems
+
+[Warm-up worksheet #3](code/m358k-ww3-sims-solns.Rmd): Solutions
+
+[The R-script from class](code/war.R)
+
 What is statistics? 
 <span style="color: purple;">**(Sections 1.2.1, 1.2.2)**</span><br>
 
-[Open course video](https://youtu.be/Mjif8PTgzUs): Data basics
+[Class notes](notes/m358k-sept-01-2023.pdf) 
 
-[Old class notes](notes/m358k-sept-09-2020.pdf) 
+[Open course video](https://youtu.be/Mjif8PTgzUs): Data basics
 
 Data presentation [graphical]
 <span style="color: purple;">**(Sections 2.2.1, 2.2.5)**</span><br>
-
-[Warm-up worksheet #3](code/m358k-ww3-sims-probs.Rmd): Problems
-
-<!--
-[Warm-up worksheet #3](code/m358k-ww3-sims-solns.Rmd): Solutions
-
-[The R-script from class](code/plots.R)
--->
 
 [Open course video](https://youtu.be/7NhNeADL8fA): Exploring categorical data
 
