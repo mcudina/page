@@ -149,7 +149,7 @@ Simulations of random variables. Plots. Histograms. <span style="color: purple;"
 
 [Homework #3](code/m358k-hw-three.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework 
 
-[Project #2](projects/m358k-project-two.pdf) -- **due on Monday, September 26h** 
+[Project #2](projects/m358k-project-two.pdf) -- **due on Monday, September 25h** 
 
 [Project #2](code/m358k-project-two.Rmd) -- this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
@@ -209,12 +209,6 @@ R notebook [titanic.Rmd](code/titanic.Rmd)
 Here is a list of fun sites which make charts: [Infogram](https://infogram.com/), [FastCharts](https://fastcharts.io/), [Flourish](https://flourish.studio/), 
 [Datawrapper](https://www.datawrapper.de/)
 
-[Data](data/cafedata.csv): Student-run cafe - courtesy of the *Journal of Statistics Education* 
-
-[Homework #4](hw/m358k-hw-four.pdf) -- due on **Friday, September 22nd, 2023**
-
-[Homework #4](code/m358k-hw-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework; you will **not** be able to knit this file as is unless you comment out or delete the `R`-chunk which inserts the picture
-
 ---
 
 **Class 8: September 8th**<br>
@@ -225,6 +219,12 @@ R script [invented-data.R](code/invented-data.R) from class
 [Return values from boxplot](https://r-coder.com/boxplot-r/#Return_values_from_boxplot)
 
 [ProPublica](https://projects.propublica.org/climate-migration/): New Climate Maps Show a Transformed United States
+
+[Data](data/cafedata.csv): Student-run cafe - courtesy of the *Journal of Statistics Education* 
+
+[Homework #4](hw/m358k-hw-four.pdf) -- due on **Friday, September 22nd, 2023**
+
+[Homework #4](code/m358k-hw-four.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework; you will **not** be able to knit this file as is unless you comment out or delete the `R`-chunk which inserts the picture
 
 ---
 
@@ -304,14 +304,15 @@ Experiments <span style="color: purple;">**(Section 1.4)**</span><br>
 
 **Suggested textbook problems** (for after you are done with all the homework): <span style="color: purple;">**1.19, 1.20, 1.23, 1.26, 1.27, 1.28, 2.11, 2.13, 3.9, 3.10, 3.13, 3.19**</span><br>
 
-<!--
-[Project #3](projects/m358k-project-three.pdf) -- **due on Monday, October 10th** 
+[Project #3](projects/m358k-project-three.pdf) -- **due on Monday, October 9th** 
 
 [Project #3](code/m358k-project-three.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
 
 [Follow up on the "Experiment experiment"](https://www.npr.org/sections/health-shots/2018/08/27/642218377/in-psychology-and-other-social-sciences-many-studies-fail-the-reproducibility-te/)
 
 [Andrew Gelman on the "replication crisis"](http://andrewgelman.com/2016/03/03/more-on-replication-crisis/) 
+
+<!--
 
 ---
 

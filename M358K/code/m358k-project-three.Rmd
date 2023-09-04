@@ -19,76 +19,109 @@ The first part of the project pertains to the podcast content; your answers to t
 ## Part One: Guided listening.
 Brian Nosek is a co-founder of the ["Center for Open Science"](https://cos.io/). After (or during) listening to the podcast, please, provide your answers to the following questions: 
 
-### Problem 1.1.(1 point) 
+### Problem 1.1. (1 point) 
 What was it that prompted Brian Nosek to undertake the project described in the podcast?
 
-### Problem 1.2.(1 point) 
+### Problem 1.2. (1 point) 
 What did the project designed by Brian Nosek consist of?
 
-### Problem 1.3.(1 point) 
+### Problem 1.3. (1 point) 
 What is the (at least one) reason that scientists do not habitually repeat studies?
 
-### Problem 1.4.(1 point) 
+### Problem 1.4. (1 point) 
 How many experiments did the volunteer scientists “do over”?
 
 ### Problem 1.5. (2 points) 
 What was the source of the chosen experiments? Were they obscure within the field?
 
-### Problem 1.6.(1 point) 
+### Problem 1.6. (1 point) 
 What is the “afternoon-treat hypothesis”?
 
-### Problem 1.7.(1 point) 
+### Problem 1.7. (1 point) 
 Did the project originator Brian Nosek keep constant track of how many of the experiments were successfully replicated? Or did he wait until the entire experiment experiment was completed?
 
-### Problem 1.8.(1 point) 
+### Problem 1.8. (1 point) 
 How many original conclusions were confirmed?
 
-### Problem 1.9.(1 point) 
+### Problem 1.9. (1 point) 
 Is the conclusion that the scientists are faking their data?
 
-### Problem 1.10.(2 points) 
+### Problem 1.10. (2 points) 
 What experiment did the journalist conduct the morning of taping the podcast? What were the results?
 
-### Problem 1.11.(3 points) 
+### Problem 1.11. (3 points) 
 What is the file-drawer effect? What is its consequence in the field of psychology?
 
-### Problem 1.12.(1 point) 
-Does the file-drawer effectcompletely explain the 39/100 ratio?
+### Problem 1.12. (1 point) 
+Does the file-drawer effect completely explain the 39/100 ratio?
 
-### Problem 1.13.(1 point) 
+### Problem 1.13. (1 point) 
 Which example of a common mistake does Dr. Lindsey describe?
 
-### Problem 1.14.(1 point) 
+### Problem 1.14. (1 point) 
 Which other disciplines are now trying to do the experiment experiment?
 
-### Problem 1.15.(1 point) 
+### Problem 1.15. (1 point) 
 What remedy does Brian Nosek propose?
 
 ### Problem 1.16. (2 points) 
 Is this idea already being implemented in a certain research field? Has this
 changed the frequency of positive results?
 
-### Problem 1.17.(1 point) 
+### Problem 1.17. (1 point) 
 Should we lose faith in scientific results?
 
+## Part 2: Further reading
 
-## Part 2: A simple experiment (8 points)
-Design and execute a simple experiment consisting of trials such as coin tosses, or rolls of a die. See
-    how close to “fairness” your results are. Are you tempted to increase the number of trials? Plot
-    your findings and comment on the presented data.
+### Problem 2.1. (10 points) 
+Find **one** available study which was discussed in the podcast. Comment on the original and the replicated study. Your response should be meaningful and about 200 words long. 
 
+### Problem 2.2. (10 points)
+Find out more about Andrew Wakefield. Then go to this [CDC website](https://www.cdc.gov/vaccinesafety/concerns/autism.html). What are your comments? What examples of more contemporary misinformation do you know of (with sources cited, please)? Your response should be meaningful and about 200 words long. 
 
-## Part 3: Further reading
+## Part 3: Ethics in Statistics
 
-## Problem 3.1. (10 points) 
-Find **one** available study which was discussed in the podcast. Comment on the original and the replicated study.
+### Problem 3.1. (18 points)
+Please read and understand the [Ethical Guidelines for Statistical Practice](https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice)
 
-## Problem 3.2 (5 points)
-Look into the following [article](http://www.statnews.com/2015/12/18/clinical-trial-reporting/). What is the take-home message? 
+**(2 points)** Please provide a real life example of a violation of *Professional Integrity and Accountability* in statistics. Your response should be about five sentences long and include a way to correct the violation. 
 
-## Problem 3.3 (5 points)
-Look into the following [article](http://www.statnews.com/pharmalot/2015/12/16/pharmalot-nih-drug-trials/). What is the take-home message?
+**(2 points)** Please provide a real life example of a violation of *Integrity of Data and Methods* in statistics. Your response should be about five sentences long and include a way to correct the violation. 
 
-## Problem 3.4 (10 points)
-Find out more about Andrew Wakefield. Then go to this [CDC website](https://www.cdc.gov/vaccinesafety/concerns/autism.html). What are your comments? What examples of more contemporary misinformation do you know of (with sources cited, please)? 
+**(4 points)** Consider the following ethical requirement for a statistician: 
 
+*"Informs stakeholders of the potential limitations on use and re-use of statistical practices in different contexts and offers guidance and alternatives, where appropriate, about scope, cost, and precision considerations that affect the utility of the statistical practice."*
+
+Please, provide examples of how one could violate this principle deliberately and how one could violate this principle inadvertently. Your response should be about six sentences long and include a way to correct the violations. 
+
+**(4 points)** Consider the following ethical requirement for a statistician: 
+
+*"Protects people’s privacy and the confidentiality of data concerning them, whether obtained from the individuals directly, other persons, or existing records. Knows and adheres to applicable rules, consents, and guidelines to protect private information."*
+
+Please, provide examples of how one could violate this principle deliberately and how one could violate this principle inadvertently. Your response should be about six sentences long and include a way to correct the violations. 
+
+**(2 points)** Consider the following ethical requirement for a statistician: 
+
+*"Promotes reproducibility and replication, whether results are “significant” or not, by sharing data, methods, and documentation to the extent possible."*
+
+Provide links to at least four online repositories with readily available data sets. 
+
+**(4 points)** Consider the following ethical requirement for a statistician: 
+
+*"Avoids compromising validity for expediency. Regardless of pressure on or within the team, does not use inappropriate statistical practices."*
+
+Where do you think this tenet has the potential to be violated in the context of the podcast you listened to? What steps should our society take to do away with the temptation to violate ethical standards in scientific research?
+
+## Part 4: Ethics in Mathematics
+
+### Problem 4.1. (10 points extra credit)
+Please, read the following interview: 
+[Hannah Fry on Ethics in Mathematics](https://www.theguardian.com/science/2019/aug/16/mathematicians-need-doctor-style-hippocratic-oath-says-academic-hannah-fry#:~:text=“We%20need%20a%20Hippocratic%20oath,in%20every%20step%20you%20take.”). 
+
+**(2 points)** Do you agree or disagree with Hannah Fry's thesis? Why? 
+
+**(5 points)** For the sake of argument, imagine that you do agree with her. Try to construct a short (five points at most) Hippocratic oath for mathematicians and statisticians. 
+
+**(3 points)** What could you say about the *necessity* and *sufficiency* of a Hippocratic oath? 
+
+*Further reading:* If you find yourself in need of quality reading material, I recommend Hannah Fry's *Hello, world!"
