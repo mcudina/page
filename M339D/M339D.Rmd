@@ -134,10 +134,6 @@ Transaction costs. <br>
 
 [The R-notebook from class](code/m339d-msft-in-class-part-1.Rmd)
 
-<!--
-[Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
--->
-
 ---
 
 **Class 6: September 1st**<br>
@@ -158,6 +154,8 @@ Outright purchase. Short sales.<br>
 [Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, September 18th, 2023**
 
 [Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+[Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
 
 ---
 
