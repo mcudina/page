@@ -160,16 +160,26 @@ Outright purchase. Short sales.<br>
 ---
 
 **Class 7: September 6th**<br>
+On portfolios. 
+
+[The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
+
+<!--
+[The R-notebook for class](code/m339d-project1-variation-solns.Rmd): **Solutions**
+-->
+
 Payoff and profit.<br>
 
 <!--
 [Class notes](notes/m339d-jan-25-2023.pdf) 
+-->
 
 ---
 
-**Class 8: January 27th**<br>
+**Class 8: September 8th**<br>
 Payoff and profit curves. Long/short positions.<br>
 
+<!--
 [Class notes](notes/m339d-jan-27-2023.pdf) 
 
 [Homework #2](hw/m339d-hw2-prereq-solns.pdf) -- **solutions**
@@ -193,9 +203,6 @@ Basic risk management. Forward contracts.<br>
 <span style="color: blue;">**Asynchronous work due to winter conditions.**</span>
 <br>
 
-[The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
-
-[The R-notebook for class](code/m339d-project1-variation-solns.Rmd): **Solutions**
 
 ---
 

@@ -179,6 +179,10 @@ Data presentation [graphical]
 ---
 
 **Class 7: September 6th**<br> 
+Fitting.<br>
+
+[Class notes](notes/m358k-sept-06-2023.pdf) 
+
 Data presentation [more on graphical; numerical]
 <span style="color: purple;">**(Sections 2.1.2, 2.1.3, 2.1.4)**</span>\
 
@@ -196,11 +200,11 @@ R notebook [cat-data.Rmd](code/cat-data.Rmd)
 
 R notebook [titanic.Rmd](code/titanic.Rmd)
 
+R notebook [titanic-in-class.Rmd](code/titanic-in-class.Rmd) as amended in class 
+
 [xkcd](https://xkcd.com/1140/) 
 
 [Florence Nightingale](http://thisisstatistics.org/florence-nightingale-the-lady-with-the-data/) 
-
-[Slides](notes/m358k-2.1-examining-numerical-data.pdf) - **Courtesy of Open Course Statistics**
 
 [Wikipedia: Mean household income](https://en.wikipedia.org/wiki/Household_income_in_the_United_States#Mean_household_income) 
 
@@ -213,6 +217,8 @@ Here is a list of fun sites which make charts: [Infogram](https://infogram.com/)
 
 **Class 8: September 8th**<br>
 Median. Quartiles. <span style="color: purple;">**(Sections 2.1.5, 2.1.6, 2.1.1)**</span><br>
+
+[Slides](notes/m358k-2.1-examining-numerical-data.pdf) - **Courtesy of Open Course Statistics**
 
 R script [invented-data.R](code/invented-data.R) from class
 
