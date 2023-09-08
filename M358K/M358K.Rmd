@@ -243,6 +243,8 @@ Scatterplots  <span style="color: purple;">**(Section 1.2.3)**</span>.<br>
 
 [On plotting scatterplots in R](https://youtu.be/X66b-Jbi15w) - this is a demo in R by yours truly on how to draw scatterplots; feel free to start at 2:35 and watch at twice the speed  
 
+Adding [legends](http://www.sthda.com/english/wiki/add-legends-to-plots-in-r-software-the-easiest-way) to your `R` plots
+
 [Duke gpa](data/gpa.csv) - courtesy of OpenCourse Statistics
 
 <!--

@@ -120,4 +120,6 @@ What else could we ask?
 ```{r}
 plot(gpa.data$studyweek,gpa.data$gpa, pch=16, 
      col=as.factor(gpa.data$gender))
+legend(40, 4.75, legend=c("Male", "Female"),
+       col=c("red", "black"), pch=16, cex=0.8)
 ```
