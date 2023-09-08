@@ -104,7 +104,7 @@ mean(gpa.f)-mean(gpa.m)
 ## Task 8. 
 Is there a relationship between the hours studied and the GPA?
 
-```{r}
+```{r, out.width=0.80}
 plot(hrs,gpa, pch=19, col="blue",
      main="Scatterplot of hours studied and GPA",
      xlab="Hours",
@@ -112,14 +112,17 @@ plot(hrs,gpa, pch=19, col="blue",
 slr=lm(gpa ~ hrs)
 slr
 summary(slr)
-abline(slr, col="red")
+abline(slr, col="red", lwd=2)
 ```
 
-## Task x. 
-What else could we ask? 
+## Task 7. 
+Is there an effect of gender? Let's create a scatterplot with the two categories indicated by different colors. 
 ```{r}
 plot(gpa.data$studyweek,gpa.data$gpa, pch=16, 
-     col=as.factor(gpa.data$gender))
+     col=as.factor(gpa.data$gender),
+     main="Scatterplot of hours studied and GPA",
+     xlab="Hours",
+     ylab="GPA")
 legend(40, 4.75, legend=c("Male", "Female"),
        col=c("red", "black"), pch=16, cex=0.8)
 ```

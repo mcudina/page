@@ -247,9 +247,9 @@ Adding [legends](http://www.sthda.com/english/wiki/add-legends-to-plots-in-r-sof
 
 [Duke gpa](data/gpa.csv) - courtesy of OpenCourse Statistics
 
-<!--
-[The R-notebook for class](code/m339d-gpa-probs.Rmd)
+[The R-notebook for class](code/m358k-gpa-probs.Rmd)
 
+<!--
 [The R-notebook from class](code/m339d-gpa-solns.Rmd)
 -->
 
