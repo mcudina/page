@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Financial Mathematics for Actuaries (M339D=M389D)"
-output: 
-  html_document
+output: html_document
 ---
 
 <style>
@@ -175,6 +174,8 @@ Payoff and profit.<br>
 **Class 8: September 8th**<br>
 Payoff and profit curves. Long/short positions.<br>
 
+[Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
+
 [Class notes](notes/m339d-sept-08-2023.pdf) 
 
 [Homework #2](hw/m339d-hw2-prereq-solns.pdf) -- **solutions**
@@ -192,32 +193,34 @@ Basic risk management. Forward contracts.<br>
 [Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration-solns.pdf):  **Solutions**
 
 [Class notes](notes/m339d-jan-30-2023.pdf) 
-
----
-
-**Class 10: February 1st**<br>
-<span style="color: blue;">**Asynchronous work due to winter conditions.**</span>
-<br>
-
-
----
-
-**Class 11: February 3rd**<br>
-<span style="color: blue;">**Asynchronous work due to winter conditions.**</span>
-<br>
-
-[Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
-
-[Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
+-->
 
 [Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
 
 ---
 
-**Class 12: February 6th**<br>
-Forward contracts [practice].<br>
+**Class 10: September 13th**<br>
+Hedging using forward contracts.<br>
 
+[Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
+
+<!--
 [Class notes](notes/m339d-feb-06-2023.pdf) 
+-->
+
+---
+
+**Class 11: September 15th**<br>
+
+
+---
+
+
+**Class 12: September 18th**<br>
+
+<!--
+
+
 
 ---
 
