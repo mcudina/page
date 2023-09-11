@@ -1,0 +1,145 @@
+---
+title: "In-class: The Duke GPA Data Analysis"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Task 1. (1 point)
+First, we will read the data from our csv file "gpa.csv" into a data.frame called `gpa.data`:
+
+```{r}
+gpa.data=read.csv("gpa.csv")
+```
+
+
+If you want to see what your data.frame looks like, you can click on it in the **Global environment** in the upper right pane. The data.frame will get displayed in the upper left pane. 
+
+## Task 2. (1 point)
+You interested in the types and names of the variables in your data.frame. What do you run?
+
+You see that the students/**cases** all have corresponding **rows**. They are labeled by the row indices. The **column** names stand for the variable names.
+
+```{r}
+ls.str(gpa.data)
+```
+
+Then, you can do a bit of exploratory analysis. 
+
+## Task 3. (3 points)
+What are the minimum and maximum GPAs? What is the mean GPA? What is the median GPA?
+
+```{r}
+gpa=gpa.data$gpa
+
+summary(gpa)
+
+sd(gpa)
+```
+
+
+## Task 4. (2 points)
+Plot the histogram of the GPAs. Make sure that your plot has the main title and that the axes are also labeled. 
+
+```{r}
+hist(gpa, breaks=15,
+     col="purple",
+     main="Duke GPA",
+     xlab="Grades")
+```
+
+## Task 5. 
+Plot the histogram of the number of hours spent studying per week. Make sure that your plot has the main title and that the axes are also labeled. 
+
+```{r}
+hrs=gpa.data$studyweek
+hist(hrs, breaks=15,
+     col="yellow",
+     main="Duke Hours Studying",
+     xlab="Hours")
+```
+
+## Task 6. 
+Is the mean number of hours spent studying different for females than for males? 
+
+```{r}
+hrs.f=hrs[gpa.data$gender=="female"]
+hrs.m=hrs[gpa.data$gender=="male"]
+mean(hrs.f)
+mean(hrs.m)
+
+#just for laughs, here is a transparent histogram #superimposition
+
+hist(hrs.f, breaks=15, col=rgb("red"=1, "green"=0,
+                                    "blue"=0,  alpha=0.25))
+hist(hrs.m, breaks=10, col=rgb("red"=0, "green"=0,
+                                    "blue"=1,  alpha=0.25), add=TRUE)
+```
+
+## Task 7. 
+Any difference in the GPA?
+
+```{r}
+gpa.f=gpa[gpa.data$gender=="female"]
+gpa.m=gpa[gpa.data$gender=="male"]
+mean(gpa.f)
+mean(gpa.m)
+```
+
+## Task 8. 
+Is there a relationship between the hours studied and the GPA?
+
+```{r}
+plot(hrs, gpa, col="lightblue", pch=19, 
+     main="Studying vs. GPA", 
+     xlab="Hours per week",
+     ylab="GPA")
+
+lin.mod=lm(gpa ~ hrs)
+abline(lin.mod, col="blue", lwd=2)
+
+lin.mod
+```
+
+## Task 9. 
+Is there an effect of gender? Let's create a scatterplot with the two categories indicated by different colors. 
+
+```{r}
+plot(gpa.data$studyweek, gpa.data$gpa, 
+     col=as.factor(gpa.data$gender),
+     pch=19,
+     main="Studying vs. GPA", 
+     xlab="Hours per week",
+     ylab="GPA")
+legend(40, 4.75, legend=c("Female", "Male"),
+       col=c("Black", "Red"), pch=19,
+       cex=0.8)
+```
+Or, choosing our colors
+```{r}
+plot(gpa.data$studyweek, gpa.data$gpa, col=c("orange","purple")[as.factor(gpa.data$gender)], pch=19,
+     main="Studying vs. GPA", 
+     xlab="Hours per week",
+     ylab="GPA") 
+legend(40, 4.75, legend=c("Female", "Male"),
+       col=c("Orange", "Purple"), pch=19,
+       cex=0.8)
+```
+
