@@ -1,0 +1,43 @@
+---
+title: "Extra-Credit Quiz #3"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  fig.width=12,
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+## Problem 1. **(3 points)** 
+Let $X$ denote the number of $1's$ in 100 throws of a fair die. Find $\mathbb{E}[X^2].$
+
+
+## Problem 2. **(2 points)** 
+If $Var[X]=0$, then $\mathbb{P}[X = \mathbb{E}[X]] = 1.$ *True or false? You do not have to justify your response.*
+
+
+## Problem 3. **(2 points)** 
+Let $X$ denote the outcome of a roll of a fair, regular dodecahedron (a polyhedron with $12$ faces) with numbers $1,2, \cdots, 12$ written on its sides. Find $\mathbb{E}[X]$. 
+
+
+## Problem 4. **(8 points)** 
+Your sample consists of $50$ sixth-graders from Kealing Middle School (KMS) and $60$ sixth-graders from Murchison Middle school (MMS). The measures of center and spread of the students' heights are:
+\begin{itemize}
+  \item[$KMS:$] the mean of $60$ inches with the standard deviation of $1$ inch, and
+  \item[$MMS:$] the mean of $60$ inches with the standard deviation of $2$ inches.
+\end{itemize} 
+What are the measures of center and spread for the pooled sample of $110$ sixth-graders?
+

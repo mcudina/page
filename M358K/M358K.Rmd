@@ -326,20 +326,24 @@ Experiments <span style="color: purple;">**(Section 1.4)**</span><br>
 
 <!--
 [In-Term One](exams/m358k-one-solns.pdf) - **solutions**
+-->
 
 ---
 
-**Class 14: September 23rd**<br>
+**Class 14: September 22rd**<br>
 Review of continuous distributions. Expectation. Variance. <br>
 
+<!--
 [Class notes](notes/m358k-sept-26-2022.pdf) 
+-->
 
-[Quiz #6](quizzes/m358k-quiz-six.pdf) -- **due on Friday, October 1st**
+[Extra-Credit Quiz #3](quizzes/m358k-ec-quiz3.pdf) -- **due on Friday, October 1st**
 
-[Quiz #6](code/m358k-quiz-six.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
+[Extra-Credit Quiz #3](code/m358k-ec-quiz3.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
 
 ---
 
+<!--
 **Class 15: September 26th**<br>
 Statistical inference. Statistics and the sampling distribution.<br>
 
