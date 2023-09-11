@@ -239,7 +239,7 @@ Scatterplots  <span style="color: purple;">**(Section 1.2.3)**</span>.<br>
 
 [Data](data/diamond.csv): Carats vs. dollars - courtesy of the *Journal of Statistics Education* 
 
-`R`-script [diamond-scatterplot.R](code/diamonds.R)
+`R`-script [diamond-scatterplot.R](code/diamond-scatterplot.R)
 
 [On plotting scatterplots in R](https://youtu.be/X66b-Jbi15w) - this is a demo in R by yours truly on how to draw scatterplots; feel free to start at 2:35 and watch at twice the speed  
 
