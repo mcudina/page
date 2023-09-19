@@ -237,6 +237,17 @@ More on European call options.<br>
 
 [Homework #5](hw/m339d-hw5-calls.pdf) -- **due on Friday, September 29th**
 
+[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for the last problem in the project**
+
+[Dow data](data/dow.csv)
+
+[Dow futures data](data/dow-futures.csv)
+
+[Apple call data](data/apple-calls.csv)
+
+[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, February 27th, 2023**
+
+[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
@@ -253,32 +264,17 @@ European put options. Moneyness.<br>
 
 **Class 14: September 22nd**<br>
 
-<!--
-
-
-
-
-
-
 ---
 
-**Class 15: February 13th**<br>
+**Class 15: September 25th**<br>
+
+<!--
+
 Even more on European call options.<br>
 
 [Class notes](notes/m339d-feb-13-2023.pdf) 
 
 
-[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for the last problem in the project**
-
-[Dow data](data/dow.csv)
-
-[Dow futures data](data/dow-futures.csv)
-
-[Apple call data](data/apple-calls.csv)
-
-[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, February 27th, 2023**
-
-[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
  
