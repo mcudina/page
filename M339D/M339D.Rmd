@@ -264,19 +264,35 @@ European put options. Moneyness.<br>
 
 [Problem Set #6](problem-sets/m339d-ps6-puts-solns.pdf):  **Solutions**
 
+[Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, March 3rd**
+
 [In-Term One](exams/m339d-one-topics.pdf): Topics
 
 [Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
 
 [Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions** 
 
+**(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
+
 ---
 
 **Class 14: September 22nd**<br>
+Derivative securities. Finite probability spaces [revisited]. Arbitrage portfolios.<br>
+
+<!--
+[Class notes](notes/m339d-feb-20-2023.pdf) 
+-->
+
+**(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
+
+**(Interesting reading)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
+
+**(Interesting reading)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
 
 ---
 
 **Class 15: September 25th**<br>
+Law of the Unique Price. Replicating portfolios.<br>
 
 ---
  
@@ -291,6 +307,10 @@ European put options. Moneyness.<br>
 
 **Class 18: October 2nd**<br>
 
+---
+
+**Class 19: October 4th**<br>
+
 <!--
 [In-Term One](exams/m339d-one.pdf) -- **problems** 
 
@@ -298,27 +318,7 @@ European put options. Moneyness.<br>
 
 [Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
 
-Put option practice.<br>
 
-
-[Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, March 3rd**
-
-**(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
-
-Finite probability spaces [revisited]. Arbitrage portfolios.<br>
-
-[Class notes](notes/m339d-feb-20-2023.pdf) 
-
-**(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
-
-**(Interesting reading)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
-
-**(Interesting reading)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
-
----
-
-**Class 19: February 22nd**<br>
-Law of the Unique Price. Derivative securities. Replicating portfolios.<br>
 
 [Class notes](notes/m339d-feb-22-2023.pdf) 
 

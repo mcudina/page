@@ -19,6 +19,7 @@ Then, we draw a sample of size $1000$ without replacement.
 ```{r}
 sample.size=1000
 srs=sample(opinions, size = sample.size)
+#srs
 ```
 ## Finding the point estimate
 Now, we find the sample proportion of the number of supporters. 
