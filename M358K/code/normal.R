@@ -1,6 +1,6 @@
 ?rnorm
 dnorm(0)
-1/sqrt(2*pi)
+exp(-0^2/2)/sqrt(2*pi)
 pnorm(0)
 pnorm(1)-pnorm(-1)
 qnorm(0.5)
@@ -16,3 +16,5 @@ hist(sims, prob=TRUE)
 curve(dnorm(x, mean=100, sd=20), col="red", 
       lwd=2, add=TRUE)
 summary(sims)
+bp=boxplot(sims)
+bp$out
