@@ -283,9 +283,9 @@ Derivative securities. Finite probability spaces [revisited]. Arbitrage portfoli
 
 **(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
 
-**(Interesting reading)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
+**(An interesting read)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
 
-**(Interesting reading)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
+**(Another interesting read)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
 
 [Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
 
@@ -295,6 +295,8 @@ Derivative securities. Finite probability spaces [revisited]. Arbitrage portfoli
 Law of the Unique Price. Replicating portfolios.<br>
 
 [Class notes](notes/m339d-sept-25-2023.pdf) 
+
+**(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
 
 ---
  
@@ -311,10 +313,21 @@ Equity-linked contracts.<br>
 ---
 
 **Class 18: October 2nd**<br>
+Put-call parity.<br>
+
+[Problem packet](problem-sets/m339d-parity-no-div.pdf)
+
+Chooser options.<br>
+
+[Problem packet](problem-sets/m339d-chooser.pdf)
 
 ---
 
 **Class 19: October 4th**<br>
+
+---
+
+**Class 20: October 6th**<br>
 
 <!--
 [In-Term One](exams/m339d-one.pdf) -- **problems** 
@@ -322,24 +335,11 @@ Equity-linked contracts.<br>
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
 
 
-[Class notes](notes/m339d-feb-22-2023.pdf) 
-
-**(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
-
----
-
-**Class 20: February 24th**<br>
-
-[Class notes](notes/m339d-feb-24-2023.pdf) 
-
 [Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
 
 ---
 
 **Class 21: February 27th**<br>
-Put-call parity.<br>
-
-[Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
 [Class notes](notes/m339d-feb-27-2023.pdf) 
 
@@ -348,9 +348,6 @@ Put-call parity.<br>
 ---
 
 **Class 22: March 1st**<br>
-Chooser options.<br>
-
-[Problem packet](problem-sets/m339d-chooser.pdf)
 
 [Class notes](notes/m339d-mar-01-2023.pdf) 
 
