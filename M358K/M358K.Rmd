@@ -408,15 +408,11 @@ The normal approximation to the binomial [review] <span style="color: purple;">*
 
 [Problem Set #6](problem-sets/m358k-ps-six-dML.pdf) -- **problems**
 
-<!--
-[Class notes](notes/m358k-oct-05-2022.pdf) 
+[Class notes](notes/m358k-oct-02-2023.pdf) 
 
-[The R-script from class](code/dML.R)
-
--->
+[The R-script from class](code/dML-pres.R)
 
 [Problem Set #6](problem-sets/m358k-ps-six-dML-solns.pdf) -- **solutions**
-
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/IllustratingTheCentralLimitTheoremWithSumsOfBernoulliRandomV/): The Normal Approximation to the Binomial Distribution
 
