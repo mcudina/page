@@ -20,6 +20,12 @@ Now, complete 1,000 batches of 10,000 runs. What does the histogram of the avera
 
 *Solution:*
 ```{r}
+spinner=c(-1, 0, 1)
+all.spins=sample(spinner, 1000, replace=TRUE)
+```
+
+*Solution:*
+```{r}
 # a single run
 spinner=c(-1,0,1)
 one.run=sample(spinner,1)
