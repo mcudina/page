@@ -426,29 +426,28 @@ The Central Limit Theorem [review] <span style="color: purple;">**(Sections 5.1.
 
 [Problem Set #7](problem-sets/m358k-ps-seven-CLT.pdf) -- **problems**
 
-<!--
-[Class notes](notes/m358k-oct-07-2022.pdf)
--->
+[Class notes](notes/m358k-oct-04-2023.pdf)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Gamma_distribution): On the **gamma distribution**
 
 <!--
 [The R-script from class](code/clt-in-class.R)
 
-[Problem Set #7](problem-sets/m358k-ps-seven-CLT-solns.pdf) -- **solutions**
 -->
+
+[Problem Set #7](problem-sets/m358k-ps-seven-CLT-solns.pdf) -- **solutions**
 
 [Homework #7](hw/m358k-hw-seven.pdf) -- due on **Friday, October 13th, 2023**
 
 [Homework #7](code/m358k-hw-seven.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
-<!--
 
 ---
 
-**Class 20: October 7th**<br>
+**Class 20: October 6th**<br>
 Sample mean (the normal case).<br>
 
+<!--
 [Class notes](notes/m358k-oct-10-2022.pdf) 
 
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample.pdf) -- **problems**
