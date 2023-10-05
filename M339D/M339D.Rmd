@@ -323,6 +323,8 @@ Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
+**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
+
 Chooser options.<br>
 
 [Problem packet](problem-sets/m339d-chooser.pdf)
@@ -332,28 +334,7 @@ Chooser options.<br>
 ---
 
 **Class 19: October 4th**<br>
-
----
-
-**Class 20: October 6th**<br>
-
-<!--
-
-
-
-
----
-
-**Class 21: February 27th**<br>
-
-
-**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
-
----
-
-**Class 22: March 1st**<br>
-
-[Class notes](notes/m339d-mar-01-2023.pdf) 
+Chooser options [cont'd].<br>
 
 **(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
 
@@ -371,14 +352,29 @@ Random number generation.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
----
-
-**Class 23: March 3rd**<br>
 The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
-[Class notes](notes/m339d-mar-03-2023.pdf) 
+[Class notes](notes/m339d-oct-04-2023.pdf) 
 
 [Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
+
+---
+
+**Class 20: October 6th**<br>
+
+---
+
+**Class 21: October 9th**<br>
+
+---
+
+**Class 22: October 11th**<br>
+
+---
+
+**Class 23: October 13th**<br>
+
+<!--
 
 [Problem Set #7](problem-sets/m339d-ps7-mc-solns.Rmd): **Solutions**
 
