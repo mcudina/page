@@ -297,23 +297,17 @@ overflow-y: auto;
 border: 1px solid #ddd;
 border-radius: 4px;
 }
-.tabset-dropdown > .nav-tabs > li.active:before {
-content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+content: "\e259";
 font-family: 'Glyphicons Halflings';
 display: inline-block;
 padding: 10px;
 border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-content: "";
-border: none;
-}
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-content: "";
+content: "\e258";
 font-family: 'Glyphicons Halflings';
-display: inline-block;
-padding: 10px;
-border-right: 1px solid #ddd;
+border: none;
 }
 .tabset-dropdown > .nav-tabs > li.active {
 display: block;
@@ -732,12 +726,14 @@ homework assignment</p>
 <hr />
 <p><strong>Class 20: October 6th</strong><br> Sample mean (the normal
 case).<br></p>
-<p><a href="notes/m358k-normal-samples.pdf">Lecture notes</a></p>
+<p><a href="notes/m358k-normal-samples.pdf">Lecture notes</a>: The
+normal sample mean</p>
 <!--
 [Class notes](notes/m358k-oct-10-2022.pdf) 
-
-[Problem Set #8](problem-sets/m358k-ps-eight-normal-sample.pdf) -- **problems**
-
+-->
+<p><a href="problem-sets/m358k-ps-eight-normal-sample.pdf">Problem Set
+#8</a> – <strong>problems</strong></p>
+<!--
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample-solns.pdf) -- **solutions**
 
 [Quiz #7](quizzes/m358k-quiz-seven.pdf) -- **due on Friday, October 8th**
