@@ -363,9 +363,7 @@ The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 **Class 20: October 6th**<br>
 Monte Carlo [cont'd].<br>
 
-<!--
 [Problem Set #7](problem-sets/m339d-ps7-mc-solns.Rmd): **Solutions**
--->
 
 [Apple put data](data/apple-puts.csv)
 
@@ -375,9 +373,7 @@ Monte Carlo [cont'd].<br>
 
 The binomial asset-pricing model.<br>
 
-<!--
-[Class notes](notes/m339d-mar-06-2023.pdf) 
--->
+[Class notes](notes/m339d-oct-06-2023.pdf) 
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
@@ -462,14 +458,30 @@ Multiple binomial periods. <br>
 ---
 
 **Class 26: October 20th**<br>
+Monte Carlo for binomial option pricing. <br>
+
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
 
 <!--
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-27-2023.Rmd): Phase I
+
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-29-2023.Rmd): Phase II
+
 [Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
 -->
 
 ---
 
 **Class 27: October 23rd**<br>
+Review of the normal distribution.<br>
+
+[Standard normal table](notes/std-normal-table.pdf)
+
+<!--
+[Class notes](notes/m339d-mar-29-2023.pdf): $N(0,1)$
+-->
+
+[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 7th**
 
 ---
 
@@ -484,31 +496,16 @@ Multiple binomial periods. <br>
 
 **Class 30: October 30th**<br>
 
+---
+
+**Class 31: November 1st**<br>
+
 <!--
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
 
 
 
-Monte Carlo for binomial option pricing. <br>
 
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
-
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-27-2023.Rmd): Phase I
-
----
-
-**Class 31: March 29th**<br>
-Monte Carlo for binomial option pricing [cont'd]. <br>
-
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-29-2023.Rmd): Phase II
-
-Review of the normal distribution.<br>
-
-[Standard normal table](notes/std-normal-table.pdf)
-
-[Class notes](notes/m339d-mar-29-2023.pdf): $N(0,1)$
-
-[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 7th**
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Problem set #7: Monte Carlo: Solutions"
+title: "Problem set #7: Monte Carlo"
 author: "Milica Cudina"
 date: "`r Sys.Date()`"
 output: pdf_document
@@ -19,41 +19,49 @@ Use *Monte Carlo* to estimate the expected winnings based on 10,000 runs. Does t
 Now, complete 1,000 batches of 10,000 runs. What does the histogram of the averages of the 1,000 batches look like? What is their mean? What is their variance? What is their standard deviation?
 
 *Solution:*
-Let's encode *yellow* as $1$, *red* as $-1$, and *blue* as $0$. Here is the result of a single run:
+Let's encode *yellow* as $-1$, *red* as $1$, and *blue* as $0$. 
+Let's implement a single run:
 ```{r}
-spinner=c(-1,0,1)
-one.run=sample(spinner,1)
+spinner=c(-1, 0, 1)
+one.run=sample(spinner, 1)
 one.run
 ```
-If I want many runs, I will simply increase the number of simulated values above. 
+We want many runs, so we'll increase the number of simulated values in the `sample` command:
 ```{r}
-n.sim=10000
-many.runs=sample(spinner,n.sim, replace=TRUE)
+nsims=10000
+many.runs=sample(spinner, nsims, replace=TRUE)
+tab=table(many.runs)
+tab
+barplot(tab, col="peru")
 ```
-Finally, I calculate the mean of the vector or runs. 
+Let's calculate the average of the simulated values
 ```{r}
 mean(many.runs)
 ```
-The number is close to zero, so I am happy with how it turned out. 
-
-Now, I create a function which does exactly what we did above, i.e., performs $10,000$ runs of the game and calculates average winnings. 
+Create a function which calculates the average winnings for each batch of spins.
 ```{r}
 spin.mc<-function(){
-  mean(sample(spinner,n.sim,replace=TRUE))
+  return(mean(sample(spinner, nsims, replace=TRUE)))
 }
 spin.mc()
 ```
-Next, I repeat the same function $1,000$ times and record all the mean winnings in a vector.
+We repeat the same function $1000$ times. 
 ```{r}
-n.batches=1000
-all.batches=replicate(n.batches,spin.mc())
-hist(all.batches, breaks=25)
+num.batches=1000
+all.batches=replicate(num.batches, spin.mc())
+hist(all.batches, breaks=18)
 mean(all.batches)
 var(all.batches)
 sd(all.batches)
 ```
+What's the theoretical variance of a single spin's winnings?
+```{r}
+var=1^2*(1/3)+0^2*(1/3)+(-1)^2*(1/3)
+var.sample.mean=var/(10000)
+var.sample.mean
+```
 
-\newpage
+
 
 ## Problem #2: Gambling
 Consider the following game: 
@@ -67,24 +75,24 @@ What is the theoretical expectation of the amount won in this game?
 Use *Monte Carlo* to estimate the expected winnings based on 10,000 runs. Does the result agree with your theoretical expected value?
 
 *Solution:*
-The probability of losing one dollar is $1/2$. The probability of winning nine dollars is $1/6$. The probability of no money changing hands is $1/3$. So, this is the expected amount won:
+The probability of losing one dollar is $1/2$. The probability of winning nine dollars $1/6$. The probability of nothing is $1/3$. 
 ```{r}
-p.loss<-1/2
-p.win<-1/6
-p.no<-1/3
-loss.amt<-(-1)
-win.amt<-9
-exp.game<-p.loss*loss.amt+p.win*win.amt
+p.loss=1/2
+p.win=1/6
+p.no=1/3
+prob=c(1/2, 1/6, 1/3)
+win=c(-1, 9, 0)
+exp.game=sum(prob*win)
 exp.game
 ```
-Using *Monte Carlo*, we have the following: 
+Using Monte Carlo, we do this:
 ```{r}
-amounts<-c(loss.amt,0,win.amt)
-probs<-c(p.loss, p.no, p.win)
-mean(sample(amounts, n.sim, replace=TRUE, prob=probs))
+nsims=10000
+many.gambles=sample(win, nsims, replace=TRUE, prob=prob)
+avg.gamble=mean(many.gambles)
+avg.gamble
 ```
 
-\newpage
 
 ## Problem #3: The binomial distribution
 Consider a random variable $X$ which has the binomial distribution with the number of trials equal to $50$ and the probability of success in every trial equal to $2/5$. 
@@ -94,19 +102,20 @@ What is the expected value of this random variable?
 Use *Monte Carlo* to estimate the expected value based on 10,000 runs. Does the result agree with your theoretical expected value?
 
 *Solution:*
-Here are the parameters of the random variable $X$:
+Specifying the parameters:
 ```{r}
 n.trials=50
-prob.s<-2/5
+prob.s=2/5
 ```
-So, the expected value of the random variable $X$ equals:
+Theoretical (exact) expected value
 ```{r}
-exp.X<-n.trials*prob.s
+exp.X=n.trials*prob.s
 exp.X
 ```
-Using *Monte Carlo*, we have
+
+Using Monte Carlo, we get:
 ```{r}
-runs<-rbinom(n.sim, size=n.trials, prob=prob.s)
+runs<-rbinom(10000, size=50, prob=2/5)
 mean(runs)
 ```
 

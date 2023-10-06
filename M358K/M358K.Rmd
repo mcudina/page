@@ -430,10 +430,7 @@ The Central Limit Theorem [review] <span style="color: purple;">**(Sections 5.1.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Gamma_distribution): On the **gamma distribution**
 
-<!--
-[The R-script from class](code/clt-in-class.R)
-
--->
+[The R-script from class](code/gamma-clt.R)
 
 [Problem Set #7](problem-sets/m358k-ps-seven-CLT-solns.pdf) -- **solutions**
 
@@ -449,15 +446,14 @@ Sample mean (the normal case).<br>
 
 [Lecture notes](notes/m358k-normal-samples.pdf): The normal sample mean
 
-<!--
-[Class notes](notes/m358k-oct-10-2022.pdf) 
--->
-
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample.pdf) -- **problems**
 
-<!--
+[Class notes](notes/m358k-oct-06-2023.pdf) 
+
+
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample-solns.pdf) -- **solutions**
 
+<!--
 [Quiz #7](quizzes/m358k-quiz-seven.pdf) -- **due on Friday, October 8th**
 
 [Quiz #7](code/m358k-quiz-seven.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
