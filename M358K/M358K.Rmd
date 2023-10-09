@@ -464,11 +464,16 @@ Sample mean (the normal case).<br>
 **Class 21: October 9th**<br>
 Confidence intervals (the normal case). <br>
 
-<!--
-[Class notes](notes/m358k-oct-12-2022.pdf) 
+[Class notes](notes/m358k-oct-09-2023.pdf) 
 
+<!--
 [Class notes](notes/m358k-oct-14-2022.pdf) 
 -->
+
+---
+
+**Class 22: October 11th**<br>
+More on confidence intervals (the normal case). <br>
 
 R notebook [normal-conf-int.Rmd](code/normal-conf-int.Rmd)
 
@@ -489,9 +494,6 @@ Shiny: [Confidence intervals](https://milica-cudina.shinyapps.io/Coverage/)
 [Homework #8](code/m358k-hw-eight.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
 <!--
----
-
-**Class 22: October 12th**<br>
 Principles of hypothesis testing. The $p−$value.<br>
 
 [Class notes](notes/m358k-oct-15-2021.pdf) 
