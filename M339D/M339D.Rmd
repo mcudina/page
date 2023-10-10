@@ -384,21 +384,20 @@ The binomial asset-pricing model.<br>
 ---
 
 **Class 21: October 9th**<br>
-Realized returns of stocks. Forward trees. <br>
-
-[Class notes](notes/m339d-oct-09-2023.pdf) 
+Realize returns of stocks. Forward trees. Binomial option pricing: Pricing by replication. <br>
 
 [Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
 
 <!--
+[Class notes](notes/m339d-mar-08-2023.pdf) 
 
-[Problem Set #6](problem-sets/m339d-ps8-bin-pricing-solns.pdf): **Solutions**
+[Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
 -->
 
 ---
 
 **Class 22: October 11th**<br>
-Binomial option pricing: Pricing by replication.<br>
+Binomial option pricing [cont'd].<br>
 
 <!--
 [Class notes](notes/m339d-mar-10-2023.pdf) 
