@@ -384,7 +384,7 @@ The binomial asset-pricing model.<br>
 ---
 
 **Class 21: October 9th**<br>
-Realized returns of stocks. Forward trees. Binomial option pricing: Pricing by replication. <br>
+Realized returns of stocks. Forward trees.  <br>
 
 [Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
 
@@ -394,7 +394,7 @@ Realized returns of stocks. Forward trees. Binomial option pricing: Pricing by r
 ---
 
 **Class 22: October 11th**<br>
-Binomial option pricing [cont'd].<br>
+Binomial option pricing: Pricing by replication.<br>
 
 [Class notes](notes/m339d-oct-11-2023.pdf) 
 
@@ -476,72 +476,65 @@ Review of the normal distribution.<br>
 [Class notes](notes/m339d-mar-29-2023.pdf): $N(0,1)$
 -->
 
-[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 7th**
+[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, November 3rd**
 
 ---
 
 **Class 28: October 25th**<br>
 <span style="color: red;">**In-Term Two**</span><br>
 
+<!--
+[In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
+-->
+
 ---
 
 **Class 29: October 27th**<br>
-
----
-
-**Class 30: October 30th**<br>
-
----
-
-**Class 31: November 1st**<br>
-
-<!--
-[In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
-
-
-
-
-
----
-
-**Class 32: March 31st**<br>
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
 
 [Problem Set #11](problem-sets/m339d-ps11-dML.pdf): **Problems**
 
+<!--
 [Class notes](notes/m339d-mar-31-2023.pdf) 
 
 [Problem Set #11](problem-sets/m339d-ps11-dML-solns.pdf): **Solutions**
+-->
 
 [Apple parity](data/apple-parity.csv)
 
-[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 10th**
+[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, November 13th**
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+<!--
 [Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 33: April 3rd**<br>
+**Class 30: October 30th**<br>
 The limiting behavior of stock prices. More on realized returns.<br> 
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
 
 Moment generating functions.<br>
 
+<!--
 [Class notes](notes/m339d-apr-03-2023.pdf): The pre-limit. mgf.
+-->
 
 ---
 
-**Class 34: April 5th**<br>
+**Class 31: November 1st**<br>
 The log-normal distribution. Jensen's inequality.<br>
 
 [Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
 
+<!--
 [Class notes](notes/m339d-apr-05-2023.pdf): mgf. The log-normal distribution. Jensen's inequality.
+-->
 
 [The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
 from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Chris Boucher 
@@ -550,29 +543,37 @@ from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.d
 
 ---
 
-**Class 35: April 7th**<br>
+**Class 32: November 3rd**<br>
 Log-normal stock prices: Parameter interpretation.<br>
 
+<!--
 [Class notes](notes/m339d-apr-07-2023.pdf): Lognormal stock prices: Mean. Median. 
+-->
 
 **(Enrichment material)** [Lecture notes](lectures/m339w-on-pricing.pdf): On pricing in the Black-Scholes model with continuous dividends. 
 
 [Problem Set](problem-sets/m339d-ps-lognormal-stocks.pdf): **Problems**
 
+<!--
 [Problem Set](problem-sets/m339d-ps-lognormal-stocks-solns.pdf): **Solutions**
 
 [Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
+-->
+
+[Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, November 10th**
 
 ---
 
-**Class 36: April 10th**<br>
+**Class 33: November 6th**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
+<!--
 [Class notes](notes/m339d-apr-10-2023.pdf): Tail probabilities.
+-->
 
 ---
 
-**Class 37: April 12th**<br>
+**Class 34: November 8th**<br>
 Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
@@ -581,55 +582,80 @@ Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.
 
 [Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
 
+<!--
 [Class notes](notes/m339d-apr-12-2023.pdf) 
+-->
 
-[Homework #11](hw/m339d-hw11-BS.pdf) -- **due on Friday, April 21st**
+[Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, November 17th**
 
+---
+
+**Class 35: November 10th**<br>
+Black-Scholes [continued].<br> 
+
+<!--
+[Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
+-->
+
+[Problem](problem-sets/mfe-sp2007-p8.pdf)
+
+<!--
+[Class notes](notes/m339d-apr-14-2023.pdf) 
+-->
+
+---
+
+**Class 36: November 13th**<br>
+Forward-start options. Rolling insurance strategy.<br>
+
+[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
+
+<!--
+[Class notes](notes/m339d-apr-17-2023.pdf) 
+-->
+
+[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, December 4th, 2023**
+
+[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
+
+**Class 37: November 15th**<br>
+Monte Carlo with Black-Scholes pricing. <br>
+
+[Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)
+
+<!--
+[Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
+-->
+
+---
+
+**Class 38: November 17th**<br>
+
+---
+
+**Class 39: November 27th**<br>
+
+---
+
+**Class 40: November 29th**<br>
+<span style="color: red;">**In-Term Three**</span><br>
+
+---
+
+**Class 41: December 1st**<br>
+
+<!--
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
 
 [Practice for In-Term Three](exams/m339d-three-sample.pdf) -- **problems** 
 
 [Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
----
-
-**Class 38: April 14th**<br>
-Black-Scholes continued. 
-
-[Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
-
-[Problem](problem-sets/mfe-sp2007-p8.pdf)
-
-[Class notes](notes/m339d-apr-14-2023.pdf) 
-
----
-
-**Class 39: April 17th**<br>
-Forward-start options. Rolling insurance strategy.<br>
-
-[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
-
-[Class notes](notes/m339d-apr-17-2023.pdf) 
-
-[Project #5](projects/m339d-project5-probs.pdf) -- **due on April 28th, 2023**
-
-[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
-
-**Class 40: April 19th**<br>
-<span style="color: red;">**In-Term Three**</span><br>
 
 [In-Term Three](exams/m339d-three-solns.pdf) -- **solutions**
 
----
-
-**Class 41: April 21st**<br>
-Monte Carlo with Black-Scholes pricing. <br>
-
-[Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)
-
-[Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
 
 Focus on the delta.<br>
 
