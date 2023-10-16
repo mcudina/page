@@ -519,11 +519,14 @@ The $p−$value. More on hypothesis testing in the normal case.<br>
 **Class 24: October 16th**<br>
 The reasoning of tests of significance. Inference as a decision.<br>
 
-<!--
-[Class notes](notes/m358k-oct-20-2021.pdf) 
--->
+[Problem Set #11](problem-sets/m358k-ps-eleven-sign-test-mean.pdf) -- **problems** 
+
+[Class notes](notes/m358k-oct-16-2023.pdf) 
+
+[Problem Set #11](problem-sets/m358k-ps-eleven-sign-test-mean-solns.pdf) -- **solutions** 
 
 [$p-$hacking is bad](https://www.popularmechanics.com/science/math/a40971517/p-value-statistics-fragility-index/)
+
 
 ---
 
@@ -541,12 +544,6 @@ Hypothesis-testing practice (the normal case).<br>
 
 <!--
 [Class notes](notes/m358k-oct-22-2021-abridged.pdf) 
--->
-
-[Problem Set #11](problem-sets/m358k-ps-eleven-sign-test-mean.pdf) -- **problems** 
-
-<!--
-[Problem Set #11](problem-sets/m358k-ps-eleven-sign-test-mean-solns.pdf) -- **solutions** 
 -->
 
 An [article](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106) on **p-hacking** in biology
