@@ -420,9 +420,9 @@ Binomial option pricing [cont'd]. <br>
 **Class 24: October 16th**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
-<!--
+[Class notes](notes/m339d-oct-16-2023.pdf) 
+
 [Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
--->
 
 **(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
 
