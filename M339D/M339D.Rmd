@@ -428,19 +428,18 @@ Binomial option pricing: Risk-neutral probability.<br>
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
+---
 
+**Class 25: October 18th**<br>
 Binomial option pricing: Two periods.<br>
 
 [Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-mar-24-2023.pdf) 
--->
-
+[Class notes](notes/m339d-oct-18-2023.pdf) 
 
 ---
 
-**Class 25: October 18th**<br>
+**Class 26: October 20th**<br>
 Multiple binomial periods. <br>
 
 <!--
@@ -451,9 +450,6 @@ Multiple binomial periods. <br>
 
 [Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, October 27th**
 
----
-
-**Class 26: October 20th**<br>
 Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
@@ -633,10 +629,32 @@ Monte Carlo with Black-Scholes pricing. <br>
 ---
 
 **Class 38: November 17th**<br>
+Focus on the delta.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
+
+[Problem](problem-sets/m339d-ifm-delta.pdf)
+
+<!--
+[Class notes](notes/m339d-apr-21-2023.pdf) 
+-->
 
 ---
 
 **Class 39: November 27th**<br>
+Delta-hedging. <br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Market_maker): Market maker.
+
+[Problem](problem-sets/m339d-ifm-delta-hedge.pdf)
+
+<!--
+[Class notes](notes/m339d-apr-24-2023.pdf) 
+
+[Class notes](notes/m339d-delta-hedging.pdf) 
+
+[Homework #12](hw/m339d-hw12-delta.pdf) -- **not to be handed in; final-exam practice**
+-->
 
 ---
 
@@ -647,6 +665,10 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 **Class 41: December 1st**<br>
 
+---
+
+**Class 42: December 4th**<br>
+
 <!--
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
 
@@ -654,34 +676,8 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
-
 [In-Term Three](exams/m339d-three-solns.pdf) -- **solutions**
 
-
-Focus on the delta.<br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
-
-[Problem](problem-sets/m339d-ifm-delta.pdf)
-
-[Class notes](notes/m339d-apr-21-2023.pdf) 
-
-[Homework #11](hw/m339d-hw11-BS-solns.pdf) -- **solutions**
-
----
-
-**Class 42: April 24th**<br>
-Delta-hedging. <br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Market_maker): Market maker.
-
-[Problem](problem-sets/m339d-ifm-delta-hedge.pdf)
-
-[Class notes](notes/m339d-apr-24-2023.pdf) 
-
-[Class notes](notes/m339d-delta-hedging.pdf) 
-
-[Homework #12](hw/m339d-hw12-delta.pdf) -- **not to be handed in; final-exam practice**
 
 [Homework #12](hw/m339d-hw12-delta-solns.pdf) -- **solutions**
 
