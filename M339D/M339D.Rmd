@@ -442,11 +442,9 @@ Binomial option pricing: Two periods.<br>
 **Class 26: October 20th**<br>
 Multiple binomial periods. <br>
 
-<!--
-[Class notes](notes/m339d-mar-27-2023.pdf) 
+[Class notes](notes/m339d-oct-20-2023.pdf) 
 
 [Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
--->
 
 [Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, October 27th**
 
@@ -454,8 +452,9 @@ Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
 
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-oct-20-2023.Rmd): Phase I
+
 <!--
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-27-2023.Rmd): Phase I
 
 [Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-29-2023.Rmd): Phase II
 
@@ -465,6 +464,8 @@ Monte Carlo for binomial option pricing. <br>
 ---
 
 **Class 27: October 23rd**<br>
+Monte Carlo for binomial option pricing [cont'd]. <br>
+
 Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
