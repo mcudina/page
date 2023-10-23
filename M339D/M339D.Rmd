@@ -454,27 +454,15 @@ Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #10](problem-sets/m339d-ps10-binomial-mc-oct-20-2023.Rmd): Phase I
 
-<!--
-
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-mar-29-2023.Rmd): Phase II
 
 [Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
--->
 
 ---
 
 **Class 27: October 23rd**<br>
 Monte Carlo for binomial option pricing [cont'd]. <br>
 
-Review of the normal distribution.<br>
-
-[Standard normal table](notes/std-normal-table.pdf)
-
-<!--
-[Class notes](notes/m339d-mar-29-2023.pdf): $N(0,1)$
--->
-
-[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, November 3rd**
+[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-oct-23-2023.Rmd): Phase II
 
 ---
 
@@ -488,6 +476,16 @@ Review of the normal distribution.<br>
 ---
 
 **Class 29: October 27th**<br>
+Review of the normal distribution.<br>
+
+[Standard normal table](notes/std-normal-table.pdf)
+
+<!--
+[Class notes](notes/m339d-mar-29-2023.pdf): $N(0,1)$
+-->
+
+[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, November 3rd**
+
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
