@@ -557,15 +557,11 @@ Types of errors.<br>
 
 [Errors](pics/pregnant.jpg)
 
-<!--
-[Class notes](notes/m358k-oct-29-2022.pdf)
--->
+[Class notes](notes/m358k-oct-23-2023.pdf)
 
 [Problem Set #13](problem-sets/m358k-ps-thirteen-errors.pdf) -- **problems** 
 
-<!--
 [Problem Set #13](problem-sets/m358k-ps-thirteen-errors-solns.pdf) -- **solutions** 
--->
 
 [R-bloggers](https://www.r-bloggers.com/2021/06/qq-plots-in-r-quantile-quantile-plots-quick-start-guide/): QQ-plots in `R`
 
@@ -584,15 +580,19 @@ Power of test (the normal case).<br>
 
 <!--
 [Class notes](notes/m358k-oct-31-2022.pdf)
+-->
 
-[Homework #9](hw/m358k-hw-nine.pdf) -- due on **Friday, November 4th**
+[Homework #9](hw/m358k-hw-nine.pdf) -- due on **Friday, November 3rd**
 
 [Homework #9](code/m358k-hw-nine.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
+<!--
 [Extra class notes](notes/m358k-oct-29-2021.pdf)
+-->
 
 [Problem Set #14](problem-sets/m358k-ps-fourteen-power-of-test.pdf) -- **problems** 
 
+<!--
 [Problem Set #14](problem-sets/m358k-ps-fourteen-power-of-test-solns.pdf) -- **solutions** 
 
 
