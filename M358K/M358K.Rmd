@@ -578,32 +578,25 @@ Power of test (the normal case).<br>
 
 [Power of test](pics/power.png)
 
-<!--
-[Class notes](notes/m358k-oct-31-2022.pdf)
--->
+[Problem Set #14](problem-sets/m358k-ps-fourteen-power-of-test.pdf) -- **problems** 
+
+[Class notes](notes/m358k-oct-25-2023.pdf)
 
 [Homework #9](hw/m358k-hw-nine.pdf) -- due on **Friday, November 3rd**
 
 [Homework #9](code/m358k-hw-nine.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
-<!--
-[Extra class notes](notes/m358k-oct-29-2021.pdf)
--->
-
-[Problem Set #14](problem-sets/m358k-ps-fourteen-power-of-test.pdf) -- **problems** 
-
-<!--
 [Problem Set #14](problem-sets/m358k-ps-fourteen-power-of-test-solns.pdf) -- **solutions** 
-
 
 ---
 
-**Class 29: October 28th**<br>
+**Class 29: October 27th**<br>
 The sampling distribution for *counts* and  *proportions*. Confidence intervals 
 <span style="color: purple;">**(Sections 6.1.1, 6.1.2, and 6.1.5)**</span><br>
 
 [Open course video](https://youtu.be/_iFAZgpWsx0): Statistical inference for proportions.
 
+<!--
 [Class notes](notes/m358k-nov-02-2022.pdf)
 
 [Problem Set #9#15](problem-sets/m358k-ps-fifteen-single-prop-conf-int.pdf) -- **problems**
