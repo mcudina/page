@@ -596,9 +596,7 @@ The sampling distribution for *counts* and  *proportions*. Confidence intervals
 
 [Open course video](https://youtu.be/_iFAZgpWsx0): Statistical inference for proportions.
 
-<!--
-[Class notes](notes/m358k-nov-02-2022.pdf)
--->
+[Class notes](notes/m358k-oct-27-2023.pdf)
 
 [Problem Set #15](problem-sets/m358k-ps-fifteen-single-prop-conf-int.pdf) -- **problems**
 
@@ -624,12 +622,14 @@ Hypothesis testing for a  *proportion*
 [Problem set #16](problem-sets/m358k-ps-sixteen-single-prop-hyp-test.pdf) -- **problems**
 
 [Problem set #16](problem-sets/m358k-ps-sixteen-single-prop-hyp-test-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 31: November 2nd**<br>
+**Class 31: November 1st**<br>
 Comparing two proportions <span style="color: purple;">**(Sections 6.2.1, 6.2.2, 6.2.3, 6.2.5)**</span><br>
 
+<!--
 [Class notes](notes/m358k-nov-07-2022.pdf)
 
 [Complete class notes](notes/m358k-nov-05-2021.pdf)
@@ -641,18 +641,18 @@ Comparing two proportions <span style="color: purple;">**(Sections 6.2.1, 6.2.2,
 [Quiz #11](quizzes/m358k-quiz-eleven-one-prop-conf-int-solns.pdf) -- **solutions**
 
 [Quiz #12](quizzes/m358k-quiz-twelve-prop-hyp-test.pdf) -- **due on Friday, November 12th, 2020**
+-->
 
-[Homework #11](hw/m358k-hw-eleven.pdf) -- due on **Friday, November 18th**
+[Homework #11](hw/m358k-hw-eleven.pdf) -- due on **Friday, November 17th**
 
 [Homework #11](code/m358k-hw-eleven.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your homework assignment 
 
-[Extra-Credit Quiz #2](quizzes/m358k-quiz2-normal-hyp-test-solns.pdf) -- **solutions**
-
 ---
 
-**Class 32: November 4th**<br>
+**Class 32: November 3rd**<br>
 The $\chi^2-$ distribution <span style="color: purple;">**(Sections 6.3.3, C.3)**</span><br>
 
+<!--
 [Class notes](notes/m358k-nov-11-2022.pdf)
 
 [$\chi^2-$table](notes/chi-squared-table.pdf)
