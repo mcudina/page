@@ -477,10 +477,6 @@ Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
-<!--
-[Class notes](notes/m339d-mar-29-2023.pdf): $N(0,1)$
--->
-
 [Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, November 3rd**
 
 The normal approximation to the binomial.<br>
@@ -489,11 +485,9 @@ The normal approximation to the binomial.<br>
 
 [Problem Set #11](problem-sets/m339d-ps11-dML.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-mar-31-2023.pdf) 
+[Class notes](notes/m339d-oct-27-2023.pdf) 
 
 [Problem Set #11](problem-sets/m339d-ps11-dML-solns.pdf): **Solutions**
--->
 
 [Apple parity](data/apple-parity.csv)
 
