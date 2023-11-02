@@ -646,8 +646,11 @@ Comparing two proportions <span style="color: purple;">**(Sections 6.2.1, 6.2.2,
 **Class 32: November 3rd**<br>
 The $\chi^2-$ distribution <span style="color: purple;">**(Sections 6.3.3, C.3)**</span><br>
 
+[Zed Statistics video](https://youtu.be/80ffqpZdKiA?si=qzwSLzEZOKbDlRc7): The $\chi^2-$ distribution. 
+
 <!--
 [Class notes](notes/m358k-nov-11-2022.pdf)
+-->
 
 [$\chi^2-$table](notes/chi-squared-table.pdf)
 
@@ -659,11 +662,12 @@ The $\chi^2-$ distribution <span style="color: purple;">**(Sections 6.3.3, C.3)*
 
 ---
 
-**Class 33: November 7th**<br>
+**Class 33: November 6th**<br>
 Goodness of fit <span style="color: purple;">**(Sections 6.3.1, 6.3.2, 6.3.4)**</span><br> 
 
 [Open course video](https://youtu.be/Uk36WGxujkc): Goodness of fit.
 
+<!--
 [Class notes](notes/m358k-nov-11-2021.pdf)
 
 [Problem set #18](problem-sets/m358k-ps-eighteen-goodness-of-fit.pdf) -- **problems**
