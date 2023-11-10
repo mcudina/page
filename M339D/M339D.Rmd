@@ -557,7 +557,14 @@ Log-normal stock prices: Tail probabilities.<br>
 ---
 
 **Class 35: November 10th**<br>
-Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.<br>
+Log-normal stock prices: Partial expectation.<br>
+
+[Class notes](notes/m339d-nov-10-2023.pdf): Partial expectation.
+
+---
+
+**Class 36: November 13th**<br>
+Log-normal stock prices: Partial expectation [cont'd]. The Black-Scholes pricing formula.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
 
@@ -583,9 +590,6 @@ Black-Scholes [continued].<br>
 [Class notes](notes/m339d-apr-14-2023.pdf) 
 -->
 
----
-
-**Class 36: November 13th**<br>
 Forward-start options. Rolling insurance strategy.<br>
 
 [Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
