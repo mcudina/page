@@ -572,12 +572,13 @@ Log-normal stock prices: Partial expectation [cont'd]. The Black-Scholes pricing
 
 [Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-apr-12-2023.pdf) 
--->
+[Class notes](notes/m339d-nov-13-2023.pdf) 
 
 [Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, December 1st**
 
+---
+
+**Class 37: November 15th**<br>
 Black-Scholes [continued].<br> 
 
 <!--
@@ -602,9 +603,6 @@ Forward-start options. Rolling insurance strategy.<br>
 
 [Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 37: November 15th**<br>
 Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)
