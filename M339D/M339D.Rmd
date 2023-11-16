@@ -581,35 +581,15 @@ Log-normal stock prices: Partial expectation [cont'd]. The Black-Scholes pricing
 **Class 37: November 15th**<br>
 Black-Scholes [continued].<br> 
 
-<!--
 [Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
--->
 
 [Problem](problem-sets/mfe-sp2007-p8.pdf)
 
-<!--
-[Class notes](notes/m339d-apr-14-2023.pdf) 
--->
-
-Forward-start options. Rolling insurance strategy.<br>
-
-[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
-
-<!--
-[Class notes](notes/m339d-apr-17-2023.pdf) 
--->
+[Class notes](notes/m339d-nov-15-2023.pdf) 
 
 [Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, December 4th, 2023**
 
 [Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-Monte Carlo with Black-Scholes pricing. <br>
-
-[Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)
-
-<!--
-[Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
--->
 
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
 
@@ -620,6 +600,22 @@ Monte Carlo with Black-Scholes pricing. <br>
 ---
 
 **Class 38: November 17th**<br>
+Forward-start options. Rolling insurance strategy.<br>
+
+[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
+
+<!--
+[Class notes](notes/m339d-apr-17-2023.pdf) 
+-->
+
+Monte Carlo with Black-Scholes pricing. <br>
+
+[Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)
+
+<!--
+[Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
+-->
+
 Focus on the delta.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
