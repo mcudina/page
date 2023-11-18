@@ -604,10 +604,11 @@ Forward-start options. Rolling insurance strategy.<br>
 
 [Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
 
-<!--
-[Class notes](notes/m339d-apr-17-2023.pdf) 
--->
+[Class notes](notes/m339d-nov-17-2023.pdf) 
 
+---
+
+**Class 39: November 27th**<br>
 Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd)
@@ -626,9 +627,6 @@ Focus on the delta.<br>
 [Class notes](notes/m339d-apr-21-2023.pdf) 
 -->
 
----
-
-**Class 39: November 27th**<br>
 Delta-hedging. <br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Market_maker): Market maker.
