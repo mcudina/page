@@ -4,7 +4,7 @@ data<-c(11.17, 12.96, 10.37,  6.92, 10.83,  9.15, 11.79,
 n<-length(data)
 n
 
-tt<-t.test(data, mu=12)
+tt<-t.test(data, mu=11)
 tt
 tt$p.value
 tt$parameter
@@ -13,7 +13,7 @@ tt$parameter
 data1<-rnorm(15, mean=20, sd=2)
 data2<-rnorm(20, mean=10, sd=1)
 
-tt2<-t.test(data1,data2, alternative="less")
+tt2<-t.test(x=data1,y=data2, alternative="less")
 tt2
 tt2$p.value
 tt2$parameter
