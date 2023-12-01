@@ -821,9 +821,7 @@ Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><b
 
 [xkcd](https://xkcd.com/552/): Correlation
 
-<!--
-[Class notes](notes/m358k-dec-03-2021.pdf)
--->
+[Class notes](notes/m358k-dec-01-2023.pdf)
 
 [Visualizing Correlations](http://demonstrations.wolfram.com/VisualizingCorrelations/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod
 
@@ -833,9 +831,9 @@ Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><b
 
 [Problem set #21](problem-sets/m358k-ps-twenty-one-corr-linear-transforms.pdf) -- **problems**
 
-<!--
 [Problem set #21](problem-sets/m358k-ps-twenty-one-corr-linear-transforms-solns.pdf) -- **solutions**
 
+<!--
 [Data](data/shoesize.csv): Shoe size and height - courtesy of the *Open Course Statistics*: this data set is necessary for *Quiz #16*
 
 [Quiz #14](quizzes/m358k-quiz-fourteen-chi-squared-solns.pdf) -- **solutions**
