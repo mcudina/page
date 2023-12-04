@@ -5,8 +5,8 @@ curve(beta.0+beta.1*x, 0, 25, lwd=3, col="green")
 sigma<-1       #### std. dev of all errors is the same sigma
 
 x<-5
-y<-beta.0+beta.1*x+rnorm(1,mean=0,sd=1)
 beta.0+beta.1*x
+y<-beta.0+beta.1*x+rnorm(1,mean=0,sd=1)
 y
 
 lambda<-1/25
