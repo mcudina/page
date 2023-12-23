@@ -36,6 +36,7 @@ read](http://www.amazon.com/Cartoon-Guide-Statistics-Larry-Gonick/dp/0062731025/
 
 ---
 
+<!--
 **Class 1: August 21st**<br>
 Orientation. <br>
 
@@ -455,11 +456,9 @@ Sample mean (the normal case).<br>
 
 [Problem Set #8](problem-sets/m358k-ps-eight-normal-sample-solns.pdf) -- **solutions**
 
-<!--
 [Quiz #7](quizzes/m358k-quiz-seven.pdf) -- **due on Friday, October 8th**
 
 [Quiz #7](code/m358k-quiz-seven.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
--->
 
 --- 
 
@@ -468,9 +467,7 @@ Confidence intervals (the normal case). <br>
 
 [Class notes](notes/m358k-oct-09-2023.pdf) 
 
-<!--
 [Class notes](notes/m358k-oct-14-2022.pdf) 
--->
 
 ---
 
@@ -604,9 +601,7 @@ The sampling distribution for *counts* and  *proportions*. Confidence intervals
 
 [Problem Set #15](problem-sets/m358k-ps-fifteen-single-prop-conf-int-solns.pdf) -- **solutions**
 
-<!--
 [Quiz #11](quizzes/m358k-quiz-eleven-one-prop-conf-int.pdf) -- **due on Friday, November 5th, 2021**
--->
 
 [Homework #10](hw/m358k-hw-ten.pdf) -- due on **Friday, November 10th**
 
@@ -635,9 +630,7 @@ Comparing two proportions <span style="color: purple;">**(Sections 6.2.1, 6.2.2,
 
 [Problem set #17](problem-sets/m358k-ps-seventeen-two-props-solns.pdf) -- **solutions**
 
-<!--
 [Quiz #12](quizzes/m358k-quiz-twelve-prop-hyp-test.pdf) -- **due on Friday, November 12th, 2020**
--->
 
 [Homework #11](hw/m358k-hw-eleven.pdf) -- due on **Friday, November 17th**
 
@@ -688,9 +681,7 @@ Chi-squared test of independence <span style="color: purple;">**(Section 6.4)**<
 
 [R-code: On-line courses or not?](code/chi-square.R): An example on how to do the $\chi^2-$test of independence in `R`
 
-<!--
 [Quiz #13](quizzes/m358k-quiz-thirteen-goodness-of-fit.pdf) -- **due on Friday, November 19th, 2021**
--->
 
 ---
 
@@ -699,9 +690,7 @@ $\chi^2-$connections to normal samples.<br>
 
 [Statistics Associated with Normal Samples](http://demonstrations.wolfram.com/StatisticsAssociatedWithNormalSamples/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Pierre-Emmanuel Robert 
 
-<!--
 [Quiz #14](quizzes/m358k-quiz-fourteen-chi-squared.pdf) -- **due on Friday, December 3rd, 2021**
--->
 
 The $t-$distribution <span style="color: purple;">**(Sections 7.1.3 and C.2)**</span>.<br>
 
@@ -785,9 +774,7 @@ Difference of two means <span style="color: purple;">**(Section 7.3)**</span><br
 
 [Slides](notes/m358k-7.3-difference-of-two-means.pdf) - **Courtesy of Open Course Statistics**
 
-<!--
 [Quiz #15](quizzes/m358k-quiz-fifteen-two-means.pdf) -- **due on Monday, December 6th for extra credit**
--->
 
 t-procedures [practice].<br>
 
@@ -797,13 +784,11 @@ t-procedures [practice].<br>
 
 [Problem set #20](problem-sets/m358k-ps-twenty-two-means-solns.pdf) -- **solutions**
 
-<!--
 [Class notes](notes/m358k-dec-01-2021.pdf)
 
 [Mock In-Term Three](exams/m358k-three-mock.pdf) - **Problems**
 
 [Mock In-Term Three](exams/m358k-three-mock-solns.pdf) - **Solutions**
--->
 
 ---
 
@@ -831,7 +816,6 @@ Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><b
 
 [Problem set #21](problem-sets/m358k-ps-twenty-one-corr-linear-transforms-solns.pdf) -- **solutions**
 
-<!--
 [Data](data/shoesize.csv): Shoe size and height - courtesy of the *Open Course Statistics*: this data set is necessary for *Quiz #16*
 
 [Quiz #14](quizzes/m358k-quiz-fourteen-chi-squared-solns.pdf) -- **solutions**
@@ -839,7 +823,6 @@ Correlation. Causation <span style="color: purple;">**(Section 8.1.4)**</span><b
 [Quiz #16](quizzes/m358k-quiz-sixteen.pdf) -- **due on Monday, December 6th for extra credit**
 
 [Quiz #16](code/m358k-quiz-sixteen.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your quiz 
--->
 
 ---
 
@@ -864,9 +847,7 @@ Simple linear regression.<br>
 
 [Regression toward the Mean](http://demonstrations.wolfram.com/RegressionTowardTheMean/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod
 
-<!--
 [Quiz #17](quizzes/m358k-quiz-seventeen-regression.pdf) -- **due on Monday, December 6th for extra credit**
--->
 
 Simple linear regression [cont'd].<br>
 

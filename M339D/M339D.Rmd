@@ -56,11 +56,12 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
-**Class 1: August 21st**<br>
+**Class 1: January 17th**<br>
 Orientation. <br>
 
 [A role model](pics/bilbo.jpeg)
 
+<!--
 [First-Day Handout](syllabus/syllabus-55535.pdf)
 
 
@@ -615,9 +616,7 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd): with solutions
 
-<!--
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
--->
 
 Focus on the delta.<br>
 
@@ -658,7 +657,6 @@ Delta-hedging [cont'd].
 
 [Extra Homework #13](hw/m339d-hw13-delta-solns.pdf) -- **solutions**
 
-<!--
 Options embedded in insurance products: Part I.
 
 [Problem packet](problem-sets/m339d-gmdb-etc.pdf)
