@@ -297,23 +297,17 @@ overflow-y: auto;
 border: 1px solid #ddd;
 border-radius: 4px;
 }
-.tabset-dropdown > .nav-tabs > li.active:before {
-content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+content: "\e259";
 font-family: 'Glyphicons Halflings';
 display: inline-block;
 padding: 10px;
 border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-content: "";
-border: none;
-}
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-content: "";
+content: "\e258";
 font-family: 'Glyphicons Halflings';
-display: inline-block;
-padding: 10px;
-border-right: 1px solid #ddd;
+border: none;
 }
 .tabset-dropdown > .nav-tabs > li.active {
 display: block;
@@ -374,12 +368,15 @@ The University of Texas at Austin</p>
 <p><strong>Teaching:</strong></p>
 <p>Current semester:</p>
 <ul>
+<li><a href="M362K/M362K.html">Probability (M362K)</a></li>
 <li><a href="M339D/M339D.html">Introduction to Financial Mathematics for
 Actuaries (M339D=M389D)</a></li>
-<li><a href="M358K/M358K.html">Applied Statistics (M358K)</a></li>
+<li><a href="M339G/M339G.html">Predictive Analytics
+(M339G=M389G)</a></li>
 </ul>
 <p>Other courses:</p>
 <ul>
+<li><a href="M358K/M358K.html">Applied Statistics (M358K)</a></li>
 <li><a href="M329F/M329F.html">Theory of Interest (M329F=M389F)</a></li>
 <li><a href="M339J/M339J.html">Probability Models with Actuarial
 Applications (M339J=M389J)</a></li>
