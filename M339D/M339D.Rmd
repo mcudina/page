@@ -61,9 +61,7 @@ Orientation. <br>
 
 [A role model](pics/bilbo.jpeg)
 
-<!--
-[First-Day Handout](syllabus/syllabus-55535.pdf)
-
+[First-Day Handout](syllabus/syllabus-53690.pdf)
 
 [Funny](http://books.google.com/books?id=8FgF3dOoUVsC&lpg=PA49&ots=UU208Gu6pv&dq=pigg%20vioos&pg=PA49#v=onepage&q=pigg%20vioos&f=false)
 
@@ -71,15 +69,18 @@ Orientation. <br>
 
 ---
 
-**Class 2: August 23rd**<br>
+**Class 2: January 19th**<br>
 Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts. `For` loops.<br>
 
+<!--
 [Console printout](notes/console.txt)
 
 [The R-script from class](code/first-script.R)
+-->
 
-[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, September 1st**
+[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 26th, 2024**
 
+<!--
 ---
 
 **Class 3: August 25th**<br>
