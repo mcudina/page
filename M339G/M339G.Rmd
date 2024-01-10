@@ -24,9 +24,11 @@ output: html_document
 
 ---
 
-**Lecture notes and the like**
+**The textbook, lecture notes, and the like**
 
 [Materials on R](https://mcudina.github.io/rbook/)
+
+[Introduction to Statistical Learning]()
 
 ---
 
@@ -51,23 +53,19 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 ---
 
 **Class 1: January 17th**<br>
-Orientation. <br>
+Orientation. `R` Markdown.<br>
 
 [A role model](pics/bilbo.jpeg)
 
 [First-Day Handout](syllabus/syllabus-53699.pdf)
 
-<!--
 
 ---
 
-**Class 2: August 23rd**<br>
-Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts. `For` loops.<br>
+**Class 2: January 19th**<br>
+Resampling Methods (Sampling Distribution and Univariate Bootstrap). 
 
-[Console printout](notes/console.txt)
-
-[The R-script from class](code/first-script.R)
-
+<!--
 [Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, September 1st**
 
 ---

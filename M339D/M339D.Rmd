@@ -80,12 +80,12 @@ Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts. `For` loo
 
 [Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 26th, 2024**
 
-<!--
 ---
 
-**Class 3: August 25th**<br>
+**Class 3: January 22nd**<br>
 `R`-notebooks.<br> 
 
+<!--
 [The R-notebook from class](code/first-notebook.Rmd)
 
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
