@@ -1,0 +1,62 @@
+---
+title: 'A Template for HW solutions and project submissions: M358K'
+author: 'Jane B. Student, eid:jbs123'
+date: '2020-09-01'
+output: pdf_document
+---
+
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+## Problem 1
+This is where I would explain what I am doing. 
+
+```{r}
+792/11
+```
+
+### Part a.
+You can write an explanation here, too. 
+
+```{r}
+x=c(2,4)
+print(x^2)
+```
+
+### Part b.
+```{r}
+
+```
+
+### Part e.
+```{r}
+
+```
+  
+### Part f.
+```{r}
+
+```
+  
+  
+### Part h.
+```{r}
+
+```
+
+
+## Problem 5.
+

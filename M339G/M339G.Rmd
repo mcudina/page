@@ -50,6 +50,10 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 [A tutorial on functions in R](https://www.tutorialspoint.com/r/r_functions.htm)
 
+[Homework Instructions](instructions/m358k-hw-instructions.html) -- if in doubt, read and understand all of this before you work on your homework/project
+
+[Homework Template](instructions/homework-template.Rmd) -- this is an optional template you can use to complete your homework assignments and projects 
+
 ---
 
 **Class 1: January 17th**<br>
