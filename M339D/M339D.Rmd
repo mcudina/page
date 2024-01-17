@@ -89,13 +89,17 @@ Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts. `For` loo
 
 <!--
 [The R-notebook from class](code/first-notebook.Rmd)
+-->
 
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
 
+<!--
 [Problem Set #1](code/m339d-ps1-in-class.Rmd): **Solutions from class**
+-->
 
 Functions in R. `If ... else` in R.<br> 
 
+<!--
 [The R-script from class](code/ftions-ifelse.R)
 
 Background. 
