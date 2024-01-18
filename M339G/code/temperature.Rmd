@@ -1,0 +1,78 @@
+---
+title: "Temperature"
+author: "Milica Cudina"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+First, you read the data from our csv file into a data.frame called `temperature`:
+```{r}
+temperature<-read.csv("temperatures.csv")
+```
+If you want to see what your data.frame looks like, you can click on it in the **Global environment** in the upper right pane. The data.frame will get displayed in the upper left pane. 
+
+If you interested in the types and names of the variables in your data.frame, you can also run:
+```{r}
+ls.str(temperature)
+```
+
+How many measurements are there?
+
+```{r}
+temp<-temperature$BodyTemp
+n=length(temp)
+print(n)
+```
+
+Seeing as the data are numerical, the first bit of exploratory data analysis would be to check out the histogram:
+
+```{r}
+hist(temp, 
+     main="Human temperatures",
+     xlab="Temperature",
+     col="lavender")
+```
+
+I do not see the histogram to be unimodal or symmetric, however the data are plentiful enough at $50$ for me to think that it's okay to use $t-$procedures. With the built-in `t.test`, I can figure out the confidence interval, e.g.
+
+```{r}
+t.test(temp)
+```
+Note the estimated mean $\hat \mu = 98.26$. The 95$\%$-confidence interval is $(98.0425, 98.4775)$. 
+
+Now, we might be interested in normality, nonetheless. We can check it out further visually:
+
+```{r}
+boxplot(temp, 
+        col="salmon")
+qqnorm(temp)
+qqline(temp, col="blue", lwd=2)
+```
+We can also test for normality using Shapiro-Wilk:
+
+```{r}
+shapiro.test(temp)
+```
+Since the $p-$value is sizeable, there is not evidence to reject the normality hypothesis. 
+
+So, let's check if *bootstrap* would yield a similar confidence interval. As a rule, it's good to see if a "new tool" conforms with the results of an "old tool" in a setting when they both apply. 
+
+```{r}
+n.boot=10^5
+mu.hats=replicate(n.boot, mean(sample(temp, n, replace=TRUE)))
+hist(mu.hats, 
+     main="Histogram of estimates of the mean",
+     xlab="Estimated means",
+     col="peru")
+mu.hat=mean(mu.hats)
+print(mu.hat)
+```
+
+Of course, the boot $\hat \mu_{BOOT}$ conforms to the $\hat \mu$ from above. What about the confidence intervals?
+
+```{r}
+quantile(mu.hats, c(0.025, 0.975))
+```
+
