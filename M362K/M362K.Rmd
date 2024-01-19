@@ -27,28 +27,24 @@ Orientation. <br>
 
 [A role model](pics/bilbo.jpeg)
 
+[First-Day Handout](syllabus/syllabus-53850.pdf): Unique 53850 (1pm)
+
+[First-Day Handout](syllabus/syllabus-53855.pdf): Unique 53855 (2pm)
+
+---
+
+**Class 2: January 19th**<br>
+Equally likely outcomes <span style="color: purple;">**(Section 1.1)**</span>.<br>
+
+[Class notes](notes/m362k-jan-19-2024.pdf)
+
+[Homework #1](hw/m362k-hw1.pdf) -- **due on Friday, January 26th**
+
+---
+
+**Class 3: January 22nd**<br>
+
 <!--
-[First-Day Handout](syllabus/syllabus-55535.pdf)
-
-
-[Funny](http://books.google.com/books?id=8FgF3dOoUVsC&lpg=PA49&ots=UU208Gu6pv&dq=pigg%20vioos&pg=PA49#v=onepage&q=pigg%20vioos&f=false)
-
-[Important prerequisite topics](lectures/m339d-prerequisite-topics.pdf): A checklist of the prerequisite material. 
-
----
-
-**Class 2: August 23rd**<br>
-Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts. `For` loops.<br>
-
-[Console printout](notes/console.txt)
-
-[The R-script from class](code/first-script.R)
-
-[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, September 1st**
-
----
-
-**Class 3: August 25th**<br>
 `R`-notebooks.<br> 
 
 [The R-notebook from class](code/first-notebook.Rmd)
