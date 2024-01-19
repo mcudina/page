@@ -69,14 +69,18 @@ Orientation. `R` Markdown.<br>
 **Class 2: January 19th**<br>
 Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style="color: purple;">**(Section 5.2 and 5.3.4)**</span>.<br>
 
+[Class notes](notes/m339g-jan-19-2024.pdf)
+
+[Slides](slides/ch5-univariate-bootstrap.pdf)
+
 [Data set](code/temperatures.csv): Human temperatures
 
 [R-notebook](code/temperature.Rmd): Temperature bootstrap
 
-<!--
 ---
 
-**Class 3: August 25th**<br>
+**Class 3: January 22nd**<br>
+<!--
 `R`-notebooks.<br> 
 
 [The R-notebook from class](code/first-notebook.Rmd)
