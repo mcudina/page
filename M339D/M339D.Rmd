@@ -72,20 +72,18 @@ Orientation. <br>
 ---
 
 **Class 2: January 19th**<br>
-Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts. `For` loops.<br>
+Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 
-<!--
 [Console printout](notes/console.txt)
 
 [The R-script from class](code/first-script.R)
--->
 
 [Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 26th, 2024**
 
 ---
 
 **Class 3: January 22nd**<br>
-`R`-notebooks.<br> 
+`For` loops. `R`-notebooks.<br> 
 
 <!--
 [The R-notebook from class](code/first-notebook.Rmd)
