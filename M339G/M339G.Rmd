@@ -30,6 +30,8 @@ output: html_document
 
 [Introduction to Statistical Learning](https://www.statlearning.com)
 
+[Computer Age Statistical Inference: Algorithms, Evidence and Data Science](https://hastie.su.domains/CASI/)
+
 ---
 
 **A few "shortcuts" for R and RStudio**
@@ -84,7 +86,16 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 **Class 3: January 22nd**<br>
 Resampling Methods (Bootstrap, cont’d).<br>
 
-[Data set](code/bangladesh-data.csv): 
+[Data set](code/bangladesh-data.csv): Chemicals in Bangladesh
+
+[`R`-notebook for class](code/arsenic-empty.Rmd): Arsenic
+
+[`R`-notebook for class](code/two-stock-portfolio-empty.Rmd): Two-stock portfolio
+
+---
+
+**Class 4: January 24th**<br>
+Resampling Methods (Sampling Distribution of the Slope Coefficient).<br>
 
 <!--
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
@@ -99,9 +110,6 @@ Background.
 
 [Lecture One](lectures/m339d-lecture-one-background.pdf): Background.
 
----
-
-**Class 4: August 28th**<br>
 Prerequisite review.<br>
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems**

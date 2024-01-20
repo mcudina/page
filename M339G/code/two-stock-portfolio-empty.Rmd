@@ -1,0 +1,51 @@
+---
+title: "Two-Stock Portfolio"
+author: "Trevor Hastie and Robert Tibshirani"
+output:
+  pdf_document: default
+---
+
+Here, I am adapting the lab associated with Chapter 5 of the textbook. 
+
+There is no reason for us to repeatedly be doing this, but this is the first time we are using the library associated with the book. So, it's a good idea to install the package `ISLR2` and make the library accessible. 
+
+
+Here is the content by *Hastie and Tibshirani*:
+
+*One of the great advantages of the bootstrap approach is that it can be
+applied in almost all situations. No complicated mathematical calculations
+are required. Performing a bootstrap analysis in `R` entails only two
+steps. First, we must create a function that computes the statistic of
+interest. Second, we use the `boot()` function, which is part of the `boot` library, to perform the bootstrap by repeatedly
+sampling observations from the data set with replacement.
+
+The `Portfolio` data set in the `ISLR2` package is simulated data of $100$ pairs of returns, generated in the fashion described in Section 5.2.
+To illustrate the use of the bootstrap on this data, we must first
+create a function, `alpha.fn()`, which takes as input the $(X,Y)$ data
+as well as a vector indicating which observations should be used to
+estimate $\alpha$. The function then outputs the estimate for $\alpha$
+based on the selected observations.*
+
+
+*This function* **returns** *, or outputs, an  estimate for $\alpha$ based on applying (5.7) from the book to the observations indexed by the argument `index`.
+For instance, the following command tells `R` to estimate $\alpha$ using
+all $100$ observations.*
+
+
+The next command  uses the `sample()` function to randomly select
+$100$ observations from the range $1$ to $100$, with replacement. This is equivalent
+to constructing a new bootstrap data set and recomputing $\hat{\alpha}$
+based on the new data set.
+
+
+We can implement a bootstrap analysis by performing this command many times, recording all of
+the corresponding estimates for $\alpha$, and computing the resulting
+standard deviation.
+However, the `boot()` function automates this approach. Below we produce $R=1,000$ bootstrap estimates for $\alpha$.
+
+
+
+
+The final output shows that using the original data, $\hat{\alpha}=...$,
+and that the bootstrap estimate for ${\rm SE}(\hat{\alpha})$ is $\dots$.
+

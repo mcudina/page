@@ -1,0 +1,26 @@
+---
+title: "Bangladesh Data Analysis"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+As before, first we import the data.
+
+
+Again, we undertake a rudimentary exploratory data analysis.
+
+What does the test of normality tell us?
+
+
+Now, what about bootstrap?
+
+
+We could now construct a 2SE bootstrap confidence interval.
+
+
+It might be interesting to superimpose it on the histogram. 
+
+
+We can also construct a bootstrap 95\%-percentile confidence interval.
+
