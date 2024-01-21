@@ -209,7 +209,7 @@ Payoff and profit curves. Long/short positions.<br>
 
 ---
 
-**Class 9: September 11th**<br>
+**Class 9: February 5th**<br>
 Basic risk management. Forward contracts.<br>
 
 [Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration.pdf):  **Problems**
@@ -218,52 +218,60 @@ Basic risk management. Forward contracts.<br>
 [Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration-solns.pdf):  **Solutions**
 
 [Class notes](notes/m339d-sept-11-2023.pdf) 
+-->
 
 [Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
 
 ---
 
-**Class 10: September 13th**<br>
+**Class 10: February 7th**<br>
 Hedging using forward contracts.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
 
+<!--
 [Class notes](notes/m339d-sept-13-2023.pdf) 
+-->
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards.pdf):  **Problems**
 
+<!--
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
 
 [Additional class notes](notes/m339d-extra-forward-hedging.pdf): User/buyer of goods hedging using a forward.
+-->
 
-[Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, September 22nd, 2023**
+[Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, February 16th, 2024**
 
 ---
 
-**Class 11: September 15th**<br>
+**Class 11: February 9th**<br>
 European call options.<br>
 
 [Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
 
+<!--
 [Class notes](notes/m339d-sept-15-2023.pdf) 
 
 [Homework #3](hw/m339d-hw3-solns.pdf) -- **solutions**
+-->
 
 ---
 
-
-**Class 12: September 18th**<br>
+**Class 12: February 12th**<br>
 More on European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-sept-18-2023.pdf) 
 
 [Additional class notes](notes/m339d-feb-13-2023.pdf) 
 
 [Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
+-->
 
-[Homework #5](hw/m339d-hw5-calls.pdf) -- **due on Friday, September 29th**
+[Homework #5](hw/m339d-hw5-calls.pdf) -- **due on Friday, February 23rd, 2024**
 
 [Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for the last problem in the project**
 
@@ -273,19 +281,20 @@ More on European call options.<br>
 
 [Apple call data](data/apple-calls.csv)
 
-[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, October 9th, 2023**
+[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, February 26th, 2024**
 
 [Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-**Class 13: September 20th**<br>
+**Class 13: February 14th**<br>
 European put options. Moneyness.<br>
 
 [Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 [Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-sept-20-2023.pdf) 
 
 [Problem Set #6](problem-sets/m339d-ps6-puts-solns.pdf):  **Solutions**
