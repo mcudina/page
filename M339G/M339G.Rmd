@@ -32,6 +32,8 @@ output: html_document
 
 [Computer Age Statistical Inference: Algorithms, Evidence and Data Science](https://hastie.su.domains/CASI/)
 
+[Mathematical Statistics with Applications in `R`](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991058130777506011)
+
 ---
 
 **A few "shortcuts" for R and RStudio**
@@ -75,7 +77,7 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 
 [Wikipedia](https://en.wikipedia.org/wiki/Shapiro–Wilk_test): The Shapiro-Wilk test
 
-[Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf)
+[Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
 
 [Data set](code/temperatures.csv): Human temperatures
 
@@ -91,6 +93,10 @@ Resampling Methods (Bootstrap, cont’d).<br>
 [`R`-notebook for class](code/arsenic-empty.Rmd): Arsenic
 
 [`R`-notebook for class](code/two-stock-portfolio-empty.Rmd): Two-stock portfolio
+
+[Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
+
+[`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
 ---
 
