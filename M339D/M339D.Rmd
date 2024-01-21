@@ -54,6 +54,8 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 [A tutorial on functions in R](https://www.tutorialspoint.com/r/r_functions.htm)
 
+[Working directory in `R`](https://r-coder.com/working-directory-r/)
+
 ---
 
 **Class 1: January 17th**<br>
@@ -99,6 +101,7 @@ Functions in R. `If ... else` in R.<br>
 
 <!--
 [The R-script from class](code/ftions-ifelse.R)
+-->
 
 Background. 
 
@@ -106,20 +109,22 @@ Background.
 
 ---
 
-**Class 4: August 28th**<br>
+**Class 4: January 24th**<br>
 Prerequisite review.<br>
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-aug-28-2023.pdf) 
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
+-->
 
-[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, September 8th**
+[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, February 2nd**
 
 ---
 
-**Class 5: August 30th**<br>
+**Class 5: January 26th**<br>
 Standing assumptions and conventions. Risky assets. 
 Transaction costs. <br>
 
@@ -127,9 +132,9 @@ Transaction costs. <br>
 
 [Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
 
+<!--
 [Extra class notes](notes/m339d-aug-28-2023-extra-notes.pdf) 
-
-[Working directory in `R`](https://r-coder.com/working-directory-r/)
+-->
 
 [Yahoo! Finance](https://finance.yahoo.com)
 
@@ -137,29 +142,36 @@ Transaction costs. <br>
 
 [The R-notebook for class](code/m339d-msft-probs.Rmd)
 
+<!--
 [The R-notebook from class](code/m339d-msft-in-class-part-1.Rmd)
+-->
 
 ---
 
-**Class 6: September 1st**<br>
+**Class 6: January 29th**<br>
 Historical returns of stocks.<br>
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
+<!--
 [The R-notebook from class](code/m339d-msft-probs-4.Rmd)
+-->
 
 Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
 
+<!--
 [Class notes](notes/m339d-sept-01-2023.pdf)
+-->
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
 
-[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, September 18th, 2023**
+[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, February 12th, 2024**
 
 [Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+<!--
 [Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
 
 ---
