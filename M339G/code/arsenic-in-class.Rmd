@@ -1,0 +1,114 @@
+---
+title: "Bangladesh Data Analysis"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+As before, first we import the data.
+
+```{r}
+bangladesh=read.csv("bangladesh-data.csv", header=TRUE)
+names(bangladesh)
+#accessing single columns
+#bangladesh$Arsenic
+attach(bangladesh)
+Arsenic
+mean(Arsenic)
+var(Arsenic)
+#hist(Arsenic)
+#what are the dimensions of `bangladesh`
+dim(bangladesh)
+#see if there are missing data
+bangladesh=na.omit(bangladesh)
+#what are the "new" dimensions of `bangladesh`
+dim(bangladesh)
+attach(bangladesh)
+n=length(Arsenic)
+n
+```
+
+Again, we undertake a rudimentary exploratory data analysis.
+
+```{r}
+hist(Arsenic)
+boxplot(Arsenic)
+qqnorm(Arsenic)
+qqline(Arsenic, col="blue", lwd=2)
+```
+
+
+What does the test of normality tell us?
+
+```{r}
+shapiro.test(Arsenic)
+```
+**Even though we have ample evidence against the normality of the data, due to the large sample size, we could use the classical approach to the confidence interval.**
+
+Now, what about bootstrap?
+
+```{r}
+n.boot=10^5
+arsenic.mean=replicate(n.boot, mean(sample(Arsenic, n, replace=TRUE)))
+hist(arsenic.mean, 
+     main="Bootstrap Distribution of Averages",
+     xlab="Bootstrap Averages",
+     col="steelblue")
+```
+
+**Superimposing the normal bell curve.**
+
+```{r}
+hist(arsenic.mean, 
+     main="Bootstrap Distribution of Averages",
+     xlab="Bootstrap Averages",
+     col="steelblue",
+     prob=TRUE)
+curve(dnorm(x, mean=mean(arsenic.mean), sd=sd(arsenic.mean)), col="red", lwd=2, add=TRUE)
+```
+
+We could now construct a 2SE bootstrap confidence interval.
+
+```{r}
+#bootstrap mean
+mu.boot=mean(arsenic.mean)
+mu.boot
+#bootstrap SE
+se.boot=sd(arsenic.mean)
+
+#lower bound
+l.bd=mu.boot-2*se.boot
+#upper bound
+u.bd=mu.boot+2*se.boot
+
+print(c(l.bd, u.bd))
+```
+
+It might be interesting to superimpose it on the histogram. 
+
+```{r}
+hist(arsenic.mean, 
+     main="Bootstrap Distribution of Averages",
+     xlab="Bootstrap Averages",
+     col="steelblue")
+abline(v=l.bd, col="orange", lwd=2)
+abline(v=u.bd, col="orange", lwd=2)
+```
+
+
+We can also construct a bootstrap 95\%-percentile confidence interval.
+
+```{r}
+median(arsenic.mean)
+bds=quantile(arsenic.mean, c(0.025, 0.975))
+bds
+```
+**An analogous plot.**
+
+```{r}
+hist(arsenic.mean, 
+     main="Bootstrap Distribution of Averages",
+     xlab="Bootstrap Averages",
+     col="steelblue")
+abline(v=bds, col="orange", lwd=2)
+```

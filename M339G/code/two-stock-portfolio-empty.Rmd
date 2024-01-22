@@ -9,6 +9,11 @@ Here, I am adapting the lab associated with Chapter 5 of the textbook.
 
 There is no reason for us to repeatedly be doing this, but this is the first time we are using the library associated with the book. So, it's a good idea to install the package `ISLR2` and make the library accessible. 
 
+```{r}
+library(ISLR2)
+#Portfolio
+```
+
 
 Here is the content by *Hastie and Tibshirani*:
 
@@ -16,7 +21,20 @@ Here is the content by *Hastie and Tibshirani*:
 applied in almost all situations. No complicated mathematical calculations
 are required. Performing a bootstrap analysis in `R` entails only two
 steps. First, we must create a function that computes the statistic of
-interest. Second, we use the `boot()` function, which is part of the `boot` library, to perform the bootstrap by repeatedly
+interest. *
+
+```{r}
+alpha.fn<-function(data, index){
+  X=data$X[index]
+  Y=data$Y[index]
+  (var(Y)-cov(X,Y))/(var(X)+var(Y)-2*cov(X,Y))
+}
+alpha.fn(Portfolio, 1:10)
+alpha.fn(Portfolio, sample(100, 100, replace=T))
+```
+
+
+Second, we use the `boot()` function, which is part of the `boot` library, to perform the bootstrap by repeatedly
 sampling observations from the data set with replacement.
 
 The `Portfolio` data set in the `ISLR2` package is simulated data of $100$ pairs of returns, generated in the fashion described in Section 5.2.

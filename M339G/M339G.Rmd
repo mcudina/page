@@ -94,16 +94,19 @@ Resampling Methods (Bootstrap, cont’d).<br>
 
 [`R`-notebook for class](code/arsenic-empty.Rmd): Arsenic
 
+[`R`-notebook from class](code/arsenic-in-class.Rmd): Arsenic (complete)
+
 [`R`-notebook for class](code/two-stock-portfolio-empty.Rmd): Two-stock portfolio
 
-[Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
-
-[`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
 ---
 
 **Class 4: January 24th**<br>
 Resampling Methods (Sampling Distribution of the Slope Coefficient).<br>
+
+[Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
+
+[`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
 <!--
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
