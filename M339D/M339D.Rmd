@@ -85,23 +85,14 @@ Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 ---
 
 **Class 3: January 22nd**<br>
-`For` loops. `R`-notebooks.<br> 
+`For` loops. Functions in R. `If ... else` in R.
+`R`-notebooks.<br> 
 
-<!--
 [The R-notebook from class](code/first-notebook.Rmd)
--->
 
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
 
-<!--
 [Problem Set #1](code/m339d-ps1-in-class.Rmd): **Solutions from class**
--->
-
-Functions in R. `If ... else` in R.<br> 
-
-<!--
-[The R-script from class](code/ftions-ifelse.R)
--->
 
 Background. 
 

@@ -1,13 +1,23 @@
 ---
-title: "Our First R Notebook"
+title: "R Notebook"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
-  word_document: default
+  html_notebook: default
+  pdf_document: default
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Here is some text!
+*italics*
+**bold**
+
+```{r}
+a=25
+#take a square root of a
+sqrt(a)
+```
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
 
@@ -17,25 +27,17 @@ plot(cars)
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
+**if...else in `R`** 
 ```{r}
-v=c(2,3)
-#now I calculate the arithmetic average
-mean(v)
+maximum<-function(x,y){
+  if (x>y) {
+    print(x)
+  } else {
+    print(y)
+  }
+}
+maximum(pi, exp(1))
 ```
-
-# Title
-## Smaller title
-
-This is a list
-
-- item 1
-- item 2
-- item 3
-
-This is the *density of the standard normal distribution*
-$$
-\varphi(z) = \frac{1}{\sqrt{2\pi}}e^{-\tfrac{z^2}{2}}, \quad z \in \mathbb{R}
-$$
 
 When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
 
