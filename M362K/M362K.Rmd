@@ -47,11 +47,11 @@ Distributions <span style="color: purple;">**(Section 1.3)**</span>.<br>
 
 [Wikipedia](https://en.wikibooks.org/wiki/Set_Theory/Sets): Set notation
 
+[Class notes](notes/m362k-jan-22-2024.pdf)
+
+[The R-script from class](code/frequencies.R): Long-term proportions
+
 <!--
-`R`-notebooks.<br> 
-
-[The R-notebook from class](code/first-notebook.Rmd)
-
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
 
 [Problem Set #1](code/m339d-ps1-in-class.Rmd): **Solutions from class**
