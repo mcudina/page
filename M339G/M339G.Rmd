@@ -107,6 +107,8 @@ Resampling Methods (Sampling Distribution of the Slope Coefficient).<br>
 
 [Class notes](notes/m339g-jan-24-2024.pdf)
 
+[`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
+
 [Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
 
 [`R`-script for class](code/slr-conf-ints.R): Simple linear regression
