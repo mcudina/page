@@ -74,7 +74,7 @@ Orientation. `R` Markdown.<br>
 ---
 
 **Class 2: January 19th**<br>
-Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style="color: purple;">**(Section 5.2 and 5.3.4)**</span>.<br>
+Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
 [Class notes](notes/m339g-jan-19-2024.pdf)
 
@@ -89,7 +89,7 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 ---
 
 **Class 3: January 22nd**<br>
-Resampling Methods (Bootstrap, cont’d).<br>
+Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
 [Data set](code/bangladesh-data.csv): Chemicals in Bangladesh
 
@@ -103,7 +103,7 @@ Resampling Methods (Bootstrap, cont’d).<br>
 ---
 
 **Class 4: January 24th**<br>
-Resampling Methods (Sampling Distribution of the Slope Coefficient).<br>
+Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Sections 3.1 and 5.3.4)**</span>.<br>
 
 [Class notes](notes/m339g-jan-24-2024.pdf)
 
@@ -113,31 +113,14 @@ Resampling Methods (Sampling Distribution of the Slope Coefficient).<br>
 
 [`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
-<!--
-[Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
-
-[Problem Set #1](code/m339d-ps1-in-class.Rmd): **Solutions from class**
-
-Functions in R. `If ... else` in R.<br> 
-
-[The R-script from class](code/ftions-ifelse.R)
-
-Background. 
-
-[Lecture One](lectures/m339d-lecture-one-background.pdf): Background.
-
-Prerequisite review.<br>
-
-[Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems**
-
-[Class notes](notes/m339d-aug-28-2023.pdf) 
-
-[Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
-
-
 ---
 
-**Class 5: August 30th**<br>
+**Class 5: January 26th**<br>
+Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
+
+<!--
 Standing assumptions and conventions. Risky assets. 
 Transaction costs. <br>
 
