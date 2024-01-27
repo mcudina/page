@@ -121,9 +121,9 @@ Transaction costs. <br>
 
 [Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
 
-<!--
 [Extra class notes](notes/m339d-aug-28-2023-extra-notes.pdf) 
--->
+
+Historical returns of stocks.<br>
 
 [Yahoo! Finance](https://finance.yahoo.com)
 
@@ -131,21 +131,13 @@ Transaction costs. <br>
 
 [The R-notebook for class](code/m339d-msft-probs.Rmd)
 
-<!--
-[The R-notebook from class](code/m339d-msft-in-class-part-1.Rmd)
--->
+[The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
+
+[The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
 
 ---
 
 **Class 6: January 29th**<br>
-Historical returns of stocks.<br>
-
-[The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
-
-<!--
-[The R-notebook from class](code/m339d-msft-probs-4.Rmd)
--->
-
 Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
