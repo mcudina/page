@@ -116,9 +116,11 @@ Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope
 ---
 
 **Class 5: January 26th**<br>
-Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
+More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Section 5.3.4)**</span>.<br>
 
 [`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
+
+Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
