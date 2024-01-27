@@ -118,6 +118,8 @@ Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope
 **Class 5: January 26th**<br>
 Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
 
+[`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
+
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
 <!--
