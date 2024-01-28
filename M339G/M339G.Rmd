@@ -133,6 +133,8 @@ Simple Regression: Cross Validation <span style="color: purple;">**(Section 5.1.
 
 [Slides by Hastie & Tibshirani](slides/ch5-crossvalidation.pdf): Cross-validation 
 
+[`R`-notebook from class](code/cars-validation.Rmd): Cross-validation for simple linear regression
+
 <!--
 Historical returns of stocks.<br>
 
