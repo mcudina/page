@@ -61,36 +61,20 @@ Definition of *probability* <span style="color: purple;">**(Section 1.3)**</span
 ---
 
 **Class 5: January 26th**<br>
+More on probability. Binomial coefficients.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Standard_52-card_deck): Standard $52-$ card deck
+
+[Class notes](notes/m362k-jan-26-2024.pdf)
+
+---
+
+**Class 6: January 29th**<br>
 De Méré's paradox.<br>
 
 [Wikipedia](https://www.proofwiki.org/wiki/De_Méré's_Paradox): De Méré's paradox.
 
-[Wikipedia](https://en.wikipedia.org/wiki/Standard_52-card_deck): Standard $52-$ card deck
-
-
 <!--
-Standing assumptions and conventions. Risky assets. 
-Transaction costs. <br>
-
-[Lecture Two](lectures/m339d-lecture-two-transaction-costs.pdf): Transaction Costs
-
-[Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
-
-[Extra class notes](notes/m339d-aug-28-2023-extra-notes.pdf) 
-
-[Working directory in `R`](https://r-coder.com/working-directory-r/)
-
-[Yahoo! Finance](https://finance.yahoo.com)
-
-[Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
-
-[The R-notebook for class](code/m339d-msft-probs.Rmd)
-
-[The R-notebook from class](code/m339d-msft-in-class-part-1.Rmd)
-
----
-
-**Class 6: September 1st**<br>
 Historical returns of stocks.<br>
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
