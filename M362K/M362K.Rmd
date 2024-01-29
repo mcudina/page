@@ -70,7 +70,7 @@ More on probability. Binomial coefficients.<br>
 ---
 
 **Class 6: January 29th**<br>
-De Méré's paradox.<br>
+De Méré's paradox. Even more on probability.<br>
 
 [Wikipedia](https://www.proofwiki.org/wiki/De_Méré's_Paradox): De Méré's paradox.
 
@@ -78,11 +78,13 @@ De Méré's paradox.<br>
 
 **(Enrichment material)** [MCMC Revolution](https://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf) by legendary Persi Diaconis
 
-<!--
-
 ---
 
-**Class 7: September 6th**<br>
+**Class 7: February 2nd**<br>
+Conditional probability and independence <span style="color: purple;">**(Section 1.4)**</span>.<br>
+
+<!--
+
 On portfolios. 
 
 [The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
