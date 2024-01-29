@@ -74,26 +74,11 @@ De Méré's paradox.<br>
 
 [Wikipedia](https://www.proofwiki.org/wiki/De_Méré's_Paradox): De Méré's paradox.
 
+[Letter frequencies in English](https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html)
+
+**(Enrichment material)** [MCMC Revolution](https://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf) by legendary Persi Diaconis
+
 <!--
-Historical returns of stocks.<br>
-
-[The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
-
-[The R-notebook from class](code/m339d-msft-probs-4.Rmd)
-
-Outright purchase. Short sales.<br>
-
-[Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
-
-[Class notes](notes/m339d-sept-01-2023.pdf)
-
-[Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
-
-[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, September 18th, 2023**
-
-[Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-[Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
 
 ---
 
