@@ -74,13 +74,19 @@ De Méré's paradox. Even more on probability.<br>
 
 [Wikipedia](https://www.proofwiki.org/wiki/De_Méré's_Paradox): De Méré's paradox.
 
-[Letter frequencies in English](https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html)
+[Class notes](notes/m362k-jan-29-2024.pdf)
 
-**(Enrichment material)** [MCMC Revolution](https://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf) by legendary Persi Diaconis
+[The R-script from class](code/loaded-tetrahedron-in-class-too.R): A loaded tetrahedron with histograms and bar plots 
 
 ---
 
 **Class 7: January 31st**<br>
+Even even more on probability.<br>
+
+[Letter frequencies in English](https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html)
+
+**(Enrichment material)** [MCMC Revolution](https://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf) by legendary Persi Diaconis
+
 Conditional probability and independence <span style="color: purple;">**(Section 1.4)**</span>.<br>
 
 <!--
