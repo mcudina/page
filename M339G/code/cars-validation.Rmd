@@ -47,6 +47,8 @@ mean((mpg - predict(lm.fit, Auto))[-train]^2)
 Therefore, the estimated test MSE for the linear regression fit is $23.27$. We can use the `poly()` function to estimate the test error for the quadratic and cubic regressions.
 
 ```{r chunk4}
+lm.fit.tem<-lm(mpg ~ horsepower+ I(horsepower^2), data=Auto, subset=train)
+mean((mpg - predict(lm.fit.tem, Auto))[-train]^2)
 lm.fit2 <- lm(mpg ~ poly(horsepower, 2), data = Auto, 
     subset = train)
 mean((mpg - predict(lm.fit2, Auto))[-train]^2)
