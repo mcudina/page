@@ -1,0 +1,116 @@
+---
+title: "Multiple linear regression"
+author: "Trevor Hastie and Robert Tibshirani"
+output:
+  pdf_document: default
+---
+
+Here, I am adapting the lab associated with Chapter 3 of the textbook. 
+
+We load the `ISLR2` package, which includes the data sets associated with this book.
+
+```{r chunk1}
+library(ISLR2)
+```
+
+The `ISLR2` library contains the `Boston`  data set, which
+records `medv` (median house value) for $506$ census tracts in Boston. We will seek to predict `medv` using $12$ predictors such as `rmvar` (average number of  rooms per house), `age` (proportion of owner-occupied units built prior to 1940) and `lstat` (percent of households with low socioeconomic status).
+
+```{r chunk2}
+head(Boston)
+```
+
+We should also investigate the variables therein and `attach` so that we don't have to use the `$` notation.
+
+```{r}
+names(Boston)
+attach(Boston)
+```
+
+To find out more about the data set, we can type `?Boston`.
+
+We will start by fitting a simple  linear regression model, with `medv` as the response and `lstat`  as the predictor. Here is the scatterplot.
+
+```{r}
+plot(lstat, medv, 
+     main="Median value vs. lower status",
+     xlab="Lower status in the population (%)",
+     ylab="Median home value (in Ks)",
+     pch=20, col="blue")
+```
+
+For the implementation of the linear model, the basic syntax is `lm(y ~ x, data)`, where `y` is the response, `x` is the predictor, and `data` is the data set in which these two variables are kept.
+
+
+```{r chunk3, error=TRUE}
+lm.fit <- lm(medv ~ lstat)
+summary(lm.fit)
+
+plot(lstat, medv, 
+     main="Median value vs. lower status",
+     xlab="Lower status in the population (%)",
+     ylab="Median home value (in Ks)",
+     pch=20, col="blue")
+abline(lm.fit, col="red", lwd=2)
+```
+We can use the `names()` function in order to find out what other pieces of information  are stored in `lm.fit`.
+Although we can extract these quantities by name---e.g. `lm.fit$coefficients`---it is safer to use the extractor functions like `coef()` to access them.
+
+```{r chunk6}
+names(lm.fit)
+coef(lm.fit)
+```
+
+In order to obtain a confidence interval for the coefficient estimates, we can use the `confint()` command.
+
+```{r chunk7}
+confint(lm.fit)
+```
+
+The `predict()` function can be used to produce confidence intervals and prediction intervals for the prediction of `medv` for a given value of `lstat`.
+
+```{r chunk8}
+predict(lm.fit, data.frame(lstat = (c(5, 10, 15))),
+    interval = "confidence")
+predict(lm.fit, data.frame(lstat = (c(5, 10, 15))),
+    interval = "prediction")
+```
+
+How about the full array of confidence and prediction intervals?
+
+```{r}
+newdata<-data.frame(lstat=seq(min(lstat),max(lstat),0.1))
+
+conf<-predict(lm.fit,newdata,interval="confidence")
+pred<-predict(lm.fit,newdata,interval="prediction")
+all.ints<-cbind(conf,pred[,-1])
+
+plot(lstat, medv, 
+     main="Median value vs. lower status",
+     xlab="Lower status in the population (%)",
+     ylab="Median home value (in Ks)",
+     pch=20, col="blue")
+matplot(newdata, all.ints, type="l", lty=1, lwd=2, col=c("red", "purple", "purple","green","green"), add=TRUE)
+```
+
+We can compute the residuals from a linear regression
+fit using the `residuals()` function. The function
+`rstudent()` will return the studentized residuals, and we
+can use this function to plot the residuals against the fitted values.
+
+```{r chunk12}
+plot(predict(lm.fit), residuals(lm.fit),
+     main="Do residuals depend on the explanatory?",
+     xlab="Explanatory",
+     ylab="Residuals",
+     pch=20, col="blue")
+abline(0,0, col="red", lwd=2)
+plot(predict(lm.fit), rstudent(lm.fit),
+     main="Do residuals depend on the explanatory?",
+     xlab="Explanatory",
+     ylab="Residuals in t-units",
+     pch=20, col="blue")
+abline(0,0, col="red", lwd=2)
+```
+
+On the basis of the residual plots, there is some evidence of non-linearity.
