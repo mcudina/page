@@ -142,6 +142,8 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 
 [Slides by Hastie & Tibshirani](slides/ch3-multiple-linear-regression-intro.pdf): Multiple linear regression 
 
+[`R`-notebook from class](code/mlr.Rmd): Multiple linear regression
+
 [Wikipedia](https://en.wikipedia.org/wiki/Projection_matrix): Projection matrix
 
 [Wikipedia](https://en.wikipedia.org/wiki/Leverage_(statistics)): Leverage
