@@ -83,27 +83,20 @@ De Méré's paradox. Even more on probability.<br>
 **Class 7: January 31st**<br>
 Even even more on probability.<br>
 
+[Class notes](notes/m362k-jan-31-2024.pdf)
+
 [Letter frequencies in English](https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html)
 
 **(Enrichment material)** [MCMC Revolution](https://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf) by legendary Persi Diaconis
 
-Conditional probability and independence <span style="color: purple;">**(Section 1.4)**</span>.<br>
-
-<!--
-
-On portfolios. 
-
-[The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
-
-[The R-notebook from class](code/m339d-project1-variation-in-class.Rmd): **Solutions**
-
-Payoff and profit.<br>
-
-[Class notes](notes/m339d-sept-06-2023.pdf) 
-
 ---
 
-**Class 8: September 8th**<br>
+**Class 8: February 2nd**<br>
+Conditional probability and independence <span style="color: purple;">**(Section 1.4)**</span>.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Groundhog_Day): Groundhog day 
+
+<!--
 Payoff and profit curves. Long/short positions.<br>
 
 [Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
