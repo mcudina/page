@@ -1,0 +1,43 @@
+---
+title: "Problem set #8: Monte Carlo"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## Problem #1: Simple gambling
+Consider a game in which a spinner is spun. The spinner is equally likely to land on *yellow*, *red*, or *blue*. If the spinner lands on *yellow*, the player loses \$1. If the spinner lands on *red*, the player wins \$1. If the spinner lands on *blue*, no money changes hands. 
+
+Use *Monte Carlo* to estimate the expected winnings based on 10,000 runs. Does the result agree with your theoretical expected value?
+
+Now, complete 1,000 batches of 10,000 runs. What does the histogram of the averages of the 1,000 batches look like? What is their mean? What is their variance? What is their standard deviation?
+
+
+
+## Problem #2: Gambling
+Consider the following game: 
+
+- if a fair die lands on an odd number, the player loses one dollar; 
+- if a fair die lands on an even number which is not a perfect square, no money changes hands; 
+- if a fair die lands on an even number which is also a perfect square, the player wins nine dollars. 
+
+What is the theoretical expectation of the amount won in this game?
+
+Use *Monte Carlo* to estimate the expected winnings based on 10,000 runs. Does the result agree with your theoretical expected value?
+
+
+
+## Problem #3: The binomial distribution
+Consider a random variable $X$ which has the binomial distribution with the number of trials equal to $50$ and the probability of success in every trial equal to $2/5$. 
+
+What is the expected value of this random variable?
+
+Use *Monte Carlo* to estimate the expected value based on 10,000 runs. Does the result agree with your theoretical expected value?
+
+
