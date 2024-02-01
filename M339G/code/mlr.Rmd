@@ -82,8 +82,11 @@ How about the full array of confidence and prediction intervals?
 newdata<-data.frame(lstat=seq(min(lstat),max(lstat),0.1))
 
 conf<-predict(lm.fit,newdata,interval="confidence")
+conf
 pred<-predict(lm.fit,newdata,interval="prediction")
+pred
 all.ints<-cbind(conf,pred[,-1])
+all.ints
 
 plot(lstat, medv, 
      main="Median value vs. lower status",
@@ -155,3 +158,4 @@ Alternatively, the `update()` function can be used.
 ```{r chunk18}
 lm.fit1 <- update(lm.fit, ~ . - age)
 ```
+
