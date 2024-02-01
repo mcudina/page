@@ -277,8 +277,6 @@ European put options. Moneyness.<br>
 [Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, March 1st, 2024**
 
 <!--
-[In-Term One](exams/m339d-one-topics.pdf): Topics
-
 [Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
 
 [Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions** 
@@ -391,19 +389,20 @@ The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 [Problem Set #8](problem-sets/m339d-ps8-mc-solns.Rmd): **Solutions**
 -->
 
+[In-Term One](exams/m339d-one-topics.pdf): Topics
+
 [Apple put data](data/apple-puts.csv)
 
 [Project #3](projects/m339d-project3-probs.pdf) -- **due on Monday, March 25th**
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
 ---
 
-**Class 20: October 6th**<br>
-
+**Class 20: March 1st**<br>
 The binomial asset-pricing model.<br>
 
+<!--
 [Class notes](notes/m339d-oct-06-2023.pdf) 
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
