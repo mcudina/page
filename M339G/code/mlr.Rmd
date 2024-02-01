@@ -159,3 +159,12 @@ Alternatively, the `update()` function can be used.
 lm.fit1 <- update(lm.fit, ~ . - age)
 ```
 
+## Interaction Terms
+
+It is easy to include interaction terms in a linear model using the `lm()` function. The syntax `lstat:age` tells `R` to include an interaction term between `lstat` and `age`.
+The syntax `lstat * age` simultaneously includes `lstat`, `age`, and the interaction term `lstat`$\times$`age` as predictors; it is a shorthand for `lstat + age + lstat:age`.
+  %We can also pass in transformed versions of the predictors.
+
+```{r chunk19}
+summary(lm(medv ~ lstat * age, data = Boston))
+```

@@ -155,6 +155,15 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-contd.pdf): Multiple linear regression (cont'd) 
 
+[Wikipedia](https://en.wikipedia.org/wiki/Mallows%27s_Cp): Mallows' $C_p$
+
+[Wikipedia](https://en.wikipedia.org/wiki/Akaike_information_criterion): Akaike information criterion
+
+[Wikipedia](https://en.wikipedia.org/wiki/Bayesian_information_criterion): Bayesian information criterion
+
+[Wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2): Adjusted $R^2$
+
+
 <!--
 
 ---

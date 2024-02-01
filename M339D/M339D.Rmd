@@ -356,17 +356,10 @@ Put-call parity: Practice. Chooser options.<br>
 
 <!--
 [Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
-
-
+-->
 ---
 
 **Class 18: February 26th**<br>
-
----
-
-**Class 19: October 4th**<br>
-
-
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -374,6 +367,19 @@ Random number generation.<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister): Mersenne twister
 
 [An atmospheric RNG](https://www.random.org/)
+
+Inverse-Transform Method. Acceptance-Rejection Method.<br>
+
+[Problem set #7](problem-sets/m339d-ps7-inverse-transform-probs.pdf): Problems
+
+<!--
+[Problem set #7](problem-sets/m339d-ps7-inverse-transform-solns.pdf): Solutions
+
+---
+
+**Class 19: October 4th**<br>
+
+
 
 The Strong Law of Large Numbers. Monte Carlo simulation.<br>
 
