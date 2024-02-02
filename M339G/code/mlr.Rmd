@@ -130,7 +130,8 @@ The `which.max()` function identifies the index of the largest element of a vect
 
 ## Multiple Linear Regression
 
-In order to fit a multiple linear regression model using least squares, we again use the `lm()` function. The syntax `lm(y ~ x1 + x2 + x3)` is used to fit a model with three predictors, `x1`, `x2`, and `x3`.
+In order to fit a multiple linear regression model using least squares, we again use the `lm()` function. The syntax 
+`lm(y ~ x1 + x2 + x3)` is used to fit a model with three predictors, `x1`, `x2`, and `x3`.
 The `summary()` function now outputs the regression coefficients for all the predictors.
 
 ```{r chunk14}
@@ -159,11 +160,29 @@ Alternatively, the `update()` function can be used.
 lm.fit1 <- update(lm.fit, ~ . - age)
 ```
 
+*Take away the next explanatory with a sizeable $p-$value, i.e., `indus`. *
+
+```{r chunk17a}
+lm.fit2 <- lm(medv ~ . - age - indus, data = Boston)
+summary(lm.fit2)
+```
+
 ## Interaction Terms
 
 It is easy to include interaction terms in a linear model using the `lm()` function. The syntax `lstat:age` tells `R` to include an interaction term between `lstat` and `age`.
+
+```{r chunk19z}
+summary(lm(medv ~ lstat:age, data = Boston))
+```
+```{r chunk19y}
+summary(lm(medv ~ lstat + age + lstat:age, data = Boston))
+```
+```{r chunk19x}
+summary(lm(medv ~ lstat + lstat:age, data = Boston))
+```
+
 The syntax `lstat * age` simultaneously includes `lstat`, `age`, and the interaction term `lstat`$\times$`age` as predictors; it is a shorthand for `lstat + age + lstat:age`.
-  %We can also pass in transformed versions of the predictors.
+We can also pass in transformed versions of the predictors.
 
 ```{r chunk19}
 summary(lm(medv ~ lstat * age, data = Boston))

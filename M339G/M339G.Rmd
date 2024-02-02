@@ -153,6 +153,15 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 **Class 8: February 2nd**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
+[Class notes](notes/m339g-feb-02-2024.pdf)
+
+[`R`-script from class](code/F-distn.R): The $F-$distribution
+
+---
+
+**Class 9: February 5th**<br>
+Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
+
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-contd.pdf): Multiple linear regression (cont'd) 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Mallows%27s_Cp): Mallows' $C_p$
@@ -165,20 +174,6 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 
 <!--
-
----
-
-**Class 9: September 11th**<br>
-Basic risk management. Forward contracts.<br>
-
-[Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration.pdf):  **Problems**
-
-[Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration-solns.pdf):  **Solutions**
-
-[Class notes](notes/m339d-sept-11-2023.pdf) 
-
-[Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
-
 ---
 
 **Class 10: September 13th**<br>
