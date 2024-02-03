@@ -176,6 +176,7 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2): Adjusted $R^2$
 
+[Code for class](code/trees-empty.Rmd): Cherry trees
 
 <!--
 ---

@@ -1,0 +1,30 @@
+---
+title: "Trees Data Analysis"
+author: "Milica Cudina"
+output:
+  pdf_document: default
+---
+
+The data set `trees` is built-in. Let's take a look at it. 
+
+
+It should contain measurements of $31$ cherry trees, namely, their `Girth`, `Height`, and `Volume`. 
+
+Again, we undertake a rudimentary exploratory data analysis. It's natural to be interested in pairwise interactions. So, we create an array of scatterplots with which we can visually assess the shape of the dependence and the correlations of each pair of variables.
+
+We might be interested in looking at, say, `Girth` as the explanatory and `Volume` as the response. This would be a simple linear regression. 
+
+
+Now, let's see what happens when we add `Height` as an additional explanatory variable, thus creating a multiple linear regression. 
+
+Let's compare the **coefficient of determination** $R^2$ for the above two fits. 
+
+For anyone who has ever seen trees, it's natural to suspect that there is a correlation between `Height` and `Girth`. Let's check
+
+So, it might be a good idea to introduce the interaction term in our multiple linear regression. 
+
+We should take note, again, of any changes (improvements?) in the $R^2$ and/or the $p-$values. 
+
+Now, we can decide that we are reasonably happy, or we can go back to middle-school math and remember the formulae for volumes of cylinders. Which explanatory should we choose? 
+
+
