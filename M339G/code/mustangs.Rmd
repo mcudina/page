@@ -1,0 +1,98 @@
+---
+title: "Mustangs Data Analysis"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+Let's import the data set and poke around a bit. 
+
+```{r}
+mustangs<-read.csv("mustangs.csv")
+names(mustangs)
+dim(mustangs)
+```
+
+
+Again, we undertake a rudimentary exploratory data analysis. It's natural to be interested in pairwise interactions. So, we create an array of scatterplots with which we can visually assess the shape of the dependence and the correlations of each pair of variables.
+
+```{r}
+plot(mustangs, 
+     pch=20, col="blue")
+cor(mustangs)
+```
+
+Let's create three models:
+
+```{r}
+attach(mustangs)
+lm.fit.s=lm(Price~Miles)
+summary(lm.fit.s)
+lm.fit.q=lm(Price~Miles+I(Miles^2))
+summary(lm.fit.q)
+lm.fit.m=lm(Price~Miles+Age)
+summary(lm.fit.m)
+lm.fit.all=lm(Price ~ Miles*Age)
+summary(lm.fit.all)
+```
+We can do a simple $1$-cross-validation on the above models. We can define the training set in the same fashion for all:
+
+```{r}
+set.seed(123)
+n=length(Price)
+train=sample(n, floor(n/2))
+```
+
+Now, we can simply calculate the MSEs on the validation models for all the models. 
+
+```{r}
+#simple linear regression
+lm.fit.s<-lm(Price~Miles,data=mustangs,subset=train)
+mean((Price-predict(lm.fit.s,mustangs))[-train]^2)
+
+#quadratic 
+lm.fit.q=lm(Price~Miles+I(Miles^2),data=mustangs,subset=train)
+mean((Price-predict(lm.fit.q,mustangs))[-train]^2)
+
+#multiple linear regression
+lm.fit.m=lm(Price~Miles+ Age,data=mustangs,subset=train)
+mean((Price-predict(lm.fit.m,mustangs))[-train]^2)
+
+#multiple linear regression with interacions
+lm.fit.mi=lm(Price~Miles*Age,data=mustangs,subset=train)
+mean((Price-predict(lm.fit.mi,mustangs))[-train]^2)
+```
+With the above values in mind, we might develop a different belief about which model is preferable. 
+
+Finally, let's do LOOCV. 
+
+```{r}
+#simple linear regression
+glm.fit.s<-glm(Price~Miles,data=mustangs)
+cv.err.s=cv.glm(mustangs,glm.fit.s)
+cv.err.s$delta[1]
+
+#quadratic 
+glm.fit.q=glm(Price~Miles+I(Miles^2),data=mustangs)
+cv.err.q=cv.glm(mustangs,glm.fit.q)
+cv.err.q$delta[1]
+
+#multiple linear regression
+glm.fit.m=glm(Price~Miles+ Age,data=mustangs)
+cv.err.m=cv.glm(mustangs,glm.fit.m)
+cv.err.m$delta[1]
+
+#multiple linear regression with interacions
+glm.fit.mi=glm(Price~Miles*Age,data=mustangs)
+cv.err.mi=cv.glm(mustangs,glm.fit.mi)
+cv.err.mi$delta[1]
+```
+
+
+
+
+
+
+
+
+
