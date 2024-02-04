@@ -92,7 +92,7 @@ Even even more on probability.<br>
 ---
 
 **Class 8: February 2nd**<br>
-Conditional probability and independence <span style="color: purple;">**(Section 1.4)**</span>.<br>
+Conditional probability and the multiplication formula <span style="color: purple;">**(Section 1.4)**</span>.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Groundhog_Day): Groundhog day 
 
@@ -104,35 +104,22 @@ Conditional probability and independence <span style="color: purple;">**(Section
 
 [Homework #2](hw/m362k-hw2-probability-probs.pdf) -- **due on Friday, February 9th**
 
+---
+
+**Class 9: February 5th**<br>
+Independence and probability trees <span style="color: purple;">**(Section 1.4)**</span>.<br>
+
+Bayes' rule <span style="color: purple;">**(Section 1.5)**</span>.<br>
+
+---
+
+**Class 10: February 7th**<br>
+More on the Bayes rule <span style="color: purple;">**(Section 1.5)**</span>.<br>
+
+[In-Term One](exams/m362k-one-topics.pdf): Topics
+
 <!--
-[Problem Set #1](problem-sets/m362k-ps1-cond-prob-ind-solns.pdf): **Solutions**
 
-Payoff and profit curves. Long/short positions.<br>
-
-[Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
-
-[Class notes](notes/m339d-sept-08-2023.pdf) 
-
-[Homework #2](hw/m339d-hw2-prereq-solns.pdf) -- **solutions**
-
-[Homework #3](hw/m339d-hw3.pdf) -- **due on Friday, September 15th**
-
----
-
-**Class 9: September 11th**<br>
-Basic risk management. Forward contracts.<br>
-
-[Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration.pdf):  **Problems**
-
-[Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration-solns.pdf):  **Solutions**
-
-[Class notes](notes/m339d-sept-11-2023.pdf) 
-
-[Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
-
----
-
-**Class 10: September 13th**<br>
 Hedging using forward contracts.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
