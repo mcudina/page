@@ -7,12 +7,41 @@ output:
 
 The data set `trees` is built-in. Let's take a look at it. 
 
+```{r}
+names(trees)
+dim(trees)
+```
 
 It should contain measurements of $31$ cherry trees, namely, their `Girth`, `Height`, and `Volume`. 
 
+
+
 Again, we undertake a rudimentary exploratory data analysis. It's natural to be interested in pairwise interactions. So, we create an array of scatterplots with which we can visually assess the shape of the dependence and the correlations of each pair of variables.
 
+```{r}
+plot(trees,
+     col="blue", pch=20)
+```
+
 We might be interested in looking at, say, `Girth` as the explanatory and `Volume` as the response. This would be a simple linear regression. 
+
+```{r}
+lm.fit.g<-lm(Volume ~ Girth, data=trees)
+summary(lm.fit.g)
+attach(trees)
+plot(Girth, Volume, 
+     pch=20, col="blue",
+     main="Dependence of Volume on 'Girth'")
+abline(lm.fit.g, col="red", lwd=2)
+
+lm.fit.h<-lm(Volume ~ Height, data=trees)
+summary(lm.fit.h)
+attach(trees)
+plot(Height, Volume, 
+     pch=20, col="blue",
+     main="Dependence of Volume on Height")
+abline(lm.fit.h, col="red", lwd=2)
+```
 
 
 Now, let's see what happens when we add `Height` as an additional explanatory variable, thus creating a multiple linear regression. 
