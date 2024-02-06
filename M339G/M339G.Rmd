@@ -186,12 +186,14 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Code for class](code/mustangs.Rmd): Mustangs
 
-<!--
 ---
 
 **Class 10: September 13th**<br>
-Hedging using forward contracts.<br>
+Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
+[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
+
+<!--
 [Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
 
 [Class notes](notes/m339d-sept-13-2023.pdf) 
