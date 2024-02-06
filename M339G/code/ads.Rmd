@@ -1,0 +1,70 @@
+---
+title: "Ad Analysis"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+First, we download the data set and take a look at it. 
+
+```{r}
+data<-read.csv("salesadv.csv",header=TRUE)
+attach(data)
+data[,-4]
+plot(data[,-4],
+     col="blue", pch=20)
+```
+
+Just for laughs, let's fit a multiple linear regression. 
+
+```{r}
+lm.fit.m=lm(sales ~ adv + adv1, data=data)
+summary(lm.fit.m)
+lm.fit.mi=lm(sales ~ adv*adv1, data=data)
+summary(lm.fit.mi)
+```
+We are going to focus on just the fit with `adv` as a single predictor. So, let's look at the simple linear regression. 
+
+```{r}
+plot(adv, sales, 
+     pch=20, col="blue",
+     main="Dependence of sales on advertising",
+     xlab="Advertising",
+     ylab="Sales")
+lm.fit<-lm(sales ~ adv)
+abline(lm.fit, col="red", lwd=2)
+summary(lm.fit)
+```
+
+Since there appears to be a difference in the "signal" in the vicinity of $50$ in `adv`, it's time to consider linear splines. First, we import the library `splines`.
+
+```{r}
+library(splines)
+```
+
+Then, we do create a fit with `degree=1` - meaning that it's a linear spline. Note, that we specify a single knot at $50$. 
+
+```{r}
+lm.fit.ls<-lm(sales~bs(adv,knots=c(50),degree=1),data=data)
+summary(lm.fit.ls)
+```
+
+The $R^2$ is better. What about the visuals? 
+
+```{r}
+adv.mesh=seq(from=min(adv),to=max(adv), by=0.5)
+predictions=predict(lm.fit.ls,newdata=list(adv=adv.mesh),se=T)
+
+plot(adv, sales, 
+     pch=20, col="lightblue",
+     main="Dependence of sales on advertising",
+     xlab="Advertising",
+     ylab="Sales")
+
+lines(adv.mesh,predictions$fit,col="red", lwd=2)
+lines(adv.mesh,predictions$fit+2*predictions$se, col="blue")
+lines(adv.mesh,predictions$fit-2*predictions$se, col="blue")
+
+```
+
+

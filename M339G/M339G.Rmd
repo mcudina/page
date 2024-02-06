@@ -193,6 +193,10 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
 
+[Slides by Hastie & Tibshirani](slides/ch7-linear-splines.pdf): Intro to Splines 
+
+[Data for class](code/salesadv.csv): Sales
+
 <!--
 [Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
 
