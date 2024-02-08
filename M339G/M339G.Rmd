@@ -131,6 +131,8 @@ Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>
 **Class 6: January 29th**<br>
 Simple Regression: Cross Validation <span style="color: purple;">**(Section 5.1.1, 5.1.2, 5.1.3, 5.3.1, 5.3.2, 5.3.3)**</span>.<br>
 
+[Class notes](notes/m339g-jan-29-2024.pdf)
+
 [Slides by Hastie & Tibshirani](slides/ch5-crossvalidation.pdf): Cross-validation 
 
 [`R`-notebook from class](code/cars-validation.Rmd): Cross-validation for simple linear regression
