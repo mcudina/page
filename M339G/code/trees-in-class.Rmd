@@ -76,3 +76,9 @@ lm.fit.geom<-lm(Volume ~ 0 + I(Girth^2):Height)
 summary(lm.fit.geom)
 ```
 
+With the hierarchy principle:
+
+```{r}
+lm.fit.geom.h<-lm(Volume ~ I(Girth^2)*Height)
+summary(lm.fit.geom.h)
+```

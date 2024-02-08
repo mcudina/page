@@ -16,6 +16,8 @@ be easily implemented in `R`.  We begin by loading the
 ```{r chunk1}
 library(ISLR2)
 attach(Wage)
+plot(age, wage,
+     pch=20, col="lightblue")
 ```
 
 ## Cubic splines
