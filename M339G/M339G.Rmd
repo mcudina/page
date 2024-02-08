@@ -212,6 +212,9 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 
 [Slides by Hastie & Tibshirani](slides/ch2-interpretability.pdf): Bias-variance trade-off and interpretability
 
+Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
 
 <!--
 European call options.<br>
