@@ -206,6 +206,10 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 ---
 
 **Class 11: February 9th**<br>
+More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
+
+[Code for class](code/splines-validation.Rmd): Splines with validation
+
 The Trade-Off Between Prediction Accuracy and Model Interpretability <span style="color: purple;">**(Section 2.1.3)**</span>.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Thin_plate_spline): Thin-plate spline

@@ -1,0 +1,145 @@
+---
+title: "Splines with Cross-Validation"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+First, we need some libraries:
+
+```{r}
+library(ISLR2)
+```
+
+Next, we look at the included data set:
+
+```{r}
+data<-Auto
+attach(Auto)
+dim(Auto)
+```
+
+We will split the data set into training and validation. 
+
+```{r}
+#setting the seed for comparable results
+set.seed(1)
+#first we create the set of indices of what will go into the training set
+train <- sample(length(mpg), floor(length(mpg)/2))
+#now we put the data with the above indices 
+#into the training set
+training<-data[train,]
+dim(training)
+#the complement of the above indices designates 
+#the validation set
+val<-data[-train,]
+dim(val)
+```
+
+Next, we import the library `splines`.
+
+```{r}
+library(splines)
+```
+
+Making a **linear** fit is the same thing as fitting a smooth spline with $2$ degrees of freedom (corresponding to parameters $\beta_0$ and $\beta_1$). 
+
+```{r}
+lin.fit=smooth.spline(training$weight,training$mpg,df=2)
+lin.fit
+plot(training$weight,training$mpg, 
+     col="lightblue", pch=20,
+     main="Dependence of efficiency on weight",
+     xlab="Weight", ylab="mpg")
+lines(lin.fit,col="red", lwd=2)
+#lm.fit=lm(training$mpg ~ training$weight)
+#abline(lm.fit, col="blue")
+```
+Let's see how this fit performs on the validation set. 
+
+```{r}
+pred <- predict(lin.fit, val$weight)
+#what does `predict` give us in this case?
+pred
+#plot of how "off" the predictions are
+plot(pred$y-val$mpg, 
+     col="lightblue", pch=20,
+     main="Predicted minus actual",
+     xlab="Index", ylab="Difference")
+abline(0,0, col="red", lwd=2)
+#the mean squared error of the predicted values
+#in the validation set
+mean((pred$y-val$mpg)^2)
+```
+
+How would the **quadratic** fit work? That's what we get with $3$ degrees of freedom. 
+
+```{r}
+q.fit=smooth.spline(training$weight,training$mpg,df=3)
+
+plot(training$weight,training$mpg, 
+     col="lightblue", pch=20,
+     main="Dependence of efficiency on weight",
+     xlab="Weight", ylab="mpg")
+lines(lin.fit, col="red")
+lines(q.fit,col="purple", lwd=2)
+```
+
+How well did we do on the validation set?
+
+```{r}
+#as before, we create the predicted values
+pred <- predict(q.fit, val$weight)
+#plot of how "off" the predictions are
+plot(pred$y-val$mpg, 
+     col="lightblue", pch=20,
+     main="Predicted minus actual",
+     xlab="Index", ylab="Difference")
+abline(0,0, col="red", lwd=2)
+#the mean squared error of the predicted values
+#in the validation set
+mean((pred$y-val$mpg)^2)
+```
+
+It might be fun to go through a `for` loop and see what the MSEs on the validation set are as we increase the number of degrees of freedom. 
+
+```{r}
+#first we choose the maximal number of degrees of freedom
+max.deg=10
+#now, we create a numeric vector which will contain 
+#validation set MSEs
+MSEs=numeric(max.deg)
+#next, we repeat the procedures we had before `max.deg` times
+for (deg in 1:max.deg){
+  fit=smooth.spline(training$weight,training$mpg,df=deg+1)
+  pred <- predict(fit, val$weight)
+  MSEs[deg]=mean((pred$y-val$mpg)^2)
+}
+print(MSEs)
+#let's plot the MSEs as they depend 
+#on the degree of the polynomial
+plot(MSEs, type="b",
+     xlab="Polynomial degree",
+     ylab="MSE",
+     col="peru", pch=20)
+```
+
+What would we get if we let `R` optimize the number of degrees of freedom using LOOCV?
+
+```{r}
+fit.cv=smooth.spline(training$weight,training$mpg,cv=T)
+fit.cv$df
+
+plot(training$weight,training$mpg, 
+     col="lightblue", pch=20,
+     main="Dependence of efficiency on weight",
+     xlab="Weight", ylab="mpg")
+lines(lin.fit, col="red")
+lines(q.fit,col="purple")
+lines(fit.cv,col="blue",lwd=2)
+
+pred <- predict(fit.cv, val$weight)
+
+mean((pred$y-val$mpg)^2)
+```
+
