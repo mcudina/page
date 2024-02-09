@@ -1,0 +1,45 @@
+---
+title: "Banknotes with K-Means"
+author: "Milica Cudina"
+output:
+  pdf_document: default
+---
+
+First, we need to import data:
+
+```{r}
+notes<-read.csv("banknotes.csv")
+head(notes)
+```
+
+Now, a bit of exploratory data analysis:
+
+```{r}
+attach(notes)
+plot(V1, V2,
+     col="yellow", pch=20,
+     xlab="Property 1", 
+     ylab="Property 2")
+```
+
+The function `kmeans()` performs $K$-means clustering in
+`R`. 
+
+```{r}
+km.out <- kmeans(notes, 2, nstart = 20)
+#here are the cluster assignments
+km.out$cluster
+#here are the cluster centers
+km.out$centers
+```
+It all works out much better visually. 
+
+```{r}
+#cloud of points with colors corresponding to cluster
+plot(notes, col = (km.out$cluster + 1),
+    main = "K-Means Clustering Results with K = 2",
+    xlab = "Property !", ylab = "Property 2", pch = 20, cex = 2)
+#adding the centers
+points(km.out$centers, col="blue", pch=20)
+```
+
