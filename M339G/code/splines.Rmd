@@ -16,6 +16,7 @@ be easily implemented in `R`.  We begin by loading the
 ```{r chunk1}
 library(ISLR2)
 attach(Wage)
+dim(Wage)
 plot(age, wage,
      pch=20, col="lightblue")
 ```
@@ -67,6 +68,7 @@ pred2 <- predict(fit2, newdata = list(age = age.grid),
      se = T)
 plot(age, wage, col = "gray", pch=20)
 lines(age.grid, pred2$fit, col = "red", lwd = 2)
+lines(age.grid, pred$fit, lwd = 2, col="blue")
 ```
 
 As with the `bs()` function, we could instead specify the knots directly using the `knots` option.

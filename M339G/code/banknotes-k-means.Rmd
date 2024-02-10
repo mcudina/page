@@ -38,7 +38,7 @@ It all works out much better visually.
 #cloud of points with colors corresponding to cluster
 plot(notes, col = (km.out$cluster + 1),
     main = "K-Means Clustering Results with K = 2",
-    xlab = "Property !", ylab = "Property 2", pch = 20, cex = 2)
+    xlab = "Property 1", ylab = "Property 2", pch = 20, cex = 2)
 #adding the centers
 points(km.out$centers, col="blue", pch=20)
 ```

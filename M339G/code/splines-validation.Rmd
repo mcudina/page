@@ -61,6 +61,8 @@ Let's see how this fit performs on the validation set.
 pred <- predict(lin.fit, val$weight)
 #what does `predict` give us in this case?
 pred
+pred$x
+pred$y
 #plot of how "off" the predictions are
 plot(pred$y-val$mpg, 
      col="lightblue", pch=20,
