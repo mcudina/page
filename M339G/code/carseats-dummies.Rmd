@@ -1,0 +1,50 @@
+---
+title: "Carseats: Categorical predictors"
+author: "Trevor Hastie and Robert Tibshirani"
+output:
+  pdf_document: default
+---
+
+Here, I am adapting the lab associated with Chapter 3 of the textbook. 
+
+## Qualitative Predictors
+
+We will now examine the **simulated** `Carseats` data, which is part of the `ISLR2` library. We will  attempt to predict `Sales`
+(child car seat sales) in $400$ locations based on a number of
+predictors.
+
+```{r chunk25}
+library(ISLR2)
+head(Carseats)
+```
+
+**What about a spreadsheet array?**
+
+```{r}
+plot(Carseats)
+```
+
+**While we do not get much out of the array, we can easily identify the categorical predictors.**
+
+The `Carseats` data includes qualitative predictors such as `shelveloc`, an indicator of the quality of the shelving location---that is, the  space within a store in which the car seat is displayed---at each location. The predictor `shelveloc` takes on three possible values:  *Bad*, *Medium*, and *Good*. Given a qualitative variable such as `shelveloc`, `R` generates dummy variables automatically. Below we fit a multiple regression model that includes some interaction terms.
+
+```{r chunk26}
+lm.fit <- lm(Sales ~ . + Income:Advertising + Price:Age, 
+    data = Carseats)
+summary(lm.fit)
+```
+
+The `contrasts()` function returns the coding that `R` uses for the dummy variables.
+
+```{r chunk27}
+attach(Carseats)
+contrasts(ShelveLoc)
+```
+
+Use `?contrasts` to learn about other contrasts, and how to set them.
+
+`R` has created a `ShelveLocGood` dummy variable that takes on a value of 1 if the shelving location is good, and 0 otherwise. It has also created a `ShelveLocMedium` dummy variable that equals 1 if the shelving location is medium, and 0 otherwise.
+A bad shelving location corresponds to a zero for each of the two dummy variables.
+The fact that the coefficient for `ShelveLocGood` in the regression output is positive indicates that a good shelving location is associated with high sales (relative to a bad location). And `ShelveLocMedium` has a smaller positive coefficient, indicating that a medium shelving location is associated with higher sales than a bad shelving location but lower sales than a good shelving location.
+
+

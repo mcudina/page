@@ -241,6 +241,8 @@ Regression vs Classification Problems <span style="color: purple;">**(Section 2.
 
 [Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
 
+[`R`-notebook for class](code/carseats-dummies.Rmd): Qualitative/categorical predictors
+
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
 
 
