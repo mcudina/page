@@ -228,25 +228,18 @@ Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
 
-[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, February 12th, 2024**
+[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, March 4th, 2024**
 
 [Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 [Homework #2](hw/m339g-hw2-regression-solns.pdf) -- **solutions**
 
-<!--
-European call options.<br>
-
-[Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
-
-[Class notes](notes/m339d-sept-15-2023.pdf) 
-
-[Homework #3](hw/m339d-hw3-solns.pdf) -- **solutions**
-
 ---
 
+**Class 12: February 12th**<br>
+Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
-**Class 12: September 18th**<br>
+<!--
 More on European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
