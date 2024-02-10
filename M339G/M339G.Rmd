@@ -239,6 +239,8 @@ Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1
 **Class 12: February 12th**<br>
 Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
+[Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
+
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
 
 
