@@ -433,26 +433,28 @@ Binomial option pricing: Pricing by replication.<br>
 [Practice for In-Term Two](exams/m339d-two-sample-probs.pdf): Problems
 
 [Practice for In-Term Two](exams/m339d-two-sample-solns.pdf): Solutions
-
-Binomial option pricing [cont'd]. <br>
-
-[Class notes](notes/m339d-oct-13-2023.pdf) 
-
-[Homework #7](hw/m339d-hw7-parity-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 24: October 16th**<br>
+**Class 24: March 18th**<br>
 Binomial option pricing: Risk-neutral probability.<br>
+
+<!--
+[Class notes](notes/m339d-oct-13-2023.pdf) 
 
 [Class notes](notes/m339d-oct-16-2023.pdf) 
 
+[Homework #7](hw/m339d-hw7-parity-solns.pdf) -- **solutions**
+
 [Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
+-->
 
 **(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
+<!--
 ---
 
 **Class 25: October 18th**<br>
