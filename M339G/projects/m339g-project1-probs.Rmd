@@ -1,0 +1,80 @@
+---
+title: "Project #1"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+urlcolor: blue
+---
+<!-- The author of this template is Dr. Gordan Zitkovic.-->
+<!-- The code chunk below contains some settings that will  -->
+<!-- make your R code look better in the output pdf file.  -->
+<!-- If you are curious about what each option below does, -->
+<!-- go to https://yihui.org/knitr/options/ -->
+<!-- If not, feel free to disregard everything ...  -->
+```{r echo=FALSE, warning=FALSE, include=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.align="center",
+  fig.pos="t",
+  strip.white = TRUE
+)
+```
+<!-- ... down to here. -->
+
+---
+
+## Problem #1 **(55 points)**
+Go to [Yahoo!Finance](https://finance.yahoo.com).
+
+Then, download the historical stock prices of *Walmart* for the last 252 (or so) trading days, i.e., for the last year. Do the same for *IBM* for the same time period. 
+
+**(5 points)** Draw the time-plot of the evolution of the closing stock prices (not the adjusted) for both of the stocks on the **same coordinate system**. You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates. Make sure that you plot the two trajectories in **different** colors indicating in the text which color corresponds to which company. Include the legend in your plot.    
+
+The **simple daily return** of the stock over a day indexed by $t$ is defined as 
+$$
+\frac{\text{price at end of day $t$}-\text{price at end of day $(t-1)$}}{\text{price at end of day $(t-1)$}} 
+$$
+**(5 points)** Construct the vector of simple daily returns over the last year for both stocks. With $R$ denoting the daily simple return, the *daily volatility* of the stock is defined as the standard deviation of $R$. **Assuming independent, identically distributed** daily returns, what is the **daily volatility** point estimate for the daily volatility of both stocks?
+
+**(10 points)** If you wanted to study the *relationship* between the returns of the two stocks, which plot would you create? What (if anything) can you say after looking at the plot?
+
+**(5 points)** If you wanted to provide one single, unitless quantity which provided you a measure of association between the returns of *Walmart* and *IBM*, which value would you report?
+
+**(5 points)** You create a portfolio in which half your wealth is maintained in the *Walmart* stock and the remaining half of your wealth is kept in the *IBM* stock. What is your estimate of the daily volatility of this portfolio? 
+
+**(25 points)** You create a portfolio in which the weight $w$ of your wealth is maintained in the *Walmart* stock and the remainder of your wealth is kept in the *IBM* stock. Create a function in `R` which calculates the annual volatility of this portfolio as it depends on $w$? Plot the portfolio's volatility as a function of $w$ for $w$ ranging from $-2$ to $2$. In the same plot, add two horizontal lines at the values of the annual volatilities of *Walmart* and *IBM*. Now, review the optimal two-stock portfolio work we did in the first week of classes. Add the horizontal line corresponding to the optimal portfolio whose *Walmart* weight is $\hat w=\hat alpha$ given by Hastie and Tibshirani. Add the vertical line corresponding to the optimal $\hat w$. 
+
+## Problem #2 **(45 points)**
+Go to [Yahoo!Finance](https://finance.yahoo.com).
+
+Then, download the historical prices for the *NASDAQ Composite* index for the **maximum** time period and at the **monthly** frequency. 
+
+**(5 points)** Use the above definitions of returns, changing the period length to a month (rather than a day). Assuming, as usual **independent, identically distributed** monthly returns, what is your *point estimate* for the mean monthly return of *NASDAQ*? 
+
+**(5 points)** Assuming, as usual **independent, identically distributed** monthly returns, what is your *point estimate* for the monthly volatility of *NASDAQ*? 
+
+**(20 points)** You know that there is uncertainty in point estimation due to sampling variability. So, you want to provide a **confidence interval**. 
+
+For more about confidence intervals in general, please watch:
+
+[Confidence intervals](https://www.youtube.com/watch?v=A6_W8qY8zJo&list=PLkIselvEzpM4SHQojH116fYAQJLaN_4Xo)
+
+A follow up video for the mean parameter is
+
+[Inference for the mean](https://www.youtube.com/watch?v=RYVIGj1l4xs&list=PLkIselvEzpM5G3IO1tzQ-DUThsJKQzQCD)
+
+Let $n$ stand for the number of observation. Let $\hat\mu$ denote our point estimate for the mean parameter. Let $s$ denote the sample standard deviation. At a confidence level $C$, the structure of a **confidence interval** is
+
+$$
+  (\hat \mu - \frac{s}{\sqrt{n}} z^*, \hat \mu + \frac{s}{\sqrt{n}} z^*)
+$$
+where $z^*$ is a critical value of the standard normal distribution such that $\mathbb{P}[-z^* < Z < z^*]=C$ with $Z \sim N(0,1)$. 
+
+You should input `?qnorm` into the console in `R` to learn more about the different functions which have to do with the normal distribution in `R`. 
+
+Provide confidence intervals for the annual mean return at the confidence level $C=0.95$. 
+
+**(5 points)** There is a "shortcut" for constructing confidence intervals in this case which uses the `t.test` function. You should input `?t.test` into the console in `R` to learn more about it. Create the $95\%-$confidence intrval using this command and compare to your result from the "pedestrian" implementation above. 
+
+**(10 points)** Finally, create a **bootstrap** $2SE$ confidence interval and a $95\%$ percentile interval for the monthly mean return. Please, set your seed to $1$ for comparison. Plot the histogram of the bootstrap point estimates for $N=10^5$ draws. Indicate your confidence intervals on the histogram. Compare your confidence intervals to what you obtained above without resampling. 
+
