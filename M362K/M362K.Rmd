@@ -109,6 +109,8 @@ Conditional probability and the multiplication formula <span style="color: purpl
 **Class 9: February 5th**<br>
 Independence and probability trees <span style="color: purple;">**(Section 1.4)**</span>.<br>
 
+[Problem Set #1](problem-sets/m362k-ps1-cond-prob-ind-solns.pdf): **Solutions**
+
 Bayes' rule <span style="color: purple;">**(Section 1.5)**</span>.<br>
 
 [Class notes](notes/m362k-feb-05-2024.pdf)
@@ -139,6 +141,16 @@ Bayes' rule practice.<br>
 
 **Class 12: February 12th**<br>
 Sequences of events <span style="color: purple;">**(Section 1.6)**</span>.<br>
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/GeometricDistribution/): The geometric distribution
+
+[Problem Set #2](problem-sets/m362k-ps2-geom-distn-probs.pdf): **Problems**
+
+<!--
+[Problem Set #2](problem-sets/m362k-ps2-geom-distn-solns.pdf): **Solutions**
+-->
+
+The binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
 
 <!--
 ---
