@@ -243,37 +243,15 @@ Regression vs Classification Problems <span style="color: purple;">**(Section 2.
 
 [`R`-notebook for class](code/carseats-dummies.Rmd): Qualitative/categorical predictors
 
+[Class notes](notes/m339g-feb-12-2024.pdf)
+
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
-
-
-<!--
-More on European call options.<br>
-
-[Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
-
-[Class notes](notes/m339d-sept-18-2023.pdf) 
-
-[Additional class notes](notes/m339d-feb-13-2023.pdf) 
-
-[Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
-
-[Homework #5](hw/m339d-hw5-calls.pdf) -- **due on Friday, September 29th**
-
-[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for the last problem in the project**
-
-[Dow data](data/dow.csv)
-
-[Dow futures data](data/dow-futures.csv)
-
-[Apple call data](data/apple-calls.csv)
-
-[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, October 9th, 2023**
-
-[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-**Class 13: September 20th**<br>
+**Class 13: February 14th**<br>
+
+<!--
 European put options. Moneyness.<br>
 
 [Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.

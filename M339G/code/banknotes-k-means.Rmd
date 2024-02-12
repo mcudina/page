@@ -27,6 +27,7 @@ The function `kmeans()` performs $K$-means clustering in
 
 ```{r}
 km.out <- kmeans(notes, 2, nstart = 20)
+#km.out
 #here are the cluster assignments
 km.out$cluster
 #here are the cluster centers
@@ -38,7 +39,7 @@ It all works out much better visually.
 #cloud of points with colors corresponding to cluster
 plot(notes, col = (km.out$cluster + 1),
     main = "K-Means Clustering Results with K = 2",
-    xlab = "Property 1", ylab = "Property 2", pch = 20, cex = 2)
+    xlab = "Property 1", ylab = "Property 2", pch = 20, cex = 0.5)
 #adding the centers
 points(km.out$centers, col="blue", pch=20)
 ```
