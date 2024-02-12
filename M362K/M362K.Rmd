@@ -142,6 +142,19 @@ Bayes' rule practice.<br>
 **Class 12: February 12th**<br>
 Sequences of events <span style="color: purple;">**(Section 1.6)**</span>.<br>
 
+[Class notes](notes/m362k-feb-12-2024.pdf)
+
+---
+
+**Class 13: February 14th**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+
+---
+
+**Class 14: February 16th**<br>
+Geometric distribution [cont'd].<br>
+
 [Mathematica demonstration](https://demonstrations.wolfram.com/GeometricDistribution/): The geometric distribution
 
 [Problem Set #2](problem-sets/m362k-ps2-geom-distn-probs.pdf): **Problems**
@@ -155,44 +168,6 @@ The binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.
 <!--
 ---
 
-**Class 13: September 20th**<br>
-European put options. Moneyness.<br>
-
-[Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
-
-[Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
-
-[Class notes](notes/m339d-sept-20-2023.pdf) 
-
-[Problem Set #6](problem-sets/m339d-ps6-puts-solns.pdf):  **Solutions**
-
-[Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, October 6th**
-
-[In-Term One](exams/m339d-one-topics.pdf): Topics
-
-[Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
-
-[Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions** 
-
-**(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
-
----
-
-**Class 14: September 22nd**<br>
-Derivative securities. Finite probability spaces [revisited]. Arbitrage portfolios.<br>
-
-[Class notes](notes/m339d-sept-22-2023.pdf) 
-
-**(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
-
-**(An interesting read)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
-
-**(Another interesting read)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
-
-[Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
-
----
-
 **Class 15: September 25th**<br>
 Law of the Unique Price. Replicating portfolios.<br>
 
@@ -203,7 +178,6 @@ Law of the Unique Price. Replicating portfolios.<br>
 ---
  
 **Class 16: September 27th**<br>
-<span style="color: red;">**In-Term One**</span><br>
 
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
 
