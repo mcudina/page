@@ -1,0 +1,119 @@
+---
+title: "Logistic regression in medical-school admissions"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+The data set we are going to use exists in the `Stat2Data` package. You only need to install it once. Here is the command line for reference. 
+
+```{r}
+#install.packages("Stat2Data")
+library(Stat2Data)
+data(MedGPA)
+```
+
+Next, we look at the included data set:
+
+```{r}
+data<-MedGPA
+data$Acceptance <- as.factor(data$Acceptance)
+attach(data)
+dim(data)
+```
+
+Now, let's see how good the `GPA` alone is at predicting `Acceptance`.
+
+```{r}
+glm.fits=glm(Acceptance~GPA,data=data,family=binomial)
+summary(glm.fits)
+```
+
+How do we predict with this model?
+
+```{r}
+#we'll look at an imaginary student with GPA equal to 3.86
+violet=data.frame(GPA=3.86)
+violet.prob=predict(glm.fits,violet,type="response")
+violet.prob
+```
+
+What about the probability of being accepted as a function of the GPA?
+
+```{r}
+mesh=data.frame(GPA=seq(0,4,0.05))
+acc.prob=predict(glm.fits,mesh,type="response")
+plot(seq(0,4,0.05), acc.prob,
+     col="blue", pch=20, 
+     main="Predicted probability of acceptance",
+     xlab="GPA", ylab="Probability")
+abline(h=0.5, col="red")
+```
+Now, what about the confusion matrix?
+
+```{r}
+glm.probs=predict(glm.fits,type="response")
+glm.pred=rep("yes",55)
+glm.pred[glm.probs<.5]="no"
+#Confusion Matrix Below
+tab=table(glm.pred,Acceptance)
+tab
+good=(tab[1,1]+tab[2,2])/sum(tab)
+good
+```
+Let's improve our model and do a $2-$fold cross-validation. 
+
+The improvement in the model is to also include `MCAT` and `Sex` as explanatory variables. 
+
+```{r}
+glm.fits.m=glm(Acceptance~MCAT+GPA+Sex,data=data,family=binomial)
+summary(glm.fits.m)
+```
+
+The `GPA` is still the most significant. Let's create the training subset and fit the model on it. 
+
+```{r}
+n=length(GPA)
+set.seed(1)
+train=sample(n,floor(n/2))
+glm.fits.tr=glm(Acceptance~MCAT+GPA+Sex,data=data,family=binomial, subset=train)
+summary(glm.fits.tr)
+```
+
+How did we do on the training set?
+
+```{r}
+glm.probs.tr=predict(glm.fits.tr, type="response")
+glm.pred.tr=rep("yes",floor(n/2))
+glm.pred.tr[glm.probs.tr<.5]="no"
+#Confusion Matrix Below
+tab.tr=table(glm.pred.v,Acceptance[train])
+tab.tr
+good.tr=(tab.tr[1,1]+tab.tr[2,2])/sum(tab.tr)
+good.tr
+```
+
+Next, we predict using the above model on the validation set, i.e., the complement of `train`. 
+
+```{r}
+val=data[-train,]
+glm.probs.v=predict(glm.fits.tr, data=val ,type="response")
+glm.probs.v
+```
+
+How did we do?
+
+```{r}
+glm.pred.v=rep("yes", n-floor(n/2))
+glm.pred.v[glm.probs.v<.5]="no"
+#Confusion Matrix Below
+tab.v=table(glm.pred.v,val$Acceptance)
+tab.v
+good.pred=(tab.v[1,1]+tab.v[2,2])/sum(tab.v)
+good.pred
+```
+
+
+
+
+
