@@ -1,0 +1,9 @@
+---
+title: "Stocks: Logistic regression"
+author: "Trevor Hastie and Robert Tibshirani"
+output:
+  pdf_document: default
+---
+
+Here, I am adapting part of the lab associated with Chapter 4 of the textbook. 
+
