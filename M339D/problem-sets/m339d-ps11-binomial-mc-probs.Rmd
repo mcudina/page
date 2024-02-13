@@ -1,0 +1,52 @@
+---
+title: "Problem set #11: Binomial Monte Carlo"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+Let the **volatility** of a stock be the standard deviation of its (continuously compounded) realized return on an annual basis. Then, we can define the up and down factors in the so-called *forward binomial tree* for a **non-dividend-paying** stock as
+\begin{equation}
+\begin{split}
+u & = e^{rh + \sigma\sqrt{h}}\\
+d & = e^{rh - \sigma\sqrt{h}}\\
+\end{split}
+\end{equation}
+
+Let the continuously compounded, risk-free interest rate be $0.04$. 
+
+
+Consider a stock whose current price is \$100 and whose volatility is $0.25$. We will be pricing a one-year, at-the-money call option in a variety of ways here. 
+
+
+
+## Problem #1: Analytic one period
+Price the option above using a one period binomial tree. 
+
+
+
+## Problem #2: Monte Carlo one period
+Price the option above using Monte Carlo a one period binomial tree. Use $10000$ simulations. 
+
+
+## Problem #3: Analytic two periods
+Price the above option using a two-period binomial tree. 
+
+
+## Problem #4: Monte Carlo two periods
+Price the option above using Monte Carlo a two period binomial tree. Use $10000$ simulations. 
+
+
+## Problem #5: Analytic one hundred periods
+Price the above option using a $100-$period binomial tree. 
+
+
+## Problem #6: Monte Carlo with one hundred periods
+Price the option above using Monte Carlo with a hundred period binomial tree. Use $10000$ simulations. 
+

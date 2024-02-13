@@ -457,24 +457,28 @@ Binomial option pricing: Risk-neutral probability.<br>
 **Class 25: March 20th**<br>
 Binomial option pricing: Two periods.<br>
 
-[Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
+[Problem Set #10](problem-sets/m339d-ps10-two-periods-probs.pdf): **Problems**
 
 <!--
 [Class notes](notes/m339d-oct-18-2023.pdf) 
+-->
 
 ---
 
-**Class 26: October 20th**<br>
+**Class 26: March 22nd**<br>
 Multiple binomial periods. <br>
 
+<!--
 [Class notes](notes/m339d-oct-20-2023.pdf) 
 
-[Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
+[Problem Set #10](problem-sets/m339d-ps10-two-periods-solns.pdf): **Solutions**
+-->
 
-[Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, October 27th**
+[Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, March 29th**
 
 Monte Carlo for binomial option pricing. <br>
 
+<!--
 [Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
 
 [Problem Set #10](problem-sets/m339d-ps10-binomial-mc-oct-20-2023.Rmd): Phase I
