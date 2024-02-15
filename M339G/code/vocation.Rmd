@@ -1,0 +1,134 @@
+---
+title: "Multiclass logistic regression"
+author: "Milica Cudina"
+output:
+  pdf_document: default
+---
+
+For a similar analysis, look at this
+[tutorial](https://stats.oarc.ucla.edu/r/dae/multinomial-logistic-regression/) from UCLA. 
+
+First, we import the data.
+
+```{r}
+data<-read.csv("hsbdemo.csv")
+data
+```
+The data set contains variables on $200$ students. We will focus on a small subset. The predictor variables will be social economic status `ses` (a three-level categorical variable) and writing score `write` (a quantitative variable). The outcome variable is program type `prog` (a three-level categorical variable). Since I am interested in just this subset, I will create a smaller data frame to analyze. 
+
+```{r}
+df=data.frame(data$ses, data$write, data$prog)
+colnames(df)<-c("ses", "write", "prog")
+attach(df)
+```
+
+Some exploratory data analysis is called for. The first idea is, probably to try the `plot` command. 
+
+```{r}
+plot(df,
+     pch=20, col="lightblue")
+```
+As we can see, this is not too useful. To look at the *association* between `ses` and `prog`, a two-way table might do the trick.
+
+```{r}
+tab=table(ses, prog)
+tab
+```
+Which test might we use to test the independence hypothesis? 
+
+```{r}
+chi2<-chisq.test(tab)
+chi2
+```
+What about the association between the writing score and the program type? Side-by-side boxplots might give insight. 
+
+```{r}
+write.ac=write[which(prog=="academic")]
+write.gen=write[which(prog=="general")]
+write.voc=write[which(prog=="vocation")]
+
+boxplot(write.ac,write.gen, write.voc,
+  main = "Writing scores by program type",
+  ylab = "Writing scores",
+  names = c("Academic", "General", "Vocational"),
+  col=c("lightblue", "orange", "lightgreen")
+)
+```
+
+
+We see that there is an association, but we will learn more about the extent of the effect if we run a multiclass logistic regression. 
+
+## `multinom` 
+
+Out first option is the `multinom` implementation in the `nnet` package. 
+
+```{r}
+#install.packages("nnet")
+library(nnet)
+```
+
+This implementation requires of us to set a *baseline* level for the response variable. 
+
+```{r}
+df$prog<-as.factor(df$prog)
+df$prog.base <- relevel(df$prog, ref = "academic")
+```
+
+Now, we can run the `multinom` function. 
+
+```{r}
+mn.fit<-multinom(prog.base ~ ses + write, data=df)
+```
+Her is what the object `mn.fit` looks like:
+
+```{r}
+summary(mn.fit)
+```
+Importantly, the coefficients above are **different** from the coefficients one sees in our textbook. However, let us look at the fitted probabilities for our data set. 
+
+```{r}
+fitted.ps <- fitted(mn.fit)
+fitted.ps
+```
+
+How would we predict for a test case? First, we need to define what the inputs for the test case would be. 
+
+```{r}
+test <- data.frame(ses = c("low", "middle", "high"), write = c(quantile(df$write, 0.25), median(df$write), quantile(df$write, 0.75)))
+```
+
+Now, we can use the `predict` command to see what the predicted probabilities would be.
+
+```{r}
+pred.mn=predict(mn.fit, newdata = test, "class")
+pred.mn
+```
+## `glmnet`
+
+Here, we need to install and load a package create by Hastie et al. 
+
+```{r}
+#install.packages("glmnet")
+library(glmnet)
+```
+
+Now, we would like to fit the model using `glmnet`. 
+
+```{r}
+x <- data.frame(ses, write)
+x
+y <- prog
+y
+glm.fit <- glmnet(x, y, family = "multinomial")
+summary(glm.fit)
+predict(glm.fit, newx=x[1:10,], type="class")
+```
+
+```{r}
+data(MultinomialExample)
+x <- MultinomialExample$x
+x
+y <- MultinomialExample$y
+```
+
+
