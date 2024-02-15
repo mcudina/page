@@ -22,7 +22,7 @@ summary(Smarket)
 The `cor()` function produces a matrix that contains all of the pairwise correlations among the predictors in a data set. The first command below gives an error message because the `direction` variable is qualitative.
 
 ```{r chunk2, error=TRUE}
-cor(Smarket)
+#cor(Smarket)
 cor(Smarket[, -9])
 ```
 
