@@ -265,7 +265,10 @@ More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span
 
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
 
-[Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple categories
+[Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
+
+[`R`-notebook for class](code/vocation.Rmd): Multiclass logistic regression 
+
 
 <!--
 [In-Term One](exams/m339d-one-topics.pdf): Topics

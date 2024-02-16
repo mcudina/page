@@ -6,7 +6,7 @@ output:
 ---
 
 For a similar analysis, look at this
-[tutorial](https://stats.oarc.ucla.edu/r/dae/multinomial-logistic-regression/) from UCLA. 
+[tutorial](https://stats.oarc.ucla.edu/r/dae/multinomial-logistic-regression/) from UCLA. For more about `glmnet`, consult this [tutorial](https://glmnet.stanford.edu/articles/glmnet.html#multinomial-regression-family-multinomial) by Trevor Hastie. 
 
 First, we import the data.
 
@@ -91,18 +91,37 @@ fitted.ps <- fitted(mn.fit)
 fitted.ps
 ```
 
+Also importantly, we do not have $p-$values reported above. We can figure them out easily, though. 
+
+```{r}
+z.scores=z <- summary(mn.fit)$coefficients/summary(mn.fit)$standard.errors
+p.val=1-pnorm(abs(z.scores))
+p.val
+```
+
+How well did we do on the training set?
+
+```{r}
+pred.mn.tr=predict(mn.fit, newdata = df, "class")
+#pred.mn.tr
+ind.tr=(pred.mn.tr==prog)
+mean(ind.tr)
+```
+
 How would we predict for a test case? First, we need to define what the inputs for the test case would be. 
 
 ```{r}
-test <- data.frame(ses = c("low", "middle", "high"), write = c(quantile(df$write, 0.25), median(df$write), quantile(df$write, 0.75)))
+new.data <- data.frame(ses = c("low", "middle", "high"), write = c(quantile(df$write, 0.25), median(df$write), quantile(df$write, 0.75)))
 ```
 
 Now, we can use the `predict` command to see what the predicted probabilities would be.
 
 ```{r}
-pred.mn=predict(mn.fit, newdata = test, "class")
+pred.mn=predict(mn.fit, newdata = new.data, "class")
 pred.mn
 ```
+
+
 ## `glmnet`
 
 Here, we need to install and load a package create by Hastie et al. 
@@ -112,23 +131,58 @@ Here, we need to install and load a package create by Hastie et al.
 library(glmnet)
 ```
 
+We notice that we need to transform our categorical predictor using dummy variables. For that, the following library is useful: 
+
+```{r}
+library(caret)
+```
+
+First, I will put all of my predictors into a separate data frame. 
+
+```{r}
+temp.x=data.frame(data$ses, data$write)
+```
+
+Now, I will use the command `dummyVars` to create dummy variables for my one categorical predictor `ses` in my array of predictors.
+
+```{r}
+dummy.x <- dummyVars(" ~ .", data = temp.x)
+x <- as.matrix(predict(dummy.x, newdata = temp.x))
+print(x)
+```
+
+
 Now, we would like to fit the model using `glmnet`. 
 
 ```{r}
-x <- data.frame(ses, write)
-x
 y <- prog
-y
+#y
 glm.fit <- glmnet(x, y, family = "multinomial")
-summary(glm.fit)
-predict(glm.fit, newx=x[1:10,], type="class")
+#summary(glm.fit)
+#glm.fit
+predict(glm.fit, newx=x, s=0, type="response")
 ```
 
+What if I try to find, by cross-validation, an optimal tuning parameter? 
+
 ```{r}
-data(MultinomialExample)
-x <- MultinomialExample$x
-x
-y <- MultinomialExample$y
+cv.fit <- cv.glmnet(x, y, family = "multinomial")
+plot(cv.fit)
+```
+
+Now, we can try to predict at the optimal $\lambda$:
+
+```{r}
+predict(cv.fit, newx = x, s = "lambda.min", type = "response")
+```
+
+We might want to see how well we did on the training data. 
+
+```{r}
+preds=predict(cv.fit, newx = x, s = "lambda.min", type = "class")
+#preds
+ind=(preds==y)
+mean(ind)
 ```
 
 
