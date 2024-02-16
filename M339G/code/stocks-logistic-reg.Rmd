@@ -103,6 +103,7 @@ train <- (Year < 2005)
 Smarket.2005 <- Smarket[!train, ]
 dim(Smarket.2005)
 Direction.2005 <- Direction[!train]
+#Direction.2005
 ```
 
 The object `train` is a vector of $1250$ elements, corresponding to the observations in our data set. The elements of the vector that correspond to observations that occurred before 2005 are set to `TRUE`, whereas those that correspond to observations  in 2005 are set to `FALSE`.

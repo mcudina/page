@@ -5,7 +5,7 @@ output:
   pdf_document: default
 ---
 
-The data set we are going to use exists in the `Stat2Data` package. You only need to install it once. Here is the command line for reference. 
+The data set we are going to use exists in the `Stat2Data` package. You only need to install it once. Here are the command lines for reference. 
 
 ```{r}
 #install.packages("Stat2Data")
@@ -61,14 +61,18 @@ tab
 good=(tab[1,1]+tab[2,2])/sum(tab)
 good
 ```
-Let's improve our model and do a $2-$fold cross-validation. 
+Let's "improve" our model and do a $2-$fold cross-validation. 
 
-The improvement in the model is to also include `MCAT` and `Sex` as explanatory variables. 
+The "improvement" in the model is to also include `MCAT` and `Sex` as explanatory variables. 
 
 ```{r}
 glm.fits.m=glm(Acceptance~MCAT+GPA+Sex,data=data,family=binomial)
 summary(glm.fits.m)
 ```
+```{r}
+cor(MCAT, GPA)
+```
+
 
 The `GPA` is still the most significant. Let's create the training subset and fit the model on it. 
 
@@ -87,7 +91,7 @@ glm.probs.tr=predict(glm.fits.tr, type="response")
 glm.pred.tr=rep("yes",floor(n/2))
 glm.pred.tr[glm.probs.tr<.5]="no"
 #Confusion Matrix Below
-tab.tr=table(glm.pred.v,Acceptance[train])
+tab.tr=table(glm.pred.tr,Acceptance[train])
 tab.tr
 good.tr=(tab.tr[1,1]+tab.tr[2,2])/sum(tab.tr)
 good.tr
