@@ -56,6 +56,8 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 [Working directory in `R`](https://r-coder.com/working-directory-r/)
 
+[Rmd cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
 [Homework Instructions](instructions/m358k-hw-instructions.html) -- if in doubt, read and understand all of this before you work on your homework/project
 
 [Homework Template](instructions/homework-template.Rmd) -- this is an optional template you can use to complete your homework assignments and projects 
@@ -270,6 +272,8 @@ More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span
 [Data for class](code/hsbdemo.csv): School choice
 
 [`R`-notebook for class](code/vocation.Rmd): Multiclass logistic regression 
+
+[Homework #3](hw/m339g-hw3.pdf) -- **due on Friday, February 23rd, 2024**
 
 ---
 
