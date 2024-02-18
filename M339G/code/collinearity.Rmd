@@ -1,0 +1,84 @@
+---
+title: "Collinearity"
+author: "Milica Cudina"
+output:
+  pdf_document: default
+---
+
+This notebook was inspired by **Problem 3.7.14** from the textbook. 
+
+Let us first create our data. First we specify some constants. 
+
+```{r}
+alpha=2
+
+gamma.0=0.5
+gamma.1=5
+
+beta.0=0.5
+beta.1=2
+beta.2=3
+beta.3=4
+```
+
+Now we simulate some data. 
+
+```{r}
+#setting the seed for replicability
+set.seed(1)
+
+#simulating the predictors
+x.1=runif(100)
+x.2=alpha.1*x.1+rnorm(100, mean=0, sd=0.01)
+x.3=gamma.0*x.1+gamma.1*x.2+rnorm(100, mean=0, sd=0.01)
+
+#simulating the response
+y=beta.0+beta.1*x.1+beta.2*x.2+beta.3*x.3+rnorm(100)
+```
+
+Now, we arrange everyone into a data frame. 
+
+```{r}
+df=data.frame(x.1, x.2, x.3, y)
+df
+```
+
+What can we say about the correlations?
+
+```{r}
+cor(df)
+```
+
+Now, let's fit a regression on these data. 
+
+```{r}
+lm.fit=lm(y ~ x.1+x.2+x.3, data=df)
+summary(lm.fit)
+```
+Looking at the summary, we see an admirable $R^2$ coupled with horrible $p-$values. We cannot reject the null hypothesis that $\beta_i=0$ for any $i=1,2,3$. However, since we know the model we simulates with, we can assess how good the fit is by comparison. Remember that the actual $\beta$s: $(0.5, 2, 3, 4)$. The estimates we got are these:
+
+```{r}
+coef(lm.fit)
+```
+
+They are quite a bit "off". 
+
+What would happen for regressions on just the individual predictors?
+
+```{r}
+lm.fit.1=lm(y~x.1, data=df)
+summary(lm.fit.1)
+lm.fit.2=lm(y~x.2, data=df)
+summary(lm.fit.2)
+lm.fit.3=lm(y~x.3, data=df)
+summary(lm.fit.3)
+```
+
+Now, the significance is blissfully back - **for all**. The problem we illustrated here is that of **collinearity**. There is no test for collinearity, but it would seem that a beneficial pre-processing step when dealing with multiple predictors could be to fit the predictors on other predictors. For instance, we have
+
+```{r}
+lm.fit.x<-lm(x.3 ~ x.1+x.2, data=df)
+summary(lm.fit.x)
+```
+
+We would also wish to reduce the dimension of the array of predictors by getting read of linear dependence (as much as is feasible).  
