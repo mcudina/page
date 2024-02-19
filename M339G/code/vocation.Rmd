@@ -33,6 +33,7 @@ As we can see, this is not too useful. To look at the *association* between `ses
 ```{r}
 tab=table(ses, prog)
 tab
+#mosaicplot(tab)
 ```
 Which test might we use to test the independence hypothesis? 
 
@@ -94,7 +95,7 @@ fitted.ps
 Also importantly, we do not have $p-$values reported above. We can figure them out easily, though. 
 
 ```{r}
-z.scores=z <- summary(mn.fit)$coefficients/summary(mn.fit)$standard.errors
+z.scores<- summary(mn.fit)$coefficients/summary(mn.fit)$standard.errors
 p.val=1-pnorm(abs(z.scores))
 p.val
 ```
@@ -148,7 +149,7 @@ Now, I will use the command `dummyVars` to create dummy variables for my one cat
 ```{r}
 dummy.x <- dummyVars(" ~ .", data = temp.x)
 x <- as.matrix(predict(dummy.x, newdata = temp.x))
-print(x)
+#print(x)
 ```
 
 
@@ -173,7 +174,7 @@ plot(cv.fit)
 Now, we can try to predict at the optimal $\lambda$:
 
 ```{r}
-predict(cv.fit, newx = x, s = "lambda.min", type = "response")
+predict(cv.fit, newx = x, s = "lambda.min", type = "class")
 ```
 
 We might want to see how well we did on the training data. 
