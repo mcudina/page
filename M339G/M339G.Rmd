@@ -284,7 +284,7 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 
 ---
  
-**Class 16: September 27th**<br>
+**Class 16: February 21st**<br>
 More on K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
 [`R`-notebook for class](code/knn-horseshoe.Rmd): KNN for horseshoe crabs
