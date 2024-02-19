@@ -1,0 +1,102 @@
+---
+title: "ViF"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+## Car efficiency [revisited]
+
+First, let's import the textbook's library. 
+
+```{r}
+library(ISLR2)
+attach(Auto)
+```
+
+Let's do some exploratory analysis. 
+
+```{r}
+pairs(Auto,
+      pch=20, col="lightblue")
+round(cor(Auto[,-c(8,9)]),4)
+```
+
+We notice some pretty sizable correlations. What about a multiple linear regression?
+
+```{r}
+lm.fit=lm(mpg~cylinders+horsepower+weight,data=Auto)
+summary(lm.fit)
+```
+We should import the `car` library (nothing to do with vehicles; it's short for *Companion to Applied Regression.*). 
+
+```{r}
+library(car)
+vif(lm.fit)
+```
+
+The book says: *"...a VIF value that exceeds 5 or 10 indicates a problematic amount of collinearity..."
+
+
+## Seat Position 
+
+Let's consider another data set. This one is from the `faraway` library. 
+
+```{r}
+#install.packages("faraway")
+library(faraway)
+```
+
+The data set `seatpos` is used to predict the carseat position (`hipcenter`) based on biometric data of the driver. 
+
+```{r}
+data(seatpos)
+```
+
+When we look at the documentation, we see that one of the variables is `HtShoes`, i.e., height in shoes, and another is `Ht`, i.e., height barefoot. These are bound to be incredibly correlated. Similarly, there is the `Seated`, i.e., the seated height, `Weight`, and others that should be heavily positively correlated. Let's do some exploratory data analysis:
+
+```{r}
+pairs(seatpos,
+      pch=20, col="lightblue")
+round(cor(seatpos),4)
+```
+
+`Age` appears to be the only predictor not linked with other predictors. 
+
+Let's try a multiple linear regression.
+
+```{r}
+lm.fit=lm(hipcenter~.,data=seatpos)
+summary(lm.fit)
+```
+
+As anticipated, we get much nonsense. So, let's check out the variance inflation factors.
+
+```{r}
+vif(lm.fit)
+```
+It seems that we really should take a pick between height in shoes and height without. 
+
+```{r}
+lm.fit.1=lm(hipcenter~. - Ht,data=seatpos)
+summary(lm.fit.1)
+vif(lm.fit.1)
+```
+
+What if we get rid of height in shoes as well?
+
+```{r}
+lm.fit.2=lm(hipcenter~. - Ht-HtShoes,data=seatpos)
+summary(lm.fit.2)
+vif(lm.fit.2)
+```
+
+We have not sacrificed anything in terms of $R^2$ by eliminating the two height variables. Just the `Leg` is still statistically significant with `Age` in the surprising second place. 
+
+Just for laughs, how about a simple linear regression on `Leg`?
+
+```{r}
+lm.fit.s<-lm(hipcenter ~ Leg, data=seatpos)
+summary(lm.fit.s)
+```
+So, more predictors are not always better?

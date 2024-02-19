@@ -12,8 +12,8 @@ Let us first create our data. First we specify some constants.
 ```{r}
 alpha=2
 
-gamma.0=0.5
-gamma.1=5
+gamma.1=0.5
+gamma.2=5
 
 beta.0=0.5
 beta.1=2
@@ -29,8 +29,8 @@ set.seed(1)
 
 #simulating the predictors
 x.1=runif(100)
-x.2=alpha.1*x.1+rnorm(100, mean=0, sd=0.01)
-x.3=gamma.0*x.1+gamma.1*x.2+rnorm(100, mean=0, sd=0.01)
+x.2=alpha*x.1+rnorm(100, mean=0, sd=0.01)
+x.3=gamma.1*x.1+gamma.2*x.2+rnorm(100, mean=0, sd=0.01)
 
 #simulating the response
 y=beta.0+beta.1*x.1+beta.2*x.2+beta.3*x.3+rnorm(100)
@@ -81,4 +81,4 @@ lm.fit.x<-lm(x.3 ~ x.1+x.2, data=df)
 summary(lm.fit.x)
 ```
 
-We would also wish to reduce the dimension of the array of predictors by getting read of linear dependence (as much as is feasible).  
+We would also wish to reduce the dimension of the array of predictors by getting read of linear dependence (as much as is feasible). This can be done by dropping predictors or by creating a linear combination of predictors (see the discussion on p.103 of the textbook). 
