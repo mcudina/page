@@ -282,6 +282,11 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
 
+---
+ 
+**Class 16: September 27th**<br>
+More on K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
+
 [`R`-notebook for class](code/knn-horseshoe.Rmd): KNN for horseshoe crabs
 
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
@@ -297,15 +302,6 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions** 
 
-Law of the Unique Price. Replicating portfolios.<br>
-
-[Class notes](notes/m339d-sept-25-2023.pdf) 
-
-**(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
-
----
- 
-**Class 16: September 27th**<br>
 <span style="color: red;">**In-Term One**</span><br>
 
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
