@@ -566,10 +566,13 @@ Log-normal stock prices: Parameter interpretation.<br>
 
 **(Enrichment material)** [Lecture notes](lectures/m339w-on-pricing.pdf): On pricing in the Black-Scholes model with continuous dividends. 
 
-
 <!--
 [Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
+
+[Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks-solns.pdf): **Solutions**
 -->
+
+[Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, April 12th**
 
 ---
 
@@ -579,34 +582,33 @@ Log-normal stock prices: Parameter interpretation.<br>
 ---
 
 **Class 34: April 10th**<br>
-
-<!--
-[Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks-solns.pdf): **Solutions**
-
-[Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, November 17th**
-
 Log-normal stock prices: Tail probabilities.<br>
 
+<!--
 [Class notes](notes/m339d-nov-08-2023.pdf): Tail probabilities.
+-->
 
 ---
 
-**Class 35: November 10th**<br>
+**Class 35: April 12th**<br>
 Log-normal stock prices: Partial expectation.<br>
 
+<!--
 [Class notes](notes/m339d-nov-10-2023.pdf): Partial expectation.
+-->
 
 ---
 
-**Class 36: November 13th**<br>
+**Class 36: April 15th**<br>
 Log-normal stock prices: Partial expectation [cont'd]. The Black-Scholes pricing formula.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
 
 [The original article by Black and Scholes](http://www.cs.princeton.edu/courses/archive/fall09/cos323/papers/black_scholes73.pdf) 
 
-[Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
+[Problem Set #14](problem-sets/m339d-ps14-BS-probs.pdf): **Problems**
 
+<!--
 [Class notes](notes/m339d-nov-13-2023.pdf) 
 
 [Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, December 1st**
