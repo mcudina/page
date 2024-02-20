@@ -418,8 +418,6 @@ Binomial option pricing: Pricing by replication.<br>
 [Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 22nd**
 
 <!--
-[In-Term Two](exams/m339d-two-topics.pdf): Topics
-
 [Practice for In-Term Two](exams/m339d-two-sample-probs.pdf): Problems
 
 [Practice for In-Term Two](exams/m339d-two-sample-solns.pdf): Solutions
@@ -628,10 +626,21 @@ Black-Scholes [continued].<br>
 [Class notes](notes/m339d-nov-15-2023.pdf) 
 -->
 
-[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, December 4th, 2023**
+[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, April 29th, 2024**
 
 [Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+Forward-start options. Rolling insurance strategy.<br>
+
+[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
+
+<!--
+[Class notes](notes/m339d-nov-17-2023.pdf) 
+-->
+
+[In-Term Two](exams/m339d-two-topics.pdf): Topics
+
+<!--
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
 
 [Practice for In-Term Three](exams/m339d-three-sample.pdf) -- **problems** 
@@ -641,11 +650,6 @@ Black-Scholes [continued].<br>
 ---
 
 **Class 38: November 17th**<br>
-Forward-start options. Rolling insurance strategy.<br>
-
-[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
-
-[Class notes](notes/m339d-nov-17-2023.pdf) 
 
 [Homework #11](hw/m339d-hw11-lognormal-stocks-solns.pdf) -- **solutions**
 
