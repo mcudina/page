@@ -588,6 +588,8 @@ Log-normal stock prices: Partial expectation.<br>
 
 <!--
 [Class notes](notes/m339d-nov-10-2023.pdf): Partial expectation.
+
+[Homework #11](hw/m339d-hw11-lognormal-stocks-solns.pdf) -- **solutions**
 -->
 
 ---
@@ -639,6 +641,17 @@ Forward-start options. Rolling insurance strategy.<br>
 
 [Practice for In-Term Two](exams/m339d-two-sample-solns.pdf): Solutions
 
+---
+
+**Class 38: April 19th**<br>
+Monte Carlo with Black-Scholes pricing. <br>
+
+[Problem Set #15](problem-sets/m339d-ps15-BS-mc.Rmd): Skeleton
+
+---
+
+**Class 39: April 22nd**<br>
+
 <!--
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
 
@@ -646,18 +659,7 @@ Forward-start options. Rolling insurance strategy.<br>
 
 [Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
----
 
-**Class 38: November 17th**<br>
-
-[Homework #11](hw/m339d-hw11-lognormal-stocks-solns.pdf) -- **solutions**
-
----
-
-**Class 39: November 27th**<br>
-Monte Carlo with Black-Scholes pricing. <br>
-
-[Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd): with solutions
 
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
 
