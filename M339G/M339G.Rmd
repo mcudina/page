@@ -304,10 +304,13 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 ---
 
 **Class 17: February 23rd**<br>
-Singular value decomposition <span style="color: purple;">**(Section 12.5.2)**</span>.<br>
+Singular value decomposition <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
 
+Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch12-pca.pdf): PCA
 
 <!--
 [In-Term One](exams/m339d-one-topics.pdf): Topics
