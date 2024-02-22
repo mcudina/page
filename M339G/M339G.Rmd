@@ -289,12 +289,19 @@ More on K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6
 
 [`R`-notebook for class](code/knn-horseshoe.Rmd): KNN for horseshoe crabs
 
+[A KNN Tutorial](https://quantdev.ssri.psu.edu/sites/qdev/files/kNN_tutorial.html): Also has the `caret` package implementation
+
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
 
+[Class notes](notes/m339g-feb-21-2024.pdf)
+
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
 
+---
+
+**Class 17: February 23rd**<br>
 Singular value decomposition <span style="color: purple;">**(Section 12.5.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
@@ -311,9 +318,6 @@ Singular value decomposition <span style="color: purple;">**(Section 12.5.2)**</
 
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
 
----
-
-**Class 17: September 29th**<br>
 Equity-linked contracts.<br>
 
 [Problem packet](problem-sets/m339d-equity-linked.pdf)

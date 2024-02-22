@@ -29,7 +29,7 @@ As an example we will apply the KNN approach to the `Insurance` data set, which 
 ```{r chunk29}
 dim(Caravan)
 attach(Caravan)
-Purchase
+#Purchase
 summary(Purchase)
 348 / 5822
 ```
