@@ -297,10 +297,6 @@ Put-call parity.<br>
 
 [Class notes](notes/m339d-feb-21-2024.pdf) 
 
-<!--
-[In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
--->
-
 ---
 
 **Class 17: February 23rd**<br>
@@ -405,6 +401,10 @@ Realized returns of stocks. Forward trees.  <br>
 
 **Class 22: March 6th**<br>
 <span style="color: red;">**In-Term One**</span><br>
+
+<!--
+[In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
+-->
 
 ---
 
@@ -648,9 +648,18 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc.Rmd): Skeleton
 
+<!--
+[Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
+-->
+
 ---
 
 **Class 39: April 22nd**<br>
+Focus on the delta.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
+
+[Problem](problem-sets/m339d-ifm-delta.pdf)
 
 <!--
 [In-Term Three](exams/m339d-three-topics.pdf): Topics
@@ -659,15 +668,6 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
 
-
-
-[Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
-
-Focus on the delta.<br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
-
-[Problem](problem-sets/m339d-ifm-delta.pdf)
 
 [Class notes](notes/m339d-nov-27-2023.pdf) 
 
