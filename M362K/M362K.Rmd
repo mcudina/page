@@ -207,13 +207,16 @@ More on the normal distribution <span style="color: purple;">**(Section 2.1)**</
 
 [Area of a Normal Distribution](http://demonstrations.wolfram.com/AreaOfANormalDistribution/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Eric Schulz 
 
-The Law of Large Numbers. The normal approximation to the binomial distribution <span style="color: purple;">**(Section 2.2)**</span>.<br>
-
-[Mathematica demonstration](http://demonstrations.wolfram.com/IllustratingTheCentralLimitTheoremWithSumsOfBernoulliRandomV/): The Normal Approximation to the Binomial Distribution
-
 ---
 
 **Class 18: February 26th**<br>
+The normal approximation to the binomial distribution <span style="color: purple;">**(Section 2.2)**</span>.<br>
+
+[Mathematica demonstration](http://demonstrations.wolfram.com/IllustratingTheCentralLimitTheoremWithSumsOfBernoulliRandomV/): The Normal Approximation to the Binomial Distribution
+
+[Homework #5](hw/m362k-hw5-probs.pdf) -- **due on Friday, March 8th**
+
+
 The Poisson approximation <span style="color: purple;">**(Section 2.4)**</span>.<br>
 
 ---
