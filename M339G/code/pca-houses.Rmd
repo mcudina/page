@@ -1,0 +1,67 @@
+---
+title: "PCA: Houses"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+First, we read in our house data. 
+
+```{r}
+data=read.csv("housepriceall.csv",header=TRUE)
+attach(data)
+```
+
+Let me do a bit of exploratory data analysis.
+
+```{r}
+plot(data, pch=20, col="lightblue")
+cor(data)
+```
+
+Obviously, the scale of the price is different from the scale of the square footage. Also, the assessed price and the price are artificially on a different scale. Let's look at the means and variances. 
+
+```{r}
+apply(data, 2, mean)
+apply(data, 2, sd)
+```
+Let's take a look at what the principal component analysis is telling us. 
+
+```{r}
+pr.out<-prcomp(data, scale=TRUE)
+```
+
+Here are the outputs of `prcomp`. 
+
+```{r}
+pr.out$center
+pr.out$scale
+pr.out$rotation
+dim(pr.out$x)
+```
+Of course, it's much better to look at the `biplot`. 
+
+```{r}
+biplot(pr.out, scale=0, cex=0.5, xlabs=rep("*", length(price)),
+       col=c("lightblue", "red"))
+```
+
+How many principal components are "sufficient"?
+
+```{r}
+#transforming standard deviations to variances
+pr.var=pr.out$sdev^2
+#pr.var
+#proportion of variance explained
+pve=pr.var/sum(pr.var)
+#pve
+#plots
+plot(pve,xlab="Principal Component", 
+     ylab="Proportion of Variance Explained", col="peru", 
+     pch=20, ylim=c(0,1),type='b')
+plot(cumsum(pve),xlab="Principal Component", 
+     ylab="Cumulative Proportion of Variance Explained", 
+     col="peru", pch=20, ylim=c(0,1),type='b')
+```
+
+
