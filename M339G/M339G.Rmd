@@ -321,6 +321,8 @@ Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)
 
 [Slides by Hastie & Tibshirani](slides/ch12-pca.pdf): PCA
 
+[`R`-notebook for class](code/pca.Rmd): Principal component analysis
+
 <!--
 [In-Term One](exams/m339d-one-topics.pdf): Topics
 
