@@ -284,6 +284,8 @@ Derivative securities. Replicating portfolios. Equity-linked contracts. <br>
 
 **(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
 
+[Problem packet](problem-sets/m339d-equity-linked.pdf)
+
 [Class notes](notes/m339d-feb-19-2024.pdf) 
 
 **(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
@@ -293,24 +295,20 @@ Derivative securities. Replicating portfolios. Equity-linked contracts. <br>
 **Class 16: February 21st**<br>
 Put-call parity.<br>
 
-[Problem packet](problem-sets/m339d-equity-linked.pdf)
+[Problem packet](problem-sets/m339d-parity-no-div.pdf)
+
+**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
 [Class notes](notes/m339d-feb-21-2024.pdf) 
 
 ---
 
 **Class 17: February 23rd**<br>
-Put-call parity: Practice. Chooser options.<br>
+Chooser options.<br>
 
-[Problem packet](problem-sets/m339d-parity-no-div.pdf)
+[Problem](problem-sets/m339d-chooser.pdf)
 
-**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
-
-[Problem packet](problem-sets/m339d-chooser.pdf)
-
-<!--
-[Class notes](notes/m339d-oct-02-2023.pdf) 
--->
+[Class notes](notes/m339d-feb-23-2024.pdf) 
 
 **(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
 
@@ -320,9 +318,8 @@ Put-call parity: Practice. Chooser options.<br>
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
-<!--
 [Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
--->
+
 ---
 
 **Class 18: February 26th**<br>
