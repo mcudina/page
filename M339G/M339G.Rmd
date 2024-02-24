@@ -323,6 +323,8 @@ Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)
 
 [`R`-notebook for class](code/pca.Rmd): Principal component analysis
 
+[Data for class](code/housepriceall.csv): Houses
+
 <!--
 [In-Term One](exams/m339d-one-topics.pdf): Topics
 
