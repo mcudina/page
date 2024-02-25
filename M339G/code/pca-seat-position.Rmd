@@ -1,0 +1,44 @@
+---
+title: "PCA: Seat position"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+## Seat Position 
+
+We reconsider the **seat position** data set. Recall that it is from the `faraway` library. 
+
+```{r}
+#install.packages("faraway")
+library(faraway)
+```
+
+The data set `seatpos` is used to predict the carseat position (`hipcenter`) based on biometric data of the driver. 
+
+```{r}
+data(seatpos)
+```
+
+This is what we got when we tried multiple linear regression.
+
+```{r}
+lm.fit=lm(hipcenter~.,data=seatpos)
+summary(lm.fit)
+```
+
+Does PCA help? Let's import the requisite library. 
+
+```{r}
+library(stats)
+```
+
+I will reimagine my predictor variables to be the ones with the biometric data (so, we exclude `Age` and the response).
+
+```{r}
+data=seatpos[,2:8]
+attach(data)
+```
+
+I already 
+
