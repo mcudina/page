@@ -641,6 +641,8 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 <!--
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
+
+[Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
 -->
 
 ---
@@ -670,6 +672,16 @@ Delta-hedging. <br>
 
 [Problem](problem-sets/m339d-ifm-delta-hedge.pdf)
 
+<!--
+[Class notes](notes/m339d-dec-01-2023.pdf) 
+
+[Class notes](notes/m339d-dec-04-2023.pdf) 
+-->
+
+[Extra Homework #13](hw/m339d-hw13-delta.pdf) -- **not to be handed in**
+
+[Extra Homework #13](hw/m339d-hw13-delta-solns.pdf) -- **solutions**
+
 ---
 
 **Class 42: April 29th**<br>
@@ -690,15 +702,7 @@ Delta-hedging. <br>
 [In-Term Three](exams/m339d-three-solns.pdf) -- **solutions**
 
 
-[Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
 
-Delta-hedging [cont'd].
-
-[Class notes](notes/m339d-dec-04-2023.pdf) 
-
-[Extra Homework #13](hw/m339d-hw13-delta.pdf) -- **not to be handed in; final-exam practice**
-
-[Extra Homework #13](hw/m339d-hw13-delta-solns.pdf) -- **solutions**
 
 Options embedded in insurance products: Part I.
 
