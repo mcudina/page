@@ -90,7 +90,7 @@ test <- (!train)
 
 pcr.fit <- pcr(Salary ~ ., data = Hitters, subset = train,
     scale = TRUE, validation = "CV")
-validationplot(pcr.fit, val.type = "MSEP")
+validationplot(pcr.fit, val.type = "MSEP", legendpos = t(c(12,200000)))
 ```
 
 Now we find that the lowest cross-validation error occurs when $M=5$ components are used.
