@@ -35,6 +35,7 @@ We can also examine the variances of the four variables using the `apply()` func
 
 ```{r chunk4}
 apply(USArrests, 2, var)
+apply(USArrests, 2, sd)
 ```
 
 Not surprisingly, the variables also have vastly different variances:
@@ -47,6 +48,7 @@ We now perform principal components analysis using the `prcomp()` function, whic
 
 ```{r chunk5}
 pr.out <- prcomp(USArrests, scale = TRUE)
+pr.out
 ```
 
 By default, the `prcomp()` function centers the variables to have
