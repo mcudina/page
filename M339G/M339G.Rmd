@@ -356,6 +356,10 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 [Slides by Hastie & Tibshirani](slides/ch12-clustering.pdf): K-Means Clustering 
 
+[Towards Data Science](https://towardsdatascience.com/three-versions-of-k-means-cf939b65f4ea): K-Means Clustering
+
+[Medium](https://medium.com/analytics-vidhya/comparison-of-initialization-strategies-for-k-means-d5ddd8b0350e): More on Initialization for K-Means Clustering
+
 <!--
 <span style="color: red;">**In-Term One**</span><br>
 
