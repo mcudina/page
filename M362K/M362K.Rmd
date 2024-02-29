@@ -225,12 +225,9 @@ More on the normal approximation to the binomial distribution <span style="color
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/IllustratingTheCentralLimitTheoremWithSumsOfBernoulliRandomV/): The Normal Approximation to the Binomial Distribution
 
+[Class notes](notes/m362k-feb-28-2024.pdf)
+
 [Homework #5](hw/m362k-hw5-probs.pdf) -- **due on Friday, March 8th**
-
-
-The Poisson approximation <span style="color: purple;">**(Section 2.4)**</span>.<br>
-
-Introduction to random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
 [In-Term Two](exams/m362k-two-topics.pdf): Topics
 
@@ -243,6 +240,10 @@ Introduction to random variables <span style="color: purple;">**(Section 3.1)**<
 ---
 
 **Class 20: March 1st**<br>
+The Poisson approximation <span style="color: purple;">**(Section 2.4)**</span>.<br>
+
+Introduction to random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
 The cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
 
 ---
