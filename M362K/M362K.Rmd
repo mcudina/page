@@ -248,49 +248,30 @@ The cumulative distribution function (cdf) <span style="color: purple;">**(Secti
 ---
 
 **Class 21: March 4th**<br>
+More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
+More on the cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
+
+---
+
+**Class 22: March 6th**<br>
+<span style="color: red;">**In-Term Two**</span><br>
+
+---
+
+**Class 23: March 8th**<br>
+Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
+
+---
+
+**Class 24: March 18th**<br>
+Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
+---
+
+**Class 25: March 20th**<br>
 
 <!--
-Realized returns of stocks. Forward trees.  <br>
-
-[Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
-
-[Class notes](notes/m339d-oct-09-2023.pdf) 
-
-
----
-
-**Class 22: October 11th**<br>
-Binomial option pricing: Pricing by replication.<br>
-
-[Class notes](notes/m339d-oct-11-2023.pdf) 
-
-[Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, October 20th**
-
----
-
-**Class 23: October 13th**<br>
-Binomial option pricing [cont'd]. <br>
-
-[Class notes](notes/m339d-oct-13-2023.pdf) 
-
-[Homework #7](hw/m339d-hw7-parity-solns.pdf) -- **solutions**
-
----
-
-**Class 24: October 16th**<br>
-Binomial option pricing: Risk-neutral probability.<br>
-
-[Class notes](notes/m339d-oct-16-2023.pdf) 
-
-[Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
-
-**(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
-
-**(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
-
----
-
-**Class 25: October 18th**<br>
 Binomial option pricing: Two periods.<br>
 
 [Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
@@ -326,7 +307,6 @@ Monte Carlo for binomial option pricing [cont'd]. <br>
 ---
 
 **Class 28: October 25th**<br>
-<span style="color: red;">**In-Term Two**</span><br>
 
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
 

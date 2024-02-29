@@ -16,6 +16,7 @@ First of all, we note that the `Salary` variable is missing for some of the play
 
 ```{r chunk1}
 library(ISLR2)
+data(Hitters)
 names(Hitters)
 dim(Hitters)
 sum(is.na(Hitters$Salary))
@@ -91,6 +92,7 @@ test <- (!train)
 pcr.fit <- pcr(Salary ~ ., data = Hitters, subset = train,
     scale = TRUE, validation = "CV")
 validationplot(pcr.fit, val.type = "MSEP", legendpos = t(c(12,200000)))
+summary(pcr.fit)
 ```
 
 Now we find that the lowest cross-validation error occurs when $M=5$ components are used.
