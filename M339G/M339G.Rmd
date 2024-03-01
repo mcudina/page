@@ -352,6 +352,13 @@ More about the principal components regression <span style="color: purple;">**(S
 ---
 
 **Class 20: March 1st**<br>
+Review of categorical predictors and logistic regression.<br>
+
+[Class notes](notes/m339g-mar-01-2024.pdf)
+
+---
+
+**Class 21: March 4th**<br>
 Principal components analysis and clustering <span style="color: purple;">**(Section 12.2 and 12.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-clustering.pdf): K-Means Clustering 
@@ -360,59 +367,18 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 [Medium](https://medium.com/analytics-vidhya/comparison-of-initialization-strategies-for-k-means-d5ddd8b0350e): More on Initialization for K-Means Clustering
 
-<!--
+---
+
+**Class 22: March 6th**<br>
 <span style="color: red;">**In-Term One**</span><br>
 
+---
+
+**Class 23: March 8th**<br>
+
+<!--
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
 
-Monte Carlo [cont'd].<br>
-
-[Problem Set #7](problem-sets/m339d-ps7-mc-solns.Rmd): **Solutions**
-
-[Apple put data](data/apple-puts.csv)
-
-[Project #3](projects/m339d-project3-probs.pdf) -- **due on Monday, October 23rd**
-
-[Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-The binomial asset-pricing model.<br>
-
-[Class notes](notes/m339d-oct-06-2023.pdf) 
-
-**(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
-
-[Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
-
-[Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, October 13th**
-
----
-
-**Class 21: October 9th**<br>
-Realized returns of stocks. Forward trees.  <br>
-
-[Problem Set #8](problem-sets/m339d-ps8-bin-pricing.pdf): **Problems**
-
-[Class notes](notes/m339d-oct-09-2023.pdf) 
-
-
----
-
-**Class 22: October 11th**<br>
-Binomial option pricing: Pricing by replication.<br>
-
-[Class notes](notes/m339d-oct-11-2023.pdf) 
-
-[Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, October 20th**
-
-[In-Term Two](exams/m339d-two-topics.pdf): Topics
-
-[Practice for In-Term Two](exams/m339d-two-sample-probs.pdf): Problems
-
-[Practice for In-Term Two](exams/m339d-two-sample-solns.pdf): Solutions
-
----
-
-**Class 23: October 13th**<br>
 Binomial option pricing [cont'd]. <br>
 
 [Class notes](notes/m339d-oct-13-2023.pdf) 
