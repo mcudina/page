@@ -355,13 +355,13 @@ Acceptance-Rejection Method.<br>
 ---
 
 **Class 20: March 1st**<br>
-The Strong Law of Large Numbers. Monte Carlo simulation.<br>
+The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
-<!--
-[Class notes](notes/m339d-oct-04-2023.pdf) 
--->
+[Class notes](notes/m339d-mar-01-2024.pdf) 
 
 [Problem Set #8](problem-sets/m339d-ps8-mc.Rmd)
+
+[Problem Set #8](problem-sets/m339d-ps8-mc-in-class.Rmd): **Partial solutions**
 
 <!--
 [Problem Set #8](problem-sets/m339d-ps8-mc-solns.Rmd): **Solutions**
