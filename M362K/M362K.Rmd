@@ -242,22 +242,20 @@ More on the normal approximation to the binomial distribution <span style="color
 **Class 20: March 1st**<br>
 The Poisson approximation <span style="color: purple;">**(Section 2.4)**</span>.<br>
 
+[Class notes](notes/m362k-mar-01-2024.pdf)
+
 [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution): The Poisson distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/PoissonDistribution/#embed): The Poisson Distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/BinomialApproximationToAPoissonRandomVariable/): The Poisson Approximation to the Binomial Distribution
 
-Introduction to random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
-
-The cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
-
 ---
 
 **Class 21: March 4th**<br>
-More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+Introduction to random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
-More on the cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
+The cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
 
 ---
 
@@ -267,16 +265,19 @@ More on the cumulative distribution function (cdf) <span style="color: purple;">
 ---
 
 **Class 23: March 8th**<br>
-Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
+More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
+More on the cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
 
 ---
 
 **Class 24: March 18th**<br>
-Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
+Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
 
 ---
 
 **Class 25: March 20th**<br>
+Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
 <!--
 Binomial option pricing: Two periods.<br>
