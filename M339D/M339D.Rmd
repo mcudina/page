@@ -363,15 +363,20 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Problem Set #8](problem-sets/m339d-ps8-mc-in-class.Rmd): **Partial solutions**
 
-<!--
-[Problem Set #8](problem-sets/m339d-ps8-mc-solns.Rmd): **Solutions**
--->
-
 [Apple put data](data/apple-puts.csv)
 
 [Project #3](projects/m339d-project3-probs.pdf) -- **due on Monday, March 25th**
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
+
+**Class 21: March 4th**<br>
+More on Monte Carlo.<br>
+
+<!--
+[Problem Set #8](problem-sets/m339d-ps8-mc-solns.Rmd): **Solutions**
+-->
 
 The binomial asset-pricing model.<br>
 
@@ -387,9 +392,6 @@ The binomial asset-pricing model.<br>
 
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, March 8th**
 
----
-
-**Class 21: March 4th**<br>
 Realized returns of stocks. Forward trees.  <br>
 
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
