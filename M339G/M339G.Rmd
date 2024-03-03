@@ -369,6 +369,12 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 [Medium](https://medium.com/analytics-vidhya/comparison-of-initialization-strategies-for-k-means-d5ddd8b0350e): More on Initialization for K-Means Clustering
 
+[UC Irvine MLR](https://archive.ics.uci.edu/dataset/236/seeds): Documentation for the `seeds` data set 
+
+[Data set](code/seeds_dataset.csv)
+
+[`R`-notebook for class](code/pca-kmeans.Rmd): Principal component analysis with K-means
+
 ---
 
 **Class 22: March 6th**<br>
