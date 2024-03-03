@@ -375,6 +375,10 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 [`R`-notebook for class](code/pca-kmeans.Rmd): Principal component analysis with K-means
 
+Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
+
 ---
 
 **Class 22: March 6th**<br>
