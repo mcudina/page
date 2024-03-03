@@ -1,0 +1,122 @@
+---
+title: "PCA and K-Means Clustering"
+author: "Milica Cudina"
+output:
+  pdf_document: default
+---
+
+We consider the **seeds** data set. This data set contains measurements of seeds. First, we import the data set. 
+
+```{r}
+seeds<-read.csv("seeds_dataset.csv")
+seeds
+dim(seeds)
+```
+
+We immediately see that there are missing data points. I will choose to omit those rows in the future analysis. 
+
+```{r}
+seeds=na.omit(seeds)
+dim(seeds)
+```
+
+The columns are not labeled, so I will add names for aesthetic reasons. 
+
+```{r}
+colnames(seeds)=c("meas1", "meas2", "meas3", "meas4", "meas5", "meas6", "meas7")
+attach(seeds)
+```
+
+Here is the usual EDA. 
+
+```{r}
+plot(seeds, col="lightblue", pch=20)
+```
+
+We do recognize the strong relationship between some measurements. We could perform K-means clustering on the entire data set. 
+
+```{r}
+km.out <- kmeans(seeds, 2, nstart = 20)
+km.out
+pre.clustering=km.out$cluster
+```
+
+However, visualization is challenging in a $7-$dimensional space. 
+
+So, we want to start with PCA for this data set to reduce the dimension. Let's import the requisite library. 
+
+```{r}
+library(stats)
+```
+
+Let's look at the principal components analysis. 
+
+```{r}
+pr.out=prcomp(seeds,scale=TRUE)
+pr.out$center
+pr.out$scale
+pr.out$rotation
+```
+What does the biplot tell us?
+
+```{r}
+biplot(pr.out,scale=0, cex=0.5, xlabs=rep("*", length(meas1)),
+       col=c("lightblue", "red"))
+```
+
+Let's look at the variance explained. 
+
+```{r}
+pr.var=pr.out$sdev^2
+pve=pr.var/sum(pr.var)
+pve
+
+par(mfrow = c(1, 2))
+plot(pve,xlab="Principal Component", 
+     ylab="Proportion of Variance Explained", col="peru", 
+     pch=20, ylim=c(0,1),type='b')
+plot(cumsum(pve),xlab="Principal Component", 
+     ylab="Cumulative Proportion of Variance Explained", 
+     col="peru", pch=20, ylim=c(0,1),type='b')
+```
+
+The values corresponding to our rows in terms of principal components are available through `pr.out$x`. 
+
+```{r}
+pr.out$x
+```
+
+We can isolate the first two principal components as follows:
+
+```{r}
+pc1=pr.out$x[,1]
+pc2=pr.out$x[,2]
+```
+
+Let's look at the scatterplot of these two vectors. 
+
+```{r}
+plot(pc1, pc2, col="grey",pch=20)
+```
+
+Now, let's perform $K-$means clustering to these data based on the first and second principal components. 
+
+```{r}
+pcs=cbind(pc1, pc2)
+km.out=kmeans(pcs, 2, nstart=25)
+```
+
+Let's compare the clusters based on the entire data set and the first two principal components. 
+
+```{r}
+sum(km.out$cluster==pre.clustering)/length(pre.clustering)
+```
+
+What about the scatterplot?
+
+```{r}
+plot(pcs, col = (km.out$cluster + 1),
+    main = "K-Means Clustering Results with K = 2",
+    xlab = "", ylab = "", pch = 20, cex = 1)
+```
+
