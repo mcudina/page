@@ -253,9 +253,9 @@ The Poisson approximation <span style="color: purple;">**(Section 2.4)**</span>.
 **Class 21: March 4th**<br>
 Introduction to random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
-[Homework #6](hw/m362k-hw6-normal-approx.pdf) -- **due on Friday, March 22nd**
+[Class notes](notes/m362k-mar-04-2024.pdf)
 
-The cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
+[Homework #6](hw/m362k-hw6-normal-approx.pdf) -- **due on Friday, March 22nd**
 
 ---
 
@@ -265,46 +265,28 @@ The cumulative distribution function (cdf) <span style="color: purple;">**(Secti
 ---
 
 **Class 23: March 8th**<br>
+Functions of random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
+The cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
+
+---
+
+**Class 24: March 18th**<br>
 More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
 More on the cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
 
 ---
 
-**Class 24: March 18th**<br>
+**Class 25: March 20th**<br>
 Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
 
 ---
 
-**Class 25: March 20th**<br>
+**Class 26: March 22nd**<br>
 Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
 <!--
-Binomial option pricing: Two periods.<br>
-
-[Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
-
-[Class notes](notes/m339d-oct-18-2023.pdf) 
-
----
-
-**Class 26: October 20th**<br>
-Multiple binomial periods. <br>
-
-[Class notes](notes/m339d-oct-20-2023.pdf) 
-
-[Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
-
-[Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, October 27th**
-
-Monte Carlo for binomial option pricing. <br>
-
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
-
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-oct-20-2023.Rmd): Phase I
-
-[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
-
 ---
 
 **Class 27: October 23rd**<br>
