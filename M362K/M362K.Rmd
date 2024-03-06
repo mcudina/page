@@ -284,12 +284,17 @@ Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
 ---
 
 **Class 26: March 22nd**<br>
+Markov's and Chebishev's inequalities <span style="color: purple;">**(Section 3.2)**</span>.<br> 
+
 Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
-<!--
 ---
 
-**Class 27: October 23rd**<br>
+**Class 27: March 25th**<br>
+More on the Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
+
+<!--
 Monte Carlo for binomial option pricing [cont'd]. <br>
 
 [Problem Set #10](problem-sets/m339d-ps10-binomial-mc-oct-23-2023.Rmd): Phase II
