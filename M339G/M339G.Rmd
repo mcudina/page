@@ -387,19 +387,22 @@ Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</s
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
 
+[Class notes](notes/m339g-mar-08-2024.pdf)
+
+---
+
+**Class 24: March 18th**<br>
+Multivariate normal distribution.<br> 
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
+
+More on the linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 <!--
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
 
-Binomial option pricing [cont'd]. <br>
-
-[Class notes](notes/m339d-oct-13-2023.pdf) 
-
-[Homework #7](hw/m339d-hw7-parity-solns.pdf) -- **solutions**
-
----
-
-**Class 24: October 16th**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
 [Class notes](notes/m339d-oct-16-2023.pdf) 

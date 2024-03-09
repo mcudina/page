@@ -1,0 +1,94 @@
+---
+title: "Linear Discriminant Analysis (LDA)"
+author: "Trevor Hastie and Robert Tibshirani"
+output:
+  pdf_document: default
+---
+
+**Here, I am adapting part of the lab associated with Chapter 4 of the textbook.** 
+
+We re-examine 
+the `Smarket` data, which is part of the `ISLR2` library. This
+data set consists of percentage returns for the S\&P 500 stock index
+over $1,250$ days, from the beginning of 2001 until the end of
+2005. For each date, we have recorded the percentage returns for each
+of the five previous trading days, `lagone` through `lagfive`. We
+have also recorded `volume` (the number of shares traded on the previous day, in billions), `Today` (the percentage return on the date in question)  and `direction` (whether the market was `Up` or `Down` on this date). Our goal is to predict `direction` (a qualitative response) using the other features.
+
+```{r chunk1}
+library(ISLR2)
+names(Smarket)
+dim(Smarket)
+summary(Smarket)
+attach(Smarket)
+```
+
+We will again create a vector corresponding to the observations from 2001 through 2004. We will then use this vector to create a held out data set of observations from 2005.
+
+```{r chunk9}
+train <- (Year < 2005)
+Smarket.2005 <- Smarket[!train, ]
+dim(Smarket.2005)
+Direction.2005 <- Direction[!train]
+```
+
+## Linear Discriminant Analysis
+
+Now we will perform LDA on the `Smarket` data. In `R`, we fit an LDA model using the  `lda()` function, which is part of the `MASS` library. Notice that the syntax for the `lda()` function is identical to that of `lm()`, and to that of `glm()` except for the absence of the `family` option. We fit the model using only the observations before 2005.
+
+```{r chunk14}
+library(MASS)
+lda.fit <- lda(Direction ~ Lag1 + Lag2, data = Smarket,
+    subset = train)
+lda.fit
+plot(lda.fit)
+```
+
+The LDA output indicates that $\hat\pi_1=0.492$ and $\hat\pi_2=0.508$; in other words, $49.2$ \% of the training observations correspond to days during which the market went down.
+ It also provides the group means; these are the average of each predictor within each class, and are used by LDA as estimates of $\mu_k$.
+ These suggest that there is a tendency for the previous 2~days' returns to be negative on days when the market increases, and a tendency for the previous days' returns to be positive on days when the market declines.
+  The *coefficients of linear discriminants* output provides the linear combination of `lagone` and `lagtwo` that are used to form the LDA decision rule. In other words, these are the multipliers of the elements of $X=x$ in (4.24).
+  If $-0.642 \times \texttt{`lagone`} - 0.514 \times \texttt{`lagtwo`}$ is large, then the LDA classifier will predict a market increase, and if it is small, then the LDA classifier will predict a market decline.
+
+  The `plot()` function produces plots of the *linear discriminants*, obtained by computing $-0.642 \times \texttt{`lagone`} - 0.514 \times \texttt{`lagtwo`}$ for each of the training observations. The `Up` and `Down` observations are displayed separately.
+
+
+
+
+The `predict()` function returns a list with three elements. The first element,  `class`,  contains LDA's predictions about the movement of the market. The second element, `posterior`, is a matrix whose $k$th column contains the posterior probability that the corresponding observation belongs to the $k$th class, computed from (4.15). Finally, `x` contains the linear discriminants, described earlier.
+
+```{r chunk15}
+lda.pred <- predict(lda.fit, Smarket.2005)
+names(lda.pred)
+```
+
+As we observed in Section 4.5, the LDA and logistic regression predictions are almost identical.
+
+```{r chunk16}
+lda.class <- lda.pred$class
+table(lda.class, Direction.2005)
+mean(lda.class == Direction.2005)
+```
+
+Applying a $50$ \% threshold to the posterior probabilities allows us to recreate the predictions contained in `lda.pred$class`.
+
+```{r chunk17}
+sum(lda.pred$posterior[, 1] >= .5)
+sum(lda.pred$posterior[, 1] < .5)
+```
+
+Notice that the posterior probability output by the model corresponds to the probability that the market will *decrease*:
+
+```{r chunk18}
+lda.pred$posterior[1:20, 1]
+lda.class[1:20]
+```
+
+If we wanted to use a posterior probability threshold other than $50$ \% in order to make predictions, then we could easily do so. For instance, suppose that we wish to predict a market decrease only if we are very certain that the market will indeed decrease on that day---say, if the posterior probability
+is at least $90$ \%.
+
+```{r chunk19}
+sum(lda.pred$posterior[, 1] > .9)
+```
+
+No days in 2005 meet that threshold! In fact, the greatest posterior probability of decrease in all of 2005 was $52.02$ \%.
