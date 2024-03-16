@@ -406,10 +406,11 @@ Realized returns of stocks. Forward trees.  <br>
 
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-oct-09-2023.pdf) 
--->
+[Class notes](notes/m339d-mar-08-2024.pdf) 
 
+---
+
+**Class 24: March 18th**<br>
 Binomial option pricing: Pricing by replication.<br>
 
 <!--
@@ -418,10 +419,6 @@ Binomial option pricing: Pricing by replication.<br>
 
 [Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 22nd**
 
-
----
-
-**Class 24: March 18th**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
 <!--
