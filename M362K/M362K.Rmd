@@ -269,8 +269,6 @@ Introduction to random variables <span style="color: purple;">**(Section 3.1)**<
 **Class 23: March 8th**<br>
 Functions of random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
-[Homework #7](hw/m362k-hw7-rvs.pdf) -- **due on Friday, March 29th**
-
 The cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
 
 [Class notes](notes/m362k-mar-08-2024.pdf)
@@ -280,6 +278,8 @@ The cumulative distribution function (cdf) <span style="color: purple;">**(Secti
 **Class 24: March 18th**<br>
 More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
+[Homework #7](hw/m362k-hw7-rvs.pdf) -- **due on Friday, March 29th**
+
 More on the cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
 
 ---
@@ -287,12 +287,16 @@ More on the cumulative distribution function (cdf) <span style="color: purple;">
 **Class 25: March 20th**<br>
 Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
 
+[Homework #8](hw/m362k-hw8-more-rvs.pdf) -- **due on Friday, April 5th**
+
 ---
 
 **Class 26: March 22nd**<br>
 Markov's and Chebishev's inequalities <span style="color: purple;">**(Section 3.2)**</span>.<br> 
 
 Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
+[Homework #9](hw/m362k-hw9-expectation.pdf) -- **due on Friday, April 12th**
 
 ---
 
