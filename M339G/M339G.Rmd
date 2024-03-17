@@ -408,6 +408,10 @@ Multivariate normal distribution.<br>
 
 More on the linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
+[Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
+
+[`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
+
 <!--
 
 Binomial option pricing: Risk-neutral probability.<br>
