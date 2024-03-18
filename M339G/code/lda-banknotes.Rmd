@@ -1,0 +1,140 @@
+---
+title: "PCR: Seat position"
+author: "Gustavo Cepparo and Milica Cudina"
+output:
+  pdf_document: default
+---
+
+## Seat Position 
+
+We reconsider the **seat position** data set. Recall that it is from the `faraway` library. 
+
+```{r}
+#install.packages("faraway")
+library(faraway)
+```
+
+The data set `seatpos` is used to predict the carseat position (`hipcenter`) based on biometric data of the driver. 
+
+```{r}
+data(seatpos)
+```
+
+This is what we got when we tried multiple linear regression.
+
+```{r}
+lm.fit=lm(hipcenter~.,data=seatpos)
+summary(lm.fit)
+```
+
+Does PCA help? Let's import the requisite library. 
+
+```{r}
+library(stats)
+```
+
+I will reimagine my predictor variables to be the ones with the biometric data (so, we exclude `Age` and the response).
+
+```{r}
+data=seatpos[,2:8]
+attach(data)
+```
+
+Let's look at the principal components analysis. 
+
+```{r}
+pr.out=prcomp(data,scale=TRUE)
+pr.out$center
+pr.out$scale
+pr.out$rotation
+```
+What does the biplot tell us?
+
+```{r}
+biplot(pr.out,scale=0, cex=0.5, xlabs=rep("*", length(Ht)),
+       col=c("lightblue", "red"))
+```
+
+I am not happy with all the negative loadings, so let's take the negatives. 
+
+```{r}
+pr.out$rotation=-pr.out$rotation
+#pr.out$rotation
+pr.out$x=-pr.out$x
+biplot(pr.out,scale=0, cex=0.5, xlabs=rep("*", length(Ht)),
+       col=c("lightblue", "red"))
+```
+Let's look at the variance explained. 
+
+```{r}
+pr.var=pr.out$sdev^2
+pve=pr.var/sum(pr.var)
+pve
+
+par(mfrow = c(1, 2))
+plot(pve,xlab="Principal Component", 
+     ylab="Proportion of Variance Explained", col="peru", 
+     pch=20, ylim=c(0,1),type='b')
+plot(cumsum(pve),xlab="Principal Component", 
+     ylab="Cumulative Proportion of Variance Explained", 
+     col="peru", pch=20, ylim=c(0,1),type='b')
+```
+
+What would principal component regression give us?
+
+```{r}
+library(pls)
+set.seed(1)
+data=seatpos[,-1]
+attach(data)
+pcr.fit=pcr(hipcenter~.,data=data,scale=TRUE,validation="CV")
+summary(pcr.fit)
+```
+
+Exactly **one** component works wonderfully. Let's confirm with the validation plot. 
+
+```{r}
+validationplot(pcr.fit,val.type="MSEP")
+```
+
+What if we did the training and testing instead?
+
+```{r}
+set.seed(1)
+train.ind <- sample(nrow(data), floor(nrow(data)*0.6))
+training <- data[train.ind,]
+test <- data[-train.ind,]
+
+pcr.fit=pcr(hipcenter~.,data=training,scale=TRUE, validation="CV")
+summary(pcr.fit)
+validationplot(pcr.fit,val.type="MSEP", legendpos = t(c(1.5,2500)))
+```
+Note that the RMSE for $1$ principal component is $30.26$. This implies that the MSE is $30.26^2= 915.6676$. 
+
+Now, we look at the performance on the testing set with $1$ principal component. 
+
+```{r}
+pcr.pred=predict(pcr.fit,newdata=test,ncomp=1)
+#pcr.pred
+mean((pcr.pred-test$hipcenter)^2)
+```
+The MSE is much higher than on the training set. 
+
+It is interesting to consider the scatterplot of the predicted and actual values in the testing set. 
+
+```{r}
+plot(pcr.pred~test$hipcenter, pch=20, col="grey",
+     main="Discrepancies",
+     xlab="Actual", ylab="Predicted")
+abline(0,1, col="red", lwd=2)
+```
+
+What about the difference?
+
+```{r}
+plot(pcr.pred-test$hipcenter, pch=20, col="grey",
+     main="Difference",
+     xlab="Index", ylab="Difference")
+abline(0,0, col="red", lwd=2)
+```
+
