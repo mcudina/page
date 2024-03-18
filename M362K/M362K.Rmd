@@ -280,11 +280,11 @@ More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<
 
 [Homework #7](hw/m362k-hw7-rvs.pdf) -- **due on Friday, March 29th**
 
-More on the cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
-
 ---
 
 **Class 25: March 20th**<br>
+More on the cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
+
 Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
 
 [Homework #8](hw/m362k-hw8-more-rvs.pdf) -- **due on Friday, April 5th**
@@ -292,6 +292,8 @@ Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
 ---
 
 **Class 26: March 22nd**<br>
+More on expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
+
 Markov's and Chebishev's inequalities <span style="color: purple;">**(Section 3.2)**</span>.<br> 
 
 Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
@@ -301,12 +303,14 @@ Standard deviation and the normal approximation <span style="color: purple;">**(
 ---
 
 **Class 27: March 25th**<br>
-More on the Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
+The Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
 
 ---
 
 **Class 28: March 27th**<br>
+More on the Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
 Discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
 [Homework #10](hw/m362k-hw10-discrete.pdf) -- **due on Friday, April 19th**
@@ -324,20 +328,18 @@ More on discrete distributions <span style="color: purple;">**(Section 3.4)**</s
 **Class 30: April 1st**<br>
 The Poisson distribution <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
-**Suggested textbook problems:** 3.5.3, 
-
-<!--
-The limiting behavior of stock prices. More on realized returns.<br> 
-
-[Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
-
-[Class notes](notes/m339d-oct-30-2023.pdf) 
+**Suggested textbook problem:** 3.5.3. 
 
 ---
 
-**Class 31: November 1st**<br>
-No class. 
+**Class 31: April 3rd**<br>
+More on the Poisson distribution <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
+Continuous distributions <span style="color: purple;">**(Section 4.1)**</span>.<br>
+
+**Suggested textbook problems:** 4.1.4, 4.1.6, 4.5.4, 4.5.5, 4.5.6 a,b,c
+
+<!--
 ---
 
 **Class 32: November 3rd**<br>

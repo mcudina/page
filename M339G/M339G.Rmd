@@ -400,33 +400,26 @@ Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</s
 ---
 
 **Class 24: March 18th**<br>
+More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+
+[Class notes](notes/m339g-mar-18-2024.pdf)
+
+---
+
+**Class 25: March 20th**<br>
 Multivariate normal distribution.<br> 
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
 
-More on the linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+More on the linear discriminant analysis, quadratic discriminant analysis, nave Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
 
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
 
 <!--
-
-Binomial option pricing: Risk-neutral probability.<br>
-
-[Class notes](notes/m339d-oct-16-2023.pdf) 
-
-[Problem Set #6](problem-sets/m339d-ps6-bin-pricing-solns.pdf): **Solutions**
-
-**(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
-
-**(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
-
----
-
-**Class 25: October 18th**<br>
 Binomial option pricing: Two periods.<br>
 
 [Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
