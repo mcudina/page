@@ -278,6 +278,8 @@ The cumulative distribution function (cdf) <span style="color: purple;">**(Secti
 **Class 24: March 18th**<br>
 More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
+[Class notes](notes/m362k-mar-18-2024.pdf)
+
 [Homework #7](hw/m362k-hw7-rvs.pdf) -- **due on Friday, March 29th**
 
 ---
@@ -285,30 +287,31 @@ More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<
 **Class 25: March 20th**<br>
 More on the cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
 
+---
+
+**Class 26: March 22nd**<br>
 Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
 
 [Homework #8](hw/m362k-hw8-more-rvs.pdf) -- **due on Friday, April 5th**
 
 ---
 
-**Class 26: March 22nd**<br>
-More on expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
-
+**Class 27: March 25th**<br>
 Markov's and Chebishev's inequalities <span style="color: purple;">**(Section 3.2)**</span>.<br> 
 
 Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
 [Homework #9](hw/m362k-hw9-expectation.pdf) -- **due on Friday, April 12th**
 
----
-
-**Class 27: March 25th**<br>
-The Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
-
 
 ---
 
 **Class 28: March 27th**<br>
+The Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
+---
+
+**Class 29: March 29th**<br>
 More on the Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
 Discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
@@ -317,68 +320,37 @@ Discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br
 
 ---
 
-**Class 29: March 29th**<br>
+**Class 30: April 1st**<br>
 More on discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
 [Homework #11](hw/m362k-hw11-more-discrete.pdf) -- **due on Friday, April 26th**
 
-
 ---
 
-**Class 30: April 1st**<br>
+**Class 31: April 3rd**<br>
 The Poisson distribution <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
 **Suggested textbook problem:** 3.5.3. 
 
 ---
 
-**Class 31: April 3rd**<br>
+**Class 32: April 5th**<br>
 More on the Poisson distribution <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
 Continuous distributions <span style="color: purple;">**(Section 4.1)**</span>.<br>
 
 **Suggested textbook problems:** 4.1.4, 4.1.6, 4.5.4, 4.5.5, 4.5.6 a,b,c
 
+---
+
+**Class 33: April 8th**<br>
+<span style="color: red;">**Solar Eclipse**</span><br>
+
+---
+
+**Class 34: April 10th**<br>
+
 <!--
----
-
-**Class 32: November 3rd**<br>
-Moment generating functions.<br>
-
-[Class notes](notes/m339d-apr-03-2023.pdf): The pre-limit. mgf.
-
-The log-normal distribution. Jensen's inequality.<br>
-
-[Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
-
-[Class notes](notes/m339d-apr-05-2023.pdf): mgf. The log-normal distribution. Jensen's inequality.
-
-[The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
-from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Chris Boucher 
-
-[Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
-
-[Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
-
-
----
-
-**Class 33: November 6th**<br>
-Log-normal stock prices: Parameter interpretation.<br>
-
-[Class notes](notes/m339d-nov-06-2023.pdf): Lognormal stock prices: Mean. Median. 
-
-**(Enrichment material)** [Lecture notes](lectures/m339w-on-pricing.pdf): On pricing in the Black-Scholes model with continuous dividends. 
-
-[Problem Set](problem-sets/m339d-ps-lognormal-stocks.pdf): **Problems**
-
-[Problem Set](problem-sets/m339d-ps-lognormal-stocks-solns.pdf): **Solutions**
-
-[Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, November 17th**
-
----
-
-**Class 34: November 8th**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
 [Class notes](notes/m339d-nov-08-2023.pdf): Tail probabilities.
