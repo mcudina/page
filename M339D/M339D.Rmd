@@ -415,12 +415,13 @@ Realized returns of stocks. Forward trees.  <br>
 **Class 24: March 18th**<br>
 Binomial option pricing: Pricing by replication.<br>
 
-<!--
-[Class notes](notes/m339d-oct-11-2023.pdf) 
--->
+[Class notes](notes/m339d-mar-18-2024.pdf) 
 
 [Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 22nd**
 
+---
+
+**Class 25: March 20th**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
 <!--
@@ -436,9 +437,6 @@ Binomial option pricing: Risk-neutral probability.<br>
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
----
-
-**Class 25: March 20th**<br>
 Binomial option pricing: Two periods.<br>
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-probs.pdf): **Problems**
