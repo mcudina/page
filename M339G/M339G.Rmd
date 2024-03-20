@@ -407,11 +407,18 @@ More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 ---
 
 **Class 25: March 20th**<br>
-Multivariate normal distribution.<br> 
+Bivariate normal distribution.<br> 
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
+
+[Class notes](notes/m339g-mar-20-2024.pdf)
+
+---
+
+**Class 26: March 22nd**<br>
+Multivariate normal distribution.<br> 
 
 More on the linear discriminant analysis, quadratic discriminant analysis, nave Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
@@ -420,15 +427,6 @@ More on the linear discriminant analysis, quadratic discriminant analysis, nave 
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
 
 <!--
-Binomial option pricing: Two periods.<br>
-
-[Problem Set #9](problem-sets/m339d-ps9-two-periods.pdf): **Problems**
-
-[Class notes](notes/m339d-oct-18-2023.pdf) 
-
----
-
-**Class 26: October 20th**<br>
 Multiple binomial periods. <br>
 
 [Class notes](notes/m339d-oct-20-2023.pdf) 
