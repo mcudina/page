@@ -426,6 +426,8 @@ More on the linear discriminant analysis, quadratic discriminant analysis, nave 
 
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
 
+[`partimat`](https://www.rdocumentation.org/packages/klaR/versions/1.7-3/topics/partimat): Documentation
+
 <!--
 Multiple binomial periods. <br>
 

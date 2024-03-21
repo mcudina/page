@@ -41,6 +41,14 @@ testing<-data[-ind.train,]
 My goal with this example is to ultimately demonstrate how to plot a partition in the plane. So, I will arbitrarily choose two explanatory variables: `Top` and `Diagonal`.
 
 ```{r}
-
+library(MASS)
+linear <- lda(Status~Top+Diagonal, data=training)
+summary(linear)
 ```
+# Histogram
+```{r}
+p <- predict(linear, training)
+ldahist(data = p$x[,1], g = training$Status)
+```
+
 
