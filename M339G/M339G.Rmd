@@ -428,6 +428,8 @@ More on the linear discriminant analysis, quadratic discriminant analysis, nave 
 
 [`partimat`](https://www.rdocumentation.org/packages/klaR/versions/1.7-3/topics/partimat): Documentation
 
+[`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
+
 <!--
 Multiple binomial periods. <br>
 

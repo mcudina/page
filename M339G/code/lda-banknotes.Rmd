@@ -45,10 +45,33 @@ library(MASS)
 linear <- lda(Status~Top+Diagonal, data=training)
 summary(linear)
 ```
-# Histogram
+Now, we try to create a partition plot. 
+
 ```{r}
-p <- predict(linear, training)
-ldahist(data = p$x[,1], g = training$Status)
+#install.packages("klaR")
+library(klaR)
+partimat(Status~Top+Diagonal, data = training, method = "lda")
+partimat(Status~Top+Diagonal, data = training, method = "qda")
 ```
+
+Finally, let's consider the confusion matrix and accuracy, both on the training set and the testing set. 
+
+```{r}
+#the training set
+p.tr <- predict(linear, training)$class
+tab.tr <- table(Predicted = p.tr, Actual = training$Status)
+tab.tr
+sum(diag(tab.tr))/sum(tab.tr)
+#this is the error rate indicated in the label on the plot above
+1-sum(diag(tab.tr))/sum(tab.tr)
+
+#the testing set
+p.te <- predict(linear, testing)$class
+tab.te <- table(Predicted = p.te, Actual = testing$Status)
+tab.te
+sum(diag(tab.te))/sum(tab.te)
+```
+
+
 
 
