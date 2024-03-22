@@ -430,30 +430,13 @@ More on the linear discriminant analysis, quadratic discriminant analysis, nave 
 
 [`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
 
-<!--
-Multiple binomial periods. <br>
-
-[Class notes](notes/m339d-oct-20-2023.pdf) 
-
-[Problem Set #9](problem-sets/m339d-ps9-two-periods-solns.pdf): **Solutions**
-
-[Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, October 27th**
-
-Monte Carlo for binomial option pricing. <br>
-
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-probs.Rmd)
-
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-oct-20-2023.Rmd): Phase I
-
-[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
+[Homework #6](hw/m339g-hw6.pdf) -- **due on Friday, March 29th, 2024**
 
 ---
 
-**Class 27: October 23rd**<br>
-Monte Carlo for binomial option pricing [cont'd]. <br>
+**Class 27: March 25th**<br>
 
-[Problem Set #10](problem-sets/m339d-ps10-binomial-mc-oct-23-2023.Rmd): Phase II
-
+<!--
 ---
 
 **Class 28: October 25th**<br>
