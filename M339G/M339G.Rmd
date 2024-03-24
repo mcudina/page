@@ -420,6 +420,15 @@ Bivariate normal distribution.<br>
 **Class 26: March 22nd**<br>
 Multivariate normal distribution.<br> 
 
+[Class notes](notes/m339g-mar-22-2024.pdf)
+
+[Homework #5](hw/m339g-hw5-solns.pdf) -- **solutions**
+
+[Homework #6](hw/m339g-hw6.pdf) -- **due on Friday, March 29th, 2024**
+
+---
+
+**Class 27: March 25th**<br>
 More on the linear discriminant analysis, quadratic discriminant analysis, nave Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
@@ -430,16 +439,11 @@ More on the linear discriminant analysis, quadratic discriminant analysis, nave 
 
 [`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
 
-[Homework #6](hw/m339g-hw6.pdf) -- **due on Friday, March 29th, 2024**
-
 ---
 
-**Class 27: March 25th**<br>
+**Class 28: March 27th**<br>
 
 <!--
----
-
-**Class 28: October 25th**<br>
 <span style="color: red;">**In-Term Two**</span><br>
 
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
