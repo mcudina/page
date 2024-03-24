@@ -439,6 +439,8 @@ Binomial option pricing: Risk-neutral probability.<br>
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
+[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
+
 ---
 
 **Class 27: March 25th**<br>
@@ -464,9 +466,6 @@ Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs.Rmd)
 
-<!--
-[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
--->
 
 ---
 
