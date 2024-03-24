@@ -442,6 +442,11 @@ More on the linear discriminant analysis, quadratic discriminant analysis, nave 
 ---
 
 **Class 28: March 27th**<br>
+Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
+
+[Problem packet](problem-sets/m339g-regression-trees.pdf)
 
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
