@@ -455,11 +455,9 @@ Binomial option pricing: Two periods.<br>
 **Class 28: March 27th**<br>
 Multiple binomial periods. <br>
 
-<!--
-[Class notes](notes/m339d-oct-20-2023.pdf) 
+[Class notes](notes/m339d-mar-27-2024.pdf) 
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-solns.pdf): **Solutions**
--->
 
 [Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, March 29th**
 
@@ -467,15 +465,19 @@ Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs.Rmd)
 
+[Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs-in-class.Rmd): Part I
+
+---
+
+**Class 29: March 29th**<br>
+More on Monte Carlo for binomial option pricing. <br>
+
 Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
 [Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 5th**
 
----
-
-**Class 29: March 29th**<br>
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
