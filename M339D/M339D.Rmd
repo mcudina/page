@@ -472,6 +472,13 @@ Monte Carlo for binomial option pricing. <br>
 **Class 29: March 29th**<br>
 More on Monte Carlo for binomial option pricing. <br>
 
+[Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs-in-class-too.Rmd): Part II
+
+---
+
+**Class 30: April 1st**<br>
+Even more on Monte Carlo for binomial option pricing. <br>
+
 Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
@@ -500,9 +507,6 @@ The normal approximation to the binomial.<br>
 [Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 30: April 1st**<br>
 The limiting behavior of stock prices. More on realized returns.<br> 
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
