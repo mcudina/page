@@ -474,6 +474,8 @@ More on Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs-in-class-too.Rmd): Part II
 
+[Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
+
 ---
 
 **Class 30: April 1st**<br>
@@ -503,9 +505,6 @@ The normal approximation to the binomial.<br>
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
-[Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
--->
 
 The limiting behavior of stock prices. More on realized returns.<br> 
 
