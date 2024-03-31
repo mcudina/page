@@ -24,7 +24,82 @@ knitr::opts_chunk$set(
 ---
 
 ## Problem #1 **(5+10+5+10+10+10+10+10=70 points)**
-Solve **Problem 4.8.15** (pp. 193-194) from the textbook. 
+Solve **Problem 4.8.13** (pp. 192-193) from the textbook. 
 
-*Hint:*  
+*Hint:*  Here is a list of libraries you will need: 
 
+```{r}
+library(MASS)
+library(ISLR2)
+library(e1071)
+```
+
+*Solution:*
+First, here is some exploratory data analysis.
+
+```{r}
+summary(Weekly)
+cor(Weekly[,-9])
+plot(Weekly[, -9], pch=19, col="lightblue")
+```
+
+As time goes by, there is more and more trading. So, there is a nice correlation between `Year` and `Volume`. Other than that, I cannot discern a pattern. 
+
+```{r}
+mlr.fit <- glm(
+  Direction ~ Lag1 + Lag2 + Lag3 + Lag4 + Lag5 + Volume,
+  data = Weekly,
+  family = binomial
+)
+summary(mlr.fit)
+```
+
+`Lag2` is the only significant one.
+
+Now, it's time for the **confusion matrix**.
+
+```{r}
+probs <- predict(mlr.fit, type = "response") 
+glm.pred=rep("Down", length(probs))
+glm.pred[probs>0.5]<-"Up"
+tab <- table(glm.pred, Weekly$Direction)
+tab
+sum(diag(tab)) / sum(tab)
+
+mean(Weekly$Direction=="Up")
+```
+
+The prediction is correct a bit over 56\% of the time. However, the proportion of the realized "Up"s was just under 56\%. So, constantly saying "Up" would work almost as well as our logistic regression. 
+
+Now, for training and testing. 
+
+```{r}
+train <- Weekly$Year < 2009
+
+fit <- glm(Direction ~ Lag2, data = Weekly[train, ], family = binomial)
+pred <- predict(fit, Weekly[!train, ], type = "response") > 0.5
+(t <- table(ifelse(pred, "Up (pred)", "Down (pred)"), Weekly[!train, ]$Direction))
+sum(diag(t)) / sum(t)
+```
+
+```{r}
+attach(Weekly)
+train <- (Year< 2009)
+test=Weekly[!train,]
+dim(test)
+
+fit.tr <- glm(Direction ~ Lag2, data = Weekly, subset=train, family = binomial)
+
+probs.tr <- predict(fit.tr, data=test[,-9], type = "response")
+probs.tr
+length(probs)
+glm.pred=rep("Down", length(probs))
+glm.pred[probs>0.5]<-"Up"
+length(glm.pred)
+length(test$Direction)
+tab <- table(glm.pred, test$Direction)
+tab
+sum(diag(tab)) / sum(tab)
+
+
+```
