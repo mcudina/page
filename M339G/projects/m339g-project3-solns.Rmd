@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 
 ---
 
-## Problem #1 **(5+10+5+10+10+10+10+10=70 points)**
+## Problem #1 **(5+10+5+10+10+10+10+10+5+25=70 points)**
 Solve **Problem 4.8.13** (pp. 192-193) from the textbook. 
 
 *Hint:*  Here is a list of libraries you will need: 
@@ -32,6 +32,7 @@ Solve **Problem 4.8.13** (pp. 192-193) from the textbook.
 library(MASS)
 library(ISLR2)
 library(e1071)
+library(class)
 ```
 
 *Solution:*
@@ -64,7 +65,7 @@ glm.pred=rep("Down", length(probs))
 glm.pred[probs>0.5]<-"Up"
 tab <- table(glm.pred, Weekly$Direction)
 tab
-sum(diag(tab)) / sum(tab)
+sum(diag(tab))/sum(tab)
 
 mean(Weekly$Direction=="Up")
 ```
@@ -74,32 +75,66 @@ The prediction is correct a bit over 56\% of the time. However, the proportion o
 Now, for training and testing. 
 
 ```{r}
-train <- Weekly$Year < 2009
-
-fit <- glm(Direction ~ Lag2, data = Weekly[train, ], family = binomial)
-pred <- predict(fit, Weekly[!train, ], type = "response") > 0.5
-(t <- table(ifelse(pred, "Up (pred)", "Down (pred)"), Weekly[!train, ]$Direction))
-sum(diag(t)) / sum(t)
-```
-
-```{r}
 attach(Weekly)
 train <- (Year< 2009)
 test=Weekly[!train,]
+Direction.test=Direction[!train]
 dim(test)
 
 fit.tr <- glm(Direction ~ Lag2, data = Weekly, subset=train, family = binomial)
 
-probs.tr <- predict(fit.tr, data=test[,-9], type = "response")
+probs.tr <- predict(fit.tr, test[,-9], type = "response")
 probs.tr
-length(probs)
-glm.pred=rep("Down", length(probs))
-glm.pred[probs>0.5]<-"Up"
+length(probs.tr)
+glm.pred=rep("Down", length(probs.tr))
+glm.pred[probs.tr>0.5]<-"Up"
 length(glm.pred)
-length(test$Direction)
-tab <- table(glm.pred, test$Direction)
+
+tab <- table(glm.pred, Direction.test)
 tab
-sum(diag(tab)) / sum(tab)
-
-
+sum(diag(tab))/sum(tab)
 ```
+
+Using LDA, we get
+
+```{r}
+lda.tr <- lda(Direction ~ Lag2, data = Weekly, subset=train)
+
+lda.tr
+
+lda.pred <- predict(lda.tr, test[,-9], type = "response")$class
+#length(lda.pred)
+tab <- table(lda.pred, Direction.test)
+tab
+sum(diag(tab))/sum(tab)
+```
+
+For QDA implementation, we just change the command above. 
+
+```{r}
+qda.tr <- qda(Direction ~ Lag2, data = Weekly, subset=train)
+
+qda.tr
+
+qda.pred <- predict(qda.tr, test[,-9], type = "response")$class
+#length(lda.pred)
+tab <- table(qda.pred, Direction.test)
+tab
+sum(diag(tab))/sum(tab)
+```
+For KNN, we need to remember that the syntax is slightly different in that the training and the testing are immediately input into the command. 
+
+```{r}
+knn.fit <- knn(Weekly[train, "Lag2", drop = FALSE], 
+               Weekly[!train, "Lag2", drop = FALSE], 
+               Weekly$Direction[train])
+
+tab=table(knn.fit, Direction.test)
+tab
+
+sum(diag(tab))/sum(tab)
+```
+
+The logistic regression and the LDA - despite being the simplest - perform the best. 
+
+For the remainder of the project, solutions will vary. 
