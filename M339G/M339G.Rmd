@@ -477,6 +477,11 @@ Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**<
 
 [Slides by Hastie & Tibshirani](slides/ch8-pruning.pdf): Tree-based regression (pruning)
 
+[`R`-notebook for class](code/regression-trees.Rmd): Regression trees
+
+Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br>
+
+
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
