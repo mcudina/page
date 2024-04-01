@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 
 ---
 
-## Problem #1 **(5+10+5+10+10+10+10+10+5+25=70 points)**
+## Problem #1 **(5+10+5+10+10+10+10+10+5+25=100 points)**
 Solve **Problem 4.8.13** (pp. 192-193) from the textbook. 
 
 *Hint:*  Here is a list of libraries you will need: 
