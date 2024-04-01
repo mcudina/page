@@ -487,6 +487,8 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 
 [Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
 
+[`R`-notebook for class](code/classification-trees.Rmd): Classification trees
+
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
