@@ -481,6 +481,7 @@ Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**<
 
 Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br>
 
+[Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
 
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
