@@ -326,12 +326,15 @@ Standard deviation and the normal approximation <span style="color: purple;">**(
 ---
 
 **Class 30: April 1st**<br>
-The Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
+The covariance formula <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
+[Class notes](notes/m362k-apr-01-2024.pdf)
 
 ---
 
 **Class 31: April 3rd**<br>
+The Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
 Discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
 [Homework #10](hw/m362k-hw10-discrete.pdf) -- **due on Friday, April 19th**
