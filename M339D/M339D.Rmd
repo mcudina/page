@@ -481,6 +481,8 @@ More on Monte Carlo for binomial option pricing. <br>
 **Class 30: April 1st**<br>
 Even more on Monte Carlo for binomial option pricing. <br>
 
+[Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs-in-class-three.Rmd): Part III
+
 Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
@@ -491,11 +493,16 @@ The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
 
+[Class notes](notes/m339d-apr-01-2024.pdf) 
+
+---
+
+**Class 31: April 3rd**<br>
+More on the normal approximation to the binomial.<br>
+
 [Problem Set #11](problem-sets/m339d-ps12-dML-probs.pdf): **Problems**
 
 <!--
-[Class notes](notes/m339d-oct-27-2023.pdf) 
-
 [Problem Set #11](problem-sets/m339d-ps11-dML-solns.pdf): **Solutions**
 -->
 
@@ -514,9 +521,6 @@ The limiting behavior of stock prices. More on realized returns.<br>
 [Class notes](notes/m339d-oct-30-2023.pdf) 
 -->
 
----
-
-**Class 31: April 3rd**<br>
 Moment generating functions.<br>
 
 <!--
