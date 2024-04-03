@@ -487,6 +487,11 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 
 [Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
 
+---
+
+**Class 32: April 5th**<br>
+More on classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br>
+
 [`R`-notebook for class](code/classification-trees.Rmd): Classification trees
 
 <!--
@@ -494,11 +499,6 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
 
-No class. 
-
----
-
-**Class 32: November 3rd**<br>
 Moment generating functions.<br>
 
 

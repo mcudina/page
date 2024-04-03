@@ -7,7 +7,6 @@ output:
 
 **Here, I am adapting part of the lab associated with Chapter 8 of the textbook.** 
 
-
 The `tree` library is used to construct classification and regression trees.
 
 ```{r chunk1}
@@ -79,6 +78,6 @@ mean((y.hat - boston.test)^2)
 ```
 
 In other words, the  test set MSE associated with the regression tree is $35.29$.
-The square root of the MSE is therefore around $5.941$, indicating that this model leads to test predictions that are (on average) within approximately $$5{,}941$ of the true median home value for the census tract.
+The square root of the MSE is therefore around $5.941$, indicating that this model leads to test predictions that are (on average) within approximately $5{,}941$ of the true median home value for the census tract.
 
 
