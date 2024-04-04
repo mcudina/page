@@ -335,16 +335,14 @@ The covariance formula <span style="color: purple;">**(Section 3.3)**</span>.<br
 **Class 31: April 3rd**<br>
 The Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
-Discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
-
-[Homework #10](hw/m362k-hw10-discrete.pdf) -- **due on Friday, April 19th**
+[Class notes](notes/m362k-apr-03-2024.pdf)
 
 ---
 
 **Class 32: April 5th**<br>
-More on discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
+Discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
-[Homework #11](hw/m362k-hw11-more-discrete.pdf) -- **due on Friday, April 26th**
+[Homework #10](hw/m362k-hw10-discrete.pdf) -- **due on Friday, April 19th**
 
 ---
 
@@ -354,6 +352,10 @@ More on discrete distributions <span style="color: purple;">**(Section 3.4)**</s
 ---
 
 **Class 34: April 10th**<br>
+More on discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
+
+[Homework #11](hw/m362k-hw11-more-discrete.pdf) -- **due on Friday, April 26th**
+
 The Poisson distribution <span style="color: purple;">**(Section 3.4)**</span>.<br>
 
 **Suggested textbook problem:** 3.5.3. 
