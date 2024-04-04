@@ -502,9 +502,9 @@ More on the normal approximation to the binomial.<br>
 
 [Problem Set #11](problem-sets/m339d-ps12-dML-probs.pdf): **Problems**
 
-<!--
+[Class notes](notes/m339d-apr-03-2024.pdf) 
+
 [Problem Set #11](problem-sets/m339d-ps11-dML-solns.pdf): **Solutions**
--->
 
 [Apple parity](data/apple-parity.csv)
 
@@ -517,10 +517,9 @@ The limiting behavior of stock prices. More on realized returns.<br>
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
 
-<!--
-[Class notes](notes/m339d-oct-30-2023.pdf) 
--->
+---
 
+**Class 32: April 5th**<br>
 Moment generating functions.<br>
 
 <!--
@@ -540,10 +539,6 @@ from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.d
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
 
-
----
-
-**Class 32: April 5th**<br>
 Log-normal stock prices: Parameter interpretation.<br>
 
 [Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks.pdf): **Problems**
