@@ -494,6 +494,10 @@ More on classification trees <span style="color: purple;">**(Section 8.1.2)**</s
 
 [`R`-notebook for class](code/classification-trees.Rmd): Classification trees
 
+[Problem packet](problem-sets/m339g-pruning-classification.pdf)
+
+[Slides by Hastie & Tibshirani](slides/ch8-single-tree-epilogue.pdf): Tree-based methods pros and cons
+
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
