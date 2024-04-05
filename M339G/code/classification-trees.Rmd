@@ -86,6 +86,7 @@ tree.carseats <- tree(High ~ . - Sales, Carseats,
     subset = train)
 tree.pred <- predict(tree.carseats, Carseats.test,
     type = "class")
+#tree.pred
 table(tree.pred, High.test)
 (104 + 50) / 200
 ```

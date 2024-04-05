@@ -496,29 +496,14 @@ More on classification trees <span style="color: purple;">**(Section 8.1.2)**</s
 
 [Problem packet](problem-sets/m339g-pruning-classification.pdf)
 
+[Class notes](notes/m339g-apr-05-2024.pdf): Pruning and classification trees.
+
 [Slides by Hastie & Tibshirani](slides/ch8-single-tree-epilogue.pdf): Tree-based methods pros and cons
 
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
-
-Moment generating functions.<br>
-
-
-The log-normal distribution. Jensen's inequality.<br>
-
-[Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
-
-[Class notes](notes/m339d-apr-05-2023.pdf): mgf. The log-normal distribution. Jensen's inequality.
-
-[The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
-from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Chris Boucher 
-
-[Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
-
-[Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
-
 
 ---
 
