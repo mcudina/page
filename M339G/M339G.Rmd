@@ -519,6 +519,10 @@ Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-bagging.pdf): Bagging
 
+Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch8-random-forests.pdf): Random forests
+
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
