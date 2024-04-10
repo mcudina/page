@@ -513,12 +513,19 @@ More on classification trees <span style="color: purple;">**(Section 8.1.2)**</s
 **Class 34: April 10th**<br>
 Even more on decision trees <span style="color: purple;">**(Sections 8.1.3 and 8.1.4)**</span>.<br>
 
+[Class notes](notes/m339g-apr-10-2024.pdf): Classification trees.
+
 [Slides by Hastie & Tibshirani](slides/ch8-single-tree-epilogue.pdf): Tree-based methods pros and cons
 
 Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-bagging.pdf): Bagging
 
+[`R`-script from class](code/0-632.R): 0.632 
+
+---
+
+**Class 35: April 12th**<br>
 Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-random-forests.pdf): Random forests
@@ -530,13 +537,6 @@ Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
 
-Log-normal stock prices: Tail probabilities.<br>
-
-[Class notes](notes/m339d-nov-08-2023.pdf): Tail probabilities.
-
----
-
-**Class 35: November 10th**<br>
 Log-normal stock prices: Partial expectation.<br>
 
 [Class notes](notes/m339d-nov-10-2023.pdf): Partial expectation.
