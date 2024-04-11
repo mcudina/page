@@ -530,9 +530,13 @@ Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-random-forests.pdf): Random forests
 
+[Problem](problem-sets/srm-sample-p39.pdf)
+
 [`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging and random forests
 
 Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch8-boosting.pdf): Random forests
 
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
