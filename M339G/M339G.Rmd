@@ -532,6 +532,8 @@ Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging and random forests
 
+Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
+
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
