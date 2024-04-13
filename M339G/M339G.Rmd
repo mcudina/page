@@ -532,24 +532,26 @@ Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Problem](problem-sets/srm-sample-p39.pdf)
 
-[`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging and random forests
+[Class notes](notes/m339g-apr-12-2024.pdf): 0.632. Random forests.
 
 Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-boosting.pdf): Random forests
+
+---
+
+**Class 36: November 13th**<br>
+More on bagging and random forests <span style="color: purple;">**(Section 8.3.3)**</span>.<br>
+
+[`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging and random forests
+
+
 
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
 
-Log-normal stock prices: Partial expectation.<br>
-
-[Class notes](notes/m339d-nov-10-2023.pdf): Partial expectation.
-
----
-
-**Class 36: November 13th**<br>
 Log-normal stock prices: Partial expectation [cont'd]. The Black-Scholes pricing formula.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
