@@ -545,9 +545,9 @@ Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 ---
 
 **Class 36: November 13th**<br>
-More on bagging and random forests <span style="color: purple;">**(Section 8.3.3)**</span>.<br>
+More on bagging, random forests, and boosting <span style="color: purple;">**(Section 8.3.3)**</span>.<br>
 
-[`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging and random forests
+[`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
 
 
 
