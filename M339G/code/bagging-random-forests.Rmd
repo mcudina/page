@@ -88,3 +88,47 @@ varImpPlot(rf.boston)
 ```
 
 The results indicate that across all of the trees considered in the random forest, the wealth of the community (`lstat`) and the house size (`rm`) are by far the two most important variables.
+
+## Boosting
+
+
+Here we use the `gbm` package, and within it the `gbm()` function, to fit boosted regression trees to the `Boston` data set. We run `gbm()` with the option `distribution = "gaussian"` since this is a regression problem; if it were a binary classification problem, we would use `distribution = "bernoulli"`.
+The argument `n.trees = 5000` indicates that we want $5000$ trees, and the option `interaction.depth = 4` limits the depth of each tree.
+
+```{r chunk25}
+#install.packages("gbm")
+library(gbm)
+set.seed(1)
+boost.boston <- gbm(medv ~ ., data = Boston[train, ],
+    distribution = "gaussian", n.trees = 5000,
+    interaction.depth = 4)
+```
+
+The `summary()` function produces a relative influence plot and also outputs the relative influence statistics.
+
+```{r chunk26}
+summary(boost.boston)
+```
+
+We now use the boosted model to predict `medv` on the test set:
+
+```{r chunk28}
+yhat.boost <- predict(boost.boston,
+    newdata = Boston[-train, ], n.trees = 5000)
+mean((yhat.boost - boston.test)^2)
+```
+
+The test MSE obtained is $18.39$: this is superior to the test MSE of random forests and bagging. If we want to, we can perform boosting with a different value of the shrinkage parameter $\lambda$ in (8.10). The default value is $0.001$, but this is easily modified.
+Here we take $\lambda=0.2$.
+
+```{r chunk29}
+boost.boston <- gbm(medv ~ ., data = Boston[train, ],
+    distribution = "gaussian", n.trees = 5000,
+    interaction.depth = 4, shrinkage = 0.2, verbose = F)
+yhat.boost <- predict(boost.boston,
+    newdata = Boston[-train, ], n.trees = 5000)
+mean((yhat.boost - boston.test)^2)
+```
+
+In this case, using $\lambda=0.2$ leads to a lower test MSE than $\lambda=0.001$.
+
