@@ -549,6 +549,9 @@ More on bagging, random forests, and boosting <span style="color: purple;">**(Se
 
 [`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
 
+Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
 
 
 <!--
