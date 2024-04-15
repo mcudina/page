@@ -549,6 +549,13 @@ More on bagging, random forests, and boosting <span style="color: purple;">**(Se
 
 [`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
 
+Lines, planes, hyperplanes.<br>
+
+[Class notes](notes/m339g-apr-15-2024.pdf): Hyperplanes.
+
+---
+
+**Class 37: April 17th, 2024**<br>
 Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
@@ -562,21 +569,6 @@ Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.
 
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
 
-Log-normal stock prices: Partial expectation [cont'd]. The Black-Scholes pricing formula.<br>
-
-[Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
-
-[The original article by Black and Scholes](http://www.cs.princeton.edu/courses/archive/fall09/cos323/papers/black_scholes73.pdf) 
-
-[Problem Set #12](problem-sets/m339d-ps12-BS.pdf): **Problems**
-
-[Class notes](notes/m339d-nov-13-2023.pdf) 
-
-[Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, December 1st**
-
----
-
-**Class 37: November 15th**<br>
 Black-Scholes [continued].<br> 
 
 [Problem Set #12](problem-sets/m339d-ps12-BS-solns.pdf): **Solutions**
