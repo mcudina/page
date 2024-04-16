@@ -569,13 +569,7 @@ Log-normal stock prices: Tail probabilities.<br>
 ---
 
 **Class 36: April 15th**<br>
-Log-normal stock prices: Partial expectation.<br>
-
-<!--
-[Class notes](notes/m339d-nov-10-2023.pdf): Partial expectation.
--->
-
-The Black-Scholes pricing formula.<br>
+Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
 
@@ -583,9 +577,7 @@ The Black-Scholes pricing formula.<br>
 
 [Problem Set #14](problem-sets/m339d-ps14-BS-probs.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-nov-13-2023.pdf) 
--->
+[Class notes](notes/m339d-apr-15-2024.pdf) 
 
 [Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, April 19th**
 
