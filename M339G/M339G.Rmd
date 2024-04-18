@@ -577,6 +577,10 @@ Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.
 
 [`R`-notebook for class](code/support-vector-classifier.Rmd): Support vector classifier. 
 
+Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
+
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
