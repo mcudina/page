@@ -575,6 +575,8 @@ Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.
 
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
 
+[`R`-notebook for class](code/support-vector-classifier.Rmd): Support vector classifier. 
+
 <!--
 <span style="color: red;">**In-Term Two**</span><br>
 
