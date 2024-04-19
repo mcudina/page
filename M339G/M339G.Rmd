@@ -571,6 +571,13 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 ---
 
 **Class 38: April 19th**<br>
+More on the maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
+
+[Class notes](notes/m339g-apr-19-2024.pdf): Maximal margin classifier.
+
+---
+
+**Class 39: April 22nd**<br>
 Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
@@ -586,17 +593,6 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 [In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
 
-Forward-start options. Rolling insurance strategy.<br>
-
-[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
-
-[Class notes](notes/m339d-nov-17-2023.pdf) 
-
-[Homework #11](hw/m339d-hw11-lognormal-stocks-solns.pdf) -- **solutions**
-
----
-
-**Class 39: November 27th**<br>
 Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #13](problem-sets/m339d-ps13-BS-mc.Rmd): with solutions
