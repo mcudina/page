@@ -618,12 +618,20 @@ Forward-start options. Rolling insurance strategy.<br>
 **Class 39: April 22nd**<br>
 Monte Carlo with Black-Scholes pricing. <br>
 
+[Class notes](notes/m339d-apr-22-2024.pdf) 
+
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc.Rmd): Skeleton
 
-<!--
-[Problem Set #13](problem-sets/m339d-ps13-BS-mc-in-class.Rmd): With in-class code
--->
+[Problem Set #15](problem-sets/m339d-ps15-BS-mc-in-class.Rmd): With in-class code
 
+---
+
+**Class 40: April 24th**<br>
+<span style="color: red;">**In-Term Two**</span><br>
+
+---
+
+**Class 41: April 26th**<br>
 Focus on the delta.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
@@ -634,14 +642,6 @@ Focus on the delta.<br>
 [Class notes](notes/m339d-nov-27-2023.pdf) 
 -->
 
----
-
-**Class 40: April 24th**<br>
-<span style="color: red;">**In-Term Two**</span><br>
-
----
-
-**Class 41: April 26th**<br>
 Delta-hedging. <br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Market_maker): Market maker.
