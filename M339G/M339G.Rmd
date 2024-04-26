@@ -604,6 +604,10 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 [Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
 
+[The Final Project](projects/m339g-final-project-probs.pdf) -- **due on Saturday, May 4th, 2024**
+
+[The Final Project](projects/m339g-final-project-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
 <!--
 
 Delta-hedging. <br>

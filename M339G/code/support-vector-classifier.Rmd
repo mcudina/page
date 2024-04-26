@@ -8,8 +8,7 @@ output:
 **Here, I am adapting part of the lab associated with Chapter 9 of the textbook.** 
 
 We use the `e1071` library in `R` to demonstrate the
-support vector classifier and the SVM. Another option is the `LiblineaR` library,  which is
-useful for very large linear problems.
+support vector classifier and the SVM. Another option is the `LiblineaR` library,  which is useful for very large linear problems.
 
 ## Support Vector Classifier
 
