@@ -36,7 +36,7 @@ Here we demonstrate the use of this function on a two-dimensional example so tha
 set.seed(1)
 x <- matrix(rnorm(20 * 2), ncol = 2)
 y <- c(rep(-1, 10), rep(1, 10))
-x[y == 1, ] <- x[y == 1, ] + 1
+x[y == 1, ] <- x[y == 1, ] + 2
 plot(x, col = (3 - y), pch=19, 
      main="Simulated values",
      xlab="x1", ylab="x2")
@@ -49,6 +49,8 @@ dat <- data.frame(x = x, y = as.factor(y))
 library(e1071)
 svmfit <- svm(y ~ ., data = dat, kernel = "linear", 
     cost = 10, scale = FALSE)
+
+svmfit
 ```
 
 
@@ -120,7 +122,7 @@ test data set.
 ```{r chunk10}
 xtest <- matrix(rnorm(20 * 2), ncol = 2)
 ytest <- sample(c(-1, 1), 20, rep = TRUE)
-xtest[ytest == 1, ] <- xtest[ytest == 1, ] + 1
+xtest[ytest == 1, ] <- xtest[ytest == 1, ] + 2
 testdat <- data.frame(x = xtest, y = as.factor(ytest))
 ```
 
@@ -131,7 +133,7 @@ ypred <- predict(bestmod, testdat)
 table(predict = ypred, truth = testdat$y)
 ```
 
-Thus, with this value of `cost`, 17 of the test observations are correctly classified.
+
 What if we had instead used `cost = 0.01`?
 
 ```{r chunk12}
