@@ -23,12 +23,6 @@ knitr::opts_chunk$set(
 
 ---
 
-```{r, warning=FALSE, message=FALSE}
-library(nimble)
-```
-
----
-
 ## Problem #1 **($45$ points)**
 Solve Problem **9.7.4** from the textbook (page 399). 
 
