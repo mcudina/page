@@ -1,0 +1,452 @@
+---
+title: "Introduction to Mathematical Statistics (M378K)"
+output: html_document
+---
+
+<style>
+  hr {
+      position: relative; 
+            top: 20px; 
+            border: none; 
+            height: 2px; 
+            background: black; 
+            margin-bottom: 50px; 
+  }
+</style>
+
+---
+
+**Important external links**
+
+[Cornell Notes](http://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
+
+---
+
+**Class 1: January 17th**<br>
+Orientation. <br>
+
+[A role model](pics/bilbo.jpeg)
+
+<!--
+[First-Day Handout](syllabus/syllabus-53850.pdf): Unique 53850 (1pm)
+
+[First-Day Handout](syllabus/syllabus-53855.pdf): Unique 53855 (2pm)
+
+---
+
+**Class 2: January 19th**<br>
+Equally likely outcomes <span style="color: purple;">**(Section 1.1)**</span>.<br>
+
+[Class notes](notes/m362k-jan-19-2024.pdf)
+
+[Homework #1](hw/m362k-hw1.pdf) -- **due on Friday, January 26th**
+
+---
+
+**Class 3: January 22nd**<br>
+Distributions <span style="color: purple;">**(Section 1.3)**</span>.<br>
+
+[Wikipedia](https://en.wikibooks.org/wiki/Set_Theory/Sets): Set notation
+
+[Class notes](notes/m362k-jan-22-2024.pdf)
+
+[The R-script from class](code/frequencies.R): Long-term proportions
+
+---
+
+**Class 4: January 24th**<br>
+Definition of *probability* <span style="color: purple;">**(Section 1.3)**</span>.<br>
+
+[Class notes](notes/m362k-jan-24-2024.pdf)
+
+---
+
+**Class 5: January 26th**<br>
+More on probability. Binomial coefficients.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Standard_52-card_deck): Standard $52-$ card deck
+
+[Class notes](notes/m362k-jan-26-2024.pdf)
+
+---
+
+**Class 6: January 29th**<br>
+De Méré's paradox. Even more on probability.<br>
+
+[Wikipedia](https://www.proofwiki.org/wiki/De_Méré's_Paradox): De Méré's paradox.
+
+[Class notes](notes/m362k-jan-29-2024.pdf)
+
+[The R-script from class](code/loaded-tetrahedron-in-class-too.R): A loaded tetrahedron with histograms and bar plots 
+
+---
+
+**Class 7: January 31st**<br>
+Even even more on probability.<br>
+
+[Class notes](notes/m362k-jan-31-2024.pdf)
+
+[Letter frequencies in English](https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html)
+
+**(Enrichment material)** [MCMC Revolution](https://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf) by legendary Persi Diaconis
+
+---
+
+**Class 8: February 2nd**<br>
+Conditional probability and the multiplication formula <span style="color: purple;">**(Section 1.4)**</span>.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Groundhog_Day): Groundhog day 
+
+[Problem Set #1](problem-sets/m362k-ps1-cond-prob-ind-probs.pdf): **Problems**
+
+[Class notes](notes/m362k-feb-02-2024.pdf)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Monty_Hall_problem): The Monty Hall problem
+
+[Homework #2](hw/m362k-hw2-probability-probs.pdf) -- **due on Friday, February 9th**
+
+---
+
+**Class 9: February 5th**<br>
+Independence and probability trees <span style="color: purple;">**(Section 1.4)**</span>.<br>
+
+[Problem Set #1](problem-sets/m362k-ps1-cond-prob-ind-solns.pdf): **Solutions**
+
+Bayes' rule <span style="color: purple;">**(Section 1.5)**</span>.<br>
+
+[Class notes](notes/m362k-feb-05-2024.pdf)
+
+---
+
+**Class 10: February 7th**<br>
+More on the Bayes rule <span style="color: purple;">**(Section 1.5)**</span>.<br>
+
+[Class notes](notes/m362k-feb-07-2024.pdf)
+
+[In-Term One](exams/m362k-one-topics.pdf): Topics
+
+[Practice for In-Term One](exams/m362k-one-sample-probs.pdf) -- **problems** 
+
+[Practice for In-Term One](exams/m362k-one-sample-solns.pdf) -- **solutions** 
+
+---
+
+**Class 11: February 9th**<br>
+Bayes' rule practice.<br>
+
+[Problem packet](problem-sets/sample-p-bayes.pdf)
+
+[Class notes](notes/m362k-feb-09-2024.pdf)
+
+---
+
+**Class 12: February 12th**<br>
+Sequences of events <span style="color: purple;">**(Section 1.6)**</span>.<br>
+
+[Class notes](notes/m362k-feb-12-2024.pdf)
+
+---
+
+**Class 13: February 14th**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+[In-Term One](exams/m362k-one-solns.pdf) -- **solutions** 
+
+---
+
+**Class 14: February 16th**<br>
+Geometric distribution [cont'd].<br>
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/GeometricDistribution/): The geometric distribution
+
+[Problem Set #2](problem-sets/m362k-ps2-geom-distn-probs.pdf): **Problems**
+
+[Problem Set #2](problem-sets/m362k-ps2-geom-distn-solns.pdf): **Solutions**
+
+The binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
+
+[Class notes](notes/m362k-feb-16-2024.pdf)
+
+[Homework #3](hw/m362k-hw3-geometric-probs.pdf) -- **due on Friday, February 23rd**
+
+---
+
+**Class 15: February 19th**<br>
+More on the binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Binomial_theorem): The binomial theorem 
+
+[Wikipedia](https://en.wikipedia.org/wiki/Pascal%27s_triangle): Pascal's triangle
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/BinomialProbabilityDistribution/): The binomial distribution
+
+[Class notes](notes/m362k-feb-19-2024.pdf)
+
+[Homework #4](hw/m362k-hw4-binomial-probs.pdf) -- **due on Friday, March 1st**
+
+---
+ 
+**Class 16: February 21st**<br>
+Even more on the binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
+
+[Problem](problem-sets/p-exam-binom.pdf)
+
+The normal distribution <span style="color: purple;">**(Section 2.2)**</span>.<br>
+
+[Standard Normal Distribution Areas](http://demonstrations.wolfram.com/StandardNormalDistributionAreas/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
+
+[Class notes](notes/m362k-feb-21-2024.pdf)
+
+---
+
+**Class 17: February 23rd**<br>
+More on the normal distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
+
+[Class notes](notes/m362k-feb-23-2024.pdf)
+
+[Standard normal table](notes/std-normal-table.pdf)
+
+---
+
+**Class 18: February 26th**<br>
+More on the normal distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
+
+[The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
+
+[Area of a Normal Distribution](http://demonstrations.wolfram.com/AreaOfANormalDistribution/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Eric Schulz 
+
+The normal approximation to the binomial distribution <span style="color: purple;">**(Section 2.2)**</span>.<br>
+
+[Class notes](notes/m362k-feb-26-2024.pdf)
+
+---
+
+**Class 19: February 28th**<br>
+More on the normal approximation to the binomial distribution <span style="color: purple;">**(Section 2.2)**</span>.<br>
+
+[Mathematica demonstration](http://demonstrations.wolfram.com/IllustratingTheCentralLimitTheoremWithSumsOfBernoulliRandomV/): The Normal Approximation to the Binomial Distribution
+
+[Class notes](notes/m362k-feb-28-2024.pdf)
+
+[Homework #5](hw/m362k-hw5-probs.pdf) -- **due on Friday, March 8th**
+
+[In-Term Two](exams/m362k-two-topics.pdf): Topics
+
+[Practice for In-Term Two](exams/m362k-two-sample-probs.pdf): Problems
+
+[Practice for In-Term Two](exams/m362k-two-sample-solns.pdf): Solutions
+
+---
+
+**Class 20: March 1st**<br>
+The Poisson approximation <span style="color: purple;">**(Section 2.4)**</span>.<br>
+
+[Class notes](notes/m362k-mar-01-2024.pdf)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution): The Poisson distribution
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/PoissonDistribution/#embed): The Poisson Distribution
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/BinomialApproximationToAPoissonRandomVariable/): The Poisson Approximation to the Binomial Distribution
+
+---
+
+**Class 21: March 4th**<br>
+Introduction to random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
+[Class notes](notes/m362k-mar-04-2024.pdf)
+
+[Homework #6](hw/m362k-hw6-normal-approx.pdf) -- **due on Friday, March 22nd**
+
+---
+
+**Class 22: March 6th**<br>
+<span style="color: red;">**In-Term Two**</span><br>
+
+[In-Term Two](exams/m362k-two-solns.pdf) -- **solutions** 
+
+---
+
+**Class 23: March 8th**<br>
+Functions of random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
+The cumulative distribution function (cdf) <span style="color: purple;">**(Section 4.5)**</span>.<br>
+
+[Class notes](notes/m362k-mar-08-2024.pdf)
+
+---
+
+**Class 24: March 18th**<br>
+More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
+[Class notes](notes/m362k-mar-18-2024.pdf)
+
+[Homework #7](hw/m362k-hw7-rvs.pdf) -- **due on Friday, March 29th**
+
+---
+
+**Class 25: March 20th**<br>
+Functions of pairs of random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
+[Class notes](notes/m362k-mar-20-2024.pdf)
+
+---
+
+**Class 26: March 22nd**<br>
+Independent pairs <span style="color: purple;">**(Section 3.1)**</span>.<br>
+
+[Class notes](notes/m362k-mar-22-2024.pdf)
+
+---
+
+**Class 27: March 25th**<br>
+Expectation <span style="color: purple;">**(Section 3.2)**</span>.<br>
+
+[Class notes](notes/m362k-mar-25-2024.pdf)
+
+[Homework #8](hw/m362k-hw8-more-rvs.pdf) -- **due on Friday, April 5th**
+
+---
+
+**Class 28: March 27th**<br>
+Markov's and Chebishev's inequalities <span style="color: purple;">**(Section 3.2)**</span>.<br> 
+
+[Class notes](notes/m362k-mar-27-2024.pdf)
+
+---
+
+**Class 29: March 29th**<br>
+Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
+[Class notes](notes/m362k-mar-29-2024.pdf)
+
+[Homework #9](hw/m362k-hw9-expectation.pdf) -- **due on Friday, April 12th**
+
+[Extra credit #1](extra-credit/m362k-ec1-sally-clark.pdf) -- **due on Friday, April 26th and worth an extra 3 points on your final score in the course**
+
+---
+
+**Class 30: April 1st**<br>
+The covariance formula <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
+[Class notes](notes/m362k-apr-01-2024.pdf)
+
+---
+
+**Class 31: April 3rd**<br>
+The Central Limit Theorem <span style="color: purple;">**(Section 3.3)**</span>.<br>
+
+[Class notes](notes/m362k-apr-03-2024.pdf)
+
+---
+
+**Class 32: April 5th**<br>
+Discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
+
+[Class notes](notes/m362k-apr-05-2024.pdf)
+
+[Homework #10](hw/m362k-hw10-discrete.pdf) -- **due on Friday, April 19th**
+
+---
+
+**Class 33: April 8th**<br>
+<span style="color: red;">**Solar Eclipse**</span><br>
+
+---
+
+**Class 34: April 10th**<br>
+More on discrete distributions <span style="color: purple;">**(Section 3.4)**</span>.<br>
+
+[Class notes](notes/m362k-apr-10-2024.pdf)
+
+[Homework #11](hw/m362k-hw11-more-discrete.pdf) -- **due on Friday, April 26th**
+
+---
+
+**Class 35: April 12th**<br>
+The Poisson distribution <span style="color: purple;">**(Section 3.5)**</span>.<br>
+
+[Class notes](notes/m362k-apr-12-2024.pdf)
+
+**Suggested textbook problem:** 3.5.3. 
+
+---
+
+**Class 36: April 15th**<br>
+Continuous distributions <span style="color: purple;">**(Section 4.1)**</span>.<br>
+
+[Class notes](notes/m362k-apr-15-2024.pdf)
+
+---
+
+**Class 37: April 17th**<br>
+Expectations of continuous random variables.<span style="color: purple;">**(Section 4.1)**</span>.<br>
+
+**Suggested textbook problems:** 4.1.4, 4.1.6, 4.5.4, 4.5.5, 4.5.6 a,b,c
+
+The normal distribution [revisited] <span style="color: purple;">**(Section 4.1)**</span>.<br>
+
+[Class notes](notes/m362k-apr-17-2024.pdf)
+
+[In-Term Three](exams/m362k-three-topics.pdf): Topics
+
+[Practice for In-Term Three](exams/m362k-three-sample-probs.pdf): Problems
+
+[Practice for In-Term Three](exams/m362k-three-sample-solns.pdf): Solutions
+
+---
+
+**Class 38: April 19**<br>
+More on the central limit theorem.<span style="color: purple;">**(Section 4.1)**</span>.<br>
+
+The exponential distribution <span style="color: purple;">**(Section 4.2)**</span>.<br>
+
+[Class notes](notes/m362k-apr-19-2024.pdf)
+
+---
+
+**Class 39: April 22nd**<br>
+More on the exponential distribution <span style="color: purple;">**(Section 4.2)**</span>.<br>
+
+[Problem packet](problem-sets/m362k-sample-p-exponential.pdf)
+
+[Class notes](notes/m362k-apr-22-2024.pdf)
+
+**Suggested textbook problem:** 4.2.1
+
+---
+
+**Class 40: April 24th**<br>
+<span style="color: red;">**In-Term Three**</span><br>
+
+[In-Term Three](exams/m362k-three-solns.pdf) -- **solutions**
+
+---
+
+**Class 41: April 26th**<br>
+Change of variable <span style="color: purple;">**(Section 4.4)**</span>.<br>
+
+[Class notes](notes/m362k-apr-26-2024.pdf)
+
+**Suggested textbook problems:** 4.4.3, 4.4.6
+
+---
+
+**Class 42: April 29th**<br>
+Jointly uniform random variables and joint densities <span style="color: purple;">**(Section 5.1 and 5.2)**</span>.<br>
+
+**Suggested textbook problems:** 5.1.3, 5.1.4
+
+Independent normal random variables <span style="color: purple;">**(Section 5.1 and 5.2)**</span>.<br>
+
+[Class notes](notes/m362k-apr-29-2024.pdf)
+
+---
+
+[The Final Exam](exams/m362k-final-topics.pdf): Topics
+
+[Practice for the Final Exam](exams/m362k-final-sample-probs.pdf) -- **problems** 
+
+[Practice for the Final Exam](exams/m362k-final-sample-solns.pdf) -- **solutions** 
+
+-->
