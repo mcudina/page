@@ -58,6 +58,7 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
+<!--
 **Class 1: January 17th**<br>
 Orientation. <br>
 
@@ -380,9 +381,8 @@ More on Monte Carlo.<br>
 
 [Problem Set #8](problem-sets/m339d-ps8-mc-in-class-again.Rmd): **In-Class solutions**
 
-<!--
+
 [Problem Set #8](problem-sets/m339d-ps8-mc-solns.Rmd): **Alternative solutions**
--->
 
 The binomial asset-pricing model.<br>
 
@@ -551,9 +551,7 @@ Log-normal stock prices: Parameter interpretation.<br>
 
 **(Enrichment material)** [Lecture notes](lectures/m339w-on-pricing.pdf): On pricing in the Black-Scholes model with continuous dividends. 
 
-<!--
 [Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks-solns.pdf): **Solutions**
--->
 
 [Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, April 12th**
 
