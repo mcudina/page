@@ -71,9 +71,9 @@ Orientation. `R` Markdown.<br>
 
 [A role model](pics/bilbo.jpeg)
 
-<!--
-[First-Day Handout](syllabus/syllabus-53699.pdf)
+[First-Day Handout](syllabus/syllabus-53895.pdf)
 
+<!--
 [Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, February 2nd, 2024**
 
 ---
@@ -608,4 +608,4 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 [The Final Project](projects/m339g-final-project-probs.pdf) -- **due on Saturday, May 4th, 2024**
 
 [The Final Project](projects/m339g-final-project-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
+-->
