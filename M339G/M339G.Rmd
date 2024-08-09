@@ -73,15 +73,16 @@ Orientation. `R` Markdown.<br>
 
 [First-Day Handout](syllabus/syllabus-53895.pdf)
 
-<!--
-[Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, February 2nd, 2024**
+[Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, September 6th, 2024**
 
 ---
 
-**Class 2: January 19th**<br>
+**Class 2: August 28th**<br>
 Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-jan-19-2024.pdf)
+-->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Shapiro–Wilk_test): The Shapiro-Wilk test
 
@@ -93,7 +94,7 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 
 ---
 
-**Class 3: January 22nd**<br>
+**Class 3: August 30th**<br>
 Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
 [Data set](code/bangladesh-data.csv): Chemicals in Bangladesh
@@ -107,10 +108,12 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 
 ---
 
-**Class 4: January 24th**<br>
+**Class 4: September 4th**<br>
 Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Sections 3.1 and 5.3.4)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-jan-24-2024.pdf)
+-->
 
 [`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
 
@@ -120,7 +123,7 @@ Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope
 
 ---
 
-**Class 5: January 26th**<br>
+**Class 5: September 6th**<br>
 More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Section 5.3.4)**</span>.<br>
 
 [`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
@@ -129,6 +132,7 @@ Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>
 
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
+<!--
 [Class notes](notes/m339g-jan-26-2024.pdf)
 
 ---
