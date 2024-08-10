@@ -101,14 +101,29 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 
 [`R`-notebook for class](code/arsenic-empty.Rmd): Arsenic
 
+<!--
 [`R`-notebook from class](code/arsenic-in-class.Rmd): Arsenic (complete)
+-->
 
 [`R`-notebook for class](code/two-stock-portfolio-empty.Rmd): Two-stock portfolio
 
+[Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
+
+[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, September 23rd, 2024**
+
+[Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
 **Class 4: September 4th**<br>
+Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
+
+<!--
+[Class notes](notes/m339g-jan-26-2024.pdf)
+-->
+
 Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Sections 3.1 and 5.3.4)**</span>.<br>
 
 <!--
@@ -130,13 +145,9 @@ More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <spa
 
 [`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
 
-Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
+[Homework #3](hw/m339g-hw3-slr.pdf) -- **due on Friday, September 20th, 2024**
 
 <!--
-[Class notes](notes/m339g-jan-26-2024.pdf)
-
 [Homework #1](hw/m339g-hw1-prereqs-solns.pdf) -- **solutions**
 -->
 
@@ -179,13 +190,16 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 <!--
 [Homework #2](hw/m339g-hw2-regression-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 9: February 5th**<br>
+**Class 9: September 16th**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-feb-05-2024.pdf)
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-contd.pdf): Multiple linear regression (cont'd) 
 
@@ -199,15 +213,21 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Code for class](code/trees-empty.Rmd): Cherry trees
 
+<!--
 [Code from class](code/trees-in-class.Rmd): Cherry trees
+-->
 
 [Data for class](code/mustangs.csv): Mustangs
 
+<!--
 [Code from class](code/mustangs.Rmd): Mustangs
+-->
+
+[Homework #4](hw/m339g-hw4-F.pdf) -- **due on Friday, September 27th, 2024**
 
 ---
 
-**Class 10: February 7th**<br>
+**Class 10: September 18th**<br>
 Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
@@ -222,7 +242,7 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 ---
 
-**Class 11: February 9th**<br>
+**Class 11: September 20th**<br>
 More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Code for class](code/splines-validation.Rmd): Splines with validation
@@ -233,39 +253,24 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 
 [Slides by Hastie & Tibshirani](slides/ch2-interpretability.pdf): Bias-variance trade-off and interpretability
 
-Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
-
-[UC Irvine MLR](https://archive.ics.uci.edu/dataset/267/banknote+authentication): Data documentation with expanded data set
-
-[Data for class](code/banknotes.csv): Banknotes
-
-[Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
-
-[Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
-
-[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, March 4th, 2024**
-
-[Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-
 ---
 
-**Class 12: February 12th**<br>
+**Class 12: September 23rd**<br>
 Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
 
 [`R`-notebook for class](code/carseats-dummies.Rmd): Qualitative/categorical predictors
 
+<!--
 [Class notes](notes/m339g-feb-12-2024.pdf)
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
 
 ---
 
-**Class 13: February 14th**<br>
+**Class 13: September 25th**<br>
 Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-classification.pdf): Logistic regression
@@ -276,7 +281,7 @@ Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.
 
 ---
 
-**Class 14: February 16th**<br>
+**Class 14: September 27th**<br>
 More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span>.<br>
 
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
@@ -286,21 +291,21 @@ More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span
 [Data for class](code/hsbdemo.csv): School choice
 
 [`R`-notebook for class](code/vocation.Rmd): Multiclass logistic regression 
--->
 
-[Homework #3](hw/m339g-hw3.pdf) -- **due on Friday, February 23rd, 2024**
+[Homework #5](hw/m339g-hw5-logistic.pdf) -- **due on Friday, October 4th, 2024**
 
 <!--
+
 ---
 
-**Class 15: February 19th**<br>
+**Class 15: September 30th**<br>
 K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
 
 ---
  
-**Class 16: February 21st**<br>
+**Class 16: October 2nd**<br>
 More on K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
 [`R`-notebook for class](code/knn-horseshoe.Rmd): KNN for horseshoe crabs
@@ -317,7 +322,7 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 ---
 
-**Class 17: February 23rd**<br>
+**Class 17: October 4th**<br>
 Singular value decomposition <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
@@ -326,13 +331,23 @@ Singular value decomposition <span style="color: purple;">**(Section 12.2)**</sp
 
 [YouTube](https://youtu.be/rYz83XPxiZo?si=nkvOk6GNor638x29): A beautiful lecture by Prof. Gilbert Strang
 
-[Homework #3](hw/m339g-hw3-solns.pdf) -- **solutions**
 
-[Homework #4](hw/m339g-hw4.pdf) -- **due on Friday, March 1st, 2024**
+
+
 
 ---
 
-**Class 18: February 26th**<br>
+**Class 18: October 7th**<br>
+Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
+
+[UC Irvine MLR](https://archive.ics.uci.edu/dataset/267/banknote+authentication): Data documentation with expanded data set
+
+[Data for class](code/banknotes.csv): Banknotes
+
+[Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
+
 Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-pca.pdf): PCA

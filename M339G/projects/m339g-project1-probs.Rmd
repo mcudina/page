@@ -23,6 +23,12 @@ knitr::opts_chunk$set(
 
 ---
 
+```{r, warning=FALSE, message=FALSE}
+library(nimble)
+```
+
+---
+
 ## Problem #1 **(55 points)**
 Go to [Yahoo!Finance](https://finance.yahoo.com).
 
@@ -63,7 +69,7 @@ A follow up video for the mean parameter is
 
 [Inference for the mean](https://www.youtube.com/watch?v=RYVIGj1l4xs&list=PLkIselvEzpM5G3IO1tzQ-DUThsJKQzQCD)
 
-Let $n$ stand for the number of observation. Let $\hat\mu$ denote our point estimate for the mean parameter. Let $s$ denote the sample standard deviation. At a confidence level $C$, the structure of a **confidence interval** is
+Let $n$ stand for the number of observations. Let $\hat\mu$ denote our point estimate for the mean parameter. Let $s$ denote the sample standard deviation. At a confidence level $C$, the structure of a **confidence interval** is
 
 $$
   (\hat \mu - \frac{s}{\sqrt{n}} z^*, \hat \mu + \frac{s}{\sqrt{n}} z^*)
@@ -72,9 +78,9 @@ where $z^*$ is a critical value of the standard normal distribution such that $\
 
 You should input `?qnorm` into the console in `R` to learn more about the different functions which have to do with the normal distribution in `R`. 
 
-Provide confidence intervals for the annual mean return at the confidence level $C=0.95$. 
+Provide confidence intervals for the monthly mean return at the confidence level $C=0.95$. 
 
-**(5 points)** There is a "shortcut" for constructing confidence intervals in this case which uses the `t.test` function. You should input `?t.test` into the console in `R` to learn more about it. Create the $95\%-$confidence intrval using this command and compare to your result from the "pedestrian" implementation above. 
+**(5 points)** There is a "shortcut" for constructing confidence intervals in this case which uses the `t.test` function. You should input `?t.test` into the console in `R` to learn more about it. Create the $95\%-$confidence interval using this command and compare to your result from the "pedestrian" implementation above. 
 
 **(10 points)** Finally, create a **bootstrap** $2SE$ confidence interval and a $95\%$ percentile interval for the monthly mean return. Please, set your seed to $1$ for comparison. Plot the histogram of the bootstrap point estimates for $N=10^5$ draws. Indicate your confidence intervals on the histogram. Compare your confidence intervals to what you obtained above without resampling. 
 
