@@ -356,12 +356,9 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, October 25th, 2024**
 
-
-<!--
-
 ---
 
-**Class 19: February 28th**<br>
+**Class 19: October 9th**<br>
 Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-pca.pdf): PCA
@@ -372,10 +369,16 @@ Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)
 
 [`R`-notebook for class](code/pca-houses.Rmd): Principal component analysis for houses
 
+---
+
+**Class 20: October 11th**<br>
 Principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch6-pcr.pdf): PCR
 
+---
+
+**Class 21: October 14th**<br>
 More about the principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
 
 [`R`-notebook for class](code/pcr.Rmd): Principal component regression
@@ -388,21 +391,23 @@ More about the principal components regression <span style="color: purple;">**(S
 
 [Practice for In-Term One](exams/m339g-one-sample-solns.pdf) -- **solutions** 
 
-
 ---
 
-**Class 20: March 1st**<br>
+**Class 22: October 16th**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+<!--
+[In-Term One](exams/m339g-one-solns.pdf) -- **solutions** 
+
 Review of categorical predictors and logistic regression.<br>
 
 [Class notes](notes/m339g-mar-01-2024.pdf)
-
-[Homework #4](hw/m339g-hw4-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 21: March 4th**<br>
+**Class 23: October 18th**<br>
 Principal components analysis and clustering <span style="color: purple;">**(Section 12.2 and 12.4.1)**</span>.<br>
-
 
 [UC Irvine MLR](https://archive.ics.uci.edu/dataset/236/seeds): Documentation for the `seeds` data set 
 
@@ -410,30 +415,21 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 [`R`-notebook for class](code/pca-kmeans.Rmd): Principal component analysis with K-means
 
----
+[Project #2](projects/m339g-project2-probs.pdf) -- **due on Monday, November 11th, 2024**
 
-**Class 22: March 6th**<br>
-<span style="color: red;">**In-Term One**</span><br>
+[Project #2](projects/m339g-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-[In-Term One](exams/m339g-one-solns.pdf) -- **solutions** 
 
 ---
 
-**Class 23: March 8th**<br>
+**Class 24: October 21st**<br>
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
 
+<!--
 [Class notes](notes/m339g-mar-08-2024.pdf)
 
-
-[Project #2](projects/m339g-project2-probs.pdf) -- **due on Monday, April 8th, 2024**
-
-[Project #2](projects/m339g-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
-
-**Class 24: March 18th**<br>
 More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Class notes](notes/m339g-mar-18-2024.pdf)
