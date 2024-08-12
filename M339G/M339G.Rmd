@@ -429,53 +429,56 @@ Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</s
 
 <!--
 [Class notes](notes/m339g-mar-08-2024.pdf)
-
-More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
-
-[Class notes](notes/m339g-mar-18-2024.pdf)
+-->
 
 ---
 
-**Class 25: March 20th**<br>
+**Class 25: October 23rd**<br>
+More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+
+<!--
+[Class notes](notes/m339g-mar-18-2024.pdf)
+-->
+
+---
+
+**Class 26: October 25th**<br>
 Bivariate normal distribution.<br> 
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
 
+<!--
 [Class notes](notes/m339g-mar-20-2024.pdf)
+-->
 
 ---
 
-**Class 26: March 22nd**<br>
+**Class 27: October 28th**<br>
 Multivariate normal distribution.<br> 
 
+<!--
 [Class notes](notes/m339g-mar-22-2024.pdf)
-
-[Homework #5](hw/m339g-hw5-solns.pdf) -- **solutions**
-
-[Homework #6](hw/m339g-hw6.pdf) -- **due on Friday, March 29th, 2024**
+-->
 
 ---
 
-**Class 27: March 25th**<br>
+**Class 28: October 30th**<br>
 More on the linear discriminant analysis, quadratic discriminant analysis, nave Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
 
+<!--
 [Class notes](notes/m339g-mar-25-2024.pdf)
+-->
 
 ---
 
-**Class 28: March 27th**<br>
+**Class 29: November 1st**<br>
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
-
----
-
-**Class 29: March 29th**<br>
-More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
 
@@ -483,36 +486,40 @@ More on the linear discriminant analysis, quadratic discriminant analysis, naive
 
 [`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
 
-Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
+[Homework #8](hw/m339g-hw8-lda-qda.pdf) -- **due on Friday, November 8th, 2024**
 
-[Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
-
-[Homework #6](hw/m339g-hw6-solns.pdf) -- **solutions**
-
-[Homework #7](hw/m339g-hw7.pdf) -- **due on Friday, April 5th, 2024**
-
----
-
-**Class 30: April 1st**<br>
-More on tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
-
-[Problem packet](problem-sets/m339g-regression-trees.pdf)
-
-[Class notes](notes/m339g-apr-01-2024.pdf): Regression trees.
-
-[Project #3](projects/m339g-project3-probs.pdf) -- **due on Monday, April 29th, 2024**
+[Project #3](projects/m339g-project3-probs.pdf) -- **due on Monday, December 9th, 2024**
 
 [Project #3](projects/m339g-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-**Class 31: April 3rd**<br>
+**Class 30: November 4th**<br>
+Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
+
+[Homework #9](hw/m339g-hw9-reg-trees.pdf) -- **due on Friday, November 15th, 2024**
+
+---
+
+**Class 31: November 6th**<br>
+More on tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
+
+[Problem packet](problem-sets/m339g-regression-trees.pdf)
+
+<!--
+[Class notes](notes/m339g-apr-01-2024.pdf): Regression trees.
+-->
+
 Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-pruning.pdf): Tree-based regression (pruning)
 
 [`R`-notebook for class](code/regression-trees.Rmd): Regression trees
 
+
+<!--
 Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
