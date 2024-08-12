@@ -354,6 +354,8 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
 
+[Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, October 25th, 2024**
+
 
 <!--
 
@@ -424,7 +426,6 @@ Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</s
 
 [Class notes](notes/m339g-mar-08-2024.pdf)
 
-[Homework #5](hw/m339g-hw5.pdf) -- **due on Friday, March 22nd, 2024**
 
 [Project #2](projects/m339g-project2-probs.pdf) -- **due on Monday, April 8th, 2024**
 
