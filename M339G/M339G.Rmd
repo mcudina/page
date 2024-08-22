@@ -644,6 +644,8 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 **Class 39: December 2nd**<br>
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
+[Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
+
 ---
 
 **Class 40: December 4th**<br>
@@ -658,7 +660,15 @@ A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.
 **Class 41: December 6th**<br>
 The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)**</span>.<br>
 
+[Slides by James & Witten](slides/ch13-multiple-testing.pdf): Multiple Testing
+
 ---
 
 **Class 42: December 9th**<br>
 The False Discovery Rate <span style="color: purple;">**(Section 13.4)**</span>.<br>
+
+[Slides by James & Witten](slides/ch13-false-discovery-rate.pdf): False Discovery Rate
+
+---
+
+A [blog post](https://fivethirtyeight.com/features/science-isnt-broken/#part1) on **p-hacking** with an interactive component (pardon the expletives!)
