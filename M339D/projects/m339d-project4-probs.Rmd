@@ -29,7 +29,7 @@ knitr::opts_chunk$set(
 Using put-call parity, find the formula for the interest rate if all other ingredients are known. 
 
 **(5 points)** 
-Based on the above, what can you say about the interest rates $r$ you expect to obtain for varying values of the strike price?
+Based on the above, what can you say about the interest rates $r$ you expect to obtain for varying values of the strike price? Bear in mind the **standing assumptions** we made in the beginning of the semester. 
 
 **(10 points)**
 Based on the data set "apple-parity.csv", calculate the continuously compounded, risk-free interest rate for all the strike prices given. Be careful about how you use the *bid* and *ask/offer* prices of the options. Set $T=0.25$. Plot the values of the interest rate you obtain as they depend on the strike prices. 
@@ -38,9 +38,11 @@ Based on the data set "apple-parity.csv", calculate the continuously compounded,
 What do you notice about the above plot? Does it or does it not agree with your prediction from the second question in the problem? Substantiate your answer. 
 
 ## Problem #2 (25 points)
-To what do you attribute the discrepancies you observed in the previous problem? Think about it a bit. Then, if you don't have any ideas look at the paper by *Brenner* and *Galai* uploaded into Canvas (under *Files* in the folder *articles*). 
+To what do you attribute the discrepancies you observed in the previous problem? Think about it a bit and note your ideas. Then, consult the paper by *Brenner* and *Galai* uploaded into Canvas (under *Files* in the folder *articles*). Provide at least **four** substantiated reasons. 
 
-## Problem #3 (15 points)
+*Note that this question is worth a quarter of your score for this project! A few lines of your musings will give you hardly any credit at all.*
+
+## Problem #3 (25 points)
 Let the continuously compounded, risk-free interest rate be $0.05$. 
 
 Consider a stock whose current price is \$80 and whose volatility is $0.2$. We will be pricing a variety of options using a *forward binomial tree*. 
@@ -60,7 +62,7 @@ Price a half-year, \$78-strike European put option using *Monte Carlo* with 1000
 **(5 points)** 
 Comment on the accuracy of the *Monte Carlo* method. Which theorem from probability is useful here?
 
-## Problem #4 (25 points)
+## Problem #4 (15 points)
 Let $\{X_n, n = 1, 2, \dots\}$ be a sequence of random variables such that 
 $$X_n \sim Binomial(n, p)$$ where $p$ is a constant between $0$ and $1$. 
 
@@ -79,6 +81,6 @@ Let $\{Y_n, n = 1, 2, \dots\}$ be a sequence of random variables such that
 $$Y_n \sim Binomial(n, p_n)$$ where $p_n$ is given by
 $$p_n=\frac{1}{1+e^{0.25\sqrt{1/n}}}$$.
 
-For $n=100, 1000, 5000, 10000$, draw $10000$ simulated values of $Y_n$ and plot the histogram of the draws. Does the theorem referenced in the previous problem apply to this situation or not? Substantiate your answer. 
+For $n=100, 1000, 5000, 10000$, draw $10000$ simulated values of $Y_n$ and plot the histogram of the draws. Does the **exact** theorem referenced in the previous problem apply to this situation or not? Substantiate your answer. 
 
 

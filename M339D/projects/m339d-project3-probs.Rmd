@@ -38,7 +38,7 @@ Use *Monte Carlo* simulation to figure out the fair price for entering this game
 Use *Monte Carlo* simulation to estimate the number $\pi$. 
 
 ## Problem #3 (10 points)
-Use *Monte Carlo* to estimate the expected distance of a randomly chosen point in a square to the center of that square. 
+Use *Monte Carlo* to estimate the expected distance of a randomly chosen point in a unit square to the center of that square. 
 
 ## Problem #4 (25 points)
 Your initial wealth is exactly \$100. You are allowed to invest in
@@ -82,11 +82,12 @@ Even more precisely, for the $10$ days, both for "morning" and "evening" print o
 * the total wealth. 
 
 ## Problem #4 (20 points)
-Repeat the above problem, but with a new investment ``rule'' of your own. Make sure that there is an element of **randomness* in your rule. You can use the above rule or any of the rules you encountered in previous projects for inspiration, but do not just merely make simple (trivial!) adjustments.
+Repeat the above problem, but with a new investment ``rule'' of your own. Make sure that there is an element of **randomness** in your rule. You can use the above rule or any of the rules you encountered in previous projects for inspiration, but do not just merely make simple (trivial!) adjustments. If you simply change the number of shares traded or the direction of the trade as compared to the rule in the previous problem, you will get no credit. 
+
 
 ## Problem #5 (25 points)
 ### Apple puts
-The file "apple-puts.csv" contains call prices observed on February 14th for European call options on the stocks of Apple Inc with expiry on May 19th and with varying strike prices. 
+The file "apple-puts.csv" contains put prices observed on February 14th for European call options on the stocks of Apple Inc with expiry on May 19th and with varying strike prices. 
 
 **(5 points)**
 Import the data into a data frame. Create a line plot of the mid price (defined as the midpoint between the bid and the ask price) as it depends on the strike. 
@@ -95,6 +96,6 @@ Import the data into a data frame. Create a line plot of the mid price (defined 
 What do you notice about the monotonicity and convexity of the above curve? 
 
 **(15 points)**
-**Prove** that the same conclusions regarding the monotonicity and convexity of the call prices with respect to the strike must hold in general **under the no arbitrage assumption**. 
+**Prove** that the same conclusions regarding the monotonicity and convexity of the put prices with respect to the strike must hold in general **under the no arbitrage assumption**. 
 
 
