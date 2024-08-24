@@ -69,7 +69,9 @@ Even more precisely, for the $10$ days, both for "morning" and "evening" print o
 
 
 ## Problem #2 (25 points)
-Repeat the above problem with **your own rule** based on *technical analysis*, i.e., the study of past prices. Explain why you designed the rule the way you did and why you believe it would prove to be a successful investment strategy. Provide references if you have any. 
+(10 points) Repeat the above problem with **your own rule** based on *technical analysis*, i.e., the study of past prices. Your rule must not be arbitrary and it must have some financial logic behind it. Moreover, it must not be a simple reversal or multiple of the rule used in the previous problem. 
+
+(15 points) **Explain** why you designed the rule the way you did and why you believe it would prove to be a successful investment strategy. You must provide at least one credible reference indicating that the rule is used in practice. 
 
 \newpage
 
@@ -81,7 +83,7 @@ Please, in no particular order read the Wikipedia entry about *futures contracts
 
 [Planet money](https://www.npr.org/sections/money/2016/01/06/462149561/episode-15-delicious-cake-futures): Delicious cake futures
 
-**(10 points)** Provide the definitions of the forward contract and the futures contract. Then, highlight the similarities and the differences between the two. 
+**(10 points)** Provide the definitions of the forward contract and the futures contract. Then, highlight at least twosimilarities and at least two differences between the two. 
 
 The files "dow.csv" and "dow-futures.csv" contain index prices and the futures prices for delivery on a particular date in the future. 
 
@@ -93,7 +95,7 @@ Here is a link to a straightforward tutorial which will help you accomplish the 
 [Timeline plotting](https://statisticsglobe.com/draw-multiple-time-series-in-same-plot-in-r) 
 
 **(10 points)**
-What do you notice when you compare the timeplots? Which of the formulae for calculating futures prices you encountered on the Wikipedia entry come in handy?
+What do you notice when you compare the timeplots? Which of the **formulae** for calculating futures prices you encountered on the Wikipedia entry come in handy?
 
 
 ## Problem #4 (25 points)
@@ -107,6 +109,6 @@ Import the data into a data frame. Create a line plot of the mid price (defined 
 What do you notice about the monotonicity and convexity of the above curve? 
 
 **(15 points)**
-Show that the same conclusions regarding the monotonicity and convexity of the call prices with respect to the strike must hold in general **under the no arbitrage assumption**. 
+**Prove** that the same conclusions regarding the monotonicity and convexity of the call prices with respect to the strike must hold in general **under the no arbitrage assumption**. 
 
 

@@ -226,36 +226,41 @@ Hedging using forward contracts.<br>
 
 <!--
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
+-->
 
 [Additional class notes](notes/m339d-extra-forward-hedging.pdf): User/buyer of goods hedging using a forward.
 
-[Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, February 16th, 2024**
+[Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, September 27th, 2024**
 
 ---
 
-**Class 11: February 9th**<br>
+**Class 11: September 20th**<br>
 European call options.<br>
 
 [Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
 
+<!--
 [Class notes](notes/m339d-feb-09-2024.pdf) 
 
 [Homework #3](hw/m339d-hw3-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 12: February 12th**<br>
+**Class 12: September 23rd**<br>
 More on European call options.<br>
 
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-feb-12-2024.pdf) 
 
 [Additional class notes](notes/m339d-feb-13-2023.pdf) 
 
 [Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
+-->
 
-[Homework #5](hw/m339d-hw5-calls.pdf) -- **due on Friday, February 23rd, 2024**
+[Homework #5](hw/m339d-hw5-calls.pdf) -- **due on Friday, October 4th, 2024**
 
 [Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for the last problem in the project**
 
@@ -265,9 +270,11 @@ More on European call options.<br>
 
 [Apple call data](data/apple-calls.csv)
 
-[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, February 26th, 2024**
+[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, October 14th, 2024**
 
 [Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+<!--
 
 ---
 
