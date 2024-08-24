@@ -160,62 +160,71 @@ Outright purchase. Short sales.<br>
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
 
-[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, February 12th, 2024**
+[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, September 30th, 2024**
 
 [Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
-
 ---
 
-**Class 7: January 31st**<br>
+**Class 7: September 11th**<br>
 On portfolios. 
 
 [The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
 
+<!--
 [The R-notebook from class](code/m339d-project1-variation-in-class-contd.Rmd): **Solutions**
+-->
 
 Payoff and profit.<br>
 
+<!--
 [Class notes](notes/m339d-jan-31-2024.pdf) 
+-->
 
 ---
 
-**Class 8: February 2nd**<br>
+**Class 8: September 13th**<br>
 Payoff and profit curves. Long/short positions.<br>
 
 [Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
 
+<!--
 [Class notes](notes/m339d-feb-02-2024.pdf) 
 
 [Homework #2](hw/m339d-hw2-prereq-solns.pdf) -- **solutions**
+-->
 
-[Homework #3](hw/m339d-hw3.pdf) -- **due on Friday, February 9th**
+[Homework #3](hw/m339d-hw3.pdf) -- **due on Friday, September 20th**
 
 ---
 
-**Class 9: February 5th**<br>
+**Class 9: September 16th**<br>
 Basic risk management. Forward contracts.<br>
 
 [Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration.pdf):  **Problems**
 
+<!--
 [Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration-solns.pdf):  **Solutions**
 
 [Class notes](notes/m339d-feb-05-2024.pdf) 
+-->
 
 [Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
 
 ---
 
-**Class 10: February 7th**<br>
+**Class 10: September 18th**<br>
 Hedging using forward contracts.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
 
+<!--
 [Class notes](notes/m339d-feb-07-2024.pdf) 
+-->
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards.pdf):  **Problems**
 
+<!--
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
 
 [Additional class notes](notes/m339d-extra-forward-hedging.pdf): User/buyer of goods hedging using a forward.
