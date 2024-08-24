@@ -80,20 +80,25 @@ Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 [Console printout](notes/console.txt)
 
 [The R-script from class](code/first-script.R)
+-->
 
-[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 26th, 2024**
+[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, September 6th, 2024**
 
 ---
 
-**Class 3: January 22nd**<br>
+**Class 3: August 30th**<br>
 `For` loops. Functions in R. `If ... else` in R.
 `R`-notebooks.<br> 
 
+<!--
 [The R-notebook from class](code/first-notebook.Rmd)
+-->
 
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems**
 
+<!--
 [Problem Set #1](code/m339d-ps1-in-class.Rmd): **Solutions from class**
+-->
 
 Background. 
 
@@ -101,20 +106,22 @@ Background.
 
 ---
 
-**Class 4: January 24th**<br>
+**Class 4: September 4th**<br>
 Prerequisite review.<br>
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-jan-24-2024.pdf) 
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
+-->
 
-[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, February 2nd**
+[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, September 13th, 2024**
 
 ---
 
-**Class 5: January 26th**<br>
+**Class 5: September 6th**<br>
 Standing assumptions and conventions. Risky assets. 
 Transaction costs. <br>
 
@@ -134,18 +141,22 @@ Historical returns of stocks.<br>
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
+<!--
 [The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
 
 [Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 6: January 29th**<br>
+**Class 6: September 9th**<br>
 Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
 
+<!--
 [Class notes](notes/m339d-jan-29-2024.pdf)
+-->
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
 
@@ -153,6 +164,7 @@ Outright purchase. Short sales.<br>
 
 [Project #1](code/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+<!--
 
 ---
 

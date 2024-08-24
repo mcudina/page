@@ -63,7 +63,7 @@ Now, you are equipped to fit the Laplace (double exponential) distribution to th
 After you have completed the fit, superimpose the appropriate graph for your model onto the appropriate graph of the data.
 
 
-## Problem #2 **(70 points)**
+## Problem #2 **(60 points)**
 Your initial wealth is exactly \$100. You are allowed to invest in
 shares of a particular stock. You are also allowed to both lend and
 borrow at the continuously compounded risk-free interest rate of
@@ -75,7 +75,7 @@ shares you own (if you decide to do so) and accordingly adapt your
 risk-free investment.
 
 You proceed to create a ``rule'' according to which you will be
-rebalancing your portfolio. Here are some possible rules you can use:
+rebalancing your portfolio. Here are the three rules you are going to use:
 
 \begin{enumerate}
 \def\labelenumi{ \bf \roman{enumi}.}
