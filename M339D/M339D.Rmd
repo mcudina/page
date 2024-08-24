@@ -274,70 +274,81 @@ More on European call options.<br>
 
 [Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
 
 ---
 
-**Class 13: February 14th**<br>
+**Class 13: September 25th**<br>
 European put options. Moneyness.<br>
 
 [Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 [Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-feb-14-2024.pdf) 
 
 [Problem Set #6](problem-sets/m339d-ps6-puts-solns.pdf):  **Solutions**
+-->
 
-[Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, March 1st, 2024**
+[Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, October 11th, 2024**
 
 **(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
 
 ---
 
-**Class 14: February 16th**<br>
+**Class 14: September 27th**<br>
 Finite probability spaces [revisited]. Arbitrage portfolios. Law of the Unique Price. <br>
 
+<!--
 [Class notes](notes/m339d-feb-16-2024.pdf) 
+-->
 
 **(An interesting read)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
 
 **(Another interesting read)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
 
+<!--
 [Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 15: February 19th**<br>
+**Class 15: September 30th**<br>
 Derivative securities. Replicating portfolios. Equity-linked contracts. <br>
 
 **(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
 
 [Problem packet](problem-sets/m339d-equity-linked.pdf)
 
+<!--
 [Class notes](notes/m339d-feb-19-2024.pdf) 
+-->
 
 **(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
 
 ---
  
-**Class 16: February 21st**<br>
+**Class 16: October 2nd**<br>
 Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
+<!--
 [Class notes](notes/m339d-feb-21-2024.pdf) 
+-->
 
 ---
 
-**Class 17: February 23rd**<br>
+**Class 17: October 4th**<br>
 Chooser options.<br>
 
 [Problem](problem-sets/m339d-chooser.pdf)
 
+<!--
 [Class notes](notes/m339d-feb-23-2024.pdf) 
+-->
 
 **(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
 
@@ -347,11 +358,10 @@ Chooser options.<br>
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
+<!--
 [Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
+-->
 
----
-
-**Class 18: February 26th**<br>
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -360,47 +370,63 @@ Random number generation.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
+---
+
+**Class 18: October 7th**<br>
 Inverse-Transform Method.<br>
 
 [Problem set #7](problem-sets/m339d-ps7-inverse-transform-probs.pdf): Problems
 
+<!--
 [Class notes](notes/m339d-feb-26-2024.pdf) 
 
 [Problem set #7](problem-sets/m339d-ps7-inverse-transform-solns.pdf): Solutions
+-->
 
----
-
-**Class 19: February 28th**<br>
 Acceptance-Rejection Method.<br>
 
+<!--
 [Class notes](notes/m339d-feb-28-2024.pdf) 
-
-[In-Term One](exams/m339d-one-topics.pdf): Topics
-
-[Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
-
-[Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions** 
+-->
 
 ---
 
-**Class 20: March 1st**<br>
+**Class 19: October 9th**<br>
 The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Class notes](notes/m339d-mar-01-2024.pdf) 
 
 [Problem Set #8](problem-sets/m339d-ps8-mc.Rmd)
 
+<!--
 [Problem Set #8](problem-sets/m339d-ps8-mc-in-class.Rmd): **Partial solutions**
+-->
 
 [Apple put data](data/apple-puts.csv)
 
+<!--
 [Project #3](projects/m339d-project3-probs.pdf) -- **due on Monday, March 25th**
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+-->
 
+[In-Term One](exams/m339d-one-topics.pdf): Topics
+
+[Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
+
+[Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions**
+
+<!--
 [Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
 
+
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, March 8th**
+
+<!-- 
+
+---
+
+**Class 20: March 1st**<br>
 
 ---
 
