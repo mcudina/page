@@ -36,7 +36,9 @@ Orientation. <br>
 **Class 2: August 28th**<br>
 Discrete random variables.<br> 
 
+[Wikipedia](https://en.wikibooks.org/wiki/Set_Theory/Sets): Set notation
 
+[Class notes](notes/m378k-aug-28-2024.pdf)
 
 <!--
 
@@ -45,9 +47,8 @@ Discrete random variables.<br>
 **Class 3: January 22nd**<br>
 Distributions <span style="color: purple;">**(Section 1.3)**</span>.<br>
 
-[Wikipedia](https://en.wikibooks.org/wiki/Set_Theory/Sets): Set notation
 
-[Class notes](notes/m362k-jan-22-2024.pdf)
+
 
 [The R-script from class](code/frequencies.R): Long-term proportions
 

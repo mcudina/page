@@ -76,9 +76,9 @@ Orientation. <br>
 **Class 2: August 28th**<br>
 Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 
-<!--
 [Console printout](notes/console.txt)
 
+<!--
 [The R-script from class](code/first-script.R)
 -->
 
