@@ -86,16 +86,9 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 
 [Wikipedia](https://en.wikipedia.org/wiki/Shapiro–Wilk_test): The Shapiro-Wilk test
 
-[Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
-
 [Data set](code/temperatures.csv): Human temperatures
 
 [R-notebook](code/temperature.Rmd): Temperature bootstrap
-
----
-
-**Class 3: August 30th**<br>
-Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
 [Data set](code/bangladesh-data.csv): Chemicals in Bangladesh
 
@@ -105,13 +98,21 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 [`R`-notebook from class](code/arsenic-in-class.Rmd): Arsenic (complete)
 -->
 
+---
+
+**Class 3: August 30th**<br>
+Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
+
 [`R`-notebook for class](code/two-stock-portfolio-empty.Rmd): Two-stock portfolio
 
-[Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
+<!--
+[Class notes](notes/m339g-jan-24-2024.pdf)
 
-[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, September 23rd, 2024**
 
-[Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+[`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
+-->
 
 ---
 
@@ -125,12 +126,6 @@ Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>
 -->
 
 Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Sections 3.1 and 5.3.4)**</span>.<br>
-
-<!--
-[Class notes](notes/m339g-jan-24-2024.pdf)
--->
-
-[`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
 
 [Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
 

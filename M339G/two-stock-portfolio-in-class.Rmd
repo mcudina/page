@@ -41,9 +41,11 @@ alpha.fn<-function(data, index){
 }
 ```
 
-*This function* **returns** *, or outputs, an  estimate for $\alpha$ based on applying (5.7) from the book to the observations indexed by the argument `index`.
-For instance, the following command tells `R` to estimate $\alpha$ using
-all $100$ observations.*
+*This function* **returns**, *or outputs, an  estimate for $\alpha$ based on applying* 
+$$
+\hat \alpha = \frac{\hat \sigma_Y^2-\hat \sigma{XY}}{\hat \sigma_X^2 + \hat \sigma_Y^2 - 2\hat \sigma_{XY}}
+$$
+*from the book to the observations indexed by the argument `index`. For instance, the following command tells `R` to estimate $\alpha$ using all $100$ observations.*
 
 ```{r}
 alpha.fn(Portfolio, 1:100)
@@ -64,8 +66,10 @@ the corresponding estimates for $\alpha$, and computing the resulting
 standard deviation.
 However, the `boot()` function automates this approach. Below we produce $R=1,000$ bootstrap estimates for $\alpha$.
 
-
-
+```{r chunk14}
+library(boot)
+boot(Portfolio, alpha.fn, R = 1000)
+```
 
 The final output shows that using the original data, $\hat{\alpha}=...$,
 and that the bootstrap estimate for ${\rm SE}(\hat{\alpha})$ is $\dots$.
