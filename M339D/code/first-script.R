@@ -1,10 +1,11 @@
-#we will define that x is 8
+#first define x as 8
 x=8
 
-#set y to 7
+#second set y to 7
 y=7
-#set z to y minus x
-z=y-x
+
+#z is a difference between x and y
+z=x-y
 
 #sequence of odd numbers from 1 to 20
 v=seq(1,20,2)
@@ -13,9 +14,9 @@ sum(v)
 
 #toy function in R
 addition<-function(x,y){
-  x+y
+  return(x+y)
 }
 
-print(addition(17,3))
+addition(7,3)
 
-replicate(4, addition(3,5))
+replicate(10,addition(7,4))
