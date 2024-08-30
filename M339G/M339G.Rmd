@@ -92,9 +92,7 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 
 [`R`-notebook for class](code/arsenic-empty.Rmd): Arsenic
 
-<!--
 [`R`-notebook from class](code/arsenic-in-class.Rmd): Arsenic (complete)
--->
 
 ---
 
@@ -103,15 +101,9 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 
 [Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
 
-[`R`-notebook for class](code/two-stock-portfolio-empty.Rmd): Two-stock portfolio
-
-<!--
-[Class notes](notes/m339g-jan-24-2024.pdf)
-
+[Class notes](notes/m339g-bivariate-bootstrap.pdf)
 
 [`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
--->
-
 
 [Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, September 23rd, 2024**
 
