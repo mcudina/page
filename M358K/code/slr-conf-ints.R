@@ -1,9 +1,10 @@
-beta.0<-2.5  ### theoretical paramater values
+### theoretical parameter values
+beta.0<-2.5  
 beta.1<-0.5
 curve(beta.0+beta.1*x, 0, 25, lwd=3, col="green")
 
-sigma<-1       #### std. dev of all errors is the same sigma
-
+#### std. dev of all errors is the same sigma
+sigma<-1      
 
 lambda<-1/25
 domain<-rexp(1,lambda)
@@ -11,18 +12,22 @@ domain
 
 sample.size<-10
 
-errors<-rnorm(sample.size,mean=0,sd=sigma)
-errors
-
 x.coords<-runif(sample.size, min=0, max=domain)
 x.coords
+
+errors<-rnorm(sample.size,mean=0,sd=sigma)
+errors
 
 y.coords<-beta.0 + beta.1*x.coords+errors
 y.coords
 
-plot(x.coords,y.coords, cex=2, pch=20, col="blue", main="Simple least squares", ylab="Response", xlab="Explanatory", xlim=c(0, domain), ylim=c(0,beta.1*domain+beta.0))
+plot(x.coords,y.coords, cex=2, pch=20, 
+     col="blue", 
+     main="Simple least squares", 
+     ylab="Response", xlab="Explanatory", 
+     xlim=c(0, domain), ylim=c(0,beta.1*domain+beta.0))
 
-abline(lm(y.coords ~ x.coords), lwd=1.5, col="red")
+abline(lm(y.coords ~ x.coords), lwd=2, col="red")
 abline(beta.0,beta.1, lwd=2, col="green")
 
 reg<-lm(y.coords ~ x.coords)

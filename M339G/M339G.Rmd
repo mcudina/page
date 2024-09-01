@@ -124,6 +124,8 @@ Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope
 
 [Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
 
+[Wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2): Adjusted $R^2$
+
 [`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
 [Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, September 13th, 2024**
