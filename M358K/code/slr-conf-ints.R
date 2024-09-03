@@ -46,6 +46,3 @@ all.ints<-cbind(conf,pred[,-1])
 matplot(newdata,all.ints, type="l", lty=1, lwd=2, col=c("black", "red", "red","blue","blue"))
 abline(beta.0,beta.1, lwd=2, col="green")
 
-######################################### ANOVA ###############################
-
-anova(reg)
