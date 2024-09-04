@@ -116,9 +116,7 @@ Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>
 
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
-<!--
 [Class notes](notes/m339g-jan-26-2024.pdf)
--->
 
 Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Sections 3.1 and 5.3.4)**</span>.<br>
 

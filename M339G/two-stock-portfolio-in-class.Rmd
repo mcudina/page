@@ -58,7 +58,6 @@ based on the new data set.
 
 ```{r}
 alpha.fn(Portfolio, sample(100, 100, replace=T))
-
 ```
 
 We can implement a bootstrap analysis by performing this command many times, recording all of
