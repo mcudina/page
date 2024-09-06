@@ -23,25 +23,22 @@ knitr::opts_chunk$set(
 ---
 
 ## Task 1. 
-First, we will read the data from our csv file "MSFT.csv" into a data.frame called `msft`:
+First, we will read the data from our csv file "MSFT.csv" into a `data.frame` called `msft`:
 
 ```{r}
 msft<-read.csv("MSFT.csv")
+#msft
 ```
 
 ## Task 2.
 Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
 
 ```{r}
-close.price=msft$Close
-#close.price
-plot(close.price, 
-     main="Daily closing prices of Microsoft over the last year",
-     xlab="Time",
-     ylab="Close price",
-     pch=20, 
-     type="l",
-     col="blue")
+close.price<-msft$Close
+#length(close.price)
+plot(close.price, type="l", col="peru",
+     main="Daily closing prices of Microsoft",
+     xlab="Time", ylab="Price")
 ```
 
 ## Task 3. 
@@ -50,9 +47,6 @@ What are the mean and the standard deviation of the prices?
 ```{r}
 mean(close.price)
 sd(close.price)
-#just for laughs
-#summary(close.price)
-#hist(close.price, breaks=25)
 ```
 
 ## Task 4. 
@@ -67,23 +61,19 @@ close.price.end=close.price[-1]
 close.price.beg=close.price[-length(close.price)]
 returns=(close.price.end-close.price.beg)/close.price.beg
 #returns
-hist(returns, breaks=25, 
-     main="Simple Daily Returns of MSFT",
-     xlab="Returns",
-     col="bisque")
-#outliers?
-#boxplot(returns)
+hist(returns, breaks=20)
 ```
-**Kind of symmetric; kind of unimodal.**
+
 
 ## Task 5. 
 What are the mean and the standard deviation of the returns?
 
 ```{r}
-mu=mean(returns)
-mu
-sigma=sd(returns)
-sigma
+mu.hat=mean(returns)
+mu.hat
+sigma.hat=sd(returns)
+sigma.hat
+#sigma.hat*sqrt(252)
 ```
 
 ## Task 6. 
@@ -94,14 +84,12 @@ How would you **fit** a distribution to the above histogram? Let's
 * superimpose the density of the modelling distribution onto the histogram. 
 
 ```{r}
-hist(returns, breaks=25, 
-     main="Simple Daily Returns of MSFT",
-     xlab="Returns",
-     col="bisque",
-     prob=TRUE)
-curve(dnorm(x, mean=mu, sd=sigma), col="red", lwd=2, add=TRUE)
+hist(returns, breaks=20, col="bisque",
+     main="Histogram or MSFT daily returns",
+     xlab="Returns", prob=TRUE)
+curve(dnorm(x, mean=mu.hat, sd=sigma.hat), add=TRUE, col="red",
+      lwd=2)
 ```
-
 
 ## Task x. 
 What else could we ask? 
