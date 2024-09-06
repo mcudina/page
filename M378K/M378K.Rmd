@@ -73,18 +73,15 @@ Expectation and variance.<br>
 
 [Homework #2](hw/m378k-hw2-discrete.pdf) -- **due on Friday, September 13th, 2024**
 
-<!--
-
 ---
 
-**Class 6: January 29th**<br>
-De Méré's paradox. Even more on probability.<br>
+**Class 6: September 9th**<br>
+Continuous distributions.<br>
 
-[Wikipedia](https://www.proofwiki.org/wiki/De_Méré's_Paradox): De Méré's paradox.
+[Problem Set #3](problem-sets/m378k-ps3-continuous-probs.pdf):  **Problems we will work on in class**
 
-[Class notes](notes/m362k-jan-29-2024.pdf)
 
-[The R-script from class](code/loaded-tetrahedron-in-class-too.R): A loaded tetrahedron with histograms and bar plots 
+<!--
 
 ---
 
