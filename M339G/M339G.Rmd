@@ -105,6 +105,12 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 
 [`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
 
+[WMT data](data/WMT.csv)
+
+[IBM data](data/IBM.csv)
+
+[NASDAQ data](data/ndq.csv)
+
 [Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, September 23rd, 2024**
 
 [Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
