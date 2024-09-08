@@ -207,15 +207,11 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Code for class](code/trees-empty.Rmd): Cherry trees
 
-<!--
 [Code from class](code/trees-in-class.Rmd): Cherry trees
--->
 
 [Data for class](code/mustangs.csv): Mustangs
 
-<!--
 [Code from class](code/mustangs.Rmd): Mustangs
--->
 
 [Homework #4](hw/m339g-hw4-F.pdf) -- **due on Friday, September 27th, 2024**
 
