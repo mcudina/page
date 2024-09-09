@@ -209,6 +209,8 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Code from class](code/trees-in-class.Rmd): Cherry trees
 
+[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
+
 [Data for class](code/mustangs.csv): Mustangs
 
 [Code from class](code/mustangs.Rmd): Mustangs
@@ -219,8 +221,6 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 **Class 10: September 18th**<br>
 Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
 
 [Slides by Hastie & Tibshirani](slides/ch7-linear-splines.pdf): Intro to Splines 
 
