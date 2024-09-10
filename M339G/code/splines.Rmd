@@ -8,10 +8,7 @@ output:
 Here, I am adapting part of the lab associated with Chapter 7 of the textbook. 
 
 In this lab, we re-analyze the `Wage` data considered in the
-examples throughout this chapter, in order to illustrate the fact that
-many of the complex non-linear fitting procedures discussed  can
-be easily implemented in `R`.  We begin by loading the
-`ISLR2` library, which contains the data.
+examples throughout this chapter, in order to illustrate the fact that many of the complex non-linear fitting procedures discussed can be easily implemented in `R`.  We begin by loading the `ISLR2` library, which contains the data.
 
 ```{r chunk1}
 library(ISLR2)
@@ -38,11 +35,8 @@ ggplot(df, aes(x = age, y = wage)) +
 
 ## Cubic splines
 
-In order to fit regression splines in `R`, we use the `splines` library.
-In Section 7.4, we saw that regression
-splines can be fit by constructing an appropriate matrix of basis functions.
-The
- `bs()` function generates the entire matrix of basis functions for splines with the specified set of knots. By default, cubic splines are produced.
+In order to fit regression splines in `R`, we use the `splines` library. In Section 7.4, we saw that regression
+splines can be fit by constructing an appropriate matrix of basis functions. The `bs()` function generates the entire matrix of basis functions for splines with the specified set of knots. By default, cubic splines are produced.
 Fitting `wage` to `age` using a regression spline is simple:
 
 ```{r chunk19}
