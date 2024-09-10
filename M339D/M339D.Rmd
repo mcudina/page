@@ -643,9 +643,9 @@ Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.
 
 <!--
 [Class notes](notes/m339d-apr-15-2024.pdf) 
-
-[Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, April 19th**
 -->
+
+[Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, November 29th**
 
 ---
 
@@ -679,21 +679,24 @@ Black-Scholes [continued].<br>
 ---
 
 **Class 36: November 18th**<br>
+Black-Scholes pricing [practice].<br>
 
 ---
 
 **Class 37: November 20th**<br>
-
----
-
-**Class 38: April 19th**<br>
-
-<!--
 Forward-start options. Rolling insurance strategy.<br>
 
 [Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
 
+<!--
 [Class notes](notes/m339d-apr-19-2024.pdf) 
+-->
+
+---
+
+**Class 38: November 22nd**<br>
+
+<!--
 
 [Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
 
