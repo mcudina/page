@@ -615,11 +615,11 @@ Log-normal stock prices: Parameter interpretation.<br>
 [Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks-solns.pdf): **Solutions**
 -->
 
-[Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, November 15th**
-
 <!--
 [Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
 -->
+
+[Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, November 15th**
 
 ---
 
@@ -660,8 +660,9 @@ Black-Scholes [continued].<br>
 
 <!--
 [Class notes](notes/m339d-apr-17-2024.pdf) 
+-->
 
-[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, April 29th, 2024**
+[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, December 9th, 2024**
 
 [Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
@@ -685,8 +686,9 @@ Black-Scholes [continued].<br>
 
 ---
 
-<!--
 **Class 38: April 19th**<br>
+
+<!--
 Forward-start options. Rolling insurance strategy.<br>
 
 [Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
