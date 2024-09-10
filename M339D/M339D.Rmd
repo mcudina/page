@@ -148,9 +148,7 @@ Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
 
-<!--
-[Class notes](notes/m339d-jan-29-2024.pdf)
--->
+[Class notes](notes/m339d-sept-09-2024.pdf)
 
 [Alphabet data](data/goog.csv)
 
@@ -167,9 +165,8 @@ On portfolios.
 
 [The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
 
-<!--
-[The R-notebook from class](code/m339d-project1-variation-in-class-contd.Rmd): **Solutions**
--->
+[The R-notebook from class](code/m339d-project1-variation-in-class.Rmd): **Partial solutions**
+
 
 Payoff and profit.<br>
 

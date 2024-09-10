@@ -29,10 +29,7 @@ shares of a particular stock. You are also allowed to both lend and
 borrow at the continuously compounded, risk-free interest rate of
 0.05. Keeping your money uninvested is \textbf{not allowed}.
 
-You can rebalance your portfolio every morning, once you have observed
-the opening stock price. This means that you can change the number of
-shares you own (if you decide to do so) and accordingly adapt your
-risk-free investment.
+You can rebalance your portfolio every morning, once you have observed the opening stock price. This means that you can change the number of shares you own (if you decide to do so) and accordingly adapt your risk-free investment.
 
 You proceed to create a ``rule'' according to which you will be
 rebalancing your portfolio. Here is a possible rule you can use:
@@ -49,7 +46,7 @@ Over the following 10 days, you observe the following stock prices for a non-div
 \hline
 {\bf Day} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
 \hline
-{\bf Stock price} &100 & 80 & 64 & 80 & 64 & 80 & 100 & 80 & 64 & 80 & 100 \\
+{\bf Stock price} & 100 & 80 & 64 & 80 & 64 & 80 & 100 & 80 & 64 & 80 & 100 \\
 \hline
 \end{tabular}
 
@@ -66,55 +63,41 @@ Even more precisely, for the $10$ days, both for "before" and "after" the rebala
 \medskip
 
 *Solution:*
-First, I will make a vector containing the evolution of the stock price: 
-```{r}
-s=c(100, 80, 64, 80, 64, 80, 100, 80, 64, 80, 100)
-```
-
-Define the continuously compounded, risk-free interest rate:
+Store the continuously compounded, risk-free interest rate: 
 ```{r}
 r=0.05
 ```
-
-**The rule implemented:**
+Store the stock prices into a vector:
 ```{r}
-#space to hold the ingredients
+s=c(100, 80, 64, 80, 64, 80, 100, 80, 64, 80, 100)
+```
+Now, we implement our rule:
+Set up the vectors for the components of the portfolio:
+```{r}
+#setting up space for the components of the portfolio
 pi.v=numeric(11)
 cash=numeric(11)
 wealth=numeric(11)
-
-#the initial position
+```
+Initialize the rule we are given:
+```{r}
+wealth[1]=100
 pi.v[1]=1/2
-cash[1]=50
-wealth[1]=cash[1]+pi.v[1]*s[1]
-
+cash[1]=wealth[1]-pi.v[1]*s[1]
+#cash[1]
+```
+Create a function to implement the dynamics of the rule.
+```{r}
 rebalance<-function(s.beg, s.end, shares){
-  if (s.beg==s.end) {
+  if (s.beg==s.end){
     return(shares)
   } else {
-    if (s.beg > s.end) {
-      return(shares-10/s.end)
-    } else {
+    if (s.beg<s.end){
       return(shares+10/s.end)
+    } else {
+      return(shares-10/s.end)
     }
   }
 }
-
-for (i in 1:10){
-  #before rebalancing
-  cash[i+1]=cash[i]*exp(r/365)
-  wealth[i+1]=cash[i+1]+pi.v[i]*s[i+1]
-  
-  print(sprintf("Day = %d, %s", i, "before"))
-  print(sprintf("Shares=%6.2f, Cash=%6.2f, Wealth in Stock=%6.2f, Total Wealth=%6.2f",
-                pi.v[i], cash[i+1], pi.v[i]*s[i+1], wealth[i+1]))
-  
-  pi.v[i+1]=rebalance(s[i], s[i+1], pi.v[i])
-  cash[i+1]=wealth[i+1]-pi.v[i+1]*s[i+1]
-  
-  print(sprintf("Day = %d, %s", i, "after"))
-  print(sprintf("Shares=%6.2f, Cash=%6.2f, Wealth in Stock=%6.2f, Total Wealth=%6.2f",
-                pi.v[i+1], cash[i+1], pi.v[i+1]*s[i+1], wealth[i+1]))
-}
 ```
-
+We move forward through time with this rule .... 
