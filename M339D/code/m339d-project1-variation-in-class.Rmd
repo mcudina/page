@@ -101,3 +101,27 @@ rebalance<-function(s.beg, s.end, shares){
 }
 ```
 We move forward through time with this rule .... 
+```{r}
+for (i in 1:10){
+  cash[i+1]=cash[i]*exp(r/365)
+  #print(cash[i+1])
+  wealth[i+1]=pi.v[i]*s[i+1]+cash[i+1]
+  #print(wealth[i+1])
+  
+  #before rebalancing
+  print(sprintf("Day=%d %s", i, "before"))
+  print(sprintf("shares=%6.4f, cash=%6.4f, wealth in stock=%6.4f, total wealth=%6.4f", 
+                pi.v[i], cash[i+1], pi.v[i]*s[i+1], cash[i+1]+ pi.v[i]*s[i+1]))
+
+  #now we rebalance
+  pi.v[i+1]=rebalance(s[i], s[i+1], pi.v[i])
+  cash[i+1]=wealth[i+1]-pi.v[i+1]*s[i+1]
+  
+  #after rebalancing
+  print(sprintf("Day=%d %s", i, "after"))
+  print(sprintf("shares=%6.4f, cash=%6.4f, wealth in stock=%6.4f, total wealth=%6.4f", 
+                pi.v[i+1], cash[i+1], pi.v[i+1]*s[i+1], cash[i+1]+ pi.v[i+1]*s[i+1]))
+  }
+
+```
+

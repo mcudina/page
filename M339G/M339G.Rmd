@@ -163,6 +163,8 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 
 [Slides by Hastie & Tibshirani](slides/ch3-multiple-linear-regression-intro.pdf): Multiple linear regression 
 
+[Class notes](notes/m339g-sept-11-2024.pdf)
+
 [`R`-notebook from class](code/mlr.Rmd): Multiple linear regression
 
 [Wikipedia](https://en.wikipedia.org/wiki/Projection_matrix): Projection matrix
