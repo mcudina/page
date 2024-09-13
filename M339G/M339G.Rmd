@@ -176,24 +176,9 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 **Class 8: September 13th**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-feb-02-2024.pdf)
--->
+[Class notes](notes/m339g-sept-13-2024.pdf)
 
 [`R`-script from class](code/F-distn.R): The $F-$distribution
-
-<!--
-[Homework #2](hw/m339g-hw2-regression-solns.pdf) -- **solutions**
--->
-
----
-
-**Class 9: September 16th**<br>
-Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
-
-<!--
-[Class notes](notes/m339g-feb-05-2024.pdf)
--->
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-contd.pdf): Multiple linear regression (cont'd) 
 
@@ -208,6 +193,15 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 [Code for class](code/trees-empty.Rmd): Cherry trees
 
 [Code from class](code/trees-in-class.Rmd): Cherry trees
+
+<!--
+[Homework #2](hw/m339g-hw2-regression-solns.pdf) -- **solutions**
+-->
+
+---
+
+**Class 9: September 16th**<br>
+Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
 
