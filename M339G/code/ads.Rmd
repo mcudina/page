@@ -64,7 +64,27 @@ plot(adv, sales,
 lines(adv.mesh,predictions$fit,col="red", lwd=2)
 lines(adv.mesh,predictions$fit+2*predictions$se, col="blue")
 lines(adv.mesh,predictions$fit-2*predictions$se, col="blue")
-
 ```
 
+```{r}
+## returns a basis matrix
+b <- bs(adv.mesh, degree = 1, knots = c(50))  
+
+#the functions in the basis
+b1 <- b[, 1]  
+b2 <- b[, 2]  
+plot(adv.mesh, b1, type = "l")
+plot(adv.mesh, b2, type = "l")
+
+#the coefficients from the summary of `lm`
+betas=summary(lm.fit.ls)$coeff[,1]
+
+plot(adv, sales, 
+     pch=20, col="lightblue",
+     main="Dependence of sales on advertising",
+     xlab="Advertising",
+     ylab="Sales")
+
+lines(adv.mesh,betas[1]+betas[2]*b1+betas[3]*b2,col="red", lwd=2)
+```
 
