@@ -8,6 +8,7 @@ output:
 Let's import the data set and poke around a bit. 
 
 ```{r}
+library(boot)
 mustangs<-read.csv("mustangs.csv")
 names(mustangs)
 dim(mustangs)

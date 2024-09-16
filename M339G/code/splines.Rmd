@@ -51,6 +51,7 @@ se.bands <- cbind(preds$fit + 2 * preds$se.fit,
     preds$fit - 2 * preds$se.fit)
 
 pred <- predict(fit, newdata = list(age = age.grid), se = T)
+
 plot(age, wage, col = "gray", pch=20)
 lines(age.grid, pred$fit, lwd = 2)
 lines(age.grid, pred$fit + 2 * pred$se, lty = "dashed", col="blue")
