@@ -104,6 +104,8 @@ More on the cumulative distribution function.<br>
 
 [Class notes](notes/m378k-sept-13-2024.pdf)
 
+[Problem Set #4](problem-sets/m378k-ps4-cdf-solns.pdf):  **Solutions**
+
 [Homework #2](hw/m378k-hw2-discrete-solns.pdf) -- **solutions**
 
 [Homework #3](hw/m378k-hw3-expectation-probs.pdf) -- **due on Friday, September 20th, 2024**
@@ -115,18 +117,18 @@ Even more on the cumulative distribution function.<br>
 
 [Problem Set #5](problem-sets/m378k-ps5-cdf-cont-probs.pdf):  **Problems we will work on in class**
 
-<!--
-Independence and probability trees <span style="color: purple;">**(Section 1.4)**</span>.<br>
+[Problem Set #5](problem-sets/m378k-ps5-cdf-cont-solns.pdf):  **Solutions**
 
-[Problem Set #1](problem-sets/m362k-ps1-cond-prob-ind-solns.pdf): **Solutions**
-
-Bayes' rule <span style="color: purple;">**(Section 1.5)**</span>.<br>
-
-[Class notes](notes/m362k-feb-05-2024.pdf)
+[Class notes](notes/m378k-sept-16-2024.pdf)
 
 ---
 
-**Class 10: February 7th**<br>
+**Class 10: September 18th**<br>
+Random vectors.<br>
+
+
+<!--
+
 More on the Bayes rule <span style="color: purple;">**(Section 1.5)**</span>.<br>
 
 [Class notes](notes/m362k-feb-07-2024.pdf)
