@@ -9,9 +9,7 @@ Here, I am adapting the lab associated with Chapter 3 of the textbook.
 
 ## Qualitative Predictors
 
-We will now examine the **simulated** `Carseats` data, which is part of the `ISLR2` library. We will  attempt to predict `Sales`
-(child car seat sales) in $400$ locations based on a number of
-predictors.
+We will now examine the **simulated** `Carseats` data, which is part of the `ISLR2` library. We will  attempt to predict `Sales` (child car seat sales) in $400$ locations based on a number of predictors.
 
 ```{r chunk25}
 library(ISLR2)
@@ -41,7 +39,7 @@ attach(Carseats)
 contrasts(ShelveLoc)
 ```
 
-Use `?contrasts` to learn about other contrasts, and how to set them.
+You should use `?contrasts` to learn about other contrasts, and how to set them.
 
 `R` has created a `ShelveLocGood` dummy variable that takes on a value of 1 if the shelving location is good, and 0 otherwise. It has also created a `ShelveLocMedium` dummy variable that equals 1 if the shelving location is medium, and 0 otherwise.
 A bad shelving location corresponds to a zero for each of the two dummy variables.
