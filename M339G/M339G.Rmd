@@ -248,9 +248,7 @@ Regression vs Classification Problems <span style="color: purple;">**(Section 2.
 
 [`R`-notebook for class](code/carseats-dummies.Rmd): Qualitative/categorical predictors
 
-<!--
-[Class notes](notes/m339g-feb-12-2024.pdf)
--->
+[Class notes](notes/m339g-sept-20-2024.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
 
@@ -384,15 +382,16 @@ More about the principal components regression <span style="color: purple;">**(S
 
 <!--
 [In-Term One](exams/m339g-one-solns.pdf) -- **solutions** 
-
-Review of categorical predictors and logistic regression.<br>
-
-[Class notes](notes/m339g-mar-01-2024.pdf)
 -->
 
 ---
 
 **Class 23: October 18th**<br>
+<!--
+Review of categorical predictors and logistic regression.<br>
+
+[Class notes](notes/m339g-mar-01-2024.pdf)
+-->
 Principal components analysis and clustering <span style="color: purple;">**(Section 12.2 and 12.4.1)**</span>.<br>
 
 [UC Irvine MLR](https://archive.ics.uci.edu/dataset/236/seeds): Documentation for the `seeds` data set 

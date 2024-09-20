@@ -17,6 +17,7 @@ Next, we look at the included data set:
 
 ```{r}
 data<-MedGPA
+View(data)
 data$Acceptance <- as.factor(data$Acceptance)
 attach(data)
 dim(data)
@@ -66,7 +67,8 @@ Let's "improve" our model and do a $2-$fold cross-validation.
 The "improvement" in the model is to also include `MCAT` and `Sex` as explanatory variables. 
 
 ```{r}
-glm.fits.m=glm(Acceptance~MCAT+GPA+Sex,data=data,family=binomial)
+glm.fits.m=glm(Acceptance~MCAT+GPA+Sex,data=data,
+               family=binomial)
 summary(glm.fits.m)
 ```
 ```{r}
@@ -80,7 +82,8 @@ The `GPA` is still the most significant. Let's create the training subset and fi
 n=length(GPA)
 set.seed(1)
 train=sample(n,floor(n/2))
-glm.fits.tr=glm(Acceptance~MCAT+GPA+Sex,data=data,family=binomial, subset=train)
+glm.fits.tr=glm(Acceptance~MCAT+GPA+Sex,data=data,
+                family=binomial, subset=train)
 summary(glm.fits.tr)
 ```
 

@@ -2,6 +2,8 @@
 title: "Multiclass logistic regression"
 author: "Milica Cudina"
 output:
+  html_document:
+    df_print: paged
   pdf_document: default
 ---
 
@@ -14,7 +16,7 @@ First, we import the data.
 data<-read.csv("hsbdemo.csv")
 data
 ```
-The data set contains variables on $200$ students. We will focus on a small subset. The predictor variables will be social economic status `ses` (a three-level categorical variable) and writing score `write` (a quantitative variable). The outcome variable is program type `prog` (a three-level categorical variable). Since I am interested in just this subset, I will create a smaller data frame to analyze. 
+The data set contains variables on $200$ students. We will focus on a small subset of predictors. The predictor variables will be social economic status `ses` (a three-level categorical variable) and writing score `write` (a quantitative variable). The outcome variable is program type `prog` (a three-level categorical variable). Since I am interested in just this subset, I will create a smaller data frame to analyze. 
 
 ```{r}
 df=data.frame(data$ses, data$write, data$prog)
@@ -33,7 +35,7 @@ As we can see, this is not too useful. To look at the *association* between `ses
 ```{r}
 tab=table(ses, prog)
 tab
-#mosaicplot(tab)
+mosaicplot(tab)
 ```
 Which test might we use to test the independence hypothesis? 
 
@@ -80,7 +82,7 @@ Now, we can run the `multinom` function.
 ```{r}
 mn.fit<-multinom(prog.base ~ ses + write, data=df)
 ```
-Her is what the object `mn.fit` looks like:
+Here is what the object `mn.fit` looks like:
 
 ```{r}
 summary(mn.fit)
@@ -156,7 +158,7 @@ x <- as.matrix(predict(dummy.x, newdata = temp.x))
 Now, we would like to fit the model using `glmnet`. 
 
 ```{r}
-y <- prog
+y <- df$prog
 #y
 glm.fit <- glmnet(x, y, family = "multinomial")
 #summary(glm.fit)
