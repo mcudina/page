@@ -289,7 +289,9 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
 
+<!--
 [`R`-notebook for class](code/knn-horseshoe.Rmd): KNN for horseshoe crabs
+-->
 
 [A KNN Tutorial](https://quantdev.ssri.psu.edu/sites/qdev/files/kNN_tutorial.html): Also has the `caret` package implementation
 
