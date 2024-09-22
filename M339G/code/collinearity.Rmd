@@ -55,7 +55,7 @@ Now, let's fit a regression on these data.
 lm.fit=lm(y ~ x.1+x.2+x.3, data=df)
 summary(lm.fit)
 ```
-Looking at the summary, we see an admirable $R^2$ coupled with horrible $p-$values. We cannot reject the null hypothesis that $\beta_i=0$ for any $i=1,2,3$. However, since we know the model we simulates with, we can assess how good the fit is by comparison. Remember that the actual $\beta$s: $(0.5, 2, 3, 4)$. The estimates we got are these:
+Looking at the summary, we see an admirable $R^2$ coupled with horrible $p-$values. We cannot reject the null hypothesis that $\beta_i=0$ for any $i=1,2,3$. However, since we know the model we simulated with, we can assess how good the fit is by comparison. Remember that the actual $\beta$s: $(0.5, 2, 3, 4)$. The estimates we got are these:
 
 ```{r}
 coef(lm.fit)
