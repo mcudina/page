@@ -102,6 +102,8 @@ To implement this strategy, we will first create a vector corresponding to the o
 
 ```{r chunk9}
 train <- (Year < 2005)
+#train
+#train[1239]
 Smarket.2005 <- Smarket[!train, ]
 dim(Smarket.2005)
 Direction.2005 <- Direction[!train]
@@ -120,6 +122,7 @@ glm.fits <- glm(
   )
 glm.probs <- predict(glm.fits, Smarket.2005,
     type = "response")
+glm.probs
 ```
 
 Notice that we have trained and tested our model on two completely separate data sets: training was performed using only the dates before 2005, and testing was performed using only the dates in 2005. Finally, we compute the predictions for 2005 and compare them to the actual movements of the market over that time period.
