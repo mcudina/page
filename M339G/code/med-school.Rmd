@@ -62,7 +62,7 @@ tab
 good=(tab[1,1]+tab[2,2])/sum(tab)
 good
 ```
-Let's "improve" our model and do a $2-$fold cross-validation. 
+Let's "improve" our model and method and do a $2-$fold cross-validation. 
 
 The "improvement" in the model is to also include `MCAT` and `Sex` as explanatory variables. 
 

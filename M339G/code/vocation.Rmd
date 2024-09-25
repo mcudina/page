@@ -14,6 +14,7 @@ First, we import the data.
 
 ```{r}
 data<-read.csv("hsbdemo.csv")
+#View(data)
 data
 ```
 The data set contains variables on $200$ students. We will focus on a small subset of predictors. The predictor variables will be social economic status `ses` (a three-level categorical variable) and writing score `write` (a quantitative variable). The outcome variable is program type `prog` (a three-level categorical variable). Since I am interested in just this subset, I will create a smaller data frame to analyze. 
