@@ -311,19 +311,6 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 ---
 
 **Class 17: October 4th**<br>
-Singular value decomposition <span style="color: purple;">**(Section 12.2)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
-
-<!--
-[Class notes](notes/m339g-feb-23-2024.pdf)
--->
-
-[YouTube](https://youtu.be/rYz83XPxiZo?si=nkvOk6GNor638x29): A beautiful lecture by Prof. Gilbert Strang
-
----
-
-**Class 18: October 7th**<br>
 Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
@@ -343,6 +330,19 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 [Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
 
 [Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, October 25th, 2024**
+
+---
+
+**Class 18: October 7th**<br>
+Singular value decomposition <span style="color: purple;">**(Section 12.2)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
+
+<!--
+[Class notes](notes/m339g-feb-23-2024.pdf)
+-->
+
+[YouTube](https://youtu.be/rYz83XPxiZo?si=nkvOk6GNor638x29): A beautiful lecture by Prof. Gilbert Strang
 
 ---
 
