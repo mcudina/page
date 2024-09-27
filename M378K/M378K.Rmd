@@ -170,25 +170,19 @@ Transformations of random variables.<br>
 ---
 
 **Class 14: September 27th**<br>
+More on transformations of random variables.The triangle distribution. The $\chi^-$distribution.<br>
+
+[Class notes](notes/m378k-sept-27-2024.pdf)
+
+---
+
+**Class 15: September 30th**<br>
 Moment generating functions.<br>
 
 [Problem Set #7](problem-sets/m378k-ps7-mgf-probs.pdf):  **Problems we will work on in class**
 
 <!--
 
-[Problem Set #2](problem-sets/m362k-ps2-geom-distn-probs.pdf): **Problems**
-
-[Problem Set #2](problem-sets/m362k-ps2-geom-distn-solns.pdf): **Solutions**
-
-The binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
-
-[Class notes](notes/m362k-feb-16-2024.pdf)
-
-[Homework #3](hw/m362k-hw3-geometric-probs.pdf) -- **due on Friday, February 23rd**
-
----
-
-**Class 15: February 19th**<br>
 More on the binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Binomial_theorem): The binomial theorem 
