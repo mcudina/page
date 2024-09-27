@@ -152,7 +152,7 @@ Now, I will use the command `dummyVars` to create dummy variables for my one cat
 ```{r}
 dummy.x <- dummyVars(" ~ .", data = temp.x)
 x <- as.matrix(predict(dummy.x, newdata = temp.x))
-#print(x)
+print(x)
 ```
 
 
