@@ -64,6 +64,7 @@ train.X <- standardized.X[-test, ]
 test.X <- standardized.X[test, ]
 train.Y <- Purchase[-test]
 test.Y <- Purchase[test]
+
 set.seed(1)
 knn.pred <- knn(train.X, test.X, train.Y, k = 1)
 mean(test.Y != knn.pred)

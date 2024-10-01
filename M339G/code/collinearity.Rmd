@@ -29,7 +29,12 @@ set.seed(1)
 
 #simulating the predictors
 x.1=runif(100)
+#x.1
 x.2=alpha*x.1+rnorm(100, mean=0, sd=0.01)
+#x.2
+#cor(x.1,x.2)
+#plot(x.1,x.2)
+
 x.3=gamma.1*x.1+gamma.2*x.2+rnorm(100, mean=0, sd=0.01)
 
 #simulating the response
