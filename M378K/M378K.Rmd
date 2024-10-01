@@ -58,6 +58,12 @@ Even more on discrete random variables.<br>
 
 [Class notes](notes/m378k-sept-04-2024.pdf)
 
+[Wikipedia](https://en.wikipedia.org/wiki/Binomial_theorem): The binomial theorem 
+
+[Wikipedia](https://en.wikipedia.org/wiki/Pascal%27s_triangle): Pascal's triangle
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/BinomialProbabilityDistribution/): The binomial distribution
+
 [Mathematica demonstration](https://demonstrations.wolfram.com/GeometricDistribution/): The geometric distribution
 
 [Problem Set #1](problem-sets/m378k-ps1-discrete-solns.pdf):  **Solutions**
@@ -181,23 +187,17 @@ Moment generating functions.<br>
 
 [Problem Set #7](problem-sets/m378k-ps7-mgf-probs.pdf):  **Problems we will work on in class**
 
-<!--
+[Class notes](notes/m378k-sept-30-2024.pdf)
 
-More on the binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Binomial_theorem): The binomial theorem 
-
-[Wikipedia](https://en.wikipedia.org/wiki/Pascal%27s_triangle): Pascal's triangle
-
-[Mathematica demonstration](https://demonstrations.wolfram.com/BinomialProbabilityDistribution/): The binomial distribution
-
-[Class notes](notes/m362k-feb-19-2024.pdf)
-
-[Homework #4](hw/m362k-hw4-binomial-probs.pdf) -- **due on Friday, March 1st**
 
 ---
  
 **Class 16: February 21st**<br>
+
+<!--
+
+
+
 Even more on the binomial distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
 
 [Problem](problem-sets/p-exam-binom.pdf)
