@@ -83,6 +83,7 @@ summary(lm.fit.1)
 vif(lm.fit.1)
 ```
 
+
 What if we get rid of height in shoes as well?
 
 ```{r}
