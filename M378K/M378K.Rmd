@@ -112,6 +112,10 @@ More on the cumulative distribution function.<br>
 
 [Class notes](notes/m378k-sept-13-2024.pdf)
 
+[The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
+
+[Area of a Normal Distribution](http://demonstrations.wolfram.com/AreaOfANormalDistribution/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Eric Schulz 
+
 [Problem Set #4](problem-sets/m378k-ps4-cdf-solns.pdf):  **Solutions**
 
 [Homework #2](hw/m378k-hw2-discrete-solns.pdf) -- **solutions**
@@ -229,38 +233,34 @@ More about de Moivre-Laplace. The Central Limit Theorem.<br>
 
 [Problem Set #10](problem-sets/m378k-ps10-clt-probs.pdf):  **Problems we will work on in class**
 
-<!--
-
-More on the normal distribution <span style="color: purple;">**(Section 2.1)**</span>.<br>
-
-[The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
-
-[Area of a Normal Distribution](http://demonstrations.wolfram.com/AreaOfANormalDistribution/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Eric Schulz 
-
-The normal approximation to the binomial distribution <span style="color: purple;">**(Section 2.2)**</span>.<br>
-
-[Class notes](notes/m362k-feb-26-2024.pdf)
-
 ---
 
-**Class 19: February 28th**<br>
-More on the normal approximation to the binomial distribution <span style="color: purple;">**(Section 2.2)**</span>.<br>
+**Class 19: October 9th**<br>
+More on limit theorems.<br>
 
 [Mathematica demonstration](http://demonstrations.wolfram.com/IllustratingTheCentralLimitTheoremWithSumsOfBernoulliRandomV/): The Normal Approximation to the Binomial Distribution
 
-[Class notes](notes/m362k-feb-28-2024.pdf)
+[The R-script from class](code/dML-pres.R)
 
-[Homework #5](hw/m362k-hw5-probs.pdf) -- **due on Friday, March 8th**
+The $\chi^2-$distribution.<br>
 
-[In-Term Two](exams/m362k-two-topics.pdf): Topics
+[Zed Statistics video](https://youtu.be/80ffqpZdKiA?si=qzwSLzEZOKbDlRc7): The $\chi^2-$ distribution. 
 
-[Practice for In-Term Two](exams/m362k-two-sample-probs.pdf): Problems
+[Mathematica demonstration: The Chi-Squared Distribution](http://demonstrations.wolfram.com/TheChiSquaredDistribution/)
 
-[Practice for In-Term Two](exams/m362k-two-sample-solns.pdf): Solutions
+[Mathematica demonstration: Tail Areas under the Chi-Squared Distribution](https://demonstrations.wolfram.com/TailAreasUnderChiSquaredDistributions/#embed)
+
+[A better $\chi^2-$table](notes/chi-squared-table-better.pdf)
+
+The $\Gamma-$distribution.<br>
+
+[The R-script from class](code/gamma-clt.R)
 
 ---
 
-**Class 20: March 1st**<br>
+**Class 20: October 11th**<br>
+
+<!--
 The Poisson approximation <span style="color: purple;">**(Section 2.4)**</span>.<br>
 
 [Class notes](notes/m362k-mar-01-2024.pdf)

@@ -10,6 +10,7 @@ First, we read in our house data.
 ```{r}
 data=read.csv("housepriceall.csv",header=TRUE)
 attach(data)
+#View(data)
 ```
 
 Let me do a bit of exploratory data analysis.
