@@ -1,8 +1,9 @@
 trials=1000
 suc=0.4
 
-nsims=1000
+nsims=10000
 sims=rbinom(nsims, size=trials, prob=suc)
+#sims
 hist(sims)
 
 #area under the histogram should be 1
