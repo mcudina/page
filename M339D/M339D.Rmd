@@ -381,16 +381,7 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Problem Set #8](problem-sets/m339d-ps8-mc.Rmd)
 
-<!--
-[Problem Set #8](problem-sets/m339d-ps8-mc-in-class.Rmd): **Partial solutions**
-
-More on Monte Carlo.<br>
-
-[Problem Set #8](problem-sets/m339d-ps8-mc-in-class-again.Rmd): **In-Class solutions**
-
-
-[Problem Set #8](problem-sets/m339d-ps8-mc-solns.Rmd): **Alternative solutions**
--->
+[Problem Set #8](problem-sets/m339d-ps8-mc-in-class.Rmd): **Solutions**
 
 [Apple put data](data/apple-puts.csv)
 
