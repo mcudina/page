@@ -18,6 +18,7 @@ First of all, we note that the `Salary` variable is missing for some of the play
 library(ISLR2)
 data(Hitters)
 names(Hitters)
+#View(Hitters)
 dim(Hitters)
 sum(is.na(Hitters$Salary))
 ```
