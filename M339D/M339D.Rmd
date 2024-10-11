@@ -369,11 +369,6 @@ Acceptance-Rejection Method.<br>
 
 [Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions**
 
-<!--
-[Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
--->
-
-
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, October 18th**
 
 
@@ -382,9 +377,7 @@ Acceptance-Rejection Method.<br>
 **Class 20: October 11th**<br>
 The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
-<!--
-[Class notes](notes/m339d-mar-01-2024.pdf) 
--->
+[Class notes](notes/m339d-oct-11-2024.pdf) 
 
 [Problem Set #8](problem-sets/m339d-ps8-mc.Rmd)
 
@@ -405,6 +398,13 @@ More on Monte Carlo.<br>
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+<!--
+[Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
+-->
+
+---
+
+**Class 21: October 14th**<br>
 The binomial asset-pricing model.<br>
 
 <!--
@@ -413,9 +413,6 @@ The binomial asset-pricing model.<br>
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
----
-
-**Class 21: October 14th**<br>
 Realized returns of stocks. Forward trees.  <br>
 
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
