@@ -41,7 +41,7 @@ km.out
 pre.clustering=km.out$cluster
 ```
 
-However, visualization is challenging in a $7-$dimensional space. 
+However, visualization is "challenging" in a $7-$dimensional space. 
 
 So, we want to start with PCA for this data set to reduce the dimension. Let's import the requisite library. 
 
