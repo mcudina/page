@@ -75,7 +75,7 @@ tree.carseats
 
 
 In order to properly evaluate the performance of a classification tree on these data, we must estimate the test error rather than simply computing the training error. We split the observations into a training set and a test set, build the tree using the training set, and evaluate its performance on the test data. The `predict()`
-function can be used for this purpose. In the case of a classification tree, the argument `type = "class"` instructs `R` to return the actual class prediction. This approach leads to correct predictions for around $77\%$ of the locations in the test data set.
+function can be used for this purpose. In the case of a classification tree, the argument `type = "class"` instructs `R` to return the actual class prediction. This approach leads to correct predictions for $77\%$ of the locations in the test data set.
 
 ```{r chunk8}
 set.seed(2)
