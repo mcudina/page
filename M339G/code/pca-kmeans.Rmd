@@ -11,6 +11,7 @@ We consider the **seeds** data set. This data set contains measurements of seeds
 seeds<-read.csv("seeds_dataset.csv")
 seeds
 dim(seeds)
+#View(seeds)
 ```
 
 We immediately see that there are missing data points. I will choose to omit those rows in the future analysis. 
@@ -110,6 +111,8 @@ Let's compare the clusters based on the entire data set and the first two princi
 
 ```{r}
 sum(km.out$cluster==pre.clustering)/length(pre.clustering)
+km.out$cluster
+pre.clustering
 ```
 
 What about the scatterplot?
