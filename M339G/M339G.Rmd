@@ -420,9 +420,7 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 **Class 24: October 21st**<br>
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-mar-08-2024.pdf)
--->
+[Class notes](notes/m339g-oct-18-2024.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
 
