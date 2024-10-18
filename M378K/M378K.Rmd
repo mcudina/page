@@ -287,6 +287,8 @@ The statistical set-up. Order statistics.<br>
 
 [Class notes](notes/m378k-oct-16-2024.pdf)
 
+[Problem Set #11](problem-sets/m378k-ps11-order-stats-solns.pdf):  **Solutions**
+
 [In-Term Two](exams/m378k-two-topics.pdf): Topics
 
 [Practice for In-Term Two](exams/m378k-two-sample-probs.pdf) -- **problems** 
@@ -300,6 +302,11 @@ More on order statistics. Sampling distributions.<br>
 
 [Problem Set #12](problem-sets/m378k-ps12-statistics-probs.pdf):  **Problems we will work on in class**
 
+[Class notes](notes/m378k-oct-18-2024.pdf)
+
+---
+
+**Class 24: October 21st**<br>
 Estimators. Bias. Mean squared error.<br>
 
 [Problem Set #13](problem-sets/m378k-ps13-bias-mse-probs.pdf):  **Problems we will work on in class**
@@ -309,9 +316,6 @@ Estimators. Bias. Mean squared error.<br>
 
 [In-Term Two](exams/m362k-two-solns.pdf) -- **solutions** 
 
----
-
-**Class 24: March 18th**<br>
 More on random variables <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
 [Class notes](notes/m362k-mar-18-2024.pdf)
