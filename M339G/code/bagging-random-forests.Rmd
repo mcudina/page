@@ -25,10 +25,8 @@ set.seed(1)
 train <- sample(1:nrow(Boston), nrow(Boston) / 2)
 ```
 
-Recall that bagging is simply a special case of a random forest with
-$m=p$. Therefore, the
-`randomForest()` function can be used to perform both random forests and bagging.
-We perform bagging as follows:
+Recall that bagging is simply a special case of a random forest with $m=p$. Therefore, the
+`randomForest()` function can be used to perform both random forests and bagging. We perform bagging as follows:
 
 ```{r chunk19}
 #install.packages("randomForest")
@@ -52,7 +50,7 @@ abline(0, 1, col="blue")
 mean((yhat.bag - boston.test)^2)
 ```
 
-The test set MSE associated with the bagged regression tree is $23.42$, about two-thirds of that was obtained using an optimally-pruned single tree (we got $35.28688$ last week).
+The test set MSE associated with the bagged regression tree is $23.042$, about two-thirds of that was obtained using an optimally-pruned single tree (we got $35.28688$ last week).
 We could change the number of trees grown by `randomForest()` using the `ntree` argument:
 
 ```{r chunk21}
@@ -73,7 +71,7 @@ yhat.rf <- predict(rf.boston, newdata = Boston[-train, ])
 mean((yhat.rf - boston.test)^2)
 ```
 
-The test set MSE is $20.07$; this indicates that random forests yielded an improvement over bagging in this case.
+The test set MSE is $19.62$; this indicates that random forests yielded an improvement over bagging in this case.
 
 Using the `importance()` function, we can view the importance of each variable.
 
@@ -117,7 +115,7 @@ yhat.boost <- predict(boost.boston,
 mean((yhat.boost - boston.test)^2)
 ```
 
-The test MSE obtained is $18.39$: this is superior to the test MSE of random forests and bagging. If we want to, we can perform boosting with a different value of the shrinkage parameter $\lambda$ in (8.10). The default value is $0.001$, but this is easily modified.
+The test MSE obtained is $18.84$: this is superior to the test MSE of random forests and bagging. If we want to, we can perform boosting with a different value of the shrinkage parameter $\lambda$ in (8.10). The default value is $0.001$, but this is easily modified.
 Here we take $\lambda=0.2$.
 
 ```{r chunk29}

@@ -33,7 +33,7 @@ We now use the `svm()` function to fit the support vector classifier for a given
 Here we demonstrate the use of this function on a two-dimensional example so that we can plot the resulting decision boundary. We begin by generating the observations, which belong to two classes, and checking whether the classes are linearly separable.
 
 ```{r chunk1}
-set.seed(1)
+set.seed(2)
 x <- matrix(rnorm(20 * 2), ncol = 2)
 y <- c(rep(-1, 10), rep(1, 10))
 x[y == 1, ] <- x[y == 1, ] + 2
@@ -67,7 +67,7 @@ Note that the two arguments to the SVM
 The region of feature space that will be assigned to the $-1$ class is shown in light yellow, and the region that will be assigned to the $+1$ class is shown in red.
 The decision boundary between the two classes is linear (because we used the argument `kernel = "linear"`), though due to the
 way in which the plotting function is implemented in this library the decision boundary looks somewhat jagged in the plot. (Note that here the second feature is plotted on the $x$-axis, i.e., the horizontal axis, and the first feature is plotted on the $y$-axis, i.e., the vertical axis in contrast to the behavior of the usual `plot()` function in `R` (and common sense).)
-The support vectors are plotted as crosses and the remaining observations are plotted as circles; we see here that there are seven support vectors. We can determine their identities as follows:
+The support vectors are plotted as crosses and the remaining observations are plotted as circles; we see here that there are eight support vectors. We can determine their identities as follows:
 
 ```{r chunk4}
 svmfit$index
@@ -79,7 +79,7 @@ We can obtain some basic information about the support vector classifier fit usi
 summary(svmfit)
 ```
 
-This tells us, for instance, that a linear kernel was used with `cost = 10`, and that there were seven support vectors, four in one class and three in the other.
+This tells us, for instance, that a linear kernel was used with `cost = 10`, and that there were eight support vectors, four in one class and four in the other.
 
 What if we instead used a smaller value of the cost parameter?
 
@@ -120,9 +120,10 @@ The `predict()` function can be used to predict the class label on a set of test
 test data set.
 
 ```{r chunk10}
+set.seed(11)
 xtest <- matrix(rnorm(20 * 2), ncol = 2)
 ytest <- sample(c(-1, 1), 20, rep = TRUE)
-xtest[ytest == 1, ] <- xtest[ytest == 1, ] + 2
+xtest[ytest == 1, ] <- xtest[ytest == 1, ] + 1
 testdat <- data.frame(x = xtest, y = as.factor(ytest))
 ```
 
@@ -143,14 +144,13 @@ ypred <- predict(svmfit, testdat)
 table(predict = ypred, truth = testdat$y)
 ```
 
-In this case three additional observations are misclassified.
 
 Now consider a situation in which the two classes are linearly separable. Then we can
 find a separating hyperplane using the `svm()` function.
 We first further separate the two classes in our simulated data so that they are linearly separable:
 
 ```{r chunk13}
-x[y == 1, ] <- x[y == 1, ] + 0.5
+x[y == 1, ] <- x[y == 1, ] + 1
 plot(x, col = (y + 5) / 2, pch = 19)
 ```
 
@@ -165,7 +165,7 @@ summary(svmfit)
 plot(svmfit, dat)
 ```
 
-No training errors were made and only three support vectors were used.
+
 However, we can see from the figure that the margin is very narrow (because the observations that are not support vectors, indicated as circles, are very close to the decision boundary). It seems likely that this model will perform poorly on test data. We now try a smaller value of `cost`:
 
 ```{r chunk15}
