@@ -456,7 +456,7 @@ Multivariate normal distribution.<br>
 ---
 
 **Class 28: October 30th**<br>
-More on the linear discriminant analysis, quadratic discriminant analysis, nave Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
 
