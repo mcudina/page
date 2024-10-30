@@ -347,7 +347,16 @@ More on MSE.<br>
 **Class 28: October 30th**<br>
 Confidence intervals.<br>
 
+[Class notes](notes/m378k-oct-30-2024.pdf)
+
+---
+
+**Class 29: November 1st**<br>
+More on confidence intervals.<br>
+
 [Problem Set #14](problem-sets/m378k-ps14-conf-int-probs.pdf):  **Problems we will work on in class**
+
+[Problem Set #14](problem-sets/m378k-ps14-conf-int-solns.pdf):  **solutions**
 
 Relative efficiency.<br>
 
@@ -355,13 +364,6 @@ Consistency.<br>
 
 
 <!--
-Markov's and Chebishev's inequalities <span style="color: purple;">**(Section 3.2)**</span>.<br> 
-
-[Class notes](notes/m362k-mar-27-2024.pdf)
-
----
-
-**Class 29: March 29th**<br>
 Standard deviation and the normal approximation <span style="color: purple;">**(Section 3.3)**</span>.<br>
 
 [Class notes](notes/m362k-mar-29-2024.pdf)
