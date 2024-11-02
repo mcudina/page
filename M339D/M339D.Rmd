@@ -502,7 +502,6 @@ The normal approximation to the binomial.<br>
 [Class notes](notes/m339d-apr-03-2024.pdf) 
 
 [Problem Set #12](problem-sets/m339d-ps12-dML-solns.pdf): **Solutions**
-
 -->
 
 [Apple parity](data/apple-parity.csv)
@@ -511,10 +510,7 @@ The normal approximation to the binomial.<br>
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
 [Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
--->
-
 
 ---
 
