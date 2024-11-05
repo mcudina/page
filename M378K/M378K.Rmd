@@ -367,6 +367,13 @@ More on confidence intervals.<br>
 **Class 30: November 4th**<br>
 Even more on confidence intervals.<br>
 
+[Class notes](notes/m378k-nov-04-2024.pdf)
+
+---
+
+**Class 31: November 6th**<br>
+Approximate confidence intervals for the population proportion.<br>
+
 <!--
 [Problem Set #14](problem-sets/m378k-ps14-conf-int-solns.pdf):  **Solutions**
 -->
@@ -375,9 +382,6 @@ Relative efficiency.<br>
 
 [Problem Set #15](problem-sets/m378k-ps15-rel-eff-probs.pdf):  **Problems we will work on in class**
 
----
-
-**Class 31: November 6th**<br>
 Consistency.<br>
 
 [`R`-code](code/frequencies.R)
