@@ -17,10 +17,10 @@ b
 data=rexp(n, rate=1/tau)
 data
 
-y.bar=mean(data)
+(y.bar=mean(data))
 
-theta.hat.l=y.bar/b
-theta.hat.r=y.bar/a
+(theta.hat.l=y.bar/b)
+(theta.hat.r=y.bar/a)
 
 if (theta.hat.l<tau && tau<theta.hat.r) {
   print("tau is in the confidence interval")
@@ -28,12 +28,11 @@ if (theta.hat.l<tau && tau<theta.hat.r) {
 
 #many samples
 n.loop=10^5
-ind=numeric(n.loop)
-#ind
+(ind=numeric(n.loop))
 
 for (i in 1:n.loop){
   data=rexp(n, rate=1/tau)
-  data
+  #data
   
   y.bar=mean(data)
   
@@ -44,5 +43,7 @@ for (i in 1:n.loop){
     ind[i]=1
   }
 }
+
+ind
 
 print(mean(ind))

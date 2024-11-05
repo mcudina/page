@@ -502,6 +502,10 @@ Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**<
 
 [Slides by Hastie & Tibshirani](slides/ch8-pruning.pdf): Tree-based regression (pruning)
 
+[Problem packet](problem-sets/m339g-pruning-classification.pdf)
+
+[Class notes](notes/m339g-nov-04-2024.pdf): Pruning.
+
 [`tree` documentation](https://cran.r-project.org/web/packages/tree/tree.pdf)
 
 [`R`-notebook for class](code/regression-trees.Rmd): Regression trees
@@ -517,8 +521,6 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 More on classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br>
 
 [`R`-notebook for class](code/classification-trees.Rmd): Classification trees
-
-[Problem packet](problem-sets/m339g-pruning-classification.pdf)
 
 <!--
 [Class notes](notes/m339g-apr-05-2024.pdf): Pruning and classification trees.

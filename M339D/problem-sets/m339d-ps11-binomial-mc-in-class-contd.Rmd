@@ -1,0 +1,213 @@
+---
+title: "Problem set #11: Binomial Monte Carlo"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+Let the **volatility** of a stock be the standard deviation of its (continuously compounded) realized return on an annual basis. Then, we can define the up and down factors in the so-called *forward binomial tree* for a **non-dividend-paying** stock as
+\begin{equation}
+\begin{split}
+u & = e^{rh + \sigma\sqrt{h}}\\
+d & = e^{rh - \sigma\sqrt{h}}\\
+\end{split}
+\end{equation}
+
+Let the continuously compounded, risk-free interest rate be $0.04$. 
+
+```{r}
+r=0.04
+```
+
+
+Consider a stock whose current price is \$100 and whose volatility is $0.25$. We will be pricing a one-year, at-the-money call option in a variety of ways here. 
+
+```{r}
+#about the stock
+s0=100
+sigma=0.25
+
+#about the option
+T=1
+K=s0
+```
+
+
+## Problem #1: Analytic one period
+Price the option above using a one period binomial tree. 
+
+```{r}
+#number of periods
+n=1
+
+#length of one period
+h=T/n
+
+#define the factors in the tree
+u=exp(r*h+sigma*sqrt(h))
+d=exp(r*h-sigma*sqrt(h))
+  
+#risk-neutral probability
+p=(exp(r*h)-d)/(u-d)
+p
+
+#or with the forward-tree shortcut
+p.1=1/(1+exp(sigma*sqrt(h)))
+p.1
+
+#the possible stock prices
+(s.u=s0*u)
+(s.d=s0*d)
+
+#the possible payoffs
+(v.u=max(s.u-K,0))
+(v.d=max(s.d-K,0))
+
+#initial option price
+(v.0=exp(-r*T)*(v.u*p+v.d*(1-p)))
+```
+
+
+## Problem #2: Monte Carlo one period
+Price the option above using Monte Carlo a one period binomial tree. Use $10000$ simulations. 
+
+```{r}
+#the number of simulations
+n.sim=10^4
+
+#posible results of the cointoss
+factors=c(u,d)
+#risk-neutral probabilities
+probs=c(p,1-p)
+
+#simulated final stock prices
+s.T=s0*sample(factors, size=n.sim, replace=TRUE, prob=probs)
+
+#simulated payoffs
+(v.T=pmax(s.T-K,0)) #caveat: pointwise maximum is necessary
+
+#expected risk-neutral payoff
+(v.bar=mean(v.T))
+
+#Monte Carlo price
+(v.0.mc=exp(-r*T)*v.bar)
+```
+
+## Problem #3: Analytic two periods
+Price the above option using a two-period binomial tree. 
+
+```{r}
+#number of periods
+n=2
+
+#length of one period
+(h=T/n)
+
+#define the factors in the tree
+(u=exp(r*h+sigma*sqrt(h)))
+(d=exp(r*h-sigma*sqrt(h)))
+
+#risk-neutral probability
+(p=1/(1+exp(sigma*sqrt(h))))
+
+#possible stock prices
+(s.T=s0*c(u^2, u*d, d^2))
+
+#possible payoffs
+(v.T=pmax(s.T-K,0))
+
+#risk-neutral probabilities of reaching the terminal nodes
+(probs=dbinom(c(2,1,0), size=n, prob=p))
+
+#the risk-neutral expected payoff
+(sum(v.T*probs))
+
+#the initial call price
+(v.0=exp(-r*T)*sum(v.T*probs))
+```
+
+## Problem #4: Monte Carlo two periods
+Price the option above using Monte Carlo a two period binomial tree. Use $10000$ simulations. 
+
+```{r}
+#just for laughs
+n.sim=10^6
+
+#first, we want to simulate final stock prices
+#mini-goal:simulate the heights of the final stock prices
+(x=rbinom(n.sim, size=n, prob=p))
+#next, we transform the simulated heights into final stock prices
+(s.T=s0*u^x*d^(n-x))
+
+#the simulated payoffs
+(v.T=pmax(s.T-K,0))
+
+#the average of the simulated payoffs
+(v.bar=mean(v.T))
+
+#Monte Carlo price
+(v.0.mc=exp(-r*T)*v.bar)
+```
+
+
+## Problem #5: Analytic one hundred periods
+Price the above option using a $100-$period binomial tree. 
+
+```{r}
+n=100
+(h=T/n)
+
+#factors
+(u=exp(r*h+sigma*sqrt(h)))
+(d=exp(r*h-sigma*sqrt(h)))
+
+#risk-neutral probability
+(p=1/(1+exp(sigma*sqrt(h))))
+
+#possible stock prices
+k=n:0
+(s.T=s0*u^k*d^(n-k))
+
+#possible payoffs
+(v.T=pmax(s.T-K,0))
+
+#probability of reaching the terminal nodes under the risk-neutral 
+#probability measure
+rn.probs=dbinom(k, size=n, prob=p)
+
+#expected risk-neutral payoff
+sum(v.T*rn.probs)
+
+#risk-neutral price
+(v.0=exp(-r*T)*sum(v.T*rn.probs))
+```
+
+
+## Problem #6: Monte Carlo with one hundred periods
+Price the option above using Monte Carlo with a hundred period binomial tree. Use $10000$ simulations. 
+
+```{r}
+n.sim=10^6
+
+#simulated upsteps
+(x=rbinom(n.sim, size=n, prob=p))
+
+#simulated stock prices
+(s.T=s0*u^x*d^(n-x))
+
+#simulated payoffs
+(v.T=pmax(s.T-K,0))
+
+#arithmetic average of the simulated payoffs
+(v.bar=mean(v.T))
+
+#Monte Carlo price
+(v.0.mc=exp(-r*T)*v.bar)
+```
+

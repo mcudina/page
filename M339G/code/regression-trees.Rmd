@@ -45,8 +45,8 @@ tree.boston.big <- tree(medv ~ ., Boston, subset = train,
                                                mindev = 0))
 summary(tree.boston.big)
 
-plot(tree.boston.big)
-text(tree.boston.big, pretty = 0, cex=0.5)
+#plot(tree.boston.big)
+#text(tree.boston.big, pretty = 0, cex=0.5)
 ```
 
 
@@ -54,6 +54,7 @@ Now we use the `cv.tree()` function to see whether pruning the tree will improve
 
 ```{r chunk16}
 cv.boston <- cv.tree(tree.boston)
+cv.boston
 plot(cv.boston$size, cv.boston$dev, type = "b", 
      col="peru", pch=20)
 ```
