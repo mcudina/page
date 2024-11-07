@@ -378,6 +378,18 @@ Approximate confidence intervals for the population proportion.<br>
 [Problem Set #14](problem-sets/m378k-ps14-conf-int-solns.pdf):  **Solutions**
 -->
 
+---
+
+**Class 32: November 8th**<br>
+Confidence intervals for the variance.<br>
+
+[Homework #9](hw/m378k-hw9-umvue-conf-int-probs.pdf) -- **due on Friday, November 15th, 2024**
+
+---
+
+**Class 33: November 11th**<br>
+Confidence intervals for the mean with the variance unknown.<br>
+
 Relative efficiency.<br>
 
 [Problem Set #15](problem-sets/m378k-ps15-rel-eff-probs.pdf):  **Problems we will work on in class**
@@ -385,14 +397,6 @@ Relative efficiency.<br>
 Consistency.<br>
 
 [`R`-code](code/frequencies.R)
-
----
-
-**Class 32: November 8th**<br>
-
----
-
-**Class 33: November 11th**<br>
 
 ---
 

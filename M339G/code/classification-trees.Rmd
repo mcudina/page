@@ -22,6 +22,7 @@ and takes on a value of `No` otherwise.
 
 ```{r chunk2}
 library(ISLR2)
+data(Carseats)
 attach(Carseats)
 High <- factor(ifelse(Sales <= 8, "No", "Yes"))
 ```
