@@ -381,16 +381,15 @@ Approximate confidence intervals for the population proportion. Confidence inter
 **Class 32: November 8th**<br>
 More on confidence intervals for the variance. Confidence intervals for the mean with the variance unknown.<br>
 
-<!--
+[Class notes](notes/m378k-nov-08-2024.pdf)
+
 [Problem Set #14](problem-sets/m378k-ps14-conf-int-solns.pdf):  **Solutions**
--->
 
 [Homework #9](hw/m378k-hw9-umvue-conf-int-probs.pdf) -- **due on Friday, November 15th, 2024**
 
 ---
 
 **Class 33: November 11th**<br>
-
 Relative efficiency.<br>
 
 [Problem Set #15](problem-sets/m378k-ps15-rel-eff-probs.pdf):  **Problems we will work on in class**
