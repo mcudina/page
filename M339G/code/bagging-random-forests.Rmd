@@ -71,7 +71,7 @@ yhat.rf <- predict(rf.boston, newdata = Boston[-train, ])
 mean((yhat.rf - boston.test)^2)
 ```
 
-The test set MSE is $19.62$; this indicates that random forests yielded an improvement over bagging in this case.
+Looking at the test set MSE, we see that random forests yielded an improvement over bagging in this case.
 
 Using the `importance()` function, we can view the importance of each variable.
 
@@ -115,7 +115,7 @@ yhat.boost <- predict(boost.boston,
 mean((yhat.boost - boston.test)^2)
 ```
 
-The test MSE obtained is $18.84$: this is superior to the test MSE of random forests and bagging. If we want to, we can perform boosting with a different value of the shrinkage parameter $\lambda$ in (8.10). The default value is $0.001$, but this is easily modified.
+The test MSE obtained is superior to the test MSE of random forests and bagging. If we want to, we can perform boosting with a different value of the shrinkage parameter $\lambda$ in (8.10). The default value is $0.001$, but this is easily modified.
 Here we take $\lambda=0.2$.
 
 ```{r chunk29}
