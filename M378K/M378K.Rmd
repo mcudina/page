@@ -442,7 +442,9 @@ Sufficient statistics.<br>
 ---
 
 **Class 37: November 20th**<br>
-Rao-Blackwell.<br>
+Hypothesis testing.<br>
+
+[`R` code on hypothesis testing](code/single-hypothesis.R)
 
 ---
 
