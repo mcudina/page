@@ -439,10 +439,12 @@ More on maximum likelihood.<br>
 **Class 36: November 18th**<br>
 Sufficient statistics.<br>
 
+[Class notes](notes/m378k-nov-18-2024.pdf)
+
 ---
 
 **Class 37: November 20th**<br>
-Hypothesis testing.<br>
+More on sufficient statistics. Hypothesis testing.<br>
 
 [`R` code on hypothesis testing](code/single-hypothesis.R)
 
