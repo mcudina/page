@@ -553,7 +553,7 @@ Log-normal stock prices: Parameter interpretation.<br>
 **Class 33: November 11th**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
-[Class notes](notes/m339d-nov-15-2024.pdf): Tail probabilities.
+[Class notes](notes/m339d-apr-12-2024.pdf): Tail probabilities.
 
 ---
 
@@ -566,9 +566,7 @@ Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.
 
 [Problem Set #14](problem-sets/m339d-ps14-BS-probs.pdf): **Problems**
 
-<!--
 [Class notes](notes/m339d-apr-15-2024.pdf) 
--->
 
 [Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, November 22nd, 2024**
 
