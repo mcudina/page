@@ -595,6 +595,8 @@ More on the maximal margin classifier <span style="color: purple;">**(Section 9.
 **Class 37: November 20th**<br>
 Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
+[Class notes](notes/m339g-nov-20-2024.pdf): Maximal margin classifier.
+
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
 
 <!--
