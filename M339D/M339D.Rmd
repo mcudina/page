@@ -612,10 +612,7 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc.Rmd): Skeleton
 
-<!--
-
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc-in-class.Rmd): With in-class code
--->
 
 [Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
 
@@ -628,9 +625,7 @@ Focus on the delta.<br>
 
 [Problem](problem-sets/m339d-ifm-delta.pdf)
 
-<!--
-[Class notes](notes/m339d-apr-26-2024.pdf) 
--->
+[Class notes](notes/m339d-dec-02-2024.pdf) 
 
 ---
 
