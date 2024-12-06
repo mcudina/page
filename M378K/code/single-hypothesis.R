@@ -8,9 +8,11 @@ alpha=0.05
 #creating simulated data
 n.sim=10^4
 data=rnorm(n.sim, mu.0, sigma)
+hist(data)
 
 #running a `t.test` - by default the null is mu=0
 test=t.test(data)
+#summary(test)
 test$p.value
 
 #indicator vector of rejections
