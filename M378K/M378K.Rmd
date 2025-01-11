@@ -22,11 +22,12 @@ output: html_document
 
 ---
 
-**Class 1: August 26th**<br>
+**Class 1: January 13th**<br>
 Orientation. <br>
 
 [A role model](pics/bilbo.jpeg)
 
+<!--
 [First-Day Handout](syllabus/syllabus-54155.pdf)
 
 [Lecture notes](https://web.ma.utexas.edu/users/gordanz/lecture_notes_page.html)
@@ -499,10 +500,10 @@ More on the Bayesian approach.<br>
 
 ---
 
-<!--
 [The Final Exam](exams/m362k-final-topics.pdf): Topics
--->
 
 [Practice for the Final Exam](exams/m378k-final-sample-probs.pdf) -- **problems** 
 
 [Practice for the Final Exam](exams/m378k-final-sample-solns.pdf) -- **solutions** 
+-->
+
