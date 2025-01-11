@@ -66,11 +66,12 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
-**Class 1: August 26th**<br>
+**Class 1: January 13th**<br>
 Orientation. `R` Markdown.<br>
 
 [A role model](pics/bilbo.jpeg)
 
+<!--
 [First-Day Handout](syllabus/syllabus-53895.pdf)
 
 [Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, September 6th, 2024**
@@ -295,7 +296,6 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 
 <!--
 [`R`-notebook for class](code/knn-horseshoe.Rmd): KNN for horseshoe crabs
--->
 
 [A KNN Tutorial](https://quantdev.ssri.psu.edu/sites/qdev/files/kNN_tutorial.html): Also has the `caret` package implementation
 
@@ -401,7 +401,7 @@ More about the principal components regression <span style="color: purple;">**(S
 Review of categorical predictors and logistic regression.<br>
 
 [Class notes](notes/m339g-mar-01-2024.pdf)
--->
+
 Principal components analysis and clustering <span style="color: purple;">**(Section 12.2 and 12.4.1)**</span>.<br>
 
 [UC Irvine MLR](https://archive.ics.uci.edu/dataset/236/seeds): Documentation for the `seeds` data set 
@@ -655,3 +655,4 @@ The False Discovery Rate <span style="color: purple;">**(Section 13.4)**</span>.
 ---
 
 A [blog post](https://fivethirtyeight.com/features/science-isnt-broken/#part1) on **p-hacking** with an interactive component (pardon the expletives!)
+-->
