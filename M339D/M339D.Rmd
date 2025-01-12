@@ -58,12 +58,12 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
-**Class 1: August 26th**<br>
+**Class 1: January 13th**<br>
 Orientation. <br>
 
 [A role model](pics/bilbo.jpeg)
 
-[First-Day Handout](syllabus/syllabus-53890.pdf)
+[First-Day Handout](syllabus/syllabus-54250.pdf)
 
 [Funny](http://books.google.com/books?id=8FgF3dOoUVsC&lpg=PA49&ots=UU208Gu6pv&dq=pigg%20vioos&pg=PA49#v=onepage&q=pigg%20vioos&f=false)
 
@@ -72,6 +72,8 @@ Orientation. <br>
 [Possible final-project topics](projects/m339d-final-menu.pdf)
 
 ---
+
+<!--
 
 **Class 2: August 28th**<br>
 Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
@@ -237,7 +239,6 @@ More on European call options.<br>
 <!--
 [Additional class notes](notes/m339d-feb-13-2023.pdf) 
 
--->
 
 [Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
 
