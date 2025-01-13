@@ -30,9 +30,7 @@ library(nimble)
 ---
 
 ## Problem #1 **(55 points)**
-Go to [Yahoo!Finance](https://finance.yahoo.com).
-
-Then, download the historical stock prices of *Walmart* for the last 252 (or so) trading days, i.e., for the last year. Do the same for *IBM* for the same time period. 
+Download the historical stock prices of *Walmart* for the last 252 (or so) trading days, i.e., for a one-year period from our course website. Do the same for *IBM*. 
 
 **(5 points)** Draw the time-plot of the evolution of the closing stock prices (not the adjusted) for both of the stocks on the **same coordinate system**. You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates. Make sure that you plot the two trajectories in **different** colors indicating in the text which color corresponds to which company. Include the legend in your plot.    
 
@@ -48,12 +46,10 @@ $$
 
 **(5 points)** You create a portfolio in which half your wealth is maintained in the *Walmart* stock and the remaining half of your wealth is kept in the *IBM* stock. What is your estimate of the daily volatility of this portfolio? 
 
-**(25 points)** You create a portfolio in which the weight $w$ of your wealth is maintained in the *Walmart* stock and the remainder of your wealth is kept in the *IBM* stock. Create a function in `R` which calculates the daily volatility of this portfolio as it depends on $w$? Plot the portfolio's volatility as a function of $w$ for $w$ ranging from $-2$ to $2$. In the same plot, add two horizontal lines at the values of the daily volatilities of *Walmart* and *IBM*. Now, review the optimal two-stock portfolio work we did in the first week of classes. Add the horizontal line corresponding to the optimal portfolio whose *Walmart* weight is $\hat w=\hat \alpha$ given by Hastie and Tibshirani. Add the vertical line corresponding to the optimal $\hat w$. 
+**(25 points)** You create a portfolio in which the weight $w$ of your wealth is maintained in the *Walmart* stock and the remainder of your wealth is kept in the *IBM* stock. Create a function in `R` which calculates the daily volatility of this portfolio as it depends on $w$? Plot the portfolio's volatility as a function of $w$ for $w$ ranging from $-2$ to $2$. **Yes, it's perfectly acceptable to have negative weights; if you want to know why, come ask in office hours.** In the same plot, add two horizontal lines at the values of the daily volatilities of *Walmart* and *IBM*. Now, review the optimal two-stock portfolio work we did in the first week of classes. Add the horizontal line corresponding to the optimal portfolio whose *Walmart* weight is $\hat w=\hat \alpha$ given by Hastie and Tibshirani. Add the vertical line corresponding to the optimal $\hat w$. 
 
 ## Problem #2 **(45 points)**
-Go to [Yahoo!Finance](https://finance.yahoo.com).
-
-Then, download the historical prices for the *NASDAQ Composite* index for the **maximum** time period and at the **monthly** frequency. 
+Download the historical prices for the *NASDAQ Composite* index for the **maximum** time period and at the **monthly** frequency available on our course website. 
 
 **(5 points)** Use the above definitions of returns, changing the period length to a month (rather than a day). Assuming, as usual **independent, identically distributed** monthly returns, what is your *point estimate* for the mean monthly return of *NASDAQ*? 
 

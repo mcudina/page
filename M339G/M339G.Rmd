@@ -82,6 +82,7 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 
 <!--
 [Class notes](notes/m339g-aug-28-2024.pdf)
+-->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Shapiro–Wilk_test): The Shapiro-Wilk test
 
@@ -97,12 +98,14 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 
 ---
 
-**Class 3: August 30th**<br>
+**Class 3: January 17th**<br>
 Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
 
+<!--
 [Class notes](notes/m339g-bivariate-bootstrap.pdf)
+-->
 
 [`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
 
@@ -112,17 +115,18 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 
 [NASDAQ data](data/ndq.csv)
 
-[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, September 23rd, 2024**
+[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, February 10th, 2025**
 
 [Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-**Class 4: September 4th**<br>
+**Class 4: January 22nd**<br>
 Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
+<!--
 [Class notes](notes/m339g-jan-26-2024.pdf)
 
 Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Sections 3.1 and 5.3.4)**</span>.<br>
