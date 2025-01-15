@@ -63,6 +63,7 @@ So, let's check if *bootstrap* would yield a similar confidence interval. As a r
 ```{r}
 n.boot=10^5
 mu.hats=replicate(n.boot, mean(sample(temp, n, replace=TRUE)))
+#(mu.hats)
 hist(mu.hats, 
      main="Histogram of estimates of the mean",
      xlab="Estimated means",

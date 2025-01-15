@@ -80,9 +80,7 @@ Orientation. `R` Markdown.<br>
 **Class 2: January 15th**<br>
 Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-aug-28-2024.pdf)
--->
+[Class notes](notes/m339g-confidence-intervals.pdf)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Shapiro–Wilk_test): The Shapiro-Wilk test
 
