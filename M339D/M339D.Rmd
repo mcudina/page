@@ -98,6 +98,7 @@ Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 
 <!--
 [Problem Set #1](code/m339d-ps1-in-class.Rmd): **Solutions from class**
+-->
 
 Background. 
 
@@ -105,14 +106,16 @@ Background.
 
 ---
 
-**Class 4: September 4th**<br>
+**Class 4: January 22nd**<br>
 Prerequisite review.<br>
 
-[Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems**
+[Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems we will work on in class**
 
+<!--
 [Class notes](notes/m339d-sept-04-2024.pdf) 
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
+
 
 [Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, September 13th, 2024**
 
