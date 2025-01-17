@@ -1,26 +1,54 @@
 ---
-title: "R Notebook"
+title: "Our First Notebook"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
 output:
   pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Big Title
 
-```{r}
-a=25
-#square root of a
-sqrt(a)
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
 ```
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+## Creating `R` Chunks
 
 ```{r}
-plot(cars)
+5+6
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+## Including Plots
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+You can also embed plots, for example:
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
 
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+### Tiny title
+
+Here I *emphasize* stuff!
+Even more **prominent**!
+
+Formulas:
+\[
+\int_0^\infty \tfrac{1}{x}\, dx = \infty
+\]
+
+$$
+\ln\left(\frac{S(0)}{K}\right)
+$$

@@ -1,22 +1,34 @@
-#first define x as 8
-x=8
+#we define x to be 4
+x=4
 
-#second set y to 7
+#set y to be 7
 y=7
 
-#z is a difference between x and y
-z=x-y
+#z is the difference between the two
+(z=x-y)
 
 #sequence of odd numbers from 1 to 20
-v=seq(1,20,2)
+v=seq(1, 20, 2)
 v
-sum(v)
+#how would we calculate the sum of squares of all of these odds?
+sum(v^2)
 
-#toy function in R
-addition<-function(x,y){
-  return(x+y)
+#toy function in `R`
+addition<-function(a,b){
+  return(a+b)
 }
 
-addition(7,3)
+addition(3,2)
 
-replicate(10,addition(7,4))
+replicate(10, addition(7,4))
+
+#another toy function in `R`
+maximum<-function(a,b){
+  if (a>b){
+    return(a)
+  } else {
+    return(b)
+  }
+}
+
+maximum(-3,4)
