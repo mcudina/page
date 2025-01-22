@@ -46,7 +46,7 @@ Probability.<br>
 
 ---
 
-**Class 3: August 30th**<br>
+**Class 3: January 17th**<br>
 Discrete random variables.<br>
 
 [Problem Set #2](problem-sets/m378k-ps2-discrete-defn.pdf):  **Material we will work on in class**
@@ -60,10 +60,7 @@ Discrete random variables.<br>
 **Class 4: January 22nd**<br>
 Even more on discrete random variables.<br>
 
-[Problem Set #3](problem-sets/m378k-ps3-discrete-probs.pdf):  **Problems we will work on in class**
-
-<!--
-[Class notes](notes/m378k-sept-04-2024.pdf)
+[Class notes](notes/m378k-jan-22-2025.pdf)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Binomial_theorem): The binomial theorem 
 
@@ -73,15 +70,22 @@ Even more on discrete random variables.<br>
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/GeometricDistribution/): The geometric distribution
 
+---
+
+**Class 5: January 24th, 2025**<br>
+More about named discrete distributions.<br>
+
+[Problem Set #3](problem-sets/m378k-ps3-discrete-probs.pdf):  **Problems we will work on in class**
+
+<!--
+
 [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution): The Poisson distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/PoissonDistribution/#embed): The Poisson Distribution
 
-[Problem Set #1](problem-sets/m378k-ps1-discrete-solns.pdf):  **Solutions**
 
 ---
 
-**Class 5: September 6th**<br>
 Expectation and variance.<br>
 
 [Problem Set #2](problem-sets/m378k-ps2-discrete-exp-var-probs.pdf):  **Problems we will work on in class**
