@@ -30,9 +30,7 @@ library(nimble)
 ---
 
 ## Problem #1 **(40 points)**
-Go to [Google historical data](https://finance.yahoo.com/quote/GOOG/history/)
-
-Then, download the historical stock prices of *Alphabet, Inc.* for the last 252 (or so) trading days, i.e., for the last year.
+From the course website, download the historical stock prices of *Alphabet, Inc.* for the last 252 (or so) trading days, i.e., for the last year.
 
 **(5 points)** Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
 
@@ -58,7 +56,7 @@ Next, you should learn more about the **Laplace (double exponential)** distribut
 
 [Wikipedia: The Laplace distribution](https://en.wikipedia.org/wiki/Laplace_distribution)
 
-Now, you are equipped to fit the Laplace (double exponential) distribution to the above returns. To learn about the parametrization of the Laplace distribution in `R`, type `?ddexp` into the console in RStudio.
+Now, you are equipped to fit the Laplace (double exponential) distribution to the above returns. To learn about the parametrization of the Laplace distribution in `R`, type `?ddexp` into the console in `RStudio`.
 
 After you have completed the fit, superimpose the appropriate graph for your model onto the appropriate graph of the data.
 
@@ -67,31 +65,23 @@ After you have completed the fit, superimpose the appropriate graph for your mod
 Your initial wealth is exactly \$100. You are allowed to invest in
 shares of a particular stock. You are also allowed to both lend and
 borrow at the continuously compounded risk-free interest rate of
-0.05. Keeping your money uninvested is \textbf{not allowed}.
+0.05. Keeping your money uninvested is **not allowed**.
 
 You can rebalance your portfolio every morning, once you have observed
 the opening stock price. This means that you can change the number of
 shares you own (if you decide to do so) and accordingly adapt your
 risk-free investment.
 
-You proceed to create a ``rule'' according to which you will be
-rebalancing your portfolio. Here are the three rules you are going to use:
+You proceed to create rules according to which you will be rebalancing your portfolio. Here are the three rules you are going to implement:
 
-\begin{enumerate}
-\def\labelenumi{ \bf \roman{enumi}.}
-\item {\bf (10 points)} 
-  Always own exactly one share and keep the rest of my wealth invested
-  at the risk-free rate. If needed, borrow at the continuously
-  compounded risk-free interest rate.
-\item {\bf (20 points)}
-  Always keep exactly \$100 in the stock and the rest of my wealth
-  invested at the risk-free rate. If needed, borrow at the continuously
-  compounded risk-free interest rate.
-\item {\bf (30 points)}
-  Always keep exactly one half of my wealth invested in the stock and
-  the rest of my wealth invested at the risk-free rate. If needed,
-  borrow at the continuously compounded risk-free interest rate.
-\end{enumerate}
+### **(10 points)**
+*Always own exactly one share and keep the rest of my wealth invested at the risk-free rate. If needed, borrow at the continuously compounded risk-free interest rate.*
+
+### **(20 points)**
+*Always keep exactly \$100 in the stock and the rest of my wealth invested at the risk-free rate. If needed, borrow at the continuously compounded risk-free interest rate.*
+  
+### **(30 points)**
+*Always keep exactly one half of my wealth invested in the stock and the rest of my wealth invested at the risk-free rate. If needed, borrow at the continuously compounded risk-free interest rate.*
 
 \medskip
 
@@ -109,8 +99,7 @@ Over the following 10 days, you observe the following stock prices for a non-div
 
 \medskip
 
-As the time passes you follow investment rules above to rebalance your portfolio. Complete the following table describing your portfolio \textbf{just before and just after} the rebalancing is done. 
-Even more precisely, for the $10$ days, both for "before" and "after" the rebalancing, print out:
+As the time passes you follow investment rules above to rebalance your portfolio. Construct and print out the table describing your portfolio **just before and just after** the rebalancing is done. More precisely, for the $10$ days, both for **before** and **after** the rebalancing, print out:
 
 * the number of shares of stock in the portfolio, 
 * the balance of the risk-free investment, 
