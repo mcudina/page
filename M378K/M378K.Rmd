@@ -79,13 +79,15 @@ More about named discrete distributions.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution): The Poisson distribution
 
-Expectation and variance.<br>
+[Problem Set #3](problem-sets/m378k-ps3-discrete-solns.pdf):  **Solutions**
+
+Expectation.<br>
 
 [Problem Set #4](problem-sets/m378k-ps4-discrete-exp-var-probs.pdf):  **Problems we will work on in class**
 
-<!--
-[Class notes](notes/m378k-sept-06-2024.pdf)
+[Class notes](notes/m378k-jan-24-2025.pdf)
 
+<!--
 [Problem Set #4](problem-sets/m378k-ps4-discrete-exp-var-solns.pdf):  **Solutions**
 
 [Homework #1](hw/m378k-hw1-prereqs-solns.pdf) -- **solutions**
@@ -96,7 +98,7 @@ Expectation and variance.<br>
 ---
 
 **Class 6: January 27th**<br>
-Continuous distributions.<br>
+Variance. Continuous distributions.<br>
 
 [Problem Set #5](problem-sets/m378k-ps5-continuous-probs.pdf):  **Problems we will work on in class**
 
