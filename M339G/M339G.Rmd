@@ -124,9 +124,7 @@ Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>
 
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
-<!--
-[Class notes](notes/m339g-jan-26-2024.pdf)
--->
+[Class notes](notes/m339g-reducible-irreducible.pdf)
 
 Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Sections 3.1 and 5.3.4)**</span>.<br>
 
@@ -136,14 +134,14 @@ Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope
 
 [`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
-<!--
-[Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, September 13th, 2024**
+[Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, January 31st, 2025**
 
 ---
 
 **Class 5: September 6th**<br>
 More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Section 5.3.4)**</span>.<br>
 
+<!--
 [`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
 
 [Homework #3](hw/m339g-hw3-slr.pdf) -- **due on Friday, September 20th, 2024**
