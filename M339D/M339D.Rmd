@@ -138,11 +138,9 @@ Historical returns of stocks.<br>
 
 [Class notes](notes/m339d-mm.pdf) 
 
-<!--
 [The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
 
 [Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
--->
 
 ---
 
@@ -151,9 +149,7 @@ Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
 
-<!--
-[Class notes](notes/m339d-sept-09-2024.pdf)
--->
+[Class notes](notes/m339d-purchase-short-sale.pdf)
 
 [Alphabet data](data/goog.csv)
 

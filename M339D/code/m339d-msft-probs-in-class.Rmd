@@ -23,22 +23,25 @@ knitr::opts_chunk$set(
 ---
 
 ## Task 1. 
-First, we will read the data from our csv file "MSFT.csv" into a `data.frame` called `msft`:
+First, we will read the data from our csv file "MSFT.csv" into a data.frame called `msft`:
 
 ```{r}
 msft<-read.csv("MSFT.csv")
 #msft
 ```
 
+
 ## Task 2.
 Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
 
 ```{r}
 close.price<-msft$Close
-#length(close.price)
-plot(close.price, type="l", col="peru",
-     main="Daily closing prices of Microsoft",
-     xlab="Time", ylab="Price")
+length(close.price)
+
+plot(close.price, 
+     type="l", col="blue", lwd=2,
+     main="Historical MSFT Prices",
+     xlab="Time", ylab="Close Price")
 ```
 
 ## Task 3. 
@@ -49,6 +52,7 @@ mean(close.price)
 sd(close.price)
 ```
 
+
 ## Task 4. 
 The **simple daily return** of the stock over a day indexed by $t$ is defined as 
 $$
@@ -57,23 +61,27 @@ $$
 Construct the vector of simple daily returns over the last year. Provide a visualization of the returns. What can you say about the characteristics of the distribution based on the above plot?
 
 ```{r}
-close.price.end=close.price[-1]
-close.price.beg=close.price[-length(close.price)]
-returns=(close.price.end-close.price.beg)/close.price.beg
+ends<-close.price[-1]
+begs<-close.price[-length(close.price)]
+returns<-(ends-begs)/begs
 #returns
 hist(returns, breaks=20)
 ```
-
 
 ## Task 5. 
 What are the mean and the standard deviation of the returns?
 
 ```{r}
+#mean of daily returns
 mu.hat=mean(returns)
 mu.hat
-sigma.hat=sd(returns)
-sigma.hat
-#sigma.hat*sqrt(252)
+#mean of annual returns
+252*mu.hat
+
+#standard deviation of daily returns
+(sigma.hat=sd(returns))
+#annual volatility
+(sigma.hat*sqrt(252))
 ```
 
 ## Task 6. 
@@ -84,12 +92,12 @@ How would you **fit** a distribution to the above histogram? Let's
 * superimpose the density of the modelling distribution onto the histogram. 
 
 ```{r}
-hist(returns, breaks=20, col="bisque",
-     main="Histogram or MSFT daily returns",
-     xlab="Returns", prob=TRUE)
-curve(dnorm(x, mean=mu.hat, sd=sigma.hat), add=TRUE, col="red",
-      lwd=2)
+hist(returns, breaks=20, col="lavender", 
+     prob=TRUE)
+curve(dnorm(x, mean=mu.hat, sd=sigma.hat), add=TRUE, 
+      col="purple", lwd=2)
 ```
+
 
 ## Task x. 
 What else could we ask? 
