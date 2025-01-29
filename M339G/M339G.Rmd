@@ -145,9 +145,7 @@ More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <spa
 
 [Homework #1](hw/m339g-hw1-prereqs-solns.pdf) -- **solutions**
 
-<!--
-[Homework #3](hw/m339g-hw3-slr.pdf) -- **due on Friday, September 20th, 2024**
--->
+[Homework #3](hw/m339g-hw3-slr.pdf) -- **due on Friday, February 7th, 2025**
 
 ---
 
@@ -156,6 +154,7 @@ Simple Regression: Cross Validation <span style="color: purple;">**(Section 5.1.
 
 <!--
 [Class notes](notes/m339g-sept-09-2024.pdf)
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch5-crossvalidation.pdf): Cross-validation 
 
@@ -163,6 +162,7 @@ Simple Regression: Cross Validation <span style="color: purple;">**(Section 5.1.
 
 ---
 
+<!--
 **Class 7: September 11th**<br>
 Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
