@@ -160,13 +160,14 @@ Simple Regression: Cross Validation <span style="color: purple;">**(Section 5.1.
 
 ---
 
-<!--
-**Class 7: September 11th**<br>
+**Class 7: January 29th**<br>
 Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-multiple-linear-regression-intro.pdf): Multiple linear regression 
 
+<!--
 [Class notes](notes/m339g-sept-11-2024.pdf)
+-->
 
 [`R`-notebook from class](code/mlr.Rmd): Multiple linear regression
 
@@ -176,9 +177,10 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 
 ---
 
-**Class 8: September 13th**<br>
+**Class 8: January 31st**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-sept-13-2024.pdf)
 
 [`R`-script from class](code/F-distn.R): The $F-$distribution
