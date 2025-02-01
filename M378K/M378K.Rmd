@@ -119,10 +119,17 @@ More on continuous distributions.<br>
 
 [Area of a Normal Distribution](http://demonstrations.wolfram.com/AreaOfANormalDistribution/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Eric Schulz 
 
-<!--
-[Problem Set #5](problem-sets/m378k-ps5-continuous-solns.pdf):  **Solutions**
--->
+[Class notes](notes/m378k-jan-31-2025.pdf)
 
+[Problem Set #5](problem-sets/m378k-ps5-continuous-solns.pdf):  **Solutions**
+
+[Homework #2](hw/m378k-hw2-discrete-solns.pdf) -- **solutions**
+
+[Homework #3](hw/m378k-hw3-expectation-probs.pdf) -- **due on Friday, February 7th, 2025**
+
+---
+
+**Class 9: February 3rd**<br>
 Cumulative distribution functions.<br>
 
 [Problem Set #6](problem-sets/m378k-ps6-cdf-probs.pdf):  **Problems we will work on in class**
@@ -131,25 +138,15 @@ Cumulative distribution functions.<br>
 [Class notes](notes/m378k-sept-11-2024.pdf)
 -->
 
-More on the cumulative distribution function.<br>
-
 [Standard normal table](notes/std-normal-table.pdf)
 
+[`R` code on the normal](code/normal.R)
 
 <!--
 [Class notes](notes/m378k-sept-13-2024.pdf)
 
 [Problem Set #6](problem-sets/m378k-ps6-cdf-solns.pdf):  **Solutions**
 
-[Homework #2](hw/m378k-hw2-discrete-solns.pdf) -- **solutions**
--->
-
-[Homework #3](hw/m378k-hw3-expectation-probs.pdf) -- **due on Friday, February 7th, 2025**
-
-<!--
----
-
-**Class 9: September 16th**<br>
 Even more on the cumulative distribution function.<br>
 
 [Problem Set #5](problem-sets/m378k-ps5-cdf-cont-probs.pdf):  **Problems we will work on in class**
@@ -158,7 +155,6 @@ Even more on the cumulative distribution function.<br>
 
 [Class notes](notes/m378k-sept-16-2024.pdf)
 
-[`R` code on the normal](code/normal.R)
 
 ---
 
