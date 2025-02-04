@@ -178,9 +178,7 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 **Class 8: January 31st**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-sept-13-2024.pdf)
--->
+[Class notes](notes/m339g-f-distn.pdf)
 
 [`R`-script from class](code/F-distn.R): The $F-$distribution
 
