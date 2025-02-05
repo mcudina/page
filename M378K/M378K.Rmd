@@ -151,16 +151,7 @@ More on the cumulative distribution function.<br>
 
 [`R` code on the normal](code/normal.R)
 
-<!--
-[Class notes](notes/m378k-sept-13-2024.pdf)
-
-[Problem Set #5](problem-sets/m378k-ps5-cdf-cont-solns.pdf):  **Solutions**
-
-[Class notes](notes/m378k-sept-16-2024.pdf)
-
-Random vectors.<br>
-
-[Class notes](notes/m378k-sept-18-2024.pdf)
+[Class notes](notes/m378k-feb-05-2025.pdf)
 
 [In-Term One](exams/m378k-one-topics.pdf): Topics
 
@@ -170,7 +161,16 @@ Random vectors.<br>
 
 ---
 
-**Class 11: September 20th**<br>
+**Class 11: February 7th**<br>
+Random vectors.<br>
+
+<!--
+[Problem Set #5](problem-sets/m378k-ps5-cdf-cont-solns.pdf):  **Solutions**
+
+[Class notes](notes/m378k-sept-18-2024.pdf)
+
+
+
 More on random vectors.<br>
 
 [Class notes](notes/m378k-sept-20-2024.pdf)
