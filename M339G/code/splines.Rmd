@@ -7,8 +7,7 @@ output:
 
 Here, I am adapting part of the lab associated with Chapter 7 of the textbook. 
 
-In this lab, we re-analyze the `Wage` data considered in the
-examples throughout this chapter, in order to illustrate the fact that many of the complex non-linear fitting procedures discussed can be easily implemented in `R`.  We begin by loading the `ISLR2` library, which contains the data.
+In this lab, we analyze the `Wage` data considered in the examples throughout this chapter, in order to illustrate the fact that many of the complex non-linear fitting procedures discussed can be easily implemented in `R`.  We begin by loading the `ISLR2` library, which contains the data.
 
 ```{r chunk1}
 library(ISLR2)

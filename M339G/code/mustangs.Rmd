@@ -23,7 +23,7 @@ plot(mustangs,
 cor(mustangs)
 ```
 
-Let's create three models:
+Let's create four models:
 
 ```{r}
 attach(mustangs)
@@ -59,7 +59,7 @@ mean((Price-predict(lm.fit.q,mustangs))[-train]^2)
 lm.fit.m=lm(Price~Miles+ Age,data=mustangs,subset=train)
 mean((Price-predict(lm.fit.m,mustangs))[-train]^2)
 
-#multiple linear regression with interacions
+#multiple linear regression with interactions
 lm.fit.mi=lm(Price~Miles*Age,data=mustangs,subset=train)
 mean((Price-predict(lm.fit.mi,mustangs))[-train]^2)
 ```
