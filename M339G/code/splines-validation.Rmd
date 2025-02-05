@@ -141,7 +141,9 @@ lines(q.fit,col="purple")
 lines(fit.cv,col="blue",lwd=2)
 
 pred <- predict(fit.cv, val$weight)
-plot(pred$y-val$mpg)
+plot(pred$y-val$mpg, pch=20, col="lightblue",
+     xlab="Index", ylab="Difference",
+     main="Predicted minus actual")
 
 mean((pred$y-val$mpg)^2)
 ```
