@@ -247,14 +247,16 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 
 ---
 
-<!--
-**Class 12: September 23rd**<br>
-Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
+**Class 12: February 10th**<br>
+Categorical predictiors.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
 
 [`R`-notebook for class](code/carseats-dummies.Rmd): Qualitative/categorical predictors
 
+Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
+
+<!--
 [Class notes](notes/m339g-sept-20-2024.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
