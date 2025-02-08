@@ -226,9 +226,7 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch7-cubic-splines.pdf): Cubic Splines
 
-<!--
-[Class notes](notes/m339g-sept-16-2024.pdf)
--->
+[Class notes](notes/m339g-cubic-splines.pdf)
 
 [`R`-notebook from class](code/splines.Rmd): Splines 
 
