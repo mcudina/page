@@ -265,7 +265,6 @@ Regression vs Classification Problems <span style="color: purple;">**(Section 2.
 **Class 13: February 12th**<br>
 Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.<br>
 
-<!--
 [Slides by Hastie & Tibshirani](slides/ch4-classification.pdf): Logistic regression
 
 [Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
@@ -274,11 +273,12 @@ Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.
 
 ---
 
-**Class 14: September 27th**<br>
+**Class 14: February 14th**<br>
 More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span>.<br>
 
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
 
+<!--
 [Class notes](notes/m339g-sept-25-2024.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
