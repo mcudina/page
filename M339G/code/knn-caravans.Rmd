@@ -32,7 +32,7 @@ dim(Caravan)
 attach(Caravan)
 #Purchase
 summary(Purchase)
-348 / 5822
+summary(Purchase)[2]/(summary(Purchase)[1]+summary(Purchase)[2])
 ```
 As we can see, in this data set, only $6$\% of people purchased caravan insurance.
 
@@ -86,19 +86,20 @@ It turns out that KNN with $K=1$ does far better than random guessing among the 
  This is  double the rate that one would obtain from random guessing.
 
 ```{r chunk32}
-table(knn.pred, test.Y)
-9 / (68 + 9)
+(tab=table(knn.pred, test.Y))
+tab[2,2]/(tab[2,1]+tab[2,2])
 ```
 
 Using $K=3$, the success rate increases to $19$\%, and with $K=5$ the rate is $26.7$\%. This is  over four times the rate that results from random guessing. It appears that KNN is finding some real patterns in a difficult data set!
 
 ```{r chunk33}
 knn.pred <- knn(train.X, test.X, train.Y, k = 3)
-table(knn.pred, test.Y)
-5 / 26
+(tab=table(knn.pred, test.Y))
+tab[2,2]/(tab[2,1]+tab[2,2])
+
 knn.pred <- knn(train.X, test.X, train.Y, k = 5)
-table(knn.pred, test.Y)
-4 / 15
+(tab=table(knn.pred, test.Y))
+tab[2,2]/(tab[2,1]+tab[2,2])
 ```
 
 However, while this strategy is cost-effective, it is worth noting that only 15 customers are predicted to purchase insurance using KNN with $K=5$. In practice, the insurance company may wish to expend resources on convincing more than just 15 potential customers to buy insurance.
@@ -115,6 +116,6 @@ glm.pred[glm.probs > .5] <- "Yes"
 table(glm.pred, test.Y)
 glm.pred <- rep("No", 1000)
 glm.pred[glm.probs > .25] <- "Yes"
-table(glm.pred, test.Y)
-11 / (22 + 11)
+(tab=table(glm.pred, test.Y))
+tab[2,2]/(tab[2,1]+tab[2,2])
 ```
