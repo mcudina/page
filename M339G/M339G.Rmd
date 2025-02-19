@@ -282,6 +282,8 @@ More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span
 
 [Class notes](notes/m339g-feb-14-2025.pdf)
 
+[Class notes](notes/m339g-multiclass-logistic.pdf)
+
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
 
 [Data for class](code/hsbdemo.csv): School choice

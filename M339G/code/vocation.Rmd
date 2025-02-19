@@ -14,7 +14,7 @@ First, we import the data.
 
 ```{r}
 data<-read.csv("hsbdemo.csv")
-#View(data)
+View(data)
 data
 ```
 The data set contains variables on $200$ students. We will focus on a small subset of predictors. The predictor variables will be social economic status `ses` (a three-level categorical variable) and writing score `write` (a quantitative variable). The outcome variable is program type `prog` (a three-level categorical variable). Since I am interested in just this subset, I will create a smaller data frame to analyze. 
@@ -44,7 +44,10 @@ Which test might we use to test the independence hypothesis?
 chi2<-chisq.test(tab)
 chi2
 ```
-What about the association between the writing score and the program type? Side-by-side boxplots might give insight. 
+What about the association between the writing score and the program type? 
+
+
+Side-by-side boxplots might give insight. 
 
 ```{r}
 write.ac=write[which(prog=="academic")]
@@ -99,7 +102,7 @@ Also importantly, we do not have $p-$values reported above. We can figure them o
 
 ```{r}
 z.scores<- summary(mn.fit)$coefficients/summary(mn.fit)$standard.errors
-p.val=1-pnorm(abs(z.scores))
+p.val=2*(1-pnorm(abs(z.scores)))
 p.val
 ```
 
