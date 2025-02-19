@@ -34,8 +34,7 @@ We should import the `car` library (nothing to do with vehicles; it's short for 
 library(car)
 vif(lm.fit)
 ```
-
-The book says: *"...a VIF value that exceeds 5 or 10 indicates a problematic amount of collinearity..."
+Our textbook says: *"...a VIF value that exceeds 5 or 10 indicates a problematic amount of collinearity..."
 
 
 ## Seat Position 

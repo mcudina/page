@@ -303,27 +303,29 @@ Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
 
-<!--
+---
+ 
+**Class 16: February 19th**<br>
 K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
 
+<!--
 [`R`-notebook for class](code/knn-horseshoe.Rmd): KNN for horseshoe crabs
 
 [A KNN Tutorial](https://quantdev.ssri.psu.edu/sites/qdev/files/kNN_tutorial.html): Also has the `caret` package implementation
+-->
 
----
- 
-**Class 16: October 2nd**<br>
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
 
-[Class notes](notes/m339g-sept-30-2024.pdf)
-
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
 
+<!--
 [Class notes](notes/m339g-oct-02-2024.pdf)
+
+[Class notes](notes/m339g-sept-30-2024.pdf)
 
 ---
 
