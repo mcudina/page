@@ -211,20 +211,24 @@ Moment generating functions.<br>
 
 [Class notes](notes/m378k-feb-19-2025.pdf)
 
+---
+
+**Class 17: February 21st, 2025**<br>
+More on the moment generating functions.<br>
+
 <!--
 [Class notes](notes/m378k-oct-02-2024.pdf)
 
-[Problem Set #7](problem-sets/m378k-ps7-mgf-solns.pdf):  **Solutions**
+[Problem Set #9](problem-sets/m378k-ps9-mgf-solns.pdf):  **Solutions**
+-->
 
----
-
-**Class 17: October 4th**<br>
 More on the normal distribution.<br>
 
 [Standard Normal Distribution Areas](http://demonstrations.wolfram.com/StandardNormalDistributionAreas/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
-[Problem Set #8](problem-sets/m378k-ps8-normal-probs.pdf):  **Problems we will work on in class**
+[Problem Set #10](problem-sets/m378k-ps10-normal-probs.pdf):  **Problems we will work on in class**
 
+<!--
 De Moivre-Laplace.<br>
 
 [Problem Set #9](problem-sets/m378k-ps9-dML-probs.pdf):  **Problems we will work on in class**
