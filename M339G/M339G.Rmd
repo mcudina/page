@@ -328,10 +328,11 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 [Class notes](notes/m339g-oct-02-2024.pdf)
 
 [Class notes](notes/m339g-sept-30-2024.pdf)
+-->
 
 ---
 
-**Class 17: October 4th**<br>
+**Class 17: February 21st**<br>
 Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
@@ -339,6 +340,7 @@ Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1
 K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-clustering.pdf): K-Means Clustering 
+<!--
 
 [Towards Data Science](https://towardsdatascience.com/three-versions-of-k-means-cf939b65f4ea): K-Means Clustering
 
