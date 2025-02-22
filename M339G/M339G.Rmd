@@ -324,11 +324,7 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
 
-<!--
-[Class notes](notes/m339g-oct-02-2024.pdf)
-
-[Class notes](notes/m339g-sept-30-2024.pdf)
--->
+[Class notes](notes/m339g-vif.pdf)
 
 ---
 
