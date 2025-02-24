@@ -336,7 +336,6 @@ Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1
 K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-clustering.pdf): K-Means Clustering 
-<!--
 
 [Towards Data Science](https://towardsdatascience.com/three-versions-of-k-means-cf939b65f4ea): K-Means Clustering
 
@@ -347,20 +346,19 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 [Data for class](code/banknotes.csv): Banknotes
 
 [Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
--->
 
 [Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
 
-<!--
-[Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, October 25th, 2024**
+[Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, March 14th, 2025**
 
 ---
 
-**Class 18: October 7th**<br>
+**Class 18: February 24th, 2025**<br>
 Singular value decomposition <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
 
+<!--
 [Class notes](notes/m339g-oct-04-2024.pdf)
 
 [YouTube](https://youtu.be/rYz83XPxiZo?si=nkvOk6GNor638x29): A beautiful lecture by Prof. Gilbert Strang
