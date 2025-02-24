@@ -321,6 +321,7 @@ Chooser options.<br>
 
 <!--
 [Class notes](notes/m339d-oct-04-2024.pdf) 
+-->
 
 **(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
 
@@ -330,16 +331,9 @@ Chooser options.<br>
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
-
-More on chooser options.<br>
-
-[Jury-Duty Problem Set](problem-sets/m339d-ps-jury-duty-probs.pdf):  **Problems**
-
-[Jury-Duty Problem Set](problem-sets/m339d-ps-jury-duty-solns.pdf):  **Solutions**
-
 ---
 
-**Class 19: October 9th**<br>
+**Class 19: February 26th, 2025**<br>
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -352,6 +346,7 @@ Inverse-Transform Method.<br>
 
 [Problem set #7](problem-sets/m339d-ps7-inverse-transform-probs.pdf): Problems
 
+<!--
 [Class notes](notes/m339d-feb-26-2024.pdf) 
 
 [Problem set #7](problem-sets/m339d-ps7-inverse-transform-solns.pdf): Solutions
