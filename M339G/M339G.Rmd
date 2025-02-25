@@ -360,14 +360,14 @@ Singular value decomposition <span style="color: purple;">**(Section 12.2)**</sp
 
 <!--
 [Class notes](notes/m339g-oct-04-2024.pdf)
-
+-->
 [YouTube](https://youtu.be/rYz83XPxiZo?si=nkvOk6GNor638x29): A beautiful lecture by Prof. Gilbert Strang
 
-[Extra Credit Homework](hw/m339g-ec-hw-svd.pdf) -- **due on Wednesday, October 23rd, 2024**
+[Extra Credit Homework](hw/m339g-ec-hw-svd.pdf) -- **due on Friday, March 7th, 2025**
 
 ---
 
-**Class 19: October 9th**<br>
+**Class 19: February 26th, 2025**<br>
 Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-pca.pdf): PCA
@@ -378,24 +378,6 @@ Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)
 
 [`R`-notebook for class](code/pca-houses.Rmd): Principal component analysis for houses
 
----
-
-**Class 20: October 11th**<br>
-Principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch6-pcr.pdf): PCR
-
-[Homework #6](hw/m339g-hw6-sample-one-solns.pdf) -- **solutions**
-
----
-
-**Class 21: October 14th**<br>
-More about the principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
-
-[`R`-notebook for class](code/pcr.Rmd): Principal component regression
-
-[`R`-notebook for class](code/pcr-seat-position.Rmd): Principal component regression on seat positions
-
 [In-Term One](exams/m339g-one-topics.pdf): Topics
 
 [Practice for In-Term One](exams/m339g-one-sample-probs.pdf) -- **problems** 
@@ -404,19 +386,36 @@ More about the principal components regression <span style="color: purple;">**(S
 
 ---
 
-**Class 22: October 16th**<br>
-<span style="color: red;">**In-Term One**</span><br>
+**Class 20: February 28th, 2025**<br>
+Principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
 
-[In-Term One](exams/m339g-one-solns.pdf) -- **solutions** 
+[Slides by Hastie & Tibshirani](slides/ch6-pcr.pdf): PCR
+
+<!--
+[Homework #6](hw/m339g-hw6-sample-one-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 23: October 18th**<br>
+**Class 21: March 3rd, 2025**<br>
+More about the principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
+
+[`R`-notebook for class](code/pcr.Rmd): Principal component regression
+
+[`R`-notebook for class](code/pcr-seat-position.Rmd): Principal component regression on seat positions
+
+---
+
+**Class 22: March 5th, 2025**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
 <!--
-Review of categorical predictors and logistic regression.<br>
+[In-Term One](exams/m339g-one-solns.pdf) -- **solutions** 
+-->
 
-[Class notes](notes/m339g-mar-01-2024.pdf)
+---
 
+**Class 23: March 7th, 2025**<br>
 Principal components analysis and clustering <span style="color: purple;">**(Section 12.2 and 12.4.1)**</span>.<br>
 
 [UC Irvine MLR](https://archive.ics.uci.edu/dataset/236/seeds): Documentation for the `seeds` data set 
@@ -432,9 +431,10 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 ---
 
-**Class 24: October 21st**<br>
+**Class 24: March 10th, 2025**<br>
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-oct-18-2024.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
@@ -670,4 +670,14 @@ The False Discovery Rate <span style="color: purple;">**(Section 13.4)**</span>.
 ---
 
 A [blog post](https://fivethirtyeight.com/features/science-isnt-broken/#part1) on **p-hacking** with an interactive component (pardon the expletives!)
+
+---
+
+Odds and Ends.<br>
+
+Review of categorical predictors and logistic regression.<br>
+
+[Class notes](notes/m339g-mar-01-2024.pdf)
+
+
 -->
