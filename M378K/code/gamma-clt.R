@@ -23,15 +23,15 @@ curve(dgamma(x, k, scale=tau), add=TRUE, col="purple", lwd=2)
 
 #fitting the density curve
 #moment matching
-#mean of gamma = alpha/beta = mean(sims)
-#variance of gamma = alpha/beta^2 = var(sims)
+#mean of gamma = tau*kappa = mean(sims)
+#variance of gamma = kappa*tau^2 = var(sims)
 mu.hat=mean(sims)
 v.hat=var(sims)
 
-beta.hat=mu.hat/v.hat
-beta.hat
-alpha.hat=mu.hat*beta.hat
-alpha.hat
+tau.hat=mu.hat/v.hat
+tau.hat
+k.hat=mu.hat/tau.hat
+k.hat
 
 #plot the fitted density
 curve(dgamma(x, k.hat, scale=tau.hat), add=TRUE, col="blue", lwd=2)
