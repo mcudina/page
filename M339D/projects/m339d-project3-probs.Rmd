@@ -51,10 +51,9 @@ the opening stock price. This means that you can change the number of
 shares you own (if you decide to do so) and accordingly adapt your
 risk-free investment.
 
-You proceed to create a ``rule'' according to which you will be
-rebalancing your portfolio. Here is a possible rule you can use:
+Here is a rule you will use to rebalance your portfolio daily:
 
-*I start by investing in one share of stoch. Then, every day I will flip a fair coin. If the outcome is heads, I will buy one share of stock. If the outcome is tails, I will
+*I start by investing in one share of stock. Then, every day I will flip a fair coin. If the outcome is heads, I will buy one share of stock. If the outcome is tails, I will
   short one share. The balance of my wealth is to be invested at the
   risk-free rate (if needed, I will borrow at the continuously
   compounded risk-free interest rate).*
@@ -82,8 +81,7 @@ Even more precisely, for the $10$ days, both for "morning" and "evening" print o
 * the total wealth. 
 
 ## Problem #4 (20 points)
-Repeat the above problem, but with a new investment ``rule'' of your own. Make sure that there is an element of **randomness** in your rule. You can use the above rule or any of the rules you encountered in previous projects for inspiration, but do not just merely make simple (trivial!) adjustments. If you simply change the number of shares traded or the direction of the trade as compared to the rule in the previous problem, you will get no credit. 
-
+Using *Monte Carlo* and the work you did in the previous problem, estimate the expected final wealth of a "noise trader" who uses the above strategy. Compare your estimate to the expected wealth you get by using the definition of expected value. 
 
 ## Problem #5 (25 points)
 ### Apple puts
