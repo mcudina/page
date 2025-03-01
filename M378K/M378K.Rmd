@@ -273,15 +273,11 @@ More on the $\chi^2-$distribution.<br>
 
 The $\Gamma-$distribution.<br>
 
-<!--
-[Class notes](notes/m378k-oct-11-2024.pdf)
--->
+[Class notes](notes/m378k-feb-28-2025.pdf)
 
 [The R-script from class](code/gamma-clt.R)
 
-<!--
 [Homework #5](hw/m378k-hw5-mgf-solns.pdf) -- **solutions**
--->
 
 [Homework #6](hw/m378k-hw6-gamma-probs.pdf) -- **due on Friday, March 7th, 2025**
 
