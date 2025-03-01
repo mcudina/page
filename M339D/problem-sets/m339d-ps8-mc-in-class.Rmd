@@ -19,42 +19,47 @@ Use *Monte Carlo* to estimate the expected winnings based on 10,000 runs. Does t
 Now, complete 1,000 batches of 10,000 runs. What does the histogram of the averages of the 1,000 batches look like? What is their mean? What is their variance? What is their standard deviation?
 
 *Solution:*
-Let's encode *yellow* as $-1$, *red* as $1$, and *blue* as $0$. 
+Let's encode the colors as their respective rewards:
 ```{r}
 spinner=c(-1, 0, 1)
-one.run=sample(spinner, 1)
-one.run
+(one.run=sample(spinner, 1))
 ```
-Now, we do Monte Carlo. If we want multiple simulated draws, we must chage the `size` in the `sample` command **and** make it *with* replacement.
+Let's do many runs:
 ```{r}
 n.sim=10000
-many.runs=sample(spinner, size=n.sim, replace=TRUE)
-many.runs
+(many.runs=sample(spinner, n.sim, replace=TRUE))
 ```
-Next, we calculate the arithemtic average of the simulated values. 
+Now, we get the arithmetic average:
 ```{r}
-mc.exp=mean(many.runs)
-mc.exp
+(mc=mean(many.runs))
 ```
-The number is close to zero, so I'm happy. 
-
-Next, let's create a function that calculates a single Monte Carlo estimate and then repeat it many times. 
+Now, we do many runs. 
 ```{r}
+#first, we define a function for a single spin
 spin.mc<-function(){
-  mean(sample(spinner, size=n.sim, replace=TRUE))
+  mean(sample(spinner, n.sim, replace=TRUE))
 }
+  
+n.batches=1000
 
-#spin.mc()
-
-n.batches=10000
-all.batches=replicate(n.batches, spin.mc())
-all.batches
-mean(all.batches)
-var(all.batches)
-sd(all.batches)
-hist(all.batches, breaks=25)
+many.batches=replicate(n.batches, spin.mc())
+#many.batches
+hist(many.batches)
 ```
+A few items, just for laughs:
+```{r}
+#the mean of means
+mean(many.batches)
 
+#theoretical variance of a single spin
+var.spin=2/3
+
+#theor
+(var.mc=var.spin/n.sim)
+
+#empirical
+var(many.batches)
+```
 
 
 ## Problem #2: Gambling
@@ -69,19 +74,20 @@ What is the theoretical expectation of the amount won in this game?
 Use *Monte Carlo* to estimate the expected winnings based on 10,000 runs. Does the result agree with your theoretical expected value?
 
 *Solution:*
-The probability of losing $1$ dollar is $1/2$. The probability of winning $9$ dollars is $1/6$. The probability of no money changing hands is $1/3$. 
+The probability of losing \$1 is $1/2$, that of winning \$9 is $1/6$, the remaining one third probability is for \$0. 
 ```{r}
-winnings=c(-1, 0, 9)
+reward=c(-1, 0, 9)
 probs=c(1/2, 1/3, 1/6)
 ```
-The theoretical expectation of the amount won. 
+The theoretical expected reward is
 ```{r}
-exp.winnings=sum(winnings*probs)
-exp.winnings
+(exp.reward=sum(reward*probs))
 ```
-Using *Monte Carlo*, we get
+Now, we use *Monte Carlo*.
 ```{r}
-mean(sample(winnings, 10000, prob=probs, replace=TRUE))
+n.sim=10000
+mc.exp.reward=mean(sample(reward, size=n.sim, prob=probs, replace=TRUE))
+mc.exp.reward
 ```
 
 
@@ -96,16 +102,16 @@ Use *Monte Carlo* to estimate the expected value based on 10,000 runs. Does the 
 Here are the parameters of $X$:
 ```{r}
 n.trials=50
-suc.prob=2/5
+suc.prob=0.4
 ```
-The theoretical expectation is
+The expectation is
 ```{r}
-exp.x=n.trials*suc.prob
-exp.x
+exp.bin=n.trials*suc.prob
+exp.bin
 ```
 Using *Monte Carlo*, we get
 ```{r}
-runs<-rbinom(n.sim, size=n.trials, prob=suc.prob)
+runs=rbinom(n.sim, size=n.trials, prob = suc.prob)
 mean(runs)
 ```
 

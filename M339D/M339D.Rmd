@@ -365,15 +365,11 @@ Acceptance-Rejection Method.<br>
 **Class 20: February 28th, 2025**<br>
 The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
-<!--
-[Class notes](notes/m339d-oct-11-2024.pdf) 
--->
+[Class notes](notes/m339d-feb-28-2025.pdf) 
 
 [Problem Set #8](problem-sets/m339d-ps8-mc.Rmd)
 
-<!--
 [Problem Set #8](problem-sets/m339d-ps8-mc-in-class.Rmd): **Solutions**
--->
 
 [Apple put data](data/apple-puts.csv)
 
