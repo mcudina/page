@@ -390,41 +390,52 @@ Realized returns of stocks. Forward trees.  <br>
 
 [Class notes](notes/m339d-mar-03-2025.pdf) 
 
+---
+
+**Class 22: March 5th, 2025**<br>
+More on forward binomial trees. 
+
 <!--
 [Class notes](notes/m339d-oct-21-2024.pdf) 
+-->
+
+Binomial option pricing: Pricing by replication.<br>
+
+[Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
+
+<!--
+[Class notes](notes/m339d-oct-23-2024.pdf) 
+-->
 
 ---
 
-**Class 22: October 16th**<br>
+**Class 23: March 7th, 2025**<br>
+Binomial option pricing: Risk-neutral probability.<br>
+
+<!--
+[Class notes](notes/m339d-oct-25-2024.pdf) 
+
+[Problem Set #9](problem-sets/m339d-ps9-bin-pricing-solns.pdf): **Solutions**
+-->
+
+**(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
+
+**(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
+
+<!--
+[Homework #7](hw/m339d-hw7-parity-solns.pdf) -- **solutions**
+-->
+
+[Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 14th, 2025**
+
+<!--
 <span style="color: red;">**In-Term One**</span><br>
 
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
 
 ---
 
-**Class 23: October 18th**<br>
-Binomial option pricing: Pricing by replication.<br>
-
-[Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
-
-[Class notes](notes/m339d-oct-23-2024.pdf) 
-
-[Homework #7](hw/m339d-hw7-parity-solns.pdf) -- **solutions**
-
-[Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, October 25th**
-
----
-
 **Class 24: October 21st**<br>
-Binomial option pricing: Risk-neutral probability.<br>
-
-[Class notes](notes/m339d-oct-25-2024.pdf) 
-
-[Problem Set #9](problem-sets/m339d-ps9-bin-pricing-solns.pdf): **Solutions**
-
-**(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
-
-**(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
 
 ---
