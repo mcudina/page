@@ -301,6 +301,8 @@ Sampling distributions.<br>
 
 [Class notes](notes/m378k-mar-05-2025.pdf)
 
+[Problem Set #14](problem-sets/m378k-ps14-statistics-solns.pdf):  **Solutions**
+
 [In-Term Two](exams/m378k-two-topics.pdf): Topics
 
 [Practice for In-Term Two](exams/m378k-two-sample-probs.pdf) -- **problems** 
@@ -321,27 +323,30 @@ Estimators. Bias.<br>
 ---
 
 **Class 24: March 10th, 2025**<br>
-
-<!--
-[Problem Set #12](problem-sets/m378k-ps12-statistics-solns.pdf):  **Solutions**
-
----
-
-**Class 25: October 23rd**<br>
-<span style="color: red;">**In-Term Two**</span><br>
-
-[In-Term Two](exams/m378k-two-solns.pdf) -- **solutions** 
-
----
-
-**Class 26: October 25th**<br>
 Mean squared error.<br>
 
-[Problem Set #13](problem-sets/m378k-ps13-bias-mse-probs.pdf):  **Problems we will work on in class**
+[Problem Set #15](problem-sets/m378k-ps15-bias-mse-probs.pdf):  **Problems we will work on in class**
 
+<!--
 [Class notes](notes/m378k-oct-25-2024.pdf)
+-->
 
-[Homework #7](hw/m378k-hw7-statistics-probs.pdf) -- **due on Friday, November 1st, 2024**
+[Homework #7](hw/m378k-hw7-statistics-probs.pdf) -- **due on Friday, March 28th, 2025**
+
+---
+
+**Class 25: March 12th, 2025**<br>
+<span style="color: red;">**In-Term Two**</span><br>
+
+<!--
+[In-Term Two](exams/m378k-two-solns.pdf) -- **solutions** 
+-->
+
+---
+
+**Class 26: March 14th, 2025**<br>
+<!--
+
 
 ---
 
@@ -350,7 +355,7 @@ More on MSE.<br>
 
 [Class notes](notes/m378k-oct-28-2024.pdf)
 
-[Problem Set #13](problem-sets/m378k-ps13-bias-mse-solns.pdf):  **solutions**
+[Problem Set #15](problem-sets/m378k-ps15-bias-mse-solns.pdf):  **solutions**
 
 [Homework #8](hw/m378k-hw8-goodness-probs.pdf) -- **due on Friday, November 8th, 2024**
 
