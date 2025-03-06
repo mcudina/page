@@ -393,26 +393,20 @@ Realized returns of stocks. Forward trees.  <br>
 ---
 
 **Class 22: March 5th, 2025**<br>
-More on forward binomial trees. 
+More on forward binomial trees. Binomial option pricing: Pricing by replication.<br>
 
-<!--
-[Class notes](notes/m339d-oct-21-2024.pdf) 
--->
-
-Binomial option pricing: Pricing by replication.<br>
-
-[Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
-
-<!--
-[Class notes](notes/m339d-oct-23-2024.pdf) 
--->
+[Class notes](notes/m339d-mar-05-2025.pdf) 
 
 ---
 
 **Class 23: March 7th, 2025**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
+[Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
+
 <!--
+[Class notes](notes/m339d-oct-23-2024.pdf) 
+
 [Class notes](notes/m339d-oct-25-2024.pdf) 
 
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing-solns.pdf): **Solutions**
