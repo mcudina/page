@@ -410,16 +410,12 @@ More on binomial option pricing.<br>
 
 [Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 14th, 2025**
 
-<!--
-<span style="color: red;">**In-Term One**</span><br>
-
-[In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
-
 ---
 
-**Class 24: October 21st**<br>
+**Class 24: March 10th, 2025**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
+<!--
 [Class notes](notes/m339d-oct-25-2024.pdf) 
 
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing-solns.pdf): **Solutions**
@@ -429,11 +425,16 @@ Binomial option pricing: Risk-neutral probability.<br>
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
-<!--
-
 ---
 
-**Class 25: October 23rd**<br>
+**Class 25: March 12th, 2025**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+<!--
+[In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
+
+
+
 Binomial option pricing: Two periods.<br>
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-probs.pdf): **Problems**
