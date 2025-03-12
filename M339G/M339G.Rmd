@@ -466,15 +466,18 @@ Multivariate normal distribution.<br>
 
 <!--
 [Class notes](notes/m339g-oct-28-2024.pdf)
+-->
 
 ---
 
-**Class 28: October 30th**<br>
+**Class 28: March 26th, 2025**<br>
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
 
+[Wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic): The Receiver Operating Characteristic (ROC)
 
+<!--
 ---
 
 **Class 29: November 1st**<br>
