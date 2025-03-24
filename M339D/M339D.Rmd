@@ -441,11 +441,9 @@ Binomial option pricing: Two periods.<br>
 
 Multiple binomial periods. <br>
 
-<!--
-[Class notes](notes/m339d-oct-30-2024.pdf) 
+[Class notes](notes/m339d-mar-24-2025.pdf) 
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-solns.pdf): **Solutions**
--->
 
 [Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
 
@@ -458,9 +456,9 @@ Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs.Rmd)
 
-<!--
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class.Rmd): Part I
 
+<!--
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class-contd.Rmd): Part II
 -->
 
