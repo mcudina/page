@@ -478,28 +478,26 @@ More on the linear discriminant analysis, quadratic discriminant analysis, naive
 **Class 29: March 28th, 2025**<br>
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
-<!--
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
 
 [`partimat`](https://www.rdocumentation.org/packages/klaR/versions/1.7-3/topics/partimat): Documentation
 
 [`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
--->
 
 [Homework #8](hw/m339g-hw8-lda-qda.pdf) -- **due on Friday, April 4th, 2025**
 
-<!--
 [Project #3](projects/m339g-project3-probs.pdf) -- **due on Monday, December 9th, 2024**
 
 [Project #3](projects/m339g-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-**Class 30: November 4th**<br>
+**Class 30: March 31st, 2025**<br>
 Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
 
+<!--
 [Homework #9](hw/m339g-hw9-reg-trees.pdf) -- **due on Friday, November 15th, 2024**
 
 ---
