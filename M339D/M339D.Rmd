@@ -458,9 +458,7 @@ Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class.Rmd): Part I
 
-<!--
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class-contd.Rmd): Part II
--->
 
 ---
 
@@ -469,9 +467,7 @@ Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
-<!--
-[Class notes](notes/m339d-nov-04-2024.pdf) 
--->
+[Class notes](notes/m339d-mar-26-2025.pdf) 
 
 [Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 4th, 2025**
 

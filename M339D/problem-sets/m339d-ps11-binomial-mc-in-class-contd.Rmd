@@ -25,7 +25,6 @@ Let the continuously compounded, risk-free interest rate be $0.04$.
 r=0.04
 ```
 
-
 Consider a stock whose current price is \$100 and whose volatility is $0.25$. We will be pricing a one-year, at-the-money call option in a variety of ways here. 
 
 ```{r}
@@ -46,20 +45,21 @@ Price the option above using a one period binomial tree.
 #number of periods
 n=1
 
-#length of one period
+#length of each period
 h=T/n
 
-#define the factors in the tree
+#define the factors in the forward binomial tree
 u=exp(r*h+sigma*sqrt(h))
 d=exp(r*h-sigma*sqrt(h))
-  
-#risk-neutral probability
-p=(exp(r*h)-d)/(u-d)
-p
 
-#or with the forward-tree shortcut
-p.1=1/(1+exp(sigma*sqrt(h)))
-p.1
+(u)
+(d)
+
+#the risk-neutral probability
+(p=(exp(r*h)-d)/(u-d))
+
+#the forward-tree shortcut
+(p.dash=1/(1+exp(sigma*sqrt(h))))
 
 #the possible stock prices
 (s.u=s0*u)
@@ -70,33 +70,36 @@ p.1
 (v.d=max(s.d-K,0))
 
 #initial option price
-(v.0=exp(-r*T)*(v.u*p+v.d*(1-p)))
+(v0=exp(-r*T)*(v.u*p+v.d*(1-p)))
 ```
+
 
 
 ## Problem #2: Monte Carlo one period
 Price the option above using Monte Carlo a one period binomial tree. Use $10000$ simulations. 
 
 ```{r}
-#the number of simulations
+#number of simulations
 n.sim=10^4
 
-#posible results of the cointoss
+#possible results of the cointoss
 factors=c(u,d)
-#risk-neutral probabilities
-probs=c(p,1-p)
+#their respective risk-neutral probabilities
+probs=c(p, 1-p)
 
-#simulated final stock prices
-s.T=s0*sample(factors, size=n.sim, replace=TRUE, prob=probs)
+#simulated stock prices
+s.T=s0*sample(factors, size=n.sim, prob=probs, replace=TRUE)
+#(s.T)
 
 #simulated payoffs
-(v.T=pmax(s.T-K,0)) #caveat: pointwise maximum is necessary
+(v.T=pmax(s.T-K, 0)) #caveat: it MUST be the pointwise max
 
-#expected risk-neutral payoff
+#averaging the simulated payoffs
 (v.bar=mean(v.T))
 
-#Monte Carlo price
+#discounting
 (v.0.mc=exp(-r*T)*v.bar)
+
 ```
 
 ## Problem #3: Analytic two periods
@@ -106,29 +109,32 @@ Price the above option using a two-period binomial tree.
 #number of periods
 n=2
 
-#length of one period
-(h=T/n)
+#length of each period
+h=T/n
 
-#define the factors in the tree
-(u=exp(r*h+sigma*sqrt(h)))
-(d=exp(r*h-sigma*sqrt(h)))
+#define the factors in the forward binomial tree
+u=exp(r*h+sigma*sqrt(h))
+d=exp(r*h-sigma*sqrt(h))
 
-#risk-neutral probability
-(p=1/(1+exp(sigma*sqrt(h))))
+(u)
+(d)
+
+#the risk-neutral probability
+(p=(exp(r*h)-d)/(u-d))
 
 #possible stock prices
-(s.T=s0*c(u^2, u*d, d^2))
+(s.T=c(s0*u^2, s0*u*d, s0*d^2))
 
 #possible payoffs
 (v.T=pmax(s.T-K,0))
 
 #risk-neutral probabilities of reaching the terminal nodes
-(probs=dbinom(c(2,1,0), size=n, prob=p))
+(probs=dbinom(c(2,1,0), size=2, prob=p))
 
-#the risk-neutral expected payoff
+#expected risk-neutral payoff
 (sum(v.T*probs))
 
-#the initial call price
+#discounting
 (v.0=exp(-r*T)*sum(v.T*probs))
 ```
 
@@ -136,39 +142,41 @@ n=2
 Price the option above using Monte Carlo a two period binomial tree. Use $10000$ simulations. 
 
 ```{r}
-#just for laughs
-n.sim=10^6
-
-#first, we want to simulate final stock prices
-#mini-goal:simulate the heights of the final stock prices
-(x=rbinom(n.sim, size=n, prob=p))
-#next, we transform the simulated heights into final stock prices
+#steppingstone: 
+#simulating the heights of the terminal stock prices
+(x=rbinom(n.sim, size=2, prob=p))
+#the simulated stock prices
 (s.T=s0*u^x*d^(n-x))
 
-#the simulated payoffs
-(v.T=pmax(s.T-K,0))
+#simulated payoffs
+(v.T=pmax(s.T-K, 0)) #caveat: it MUST be the pointwise max
 
-#the average of the simulated payoffs
+#averaging the simulated payoffs
 (v.bar=mean(v.T))
 
-#Monte Carlo price
+#discounting
 (v.0.mc=exp(-r*T)*v.bar)
 ```
-
 
 ## Problem #5: Analytic one hundred periods
 Price the above option using a $100-$period binomial tree. 
 
 ```{r}
+#number of periods
 n=100
-(h=T/n)
 
-#factors
-(u=exp(r*h+sigma*sqrt(h)))
-(d=exp(r*h-sigma*sqrt(h)))
+#length of each period
+h=T/n
 
-#risk-neutral probability
-(p=1/(1+exp(sigma*sqrt(h))))
+#define the factors in the forward binomial tree
+u=exp(r*h+sigma*sqrt(h))
+d=exp(r*h-sigma*sqrt(h))
+
+(u)
+(d)
+
+#the risk-neutral probability
+(p=(exp(r*h)-d)/(u-d))
 
 #possible stock prices
 k=n:0
@@ -177,15 +185,11 @@ k=n:0
 #possible payoffs
 (v.T=pmax(s.T-K,0))
 
-#probability of reaching the terminal nodes under the risk-neutral 
-#probability measure
-rn.probs=dbinom(k, size=n, prob=p)
+#their respective probabilities
+(probs=dbinom(k, size=n, prob=p))
 
-#expected risk-neutral payoff
-sum(v.T*rn.probs)
-
-#risk-neutral price
-(v.0=exp(-r*T)*sum(v.T*rn.probs))
+#option price
+(v.0=exp(-r*T)*sum(v.T*probs))
 ```
 
 
@@ -193,21 +197,19 @@ sum(v.T*rn.probs)
 Price the option above using Monte Carlo with a hundred period binomial tree. Use $10000$ simulations. 
 
 ```{r}
-n.sim=10^6
-
-#simulated upsteps
-(x=rbinom(n.sim, size=n, prob=p))
-
-#simulated stock prices
+#steppingstone: 
+#simulating the heights of the terminal stock prices
+(x=rbinom(n.sim, size=100, prob=p))
+#the simulated stock prices
 (s.T=s0*u^x*d^(n-x))
 
 #simulated payoffs
-(v.T=pmax(s.T-K,0))
+(v.T=pmax(s.T-K, 0)) #caveat: it MUST be the pointwise max
 
-#arithmetic average of the simulated payoffs
+#averaging the simulated payoffs
 (v.bar=mean(v.T))
 
-#Monte Carlo price
+#discounting
 (v.0.mc=exp(-r*T)*v.bar)
 ```
 
