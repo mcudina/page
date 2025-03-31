@@ -375,11 +375,14 @@ Approximate confidence intervals for the population proportion. <br>
 ---
 
 **Class 30: March 31st, 2025**<br>
-Confidence intervals for the variance. Confidence intervals for the mean with the variance unknown.<br>
+Confidence intervals for the variance.<br>
 
-<!--
-[Class notes](notes/m378k-nov-08-2024.pdf)
--->
+[Class notes](notes/m378k-mar-31-2025.pdf)
+
+---
+
+**Class 31: April 2nd, 2025**<br>
+Confidence intervals for the mean with the variance unknown.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/William_Sealy_Gosset): William Sealy Gosset 
 
@@ -388,11 +391,6 @@ Confidence intervals for the variance. Confidence intervals for the mean with th
 [t-table](notes/t-table.pdf)
 
 [Homework #9](hw/m378k-hw9-umvue-conf-int-probs.pdf) -- **due on April 11th, 2025**
-
----
-
-**Class 31: April 2nd, 2025**<br>
-
 
 ---
 
