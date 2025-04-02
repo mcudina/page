@@ -514,14 +514,16 @@ Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**<
 
 [Problem packet](problem-sets/m339g-pruning-classification.pdf)
 
-<!--
-[Class notes](notes/m339g-nov-04-2024.pdf): Pruning.
--->
+[Class notes](notes/m339g-apr-02-2025.pdf): Pruning.
 
 [`tree` documentation](https://cran.r-project.org/web/packages/tree/tree.pdf)
 
 [`R`-notebook for class](code/regression-trees.Rmd): Regression trees
 
+
+---
+
+**Class 32: April 4th, 2025**<br>
 Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
@@ -533,9 +535,6 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 
 [Homework #10](hw/m339g-hw10-class-trees.pdf) -- **due on Friday, November 22nd, 2024**
 
----
-
-**Class 32: November 8th**<br>
 Even more on decision trees <span style="color: purple;">**(Sections 8.1.3 and 8.1.4)**</span>.<br>
 
 [Class notes](notes/m339g-nov-08-2024.pdf): Classification trees.
