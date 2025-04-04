@@ -528,19 +528,24 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 
 [Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
 
-[`R`-notebook for class](code/classification-trees.Rmd): Classification trees
+[Class notes](notes/m339g-apr-04-2025.pdf): Classification trees.
 
 <!--
-[Class notes](notes/m339g-nov-06-2024.pdf): Classification trees.
+[Homework #8](hw/m339g-hw8-lda-qda-solns.pdf) -- **solutions**
 -->
 
 [Homework #10](hw/m339g-hw10-class-trees.pdf) -- **due on Friday, April 18th, 2025**
 
+---
+
+**Class 33: April 7th, 2025**<br>
 Even more on decision trees <span style="color: purple;">**(Sections 8.1.3 and 8.1.4)**</span>.<br>
 
 <!--
 [Class notes](notes/m339g-nov-08-2024.pdf): Classification trees.
 -->
+
+[`R`-notebook for class](code/classification-trees.Rmd): Classification trees
 
 [Slides by Hastie & Tibshirani](slides/ch8-single-tree-epilogue.pdf): Tree-based methods pros and cons
 
@@ -551,11 +556,6 @@ Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 [`R`-script from class](code/0-632.R): 0.632 
 
 <!--
-[Homework #8](hw/m339g-hw8-lda-qda-solns.pdf) -- **solutions**
-
----
-
-**Class 33: November 11th**<br>
 Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-random-forests.pdf): Random forests

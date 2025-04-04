@@ -2,7 +2,7 @@
 #a coin is heads (H) or tails (T)
 coin=c("H","T")
 #the command `sample` gives me a pseudo-random choice
-toss=sample(coin, 1)
+(toss=sample(coin, 1))
 
 #now, we create a running frequencies of how many Hs we say
 #first, we create an empty numeric vector
