@@ -411,22 +411,27 @@ Relative efficiency.<br>
 
 [Homework #10](hw/m378k-hw10-conf-int-rel-eff-probs.pdf) -- **due on Friday, April 18th, 2025**
 
----
-
-**Class 33: April 7th, 2025**<br>
-<!--
-
-
----
-
-**Class 34: November 13th**<br>
 Consistency.<br>
 
 [`R`-code](code/frequencies.R)
 
-[Problem Set #16](problem-sets/m378k-ps16-consistency-probs.pdf):  **Problems we will work on in class**
+[Problem Set #18](problem-sets/m378k-ps18-consistency-probs.pdf):  **Problems we will work on in class**
 
-[Problem Set #16](problem-sets/m378k-ps16-consistency-solns.pdf):  **Solutions**
+<!--
+[Problem Set #18](problem-sets/m378k-ps18-consistency-solns.pdf):  **Solutions**
+-->
+
+---
+
+**Class 33: April 7th, 2025**<br>
+
+
+---
+
+**Class 34: April 9th, 2025**<br>
+
+<!--
+
 
 Maximum Likelihood Estimators.<br>
 

@@ -540,6 +540,7 @@ Even more on decision trees <span style="color: purple;">**(Sections 8.1.3 and 8
 
 <!--
 [Class notes](notes/m339g-nov-08-2024.pdf): Classification trees.
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch8-single-tree-epilogue.pdf): Tree-based methods pros and cons
 
@@ -549,6 +550,7 @@ Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 
 [`R`-script from class](code/0-632.R): 0.632 
 
+<!--
 [Homework #8](hw/m339g-hw8-lda-qda-solns.pdf) -- **solutions**
 
 ---
