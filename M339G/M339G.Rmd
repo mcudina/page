@@ -553,13 +553,13 @@ Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 
 [`R`-script from class](code/0-632.R): 0.632 
 
-<!--
 Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-random-forests.pdf): Random forests
 
 [Problem](problem-sets/srm-sample-p39.pdf)
 
+<!--
 [Class notes](notes/m339g-nov-11-2024.pdf): 0.632. Random forests.
 
 Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
