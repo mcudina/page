@@ -539,14 +539,15 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 **Class 33: April 7th, 2025**<br>
 Even more on decision trees <span style="color: purple;">**(Sections 8.1.3 and 8.1.4)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-nov-08-2024.pdf): Classification trees.
--->
+[Class notes](notes/m339g-apr-07-2025.pdf): Classification trees.
 
 [`R`-notebook for class](code/classification-trees.Rmd): Classification trees
 
 [Slides by Hastie & Tibshirani](slides/ch8-single-tree-epilogue.pdf): Tree-based methods pros and cons
 
+---
+
+**Class 34: April 9th, 2025**<br>
 Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-bagging.pdf): Bagging
@@ -573,9 +574,6 @@ More on bagging, random forests, and boosting <span style="color: purple;">**(Se
 [`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
 
 
----
-
-**Class 34: November 13th**<br>
 Lines, planes, hyperplanes.<br>
 
 [Class notes](notes/m339g-apr-15-2024.pdf): Hyperplanes.
