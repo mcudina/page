@@ -629,10 +629,13 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 [Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
 
 [Homework #10](hw/m339g-hw10-class-trees-solns.pdf) -- **solutions**
+-->
 
 [The Final Project](projects/m339g-final-project-probs.pdf) -- **due on Monday, December 16th, 2024**
 
 [The Final Project](projects/m339g-final-project-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+<!--
 
 ---
 
