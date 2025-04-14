@@ -580,21 +580,13 @@ Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 
 [Homework #11](hw/m339g-hw11-more-trees.pdf) -- **due on Friday, April 25th, 2025**
 
-<!--
 More on bagging, random forests, and boosting <span style="color: purple;">**(Section 8.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
 
 Lines, planes, hyperplanes.<br>
 
-[Class notes](notes/m339g-apr-15-2024.pdf): Hyperplanes.
-
-Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
-
-[Class notes](notes/m339g-apr-17-2024.pdf): Hyperplanes. Lagrange multipliers.
--->
+[Class notes](notes/m339g-apr-14-2025.pdf): Lines.
 
 [In-Term Two](exams/m339g-two-topics.pdf): Topics
 
@@ -603,6 +595,12 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 [Practice for In-Term Two](exams/m339g-two-sample-solns.pdf) -- **solutions** 
 
 <!--
+
+Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
+
+[Class notes](notes/m339g-apr-17-2024.pdf): Hyperplanes. Lagrange multipliers.
 
 More on the maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
