@@ -602,16 +602,19 @@ Lines, planes, hyperplanes.<br>
 
 ---
 
-**Class 38: November 22nd**<br>
+**Class 38: April 18th, 2025**<br>
 Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
 
-<!--
-[Class notes](notes/m339g-apr-17-2024.pdf): Hyperplanes. Lagrange multipliers.
+[Class notes](notes/m339g-apr-18-2025.pdf): Hyperplanes. Lagrange multipliers.
 
+---
+
+**Class 39: April 21st, 2025**<br>
 More on the maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-nov-18-2024.pdf): Maximal margin classifier.
 -->
 
@@ -647,9 +650,6 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 <!--
 
----
-
-**Class 39: December 2nd**<br>
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
