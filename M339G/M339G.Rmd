@@ -622,10 +622,13 @@ Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.
 
 <!--
 [Class notes](notes/m339g-nov-20-2024.pdf): Maximal margin classifier.
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
 
+<!--
 [Class notes](notes/m339g-nov-22-2024.pdf): Support vector classifier. 
+-->
 
 More on the support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
@@ -635,6 +638,7 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 [Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
 
+<!--
 [Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
 
 [Homework #10](hw/m339g-hw10-class-trees-solns.pdf) -- **solutions**

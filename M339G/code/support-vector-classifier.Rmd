@@ -27,13 +27,13 @@ a violation to the margin. This argument can vary from 0 to "infinity" (in pract
 
 The `kernel` argument specifies the kind of function to be used to construct the decision boundary. The options are `linear`, `polynomial`, and `radial`.  We’ll first focus on linear kernels where the decision boundary is a straight line.
 
-The `scale` parameter is a Boolean that tells the algorithm whether or not the data points should be scaled to have zero mean and unit variance (i.e. shifted by the mean and scaled by the standard deviation).  Scaling is generally good practice to avoid undue influence of attributes that have unduly large numeric values. This choice requires domain knowledge. 
+The `scale` parameter is a Boolean that tells the algorithm whether or not the data points should be scaled to have zero mean and unit variance (i.e., shifted by the mean and scaled by the standard deviation).  Scaling is generally good practice to avoid undue influence of attributes that have unduly large numeric values. This choice requires domain knowledge. 
 
 We now use the `svm()` function to fit the support vector classifier for a given value of the `cost` parameter.
 Here we demonstrate the use of this function on a two-dimensional example so that we can plot the resulting decision boundary. We begin by generating the observations, which belong to two classes, and checking whether the classes are linearly separable.
 
 ```{r chunk1}
-set.seed(2)
+set.seed(1)
 x <- matrix(rnorm(20 * 2), ncol = 2)
 y <- c(rep(-1, 10), rep(1, 10))
 x[y == 1, ] <- x[y == 1, ] + 2
@@ -67,7 +67,7 @@ Note that the two arguments to the SVM
 The region of feature space that will be assigned to the $-1$ class is shown in light yellow, and the region that will be assigned to the $+1$ class is shown in red.
 The decision boundary between the two classes is linear (because we used the argument `kernel = "linear"`), though due to the
 way in which the plotting function is implemented in this library the decision boundary looks somewhat jagged in the plot. (Note that here the second feature is plotted on the $x$-axis, i.e., the horizontal axis, and the first feature is plotted on the $y$-axis, i.e., the vertical axis in contrast to the behavior of the usual `plot()` function in `R` (and common sense).)
-The support vectors are plotted as crosses and the remaining observations are plotted as circles; we see here that there are eight support vectors. We can determine their identities as follows:
+The support vectors are plotted as crosses and the remaining observations are plotted as circles; we see here that there are three support vectors. We can determine their identities as follows:
 
 ```{r chunk4}
 svmfit$index
@@ -79,7 +79,7 @@ We can obtain some basic information about the support vector classifier fit usi
 summary(svmfit)
 ```
 
-This tells us, for instance, that a linear kernel was used with `cost = 10`, and that there were eight support vectors, four in one class and four in the other.
+This tells us, for instance, that a linear kernel was used with `cost = 10`, and that there were three support vectors, two in one class and one in the other.
 
 What if we instead used a smaller value of the cost parameter?
 
@@ -120,7 +120,7 @@ The `predict()` function can be used to predict the class label on a set of test
 test data set.
 
 ```{r chunk10}
-set.seed(11)
+set.seed(300)
 xtest <- matrix(rnorm(20 * 2), ncol = 2)
 ytest <- sample(c(-1, 1), 20, rep = TRUE)
 xtest[ytest == 1, ] <- xtest[ytest == 1, ] + 1
@@ -150,11 +150,9 @@ find a separating hyperplane using the `svm()` function.
 We first further separate the two classes in our simulated data so that they are linearly separable:
 
 ```{r chunk13}
-x[y == 1, ] <- x[y == 1, ] + 1
 plot(x, col = (y + 5) / 2, pch = 19)
 ```
 
-Now the observations are just barely linearly separable.
 We fit the support vector classifier and plot the resulting hyperplane, using a very large value of `cost` so that no observations are misclassified.
 
 ```{r chunk14}
