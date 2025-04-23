@@ -16,7 +16,7 @@ test=t.test(data)
 test$p.value
 
 #indicator vector of rejections
-n.batches=10000
+n.batches=100000
 ind=numeric(n.batches)
 
 one.batch<-function(){
@@ -26,5 +26,7 @@ one.batch<-function(){
 }
 
 all.batches=replicate(n.batches, one.batch())
+#all.batches
 
 mean(all.batches)
+

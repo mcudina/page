@@ -618,6 +618,9 @@ More on the maximal margin classifier <span style="color: purple;">**(Section 9.
 [Class notes](notes/m339g-nov-18-2024.pdf): Maximal margin classifier.
 -->
 
+---
+
+**Class 40: April 23rd, 2025**<br>
 Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
 <!--
@@ -638,9 +641,9 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 [Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
 
-<!--
 [Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
 
+<!--
 [Homework #10](hw/m339g-hw10-class-trees-solns.pdf) -- **solutions**
 -->
 
@@ -660,9 +663,6 @@ A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.
 
 [`R`-script from class](code/single-hypothesis.R)
 
----
-
-**Class 40: December 4th**<br>
 
 
 [In-Term Two](exams/m339g-two-solns.pdf) -- **solutions** 
