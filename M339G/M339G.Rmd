@@ -637,6 +637,9 @@ More on the support vector classifier <span style="color: purple;">**(Section 9.
 
 [`R`-notebook for class](code/support-vector-classifier.Rmd): Support vector classifier. 
 
+---
+
+**Class 41: April 25th, 2025**<br>
 Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
@@ -655,21 +658,16 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 ---
 
-<!--
 
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
 
+<!--
 [`R`-script from class](code/single-hypothesis.R)
-
-
 
 [In-Term Two](exams/m339g-two-solns.pdf) -- **solutions** 
 
----
-
-**Class 41: December 6th**<br>
 The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-multiple-testing.pdf): Multiple Testing
