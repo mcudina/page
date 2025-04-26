@@ -607,6 +607,8 @@ Forward-start options. Rolling insurance strategy.<br>
 **Class 38: April 18th, 2025**<br>
 Monte Carlo with Black-Scholes pricing. <br>
 
+[Class notes](notes/m339d-apr-18-2025.pdf) 
+
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc.Rmd): Skeleton
 
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc-in-class.Rmd): With in-class code
