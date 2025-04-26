@@ -1,5 +1,5 @@
 ---
-title: "Problem set #15: Black-Scholes Monte Carlo"
+title: "Problem set #13: Black-Scholes Monte Carlo: Solutions"
 author: "Milica Cudina"
 date: "`r Sys.Date()`"
 output: pdf_document
@@ -23,37 +23,35 @@ Consider a stock whose current price is \$100 and whose volatility is $0.25$. We
 #about the stock
 s0=100
 sigma=0.25
+
 #about the call
 T=1
 K=95
 ```
-
 
 ## Problem #1: Analytic Black-Scholes
 Price the option above using the Black-Scholes pricing formula. 
 
 *Solution:*
 ```{r}
-(d.one=(log(s0/K)+(r+sigma^2/2)*T)/sigma/sqrt(T))
+#this is the call
+(d.one=(log(s0/K)+(r+sigma^2/2)*T)/(sigma*sqrt(T)))
 
 (d.two=d.one-sigma*sqrt(T))
 
-n.d.one=pnorm(d.one)
-n.d.two=pnorm(d.two)
+(n.d.one=pnorm(d.one))
+(n.d.two=pnorm(d.two))
 
-v.c=s0*n.d.one-K*exp(-r*T)*n.d.two
-v.c
+(v.c.0=s0*n.d.one-K*exp(-r*T)*n.d.two)
 
-#just for laughs!
-v.p=K*exp(-r*T)*pnorm(-d.two)-s0*pnorm(-d.one)
-v.p
+#just for fun
+(v.p.0=K*exp(-r*T)*pnorm(-d.two)-s0*pnorm(-d.one))
 
 #put-call parity
-(left=v.c-v.p)
-(right=s0-K*exp(-r*T))
-left-right
+(v.c.0-v.p.0)
+(s0-K*exp(-r*T))
+(v.c.0-v.p.0-s0+K*exp(-r*T)==0)
 ```
-
 
 ## Problem #2: Black-Scholes Monte Carlo with $Z$
 Provide the *Monte Carlo* estimate of the price using the simulated draws from the standard normal distribution with 10000 simulations.
@@ -63,24 +61,23 @@ Provide the *Monte Carlo* estimate of the price using the simulated draws from t
 #number of simulated values
 n.sims=10^5
 
-#drawing the standard normal values
+#drawing the simulations from N(0,1)
 z.s=rnorm(n.sims)
 #hist(z.s)
 
-#Black-Scholes model
+#simulated stock prices
 s.T=s0*exp((r-sigma^2/2)*T+sigma*sqrt(T)*z.s)
 #hist(s.T)
 
-#the simulated payoffs
+#simulated payoffs
 v.T=pmax(s.T-K,0)
 #hist(v.T)
 
-#average simulated payoff
+#average of the simulated payoffs
 (v.bar=mean(v.T))
 
 #discounting to get the Monte Carlo price
-v.mc.c=exp(-r*T)*v.bar
-v.mc.c
+(v.c.mc=exp(-r*T)*v.bar)
 ```
 
 
@@ -94,17 +91,16 @@ mu=r-sigma^2/2
 
 #simulated stock prices
 s.T=s0*rlnorm(n.sims, meanlog=mu*T, sdlog=sigma*sqrt(T))
-#hist(s.T)
+hist(s.T, prob=TRUE, ylim=c(0, dlnorm(100, meanlog=log(s0)+mu*T, sdlog=sigma*sqrt(T))))
 
-#the simulated payoffs
-v.T=pmax(s.T-K,0)
-#hist(v.T)
+#just for laughs - superimpose the lognormal density
+curve(dlnorm(x,meanlog=log(s0)+mu*T, sdlog=sigma*sqrt(T)), col="blue", add=TRUE)
 
-#average simulated payoff
-(v.bar=mean(v.T))
+#back to pricing
+#simulated payoffs
+v.T=pmax(s.T-K, 0)
 
-#discounting to get the Monte Carlo price
-v.mc.c=exp(-r*T)*v.bar
-v.mc.c
+#the Monte Carlo price
+(v.mc=exp(-r*T)*mean(v.T))
 ```
 
