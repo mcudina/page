@@ -611,6 +611,8 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 
 [Class notes](notes/m339g-apr-18-2025.pdf): Hyperplanes. Lagrange multipliers.
 
+[Homework #10](hw/m339g-hw10-class-trees-solns.pdf) -- **solutions**
+
 ---
 
 **Class 39: April 21st, 2025**<br>
@@ -648,9 +650,6 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 [Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
 
-<!--
-[Homework #10](hw/m339g-hw10-class-trees-solns.pdf) -- **solutions**
--->
 
 ---
 
