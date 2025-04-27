@@ -642,6 +642,7 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 [Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
 
+[Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
 
 ---
 
@@ -651,12 +652,11 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 ---
 
-
+**Class 42: April 28th, 2025**<br>
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
 
-<!--
 [`R`-script from class](code/single-hypothesis.R)
 
 
@@ -664,11 +664,6 @@ The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)*
 
 [Slides by James & Witten](slides/ch13-multiple-testing.pdf): Multiple Testing
 
-[Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
-
----
-
-**Class 42: December 9th**<br>
 The False Discovery Rate <span style="color: purple;">**(Section 13.4)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-false-discovery-rate.pdf): False Discovery Rate
@@ -679,6 +674,7 @@ A [blog post](https://fivethirtyeight.com/features/science-isnt-broken/#part1) o
 
 ---
 
+<!--
 Odds and Ends.<br>
 
 Review of categorical predictors and logistic regression.<br>
