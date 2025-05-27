@@ -58,6 +58,7 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
+<!--
 **Class 1: January 13th**<br>
 Orientation. <br>
 
@@ -529,7 +530,6 @@ Log-normal stock prices: Parameter interpretation.<br>
 [Class notes](notes/m339d-nov-13-2024.pdf): Lognormal stock prices: Mean. Median. 
 
 [Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks-solns.pdf): **Solutions**
--->
 
 **(Enrichment material)** [Lecture notes](lectures/m339w-on-pricing.pdf): On pricing in the Black-Scholes model with continuous dividends. 
 
@@ -644,9 +644,8 @@ Delta-hedging. <br>
 
 [Class notes](notes/m339d-apr-25-2025.pdf) 
 
-<!--
 [Class notes](notes/m339d-dec-09-2024.pdf) 
--->
+
 [Extra Homework #13](hw/m339d-hw13-delta.pdf) -- **not to be handed in**
 
 [Extra Homework #13](hw/m339d-hw13-delta-solns.pdf) -- **solutions**

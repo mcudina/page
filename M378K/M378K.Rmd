@@ -18,11 +18,14 @@ output: html_document
 
 **Important external links**
 
-[Cornell Notes](http://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
+[Cornell Notes](http://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/): Advice on how to efficiently take written notes
 
-[Lecture notes](https://web.ma.utexas.edu/users/gordanz/lecture_notes_page.html)
+[Lecture notes](https://web.ma.utexas.edu/users/gordanz/lecture_notes_page.html): Required reading for this course
 
 ---
+
+
+<!--
 
 **Class 1: January 13th**<br>
 Orientation. <br>
@@ -509,12 +512,10 @@ Problem-solving session.<br>
 
 ---
 
-<!--
 [The Final Exam](exams/m362k-final-topics.pdf): Topics
--->
 
 [Practice for the Final Exam](exams/m378k-final-sample-probs.pdf) -- **problems** 
 
 [Practice for the Final Exam](exams/m378k-final-sample-solns.pdf) -- **solutions** 
-
+-->
 
