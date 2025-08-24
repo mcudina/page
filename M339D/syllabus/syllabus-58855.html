@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content />
 
 
-<title>Introduction to Financial Mathematics for Actuaries (M339D=M389D)</title>
+<title>M339D/M389D Syllabus</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,987 +349,698 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Introduction to Financial Mathematics for
-Actuaries (M339D=M389D)</h1>
+<h1 class="title toc-ignore">M339D/M389D Syllabus</h1>
+<h4 class="author"></h4>
 
 </div>
 
 
 <style>
-hr {
-position: relative; top: 20px; border: none; height: 2px; background: black; margin-bottom: 50px; }
+body {
+text-align: justify}
 </style>
+<div id="m339dm389d-introduction-to-financial-mathematics-for-actuaries---fall-2025---syllabus" class="section level1">
+<h1>M339D/M389D: Introduction to Financial Mathematics for Actuaries -
+Fall 2025 - Syllabus</h1>
+<div id="course-specific-information" class="section level3">
+<h3>COURSE-SPECIFIC INFORMATION</h3>
+<p>Welcome to M339D/M389D! Here is some information and some ground
+rules. Read carefully and let me know if there is anything unclear
+<strong>by the twelfth day of classes, i.e., September 10th,
+2025</strong>.</p>
 <hr />
-<p><strong>Important external links</strong></p>
-<p><a href="http://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/">Cornell
-Notes</a></p>
-<p><a href="https://www.soa.org/globalassets/assets/files/edu/edu-guide-to-written-exam.pdf">Guide
-to the SoA written exams</a></p>
-<p>A MOOC: <a href="https://www.edx.org/course/introduction-actuarial-science-anux-anu-actuarialx-1">Intro
-to Actuarial Science</a></p>
-<p><a href="https://diginole.lib.fsu.edu/islandora/object/fsu:717221">An
-open-resource text</a></p>
-<p><a href="https://www.desmos.com/">Desmos</a>: An online graphing and
-scientific calculator</p>
+</div>
+<div id="basic-info" class="section level3">
+<h3>Basic info</h3>
+<p><strong>Course number.</strong> M339D/M389D (unique: 58855/59205)</p>
+<p><strong>Course meets.</strong> MWF 12noon - 12:50pm in PMA 5.120</p>
+<p><strong>Instructor.</strong> <span style="color: blue;">Milica
+Čudina</span>; my office is PMA 13.142 (2515 Speedway, Austin, TX
+78712).</p>
+<p><strong>Email.</strong> It’s best to use Canvas to email me; my email
+address is <a href="mailto:mcudina@math.utexas.edu" class="email">mcudina@math.utexas.edu</a>.</p>
+<p><strong>Office Hours.</strong> MWF 10am-10:50am in PMA 13.142.</p>
 <hr />
-<p><strong>Lecture notes and the like</strong></p>
-<p><a href="https://mcudina.github.io/rbook/">Materials on R</a></p>
+</div>
+<div id="course-info" class="section level3">
+<h3>Course info</h3>
+<p><strong>Course description.</strong> This course is intended to
+provide the <strong>mathematical foundations</strong> necessary to
+prepare for a portion of the <a href="https://www.soa.org/education/exam-req/edu-exam-fam/study/">SOA
+Exam FAM</a>. Additionally, the course is aimed at building the
+vocabulary and the techniques indispensable in the workplace at current
+financial and insurance institutions.<strong>This is not an exam-prep
+seminar. There is intellectual merit to the course beyond the ability to
+prepare for a professional exam.</strong></p>
+<p>The material exhibited includes: basic risk management, forward
+contracts, European call/put options, the binomial asset pricing model
+and its application to option pricing, the Black-Scholes pricing
+formula, delta-hedging, and Monte-Carlo simulations.</p>
+<p>The remainder of the Exam FAM curriculum is exhibited in courses
+M339J and M339U (also offered by the Department of Mathematics).</p>
+<p><strong>Learning outcomes.</strong></p>
+<ul>
+<li><p>Familiarity with the basics of the programming language
+<code>R</code> and the RStudio IDE.</p></li>
+<li><p>Using <code>R</code> to simulate random variables.</p></li>
+<li><p>Getting acquainted with the basics of financial markets.</p></li>
+<li><p>Coding simple investment strategies in <code>R</code>.</p></li>
+<li><p>Actively using the vocabulary associated with basic options and
+risk management in financial markets.</p></li>
+<li><p>Getting introduced to the mathematical notion of
+arbitrage.</p></li>
+<li><p>Constructing a well-defined binomial asset pricing
+model.</p></li>
+<li><p>Mastering pricing by replication in the binomial asset pricing
+model.</p></li>
+<li><p>Linking the study of financial markets to that of classical
+insurance.</p></li>
+<li><p>Developing an understanding of the dynamics of stock prices,
+focusing on the renowned Black-Scholes model.</p></li>
+<li><p>Generalizing the risk-neutral pricing principle established in a
+discrete setting to the continuous model, namely, the Black-Scholes
+model.</p></li>
+<li><p>Generalizing the concept of sensitivity to perturbations of a
+single input encountered in calculus to the portfolio-price
+environment.</p></li>
+<li><p>Contrasting the theoretical results to the real-life behavior of
+financial markets.</p></li>
+</ul>
+<p><em>Plagiarism and Academic Integrity.</em> Using someone else’s or
+AI-created work in your own writing without giving proper credit is
+considered plagiarism, a serious form of academic dishonesty that can
+result in severe penalties. Copying someone else’s work, buying a paper
+and submitting it as your own, copying and pasting text (even with
+changes), or borrowing images from an online source, are some examples
+of plagiarism. Even if you plagiarize accidentally, you can be held
+responsible and penalized.</p>
+<p>Learning to cite sources appropriately is an important part of
+becoming a professional. When you are unsure about citation, you are
+encouraged to ask me what is appropriate in the context of your
+assignment. Consultants at The University Writing Center can also help
+you determine whether you are citing sources correctly—and they have
+helpful guides online for using direct quotations and paraphrasing.
+Reviewing those skills will help you feel confident that you are
+handling sources professionally in your writing.</p>
+<p>You can read the University’s definition of plagiarism and other
+forms of academic dishonesty in Sec. 11–402 of the Student Conduct Code.
+For more information, visit the Dean of Students’ site.</p>
+<p><em>Plagiarism Detection Software.</em> While I might use software to
+detect plagiarism, such as a tool that compares submitted material to an
+archived database of published work, other methods may also be used to
+determine if a paper is the student’s original work. Regardless of the
+results of running any software, I will make the final determination as
+to whether or not a paper has been plagiarized.</p>
+<p><strong>Prerequisites.</strong> The formal prerequisite is the grade
+C- or better in M362K and M329F. Students are assumed to be at home with
+the basics of probability as presented in, e.g., Ross’s <a href="https://www.pearson.com/en-us/subject-catalog/p/Ross-First-Course-in-Probability-A-10th-Edition/P200000006334/9780137504589">First
+Course in Probability</a>, Pitman’s <a href="https://www.springer.com/us/book/9780387979748">Probability</a> or
+Asimow and Maxwell’s <a href="https://books.google.com/books/about/Probability_and_Statistics_with_Applicat.html?id=ZL3QQZsp6DAC">Probability
+and Statistics with Applications</a>. Students are also assumed to be
+proficient in the time-value-of-money calculations both with effective
+and continuously compounded interest rates.</p>
+<p>Students are <strong>not</strong> assumed to have any prior
+programming experience and the basics of <code>R</code> will be covered
+from scratch.</p>
+<p>It should be stressed that this course is more sophisticated
+mathematically than is evident at first glance. I want you to be
+successful in this course, and for that to happen, a thorough
+understanding of probability and skillful application of notions from
+interest theory are necessary.</p>
+<p><strong>Lectures online.</strong> This class is using the
+<em>Lectures Online</em> recording system. This system records the audio
+and video material presented in class for you to review after class.
+Links for the recordings will appear in the <em>Lectures Online</em> tab
+on the Canvas page for this class. You will find this tab along the left
+side navigation in Canvas.</p>
+<p>To review a recording, simply click on the Lectures Online navigation
+tab and follow the instructions presented to you on the page. You can
+learn more about how to use the Lectures Online system at <a href="http://sites.la.utexas.edu/lecturesonline/students/how-to-access-recordings/" class="uri">http://sites.la.utexas.edu/lecturesonline/students/how-to-access-recordings/</a>.</p>
+<p>You can find additional information about Lectures Online at: <a href="https://sites.la.utexas.edu/lecturesonline/" class="uri">https://sites.la.utexas.edu/lecturesonline/</a>.</p>
+<p><strong>Class format and attendance.</strong> Attendance for the
+purposes of grading will <strong>not</strong> be taken. However, regular
+attendance is strongly recommended. In case you need to be absent, you
+are responsible for covering the missed material independently. Class
+notes will be provided on the course website. As noted above, we will be
+using the <em>Lectures Online</em> recording system. There will be
+<strong>no</strong> synchronous online option for this course. You are
+strongly encouraged to stay home if you are sick or contagious, not only
+to stop the spread of disease but also to promote your personal
+wellness. I view this class as a community of learners. We cannot learn
+effectively when we are ill. Please, take care of yourselves and your
+classmates.</p>
+<p>Here are some <a href="https://healthyhorns.utexas.edu/coronavirus.html">university
+resources</a> on COVID-19.</p>
+<p>If <strong>students</strong> are isolating, too sick to attend class,
+or experiencing another type of absence, they should:</p>
+<ul>
+<li>contact the <a href="https://deanofstudents.utexas.edu/sos/how-we-can-help.php">Student
+Emergency Services</a> immediately, and</li>
+<li>email the instructor as soon as they feel well enough to do so.</li>
+</ul>
+<p>If the <strong>instructor</strong> is isolating, or too sick to
+attend class, she will do her best to change class modality to Zoom (or
+find an alternative instructor if the situation calls for such drastic
+measures and if it’s possible).</p>
+<p>The class meetings consist of interactive lectures, coding
+demonstrations, and problem solving. In short, the course will
+incorporate a lot of active learning in class. Thus, if you miss class,
+you miss out on these learning opportunities. Please, come to class as
+much as possible.</p>
+<p><strong>Textbook.</strong> There is no required textbook.</p>
+<p><strong>Required devices.</strong> You will need access to a computer
+to be able to work on projects and homework. Please have your computer
+(or another device capable of running <code>R</code>) available in the
+exams as well.</p>
+<p><strong>Online resources.</strong></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Course website</strong>: <a href="https://mcudina.github.io/page/M339D/M339D.html" class="uri">https://mcudina.github.io/page/M339D/M339D.html</a>. I
+recommend bookmarking this course site in your default browser for easy
+access.</p></li>
+<li><p><strong>Canvas</strong> will be used in this course to keep track
+of grades and for communication purposes. You are responsible for the
+content of these announcements. The easiest way not to miss any is to
+turn on (i.e., not turn off) <em>Announcements</em> in your account’s
+<em>Notification</em> menu.</p></li>
+<li><p><strong>Ed Discussion</strong> will be used for informal class
+discussion. The system is highly catered to getting you help fast and
+efficiently from classmates and myself. Rather than emailing questions
+to the instructor, I encourage you to post your questions on Ed
+Discussion. It is accessible via the menu on the left-hand side in
+Canvas.</p></li>
+</ol>
+<p><strong>Sharing of Course Materials is Prohibited.</strong> No
+materials used in this class, including, but not limited to, lecture
+hand-outs, videos, assessments (quizzes, exams, papers, projects,
+homework assignments), in-class materials, review sheets, and additional
+problem sets, may be shared online or with anyone outside of the class
+unless you have my explicit, written permission. Unauthorized sharing of
+materials promotes cheating. It is a violation of the University’s
+Student Honor Code and an act of academic dishonesty. Any materials
+found online that are associated with you, or any suspected unauthorized
+sharing of materials, will be reported to Student Conduct and Academic
+Integrity in the Office of the Dean of Students. These reports can
+result in sanctions, including failure in the course.</p>
+<p><strong>Class Recordings.</strong> Class recordings are reserved only
+for students in this class for educational purposes and are protected
+under FERPA. The recordings should not be shared outside the class in
+any form. Violation of this restriction by a student could lead to
+Student Misconduct proceedings.</p>
 <hr />
-<p><strong>A few “shortcuts” for R and RStudio</strong></p>
-<p>Here are some resources I created for <em>Applied Statistics</em>.
-They will be useful in this course as well and can be used in
-conjunction with our lecture notes.</p>
-<p><a href="https://www.r-project.org/">R (main website)</a></p>
-<p><a href="https://rstudio.com/">RStudio (main website)</a></p>
-<p><a href="instructions/m358k-R-instructions.html">The instructions
-slideshow</a></p>
-<p><a href="instructions/m358k-basic-R.html">The basic R
-slideshow</a></p>
-<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf">The
-basic R “cheatsheet”</a></p>
-<p><a href="https://www.datamentor.io/r-programming/if-else-statement/">If …
-else</a></p>
-<p><a href="https://www.tutorialspoint.com/r/r_functions.htm">A tutorial
-on functions in R</a></p>
-<p><a href="https://r-coder.com/working-directory-r/">Working directory
-in <code>R</code></a></p>
+</div>
+<div id="assessment-and-grading" class="section level3">
+<h3>Assessment and grading</h3>
+<p><strong>Homework assignments.</strong> Homework assignments will be
+available on the course website or in Canvas. You will be uploading your
+solutions using Canvas. Please, have your solutions in order and number
+the pages.</p>
+<p>Know that prepping for exams is not the <em>sole</em> purpose of
+homework assignments. Occasionally, your homework will contain problems
+that could not be solved under that time limitations of an in-class exam
+and that include material complementary to that covered in class and
+requiring more thoughtful solutions.</p>
+<p><span style="color: blue;">Having read and understood this First-Day
+Handout in its entirety will count as a <strong>part</strong> of the
+zeroth homework assignment. To get the credit, read this entire document
+with understanding by the homework deadline. Not handing in this
+assignment does not exempt you from abiding by this First-Day
+Handout.</span> <strong>The lowest three homework scores will be
+dropped. The homework assignments and their due dates will be announced
+as the term progresses.</strong></p>
+<p><strong>Projects.</strong> There will be <strong>five</strong>
+in-term group projects and one <strong>individual final
+project</strong>. The formulations and due dates for the group projects
+will be available on the course website. The nature and content of the
+projects will be described in more detail as new techniques are
+introduced. Every group-project will be done as part of a self-assigned
+group of students and require critical thinking and drawing logical
+conclusions.</p>
+<p>The projects are designed to include open-ended problems which do not
+necessarily have a unique final answer. For that reason, there is
+<strong>no</strong> checklist-type rubric for the projects.</p>
+<p><span style="color: red;">No late projects or homework are accepted
+except in dire circumstances at the sole discretion of the
+instructor.</span></p>
+<p><strong>In-term exams.</strong> There will be two in-term exams. Both
+will be individual and conducted in-person in our classroom.</p>
+<p>The exam coverage will be shared on the course website ahead of the
+exam itself. Likewise, you will be given access to practice questions.
+The exams draw heavily on the FAM exam questions while maintaining
+intellectual robustness you are familiar with from prior math classes.
+As such, they consist of a mixture of definitions, qualitative
+questions, free-response problems, and multiple-choice questions.</p>
+<p>If you miss an exam due to illness or other extenuating
+circumstances, the final project will take the weight of the in-term
+exam you missed. If you miss more than one in-term exam, you are
+strongly encouraged to seek assistance from the Office of the Dean of
+Students to explore what your options are in such a dire situation.</p>
+<p>Each in-term exam will consist of the following three components:</p>
+<ul>
+<li>the pre-exam quiz (20 points)</li>
+<li>the in-class exam (65 points)</li>
+<li>the post-exam reflection (15 points)</li>
+</ul>
+<p><strong>The Final Exam.</strong> This course does not have a final
+exam.</p>
+<p><strong>The Final Paper.</strong> You will be required to complete
+and submit an <strong>expository</strong> final paper on a math topic
+chosen from the list of topics provided on the course website. Your
+paper is <strong>not</strong> intended to be original research or
+include data analysis. Likewise, it is <strong>not</strong> to include
+descriptions of your personal experiences or opinions.</p>
+<p>You will be provided with an excellent example of a prior student’s
+work with the correct structure, approach, and an appropriate level of
+mathematical difficulty.</p>
+<p>Along the way, you will be required to reach the following
+checkpoints in a timely manner:</p>
+<ol style="list-style-type: decimal">
+<li><p>Within the <em>first two weeks</em> of classes you will
+<strong>choose your topic</strong>. If you need more background
+information, please contact me.</p></li>
+<li><p>Within the <em>first six weeks</em> of classes you will create a
+comprehensive list of at least <strong>five resources</strong>. These
+may be reputable websites, books, or journals. If you need help vetting
+your resources, please contact me.</p></li>
+<li><p>Within the <em>first ten weeks</em> of classes you will write the
+first draft of your paper. If you need advice on how to divide your work
+into manageable pieces and tackle them in a sensible order, please
+contact me.</p></li>
+<li><p>By the end of classes, your instructor will provide feedback
+polishing your work and improving it in an incremental manner.</p></li>
+<li><p>Your final paper will be due by midnight on the
+Registrar-mandated date of your final exam. This semester it is
+<strong>Thursday, December 11th, 2025.</strong></p></li>
+</ol>
+<p><strong>Final grade.</strong> The final grade is composed as
+follows:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Percentage of final grade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Homework</td>
+<td>10%</td>
+</tr>
+<tr class="even">
+<td>Group projects</td>
+<td>40% (8% each)</td>
+</tr>
+<tr class="odd">
+<td>In-term exams</td>
+<td>20% (10% each)</td>
+</tr>
+<tr class="even">
+<td>The final paper</td>
+<td>30%</td>
+</tr>
+</tbody>
+</table>
+<p>There is <em>no curve</em> in this class and the letter grades are
+assigned according to the following table:</p>
+<table>
+<colgroup>
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>A</th>
+<th>A-</th>
+<th>B+</th>
+<th>B</th>
+<th>B-</th>
+<th>C+</th>
+<th>C</th>
+<th>C-</th>
+<th>D+</th>
+<th>D</th>
+<th>D-</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>94-100</td>
+<td>90-94</td>
+<td>86 - 90</td>
+<td>82 - 86</td>
+<td>78 - 82</td>
+<td>74 - 78</td>
+<td>70 - 74</td>
+<td>65 - 70</td>
+<td>60 - 65</td>
+<td>55 - 60</td>
+<td>50 - 55</td>
+</tr>
+</tbody>
+</table>
 <hr />
-<p><strong>Class 1: August 25th, 2025</strong><br> Orientation. <br></p>
-<p><a href="pics/bilbo.jpeg">A role model</a></p>
-<p><a href="syllabus/syllabus-58855.html">First-Day Handout</a></p>
-<p><a href="http://books.google.com/books?id=8FgF3dOoUVsC&amp;lpg=PA49&amp;ots=UU208Gu6pv&amp;dq=pigg%20vioos&amp;pg=PA49#v=onepage&amp;q=pigg%20vioos&amp;f=false">Funny</a></p>
-<p><a href="lectures/m339d-prerequisite-topics.pdf">Important
-prerequisite topics</a>: A checklist of the prerequisite material.</p>
-<!--
-[Possible final-project topics](projects/m339d-final-menu.pdf)
-
----
-
-**Class 2: January 15th**<br>
-Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
-
-[Console printout](notes/console.txt)
-
-[The R-script from class](code/first-script.R)
-
-[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 24th, 2025**
-
----
-
-**Class 3: January 17th**<br>
-`For` loops. Functions in R. `If ... else` in R.
-`R`-notebooks.<br> 
-
-[The R-notebook from class](code/first-notebook.Rmd)
-
-[Problem Set #1](code/m339d-ps1.Rmd):  **Problems we will work on in class**
-
-[Problem Set #1](problem-sets/m339d-ps1-in-class.Rmd): **Solutions from class**
-
-Background. 
-
-[Lecture One](lectures/m339d-lecture-one-background.pdf): Background.
-
----
-
-**Class 4: January 22nd**<br>
-Prerequisite review.<br>
-
-[Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems we will work on in class**
-
-[Class notes](notes/m339d-sept-04-2024.pdf) 
-
-[Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
-
-[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, January 31st, 2025**
-
----
-
-**Class 5: January 24th**<br>
-Standing assumptions and conventions. Risky assets. 
-Transaction costs. <br>
-
-[Lecture Two](lectures/m339d-lecture-two-transaction-costs.pdf): Transaction Costs
-
-[Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
-
-[Class notes](notes/m339d-standing-assumptions.pdf) 
-
-Historical returns of stocks.<br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
-
-[Microsoft Data](data/MSFT.csv)
-
-[The R-notebook for class](code/m339d-msft-probs.Rmd)
-
-[The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
-
-
-[Class notes](notes/m339d-mm.pdf) 
-
-[The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
-
-[Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
-
----
-
-**Class 6: January 27th**<br>
-Outright purchase. Short sales.<br>
-
-[Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
-
-[Class notes](notes/m339d-purchase-short-sale.pdf)
-
-[Alphabet data](data/goog.csv)
-
-[Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
-
-[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, February 17th, 2025**
-
-[Project #1](projects/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
-
-**Class 7: January 29th**<br>
-On portfolios. 
-
-[The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
-
-[The R-notebook from class](code/m339d-project1-variation-in-class.Rmd): **Complete solutions**
-
-Payoff and profit.<br>
-
-[Class notes](notes/m339d-static-portfolios.pdf) 
-
----
-
-**Class 8: January 31st**<br>
-Payoff and profit curves. Long/short positions.<br>
-
-[Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
-
-[Class notes](notes/m339d-jan-31-2025.pdf) 
-
-[Homework #2](hw/m339d-hw2-prereq-solns.pdf) -- **solutions**
-
-[Homework #3](hw/m339d-hw3.pdf) -- **due on Friday, February 7th, 2025**
-
----
-
-**Class 9: February 3rd**<br>
-Basic risk management. Forward contracts.<br>
-
-[Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration.pdf):  **Problems**
-
-[Problem Set #3](problem-sets/m339d-ps3-forwards-inspiration-solns.pdf):  **Solutions**
-
-[Class notes](notes/m339d-feb-03-2025.pdf) 
-
-[Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
-
----
-
-**Class 10: February 5th**<br>
-Hedging using forward contracts.<br>
-
-[Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
-
-[Class notes](notes/m339d-feb-05-2025.pdf) 
-
-[Problem Set #4](problem-sets/m339d-ps4-forwards.pdf):  **Problems**
-
-[Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
-
-[Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, February 14th, 2025**
-
----
-
-**Class 11: February 7th**<br>
-European call options.<br>
-
-[Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
-
-[Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
-
-[Class notes](notes/m339d-feb-07-2025.pdf) 
-
-[Homework #3](hw/m339d-hw3-solns.pdf) -- **solutions**
-
----
-
-**Class 12: February 10th**<br>
-More on European call options.<br>
-
-[Class notes](notes/m339d-feb-10-2025.pdf) 
-
-[Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
-
-[Homework #5](hw/m339d-hw5-calls.pdf) -- **due on Friday, February 21st, 2025**
-
-[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for the last problem in the project**
-
-[Dow data](data/dow.csv)
-
-[Dow futures data](data/dow-futures.csv)
-
-[Apple call data](data/apple-calls.csv)
-
-[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, March 3rd, 2025**
-
-[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
-
-**Class 13: February 12th**<br>
-European put options. Moneyness.<br>
-
-[Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
-
-[Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
-
-[Class notes](notes/m339d-feb-12-2025.pdf) 
-
-[Problem Set #6](problem-sets/m339d-ps6-puts-solns.pdf):  **Solutions**
-
-[Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, February 28th, 2025**
-
-**(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
-
----
-
-**Class 14: February 14th**<br>
-Finite probability spaces [revisited]. Arbitrage portfolios. Law of the Unique Price. <br>
-
-[Class notes](notes/m339d-feb-14-2025.pdf) 
-
-**(An interesting read)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
-
-**(Another interesting read)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
-
-[Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
-
----
-
-**Class 15: February 17th**<br>
-Mock exam.<br>
-
-[Mock Exam](exams/m339d-mock-exam-probs.pdf) -- **problems** 
-
-[Mock Exam](exams/m339d-mock-exam-solns.pdf) -- **solutions**
-
----
- 
-**Class 16: February 19th, 2025**<br>
-Derivative securities. Replicating portfolios. Equity-linked contracts. <br>
-
-**(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
-
-[Problem packet](problem-sets/m339d-equity-linked.pdf)
-
-[Class notes](notes/m339d-feb-19-2025.pdf) 
-
-**(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
-
----
-
-**Class 17: February 21st, 2025**<br>
-Put-call parity.<br>
-
-[Problem packet](problem-sets/m339d-parity-no-div.pdf)
-
-[Class notes](notes/m339d-feb-21-2025.pdf) 
-
-**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
-
-[Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
-
----
-
-**Class 18: February 24th, 2025**<br>
-Chooser options.<br>
-
-[Problem](problem-sets/m339d-chooser.pdf)
-
-[Class notes](notes/m339d-feb-24-2025.pdf) 
-
-**(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
-
-**(Enrichment material)** [Lecture Thirteen](lectures/m339d-lecture-13-exchange-options.pdf): Exchange options
-
-**(Enrichment material)** [Lecture Fourteen](lectures/m339d-lecture-14-bounds-bull-spreads.pdf): Call/put-price bounds. Bull spreads.
-
-**(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
-
----
-
-**Class 19: February 26th, 2025**<br>
-Random number generation.<br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
-
-[Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister): Mersenne twister
-
-[An atmospheric RNG](https://www.random.org/)
-
-Inverse-Transform Method.<br>
-
-[Problem set #7](problem-sets/m339d-ps7-inverse-transform-probs.pdf): Problems
-
-[Class notes](notes/m339d-feb-26-2024.pdf) 
-
-[Problem set #7](problem-sets/m339d-ps7-inverse-transform-solns.pdf): Solutions
-
-Acceptance-Rejection Method.<br>
-
-[Class notes](notes/m339d-acc-rej.pdf) 
-
-[In-Term One](exams/m339d-one-topics.pdf): Topics
-
-[Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
-
-[Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions**
-
-[Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, March 7th, 2025**
-
----
-
-**Class 20: February 28th, 2025**<br>
-The Strong Law of Large Numbers. Monte Carlo simulations.<br>
-
-[Class notes](notes/m339d-feb-28-2025.pdf) 
-
-[Problem Set #8](problem-sets/m339d-ps8-mc.Rmd)
-
-[Problem Set #8](problem-sets/m339d-ps8-mc-in-class.Rmd): **Solutions**
-
-[Apple put data](data/apple-puts.csv)
-
-[Project #3](projects/m339d-project3-probs.pdf) -- **due on Monday, March 24th, 2025**
-
-[Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-[Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
-
----
-
-**Class 21: March 3rd**<br>
-The binomial asset-pricing model.<br>
-
-**(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
-
-Realized returns of stocks. Forward trees.  <br>
-
-[Class notes](notes/m339d-mar-03-2025.pdf) 
-
----
-
-**Class 22: March 5th, 2025**<br>
-More on forward binomial trees. Binomial option pricing: Pricing by replication.<br>
-
-[Class notes](notes/m339d-mar-05-2025.pdf) 
-
----
-
-**Class 23: March 7th, 2025**<br>
-More on binomial option pricing.<br>
-
-[Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
-
-[Class notes](notes/m339d-mar-07-2025.pdf) 
-
-[Homework #7](hw/m339d-hw7-parity-solns.pdf) -- **solutions**
-
-[Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 14th, 2025**
-
----
-
-**Class 24: March 10th, 2025**<br>
-Binomial option pricing: Risk-neutral probability.<br>
-
-[Class notes](notes/m339d-mar-10-2025.pdf) 
-
-[Problem Set #9](problem-sets/m339d-ps9-bin-pricing-solns.pdf): **Solutions**
-
-**(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
-
-**(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
-
----
-
-**Class 25: March 12th, 2025**<br>
-<span style="color: red;">**In-Term One**</span><br>
-
-[In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
-
----
-
-**Class 26: March 14th, 2025**<br>
-Binomial option pricing: Two periods.<br>
-
-[Problem Set #10](problem-sets/m339d-ps10-two-periods-probs.pdf): **Problems**
-
-[Class notes](notes/m339d-mar-14-2025.pdf) 
-
-Multiple binomial periods. <br>
-
-[Class notes](notes/m339d-mar-24-2025.pdf) 
-
-[Problem Set #10](problem-sets/m339d-ps10-two-periods-solns.pdf): **Solutions**
-
-[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
-
-[Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, March 28th, 2025**
-
----
-
-**Class 27: March 24th, 2025**<br>
-Monte Carlo for binomial option pricing. <br>
-
-[Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs.Rmd)
-
-[Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class.Rmd): Part I
-
-[Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class-contd.Rmd): Part II
-
----
-
-**Class 28: March 26th, 2025**<br>
-Review of the normal distribution.<br>
-
-[Standard normal table](notes/std-normal-table.pdf)
-
-[Class notes](notes/m339d-mar-26-2025.pdf) 
-
-[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, April 4th, 2025**
-
----
-
-**Class 29: March 28th, 2025**<br>
-The normal approximation to the binomial.<br>
-
-[Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
-
-[Problem Set #12](problem-sets/m339d-ps12-dML-probs.pdf): **Problems**
-
-[Class notes](notes/m339d-mar-28-2025.pdf) 
-
-[Class notes](notes/m339d-mar-31-2025.pdf) 
-
-[Problem Set #12](problem-sets/m339d-ps12-dML-solns.pdf): **Solutions**
-
-[Apple parity](data/apple-parity.csv)
-
-[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 14th, 2025**
-
-[Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-[Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
-
----
-
-**Class 30: March 31st, 2025**<br>
-The limiting behavior of stock prices. More on realized returns.<br> 
-
-[Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
-
-[Class notes](notes/m339d-apr-02-2025.pdf) 
-
----
-
-**Class 31: April 2nd, 2025**<br>
-Moment generating functions. The log-normal distribution. Jensen's inequality.<br>
-
-[Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
-
-[Class notes](notes/m339d-apr-04-2025.pdf): mgf. The log-normal distribution. Jensen's inequality.
-
-[The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
-from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Chris Boucher 
-
-[Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
-
-
----
-
-**Class 32: April 4th**<br>
-Log-normal stock prices: Parameter interpretation.<br>
-
-[Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks.pdf): **Problems**
-
-<!--
-[Class notes](notes/m339d-nov-13-2024.pdf): Lognormal stock prices: Mean. Median. 
-
-[Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks-solns.pdf): **Solutions**
-
-**(Enrichment material)** [Lecture notes](lectures/m339w-on-pricing.pdf): On pricing in the Black-Scholes model with continuous dividends. 
-
-[Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
-
-[Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, April 11th, 2025**
-
----
-
-**Class 33: April 7th, 2025**<br>
-Log-normal stock prices: Tail probabilities.<br>
-
-[Class notes](notes/m339d-apr-07-2025.pdf): Tail probabilities.
-
----
-
-**Class 34: April 9th, 2025**<br>
-Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.<br>
-
-[Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
-
-[The original article by Black and Scholes](http://www.cs.princeton.edu/courses/archive/fall09/cos323/papers/black_scholes73.pdf) 
-
-[Problem Set #14](problem-sets/m339d-ps14-BS-probs.pdf): **Problems**
-
-[Class notes](notes/m339d-apr-09-2025.pdf) 
-
-[Homework #12](hw/m339d-hw12-BS.pdf) -- **due on Friday, April 18th, 2025**
-
----
-
-**Class 35: April 11th, 2025**<br>
-Mock exam.<br>
-
-[Mock Exam](exams/m339d-mock-two-solns.pdf) -- **solutions** 
-
-[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, April 28th, 2025**
-
-[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-[Homework #11](hw/m339d-hw11-lognormal-stocks-solns.pdf) -- **solutions**
-
----
-
-**Class 36: April 14th, 2025**<br>
-Black-Scholes [continued].<br> 
-
-[Class notes](notes/m339d-apr-14-2025.pdf) 
-
-[Problem Set #14](problem-sets/m339d-ps14-BS-solns.pdf): **Solutions**
-
----
-
-**Class 37: April 16th, 2025**<br>
-Black-Scholes [continued].<br> 
-
-[Problem](problem-sets/mfe-sp2007-p8.pdf)
-
-[Class notes](notes/m339d-nov-20-2024.pdf) 
-
-Forward-start options. Rolling insurance strategy.<br>
-
-[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
-
-[Class notes](notes/m339d-apr-16-2025.pdf) 
-
-[In-Term Two](exams/m339d-two-topics.pdf): Topics
-
-[Practice for In-Term Two](exams/m339d-two-sample-probs.pdf): Problems
-
-[Practice for In-Term Two](exams/m339d-two-sample-solns.pdf): Solutions
-
----
-
-**Class 38: April 18th, 2025**<br>
-Monte Carlo with Black-Scholes pricing. <br>
-
-[Class notes](notes/m339d-apr-18-2025.pdf) 
-
-[Problem Set #15](problem-sets/m339d-ps15-BS-mc.Rmd): Skeleton
-
-[Problem Set #15](problem-sets/m339d-ps15-BS-mc-in-class.Rmd): With in-class code
-
-[Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
-
----
-
-**Class 39: April 21st, 2025**<br>
-Focus on the delta.<br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
-
-[Problem](problem-sets/m339d-ifm-delta.pdf)
-
-[Class notes](notes/m339d-apr-21-2025.pdf) 
-
----
-
-**Class 40: April 23rd, 2025**<br>
-<span style="color: red;">**In-Term Two**</span><br>
-
-[In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
-
----
-
-**Class 41: April 25th, 2025**<br>
-Delta-hedging. <br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Market_maker): Market maker.
-
-[Problem](problem-sets/m339d-ifm-delta-hedge.pdf)
-
-[Class notes](notes/m339d-apr-25-2025.pdf) 
-
-[Class notes](notes/m339d-dec-09-2024.pdf) 
-
-[Extra Homework #13](hw/m339d-hw13-delta.pdf) -- **not to be handed in**
-
-[Extra Homework #13](hw/m339d-hw13-delta-solns.pdf) -- **solutions**
-
----
-
-**Class 42: April 28th, 2025**<br>
-In-Class Final-Paper Workday.<br>
-
-<!--
-Options embedded in insurance products.<br>
-
-<!--
-[Problem packet](problem-sets/m339d-gmdb-etc.pdf)
-
-[Class notes](notes/m339w-may-02-2022.pdf): GMDB.
-
-[Class notes](notes/m339w-may-04-2022.pdf): Other variable annuities.
-
-[Class notes](notes/m339w-may-06-2022.pdf): Some exotic options.
-
-[In-Term Three](exams/m339d-three-topics.pdf): Topics
-
-[Practice for In-Term Three](exams/m339d-three-sample.pdf) -- **problems** 
-
-[Practice for In-Term Three](exams/m339d-three-sample-solns.pdf) -- **solutions** 
-
-<span style="color: red;">**In-Term Three**</span><br>
-
-[In-Term Three](exams/m339d-three-solns.pdf) -- **solutions**
-
-
-<!--
-Expected return of a portfolio.<br>
-
-[Problem](problem-sets/m339d-ifm-exp-return.pdf)
-
-[Class notes](notes/m339d-sept-12-2022.pdf) 
-
-Volatility of a portfolio. Diversification. Market indices. <br>
-
-[Problems](problem-sets/m339d-vol.pdf)
-
-[Class notes](notes/m339d-sept-14-2022.pdf) 
-
-Feasible sets. Efficient portfolios. Effect of correlation. <br>
-
-[Problems](problem-sets/m339w-vol.pdf)
-
-[Class notes](notes/m339d-sept-16-2022.pdf) 
-
-[Mathematica demonstration](http://demonstrations.wolfram.com/TwoAssetMarkowitzFeasibleSet/): A Two-Asset Markowitz Feasible Set 
-
-[Mathematica demonstration](http://demonstrations.wolfram.com/ThreeAssetEfficientFrontier/): A Three-Asset Feasible Set and Efficient Frontier 
-
-[Problem](problem-sets/m339d-ifm-efficient.pdf)
-
-[September survey](surveys/m339d-sept-survey.docx)
-
-Sharpe ratio.<br>
-
-[Class notes](notes/m339d-sept-19-2022.pdf) 
-
-[Problem](problem-sets/m339d-ifm-sharpe.pdf)
-
-The Capital Asset Pricing Model (CAPM).<br>
-
-[Class notes](notes/m339d-sept-21-2022.pdf) 
-
-[Problem packet](problem-sets/m339d-required-returns.pdf)
-
-[Homework #3](hw/m339d-hw3-intro-corp-finance.pdf) -- **due on Monday, October 3rd**
-
-[Class notes](notes/m339d-sept-26-2022.pdf) 
-
-[Homework #4](hw/m339d-hw4-corp-finance-solns.pdf) -- **solutions**
-
----
-***
----
-
-Implied volatility. <br>
-
-[Problem](problem-sets/m339d-ifm-impl-vol.pdf)
-
----
-
-[The Final Exam](exams/m339d-final-topics.pdf): Topics
-
-[Quiz #2](quizzes/m339d-quiz-two.pdf) -- due on **Monday, January 24th**
-
-[Quiz #3](quizzes/m339d-quiz-three.pdf) -- **due on Wednesday, January 26th**
-
-[Quiz #4](quizzes/m339d-quiz4.pdf) -- **due on Monday, January 31st**
-
-[Quiz #5](quizzes/m339d-quiz5-cont-div.pdf) -- **due on Wednesday, February 2nd**
-
-[Quiz #7](quizzes/m339d-quiz7-leveraging.pdf) -- **due on Wednesday, February 9th**
-
-[Quiz #8](quizzes/m339d-quiz8-two-assets.pdf) -- **due on Monday, February 14th**
-
-[Problem Set #5](problem-sets/m339d-ps-five-yuri-one.pdf): **Problems**
-
-[Problem Set #5](problem-sets/m339d-ps-five-yuri-one-solns.pdf): **Solutions**
-
-[Problem Set #6](problem-sets/m339d-ps-six-yuri-two.pdf): **Problems**
-
-[Problem Set #6](problem-sets/m339d-ps-six-yuri-two-solns.pdf): **Solutions**
-
-[Problem Set #7](problem-sets/m339d-ps-seven-forwards-hedging.pdf): **Problems**
-
-[Problem Set #7](problem-sets/m339d-ps-seven-forwards-hedging-solns.pdf): **Solutions**
-
-[Quiz #9](quizzes/m339d-quiz9-forwards.pdf) -- **due on Wednesday, February 16th**
-
-[Class notes](notes/m339d-feb-14-2022.pdf): Covered/naked option writing. European put options.
-
-[Quiz #10](quizzes/m339d-quiz10-calls.pdf) -- **due on Monday, February 28th**
-
-[Problem Set #8](problem-sets/m339d-ps-eight-forwards-calls-puts-probs.pdf): **Problems**
-
-[Problem Set #8](problem-sets/m339d-ps-eight-forwards-calls-puts-solns.pdf): **Solutions**
-
-**Suggested problems:** Sample SoA problems (IFM exam: Derivatives: Intro): \#12, \#26, \#35, \#48, \#49, \#61, \#62, \#66, \#75 (European put options, moneyness)
-
-Collars. Derivative securities.<br>
-
-[Class notes](notes/m339d-feb-18-2022.pdf): Collars. Derivative securities. 
-
-**Suggested problems:** Sample SoA problems (IFM exam: Derivatives: Introductory): #24 (rationale for the existence of derivatives)
-
-[Quiz #11](quizzes/m339d-quiz11.pdf) -- **due on Wednesday, March 2nd**
-
-Dynamic portfolios. 
-
-[Class notes](notes/m339d-feb-21-2022.pdf): Arbitrage portfolios. Law of the Unique Price. Replicating portfolios.
-
-Pricing prepaid forwards and forwards on stocks.<br>
-
-[Problem packet](problem-sets/m339d-forwards-futures.pdf)
-
-[Class notes](notes/m339d-feb-25-2022.pdf): Pricing prepaid forwards and forwards on stocks.
-
-**Suggested problems**: Sample SoA problems (IFM: Derivatives: Introductory): #20, #21, #29
-
-[Quiz #12](quizzes/m339d-quiz12-parity-prep.pdf) -- **due on Monday, March 7th**
-
----
-
-More on synthetic forwards. Futures.<br>
-
-[Class notes](notes/m339d-feb-28-2022.pdf): Synthetic forwards. Futures.
-
-**Suggested problems:** Sample SoA problems (IFM exam: Derivatives: Introductory): #30, #32, #45, #69 (futures)
-
----
-
-[Quiz #13](quizzes/m339d-quiz13-parity.pdf) -- **due on Wednesday, March 9th**
-
----
-
-[Class notes](notes/m339d-mar-04-2022.pdf): Synthetic forwards (revisited). Chooser options. 
-
----
-
-Gap options.<br>
-
-[Lecture Twelve](lectures/m339d-lecture-twelve-gap-options-empty.pdf): Gap options (skeleton).
-
-[Class notes](notes/m339d-mar-07-2022.pdf): Equity-linked contracts. Gap options.
-
-[Quiz #14](quizzes/m339d-quiz14-gaps.pdf) - **due on Monday, March 21st**
-
----
-
-Options on currencies.<br>
-
-[Class notes](notes/m339d-mar-09-2022.pdf): Currency options.
-
----
-
-Exchange options.<br>
-
-[Problem](problem-sets/m339d-mfe-2007-p6.pdf)
-
-[Class notes](notes/m339d-mar-11-2022.pdf): Exchange options. Generalized put-call parity.
-
-[Quiz #15](quizzes/m339d-quiz15-exchange.pdf) - **due on Wednesday, March 23rd**
-
-[Quiz #16](quizzes/m339d-quiz16-exchange-exp.pdf) - **due on Monday, March 28th**
-
-Bounds on option prices.<br>
-
-[Class notes](notes/m339d-mar-21-2022.pdf): Bounds on call prices.
-
----
-
-Bounds on put prices. Monotonicity of call prices. Bull spreads. <br>
-
-[Class notes](notes/m339d-mar-23-2022.pdf): Bounds on put prices. Monotonicity of call prices. Bull spreads.
-
----
-
-Monotonicity of put prices. "Cord-slope" bounds. Bear spreads.<br>
-
-[Problem](problem-sets/m339d-properties.pdf)
-
-[Class notes](notes/m339d-mar-25-2022.pdf): Monotonicity of put prices. "Cord-slope" bounds. Bear spreads. 
-
----
-
-Convex functions. Convexity of put/call prices. Butterfly spreads.<br>
-
-[Class notes](notes/m339d-mar-30-2022.pdf): Convexity of call prices. Butterfly spreads.
-
----
-
-Put-price convexity. Butterfly-spread practice.<br> 
-
-[Problem packet](problem-sets/m339d-butterflies.pdf)
-
-[Class notes](notes/m339d-apr-01-2022.pdf): Put-price convexity. More on butterfly spreads. 
-
----
-
-Straddles. Strangles.<br>
-
-[Class notes](notes/m339d-apr-04-2022.pdf): Speculating on volatility. Collars revisited. 
-
-**Suggested problems**: Sample SoA problems (IFM exam: Derivatives: Introductory): #8, #16 Sample SoA problems (IFM exam: Derivatives: Advanced): #40 (spreads, strangles, straddles)
-
-[Quiz #17](quizzes/m339d-quiz17-properties.pdf) - **due on Wednesday, April 6th**
-
-[Homework #7](hw/m339d-hw7-price-properties.pdf) - **due on Friday, April 8th**
-
-[Quiz #18](quizzes/m339d-quiz-thirteen-straddles.pdf) - **due on Monday, April 11th**
-
----
-
-More on collars. Ratio spreads. Box spreads.<br>
-
-[Problem packet](problem-sets/m339d-collar-ratio-box.pdf)
-
-[Class notes](notes/m339d-apr-06-2022.pdf): More on collars. Ratio spreads. Box spreads. 
-
-[Quiz #19](quizzes/m339d-quiz19-box-ratio.pdf) - **due on Wednesday, April 13th**
-
----
-
-[Problem Set #9](problem-sets/m339d-ps-nine-bin-pricing.pdf): **Problems**
-
-[Quiz #20](quizzes/m339d-quiz20-delta-B.pdf) - **due on Monday, April 18th**
-
-[Quiz #21](quizzes/m339d-quiz21-binomial.pdf) - **due on Wednesday, April 20th**
-
----
-
-Binomial option pricing: Graphical interpretation.<br>
-
-[Class notes](notes/m339d-apr-13-2022.pdf): Binomial option pricing practice. Graphical interpretation of a call's replicating portfolio.
-
----
-
-Binomial option pricing: The forward tree.<br>
-
-[Class notes](notes/m339d-apr-15-2022.pdf): The forward tree. 
-
-[Problem Set #10](problem-sets/m339d-ps-ten-two-periods.pdf) -- **problems**
-
-[Class notes](notes/m339d-apr-18-2022.pdf): Two periods.
-
----
-
-Multiple binomial periods. Early exercise (revisited).<br>
-
-[Problem packet](problem-sets/m339d-early-exercise.pdf)
-
-[Class notes](notes/m339d-apr-20-2022.pdf): Binomial option pricing (more periods). Early exercise.
-
-[Quiz #22](quizzes/m339d-quiz22-Amer-binom-prep.pdf) - **due on Monday, April 25th**
-
----
-
-Binomial pricing of American options. <br>
-
-[Problem packet](problem-sets/m339d-american.pdf)
-
-[Class notes](notes/m339d-apr-22-2022.pdf): Binomial pricing of American options.
-
-**Suggested problems:** Sample IFM (Derivatives: Advanced) Problem \#44 (binomial pricing of American options)
-
-
----
-
-Binomial pricing of American option [practice].<br>
-
-[Class notes](notes/m339d-apr-25-2022.pdf): Binomial pricing of American options (practice).
-
----
-
-Properties of American-option prices. Asian options.<br>
-
-[Class notes](notes/m339d-apr-27-2022.pdf): Bounds on American option prices. Definition of Asian options. 
-
-**Suggested problems:** Sample IFM (Derivatives: Advanced) Problem \#26 (bounds on European and American option prices)
-
-[Quiz #23](quizzes/m339d-quiz23-American.pdf) - **due on Thursday, April 28th**
-
-[Quiz #24](quizzes/m339d-quiz24-Asian.pdf) - **due on Monday, May 2nd**
-
----
-
-Asian-option pricing. Barrier options.<br>
-
-[Class notes](notes/m339d-apr-29-2022.pdf): More on Asian options. Barrier options. 
-
-[Slides](notes/m339d-barrier.pdf): Barrier options.
-
----
-
-Barrier options.<br>
-
-[Problem packet](problem-sets/m339d-barrier.pdf)
-
-[Class notes](notes/m339d-may-02-2022.pdf): More on barrier options. 
-
-[Quiz #25](quizzes/m339d-quiz25-barrier.pdf) - **due on Wednesday, May 4th**
-
----
-
-**Class 43: May 4th**<br>
-Compound options.<br>
-
-[Slides](notes/m339d-compound.pdf): Compound options.
-
-[Homework #11](hw/m339d-hw11-exotic.pdf) - **not to be handed in**
-
-Binomial pricing of options on currencies.<br>
-
-[Problem](problem-sets/m339d-bin-currency.pdf)
-
-[Class notes](notes/m339d-may-04-2022.pdf): Compound options. Currency options (the binomial model).
-
-Binomial pricing of options on futures contracts.<br>
-
-[Problem](problem-sets/m339d-bin-futures.pdf)
-
-[Class notes](notes/m339d-may-06-2022.pdf): Futures options (the binomial model). 
-
-[Problem Set #11](problem-sets/m339d-ps11-currency-futures.pdf) -- **problems**
-
-[Problem Set #11](problem-sets/m339d-ps11-currency-futures-solns.pdf) -- **solutions**
--->
+</div>
+<div id="general-university--or-state-mandated-information" class="section level3">
+<h3>GENERAL, UNIVERSITY- or STATE-MANDATED INFORMATION</h3>
+<p><strong>Drop dates.</strong> The procedure/consequences are
+different, depending on whether you drop before or after the 4th day of
+classes (09/02), and then, before or after the <em>main drop (Q-drop)
+date</em> (11/19). (See <a href="https://ugs.utexas.edu/vick/academic/adddrop" class="uri">https://ugs.utexas.edu/vick/academic/adddrop</a> for
+details)</p>
+<p><strong>Students with Disabilities.</strong> The University of Texas
+at Austin provides upon request appropriate academic accommodations for
+qualified students with disabilities. If you have a documented
+disability and you need specific support as a result of your disability,
+please let me know as soon as possible, but definitely within the first
+3 weeks of class. For more information, contact the Office of the Dean
+of Students at 471-6259, 471-4641 (TTY), 1-866-329- 3986 (video phone)
+or go to <a href="https://disability.utexas.edu/" class="uri">https://disability.utexas.edu/</a></p>
+<p><strong>Counseling and mental health.</strong> Counseling and other
+mental-health services are available from <strong>Counseling and Mental
+Health Center</strong>, Student Services Bldg (SSB), 5th Floor. (hours:
+M–F 8am–5pm. phone: 512 471 3515, web: <a href="http://www.cmhc.utexas.edu" class="uri">http://www.cmhc.utexas.edu</a>)</p>
+<p><strong>Religious holy days.</strong> Religious holy days sometimes
+conflict with class and examination schedules. Sections 51.911 and
+51.925 of the Texas Education Code relate to absences by students and
+instructors for observance of religious holy days.</p>
+<p>Section 51.911 states that a student who misses an examination, work
+assignment, or other project due to the observance of a religious holy
+day must be given an opportunity to complete the work missed within a
+reasonable time after the absence, provided that they have properly
+notified each instructor.</p>
+<p>It is the policy of The University of Texas at Austin that the
+student must notify each instructor at least fourteen days prior to the
+classes scheduled on dates he or she will be absent to observe a
+religious holy day. For religious holidays that fall within the first
+two weeks of the semester, the notice should be given on the first day
+of the semester. The student may not be penalized for these excused
+absences but the instructor may appropriately respond if the student
+fails to complete satisfactorily the missed assignment or examination
+within a reasonable time after the excused absence.</p>
+<p><strong>Title IX Reporting/SB 212.</strong> Texas <em>Senate Bill
+212</em> requires all employees of Texas universities, including
+faculty, report any information to the <a href="https://titleix.utexas.edu/">Title IX Office</a> regarding sexual
+harassment, sexual assault, dating violence and stalking that is
+disclosed to them. Your instructor in a <strong>mandatory
+reporter</strong>. By law, your instructor must be fired if she does not
+report. Our <a href="https://ombuds.utexas.edu/student">Student
+Ombuds</a> is confidential. Additionally, if you wish to speak with
+someone who can provide support <strong>without</strong> making an
+official report to the university, contact a confidential case manager
+by emailing <a href="mailto:advocate@austin.utexas.edu" class="email">advocate@austin.utexas.edu</a>. Case managers can also
+provide support, resources, and accommodations for pregnant, nursing,
+and parenting students.</p>
+<p>For more information about reporting options and resources, please
+visit: <a href="https://titleix.utexas.edu" class="uri">https://titleix.utexas.edu</a>, contact the Title IX Office
+via email at <a href="mailto:titleix@austin.utexas.edu" class="email">titleix@austin.utexas.edu</a>, or call 512-471-0419.</p>
+<p><strong>Sanger Learning Center.</strong> All students are welcome
+to take advantage of Sanger Center’s classes and workshops, private
+learning specialist appointments, peer academic coaching, and tutoring
+for more than 70 courses in 15 different subject areas. For more
+information, please visit <a href="http://www.utexas.edu/ugs/slc" class="uri">http://www.utexas.edu/ugs/slc</a> or call 512-471-3614 (JES
+A332).</p>
+<p><strong>Important Safety Information.</strong> Here is a
+comprehensive list of <a href="https://www.utexas.edu/campus-life/safety-and-security">Safety,
+Health and Security Resources</a></p>
+<p>Further information about (campus) safety and security can be
+obtained from the Office of Campus Safety and Security, 512-471-5767, <a href="http://www.utexas.edu/safety/" class="uri">http://www.utexas.edu/safety/</a></p>
+<p>Occupants of buildings on The University of Texas at Austin campus
+are required to evacuate buildings when a fire alarm is activated. Alarm
+activation or announcement requires exiting and assembling outside.</p>
+<ul>
+<li><p>Familiarize yourself with all exit doors of each classroom and
+building you may occupy. Remember that the nearest exit door may not be
+the one you used when entering the building.</p></li>
+<li><p>Students requiring assistance in evacuation shall inform their
+instructor in writing during the first week of class.</p></li>
+<li><p>In the event of an evacuation, follow the instruction of faculty
+or class instructors. Do not re-enter a building unless given
+instructions by the following: Austin Fire Department, The University of
+Texas at Austin Police Department, or Fire Prevention Services
+office.</p></li>
+<li><p>Link to information regarding emergency evacuation routes and
+emergency procedures can be found at: <a href="http://www.utexas.edu/emergency" class="uri">http://www.utexas.edu/emergency</a></p></li>
+</ul>
+<p><strong>Academic (dis)Honesty.</strong> Students who violate
+University rules on academic dishonesty are subject to disciplinary
+penalties, including the possibility of failure in the course and/or
+dismissal from the University. Since such dishonesty harms the
+individual, all students, and the integrity of the University, policies
+on academic dishonesty will be strictly enforced. For further
+information, please visit the Student Conduct and Academic Integrity
+website at: <a href="http://deanofstudents.utexas.edu/conduct" class="uri">http://deanofstudents.utexas.edu/conduct</a> For a more
+detailed document, please consult: <a href="https://catalog.utexas.edu/general-information/appendices/appendix-c/student-conduct-and-academic-integrity/" class="uri">https://catalog.utexas.edu/general-information/appendices/appendix-c/student-conduct-and-academic-integrity/</a>
+Please, pay particular attention to the section on
+<em>plagiarism.</em></p>
+<hr />
+<p><span style="color: blue;">This syllabus is subject to change. If you
+have to miss class, please make sure to check in with a classmate to
+learn of any updates that were made in your absence. </span></p>
+<hr />
+</div>
+<div id="the-schedule-of-classes" class="section level3">
+<h3>The SCHEDULE of CLASSES</h3>
+<table>
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="76%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Weekday</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>08/25/2025</td>
+<td>Mon</td>
+<td>Orientation.</td>
+</tr>
+<tr class="even">
+<td>08/27/2025</td>
+<td>Wed</td>
+<td>Setting up R and RStudio. Basics of R: Arithmetic. Vectors.</td>
+</tr>
+<tr class="odd">
+<td>08/29/2025</td>
+<td>Fri</td>
+<td>R-scripts and R-notebooks. For loops.</td>
+</tr>
+<tr class="even">
+<td>09/03/2025</td>
+<td>Wed</td>
+<td>Functions in R. <code>If ... else</code> in R. Financial market
+models.</td>
+</tr>
+<tr class="odd">
+<td>09/05/2025</td>
+<td>Fri</td>
+<td>Standing assumptions and conventions. Risky assets. Transaction
+costs.</td>
+</tr>
+<tr class="even">
+<td>09/08/2025</td>
+<td>Mon</td>
+<td>Outright purchase. Short sales.</td>
+</tr>
+<tr class="odd">
+<td>09/10/2025</td>
+<td>Wed</td>
+<td>Historical returns of stocks. Market indices.</td>
+</tr>
+<tr class="even">
+<td>09/12/2025</td>
+<td>Fri</td>
+<td>Payoff and profit curves. Long/short positions.</td>
+</tr>
+<tr class="odd">
+<td>09/15/2025</td>
+<td>Mon</td>
+<td>Basic risk management. Forward contracts.</td>
+</tr>
+<tr class="even">
+<td>09/17/2025</td>
+<td>Wed</td>
+<td>Hedging using forward contracts.</td>
+</tr>
+<tr class="odd">
+<td>09/19/2025</td>
+<td>Fri</td>
+<td>European call options.</td>
+</tr>
+<tr class="even">
+<td>09/22/2025</td>
+<td>Mon</td>
+<td>European put options. Moneyness.</td>
+</tr>
+<tr class="odd">
+<td>09/24/2025</td>
+<td>Wed</td>
+<td>Derivative securities. Finite probability spaces [revisited].
+Arbitrage portfolios.</td>
+</tr>
+<tr class="even">
+<td>09/26/2025</td>
+<td>Fri</td>
+<td>Law of the Unique Price. Replicating portfolios.</td>
+</tr>
+<tr class="odd">
+<td>09/29/2025</td>
+<td>Mon</td>
+<td>Equity-linked products.</td>
+</tr>
+<tr class="even">
+<td>10/01/2025</td>
+<td>Wed</td>
+<td>Put-call parity. Chooser options.</td>
+</tr>
+<tr class="odd">
+<td>10/03/2025</td>
+<td>Fri</td>
+<td>Random number generation. SLLN. Monte Carlo simulation.</td>
+</tr>
+<tr class="even">
+<td>10/06/2025</td>
+<td>Mon</td>
+<td>The binomial asset-pricing model.</td>
+</tr>
+<tr class="odd">
+<td>10/08/2025</td>
+<td>Wed</td>
+<td>Forward trees.</td>
+</tr>
+<tr class="even">
+<td>10/10/2025</td>
+<td>Fri</td>
+<td>Binomial option pricing: Pricing by replication.</td>
+</tr>
+<tr class="odd">
+<td>10/13/2025</td>
+<td>Mon</td>
+<td>Binomial option pricing: Risk-neutral probability.</td>
+</tr>
+<tr class="even">
+<td>10/15/2025</td>
+<td>Wed</td>
+<td>Binomial option pricing: Two periods.</td>
+</tr>
+<tr class="odd">
+<td>10/17/2025</td>
+<td>Fri</td>
+<td>Multiple binomial periods.</td>
+</tr>
+<tr class="even">
+<td>10/20/2025</td>
+<td>Mon</td>
+<td>Monte Carlo for binomial option pricing.</td>
+</tr>
+<tr class="odd">
+<td>10/22/2025</td>
+<td>Wed</td>
+<td><span style="color: red;"><i>In-Term One</i></span></td>
+</tr>
+<tr class="even">
+<td>10/24/2025</td>
+<td>Fri</td>
+<td>Review of the normal distribution.</td>
+</tr>
+<tr class="odd">
+<td>10/27/2025</td>
+<td>Mon</td>
+<td>The normal approximation to the binomial.</td>
+</tr>
+<tr class="even">
+<td>10/29/2025</td>
+<td>Wed</td>
+<td>The limiting behavior of stock prices. More on realized
+returns.</td>
+</tr>
+<tr class="odd">
+<td>10/31/2025</td>
+<td>Fri</td>
+<td>Moment generating functions. The log-normal distribution. Jensen’s
+inequality.</td>
+</tr>
+<tr class="even">
+<td>11/03/2025</td>
+<td>Mon</td>
+<td>Log-normal stock prices: Parameter interpretation.</td>
+</tr>
+<tr class="odd">
+<td>11/05/2025</td>
+<td>Wed</td>
+<td>Log-normal stock prices: Tail probabilities.</td>
+</tr>
+<tr class="even">
+<td>11/07/2025</td>
+<td>Fri</td>
+<td>Partial expectation.</td>
+</tr>
+<tr class="odd">
+<td>11/10/2025</td>
+<td>Mon</td>
+<td>The Black-Scholes pricing formula.</td>
+</tr>
+<tr class="even">
+<td>11/12/2025</td>
+<td>Wed</td>
+<td>The Black-Scholes pricing formula [practice].</td>
+</tr>
+<tr class="odd">
+<td>11/14/2025</td>
+<td>Fri</td>
+<td>Forward-start options. Rolling insurance strategy.</td>
+</tr>
+<tr class="even">
+<td>11/17/2025</td>
+<td>Mon</td>
+<td>Monte Carlo with Black-Scholes pricing.</td>
+</tr>
+<tr class="odd">
+<td>11/19/2025</td>
+<td>Wed</td>
+<td>Focus on the delta.</td>
+</tr>
+<tr class="even">
+<td>11/21/2025</td>
+<td>Fri</td>
+<td>More on the delta.</td>
+</tr>
+<tr class="odd">
+<td>12/01/2025</td>
+<td>Mon</td>
+<td>Delta-hedging.</td>
+</tr>
+<tr class="even">
+<td>12/03/2025</td>
+<td>Wed</td>
+<td><span style="color: red;"><i>In-Term Two</i></span></td>
+</tr>
+<tr class="odd">
+<td>12/05/2025</td>
+<td>Fri</td>
+<td>More on delta-hedging.</td>
+</tr>
+<tr class="even">
+<td>12/08/2025</td>
+<td>Mon</td>
+<td>Final-paper in-class work day.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 
 
 
