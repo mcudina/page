@@ -26,13 +26,13 @@ output: html_document
 
 **The textbook, lecture notes, and the like**
 
-[Materials on R](https://mcudina.github.io/rbook/)
+[Materials on R](https://gordanz.github.io/stochastic-book/intro.html)
 
 [Introduction to Statistical Learning](https://www.statlearning.com)
 
 [Computer Age Statistical Inference: Algorithms, Evidence and Data Science](https://hastie.su.domains/CASI/)
 
-[Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf)
+[Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/)
 
 [Mathematical Statistics with Applications in `R`](https://search.lib.utexas.edu/permalink/01UTAU_INST/be14ds/alma991058130777506011)
 
@@ -73,12 +73,11 @@ Orientation. `R` Markdown.<br>
 
 [First-Day Handout](syllabus/syllabus-58860.html)
 
-
-<!--
-[Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, January 24th, 2025**
+[Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, September 5th, 2025**
 
 ---
 
+<!--
 **Class 2: January 15th**<br>
 Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
