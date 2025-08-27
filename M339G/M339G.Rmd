@@ -66,7 +66,7 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
-**Class 1: August 25th**<br>
+**Class 1: August 25th, 2025**<br>
 Orientation. `R` Markdown.<br>
 
 [A role model](pics/bilbo.jpeg)
@@ -77,23 +77,26 @@ Orientation. `R` Markdown.<br>
 
 ---
 
-<!--
-**Class 2: January 15th**<br>
+**Class 2: August 27th, 2025**<br>
+Some Review from Mathematical Statistics.<br> 
+
 Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-confidence-intervals.pdf)
+-->
 
 [Wikipedia](https://en.wikipedia.org/wiki/Shapiro–Wilk_test): The Shapiro-Wilk test
 
 [Data set](code/temperatures.csv): Human temperatures
 
-[R-notebook](code/temperature.Rmd): Temperature bootstrap
+[`R`-notebook](code/temperature.Rmd): Temperature bootstrap
 
 [Data set](code/bangladesh-data.csv): Chemicals in Bangladesh
 
-[`R`-notebook for class](code/arsenic-empty.Rmd): Arsenic
-
 [`R`-notebook from class](code/arsenic-in-class.Rmd): Arsenic (complete)
+
+<!--
 
 ---
 
