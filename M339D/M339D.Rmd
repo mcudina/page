@@ -82,17 +82,21 @@ Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 [The R-script from class](code/first-script.R)
 
 [Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 24th, 2025**
+-->
 
 ---
 
-**Class 3: January 17th**<br>
+**Class 3: August 29th, 2025**<br>
 `For` loops. Functions in R. `If ... else` in R.
 `R`-notebooks.<br> 
 
+<!--
 [The R-notebook from class](code/first-notebook.Rmd)
+-->
 
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems we will work on in class**
 
+<!--
 [Problem Set #1](problem-sets/m339d-ps1-in-class.Rmd): **Solutions from class**
 
 Background. 
