@@ -1,16 +1,14 @@
 ---
-title: "Our First Notebook"
-author: "Milica Cudina"
+title: "Our first notebook"
+author: "Milica Čudina"
 date: "`r Sys.Date()`"
-output:
-  pdf_document: default
-  html_document:
-    df_print: paged
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 # Big Title
 
 ## R Markdown
@@ -19,14 +17,15 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
+```{r}
+#simple addition
+5+6
 ```
 
-## Creating `R` Chunks
+This produces a six-number summary of a data set:
 
-```{r}
-5+6
+```{r cars}
+summary(cars)
 ```
 
 ## Including Plots
@@ -40,15 +39,23 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 ### Tiny title
+Here is how to *emaphasize* stuff!
+This is even more **prominent**!
 
-Here I *emphasize* stuff!
-Even more **prominent**!
+Lists:
 
-Formulas:
+- item #1
+- item #2
+
+Here is a formula display:
+
 \[
-\int_0^\infty \tfrac{1}{x}\, dx = \infty
+\int_0^\infty \frac{1}{x}\, dx = \infty
 \]
+
+Here's another:
 
 $$
 \ln\left(\frac{S(0)}{K}\right)
 $$
+Within the text, I can write $x_1, ..., x_n$ ...
