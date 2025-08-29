@@ -26,7 +26,14 @@ n=length(temp)
 print(n)
 ```
 
-Seeing as the data are numerical, the first bit of exploratory data analysis would be to check out the histogram:
+Seeing as the data are numerical, we could do a summary:
+```{r}
+summary(temp)
+sd(temp)
+```
+
+
+The acutal first bit of exploratory data analysis would be to check out the histogram:
 
 ```{r}
 hist(temp, 
@@ -77,7 +84,6 @@ Of course, the boot $\hat \mu_{BOOT}$ conforms to the $\hat \mu$ from above. Wha
 First, the quantile $95\%-$confidence interval:
 ```{r}
 quantile(mu.hats, c(0.025, 0.975))
-
 ```
 
 Second, the $2SE$ confidence interval:
