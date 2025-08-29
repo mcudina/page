@@ -1,34 +1,60 @@
-#we define x to be 4
+#let's define x to be 4
 x=4
 
-#set y to be 7
-y=7
+#we define y to be 7
+y<-7
 
-#z is the difference between the two
+#z becomes the difference between the two
 (z=x-y)
 
-#sequence of odd numbers from 1 to 20
-v=seq(1, 20, 2)
-v
-#how would we calculate the sum of squares of all of these odds?
-sum(v^2)
+#now we look at vector stuff!
+p=seq(1,7,0.5)
+print(p)
 
-#toy function in `R`
-addition<-function(a,b){
-  return(a+b)
-}
+p[-c(2,4)]
 
-addition(3,2)
+exp(p)
 
-replicate(10, addition(7,4))
+2*p
 
-#another toy function in `R`
-maximum<-function(a,b){
-  if (a>b){
-    return(a)
-  } else {
-    return(b)
-  }
-}
+length(p)
 
-maximum(-3,4)
+(r=-1:11)
+
+(p+r)
+
+(s=seq(1,19, 2))
+
+v=c(2,5)
+
+w=s+v
+w
+
+(w.1=c(w,897))
+
+w.1[3]=pi
+w.1
+
+append(w.1,-4)
+(w.1)
+w.1=append(w.1,-4)
+w.1
+
+mesh=seq(0,2,0.01)
+y=exp(mesh)
+
+plot(y)
+
+plot(mesh, y)
+
+plot(mesh, y, type="l")
+
+plot(mesh, y, type="l", col="peru", lwd=2)
+
+plot(mesh, y, type="l", col="peru", lwd=2, 
+     main="Our exponential plot")
+
+plot(mesh, y, type="l", col="peru", lwd=2, 
+     main="Our exponential plot",
+     xlab="A fine mesh of points",
+     ylab="Function values")
