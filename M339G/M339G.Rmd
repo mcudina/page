@@ -106,9 +106,11 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 
 <!--
 [Class notes](notes/m339g-two-stocks.pdf)
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
 
+<!--
 [Class notes](notes/m339g-multivariate-data.pdf)
 
 [`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
