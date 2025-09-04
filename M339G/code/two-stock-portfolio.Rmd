@@ -16,7 +16,7 @@ library(ISLR2)
 
 Here is the content by *Hastie and Tibshirani*:
 
-*One of the great advantages of the bootstrap approach is that it can be
+One of the great advantages of the bootstrap approach is that it can be
 applied in almost all situations. No complicated mathematical calculations
 are required. Performing a bootstrap analysis in `R` entails only two
 steps. First, we must create a function that computes the statistic of
@@ -28,7 +28,7 @@ To illustrate the use of the bootstrap on this data, we must first
 create a function, `alpha.fn()`, which takes as input the $(X,Y)$ data
 as well as a vector indicating which observations should be used to
 estimate $\alpha$. The function then outputs the estimate for $\alpha$
-based on the selected observations.*
+based on the selected observations.
 
 ```{r chunk11}
 alpha.fn <- function(data, index) {
@@ -38,9 +38,7 @@ alpha.fn <- function(data, index) {
 }
 ```
 
-*This function* **returns** *, or outputs, an  estimate for $\alpha$ based on applying (5.7) from the book to the observations indexed by the argument `index`.
-For instance, the following command tells `R` to estimate $\alpha$ using
-all $100$ observations.*
+This function **returns** , or outputs, an  estimate for $\alpha$ based on applying the formula for the optimal weight from the book to the observations indexed by the argument `index`. For instance, the following command tells `R` to estimate $\alpha$ using all $100$ observations.
 
 ```{r chunk12}
 alpha.fn(Portfolio, 1:100)

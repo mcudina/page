@@ -104,15 +104,9 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 **Class 4: September 3rd, 2025**<br>
 Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-two-stocks.pdf)
--->
+[Class notes](notes/m339g-sept-03-2025.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
-
-<!--
-[Class notes](notes/m339g-multivariate-data.pdf)
--->
 
 [`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
 
@@ -126,6 +120,9 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 
 [Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+---
+
+**Class 5: September 5th, 2025**<br>
 Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
@@ -145,9 +142,6 @@ Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope
 <!--
 [Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, January 31st, 2025**
 
----
-
-**Class 5: January 24th**<br>
 More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Section 5.3.4)**</span>.<br>
 
 [`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
