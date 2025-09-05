@@ -111,10 +111,11 @@ Prerequisite review.<br>
 
 <!--
 [Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, January 31st, 2025**
+-->
 
 ---
 
-**Class 5: January 24th**<br>
+**Class 5: September 5th, 2025**<br>
 Standing assumptions and conventions. Risky assets. 
 Transaction costs. <br>
 
@@ -122,7 +123,9 @@ Transaction costs. <br>
 
 [Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
 
+<!--
 [Class notes](notes/m339d-standing-assumptions.pdf) 
+-->
 
 Historical returns of stocks.<br>
 
@@ -134,7 +137,7 @@ Historical returns of stocks.<br>
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
-
+<!--
 [Class notes](notes/m339d-mm.pdf) 
 
 [The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
