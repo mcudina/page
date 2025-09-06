@@ -125,6 +125,8 @@ Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>
 
 [Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+[Homework #1](hw/m339g-hw1-prereqs-solns.pdf) -- **solutions**
+
 ---
 
 **Class 6: September 8th, 2025**<br>
@@ -153,7 +155,6 @@ More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <spa
 
 [`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
 
-[Homework #1](hw/m339g-hw1-prereqs-solns.pdf) -- **solutions**
 
 [Homework #3](hw/m339g-hw3-slr.pdf) -- **due on Friday, February 7th, 2025**
 
