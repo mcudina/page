@@ -20,7 +20,7 @@ the estimates for $\beta_0$ and $\beta_1$, the intercept and slope terms for the
 that uses  `horsepower` to predict `mpg` in the `Auto` data set. We will compare the estimates obtained using the bootstrap to those obtained using the formulas
 for ${\rm SE}(\hat{\beta}_0)$ and ${\rm SE}(\hat{\beta}_1)$ described in Section 3.1.2 (*and the slides from class*).
 
-*Let's make a plot of the data to begin with.*
+*Let's make some plots of the data to begin with.*
 
 ```{r}
 Auto
@@ -30,14 +30,21 @@ names(Auto)
 plot(horsepower, mpg, 
      main="Dependence of efficiency on engine power",
      pch=20, col="blue")
-#it looks suspiciously non-linear
-#so, let's add the least-squares line
+```
+
+It looks suspiciously non-linear. So, let's add the least-squares line. 
+
+```{r}
+plot(horsepower, mpg, 
+     main="Dependence of efficiency on engine power",
+     pch=20, col="blue")
 reg=lm(mpg ~ horsepower)
 summary(reg)
 abline(reg, col="red", lwd=2)
-#now, what about the residuals?
-#I want to see if the residuals have an 
-#association with the explanatory, i.e., engine power
+```
+
+Now, what about the residuals? We want to see if the residuals have an association with the explanatory, i.e., engine power. 
+```{r}
 res=summary(reg)$residuals
 plot(horsepower, res, 
      main="Residuals", 
@@ -86,7 +93,7 @@ Section 3.1.2 are $0.717$ for the intercept and $0.0064$
 for the slope. Interestingly, these are somewhat different from the
 estimates obtained using the bootstrap.  Does this indicate a problem
 with the bootstrap? In fact, it suggests the opposite.  Recall that
-the standard formulas given in Equation 3.8 on page 66 rely on certain assumptions. For example, they depend
+the standard formulas for the standard errors rely on certain assumptions. For example, they depend
 on the unknown parameter $\sigma^2$, the noise variance. We then estimate $\sigma^2$
 using the RSS. **Now, although the formulas for the standard errors do not rely on the linear model
 being correct, the estimate for $\sigma^2$ does.**
