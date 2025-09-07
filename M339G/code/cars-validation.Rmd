@@ -11,8 +11,7 @@ Here, I am adapting the lab associated with Chapter 5 of the textbook.
 
 We explore the use of the validation set approach in order to estimate the test error rates that result from fitting various linear models on the `Auto` data set.
 
-Before we begin, we use the `set.seed()` function in order to set a *seed* for `R`'s random number generator, so that the reader of this book will
-obtain precisely the same results as those shown below. It is generally
+Before we begin, we use the `set.seed()` function in order to set a *seed* for `R`'s random number generator for replicability. It is generally
 a good idea to set a random seed when performing an analysis such as cross-validation that contains an
 element of randomness, so that the results obtained can be reproduced precisely at a later time.
 
@@ -136,4 +135,4 @@ plot(1:10, cv.error, type="b",
      pch=20, col="blue")
 ```
 
-As in Figure 5.4, we see a sharp drop in the estimated test MSE between the linear and quadratic fits, but then no clear improvement from using higher-order polynomials.
+We see a sharp drop in the estimated test MSE between the linear and quadratic fits, but then no clear improvement from using higher-order polynomials.
