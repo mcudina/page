@@ -148,9 +148,9 @@ Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope
 
 [`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
-<!--
-[Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, January 31st, 2025**
+[Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, September 19th, 2025**
 
+<!--
 More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Section 5.3.4)**</span>.<br>
 
 [`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
