@@ -170,13 +170,12 @@ Simple Regression: Cross Validation <span style="color: purple;">**(Section 5.1.
 
 [`R`-notebook from class](code/cars-validation.Rmd): Cross-validation for simple linear regression
 
-<!--
-
 ---
 
-**Class 7: January 29th**<br>
+**Class 7: September 10th, 2025**<br>
 Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
+<!--
 [Slides by Hastie & Tibshirani](slides/ch3-multiple-linear-regression-intro.pdf): Multiple linear regression 
 
 [Class notes](notes/m339g-multiple-linear-regression.pdf)
