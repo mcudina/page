@@ -144,14 +144,6 @@ Historical returns of stocks.<br>
 [The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
 -->
 
-Outright purchase. Short sales.<br>
-
-[Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
-
-<!--
-[Class notes](notes/m339d-purchase-short-sale.pdf)
--->
-
 [Alphabet data](data/goog.csv)
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
@@ -160,20 +152,30 @@ Outright purchase. Short sales.<br>
 
 [Project #1](projects/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
-
 ---
 
-**Class 7: January 29th**<br>
+**Class 7: September 10th, 2025**<br>
+Outright purchase. Short sales.<br>
+
+[Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
+
+<!--
+[Class notes](notes/m339d-purchase-short-sale.pdf)
+-->
+
 On portfolios. 
 
 [The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
 
+<!--
 [The R-notebook from class](code/m339d-project1-variation-in-class.Rmd): **Complete solutions**
+-->
 
 Payoff and profit.<br>
 
+<!--
 [Class notes](notes/m339d-static-portfolios.pdf) 
+
 
 ---
 
