@@ -134,12 +134,13 @@ More on prediction and inference <span style="color: purple;">**(Section 2.1.1)*
 
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
-<!--
-[Class notes](notes/m339g-reducible-irreducible.pdf)
+[Class notes](notes/m339g-sept-08-2025.pdf)
 
 [Nobody Expects $L^1$](https://mathoverflow.net/questions/178139/examples-of-unexpected-mathematical-images?newreg=78ec2c4c5b154caeaca68ac602031827)
--->
 
+---
+
+**Class 7: September 10th, 2025**<br>
 Simple Linear Regression. Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Sections 3.1 and 5.3.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
@@ -170,9 +171,6 @@ Simple Regression: Cross Validation <span style="color: purple;">**(Section 5.1.
 
 [`R`-notebook from class](code/cars-validation.Rmd): Cross-validation for simple linear regression
 
----
-
-**Class 7: September 10th, 2025**<br>
 Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
 <!--
