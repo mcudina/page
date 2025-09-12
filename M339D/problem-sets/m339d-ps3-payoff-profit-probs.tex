@@ -1,0 +1,212 @@
+\documentclass[reqno,letterpaper, onsided,10pt]{amsart}
+\usepackage[dvips, foot=0.3in, left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{fancyhdr,lastpage,xcolor,graphicx}
+\raggedbottom
+%\renewcommand{\fboxrule}{1pt}
+
+\definecolor{huntergreen}{RGB}{53, 94, 59}
+\definecolor{maroon}{RGB}{128, 0, 0}
+
+\newcommand{\sol}[1]{\par\noindent{\bf Solution:} #1}
+\renewcommand{\sol}[1]{\newpage}
+
+\newcommand{\ccrfir}{continuously compounded, risk-free interest rate }
+
+\pagestyle{fancy}
+\thispagestyle{fancy}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0.4pt}
+
+%\renewcommand{\arraystretch}{1.5}
+\newcommand{\hwnum}{3}
+
+
+\lhead{{\sc PS:} \hwnum}
+\rhead{{\sc Page:} \thepage \,of \pageref{LastPage}}
+\chead{{\sc Course:} M339D/M389D - Intro to Financial Math}
+
+\cfoot{{\sc Instructor:} Milica \v Cudina}
+%\rfoot{{\sc Semester:} Fall 2013}
+\lfoot{}
+
+% Definitions
+%%%%%%%%%%%%%%
+\usepackage{mydefs}
+\usepackage{mythm_long}
+%\input{local_def.tex}
+
+\begin{document}
+
+\begin{center}
+{{\sc University of Texas at Austin}}
+\end{center}
+\vspace{1ex}
+
+\begin{center}
+\underline{\Large Problem Set \hwnum }\\
+
+\medskip
+
+\underline{\large Payoff. Profit.}
+\end{center}
+
+\setcounter{section}{\hwnum}
+
+\bigskip
+\hrule
+\bigskip
+
+\subsection{Static portfolios.}
+\paragraph{{\color{huntergreen} \underline{\it Step \#1}}} 
+Remember the {\bf bottom-line approach} from {\it theory of interest}. 
+Decide who your {\bf protagonist} is!
+
+\paragraph{{\color{huntergreen} \underline{\it Step \#2}}} 
+Set up the {\bf timeline} (on paper or mentally):
+
+
+\vfill
+
+\begin{center}
+\fbox{
+\begin{minipage}{30em}    
+    This is how we will talk about {\bf profit}:
+\begin{itemize}
+\item[$\bullet$]
+If {\color{huntergreen} {\bf Profit}$>0$}, 
+then we call it a {\color{maroon} {\bf gain}}. 
+\item[$\bullet$]
+If {\color{huntergreen} {\bf Profit}$<0$}, 
+then we call it a {\color{maroon} {\bf loss}}. 
+\item[$\bullet$]
+If {\color{huntergreen} {\bf Profit}$=0$}, 
+then we say that we {\color{maroon} {\bf break even}}. 
+\end{itemize}
+\end{minipage}
+}
+\end{center}
+
+\bigskip
+
+\newpage
+
+\subsection{Riskless assets}
+
+\begin{example} {\color{purple}{\bf Investing in a zero-coupon bond}}
+
+\end{example}
+
+\vskip8cm
+
+\begin{example} {\color{purple}{\bf Taking a loan}}
+
+\end{example}
+
+\newpage
+
+\subsection{Risky assets}
+\begin{example} {\color{purple}{\bf Outright purchase of a stock}}
+
+\end{example}
+
+\vskip8.5cm
+
+\begin{problem} 
+Let the current price of a non-dividend-paying stock be \$40. The \ccrfir is $0.04$. You model the distribution of the time$-1$ price of the above stock as follows:
+\begin{equation} % \label{}
+\nonumber
+ \begin{split}
+   S(1) \sim \begin{cases}
+    45, & \text{with probability $1/4$}, \\
+        42, & \text{with probability $1/2$}, \\
+            38, & \text{with probability $1/4$}. \\
+    \end{cases}
+ \end{split}
+\end{equation}
+What is your expected profit under the above model, if you invest in one share of stock at time$-0$ and liquidate your investment at time$-1$?
+\end{problem}
+
+\sol{
+  The initial cost is $S(0)$ and the payoff is $S(T)$ with $T=1$. So, the profit equals 
+  \begin{equation} % \label{}
+  \nonumber
+   \begin{split}
+      S(T) - S(0) e^{rT}.  
+   \end{split}
+  \end{equation}
+  Thus, the expected profit equals 
+  \begin{equation} % \label{}
+  \nonumber
+   \begin{split}
+     \EE[S(T)] - S(0) e^{rT}.  
+   \end{split}
+  \end{equation}
+According to the given model for the stock price, we have 
+\begin{equation} % \label{}
+\nonumber
+ \begin{split}
+   \EE[S(T)] = 45\left(\frac{1}{4}\right)  +  42\left(\frac{1}{2}\right) +  38 \left(\frac{1}{4}\right) = 41.75.   
+ \end{split}
+\end{equation}
+Finally, the expected profit is 
+\begin{equation} % \label{}
+\nonumber
+ \begin{split}
+   41.75 - 40 e^{0.04} = 0.117569.   
+ \end{split}
+\end{equation}
+}
+
+\newpage
+
+\paragraph{{\color{huntergreen} \underline{\it Goal}}} 
+To study the payoff and the profit as {\color{maroon} {\bf functions}} 
+of the {\color{maroon}{\bf final asset price}}. 
+
+\paragraph{{\color{huntergreen} \underline{\it Introduce}}}
+{\color{maroon} $s \dots$ an independent \underline{\bf argument} 
+taking values in $[0, \infty)$ which will stand for the 
+{\color{maroon} \bf final asset price}, i.e., it will be a "placeholder" 
+for the random variable $S(T)$
+}
+
+\medskip
+
+\newpage
+
+\begin{problem}
+ To plant and harvest 20,000 bushels of corn, Farmer Jayne incurs total aggregate
+  costs totaling \$33,000. The current spot price of corn is \$1.80
+  per bushel. What is the profit if the spot price is \$1.90 per
+  bushel when she harvests and sells her corn?
+\begin{itemize}
+\item[(a)] About \$3,000 gain
+\vskip0.1cm
+\item[(b)] About \$3,000 loss
+\vskip0.1cm
+\item[(c)] About \$5,000 loss
+\vskip0.1cm
+\item[(d)] About \$5,000 gain
+\vskip0.1cm
+\item[(e)] None of the above
+\end{itemize}
+\end{problem}
+
+\sol{{\bf (d)}\\
+\begin{equation}%\label{}
+    \nonumber
+    \begin{split}
+      1.90\cdot 20,000 - 33,000 = 5,000
+    \end{split}
+\end{equation}
+}
+
+\medskip
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
