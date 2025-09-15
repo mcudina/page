@@ -211,21 +211,21 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2): Adjusted $R^2$
 
-<!--
-[Code for class](code/trees-empty.Rmd): Cherry trees
+[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
 
 [Code from class](code/trees-in-class.Rmd): Cherry trees
 
+<!--
 [Homework #2](hw/m339g-hw2-regression-solns.pdf) -- **solutions**
 
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
+-->
 
 [Data for class](code/mustangs.csv): Mustangs
 
 [Code from class](code/mustangs.Rmd): Mustangs
 
+<!--
 [Homework #4](hw/m339g-hw4-F.pdf) -- **due on Friday, February 14th, 2025**
 
 ---

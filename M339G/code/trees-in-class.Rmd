@@ -5,7 +5,7 @@ output:
   pdf_document: default
 ---
 
-The data set `trees` is built-in. Let's take a look at it. 
+The data set `trees` is built in. Let's take a look at it. 
 
 ```{r}
 names(trees)
