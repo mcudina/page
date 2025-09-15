@@ -23,6 +23,7 @@ to these observations as the training set.
 library(ISLR2)
 set.seed(1)
 train <- sample(392, 196)
+#train
 ```
 
 (Here we use a shortcut in the sample command; see `?sample` for details.)
@@ -46,11 +47,13 @@ mean((mpg - predict(lm.fit, Auto))[-train]^2)
 Therefore, the estimated test MSE for the linear regression fit is $23.27$. We can use the `poly()` function to estimate the test error for the quadratic and cubic regressions.
 
 ```{r chunk4}
-lm.fit.tem<-lm(mpg ~ horsepower+ I(horsepower^2), data=Auto, subset=train)
+lm.fit.tem<-lm(mpg ~ horsepower + I(horsepower^2), data=Auto, subset=train)
 mean((mpg - predict(lm.fit.tem, Auto))[-train]^2)
+
 lm.fit2 <- lm(mpg ~ poly(horsepower, 2), data = Auto, 
     subset = train)
 mean((mpg - predict(lm.fit2, Auto))[-train]^2)
+
 lm.fit3 <- lm(mpg ~ poly(horsepower, 3), data = Auto, 
     subset = train)
 mean((mpg - predict(lm.fit3, Auto))[-train]^2)
@@ -103,6 +106,7 @@ coef(lm.fit)
 library(boot)
 glm.fit <- glm(mpg ~ horsepower, data = Auto)
 cv.err <- cv.glm(Auto, glm.fit)
+#cv.err
 cv.err$delta
 ```
 
