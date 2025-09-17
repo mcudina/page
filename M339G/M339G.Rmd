@@ -186,15 +186,16 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 
 [Wikipedia](https://en.wikipedia.org/wiki/Leverage_(statistics)): Leverage
 
-<!--
-[Class notes](notes/m339g-multiple-linear-regression.pdf)
--->
+[Class notes](notes/m339g-mlr.pdf)
 
 [`R`-notebook from class](code/mlr.Rmd): Multiple linear regression
 
-<!--
+---
+
+**Class 11: September 19th, 2025**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-f-distn.pdf)
 
 [`R`-script from class](code/F-distn.R): The $F-$distribution
@@ -245,9 +246,7 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [`R`-notebook from class](code/splines.Rmd): Splines 
 
----
 
-**Class 11: February 7th**<br>
 More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Code for class](code/splines-validation.Rmd): Splines with validation
