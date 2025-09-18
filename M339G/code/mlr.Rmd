@@ -146,8 +146,7 @@ Instead, we can use the following short-hand:
 lm.fit <- lm(medv ~ ., data = Boston)
 summary(lm.fit)
 ```
-What if we would like to perform a regression using all of the variables but one?  For example, in the above regression output,  `age` has a high $p$-value. So we may wish to run a regression excluding this predictor.
- The following syntax results in a regression using all predictors except `age`.
+What if we would like to perform a regression using all of the variables but one?  For example, in the above regression output,  `age` has a high $p$-value. So we may wish to run a regression excluding this predictor. The following syntax results in a regression using all predictors except `age`.
 
 ```{r chunk17}
 lm.fit1 <- lm(medv ~ . - age, data = Boston)
@@ -166,6 +165,8 @@ lm.fit1 <- update(lm.fit, ~ . - age)
 lm.fit2 <- lm(medv ~ . - age - indus, data = Boston)
 summary(lm.fit2)
 ```
+
+*The above approach is called* **backward selection**. *How would you design* **forward selection?**
 
 ## Interaction Terms
 
