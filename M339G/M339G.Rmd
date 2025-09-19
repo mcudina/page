@@ -245,10 +245,11 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 <!--
 [Class notes](notes/m339g-cubic-splines.pdf)
+-->
 
 [`R`-notebook from class](code/splines.Rmd): Splines 
 
-
+<!--
 More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Code for class](code/splines-validation.Rmd): Splines with validation
