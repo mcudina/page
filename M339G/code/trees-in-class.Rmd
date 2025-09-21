@@ -26,9 +26,9 @@ plot(trees,
 We might be interested in looking at, say, `Girth` as the explanatory and `Volume` as the response. This would be a simple linear regression. 
 
 ```{r}
+attach(trees)
 lm.fit.g<-lm(Volume ~ Girth, data=trees)
 summary(lm.fit.g)
-attach(trees)
 plot(Girth, Volume, 
      pch=20, col="blue",
      main="Dependence of Volume on 'Girth'")
@@ -36,7 +36,6 @@ abline(lm.fit.g, col="red", lwd=2)
 
 lm.fit.h<-lm(Volume ~ Height, data=trees)
 summary(lm.fit.h)
-attach(trees)
 plot(Height, Volume, 
      pch=20, col="blue",
      main="Dependence of Volume on Height")

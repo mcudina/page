@@ -195,11 +195,22 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 **Class 11: September 19th, 2025**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-f-distn.pdf)
+[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
+
+[Code from class](code/trees-in-class.Rmd): Cherry trees
+
+[Class notes](notes/m339g-sept-19-2025.pdf): $F-$distribution. 
+
+[My old class notes from *Math Stats*](notes/m378k-mar-07-2025.pdf): Sample variance. 
 
 [`R`-script from class](code/F-distn.R): The $F-$distribution
--->
+
+[Homework #2](hw/m339g-hw2-regression-solns.pdf) -- **solutions**
+
+---
+
+**Class 12: September 22nd, 2025**<br>
+Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-contd.pdf): Multiple linear regression (cont'd) 
 
@@ -212,16 +223,6 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 [Wikipedia](https://en.wikipedia.org/wiki/Bayesian_information_criterion): Bayesian information criterion
 
 [Wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2): Adjusted $R^2$
-
-[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
-
-[Code from class](code/trees-in-class.Rmd): Cherry trees
-
-<!--
-[Homework #2](hw/m339g-hw2-regression-solns.pdf) -- **solutions**
-
-Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
--->
 
 [Data for class](code/mustangs.csv): Mustangs
 
@@ -262,9 +263,6 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 
 [Homework #3](hw/m339g-hw3-slr-solns.pdf) -- **solutions**
 
----
-
-**Class 12: February 10th**<br>
 Categorical predictiors.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
