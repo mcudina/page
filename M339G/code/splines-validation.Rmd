@@ -42,7 +42,20 @@ Next, we import the library `splines`.
 library(splines)
 ```
 
-Making a **linear** fit is the same thing as fitting a smooth spline with $2$ degrees of freedom (corresponding to parameters $\beta_0$ and $\beta_1$). 
+Making a **linear** fit is the same thing as fitting a smooth spline with ....
+
+
+
+
+
+
+
+
+
+
+
+
+$2$ degrees of freedom (corresponding to parameters $\beta_0$ and $\beta_1$). 
 
 ```{r}
 lin.fit=smooth.spline(training$weight,training$mpg,df=2)
@@ -54,6 +67,15 @@ plot(training$weight,training$mpg,
 lines(lin.fit,col="red", lwd=2)
 #lm.fit=lm(training$mpg ~ training$weight)
 #abline(lm.fit, col="blue")
+#what about the fit on the training set?
+pred.t<-predict(lin.fit, training$weight)
+#what is the structure of `pred.t` here?
+pred.t
+pred.t$x
+pred.t$y
+#the mean squared error of the predicted values
+#in the training set
+mean((pred.t$y-training$mpg)^2)
 ```
 Let's see how this fit performs on the validation set. 
 
@@ -61,8 +83,6 @@ Let's see how this fit performs on the validation set.
 pred <- predict(lin.fit, val$weight)
 #what does `predict` give us in this case?
 pred
-pred$x
-pred$y
 #plot of how "off" the predictions are
 plot(pred$y-val$mpg, 
      col="lightblue", pch=20,
@@ -70,7 +90,7 @@ plot(pred$y-val$mpg,
      xlab="Index", ylab="Difference")
 abline(0,0, col="red", lwd=2)
 #the mean squared error of the predicted values
-#in the validation set
+#on the validation set
 mean((pred$y-val$mpg)^2)
 ```
 

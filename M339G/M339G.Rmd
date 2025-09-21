@@ -252,6 +252,7 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 <!--
 More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
+-->
 
 [Code for class](code/splines-validation.Rmd): Splines with validation
 
@@ -261,7 +262,9 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 
 [Slides by Hastie & Tibshirani](slides/ch2-interpretability.pdf): Bias-variance trade-off and interpretability
 
+<!--
 [Homework #3](hw/m339g-hw3-slr-solns.pdf) -- **solutions**
+-->
 
 Categorical predictiors.<br>
 
@@ -271,12 +274,15 @@ Categorical predictiors.<br>
 
 Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-sept-20-2024.pdf)
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
 
 ---
 
+<!--
 **Class 13: February 12th**<br>
 Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.<br>
 
