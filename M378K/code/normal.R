@@ -27,7 +27,7 @@ hist(sims)
 summary(sims)
 
 hist(sims, prob=TRUE)
-curve(dnorm(x,mean=100, sd=20), col="red", add=TRUE)
+curve(dnorm(x,mean=100, sd=20), col="red", add=TRUE, lwd=2)
 
 #68-95-99.7 rule
 pnorm(3,1,2)-pnorm(-1,1,2)

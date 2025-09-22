@@ -36,7 +36,7 @@ summary(lm.fit.m)
 lm.fit.all=lm(Price ~ Miles*Age)
 summary(lm.fit.all)
 ```
-We can do a simple $1$-cross-validation on the above models. We can define the training set in the same fashion for all:
+We can do a simple $2$-cross-validation on the above models. We can define the training set in the same fashion for all:
 
 ```{r}
 set.seed(123)
