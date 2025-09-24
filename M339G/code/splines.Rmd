@@ -44,11 +44,6 @@ fit <- lm(wage ~ bs(age, knots = c(25, 40, 60)), data = Wage)
 
 agelims <- range(age)
 age.grid <- seq(from = agelims[1], to = agelims[2])
-preds <- predict(fit, newdata = list(age = age.grid),
-    se = TRUE)
-se.bands <- cbind(preds$fit + 2 * preds$se.fit,
-    preds$fit - 2 * preds$se.fit)
-
 pred <- predict(fit, newdata = list(age = age.grid), se = T)
 
 plot(age, wage, col = "gray", pch=20)
@@ -66,7 +61,7 @@ dim(bs(age, df = 6))
 attr(bs(age, df = 6), "knots")
 ```
 
-In this case `R` chooses knots at ages $33.8, 42.0$, and $51.0$, which correspond to the 25th, 50th, and 75th percentiles of `age`. The function `bs()` also has a `degree` argument, so we can fit splines of any degree, rather than the default degree of 3 (which yields a cubic spline). 
+In this case `R` chooses knots at ages $33.75, 42.00$, and $51.00$, which correspond to the 25th, 50th, and 75th percentiles of `age`. The function `bs()` also has a `degree` argument, so we can fit splines of any degree, rather than the default degree of 3 (which yields a cubic spline). 
 
 In order to instead fit a natural spline, we use the `ns()` function.
 Here we fit a natural spline with four degrees of freedom.
@@ -84,8 +79,6 @@ As with the `bs()` function, we could instead specify the knots directly using t
 
 In order to fit a smoothing spline, we use
 the `smooth.spline()` function.
-Figure 7.8  was produced with the following
-code:
 
 ```{r chunk22}
 plot(age, wage, xlim = agelims, cex = .5, col = "darkgrey",

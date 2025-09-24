@@ -247,15 +247,14 @@ More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch7-cubic-splines.pdf): Cubic Splines
 
-<!--
-[Class notes](notes/m339g-cubic-splines.pdf)
--->
+[Class notes](notes/m339g-sept-24-2025.pdf)
+
+---
+
+**Class 14: September 26th, 2025**<br>
+More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [`R`-notebook from class](code/splines.Rmd): Splines 
-
-<!--
-More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
--->
 
 [Code for class](code/splines-validation.Rmd): Splines with validation
 
@@ -294,9 +293,6 @@ Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.
 
 [`R`-notebook for class](code/stocks-logistic-reg.Rmd): Logistic regression with the stock market
 
----
-
-**Class 14: February 14th**<br>
 More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span>.<br>
 
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school

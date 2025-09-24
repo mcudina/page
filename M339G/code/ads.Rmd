@@ -10,7 +10,7 @@ First, we download the data set and take a look at it.
 ```{r}
 data<-read.csv("salesadv.csv",header=TRUE)
 attach(data)
-data[,-4]
+View(data)
 plot(data[,-4],
      col="blue", pch=20)
 ```
@@ -65,7 +65,7 @@ lines(adv.mesh,predictions$fit,col="red", lwd=2)
 lines(adv.mesh,predictions$fit+2*predictions$se, col="blue")
 lines(adv.mesh,predictions$fit-2*predictions$se, col="blue")
 ```
-Of course, we should be interested in the basis functions used in this implementation. 
+Of course, we might be interested in the basis functions used in this implementation. 
 
 
 ```{r}
@@ -79,7 +79,7 @@ plot(adv.mesh, b1, type = "l")
 plot(adv.mesh, b2, type = "l")
 
 #the coefficients from the summary of `lm`
-betas=summary(lm.fit.ls)$coeff[,1]
+(betas=summary(lm.fit.ls)$coeff[,1])
 
 plot(adv, sales, 
      pch=20, col="lightblue",
