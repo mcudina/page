@@ -268,6 +268,9 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 [Homework #3](hw/m339g-hw3-slr-solns.pdf) -- **solutions**
 -->
 
+---
+
+**Class 15: September 29th, 2025**<br>
 Categorical predictiors.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
@@ -313,9 +316,6 @@ More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span
 
 [Homework #6](hw/m339g-hw6-sample-one.pdf) -- **due on Friday, February 28th, 2025**
 
----
-
-**Class 15: February 17th**<br>
 Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-probs.pdf) -- **problems** 
