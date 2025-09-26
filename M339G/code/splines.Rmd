@@ -12,6 +12,7 @@ In this lab, we analyze the `Wage` data considered in the examples throughout th
 ```{r chunk1}
 library(ISLR2)
 attach(Wage)
+#View(Wage)
 dim(Wage)
 plot(age, wage,
      pch=20, col="lightblue")
@@ -41,8 +42,9 @@ Fitting `wage` to `age` using a regression spline is simple:
 ```{r chunk19}
 library(splines)
 fit <- lm(wage ~ bs(age, knots = c(25, 40, 60)), data = Wage)
+#fit
 
-agelims <- range(age)
+(agelims <- range(age))
 age.grid <- seq(from = agelims[1], to = agelims[2])
 pred <- predict(fit, newdata = list(age = age.grid), se = T)
 

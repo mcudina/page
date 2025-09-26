@@ -15,6 +15,10 @@ pnorm(3)-pnorm(-3)
 qnorm(0.5)
 qnorm(0.025)
 
+#inverses? 
+qnorm(pnorm(1.76))
+pnorm(qnorm(0.67))
+
 #simulations
 sims=rnorm(1000)
 #sims
