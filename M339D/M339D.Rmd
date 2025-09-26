@@ -251,13 +251,16 @@ More on European call options.<br>
 
 [Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
+---
+
+**Class 14: September 26th, 2025**<br>
 European put options. Moneyness.<br>
 
 [Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 [Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-feb-12-2025.pdf) 
 
 [Problem Set #6](problem-sets/m339d-ps6-puts-solns.pdf):  **Solutions**
@@ -266,9 +269,6 @@ European put options. Moneyness.<br>
 
 **(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
 
----
-
-**Class 14: February 14th**<br>
 Finite probability spaces [revisited]. Arbitrage portfolios. Law of the Unique Price. <br>
 
 [Class notes](notes/m339d-feb-14-2025.pdf) 
