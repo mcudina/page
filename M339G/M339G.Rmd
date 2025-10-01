@@ -301,9 +301,8 @@ More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
 
 <!--
-[Class notes](notes/m339g-feb-14-2025.pdf)
-
 [Class notes](notes/m339g-multiclass-logistic.pdf)
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
 
@@ -311,6 +310,7 @@ More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span
 
 [`R`-notebook for class](code/vocation.Rmd): Multiclass logistic regression 
 
+<!--
 [Homework #4](hw/m339g-hw4-F-solns.pdf) -- **solutions**
 
 [Homework #5](hw/m339g-hw5-logistic.pdf) -- **due on Friday, February 21st, 2025**
