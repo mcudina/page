@@ -333,12 +333,12 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
-<!--
 [`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
 
-[`R`-notebook for class](code/vif.Rmd): Variance inflation factor
-
+<!--
 [Class notes](notes/m339g-vif.pdf)
+
+[`R`-notebook for class](code/vif.Rmd): Variance inflation factor
 
 Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
 

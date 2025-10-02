@@ -87,3 +87,4 @@ summary(lm.fit.x)
 ```
 
 We would also wish to reduce the dimension of the array of predictors by getting rid of linear dependence (as much as is feasible). This can be done by dropping predictors or by creating a linear combination of predictors (see the discussion on p.103 of the textbook). 
+
