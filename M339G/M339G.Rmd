@@ -337,6 +337,7 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 <!--
 [Class notes](notes/m339g-vif.pdf)
+-->
 
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
 
@@ -352,6 +353,7 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Medium](https://medium.com/analytics-vidhya/comparison-of-initialization-strategies-for-k-means-d5ddd8b0350e): More on Initialization for K-Means Clustering
 
+<!--
 [UC Irvine MLR](https://archive.ics.uci.edu/dataset/267/banknote+authentication): Data documentation with expanded data set
 
 [Data for class](code/banknotes.csv): Banknotes
@@ -457,13 +459,11 @@ More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 Bivariate normal distribution.<br> 
 
 [Class notes](notes/m339g-mar-12-2025.pdf)
--->
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
 
-<!--
 [Class notes](notes/m339g-mar-14-2025.pdf)
 
 [Homework #7](hw/m339g-hw7-k-means-solns.pdf) -- **solutions**
