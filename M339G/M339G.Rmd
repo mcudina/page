@@ -290,13 +290,14 @@ Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.
 
 [Slides by Hastie & Tibshirani](slides/ch4-classification.pdf): Logistic regression
 
+---
+
+**Class 17: October 3rd, 2025**<br>
+Logistic-regression labs.<br>
+
 [Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
 
 [`R`-notebook for class](code/stocks-logistic-reg.Rmd): Logistic regression with the stock market
-
-<!--
-More on Logistic regression <span style="color: purple;">**(Section 4.3)**</span>.<br>
--->
 
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
 
@@ -335,9 +336,6 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [Class notes](notes/m339g-vif.pdf)
 
----
-
-**Class 17: February 21st**<br>
 Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
@@ -457,11 +455,13 @@ More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 Bivariate normal distribution.<br> 
 
 [Class notes](notes/m339g-mar-12-2025.pdf)
+-->
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
 
+<!--
 [Class notes](notes/m339g-mar-14-2025.pdf)
 
 [Homework #7](hw/m339g-hw7-k-means-solns.pdf) -- **solutions**
