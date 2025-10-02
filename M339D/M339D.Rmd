@@ -305,6 +305,10 @@ Derivative securities. Replicating portfolios. Equity-linked contracts. <br>
 
 **(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
 
+<!--
+[Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
+-->
+
 ---
 
 **Class 18: October 6th, 2025**<br>
@@ -317,10 +321,6 @@ Put-call parity.<br>
 -->
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
-
-<!--
-[Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
--->
 
 Chooser options.<br>
 
@@ -347,18 +347,6 @@ Random number generation.<br>
 [Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister): Mersenne twister
 
 [An atmospheric RNG](https://www.random.org/)
-
-Inverse-Transform Method.<br>
-
-[Problem set #7](problem-sets/m339d-ps7-inverse-transform-probs.pdf): Problems
-
-[Class notes](notes/m339d-feb-26-2024.pdf) 
-
-[Problem set #7](problem-sets/m339d-ps7-inverse-transform-solns.pdf): Solutions
-
-Acceptance-Rejection Method.<br>
-
-[Class notes](notes/m339d-acc-rej.pdf) 
 
 [In-Term One](exams/m339d-one-topics.pdf): Topics
 
@@ -741,6 +729,18 @@ Implied volatility. <br>
 ---
 
 [The Final Exam](exams/m339d-final-topics.pdf): Topics
+
+Inverse-Transform Method.<br>
+
+[Problem set #7](problem-sets/m339d-ps7-inverse-transform-probs.pdf): Problems
+
+[Class notes](notes/m339d-feb-26-2024.pdf) 
+
+[Problem set #7](problem-sets/m339d-ps7-inverse-transform-solns.pdf): Solutions
+
+Acceptance-Rejection Method.<br>
+
+[Class notes](notes/m339d-acc-rej.pdf) 
 
 [Quiz #2](quizzes/m339d-quiz-two.pdf) -- due on **Monday, January 24th**
 
