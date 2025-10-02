@@ -313,11 +313,15 @@ Logistic-regression labs.<br>
 
 <!--
 [Homework #4](hw/m339g-hw4-F-solns.pdf) -- **solutions**
+-->
 
-[Homework #5](hw/m339g-hw5-logistic.pdf) -- **due on Friday, February 21st, 2025**
+[Homework #5](hw/m339g-hw5-logistic.pdf) -- **due on Friday, October 10th, 2025**
 
-[Homework #6](hw/m339g-hw6-sample-one.pdf) -- **due on Friday, February 28th, 2025**
+[Homework #6](hw/m339g-hw6-sample-one.pdf) -- **for practice; not to be handed in**
 
+[Homework #6](hw/m339g-hw6-sample-one-solns.pdf) -- **solutions**
+
+<!--
 Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-probs.pdf) -- **problems** 
@@ -398,8 +402,6 @@ Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)
 Principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch6-pcr.pdf): PCR
-
-[Homework #6](hw/m339g-hw6-sample-one-solns.pdf) -- **solutions**
 
 ---
 
