@@ -90,6 +90,7 @@ tab
 good.score=(tab[1,1]+tab[2,2])/sum(tab)
 good.score
 mean(glm.pred == Direction)
+mean(Direction=="Up")
 ```
 
 The diagonal elements of the confusion matrix indicate correct predictions, while the off-diagonals represent incorrect predictions. Hence our model correctly predicted that the market would go up on $507$ days and that it would go down on $145$ days, for a total of $507+145 = 652$ correct predictions. The `mean()` function can be used to compute the fraction of days for which the prediction was correct. In this case, logistic regression correctly predicted the movement of the market  $52.2$ \% of the time.

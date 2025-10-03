@@ -17,6 +17,7 @@ Next, we look at the included data set:
 
 ```{r}
 data<-MedGPA
+#View(data)
 data$Acceptance <- as.factor(data$Acceptance)
 attach(data)
 dim(data)

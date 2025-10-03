@@ -301,9 +301,12 @@ Logistic-regression labs.<br>
 
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
 
-<!--
-[Class notes](notes/m339g-multiclass-logistic.pdf)
--->
+[Class notes](notes/m339g-oct-03-2025.pdf)
+
+---
+
+**Class 18: October 6th, 2025**<br>
+Logistic regression with multiple response categories.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
 
@@ -364,9 +367,6 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, March 14th, 2025**
 
----
-
-**Class 18: February 24th, 2025**<br>
 Singular value decomposition <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
