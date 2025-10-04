@@ -303,6 +303,8 @@ Logistic-regression labs.<br>
 
 [Class notes](notes/m339g-oct-03-2025.pdf)
 
+[Homework #4](hw/m339g-hw4-F-solns.pdf) -- **solutions**
+
 ---
 
 **Class 18: October 6th, 2025**<br>
@@ -313,10 +315,6 @@ Logistic regression with multiple response categories.<br>
 [Data for class](code/hsbdemo.csv): School choice
 
 [`R`-notebook for class](code/vocation.Rmd): Multiclass logistic regression 
-
-<!--
-[Homework #4](hw/m339g-hw4-F-solns.pdf) -- **solutions**
--->
 
 [Homework #5](hw/m339g-hw5-logistic.pdf) -- **due on Friday, October 10th, 2025**
 
