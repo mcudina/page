@@ -328,6 +328,9 @@ Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
 
+---
+
+**Class 19: October 8th, 2025**<br>
 K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
@@ -342,6 +345,11 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
 
+[In-Term One](exams/m339g-one-topics.pdf): Topics
+
+---
+
+**Class 20: October 10th, 2025**<br>
 Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
@@ -354,13 +362,13 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Medium](https://medium.com/analytics-vidhya/comparison-of-initialization-strategies-for-k-means-d5ddd8b0350e): More on Initialization for K-Means Clustering
 
-<!--
 [UC Irvine MLR](https://archive.ics.uci.edu/dataset/267/banknote+authentication): Data documentation with expanded data set
 
 [Data for class](code/banknotes.csv): Banknotes
 
 [Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
 
+<!--
 [Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
 
 [Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, March 14th, 2025**
@@ -377,9 +385,6 @@ Singular value decomposition <span style="color: purple;">**(Section 12.2)**</sp
 
 [Extra Credit Homework](hw/m339g-ec-hw-svd.pdf) -- **due on Friday, March 7th, 2025**
 
----
-
-**Class 19: February 26th, 2025**<br>
 Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-pca.pdf): PCA
@@ -390,15 +395,10 @@ Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)
 
 [`R`-notebook for class](code/pca-houses.Rmd): Principal component analysis for houses
 
-[In-Term One](exams/m339g-one-topics.pdf): Topics
-
 [Practice for In-Term One](exams/m339g-one-sample-probs.pdf) -- **problems** 
 
 [Practice for In-Term One](exams/m339g-one-sample-solns.pdf) -- **solutions** 
 
----
-
-**Class 20: February 28th, 2025**<br>
 Principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch6-pcr.pdf): PCR
