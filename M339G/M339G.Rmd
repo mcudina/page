@@ -347,6 +347,10 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [In-Term One](exams/m339g-one-topics.pdf): Topics
 
+[Practice for In-Term One](exams/m339g-one-sample-probs.pdf) -- **problems** 
+
+[Practice for In-Term One](exams/m339g-one-sample-solns.pdf) -- **solutions** 
+
 ---
 
 **Class 20: October 10th, 2025**<br>
@@ -394,10 +398,6 @@ Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)
 [Data for class](code/housepriceall.csv): Houses
 
 [`R`-notebook for class](code/pca-houses.Rmd): Principal component analysis for houses
-
-[Practice for In-Term One](exams/m339g-one-sample-probs.pdf) -- **problems** 
-
-[Practice for In-Term One](exams/m339g-one-sample-solns.pdf) -- **solutions** 
 
 Principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
 
