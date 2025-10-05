@@ -40,3 +40,4 @@ What is the expected value of this random variable?
 
 Use *Monte Carlo* to estimate the expected value based on 10,000 runs. Does the result agree with your theoretical expected value?
 
+

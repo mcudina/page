@@ -353,17 +353,21 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 <!--
 [Class notes](notes/m339d-feb-28-2025.pdf) 
+-->
 
-[Problem Set #8](problem-sets/m339d-ps8-mc.Rmd)
+[Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
 
+<!--
 [Problem Set #8](problem-sets/m339d-ps8-mc-in-class.Rmd): **Solutions**
+-->
 
 [Apple put data](data/apple-puts.csv)
 
-[Project #3](projects/m339d-project3-probs.pdf) -- **due on Monday, March 24th, 2025**
+[Project #3](projects/m339d-project3-probs.pdf) -- **due on Monday, November 3rd, 2025**
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+<!--
 [Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
 
 ---
