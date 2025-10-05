@@ -367,21 +367,23 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
-[Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
-
 ---
 
-**Class 20: February 28th, 2025**<br>
-
----
-
-**Class 21: March 3rd**<br>
+**Class 20: October 10th, 2025**<br>
 The binomial asset-pricing model.<br>
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
-[Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, March 7th, 2025**
+[Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, October 17th, 2025**
+
+<!--
+[Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
+
+
+---
+
+**Class 21: March 3rd**<br>
+
 
 Realized returns of stocks. Forward trees.  <br>
 
