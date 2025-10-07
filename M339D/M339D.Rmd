@@ -316,12 +316,13 @@ Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
-<!--
-[Class notes](notes/m339d-feb-21-2025.pdf) 
--->
+[Class notes](notes/m339d-oct-06-2025.pdf) 
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
+---
+
+**Class 19: October 8th, 2025**<br>
 Chooser options.<br>
 
 [Problem](problem-sets/m339d-chooser.pdf)
@@ -338,9 +339,6 @@ Chooser options.<br>
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
----
-
-**Class 19: October 8th, 2025**<br>
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
