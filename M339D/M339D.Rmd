@@ -350,9 +350,7 @@ Random number generation.<br>
 **Class 20: October 10th, 2025**<br>
 The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
-<!--
-[Class notes](notes/m339d-feb-28-2025.pdf) 
--->
+[Lecture notes](lectures/m339d-slln-monte-carlo.pdf): The Monte Carlo method.
 
 [Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
 
