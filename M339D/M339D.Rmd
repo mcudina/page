@@ -327,9 +327,7 @@ Chooser options.<br>
 
 [Problem](problem-sets/m339d-chooser.pdf)
 
-<!--
 [Class notes](notes/m339d-feb-24-2025.pdf) 
--->
 
 **(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
 
@@ -347,6 +345,9 @@ Random number generation.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
+---
+
+**Class 20: October 10th, 2025**<br>
 The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 <!--
@@ -365,9 +366,6 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 20: October 10th, 2025**<br>
 The binomial asset-pricing model.<br>
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
