@@ -341,7 +341,7 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
 
-[Class notes](notes/m339g-vif.pdf)
+[Class notes](notes/m339g-vif.pdf): VIF
 
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
 
