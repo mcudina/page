@@ -374,9 +374,7 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
 
-<!--
 [Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
--->
 
 [Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, October 24th, 2025**
 

@@ -1,0 +1,124 @@
+---
+title: "Problem set #7: Monte Carlo"
+author: "Milica Cudina"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## Problem #1: Simple gambling
+Consider a game in which a spinner is spun. The spinner is equally likely to land on *yellow*, *red*, or *blue*. If the spinner lands on *yellow*, the player loses \$1. If the spinner lands on *red*, the player wins \$1. If the spinner lands on *blue*, no money changes hands. 
+Use *Monte Carlo* to estimate the expected winnings based on 10,000 runs. Does the result agree with your theoretical expected value?
+
+Now, complete 1,000 batches of 10,000 runs. What does the histogram of the averages of the 1,000 batches look like? What is their mean? What is their variance? What is their standard deviation?
+
+*Solution:*
+Let's encode *yellow* by $-1$, *red* by $1$, and *blue* by $0$. 
+```{r}
+spinner=c(-1, 0, 1)
+(one.run=sample(spinner, 1))
+```
+Now, we proceed to *Monte Carlo*. If we want multiple simulated draws, what should we do? 
+```{r}
+n.sim=10^6
+(many.runs=sample(spinner, size=n.sim, replace=TRUE))
+```
+Now, we take the arithmetic average of the simulated values.
+```{r}
+(mc.exp=mean(many.runs))
+```
+The number is close to $0$. We're happy!
+
+First, we define a function in `R` which calculates a single *Monte Carlo* estimate. 
+```{r}
+spin.mc<-function(){
+  mean(sample(spinner, n.sim, replace = TRUE))
+}
+
+# spin.mc()
+
+
+```
+Next, we execute $1000$ batches of the above function. 
+```{r}
+n.batches=1000
+
+all.batches=replicate(n.batches, spin.mc())
+
+#mean(all.batches)
+var(all.batches)
+#why?
+#(var.one.spin=(-1)^2*(1/3)+0*(1/3)+1^2*(1/3))
+(prec=var.one.spin/n.sim)
+
+sd(all.batches)
+
+#just for laughs
+hist(all.batches, breaks=30, col="bisque")
+```
+
+
+## Problem #2: Gambling
+Consider the following game: 
+
+- if a fair die lands on an odd number, the player loses one dollar; 
+- if a fair die lands on an even number which is not a perfect square, no money changes hands; 
+- if a fair die lands on an even number which is also a perfect square, the player wins nine dollars. 
+
+What is the theoretical expectation of the amount won in this game?
+
+Use *Monte Carlo* to estimate the expected winnings based on 10,000 runs. Does the result agree with your theoretical expected value?
+
+*Solution:*
+The probability of losing $1$ is $1/2$. 
+The probability of "nothing" is $1/3$. 
+The probability of winning $9$ is $1/6$. 
+
+The set-up is:
+```{r}
+winnings=c(-1,0,9)
+probs=c(1/2, 1/3, 1/6)
+```
+
+The theoretical expectation is:
+```{r}
+(mu=sum(winnings*probs))
+```
+Using *Monte Carlo*:
+```{r}
+n.sim=10^5
+mean(sample(winnings, n.sim, replace=TRUE, prob=probs))
+```
+
+
+
+
+## Problem #3: The binomial distribution
+Consider a random variable $X$ which has the binomial distribution with the number of trials equal to $50$ and the probability of success in every trial equal to $2/5$. 
+
+What is the expected value of this random variable?
+
+Use *Monte Carlo* to estimate the expected value based on 10,000 runs. Does the result agree with your theoretical expected value?
+
+*Solution:*
+The parameters of $X$:
+```{r}
+trials=50
+succ.prob=2/5
+```
+The theoretical expectation:
+```{r}
+(mu=trials*succ.prob)
+```
+The *Monte Carlo* estimate:
+```{r}
+n.sim=10^5
+runs<-rbinom(n.sim, trials, succ.prob)
+(mean(runs))
+```
+

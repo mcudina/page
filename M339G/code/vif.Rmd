@@ -12,6 +12,7 @@ First, let's import the textbook's library.
 ```{r}
 library(ISLR2)
 attach(Auto)
+#View(Auto)
 ```
 
 Let's do some exploratory analysis. 
