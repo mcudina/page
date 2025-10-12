@@ -69,11 +69,13 @@ pr.out$scale
 
 The `rotation` matrix provides the principal component loadings;
 each column of `pr.out$rotation` contains the corresponding
-principal component loading vector.\footnote{This function names it
+principal component loading vector.
+
+**This function names it
   the rotation matrix, because when we matrix-multiply the $\bf X$
   matrix by `pr.out$rotation`, it gives us the coordinates of the
   data in the rotated coordinate system. These coordinates are the
-  principal component scores.}
+  principal component scores.**
 
 
 ```{r chunk8}

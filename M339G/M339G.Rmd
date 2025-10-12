@@ -411,9 +411,9 @@ Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)
 **Class 23: October 17th, 2025**<br>
 PCA lab.<br>
 
-<!--
 [`R`-notebook for class](code/pca.Rmd): Principal component analysis
 
+<!--
 [Data for class](code/housepriceall.csv): Houses
 
 [`R`-notebook for class](code/pca-houses.Rmd): Principal component analysis for houses
