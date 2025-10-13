@@ -133,6 +133,8 @@ More on continuous distributions.<br>
 
 [Class notes](notes/m378k-sept-15-2025.pdf)
 
+[Standard Normal Distribution Areas](http://demonstrations.wolfram.com/StandardNormalDistributionAreas/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
+
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
 [Area of a Normal Distribution](http://demonstrations.wolfram.com/AreaOfANormalDistribution/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Eric Schulz 
@@ -255,19 +257,19 @@ The $F-$distribution. Moment generating functions.<br>
 ---
 
 **Class 21: October 13th, 2025**<br>
-<!--
 More on the moment generating functions.<br>
 
+<!--
 [Class notes](notes/m378k-feb-21-2025.pdf)
 
 [Problem Set #9](problem-sets/m378k-ps9-mgf-solns.pdf):  **Solutions**
+-->
 
 More on the normal distribution.<br>
 
-[Standard Normal Distribution Areas](http://demonstrations.wolfram.com/StandardNormalDistributionAreas/){.demonstrationHyperlink} from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
-
 [Problem Set #10](problem-sets/m378k-ps10-normal-probs.pdf):  **Problems we will work on in class**
 
+<!--
 [Problem Set #10](problem-sets/m378k-ps10-normal-solns.pdf):  **Solutions**
 
 De Moivre-Laplace.<br>
