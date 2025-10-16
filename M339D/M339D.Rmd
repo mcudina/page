@@ -362,12 +362,6 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-The binomial asset-pricing model.<br>
-
-[Class notes](notes/m339d-oct-13-2025.pdf) 
-
-**(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
-
 [Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
 
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, October 17th, 2025**
@@ -375,16 +369,22 @@ The binomial asset-pricing model.<br>
 ---
 
 **Class 21: October 13th, 2025**<br>
-Realized returns of stocks. Forward trees.  <br>
+The binomial asset-pricing model. Realized returns of stocks. Forward trees.  <br>
+
+[Class notes](notes/m339d-oct-13-2025.pdf) 
+
+**(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
 <!--
 [Class notes](notes/m339d-mar-03-2025.pdf) 
+-->
 
 ---
 
-**Class 22: March 5th, 2025**<br>
-More on forward binomial trees. Binomial option pricing: Pricing by replication.<br>
+**Class 22: October 15th, 2025**<br>
+Binomial option pricing: Pricing by replication.<br>
 
+<!--
 [Class notes](notes/m339d-mar-05-2025.pdf) 
 
 [In-Term One](exams/m339d-one-topics.pdf): Topics
