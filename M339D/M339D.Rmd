@@ -375,23 +375,25 @@ The binomial asset-pricing model. Realized returns of stocks. Forward trees.  <b
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
-<!--
-[Class notes](notes/m339d-mar-03-2025.pdf) 
--->
-
 ---
 
 **Class 22: October 15th, 2025**<br>
 Binomial option pricing: Pricing by replication.<br>
 
+[Class notes](notes/m339d-oct-15-2025.pdf) 
+
 <!--
 [Class notes](notes/m339d-mar-05-2025.pdf) 
+-->
 
 [In-Term One](exams/m339d-one-topics.pdf): Topics
 
+<!--
 [Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
 
 [Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions**
+
+<!--
 
 ---
 
