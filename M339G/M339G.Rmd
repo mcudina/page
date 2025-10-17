@@ -409,7 +409,6 @@ PCA lab.<br>
 
 [`R`-notebook for class](code/pca.Rmd): Principal component analysis
 
-<!--
 [Data for class](code/housepriceall.csv): Houses
 
 [`R`-notebook for class](code/pca-houses.Rmd): Principal component analysis for houses
@@ -418,10 +417,13 @@ Principal components regression <span style="color: purple;">**(Section 6.3.1)**
 
 [Slides by Hastie & Tibshirani](slides/ch6-pcr.pdf): PCR
 
+<!--
 More about the principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
+-->
 
 [`R`-notebook for class](code/pcr.Rmd): Principal component regression
 
+<!--
 [`R`-notebook for class](code/pcr-seat-position.Rmd): Principal component regression on seat positions
 
 Principal components analysis and clustering <span style="color: purple;">**(Section 12.2 and 12.4.1)**</span>.<br>

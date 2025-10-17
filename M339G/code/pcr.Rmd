@@ -95,7 +95,7 @@ validationplot(pcr.fit, val.type = "MSEP", legendpos = t(c(12,200000)))
 summary(pcr.fit)
 ```
 
-Now we find that the lowest cross-validation error occurs when $M=5$ components are used.
+Now we find that the lowest cross-validation error occurs when $M=7$ components are used.
 We compute the test MSE as follows.
 
 ```{r chunk46}
@@ -103,14 +103,14 @@ x <- model.matrix(Salary ~ ., Hitters)[, -1]
 y <- Hitters$Salary
 y.test <- y[test]
 
-pcr.pred <- predict(pcr.fit, x[test, ], ncomp = 5)
+pcr.pred <- predict(pcr.fit, x[test, ], ncomp = 7)
 mean((pcr.pred - y.test)^2)
 ```
 
 
-Finally, we fit PCR on the full data set, using $M=5$, the number of components identified by cross-validation.
+Finally, we fit PCR on the full data set, using $M=7$, the number of components identified by cross-validation.
 
 ```{r chunk47}
-pcr.fit <- pcr(y ~ x, scale = TRUE, ncomp = 5)
+pcr.fit <- pcr(y ~ x, scale = TRUE, ncomp = 7)
 summary(pcr.fit)
 ```
