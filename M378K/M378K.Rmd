@@ -297,14 +297,17 @@ The Central Limit Theorem.<br>
 
 [Problem Set #12](problem-sets/m378k-ps12-clt-probs.pdf):  **Problems we will work on in class**
 
-
 [Class notes](notes/m378k-oct-17-2025.pdf)
 
 [Problem Set #12](problem-sets/m378k-ps12-clt-solns.pdf):  **Solutions**
 
+<!--
+[Homework #5](hw/m378k-hw5-mgf-solns.pdf) -- **solutions**
+-->
+
 ---
 
-**Class 24: March 10th, 2025**<br>
+**Class 24: October 20th, 2025**<br>
 More on the $\chi^2-$distribution.<br>
 
 [Mathematica demonstration: The Chi-Squared Distribution](http://demonstrations.wolfram.com/TheChiSquaredDistribution/)
@@ -320,9 +323,7 @@ The $\Gamma-$distribution.<br>
 
 [The R-script from class](code/gamma-clt.R)
 
-[Homework #5](hw/m378k-hw5-mgf-solns.pdf) -- **solutions**
-
-[Homework #6](hw/m378k-hw6-gamma-probs.pdf) -- **due on Friday, March 7th, 2025**
+[Homework #7](hw/m378k-hw7-gamma-probs.pdf) -- **due on Friday, October 31st, 2025**
 
 The statistical set-up. Order statistics.<br>
 
