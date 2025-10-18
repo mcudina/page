@@ -413,6 +413,9 @@ PCA lab.<br>
 
 [`R`-notebook for class](code/pca-houses.Rmd): Principal component analysis for houses
 
+---
+
+**Class 24: October 20th, 2025**<br>
 Principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch6-pcr.pdf): PCR
@@ -439,9 +442,6 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 [Project #2](projects/m339g-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 
----
-
-**Class 24: March 10th, 2025**<br>
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Class notes](notes/m339g-mar-07-2025.pdf)

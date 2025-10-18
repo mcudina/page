@@ -301,6 +301,7 @@ The Central Limit Theorem.<br>
 [Class notes](notes/m378k-feb-26-2025.pdf)
 
 [Problem Set #12](problem-sets/m378k-ps12-clt-solns.pdf):  **Solutions**
+-->
 
 [Mathematica demonstration: The Chi-Squared Distribution](http://demonstrations.wolfram.com/TheChiSquaredDistribution/)
 
@@ -310,6 +311,7 @@ The Central Limit Theorem.<br>
 
 The $\Gamma-$distribution.<br>
 
+<!--
 [Class notes](notes/m378k-feb-28-2025.pdf)
 
 [The R-script from class](code/gamma-clt.R)

@@ -1,4 +1,4 @@
-trials=1000
+trials=100000
 suc=0.4
 
 nsims=10000
@@ -25,6 +25,6 @@ curve(dnorm(x, mean=mu.hat, sd=sigma.hat), add=TRUE, lwd=2,
       col="blue")
 
 #in standard units
-sims.std=(sims-mu)/sigma
-hist(sims.std, breaks=25, prob=TRUE)
+(sims.std=(sims-mu)/sigma)
+hist(sims.std, breaks=50, prob=TRUE)
 curve(dnorm(x), add=TRUE, lwd=2, col="red")
