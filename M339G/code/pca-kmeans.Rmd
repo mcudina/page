@@ -21,7 +21,7 @@ seeds=na.omit(seeds)
 dim(seeds)
 ```
 
-The columns are not labeled, so I will add names for aesthetic reasons. 
+I don't like how the columns are labeled, so I will change names for aesthetic reasons. 
 
 ```{r}
 colnames(seeds)=c("meas1", "meas2", "meas3", "meas4", "meas5", "meas6", "meas7")
