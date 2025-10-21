@@ -316,9 +316,7 @@ More on the $\chi^2-$distribution.<br>
 
 The $\Gamma-$distribution.<br>
 
-<!--
-[Class notes](notes/m378k-feb-28-2025.pdf)
--->
+[Class notes](notes/m378k-oct-20-2025.pdf)
 
 [The R-script from class](code/gamma-clt.R)
 
