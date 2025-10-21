@@ -8,8 +8,8 @@ beta=1
 nsims=1000
 #simulating from the gamma
 sims=rgamma(nsims, alpha, beta)
-mu.hat=mean(sims)
-v.hat=var(sims)
+(mu.hat=mean(sims))
+(v.hat=var(sims))
 beta.hat=mu.hat/v.hat
 beta.hat
 alpha.hat=mu.hat*beta.hat
@@ -43,7 +43,7 @@ avg.gamma<-function(n, a, b){
 }
 #repeat this function many times
 n.batches=7000
-avgs=replicate(n.batches, avg.gamma(nsims, alpha, beta))
+avgs=replicate(n.batches, avg.gamma(1000, alpha, beta))
 #plot the histogram
 hist(avgs, col="bisque", prob=TRUE)
 #theoretical parameters of the bell curve

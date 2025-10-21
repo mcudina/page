@@ -318,9 +318,11 @@ The $\Gamma-$distribution.<br>
 
 <!--
 [Class notes](notes/m378k-feb-28-2025.pdf)
+-->
 
 [The R-script from class](code/gamma-clt.R)
 
+<!--
 [Homework #7](hw/m378k-hw7-gamma-probs.pdf) -- **due on Friday, October 31st, 2025**
 -->
 

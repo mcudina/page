@@ -104,7 +104,7 @@ Now, let's perform $K-$means clustering to these data based on the first and sec
 
 ```{r}
 pcs=cbind(pc1, pc2)
-km.out=kmeans(pcs, 3, nstart=25)
+km.out=kmeans(pcs, 2, nstart=25)
 ```
 
 Let's compare the clusters based on the entire data set and the first two principal components. 

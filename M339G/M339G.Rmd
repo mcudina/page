@@ -440,16 +440,17 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 [Project #2](projects/m339g-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
+---
+
+**Class 25: October 22nd, 2025**<br>
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-mar-07-2025.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
 
----
 
-**Class 25: March 12th, 2025**<br>
 More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Class notes](notes/m339g-mar-10-2025.pdf)

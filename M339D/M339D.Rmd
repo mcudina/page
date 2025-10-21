@@ -407,32 +407,35 @@ More on binomial option pricing.<br>
 
 ---
 
-<!--
-**Class 24: March 10th, 2025**<br>
+**Class 24: October 20th, 2025**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
-[Class notes](notes/m339d-mar-10-2025.pdf) 
+[Class notes](notes/m339d-oct-20-2025.pdf) 
 
+<!--
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing-solns.pdf): **Solutions**
 
 **(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
-
+-->
 ---
 
-**Class 25: March 12th, 2025**<br>
+**Class 25: October 22nd, 2025**<br>
 <span style="color: red;">**In-Term One**</span><br>
 
+<!--
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
+-->
 
 ---
 
-**Class 26: March 14th, 2025**<br>
+**Class 26: October 24th, 2025**<br>
 Binomial option pricing: Two periods.<br>
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-probs.pdf): **Problems**
 
+<!--
 [Class notes](notes/m339d-mar-14-2025.pdf) 
 
 Multiple binomial periods. <br>

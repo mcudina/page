@@ -18,7 +18,7 @@ First of all, we note that the `Salary` variable is missing for some of the play
 library(ISLR2)
 data(Hitters)
 names(Hitters)
-#View(Hitters)
+View(Hitters)
 dim(Hitters)
 sum(is.na(Hitters$Salary))
 ```
@@ -100,6 +100,7 @@ We compute the test MSE as follows.
 
 ```{r chunk46}
 x <- model.matrix(Salary ~ ., Hitters)[, -1]
+#x
 y <- Hitters$Salary
 y.test <- y[test]
 
