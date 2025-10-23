@@ -445,21 +445,19 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 **Class 25: October 22nd, 2025**<br>
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-mar-07-2025.pdf)
--->
+[Class notes](notes/m339g-oct-22-2025.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
-
-<!--
-More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
-
-[Class notes](notes/m339g-mar-10-2025.pdf)
--->
 
 ---
 
 **Class 26: October 24th, 2025**<br>
+More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+
+<!--
+[Class notes](notes/m339g-mar-10-2025.pdf)
+-->
+
 Bivariate normal distribution.<br> 
 
 <!--
