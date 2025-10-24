@@ -320,9 +320,7 @@ The $\Gamma-$distribution.<br>
 
 [The R-script from class](code/gamma-clt.R)
 
-<!--
 [Homework #7](hw/m378k-hw7-gamma-probs.pdf) -- **due on Friday, October 31st, 2025**
--->
 
 ---
 
@@ -342,6 +340,9 @@ The statistical set-up. Order statistics.<br>
 [Problem Set #13](problem-sets/m378k-ps13-order-stats-solns.pdf):  **Solutions**
 -->
 
+---
+
+**Class 27: October 27th, 2025**<br>
 Sampling distributions.<br>
 
 [Problem Set #14](problem-sets/m378k-ps14-statistics-probs.pdf):  **Problems we will work on in class**
@@ -379,9 +380,6 @@ More on MSE.<br>
 
 [Homework #8](hw/m378k-hw8-goodness-probs.pdf) -- **due on Friday, April 4th, 2025**
 
----
-
-**Class 27: March 24th, 2025**<br>
 Confidence intervals.<br>
 
 [Class notes](notes/m378k-mar-24-2025.pdf)
