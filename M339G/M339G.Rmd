@@ -452,13 +452,18 @@ Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</s
 ---
 
 **Class 26: October 24th, 2025**<br>
-More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>. Bivariate normal distribution.<br> 
+
+[Class notes](notes/m339g-oct-24-2025.pdf)
 
 <!--
-[Class notes](notes/m339g-mar-10-2025.pdf)
+[Homework #7](hw/m339g-hw7-k-means-solns.pdf) -- **solutions**
 -->
 
-Bivariate normal distribution.<br> 
+---
+
+**Class 27: October 27th, 2025**<br>
+More on the bivariate normal distribution.<br> 
 
 <!--
 [Class notes](notes/m339g-mar-12-2025.pdf)
@@ -471,11 +476,7 @@ Bivariate normal distribution.<br>
 <!--
 [Class notes](notes/m339g-mar-14-2025.pdf)
 
-[Homework #7](hw/m339g-hw7-k-means-solns.pdf) -- **solutions**
 
----
-
-**Class 27: March 24th, 2025**<br>
 Multivariate normal distribution.<br> 
 
 [Class notes](notes/m339g-mar-24-2025.pdf)
