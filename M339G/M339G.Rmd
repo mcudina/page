@@ -471,13 +471,14 @@ More on the bivariate normal distribution.<br>
 
 ---
 
-**Class 28: March 26th, 2025**<br>
+**Class 28: October 29th, 2025**<br>
 The multivariate normal distribution.<br> 
 
 <!--
 [Class notes](notes/m339g-mar-14-2025.pdf)
 
 [Class notes](notes/m339g-mar-24-2025.pdf)
+-->
 
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
@@ -487,11 +488,12 @@ More on the linear discriminant analysis, quadratic discriminant analysis, naive
 
 ---
 
-**Class 29: March 28th, 2025**<br>
+**Class 29: October 31st, 2025**<br>
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
 
+<!--
 [`partimat`](https://www.rdocumentation.org/packages/klaR/versions/1.7-3/topics/partimat): Documentation
 
 [`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
