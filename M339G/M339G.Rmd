@@ -463,25 +463,22 @@ More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>. Bivariate n
 **Class 27: October 27th, 2025**<br>
 More on the bivariate normal distribution.<br> 
 
-<!--
-[Class notes](notes/m339g-mar-12-2025.pdf)
--->
+[Class notes](notes/m339g-oct-27-2025.pdf)
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
 
-<!--
-[Class notes](notes/m339g-mar-14-2025.pdf)
-
-
-Multivariate normal distribution.<br> 
-
-[Class notes](notes/m339g-mar-24-2025.pdf)
-
 ---
 
 **Class 28: March 26th, 2025**<br>
+The multivariate normal distribution.<br> 
+
+<!--
+[Class notes](notes/m339g-mar-14-2025.pdf)
+
+[Class notes](notes/m339g-mar-24-2025.pdf)
+
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
