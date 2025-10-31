@@ -6,7 +6,7 @@ output:
 ---
 
 
-We reconsider the **banknote** data set. It exists in the `MixGHD` library. 
+We consider another **banknote** data set. It exists in the `MixGHD` library. 
 
 ```{r}
 #install.packages("MixGHD")
@@ -38,7 +38,7 @@ training<-data[ind.train,]
 testing<-data[-ind.train,]
 ```
 
-My goal with this example is to ultimately demonstrate how to plot a partition in the plane. So, I will arbitrarily choose two explanatory variables: `Top` and `Diagonal`.
+My goal with this example is to ultimately demonstrate how to plot a partition in the plane. So, I will "arbitrarily" choose two explanatory variables: `Top` and `Diagonal`.
 
 ```{r}
 library(MASS)
