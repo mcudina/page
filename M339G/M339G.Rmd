@@ -474,22 +474,19 @@ More on the bivariate normal distribution.<br>
 **Class 28: October 29th, 2025**<br>
 The multivariate normal distribution.<br> 
 
-<!--
-[Class notes](notes/m339g-mar-14-2025.pdf)
+[Class notes](notes/m339g-oct-29-2025.pdf)
 
-[Class notes](notes/m339g-mar-24-2025.pdf)
--->
 
+---
+
+**Class 29: October 31st, 2025**<br>
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic): The Receiver Operating Characteristic (ROC)
 
----
-
-**Class 29: October 31st, 2025**<br>
-More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+Even more on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
 
