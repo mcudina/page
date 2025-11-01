@@ -447,11 +447,9 @@ Binomial option pricing: Two periods.<br>
 **Class 28: October 29th, 2025**<br>
 Multiple binomial periods. 
 
-<!--
-[Problem Set #10](problem-sets/m339d-ps10-two-periods-solns.pdf): **Solutions**
+[Class notes](notes/m339d-oct-29-2025.pdf) 
 
-[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
--->
+[Problem Set #10](problem-sets/m339d-ps10-two-periods-solns.pdf): **Solutions**
 
 [Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, November 7th, 2025**
 
@@ -459,32 +457,36 @@ Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs.Rmd)
 
-<!--
-[Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class.Rmd): Part I
+[Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class.Rmd): Part I of solutions
 
+<!--
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class-contd.Rmd): Part II
 -->
 
 ---
 
 **Class 29: October 31st, 2025**<br>
+Monte Carlo for binomial option pricing [cont'd].<br>
+
 Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
 <!--
 [Class notes](notes/m339d-mar-26-2025.pdf) 
+
+[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
 -->
 
 [Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, November 14th, 2025**
 
-<!--
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
 
 [Problem Set #12](problem-sets/m339d-ps12-dML-probs.pdf): **Problems**
 
+<!--
 [Class notes](notes/m339d-mar-28-2025.pdf) 
 
 [Class notes](notes/m339d-mar-31-2025.pdf) 

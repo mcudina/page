@@ -486,6 +486,9 @@ More on the linear discriminant analysis, quadratic discriminant analysis, naive
 
 [Wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic): The Receiver Operating Characteristic (ROC)
 
+---
+
+**Class 30: November 3rd, 2025**<br>
 Even more on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
@@ -502,9 +505,6 @@ Even more on the linear discriminant analysis, quadratic discriminant analysis, 
 
 <!--
 
----
-
-**Class 30: March 31st, 2025**<br>
 Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
