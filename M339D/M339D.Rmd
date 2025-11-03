@@ -475,12 +475,13 @@ Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
-<!--
-[Class notes](notes/m339d-mar-26-2025.pdf) 
--->
+[Class notes](notes/m339d-nov-3-2025.pdf) 
 
 [Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, November 14th, 2025**
 
+---
+
+**Class 31: November 5th, 2025**<br>
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
@@ -508,9 +509,6 @@ The limiting behavior of stock prices. More on realized returns.<br>
 
 [Class notes](notes/m339d-apr-02-2025.pdf) 
 
----
-
-**Class 31: April 2nd, 2025**<br>
 Moment generating functions. The log-normal distribution. Jensen's inequality.<br>
 
 [Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
