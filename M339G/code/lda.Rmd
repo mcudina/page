@@ -15,6 +15,7 @@ names(Smarket)
 dim(Smarket)
 summary(Smarket)
 attach(Smarket)
+#cor(Smarket[,-9])
 ```
 
 We will again create a vector corresponding to the observations from 2001 through 2004. We will then use this vector to create a held out data set of observations from 2005.
@@ -35,7 +36,7 @@ library(MASS)
 lda.fit <- lda(Direction ~ Lag1 + Lag2, data = Smarket,
     subset = train)
 lda.fit
-plot(lda.fit)
+#plot(lda.fit)
 ```
 
 The LDA output indicates that $\hat\pi_1=0.492$ and $\hat\pi_2=0.508$; in other words, $49.2$ \% of the training observations correspond to days during which the market went down.
@@ -89,7 +90,7 @@ If we wanted to use a posterior probability threshold other than $50$ \% in orde
 is at least $90$ \%.
 
 ```{r chunk19}
-sum(lda.pred$posterior[, 1] > .9)
+sum(lda.pred$posterior[, 1] > .5)
 ```
 
 No days in 2005 meet that threshold! In fact, the greatest posterior probability of decrease in all of 2005 was $52.02$ \%.
