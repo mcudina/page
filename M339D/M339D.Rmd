@@ -551,6 +551,10 @@ Log-normal stock prices: Tail probabilities.<br>
 [Class notes](notes/m339d-apr-07-2025.pdf): Tail probabilities.
 -->
 
+[Mock Exam](exams/m339d-mock-two-probs.pdf) -- **problems** 
+
+[Mock Exam](exams/m339d-mock-two-solns.pdf) -- **solutions** 
+
 ---
 
 **Class 34: November 12th, 2025**<br>
@@ -570,17 +574,14 @@ Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.
 
 [Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
 
+[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, December 8th, 2025**
+
+[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
 ---
 
 **Class 35: November 14th, 2025**<br>
 <!--
-Mock exam.<br>
-
-[Mock Exam](exams/m339d-mock-two-solns.pdf) -- **solutions** 
-
-[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, April 28th, 2025**
-
-[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 [Homework #11](hw/m339d-hw11-lognormal-stocks-solns.pdf) -- **solutions**
 
