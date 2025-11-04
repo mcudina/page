@@ -510,6 +510,12 @@ Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<b
 
 [Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
 
+[Problem packet](problem-sets/m339g-regression-trees.pdf)
+
+<!--
+[Class notes](notes/m339g-mar-31-2025.pdf): Regression trees.
+-->
+
 [Homework #9](hw/m339g-hw9-reg-trees.pdf) -- **due on Friday, November 14th, 2025**
 
 
@@ -517,14 +523,6 @@ Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<b
 ---
 
 **Class 32: November 7th, 2025**<br>
-More on tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
-
-[Problem packet](problem-sets/m339g-regression-trees.pdf)
-
-<!--
-[Class notes](notes/m339g-mar-31-2025.pdf): Regression trees.
--->
-
 Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-pruning.pdf): Tree-based regression (pruning)
