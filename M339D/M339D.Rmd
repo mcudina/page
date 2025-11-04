@@ -489,18 +489,18 @@ The normal approximation to the binomial.<br>
 [Problem Set #12](problem-sets/m339d-ps12-dML-probs.pdf): **Problems**
 
 <!--
-[Class notes](notes/m339d-mar-28-2025.pdf) 
-
 [Class notes](notes/m339d-mar-31-2025.pdf) 
 
 [Problem Set #12](problem-sets/m339d-ps12-dML-solns.pdf): **Solutions**
+-->
 
 [Apple parity](data/apple-parity.csv)
 
-[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 14th, 2025**
+[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, November 17th, 2025**
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+<!--
 [Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
 
 The limiting behavior of stock prices. More on realized returns.<br> 
