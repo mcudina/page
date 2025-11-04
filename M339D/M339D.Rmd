@@ -500,19 +500,24 @@ The normal approximation to the binomial.<br>
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
-[Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
-
 The limiting behavior of stock prices. More on realized returns.<br> 
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
 
+<!--
 [Class notes](notes/m339d-apr-02-2025.pdf) 
 
+[Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
+-->
+
+---
+
+**Class 32: November 7th**<br>
 Moment generating functions. The log-normal distribution. Jensen's inequality.<br>
 
 [Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
 
+<!--
 [Class notes](notes/m339d-apr-04-2025.pdf): mgf. The log-normal distribution. Jensen's inequality.
 
 [The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
@@ -521,9 +526,6 @@ from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.d
 [Mathematica demonstration](http://demonstrations.wolfram.com/ModelingReturnDistributions/): Modeling return distributions
 
 
----
-
-**Class 32: April 4th**<br>
 Log-normal stock prices: Parameter interpretation.<br>
 
 [Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks.pdf): **Problems**
