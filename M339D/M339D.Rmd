@@ -498,6 +498,9 @@ The normal approximation to the binomial.<br>
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+---
+
+**Class 32: November 7th**<br>
 The limiting behavior of stock prices. More on realized returns.<br> 
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
@@ -508,9 +511,6 @@ The limiting behavior of stock prices. More on realized returns.<br>
 [Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 32: November 7th**<br>
 Moment generating functions. The log-normal distribution. Jensen's inequality.<br>
 
 [Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
