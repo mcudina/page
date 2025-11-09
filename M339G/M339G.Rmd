@@ -531,6 +531,8 @@ Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**<
 
 [`R`-notebook for class](code/regression-trees.Rmd): Regression trees
 
+[Homework #8](hw/m339g-hw8-lda-qda-solns.pdf) -- **solutions**
+
 ---
 
 **Class 33: November 10th, 2025**<br>
@@ -540,8 +542,6 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 
 <!--
 [Class notes](notes/m339g-apr-04-2025.pdf): Classification trees.
-
-[Homework #8](hw/m339g-hw8-lda-qda-solns.pdf) -- **solutions**
 -->
 
 [Homework #10](hw/m339g-hw10-class-trees.pdf) -- **not to be handed in; for exam practice**
