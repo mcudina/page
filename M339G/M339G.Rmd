@@ -525,9 +525,7 @@ Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**<
 
 [Problem packet](problem-sets/m339g-pruning-classification.pdf)
 
-<!--
 [Class notes](notes/m339g-apr-02-2025.pdf): Pruning.
--->
 
 [`tree` documentation](https://cran.r-project.org/web/packages/tree/tree.pdf)
 
