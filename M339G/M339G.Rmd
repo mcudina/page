@@ -625,9 +625,9 @@ Lines, planes, hyperplanes.<br>
 ---
 
 **Class 38: November 21st, 2025**<br>
-<!--
 Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
+<!--
 [Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
 
 [Class notes](notes/m339g-apr-18-2025.pdf): Hyperplanes. Lagrange multipliers.
