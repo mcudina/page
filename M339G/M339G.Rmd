@@ -679,11 +679,11 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 ---
 
 **Class 42: December 8th, 2025**<br>
-<!--
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
 
+<!--
 [`R`-script from class](code/single-hypothesis.R)
 
 
