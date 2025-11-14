@@ -582,13 +582,13 @@ Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Problem](problem-sets/srm-sample-p39.pdf)
 
-<!--
 [Class notes](notes/m339g-apr-09-2025.pdf): 0.632. Random forests.
--->
 
 Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-boosting.pdf): Boosting
+
+[`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
 
 [Homework #11](hw/m339g-hw11-more-trees.pdf) -- **due on Friday, December 5th, 2025**
 
@@ -599,10 +599,6 @@ Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 ---
 
 **Class 36: November 17th, 2025**<br>
-More on bagging, random forests, and boosting <span style="color: purple;">**(Section 8.3.3)**</span>.<br>
-
-[`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
-
 Lines, planes, hyperplanes.<br>
 
 <!--
