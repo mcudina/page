@@ -562,10 +562,9 @@ Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.
 
 [Problem Set #14](problem-sets/m339d-ps14-BS-probs.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-apr-09-2025.pdf) 
--->
+[Class notes](notes/m339d-nov-17-2025.pdf) 
 
+[Problem Set #14](problem-sets/m339d-ps14-BS-solns.pdf): **Solutions**
 
 [Homework #12](hw/m339d-hw12-BS.pdf) -- **not to be submitted; just for practice**
 
@@ -575,23 +574,14 @@ Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.
 
 [Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-Black-Scholes [continued].<br> 
-
-<!--
-[Class notes](notes/m339d-apr-14-2025.pdf) 
-
-[Problem Set #14](problem-sets/m339d-ps14-BS-solns.pdf): **Solutions**
-
-Black-Scholes [continued].<br> 
--->
-
-[Problem](problem-sets/mfe-sp2007-p8.pdf)
-
 ---
 
 **Class 37: November 19th, 2025**<br>
-<!--
+Black-Scholes [continued].<br> 
 
+[Problem](problem-sets/mfe-sp2007-p8.pdf)
+
+<!--
 
 [Homework #11](hw/m339d-hw11-lognormal-stocks-solns.pdf) -- **solutions**
 
