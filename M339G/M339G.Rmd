@@ -672,7 +672,6 @@ A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.
 
 [Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
 
-<!--
 [`R`-script from class](code/single-hypothesis.R)
 
 
@@ -683,7 +682,6 @@ The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)*
 The False Discovery Rate <span style="color: purple;">**(Section 13.4)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-false-discovery-rate.pdf): False Discovery Rate
--->
 
 ---
 
