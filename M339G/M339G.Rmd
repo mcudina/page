@@ -623,15 +623,6 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 ---
 
 **Class 39: December 1st, 2025**<br>
-More on the maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
-
-<!--
-[Class notes](notes/m339g-apr-21-2025.pdf): Maximal margin classifier.
--->
-
----
-
-**Class 40: December 3rd, 2025**<br>
 Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
@@ -646,16 +637,12 @@ More on the support vector classifier <span style="color: purple;">**(Section 9.
 
 ---
 
-**Class 41: December 5th, 2025**<br>
+**Class 40: December 3rd, 2025**<br>
 Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
 
 [Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
-
-<!--
-[Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
--->
 
 ---
 
@@ -665,14 +652,20 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 ---
 
-**Class 42: December 8th, 2025**<br>
+**Class 41: December 5th, 2025**<br>
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
 
 [`R`-script from class](code/single-hypothesis.R)
 
+<!--
+[Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
+-->
 
+---
+
+**Class 42: December 8th, 2025**<br>
 The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-multiple-testing.pdf): Multiple Testing
