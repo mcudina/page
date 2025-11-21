@@ -590,9 +590,7 @@ Black-Scholes [continued]. Forward-start options.<br>
 **Class 38: November 21st, 2025**<br>
 Rolling insurance strategy.<br>
 
-<!--
-[Class notes](notes/m339d-apr-18-2025.pdf) 
--->
+[Class notes](notes/m339d-nov-21-2025.pdf) 
 
 [In-Term Two](exams/m339d-two-topics.pdf): Topics
 
@@ -604,9 +602,9 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc.Rmd): Skeleton
 
-<!--
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc-in-class.Rmd): With in-class code
 
+<!--
 [Homework #11](hw/m339d-hw11-lognormal-stocks-solns.pdf) -- **solutions**
 
 ---
