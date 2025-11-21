@@ -495,11 +495,11 @@ More on hypothesis testing.<br>
 
 [In-Term Three](exams/m378k-three-topics.pdf): Topics
 
-<!--
 [Practice for In-Term Three](exams/m378k-three-sample-probs.pdf): Problems
 
 [Practice for In-Term Three](exams/m378k-three-sample-solns.pdf): Solutions
 
+<!--
 Hypothesis testing practice.<br>
 
 [`R` code on hypothesis testing](code/single-hypothesis.R)
