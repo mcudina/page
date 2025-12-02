@@ -635,9 +635,6 @@ More on the support vector classifier <span style="color: purple;">**(Section 9.
 
 [`R`-notebook for class](code/support-vector-classifier.Rmd): Support vector classifier. 
 
----
-
-**Class 40: December 3rd, 2025**<br>
 Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
@@ -652,12 +649,19 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 ---
 
-**Class 41: December 5th, 2025**<br>
+**Class 40: December 3rd, 2025**<br>
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
 
 [`R`-script from class](code/single-hypothesis.R)
+
+---
+
+**Class 41: December 5th, 2025**<br>
+The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)**</span>.<br>
+
+[Slides by James & Witten](slides/ch13-multiple-testing.pdf): Multiple Testing
 
 <!--
 [Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
@@ -666,10 +670,6 @@ A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.
 ---
 
 **Class 42: December 8th, 2025**<br>
-The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)**</span>.<br>
-
-[Slides by James & Witten](slides/ch13-multiple-testing.pdf): Multiple Testing
-
 The False Discovery Rate <span style="color: purple;">**(Section 13.4)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-false-discovery-rate.pdf): False Discovery Rate
