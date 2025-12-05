@@ -3,11 +3,12 @@ mu.0=0
 sigma=1
 
 #setting the significance level
-alpha=0.05
+alpha=0.001
 
 #creating simulated data
 n.sim=10^4
 data=rnorm(n.sim, mu.0, sigma)
+#data
 
 #running a `t.test` - by default the null is mu=0
 test=t.test(data)
