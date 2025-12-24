@@ -66,18 +66,16 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 [Rmd cheatsheet](instructions/rmarkdown-cheatsheet.pdf)
 
-[Homework Instructions](instructions/m358k-hw-instructions.html) -- if in doubt, read and understand all of this before you work on your homework/project
-
-[Homework Template](instructions/homework-template.Rmd) -- this is an optional template you can use to complete your homework assignments and projects 
+[Project Instructions](instructions/m358k-hw-instructions.html) -- if in doubt, read and understand all of this before you work on your project
 
 ---
 
-<!--
-**Class 1: August 25th, 2025**<br>
+**Class 1: January 12th, 2025**<br>
 Orientation. `R` Markdown.<br>
 
 [A role model](pics/bilbo.jpeg)
 
+<!--
 [First-Day Handout](syllabus/syllabus-58860.html)
 
 [Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, September 5th, 2025**
