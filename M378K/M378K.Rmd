@@ -24,7 +24,7 @@ output: html_document
 
 ---
 
-
+<!--
 
 **Class 1: January 13th**<br>
 Orientation. <br>
@@ -455,7 +455,6 @@ Consistency.<br>
 [Class notes](notes/m378k-apr-04-2025.pdf)
 
 [Homework #10](hw/m378k-hw10-conf-int-rel-eff-probs.pdf) -- **due on Friday, April 18th, 2025**
--->
 
 Maximum Likelihood Estimators.<br>
 
@@ -489,7 +488,6 @@ More on sufficient statistics.
 More on hypothesis testing.<br>
 
 [Class notes](notes/m378k-apr-16-2025.pdf)
--->
 
 [In-Term Three](exams/m378k-three-topics.pdf): Topics
 
@@ -513,7 +511,6 @@ Hypothesis testing.<br>
 The Bayesian approach.<br>
 
 [Class notes](notes/m378k-apr-21-2025.pdf)
--->
 
 ---
 
@@ -537,7 +534,6 @@ Hypothesis testing practice.<br>
 More on the Bayesian approach.<br>
 
 [Class notes](notes/m378k-apr-25-2025.pdf)
--->
 
 ---
 
@@ -555,4 +551,4 @@ Problem-solving session.<br>
 [Practice for the Final Exam](exams/m378k-final-sample-probs.pdf) -- **problems** 
 
 [Practice for the Final Exam](exams/m378k-final-sample-solns.pdf) -- **solutions** 
-
+-->
