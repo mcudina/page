@@ -66,6 +66,7 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
+<!--
 **Class 1: August 25th, 2025**<br>
 Orientation. `R` Markdown.<br>
 
@@ -420,9 +421,7 @@ Principal components regression <span style="color: purple;">**(Section 6.3.1)**
 
 [Slides by Hastie & Tibshirani](slides/ch6-pcr.pdf): PCR
 
-<!--
 More about the principal components regression <span style="color: purple;">**(Section 6.3.1)**</span>.<br>
--->
 
 [`R`-notebook for class](code/pcr.Rmd): Principal component regression
 
@@ -625,11 +624,9 @@ Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.
 
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
 
-<!--
 [Class notes](notes/m339g-nov-22-2024.pdf): Support vector classifier. 
 
 More on the support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
--->
 
 [`R`-notebook for class](code/support-vector-classifier.Rmd): Support vector classifier. 
 
@@ -676,7 +673,6 @@ A [blog post](https://fivethirtyeight.com/features/science-isnt-broken/#part1) o
 **Class 42: December 8th, 2025**<br>
 In-class final-paper workday.<br>
 
-<!--
 Odds and Ends.<br>
 
 Review of categorical predictors and logistic regression.<br>
