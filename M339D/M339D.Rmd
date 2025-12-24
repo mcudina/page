@@ -58,6 +58,7 @@ Here are some resources I created for *Applied Statistics*. They will be useful 
 
 ---
 
+<!--
 **Class 1: August 25th, 2025**<br>
 Orientation. <br>
 
@@ -382,9 +383,7 @@ Binomial option pricing: Pricing by replication.<br>
 
 [Class notes](notes/m339d-oct-15-2025.pdf) 
 
-<!--
 [Class notes](notes/m339d-mar-05-2025.pdf) 
--->
 
 [In-Term One](exams/m339d-one-topics.pdf): Topics
 
@@ -418,7 +417,6 @@ Binomial option pricing: Risk-neutral probability.<br>
 **(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
--->
 ---
 
 **Class 25: October 22nd, 2025**<br>
