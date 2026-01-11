@@ -29,8 +29,10 @@ library(nimble)
 
 ---
 
-## Problem #1 **(40 points)**
-From the course website, download the historical stock prices of *Alphabet, Inc.* for the last 252 (or so) trading days, i.e., for the last year.
+## Problem #1 **(35 points)**
+Go to [Google historical data](https://finance.yahoo.com/quote/GOOG/history/)
+
+Then, download the historical stock prices of *Alphabet, Inc.* for the last 252 (or so) trading days, i.e., for the last year.
 
 **(5 points)** Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
 
@@ -42,7 +44,7 @@ $$
 
 **(10 points)** Fit the normal distribution to the above returns. Superimpose the appropriate graph for your model onto the appropriate graph of the data to convince your reader that your model is valid.
 
-**(20 points)** You will have to install a package to solve this part of your project. First, run the following in your console: 
+**(15 points)** You will have to install a package to solve this part of your project. First, run the following in your console: 
 
 `install.packages('nimble')`
 
@@ -56,32 +58,33 @@ Next, you should learn more about the **Laplace (double exponential)** distribut
 
 [Wikipedia: The Laplace distribution](https://en.wikipedia.org/wiki/Laplace_distribution)
 
-Now, you are equipped to fit the Laplace (double exponential) distribution to the above returns. To learn about the parametrization of the Laplace distribution in `R`, type `?ddexp` into the console in `RStudio`.
+Now, you are equipped to fit the Laplace (double exponential) distribution to the above returns. To learn about the parametrization of the Laplace distribution in `R`, type `?ddexp` into the console in RStudio.
 
 After you have completed the fit, superimpose the appropriate graph for your model onto the appropriate graph of the data.
 
 
-## Problem #2 **(60 points)**
+## Problem #2 **(45 points)**
 Your initial wealth is exactly \$100. You are allowed to invest in
 shares of a particular stock. You are also allowed to both lend and
 borrow at the continuously compounded risk-free interest rate of
-0.05. Keeping your money uninvested is **not allowed**.
+0.05. Keeping your money uninvested is \textbf{not allowed}.
 
 You can rebalance your portfolio every morning, once you have observed
 the opening stock price. This means that you can change the number of
 shares you own (if you decide to do so) and accordingly adapt your
 risk-free investment.
 
-You proceed to create rules according to which you will be rebalancing your portfolio. Here are the three rules you are going to implement:
+You proceed to use a "rule" according to which you will be
+rebalancing your portfolio. Here are the three rules you are going to use:
 
-### **(10 points)**
-*Always own exactly one share and keep the rest of my wealth invested at the risk-free rate. If needed, borrow at the continuously compounded risk-free interest rate.*
+### (10 points) 
+Always keep exactly \$100 in the stock and the rest of the wealth invested at the risk-free rate. If needed, borrow at the continuously compounded risk-free interest rate.
 
-### **(20 points)**
-*Always keep exactly \$100 in the stock and the rest of my wealth invested at the risk-free rate. If needed, borrow at the continuously compounded risk-free interest rate.*
-  
-### **(30 points)**
-*Always keep exactly one half of my wealth invested in the stock and the rest of my wealth invested at the risk-free rate. If needed, borrow at the continuously compounded risk-free interest rate.*
+### (15 points)
+Always keep exactly one half of the wealth invested in the stock and the rest of the wealth invested at the risk-free rate. If needed, borrow at the continuously compounded risk-free interest rate.
+
+### (20 points)
+Start with all the funds in the stock. The following days, proceed as follows: If the stock price drops overnight (regardless of the extent of the drop), sell half of the stock investment. If the stock price rises overnight (regardless of the extent of the increase), double the amount of the stock investment. If the stock price does not change, do nothing. In all three cases, the rest of the wealth is to be invested at the risk-free rate (if needed, borrow at the continuously compounded risk-free interest rate).
 
 \medskip
 
@@ -99,7 +102,8 @@ Over the following 10 days, you observe the following stock prices for a non-div
 
 \medskip
 
-As the time passes you follow investment rules above to rebalance your portfolio. Construct and print out the table describing your portfolio **just before and just after** the rebalancing is done. More precisely, for the $10$ days, both for **before** and **after** the rebalancing, print out:
+As the time passes you follow investment rules above to rebalance your portfolio. Complete the following table describing your portfolio \textbf{just before and just after} the rebalancing is done. 
+Even more precisely, for the $10$ days, both for "before" and "after" the rebalancing, print out:
 
 * the number of shares of stock in the portfolio, 
 * the balance of the risk-free investment, 
@@ -108,3 +112,9 @@ As the time passes you follow investment rules above to rebalance your portfolio
 
 \medskip
 
+## Problem #3 (20 points)
+### (10 points) 
+Repeat the last part of the above problem with **your own investment rule** based on *technical analysis*, i.e., the study of past prices. Your rule must not be arbitrary and it must have some financial logic behind it. Moreover, it must not be a simple reversal or multiple of the rule used in the previous problem. 
+
+### (10 points) 
+**Explain** why you designed the rule the way you did and why you believe it would prove to be a successful investment strategy. You must provide at least one credible reference indicating that the rule is used in practice. 

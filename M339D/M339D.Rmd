@@ -78,20 +78,25 @@ Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 [Console printout](notes/console.txt)
 
 [The R-script from class](code/first-script.R)
+-->
 
-[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, September 5th, 2025**
+[Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 23rd, 2026**
 
 ---
 
-**Class 3: August 29th, 2025**<br>
+**Class 3: January 16th, 2026**<br>
 `For` loops. Functions in R. `If ... else` in R.
 `R`-notebooks.<br> 
 
+<!--
 [The R-notebook from class](code/first-notebook.Rmd)
+-->
 
 [Problem Set #1](code/m339d-ps1.Rmd):  **Problems we will work on in class**
 
+<!--
 [Problem Set #1](problem-sets/m339d-ps1-in-class.Rmd): **Solutions from class**
+-->
 
 Background. 
 
@@ -99,20 +104,22 @@ Background.
 
 ---
 
-**Class 4: September 3rd, 2025**<br>
+**Class 4: January 21st, 2026**<br>
 Prerequisite review.<br>
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq.pdf):  **Problems we will work on in class**
 
+<!--
 [Class notes](notes/m339d-sept-03-2025.pdf) 
 
 [Problem Set #2](problem-sets/m339d-ps2-prereq-solns.pdf): **Solutions**
+-->
 
-[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, September 12th, 2025**
+[Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, January 30th, 2026**
 
 ---
 
-**Class 5: September 5th, 2025**<br>
+**Class 5: January 23rd, 2026**<br>
 Standing assumptions and conventions. Risky assets. 
 Transaction costs. <br>
 
@@ -120,13 +127,15 @@ Transaction costs. <br>
 
 [Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
 
+<!--
 [Class notes](notes/m339d-sept-05-2025.pdf) 
 
 [Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 6: September 8th, 2025**<br>
+**Class 6: January 26th, 2026**<br>
 Historical returns of stocks.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
@@ -137,6 +146,7 @@ Historical returns of stocks.<br>
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
+<!--
 [Class notes](notes/m339d-mm.pdf) 
 
 [The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
