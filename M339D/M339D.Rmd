@@ -22,8 +22,6 @@ output: html_document
 
 [Guide to the SoA written exams](https://www.soa.org/globalassets/assets/files/edu/edu-guide-to-written-exam.pdf) 
 
-A MOOC: [Intro to Actuarial Science](https://www.edx.org/course/introduction-actuarial-science-anux-anu-actuarialx-1)
-
 [An open-resource text](https://diginole.lib.fsu.edu/islandora/object/fsu:717221)
 
 [Desmos](https://www.desmos.com/): An online graphing and scientific calculator
@@ -71,13 +69,12 @@ Orientation. <br>
 
 [Important prerequisite topics](lectures/m339d-prerequisite-topics.pdf): A checklist of the prerequisite material. 
 
-<!--
-
 ---
 
-**Class 2: August 27th, 2025**<br>
+**Class 2: January 14th, 2026**<br>
 Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 
+<!--
 [Console printout](notes/console.txt)
 
 [The R-script from class](code/first-script.R)
