@@ -150,6 +150,7 @@ Historical returns of stocks.<br>
 [Class notes](notes/m339d-mm.pdf) 
 
 [The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
+-->
 
 [Alphabet data](data/goog.csv)
 
@@ -161,37 +162,40 @@ Historical returns of stocks.<br>
 
 ---
 
-**Class 7: September 10th, 2025**<br>
+**Class 7: January 28th, 2026**<br>
 Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
 
+<!--
 [Class notes](notes/m339d-sept-10-2025.pdf)
+-->
 
 On portfolios. 
 
 [The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
 
+<!--
 [The R-notebook from class](code/m339d-project1-variation-in-class.Rmd): **Complete solutions**
+-->
 
 ---
 
-**Class 8: September 12th, 2025**<br>
+**Class 8: January 30th, 2026**<br>
 Payoff and profit.<br>
 
 [Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
 
 [Problem Set #3](problem-sets/m339d-ps3-payoff-profit-probs.pdf):  **Problems we will work on in class**
 
+<!--
 [Class notes](notes/m339d-sept-12-2025.pdf) 
 
 [Homework #2](hw/m339d-hw2-prereq-solns.pdf) -- **solutions**
 
 [Homework #3](hw/m339d-hw3.pdf) -- **due on Friday, September 19th, 2025**
+-->
 
----
-
-**Class 9: September 15th, 2025**<br>
 Analysis of payoff and profit curves. Long/short positions.<br>
 
 [Class notes](notes/m339d-sept-15-2025.pdf) 
@@ -200,46 +204,47 @@ Analysis of payoff and profit curves. Long/short positions.<br>
 
 ---
 
-**Class 10: September 17th, 2025**<br>
+**Class 9: February 2nd, 2026**<br>
 Basic risk management. Forward contracts.<br>
 
 [Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
 
+<!--
 [Class notes](notes/m339d-sept-17-2025.pdf) 
+-->
 
 ---
 
-**Class 11: September 19th, 2025**<br>
+**Class 10: February 4th, 2026**<br>
 Hedging using forward contracts.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
 
+<!--
 [Class notes](notes/m339d-sept-19-2025.pdf) 
+-->
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards.pdf):  **Problems**
 
+<!--
 [Class notes with extra solutions](notes/m339d-feb-05-2025.pdf) 
 
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
-
-[Homework #3](hw/m339d-hw3-solns.pdf) -- **solutions**
-
-[Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, September 26th, 2025**
+-->
 
 ---
 
-**Class 12: September 22nd, 2025**<br>
+**Class 11: February 6th, 2026**<br>
 European call options.<br>
 
 [Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
 
+<!--
 [Class notes](notes/m339d-sept-22-2025.pdf) 
 
----
+[Homework #3](hw/m339d-hw3-solns.pdf) -- **solutions**
 
-**Class 13: September 24th, 2025**<br>
-More on European call options.<br>
-
+[Homework #4](hw/m339d-hw4-forwards.pdf) -- **due on Friday, September 26th, 2025**
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
 
 [Class notes](notes/m339d-sept-24-2025.pdf) 
@@ -259,35 +264,43 @@ More on European call options.<br>
 [Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, October 13th, 2025**
 
 [Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+-->
 
 ---
 
-**Class 14: September 26th, 2025**<br>
+**Class 12: February 9th, 2026**<br>
 European put options. Moneyness.<br>
 
 [Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 [Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
 
+<!--
 [Class notes](notes/m339d-sept-26-2025.pdf) 
 
 [Problem Set #6](problem-sets/m339d-ps6-puts-solns.pdf):  **Solutions**
+-->
 
 **(An interesting read)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
 
 **(Another interesting read)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
 
+<!--
 [Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, October 10th, 2025**
+-->
 
 **(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
 
+<!--
 [Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
+-->
 
 ---
 
-**Class 15: September 29th, 2025**<br>
-Review. Finite probability spaces [revisited]. 
+**Class 13: February 11th, 2026**<br>
+Review. Derivative securities. Finite probability spaces [revisited]. 
 
+<!--
 [Class notes](notes/m339d-sept-29-2025.pdf) 
 
 Mock exam.<br>
@@ -295,48 +308,56 @@ Mock exam.<br>
 [Mock Exam](exams/m339d-mock-exam-probs.pdf) -- **problems** 
 
 [Mock Exam](exams/m339d-mock-exam-solns.pdf) -- **solutions**
+-->
 
 ---
- 
-**Class 16: October 1st, 2025**<br>
+
+**Class 14: February 13th, 2026**<br>
 Arbitrage portfolios. Law of the Unique Price. <br>
 
+<!--
 [Class notes](notes/m339d-oct-01-2025.pdf) 
+-->
 
 ---
 
-**Class 17: October 3rd, 2025**<br>
-Derivative securities. Replicating portfolios. Equity-linked contracts. <br>
+**Class 15: February 16th, 2026**<br>
+Replicating portfolios. Equity-linked contracts. <br>
 
 **(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
 
 [Problem packet](problem-sets/m339d-equity-linked.pdf)
 
+<!--
 [Class notes](notes/m339d-oct-03-2025.pdf) 
+-->
 
 **(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
 
+<!--
 [Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
+-->
 
 ---
-
-**Class 18: October 6th, 2025**<br>
+ 
+**Class 16: February 18th, 2026**<br>
 Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
+<!--
 [Class notes](notes/m339d-oct-06-2025.pdf) 
+-->
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
----
-
-**Class 19: October 8th, 2025**<br>
 Chooser options.<br>
 
 [Problem](problem-sets/m339d-chooser.pdf)
 
+<!--
 [Class notes](notes/m339d-feb-24-2025.pdf) 
+-->
 
 **(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
 
@@ -346,6 +367,9 @@ Chooser options.<br>
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
+---
+
+**Class 17: February 20th, 2026**<br>
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -354,15 +378,13 @@ Random number generation.<br>
 
 [An atmospheric RNG](https://www.random.org/)
 
----
-
-**Class 20: October 10th, 2025**<br>
 The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Lecture notes](lectures/m339d-slln-monte-carlo.pdf): The Monte Carlo method.
 
 [Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
 
+<!--
 [Problem Set #7](problem-sets/m339d-ps7-mc-in-class.Rmd): **Solutions**
 
 [Apple put data](data/apple-puts.csv)
@@ -375,9 +397,22 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, October 17th, 2025**
 
+
 ---
 
-**Class 21: October 13th, 2025**<br>
+**Class 18: February 23rd, 2026**<br>
+
+---
+
+**Class 19: February 25th, 2026**<br>
+
+---
+
+**Class 20: February 27th, 2026**<br>
+
+---
+
+**Class 21: March 2nd, 2026**<br>
 The binomial asset-pricing model. Realized returns of stocks. Forward trees.  <br>
 
 [Class notes](notes/m339d-oct-13-2025.pdf) 
