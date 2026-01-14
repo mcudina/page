@@ -74,11 +74,9 @@ Orientation. <br>
 **Class 2: January 14th, 2026**<br>
 Setting up R and RStudio. Basics of R: Arithmetic. Vectors. R-scripts.<br>
 
-<!--
 [Console printout](notes/console.txt)
 
 [The R-script from class](code/first-script.R)
--->
 
 [Homework #1: Part #2](hw/m339d-hw1-prereq.pdf) -- **due on Friday, January 23rd, 2026**
 
