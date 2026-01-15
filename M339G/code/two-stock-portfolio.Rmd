@@ -23,6 +23,11 @@ steps. First, we must create a function that computes the statistic of
 interest. Second, we use the `boot()` function, which is part of the `boot` library, to perform the bootstrap by repeatedly
 sampling observations from the data set with replacement.
 
+```{r}
+library(boot)
+??boot
+```
+
 The `Portfolio` data set in the `ISLR2` package is simulated data of $100$ pairs of returns, generated in the fashion described in Section 5.2.
 To illustrate the use of the bootstrap on this data, we must first
 create a function, `alpha.fn()`, which takes as input the $(X,Y)$ data
@@ -38,7 +43,7 @@ alpha.fn <- function(data, index) {
 }
 ```
 
-This function **returns** , or outputs, an  estimate for $\alpha$ based on applying the formula for the optimal weight from the book to the observations indexed by the argument `index`. For instance, the following command tells `R` to estimate $\alpha$ using all $100$ observations.
+This function **returns**, or outputs, an  estimate for $\alpha$ based on applying the formula for the optimal weight from the book to the observations indexed by the argument `index`. For instance, the following command tells `R` to estimate $\alpha$ using all $100$ observations.
 
 ```{r chunk12}
 alpha.fn(Portfolio, 1:100)
@@ -50,6 +55,7 @@ to constructing a new bootstrap data set and recomputing $\hat{\alpha}$
 based on the new data set.
 
 ```{r chunk13}
+#we set seed for replicability
 set.seed(7)
 alpha.fn(Portfolio, sample(100, 100, replace = T))
 ```
@@ -61,7 +67,6 @@ However, the `boot()` function automates this approach. Below we produce $R=1,00
 
 
 ```{r chunk14}
-library(boot)
 boot(Portfolio, alpha.fn, R = 1000)
 ```
 
