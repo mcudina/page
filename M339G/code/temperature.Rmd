@@ -68,7 +68,7 @@ Since the $p-$value is sizeable, there is not evidence to reject the normality h
 So, let's check if *bootstrap* would yield a similar confidence interval. As a rule, it's good to see if a "new tool" conforms with the results of an "old tool" in a setting when they both apply. 
 
 ```{r}
-n.boot=10^5
+n.boot=10^5 #this is B from the handwritten notes
 mu.hats=replicate(n.boot, mean(sample(temp, n, replace=TRUE)))
 #(mu.hats)
 hist(mu.hats, 
