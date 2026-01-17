@@ -110,6 +110,8 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 
 [Data set](code/bangladesh-data.csv): Chemicals in Bangladesh
 
+[`R`-notebook from class](code/arsenic-empty.Rmd): Arsenic (prompts only)
+
 [`R`-notebook from class](code/arsenic-in-class.Rmd): Arsenic (complete)
 
 ---
