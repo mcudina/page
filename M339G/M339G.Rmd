@@ -117,29 +117,30 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 **Class 4: January 21st, 2026**<br>
 Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-sept-03-2025.pdf)
--->
+[Class notes](notes/m339g-jan-21-2026.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
 
 [`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
 
----
-
-**Class 5: January 23rd, 2026**<br>
-Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
-
-<!--
 [WMT data](data/WMT.csv)
 
 [IBM data](data/IBM.csv)
 
 [NASDAQ data](data/ndq.csv)
 
-[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, September 22nd, 2025**
+[Project #1](projects/m339g-project1-probs.pdf) -- **due on Monday, February 9th, 2026**
 
 [Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
+
+**Class 5: January 23rd, 2026**<br>
+Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
+
+<!--
 
 [Homework #1](hw/m339g-hw1-prereqs-solns.pdf) -- **solutions**
 -->
@@ -149,7 +150,6 @@ Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>
 **Class 6: January 26th, 2026**<br>
 More on prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
 
-[Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
 <!--
 [Class notes](notes/m339g-sept-08-2025.pdf)
