@@ -62,12 +62,13 @@ Discrete random variables.<br>
 **Class 4: January 21st, 2025**<br>
 Conditional probability. Independence. More on discrete random variables.<br>
 
-<!--
-[Class notes](notes/m378k-sept-03-2025.pdf)
+[Class notes](notes/m378k-jan-21-2026.pdf)
 
 [Problem Set #2](problem-sets/m378k-ps2-discrete-defn-solns.pdf):  **Solutions**
--->
 
+---
+
+**Class 5: January 23rd, 2026**<br>
 Named discrete distributions.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Binomial_theorem): The binomial theorem 
@@ -90,9 +91,6 @@ Named discrete distributions.<br>
 [Problem Set #3](problem-sets/m378k-ps3-discrete-solns.pdf):  **Solutions**
 -->
 
----
-
-**Class 5: January 23rd, 2026**<br>
 Expectation. Variance.<br>
 
 [Problem Set #4](problem-sets/m378k-ps4-discrete-exp-var-probs.pdf):  **Problems we will work on in class**
