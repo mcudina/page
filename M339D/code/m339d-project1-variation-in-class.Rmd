@@ -106,21 +106,62 @@ rebalance<-function(s.beg, s.end, shares){
 ```
 Now we cycle through the ten days. 
 ```{r}
-for (i in 1:10){
-  #before rebalancing
-  cash[i+1]=cash[i]*exp(r/365)
-  wealth[i+1]=cash[i+1]+pi.v[i]*s[i+1]
-  
-  print(sprintf("Day = %d, %s", i, "before"))
-  print(sprintf("Shares=%6.2f, Cash=%6.2f, Wealth in Stock=%6.2f, Total Wealth=%6.2f",
-                pi.v[i], cash[i+1], pi.v[i]*s[i+1], wealth[i+1]))
-  
-  pi.v[i+1]=rebalance(s[i], s[i+1], pi.v[i])
-  cash[i+1]=wealth[i+1]-pi.v[i+1]*s[i+1]
-  
-  print(sprintf("Day = %d, %s", i, "after"))
-  print(sprintf("Shares=%6.2f, Cash=%6.2f, Wealth in Stock=%6.2f, Total Wealth=%6.2f",
-                pi.v[i+1], cash[i+1], pi.v[i+1]*s[i+1], wealth[i+1]))
+library(tibble)
+library(dplyr)
+
+rows <- vector("list", 2 * 10)  # 2 rows per day: before/after
+k <- 1
+
+for (i in 1:10) {
+  cash[i+1]   <- cash[i] * exp(r/365)
+  wealth[i+1] <- s[i+1] * pi.v[i] + cash[i+1]
+
+  # BEFORE rebalance
+  rows[[k]] <- tibble(
+    day = i,
+    when = "before",
+    price = s[i+1],
+    shares = pi.v[i],
+    cash = cash[i+1],
+    stock_value = pi.v[i] * s[i+1],
+    total_wealth = wealth[i+1]
+  )
+  k <- k + 1
+
+  # rebalance
+  pi.v[i+1] <- rebalance(s[i], s[i+1], pi.v[i])
+  cash[i+1] <- wealth[i+1] - s[i+1] * pi.v[i+1]
+
+  # AFTER rebalance
+  rows[[k]] <- tibble(
+    day = i,
+    when = "after",
+    price = s[i+1],
+    shares = pi.v[i+1],
+    cash = cash[i+1],
+    stock_value = pi.v[i+1] * s[i+1],
+    total_wealth = wealth[i+1]
+  )
+  k <- k + 1
 }
+
+balances <- bind_rows(rows)
+#balances
+
+library(dplyr)
+library(gt)
+
+library(dplyr)
+library(knitr)
+
+balances_pretty <- balances %>%
+  mutate(across(where(is.numeric), ~ round(.x, 2))) %>%
+  arrange(day, when) %>%
+  select(day, when, price, shares, stock_value, cash, total_wealth)
+
+knitr::kable(
+  balances_pretty,
+  caption = "Portfolio evolution before and after daily rebalancing"
+)
 ```
 

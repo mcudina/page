@@ -154,12 +154,13 @@ Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>
 **Class 7: January 28th, 2026**<br>
 More on prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-sept-08-2025.pdf)
--->
+[Class notes](notes/m339g-jan-28-2026.pdf)
 
 [Nobody Expects $L^1$](https://mathoverflow.net/questions/178139/examples-of-unexpected-mathematical-images?newreg=78ec2c4c5b154caeaca68ac602031827)
 
+---
+
+**Class 8: January 30th, 2026**<br>
 Simple Linear Regression. <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
 <!--
@@ -172,9 +173,6 @@ Simple Linear Regression. <span style="color: purple;">**(Section 3.1)**</span>.
 [Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, September 19th, 2025**
 -->
 
----
-
-**Class 8: January 30th, 2026**<br>
 More on linear regression.<br>
 
 [`R`-script for class](code/slr-conf-ints.R): Simple linear regression
