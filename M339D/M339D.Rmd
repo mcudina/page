@@ -141,20 +141,23 @@ Historical returns of stocks.<br>
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
-<!--
-[Class notes](notes/m339d-mm.pdf) 
+[Class notes](notes/m339d-jan-28-2026.pdf) 
 
-[The R-notebook from class](code/m339d-msft-probs-in-class.Rmd)
--->
+[The R-notebook from class](code/m339d-msft-solns.Rmd)
 
-[Alphabet data](data/goog.csv)
+---
+
+[Alphabet data](data/goog.csv) -- **the data for Project #1**
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
 
-[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, September 22nd, 2025**
+[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, February 9th, 2026**
 
 [Project #1](projects/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
+---
+
+**Class 8: January 30th, 2026**<br>
 Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
@@ -171,9 +174,6 @@ On portfolios.
 [The R-notebook from class](code/m339d-project1-variation-in-class.Rmd): **Complete solutions**
 -->
 
----
-
-**Class 8: January 30th, 2026**<br>
 Payoff and profit.<br>
 
 [Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
@@ -190,7 +190,9 @@ Payoff and profit.<br>
 
 Analysis of payoff and profit curves. Long/short positions.<br>
 
+<!--
 [Class notes](notes/m339d-sept-15-2025.pdf) 
+-->
 
 [Problem Set #3](problem-sets/m339d-ps3-payoff-profit-solns.pdf):  **Solutions**
 

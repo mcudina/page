@@ -109,7 +109,9 @@ Now we cycle through the ten days.
 library(tibble)
 library(dplyr)
 
-rows <- vector("list", 2 * 10)  # 2 rows per day: before/after
+# initializing the tibble where our outputs will be 
+# we need 2 rows per day - for before/after
+rows <- vector("list", 2 * 10)  
 k <- 1
 
 for (i in 1:10) {

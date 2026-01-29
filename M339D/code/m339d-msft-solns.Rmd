@@ -24,27 +24,37 @@ knitr::opts_chunk$set(
 
 ## Task 1. 
 First, we will read the data from our csv file "MSFT.csv" into a data.frame called `msft`:
+
 ```{r}
 msft<-read.csv("MSFT.csv")
+msft
+#View(msft)
 ```
+
 
 ## Task 2.
 Draw the time-plot of the evolution of the closing stock price (not the adjusted). You do **not** need to put the calendar days on the horizontal axis, but you **do** need to label your axes and give your time-plot a title indicating the dates.   
+
 ```{r}
 close.price<-msft$Close
-length(close.price)
-plot(close.price, pch=20, col="blue", type="l",
-     main="Daily closing prices of Microsoft over the last year", 
-     xlab="Time",
-     ylab="Price")
+l=length(close.price)
+
+plot(close.price, 
+     type="l", col="blue", lwd=2, 
+     xlab="Time", ylab="Close price", 
+     main="Historical MSFT Prices")
 ```
 
 ## Task 3. 
 What are the mean and the standard deviation of the prices?
+
 ```{r}
 mean(close.price)
 sd(close.price)
+#just for fun
+summary(close.price)
 ```
+
 
 ## Task 4. 
 The **simple daily return** of the stock over a day indexed by $t$ is defined as 
@@ -52,25 +62,34 @@ $$
 \frac{\text{price at end of day $t$}-\text{price at end of day $(t-1)$}}{\text{price at end of day $(t-1)$}} 
 $$
 Construct the vector of simple daily returns over the last year. Provide a visualization of the returns. What can you say about the characteristics of the distribution based on the above plot?
-Here, I construct the vector of simple daily returns and plot the histogram. 
+
 ```{r}
-close.price.end=close.price[-1]
-close.price.beg=close.price[-length(close.price)]
-returns=(close.price.end-close.price.beg)/close.price.beg
-hist(returns,25, 
-     main="Histogram of simple daily returns of Microsoft",
-     xlab="Returns", col="bisque")
+ends=close.price[-1]
+begs=close.price[-l]
+returns=(ends-begs)/begs
+#returns
+
+#plotting a histogram
+hist(returns, breaks=20)
 ```
-We see that the histogram is unimodal and symmetric. 
+
 
 ## Task 5. 
 What are the mean and the standard deviation of the returns?
+
 ```{r}
-mu=mean(returns)
-mu
-sigma=sd(returns)
-sigma
+#mean of daily returns
+(mu.hat=mean(returns))
+#standard deviation of daily returns
+(sigma.hat=sd(returns))
+
+#just for fun
+#annual mean return?
+(252*mu.hat)
+#annual volatility 
+(sqrt(252)*sigma.hat)
 ```
+
 
 ## Task 6. 
 How would you **fit** a distribution to the above histogram? Let's 
@@ -80,12 +99,16 @@ How would you **fit** a distribution to the above histogram? Let's
 * superimpose the density of the modelling distribution onto the histogram. 
 
 ```{r}
-hist(returns,25, 
-     main="Histogram of simple daily returns of Microsoft",
-     xlab="Returns", col="bisque", 
-     prob=TRUE)
-curve(dnorm(x, mean=mu, sd=sigma), col="brown", lwd=2, add=TRUE)
+#plotting a histogram
+hist(returns, breaks=20, 
+     main="Model for MSFT returns", 
+     col="lavender", xlab="Returns", prob=TRUE)
+
+curve(dnorm(x, mean=mu.hat, sd=sigma.hat), add=TRUE, 
+      lwd=2, col="purple")
+
 ```
+
 
 ## Task x. 
 What else could we ask? 
