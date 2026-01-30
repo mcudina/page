@@ -169,11 +169,11 @@ Simple Linear Regression. <span style="color: purple;">**(Section 3.1)**</span>.
 
 [Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
 
-<!--
-[Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, September 19th, 2025**
--->
+[Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, February 6th, 2026**
 
+<!--
 More on linear regression.<br>
+-->
 
 [`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
