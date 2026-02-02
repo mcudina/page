@@ -129,7 +129,7 @@ for (i in 1:10) {
 cv.error
 ```
 
-*What if we plot the above?"
+*What if we plot the above?*
 
 ```{r}
 plot(1:10, cv.error, type="b",

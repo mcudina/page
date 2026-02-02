@@ -162,9 +162,7 @@ Outright purchase. Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
 
-<!--
-[Class notes](notes/m339d-sept-10-2025.pdf)
--->
+[Class notes](notes/m339d-jan-30-2026.pdf)
 
 On portfolios. 
 
@@ -174,6 +172,9 @@ On portfolios.
 [The R-notebook from class](code/m339d-project1-variation-in-class.Rmd): **Complete solutions**
 -->
 
+---
+
+**Class 9: February 2nd, 2026**<br>
 Payoff and profit.<br>
 
 [Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
@@ -196,9 +197,6 @@ Analysis of payoff and profit curves. Long/short positions.<br>
 
 [Problem Set #3](problem-sets/m339d-ps3-payoff-profit-solns.pdf):  **Solutions**
 
----
-
-**Class 9: February 2nd, 2026**<br>
 Basic risk management. Forward contracts.<br>
 
 [Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
