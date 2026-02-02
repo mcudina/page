@@ -163,17 +163,16 @@ More on prediction and inference <span style="color: purple;">**(Section 2.1.1)*
 **Class 8: January 30th, 2026**<br>
 Simple Linear Regression. <span style="color: purple;">**(Section 3.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-sept-10-2025.pdf)
--->
-
-[Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
+[Class notes](notes/m339g-jan-30-2026.pdf)
 
 [Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, February 6th, 2026**
 
-<!--
+---
+
+**Class 9: February 2nd, 2026**<br>
 More on linear regression.<br>
--->
+
+[Slides by Hastie & Tibshirani](slides/ch3-simple-linear-regression.pdf): Simple linear regression
 
 [`R`-script for class](code/slr-conf-ints.R): Simple linear regression
 
@@ -185,9 +184,6 @@ More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <spa
 
 [Homework #3](hw/m339g-hw3-slr.pdf) -- **due on Friday, February 13th, 2026**
 
----
-
-**Class 9: February 2nd, 2026**<br>
 Simple Linear Regression: Cross Validation <span style="color: purple;">**(Section 5.1.1, 5.1.2, 5.1.3, 5.3.1, 5.3.2, 5.3.3)**</span>.<br>
 
 <!--
