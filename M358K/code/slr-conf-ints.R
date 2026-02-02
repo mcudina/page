@@ -27,10 +27,11 @@ plot(x.coords,y.coords, cex=2, pch=20,
      ylab="Response", xlab="Explanatory", 
      xlim=c(0, domain), ylim=c(0,beta.1*domain+beta.0))
 
-abline(lm(y.coords ~ x.coords), lwd=2, col="red")
 abline(beta.0,beta.1, lwd=2, col="green")
+abline(lm(y.coords ~ x.coords), lwd=2, col="red")
 
 reg<-lm(y.coords ~ x.coords)
+reg
 
 reg.all<-summary(reg)
 reg.all
