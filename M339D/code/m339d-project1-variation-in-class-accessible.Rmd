@@ -7,7 +7,10 @@ output:
   html_document:
     toc: true
     toc_depth: 2
+    theme: null
+    highlight: null
     df_print: paged
+    css: "high_contrast.css"
   pdf_document:
     latex_engine: xelatex
     keep_tex: true
@@ -30,11 +33,14 @@ knitr::opts_chunk$set(
 ```
 <!-- ... down to here. -->
 
-**Accessibility note:** This document is written so that all key information (including tables) is available as text. 
+# Accessibility note
+This document is written so that all key information (including tables) is available as text. 
 
 ---
 
-## Problem #1 
+# Problems
+
+## Problem \#1 
 Your initial wealth is exactly \$100. You are allowed to invest in
 shares of a particular stock. You are also allowed to both lend and
 borrow at the continuously compounded, risk-free interest rate of

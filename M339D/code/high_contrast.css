@@ -1,0 +1,63 @@
+/* High-contrast CSS for Canvas / Ally */
+
+html, body {
+  color: #111;
+  background: #fff;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+h1, h2, h3, h4 {
+  color: #111;
+}
+
+a, a:visited {
+  color: #0047AB;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+a:hover, a:focus {
+  outline: 3px solid #111;
+  outline-offset: 2px;
+}
+
+code, pre {
+  color: #111;
+  background: #f2f2f2;
+  border: 1px solid #b5b5b5;
+  border-radius: 6px;
+}
+
+pre {
+  padding: 12px 14px;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 2px solid #666;
+  padding: 8px 10px;
+}
+
+th {
+  background: #e6e6e6;
+  color: #111;
+}
+
+caption {
+  caption-side: bottom;
+  font-weight: 600;
+  padding-top: 8px;
+}
+
+blockquote {
+  border-left: 6px solid #444;
+  padding-left: 14px;
+  margin-left: 0;
+}
