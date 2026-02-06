@@ -201,10 +201,11 @@ Basic risk management. Forward contracts.<br>
 
 [Lecture Five](lectures/m339d-lecture-five-basic-risk-management-forwards.pdf): Basic risk management. Forwards.
 
-<!--
-[Class notes](notes/m339d-sept-17-2025.pdf) 
--->
+[Class notes](notes/m339d-feb-06-2026.pdf) 
 
+---
+
+**Class 12: February 9th, 2026**<br>
 Hedging using forward contracts.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
@@ -253,9 +254,6 @@ European call options.<br>
 [Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 -->
 
----
-
-**Class 12: February 9th, 2026**<br>
 European put options. Moneyness.<br>
 
 [Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
