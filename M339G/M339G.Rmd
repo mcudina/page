@@ -212,7 +212,10 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 
 [Wikipedia](https://en.wikipedia.org/wiki/Leverage_(statistics)): Leverage
 
+<!--
+
 [Class notes](notes/m339g-mlr.pdf)
+-->
 
 [`R`-notebook from class](code/mlr.Rmd): Multiple linear regression
 

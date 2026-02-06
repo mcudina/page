@@ -139,4 +139,4 @@ plot(1:10, cv.error, type="b",
      pch=20, col="blue")
 ```
 
-We see a sharp drop in the estimated test MSE between the linear and quadratic fits, but then no clear improvement from using higher-order polynomials.
+We see a sharp drop in the estimated test MSE between the linear and quadratic fits, but no clear improvement from using higher-order polynomials.
