@@ -213,27 +213,6 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 [Wikipedia](https://en.wikipedia.org/wiki/Leverage_(statistics)): Leverage
 
 <!--
-
-[Class notes](notes/m339g-mlr.pdf)
--->
-
-[`R`-notebook from class](code/mlr.Rmd): Multiple linear regression
-
-<!--
-Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
--->
-
-[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
-
-[Code from class](code/trees-in-class.Rmd): Cherry trees
-
-[Class notes](notes/m339g-sept-19-2025.pdf): $F-$distribution. 
-
-[My old class notes from *Math Stats*](notes/m378k-mar-07-2025.pdf): Sample variance. 
-
-[`R`-script from class](code/F-distn.R): The $F-$distribution
-
-<!--
 [Homework #2](hw/m339g-hw2-regression-solns.pdf) -- **solutions**
 -->
 
@@ -241,6 +220,28 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 **Class 12: February 9th, 2026**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
+
+<!--
+[Class notes](notes/m339g-mlr.pdf)
+-->
+
+[`R`-notebook from class](code/mlr.Rmd): Multiple linear regression
+
+[Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
+
+[Code from class](code/trees-in-class.Rmd): Cherry trees
+
+<!--
+[Class notes](notes/m339g-sept-19-2025.pdf): $F-$distribution. 
+-->
+
+[My old class notes from *Math Stats*](notes/m378k-mar-07-2025.pdf): Sample variance. 
+
+[`R`-script from class](code/F-distn.R): The $F-$distribution
+
+<!--
+Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-contd.pdf): Multiple linear regression (cont'd) 
 
