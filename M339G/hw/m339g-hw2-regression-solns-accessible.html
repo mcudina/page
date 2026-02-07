@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HW Assignment 2 — Regression (Accessible HTML)</title>
+  <style>
+    body {
+      background:#fff;
+      color:#111;
+      font:18px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      margin:0;
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 28px;
+    }
+    h1 { font-size: 1.8rem; margin: 0 0 .25rem 0; }
+    h2 { font-size: 1.35rem; margin-top: 1.8rem; }
+    h3 { font-size: 1.15rem; margin-top: 1.25rem; }
+    p { margin: .35rem 0; }
+    a, a:visited {
+      color:#003366;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 2px;
+    }
+    .meta {
+      border: 2px solid #666;
+      border-radius: 10px;
+      padding: 12px 14px;
+      background: #f6f6f6;
+      margin: 14px 0 18px 0;
+    }
+    .note {
+      border-left: 6px solid #444;
+      padding: 10px 14px;
+      background: #fafafa;
+      margin: 14px 0;
+    }
+    .equation {
+      background:#f0f0f0;
+      border:1px solid #666;
+      border-radius:10px;
+      padding: 10px 14px;
+      margin: 10px 0;
+      overflow-x: auto;
+    }
+    ul { margin: .35rem 0 .35rem 1.2rem; }
+    li { margin: .25rem 0; }
+    hr { border: 0; border-top: 2px solid #ddd; margin: 26px 0; }
+  </style>
+
+  <!-- MathJax for readable equations -->
+  <script>
+    window.MathJax = { tex: { inlineMath: [['\\(','\\)'], ['$', '$']] } };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+<main>
+  <h1>HW Assignment 2 — Regression</h1>
+  <div class="meta" aria-label="Document metadata">
+    <p><strong>Course:</strong> M339G/M389G — Predictive Analytics</p>
+    <p><strong>Institution:</strong> University of Texas at Austin</p>
+  </div>
+
+  <p>Please provide complete solutions to the following problems. Final answers only, even if correct, will earn zero points.</p>
+
+  <p>In all problems below, we perform a simple linear regression with X as the explanatory variable and Y as the response variable. The model is:</p>
+  <div class="equation" role="group" aria-label="Linear regression model equation">
+    \[ Y = \beta_0 + \beta_1 X + \varepsilon \]
+    <p>with errors \(\varepsilon\) independent of \(X\), normally distributed with mean 0 and common standard deviation \(\sigma\).</p>
+  </div>
+
+  <hr />
+
+  <h2 id="p21">Problem 2.1 (5 × 2 = 10 points)</h2>
+  <p>Determine whether each statement is true or false.</p>
+  <ol>
+    <li>The parameter \(\beta_1\) can be interpreted as the mean increase in the response variable \(Y\) per unit increase in the explanatory variable \(X\).</li>
+    <li>The parameter \(\beta_0\) is the mean of the response variable \(Y\).</li>
+    <li>The coefficient of determination \(R^2\) can be interpreted as the proportion of variation in \(Y\) that is explained by the linear model.</li>
+    <li>The coefficient of determination \(R^2\) is defined as the ratio of the residual sum of squares to the total sum of squares.</li>
+    <li>\(\sqrt{\text{RSS}\over n-1}\) is the appropriate estimate of the standard deviation of the error \(\sigma\).</li>
+  </ol>
+  <div class="note" aria-label="Solution to Problem 2.1">
+    <p><strong>Solution:</strong></p>
+    <ul>
+      <li>(i) TRUE</li>
+      <li>(ii) FALSE</li>
+      <li>(iii) TRUE</li>
+      <li>(iv) FALSE</li>
+      <li>(v) FALSE</li>
+    </ul>
+  </div>
+
+  <h2 id="p22">Problem 2.2 (10 points)</h2>
+  <p>For a dataset of \(n=10\) observations \((X, Y)\), you are given:</p>
+  <div class="equation" role="group" aria-label="Given summary statistics for Problem 2.2">
+    \[ \bar x = 8,\quad \bar y = 10,\quad \sum_{i=1}^{10} x_i^2 = 4000,\quad \sum_{i=1}^{10} x_i y_i = 5000. \]
+  </div>
+  <p>Determine the fitted coefficients \(\hat\beta_0\) and \(\hat\beta_1\).</p>
+  <div class="note" aria-label="Solution to Problem 2.2">
+    <p><strong>Solution (least squares):</strong></p>
+    <div class="equation" role="group" aria-label="Least squares computation for beta1 and beta0 in Problem 2.2">
+      \[
+      \hat\beta_1 = \frac{\sum x_i y_i - n\bar x\bar y}{\sum x_i^2 - n\bar x^2}
+      = \frac{5000 - 10(8)(10)}{4000 - 10(8)^2}
+      = 1.25.
+      \]
+      \[ \hat\beta_0 = \bar y - \hat\beta_1\bar x = 10 - 1.25(8) = 0. \]
+    </div>
+  </div>
+
+  <h2 id="p23">Problem 2.3 (10 points)</h2>
+  <p>For a dataset of \(n=20\) observations \((X, Y)\), you are given:</p>
+  <div class="equation" role="group" aria-label="Given sums for Problem 2.3">
+    \[
+    \sum_{i=1}^{20} x_i = 200,\quad
+    \sum_{i=1}^{20} y_i = 300,\quad
+    \sum_{i=1}^{20} x_i^2 = 3000,\quad
+    \sum_{i=1}^{20} y_i^2 = 4600,\quad
+    \sum_{i=1}^{20} x_i y_i = 3200.
+    \]
+  </div>
+  <p>Determine \(\hat\beta_0\) and \(\hat\beta_1\).</p>
+  <div class="note" aria-label="Solution to Problem 2.3">
+    <p><strong>Solution (least squares):</strong></p>
+    <div class="equation" role="group" aria-label="Least squares computation for Problem 2.3">
+      \[
+      \hat\beta_1 = \frac{\sum x_i y_i - n\bar x\bar y}{\sum x_i^2 - n\bar x^2}
+      = \frac{3200 - \frac{200\cdot 300}{20}}{3000 - \frac{(200)^2}{20}}
+      = 0.20.
+      \]
+      \[
+      \hat\beta_0 = \bar y - \hat\beta_1\bar x
+      = \frac{300}{20} - 0.2\left(\frac{200}{20}\right)
+      = 13.
+      \]
+    </div>
+  </div>
+
+  <h2 id="p24">Problem 2.4 (10 points)</h2>
+  <p>You are given:</p>
+  <div class="equation" role="group" aria-label="Given centered sums for Problem 2.4">
+    \[
+    \bar x = 4,\quad \bar y = 3,\quad
+    \sum (x_i - \bar x)^2 = 12,\quad
+    \sum (y_i - \bar y)^2 = 1.25,\quad
+    \sum (x_i - \bar x)(y_i - \bar y) = 3.
+    \]
+  </div>
+  <p>Determine \(\hat\beta_0\) and \(\hat\beta_1\).</p>
+  <div class="note" aria-label="Solution to Problem 2.4">
+    <p><strong>Solution:</strong></p>
+    <div class="equation" role="group" aria-label="Least squares computation for Problem 2.4">
+      \[
+      \hat\beta_1 = \frac{\sum (x_i - \bar x)(y_i - \bar y)}{\sum (x_i - \bar x)^2}
+      = \frac{3}{12} = 0.25.
+      \]
+      \[ \hat\beta_0 = \bar y - \hat\beta_1\bar x = 3 - 0.25(4) = 2. \]
+    </div>
+  </div>
+
+  <h2 id="p25">Problem 2.5 (5 points)</h2>
+  <p>For \(n=25\) observations, you are given:</p>
+  <div class="equation" role="group" aria-label="Given summary statistics for Problem 2.5">
+    \[
+    \bar x = 5,\quad \bar y = 3,\quad
+    \sum x_i^2 = 5000,\quad
+    \sum y_i^2 = 1000,\quad
+    \sum x_i y_i = 450.
+    \]
+  </div>
+  <p>The residual sum of squares is \(\text{RSS}=300\). Find \(R^2\).</p>
+  <div class="note" aria-label="Solution to Problem 2.5">
+    <p><strong>Solution:</strong></p>
+    <p>Total sum of squares:</p>
+    <div class="equation" role="group" aria-label="TSS calculation for Problem 2.5">
+      \[ \text{TSS} = \sum y_i^2 - n\bar y^2 = 1000 - 25(3)^2 = 775. \]
+    </div>
+    <p>Then:</p>
+    <div class="equation" role="group" aria-label="R-squared calculation for Problem 2.5">
+      \[ R^2 = 1 - \frac{\text{RSS}}{\text{TSS}} = 1 - \frac{300}{775} = 0.6129032. \]
+    </div>
+  </div>
+
+  <h2 id="p26">Problem 2.6 (5 points)</h2>
+  <p><strong>Source:</strong> An old CAS exam from 1995.</p>
+  <p>You fit a simple linear regression model with dependent variable values \(y_i = i\) for \(i = 1,\dots,5\). You determine that the estimate of the variance of the error term is \(s^2 = 1\). What is the coefficient of determination?</p>
+  <div class="note" aria-label="Solution to Problem 2.6">
+    <p><strong>Solution:</strong></p>
+    <p>Compute \(\bar y = 3\).</p>
+    <div class="equation" role="group" aria-label="TSS calculation for Problem 2.6">
+      \[
+      \text{TSS} = \sum_{i=1}^5 (i-3)^2 = 4 + 1 + 0 + 1 + 4 = 10.
+      \]
+    </div>
+    <p>The residual sum of squares is \(\text{RSS} = (n-2)s^2 = (5-2)(1) = 3\).</p>
+    <div class="equation" role="group" aria-label="R-squared calculation for Problem 2.6">
+      \[ R^2 = 1 - \frac{\text{RSS}}{\text{TSS}} = 1 - \frac{3}{10} = 0.7. \]
+    </div>
+  </div>
+
+  <hr />
+  <p><em>This HTML version is structured with semantic headings and readable math for screen readers and Canvas Ally.</em></p>
+</main>
+</body>
+</html>
