@@ -212,18 +212,17 @@ Hedging using forward contracts.<br>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Hedge_(finance)): Hedging
 
-<!--
-[Class notes](notes/m339d-sept-19-2025.pdf) 
--->
-
 [Problem Set #4](problem-sets/m339d-ps4-forwards.pdf):  **Problems**
 
-<!--
-[Class notes with extra solutions](notes/m339d-feb-05-2025.pdf) 
+[Class notes](notes/m339d-feb-09-2026.pdf) 
 
+<!--
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
 -->
 
+---
+
+**Class 13: February 11th, 2026**<br>
 European call options.<br>
 
 [Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
@@ -280,9 +279,6 @@ European put options. Moneyness.<br>
 [Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 13: February 11th, 2026**<br>
 Review. Derivative securities. Finite probability spaces [revisited]. 
 
 <!--
