@@ -53,7 +53,7 @@ summary(lm.fit.m)
 Let's compare the **coefficient of determination** $R^2$ for the above two fits. 
 
 
-For anyone who has ever seen trees, it's natural to suspect that there is a correlation between `Height` and `Girth`. Let's check
+For anyone who has ever encountered trees, it's natural to suspect that there is a correlation between `Height` and `Girth`. Let's check
 
 ```{r}
 cor(Height, Girth)

@@ -219,13 +219,16 @@ Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</spa
 **Class 12: February 9th, 2026**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-mlr.pdf)
--->
+[Class notes](notes/m339g-feb-09-2026.pdf)
 
 [`R`-notebook from class](code/mlr.Rmd): Multiple linear regression
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
+
+---
+
+**Class 13: February 11th, 2026**<br>
+Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
 [Code from class](code/trees-in-class.Rmd): Cherry trees
 
@@ -236,10 +239,6 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 [My old class notes from *Math Stats*](notes/m378k-mar-07-2025.pdf): Sample variance. 
 
 [`R`-script from class](code/F-distn.R): The $F-$distribution
-
-<!--
-Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
--->
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-contd.pdf): Multiple linear regression (cont'd) 
 
@@ -265,12 +264,9 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 <!--
 [Class notes](notes/m339g-sept-22-2025.pdf)
--->
 
----
-
-**Class 13: February 11th, 2026**<br>
 More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
+-->
 
 [Data for class](code/salesadv.csv): Sales
 
