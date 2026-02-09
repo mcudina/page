@@ -179,12 +179,24 @@ More on the cdf.<br>
 
 [`R` code on the normal](code/normal.R)
 
-<!--
-[Class notes](notes/m378k-sept-22-2025.pdf)
+[Class notes](notes/m378k-feb-09-2026.pdf)
 
+<!--
 [Problem Set #7](problem-sets/m378k-ps7-cdf-cont-solns.pdf):  **Solutions**
 -->
 
+---
+
+**Class 13: February 11th, 2026**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+<!--
+[In-Term One](exams/m378k-one-solns.pdf) -- **solutions** 
+-->
+
+---
+
+**Class 14: February 13th, 2026**<br>
 Random vectors.<br>
 
 <!--
@@ -205,19 +217,6 @@ Independence. Transformations of random variables.<br>
 [Class notes](notes/m378k-oct-01-2025.pdf)
 -->
 
-
----
-
-**Class 13: February 11th, 2026**<br>
-<span style="color: red;">**In-Term One**</span><br>
-
-<!--
-[In-Term One](exams/m378k-one-solns.pdf) -- **solutions** 
--->
-
----
-
-**Class 14: February 13th, 2026**<br>
 More on transformations of random variables. The triangle distribution. The $\chi^2-$distribution.<br>
 
 [Zed Statistics video](https://youtu.be/80ffqpZdKiA?si=qzwSLzEZOKbDlRc7): The $\chi^2-$ distribution. 
