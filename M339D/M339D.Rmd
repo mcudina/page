@@ -216,9 +216,7 @@ Hedging using forward contracts.<br>
 
 [Class notes](notes/m339d-feb-09-2026.pdf) 
 
-<!--
 [Problem Set #4](problem-sets/m339d-ps4-forwards-solns.pdf):  **Solutions**
--->
 
 ---
 
@@ -227,11 +225,16 @@ European call options.<br>
 
 [Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
 
+[Class notes](notes/m339d-feb-11-2026.pdf) 
+
 [Homework #4](hw/m339d-hw4-forwards-probs.pdf) -- **due on Friday, February 20th, 2026**
 
-<!--
-[Class notes](notes/m339d-sept-22-2025.pdf) 
+---
 
+**Class 14: February 13th, 2026**<br>
+More on European call options.<br>
+
+<!--
 [Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
 
 [Class notes](notes/m339d-sept-24-2025.pdf) 
@@ -291,9 +294,6 @@ Mock exam.<br>
 [Mock Exam](exams/m339d-mock-exam-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 14: February 13th, 2026**<br>
 Arbitrage portfolios. Law of the Unique Price. <br>
 
 <!--
