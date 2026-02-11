@@ -8,3 +8,8 @@ data=rf(n.sim, 3, 2)
 hist(data)
 summary(data)
 boxplot(data)
+
+#95th quantile
+qf(0.95, 3, 2)
+#say with a data set with n=20, and p=3
+qf(0.95, 3, 20-3-1)

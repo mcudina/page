@@ -232,11 +232,11 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Code from class](code/trees-in-class.Rmd): Cherry trees
 
-<!--
-[Class notes](notes/m339g-sept-19-2025.pdf): $F-$distribution. 
--->
+[Class notes](notes/m339g-feb-11-2026.pdf): $F-$distribution. 
 
 [My old class notes from *Math Stats*](notes/m378k-mar-07-2025.pdf): Sample variance. 
+
+[Proof of Theorem from class](https://math.stackexchange.com/questions/47009/proof-of-fracn-1s2-sigma2-sim-chi2-n-1)
 
 [`R`-script from class](code/F-distn.R): The $F-$distribution
 
@@ -258,6 +258,9 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Homework #4](hw/m339g-hw4-F-probs.pdf) -- **due on Friday, February 20th, 2026**
 
+---
+
+**Class 14: February 13th, 2026**<br>
 Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch7-linear-splines.pdf): Intro to Splines 
@@ -274,12 +277,11 @@ More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch7-cubic-splines.pdf): Cubic Splines
 
+<!--
 [Class notes](notes/m339g-sept-24-2025.pdf)
 
----
-
-**Class 14: February 13th, 2026**<br>
 More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
+-->
 
 [`R`-notebook from class](code/splines.Rmd): Splines 
 
