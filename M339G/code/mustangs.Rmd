@@ -83,7 +83,7 @@ glm.fit.m=glm(Price~Miles+ Age,data=mustangs)
 cv.err.m=cv.glm(mustangs,glm.fit.m)
 cv.err.m$delta[1]
 
-#multiple linear regression with interacions
+#multiple linear regression with interactions
 glm.fit.mi=glm(Price~Miles*Age,data=mustangs)
 cv.err.mi=cv.glm(mustangs,glm.fit.mi)
 cv.err.mi$delta[1]
