@@ -265,10 +265,13 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch7-linear-splines.pdf): Intro to Splines 
 
+---
+
+**Class 15: February 16th, 2026**<br>
+More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
+
 <!--
 [Class notes](notes/m339g-sept-22-2025.pdf)
-
-More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 -->
 
 [Data for class](code/salesadv.csv): Sales
@@ -297,9 +300,6 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 [Homework #3](hw/m339g-hw3-slr-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 15: February 16th, 2026**<br>
 Introduction to Classification.<br>
 
 <!--

@@ -5,7 +5,7 @@ output:
   pdf_document: default
 ---
 
-First, we need some libraries:
+First, we need our textbook's library:
 
 ```{r}
 library(ISLR2)
