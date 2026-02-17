@@ -265,6 +265,8 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch7-linear-splines.pdf): Intro to Splines 
 
+[Homework #3](hw/m339g-hw3-slr-solns.pdf) -- **solutions**
+
 ---
 
 **Class 15: February 16th, 2026**<br>
@@ -296,9 +298,6 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 
 [Slides by Hastie & Tibshirani](slides/ch2-interpretability.pdf): Bias-variance trade-off and interpretability
 
-<!--
-[Homework #3](hw/m339g-hw3-slr-solns.pdf) -- **solutions**
--->
 
 Introduction to Classification.<br>
 
