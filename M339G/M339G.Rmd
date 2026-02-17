@@ -272,9 +272,7 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 **Class 15: February 16th, 2026**<br>
 More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-sept-22-2025.pdf)
--->
+[Class notes](notes/m339g-feb-16-2026.pdf)
 
 [Data for class](code/salesadv.csv): Sales
 
@@ -282,13 +280,17 @@ More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch7-cubic-splines.pdf): Cubic Splines
 
+[`R`-notebook from class](code/splines.Rmd): Splines 
+
+---
+ 
+**Class 16: February 18th, 2026**<br>
+More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
+
 <!--
 [Class notes](notes/m339g-sept-24-2025.pdf)
-
-More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 -->
 
-[`R`-notebook from class](code/splines.Rmd): Splines 
 
 [Code for class](code/splines-validation.Rmd): Splines with validation
 
@@ -305,9 +307,6 @@ Introduction to Classification.<br>
 [Class notes](notes/m339g-sept-29-2025.pdf)
 -->
 
----
- 
-**Class 16: February 18th, 2026**<br>
 Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
