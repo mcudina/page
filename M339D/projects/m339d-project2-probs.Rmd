@@ -1,8 +1,10 @@
 ---
-title: "Project #2: More on portfolios. Futures prices. Call prices."
+title: 'Project #2'
 author: "Milica Cudina"
 date: "`r Sys.Date()`"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 urlcolor: blue
 ---
 <!-- The author of this template is Dr. Gordan Zitkovic.-->
@@ -23,58 +25,17 @@ knitr::opts_chunk$set(
 
 ---
 
+# Forwards and futures. 
+
 ## Problem #1 (25 points)
-Your initial wealth is exactly \$100. You are allowed to invest in shares of a particular stock. You are also allowed to both lend and borrow at the continuously compounded risk-free interest rate of
-0.05. Keeping your money uninvested is **not allowed**.
-
-You rebalance your portfolio every morning, once you have observed the opening stock price. This means that you can change the number of
-shares you own (if you decide to do so) and accordingly adapt your
-risk-free investment.
-
-You proceed to create a ``rule'' according to which you will be rebalancing your portfolio. Here is a rule you will implement in this problem:
-
-*If the stock price drops overnight (regardless of the extent of the drop), sell half of the stock investment. If the stock price rises overnight (regardless of the extent of the increase), double the amount of the stock investment. If the stock price does not change, do nothing. In all three cases, the rest of my wealth is to be invested at the risk-free rate (if needed, I will borrow at the continuously compounded risk-free interest rate).*
-
-Over the following 10 days, you observe the following stock prices for a non-dividend-paying stock:
-
-\medskip
-
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
-\hline
-{\bf Day} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
-\hline
-{\bf Stock price} &100 & 80 & 64 & 80 & 64 & 80 & 100 & 80 & 64 & 80 & 100 \\
-\hline
-\end{tabular}
-
-\medskip
-
-As the time passes you follow the investment rule above to rebalance your portfolio. Complete the following table describing your portfolio **just before and just after** the rebalancing is done. More precisely, for the $10$ days, both for **before** and **after** the rebalancing print out:
-
-* the number of shares of stock in the portfolio, 
-* the balance of the risk-free investment, 
-* the wealth in the stock, 
-* the total wealth. 
-
-
-## Problem #2 (25 points)
-### (10 points) 
-Repeat the above problem with **your own rule** based on *technical analysis*, i.e., the study of past prices. Your rule must not be arbitrary and it must have some financial logic behind it. Moreover, it must not be a simple reversal or multiple of the rule used in the previous problem. 
-
-### (15 points) 
-**Explain** why you designed the rule the way you did and why you believe it would prove to be a successful investment strategy. You must provide at least one credible reference indicating that the rule is used in practice. 
-
-\newpage
-
-## Problem #3 (25 points)
 ### The Dow index and Dow futures
-Please, read the Wikipedia entry about *futures contracts* and listen to the fun and educational episode of *Planet money* about credit risk in cafeteria futures. Both are linked below:
+Please, in no particular order read the Wikipedia entry about *futures contracts* and listen to the fun and educational episode of *Planet money* about credit risk in cafeteria futures. Both are linked below:
 
 [Wikipedia](https://en.wikipedia.org/wiki/Futures_contract): Futures
 
 [Planet money](https://www.npr.org/sections/money/2016/01/06/462149561/episode-15-delicious-cake-futures): Delicious cake futures
 
-**(10 points)** Provide the definitions of the forward contract and the futures contract. Then, highlight at least two similarities and at least two differences between the two. 
+**(10 points)** Provide the definitions of the forward contract and the futures contract. Then, highlight at least twosimilarities and at least two differences between the two. 
 
 The files "dow.csv" and "dow-futures.csv" contain index prices and the futures prices for delivery on a particular date in the future. 
 
@@ -88,10 +49,11 @@ Here is a link to a straightforward tutorial which will help you accomplish the 
 **(10 points)**
 What do you notice when you compare the timeplots? Which of the **formulae** for calculating futures prices you encountered on the Wikipedia entry come in handy?
 
+# Call price properties
 
-## Problem #4 (25 points)
+## Problem #2 (25 points)
 ### Apple calls
-The file `apple-calls.csv` contains call prices observed on February 14th for European call options on the stocks of Apple Inc with expiry on May 19th and with varying strike prices. 
+The file "apple-calls.csv" contains call prices observed on February 14th for European call options on the stocks of Apple Inc with expiry on May 19th and with varying strike prices. 
 
 **(5 points)**
 Import the data into a data frame. Create a line plot of the mid price (defined as the midpoint between the bid and the ask price) as it depends on the strike. 
@@ -101,5 +63,25 @@ What do you notice about the monotonicity and convexity of the above curve?
 
 **(15 points)**
 **Prove** that the same conclusions regarding the monotonicity and convexity of the call prices with respect to the strike must hold in general **under the no arbitrage assumption**. 
+
+# Put-call parity
+
+## Problem #3 (25 points)
+**(5 points)**
+Using put-call parity, find the formula for the interest rate if all other ingredients are known. 
+
+**(5 points)** 
+Based on the above, what can you say about the interest rates $r$ you expect to obtain for varying values of the strike price? Bear in mind the **standing assumptions** we made in the beginning of the semester. 
+
+**(10 points)**
+Based on the data set "apple-parity.csv", calculate the continuously compounded, risk-free interest rate for all the strike prices given. Be careful about how you use the *bid* and *ask/offer* prices of the options. Set $T=0.25$. Plot the values of the interest rate you obtain as they depend on the strike prices. 
+
+**(5 points)**
+What do you notice about the above plot? Does it or does it not agree with your prediction from the second question in the problem? Substantiate your answer. 
+
+## Problem #4 (25 points)
+To what do you attribute the discrepancies you observed in the previous problem? Think about it a bit and note your ideas. Then, consult the paper by *Brenner* and *Galai* uploaded into Canvas (under *Files* in the folder *articles*). Provide at least **four** substantiated reasons. 
+
+*Note that this question is worth a quarter of your score for this project! A few lines of your musings will give you hardly any credit at all.*
 
 
