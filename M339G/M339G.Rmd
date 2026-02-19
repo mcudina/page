@@ -287,11 +287,6 @@ More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 **Class 16: February 18th, 2026**<br>
 More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-sept-24-2025.pdf)
--->
-
-
 [Code for class](code/splines-validation.Rmd): Splines with validation
 
 The Trade-Off Between Prediction Accuracy and Model Interpretability <span style="color: purple;">**(Section 2.1.3)**</span>.<br>
@@ -300,13 +295,13 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 
 [Slides by Hastie & Tibshirani](slides/ch2-interpretability.pdf): Bias-variance trade-off and interpretability
 
-
 Introduction to Classification.<br>
 
-<!--
-[Class notes](notes/m339g-sept-29-2025.pdf)
--->
+[Class notes](notes/m339g-feb-18-2026.pdf)
 
+---
+
+**Class 17: February 20th, 2026**<br>
 Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
@@ -315,9 +310,6 @@ Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.
 
 [Slides by Hastie & Tibshirani](slides/ch4-classification.pdf): Logistic regression
 
----
-
-**Class 17: February 20th, 2026**<br>
 Logistic-regression labs.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
