@@ -152,6 +152,7 @@ What would we get if we let `R` optimize the number of degrees of freedom using 
 fit.cv=smooth.spline(training$weight,training$mpg,cv=T)
 #summary(fit.cv)
 fit.cv$df
+#fit.cv
 
 plot(training$weight,training$mpg, 
      col="lightblue", pch=20,

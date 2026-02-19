@@ -245,48 +245,46 @@ More on European call options.<br>
 ---
 
 **Class 15: February 16th, 2026**<br>
-<!--
-
-[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for the last problem in the project**
-
-[Dow data](data/dow.csv)
-
-[Dow futures data](data/dow-futures.csv)
-
-[Apple call data](data/apple-calls.csv)
-
-[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, October 13th, 2025**
-
-[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
--->
-
 European put options. Moneyness.<br>
 
 [Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 [Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
 
-<!--
-[Class notes](notes/m339d-sept-26-2025.pdf) 
+[Class notes](notes/m339d-feb-16-2026.pdf) 
 
 [Problem Set #6](problem-sets/m339d-ps6-puts-solns.pdf):  **Solutions**
--->
 
 **(An interesting read)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
 
 **(Another interesting read)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
 
-<!--
-[Homework #6](hw/m339d-hw6-puts.pdf) -- **due on Friday, October 10th, 2025**
--->
+[Homework #6](hw/m339d-hw6-puts.pdf) -- **for practice; not to be handed in**
+
+[Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
 
 **(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
 
+---
+
+[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for a problem in the project**
+
+[Dow data](data/dow.csv) -- **data for Project #2**
+
+[Dow futures data](data/dow-futures.csv) -- **data for Project #2**
+
+[Apple call data](data/apple-calls.csv) -- **data for Project #2**
+
 <!--
-[Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
+[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, October 13th, 2025**
+
+[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 -->
 
-Review. Derivative securities. Finite probability spaces [revisited]. 
+---
+ 
+**Class 16: February 18th, 2026**<br>
+Review. Finite probability spaces [revisited]. 
 
 <!--
 [Class notes](notes/m339d-sept-29-2025.pdf) 
@@ -320,9 +318,6 @@ Replicating portfolios. Equity-linked contracts. <br>
 [Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
 -->
 
----
- 
-**Class 16: February 18th, 2026**<br>
 Put-call parity.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
@@ -360,6 +355,10 @@ Chooser options.<br>
 ---
 
 **Class 17: February 20th, 2026**<br>
+<!--
+[Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
+-->
+
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -382,8 +381,6 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 [Project #3](projects/m339d-project3-probs.pdf) -- **due on Monday, November 3rd, 2025**
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
-[Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
 
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, October 17th, 2025**
 -->
