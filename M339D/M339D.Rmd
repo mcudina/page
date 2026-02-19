@@ -284,11 +284,14 @@ European put options. Moneyness.<br>
 ---
  
 **Class 16: February 18th, 2026**<br>
-Review. Finite probability spaces [revisited]. 
+Review. Finite probability spaces [revisited]. Arbitrage portfolios.<br>
 
+[Class notes](notes/m339d-feb-18-2026.pdf) 
+
+---
+
+**Class 17: February 20th, 2026**<br>
 <!--
-[Class notes](notes/m339d-sept-29-2025.pdf) 
-
 Mock exam.<br>
 
 [Mock Exam](exams/m339d-mock-exam-probs.pdf) -- **problems** 
@@ -296,7 +299,7 @@ Mock exam.<br>
 [Mock Exam](exams/m339d-mock-exam-solns.pdf) -- **solutions**
 -->
 
-Arbitrage portfolios. Law of the Unique Price. <br>
+ Law of the Unique Price. <br>
 
 <!--
 [Class notes](notes/m339d-oct-01-2025.pdf) 
@@ -350,12 +353,7 @@ Chooser options.<br>
 [Practice for In-Term One](exams/m339d-one-sample-probs.pdf) -- **problems** 
 
 [Practice for In-Term One](exams/m339d-one-sample-solns.pdf) -- **solutions**
--->
 
----
-
-**Class 17: February 20th, 2026**<br>
-<!--
 [Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
 -->
 
