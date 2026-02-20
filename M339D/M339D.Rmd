@@ -266,22 +266,6 @@ European put options. Moneyness.<br>
 **(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
 
 ---
-
-[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for a problem in the project**
-
-[Dow data](data/dow.csv) -- **data for Project #2**
-
-[Dow futures data](data/dow-futures.csv) -- **data for Project #2**
-
-[Apple call data](data/apple-calls.csv) -- **data for Project #2**
-
-<!--
-[Project #2](projects/m339d-project2-probs.pdf) -- **due on Monday, October 13th, 2025**
-
-[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
--->
-
----
  
 **Class 16: February 18th, 2026**<br>
 Review. Finite probability spaces [revisited]. Arbitrage portfolios.<br>
@@ -336,6 +320,22 @@ Put-call parity.<br>
 -->
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
+
+---
+
+[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for a problem in the project**
+
+[Dow data](data/dow.csv) -- **data for Project #2**
+
+[Dow futures data](data/dow-futures.csv) -- **data for Project #2**
+
+[Apple call data](data/apple-calls.csv) -- **data for Project #2**
+
+[Project #2](projects/m339d-project2-probs.html) -- **due on Monday, March 9th, 2026**
+
+[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
 
 Chooser options.<br>
 
