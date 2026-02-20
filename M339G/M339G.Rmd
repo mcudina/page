@@ -308,9 +308,14 @@ Regression vs Classification Problems <span style="color: purple;">**(Section 2.
 
 Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.<br>
 
-[Slides by Hastie & Tibshirani](slides/ch4-classification.pdf): Logistic regression
+[Class notes](notes/m339g-feb-20-2026.pdf)
 
-Logistic-regression labs.<br>
+---
+
+**Class 18: February 23rd, 2026**<br>
+More on logistic-regression.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch4-classification.pdf): Logistic regression
 
 [Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
 
@@ -324,9 +329,6 @@ Logistic-regression labs.<br>
 [Homework #4](hw/m339g-hw4-F-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 18: February 23rd, 2026**<br>
 Logistic regression with multiple response categories.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
