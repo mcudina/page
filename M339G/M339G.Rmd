@@ -312,6 +312,16 @@ Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.
 
 ---
 
+[Mauna Loa data](projects/mauna-loa.csv)
+
+<!--
+[Project #2](projects/m339g-project2-probs.pdf) -- **due on Monday, November 10th, 2025**
+
+[Project #2](projects/m339g-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+-->
+
+---
+
 **Class 18: February 23rd, 2026**<br>
 More on logistic-regression.<br>
 
@@ -469,11 +479,6 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 [`R`-notebook for class](code/pca-kmeans.Rmd): Principal component analysis with K-means
 
-<!--
-[Project #2](projects/m339g-project2-probs.pdf) -- **due on Monday, November 10th, 2025**
-
-[Project #2](projects/m339g-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
--->
 
 ---
 
