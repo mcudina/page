@@ -1,8 +1,10 @@
 ---
-title: "Project #2"
+title: 'Project #2'
 author: "Milica Cudina"
 date: "`r Sys.Date()`"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 urlcolor: blue
 ---
 <!-- The author of this template is Dr. Gordan Zitkovic.-->
@@ -23,33 +25,20 @@ knitr::opts_chunk$set(
 
 ---
 
-## Problem #1 **(55 points)**
-The `iris` data set is built-in in `R`. Start by studying the documentation of the data set, i.e., by entering `?iris` in the console. To familiarize yourselves with the architecture of an iris flower, go to: 
+# Problems
 
-[US Forest Service](https://www.fs.usda.gov/wildflowers/beauty/iris/flower.shtml)
-
-Your next step is exploratory data analysis. 
-
-**(10 points)**
-Which plot would you use to display pairwise associations between different measurements? How do you make sure that the different species are color-coded? Display the plot and write a few sentences about your conclusions. 
-
-
-### Principal Component Analysis (PCA)
-**($20$ points)**
-Perform the PCA on the explanatory components of the above data, provide the report, and the relevant plots. 
-
-### Principal Components Regression (PCR)
-Your next task is to predict `Sepal.Length` from the other variables in the `iris` dataset. 
-
-**(15 points)**
-Run the PCR, provide an explanation for the output, and display the relevant plots (both validation and prediction). 
-
-**(10 points)**
-Split your dataset into training ($4/5$ of the data) and testing ($1/5$ of the data). Provide the mean squared error and an appropriate plot. 
-
-
-## Problem #2 **(20+5+10+10=45 points)**
+## Problem #1 **(20+5+10+10=45 points)**
 Solve **Problem 3.7.15** (page 128) from the textbook. 
 
 *Hint:* The command `lapply` could be useful. 
+
+## Problem #2 **(5+5+10+5+5+5=35 points)**
+Solve **Problem 5.4.8** (pages 222-223) from the textbook. 
+
+## Problem #3 **(20 points)**
+The Mauna Loa Observatory in Hawaii has recorded atmospheric CO₂ concentrations since 1958. The dataset `mauna-loa.csv` contains monthly mean $CO_2$ values (in parts per million, ppm).
+
+Your task is to fit a smoothing spline to the monthly $CO_2$ measurements. Make sure that you experiment with different smoothing parameters (or degrees of freedom) and comment on your findings. In particular, briefly explain how the smoothing parameter affects bias and variance.
+
+Finally, fit a polynomial model with the same number of degrees of freedom. Plot all of your findings in the same coordinate system. What do you notice? 
 
