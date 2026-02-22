@@ -310,6 +310,8 @@ Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.
 
 [Class notes](notes/m339g-feb-20-2026.pdf)
 
+[Homework #4](hw/m339g-hw4-F-solns.pdf) -- **solutions**
+
 ---
 
 [Mauna Loa data](projects/mauna-loa.csv)
@@ -333,8 +335,6 @@ More on logistic-regression.<br>
 
 <!--
 [Class notes](notes/m339g-oct-03-2025.pdf)
-
-[Homework #4](hw/m339g-hw4-F-solns.pdf) -- **solutions**
 -->
 
 Logistic regression with multiple response categories.<br>
