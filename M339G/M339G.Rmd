@@ -341,6 +341,10 @@ Logistic regression with multiple response categories.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
 
+[Homework #5](hw/m339g-hw5-logistic-probs.pdf) -- **for practice, not to be handed in**
+
+[Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
+
 <!--
 [Class notes](notes/m339g-oct-06-2025.pdf)
 -->
@@ -350,7 +354,6 @@ Logistic regression with multiple response categories.<br>
 [`R`-notebook for class](code/vocation.Rmd): Multiclass logistic regression 
 
 <!--
-[Homework #5](hw/m339g-hw5-logistic.pdf) -- **due on Friday, October 10th, 2025**
 
 [Homework #6](hw/m339g-hw6-sample-one.pdf) -- **for practice; not to be handed in**
 
@@ -410,7 +413,6 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 [Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
 
 <!--
-[Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
 
 [Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, October 24th, 2025**
 -->
