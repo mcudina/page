@@ -289,13 +289,32 @@ Mock exam.<br>
 [Mock Exam](exams/m339d-mock-exam-solns.pdf) -- **solutions**
 -->
 
-Law of the Unique Price. <br>
+Law of the Unique Price. Replicating portfolios.<br>
 
 <!--
 [Class notes](notes/m339d-oct-01-2025.pdf) 
 -->
 
-Replicating portfolios. Equity-linked contracts. <br>
+[Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
+
+---
+
+[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for a problem in the project**
+
+[Dow data](data/dow.csv) -- **data for Project #2**
+
+[Dow futures data](data/dow-futures.csv) -- **data for Project #2**
+
+[Apple call data](data/apple-calls.csv) -- **data for Project #2**
+
+[Project #2](projects/m339d-project2-probs.html) -- **due on Monday, March 9th, 2026**
+
+[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
+
+**Class 18: February 23rd, 2026**<br>
+Equity-linked contracts. <br>
 
 **(Enrichment material)** [Lecture Nine](lectures/m339d-lecture-nine-derivative-securities.pdf): Derivative securities.
 
@@ -321,22 +340,6 @@ Put-call parity.<br>
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
----
-
-[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for a problem in the project**
-
-[Dow data](data/dow.csv) -- **data for Project #2**
-
-[Dow futures data](data/dow-futures.csv) -- **data for Project #2**
-
-[Apple call data](data/apple-calls.csv) -- **data for Project #2**
-
-[Project #2](projects/m339d-project2-probs.html) -- **due on Monday, March 9th, 2026**
-
-[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
-
 Chooser options.<br>
 
 [Problem](problem-sets/m339d-chooser.pdf)
@@ -352,10 +355,6 @@ Chooser options.<br>
 **(Enrichment material)** [Lecture Fourteen](lectures/m339d-lecture-14-bounds-bull-spreads.pdf): Call/put-price bounds. Bull spreads.
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
-
-<!--
-[Homework #4](hw/m339d-hw4-forwards-solns.pdf) -- **solutions**
--->
 
 Random number generation.<br>
 
@@ -383,10 +382,6 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 [Homework #7](hw/m339d-hw7-parity.pdf) -- **due on Friday, October 17th, 2025**
 -->
 
-
----
-
-**Class 18: February 23rd, 2026**<br>
 The binomial asset-pricing model. Realized returns of stocks.<br>
 
 [Class notes](notes/m339d-oct-13-2025.pdf) 
