@@ -12,7 +12,7 @@ First, we import the data.
 
 ```{r}
 data<-read.csv("hsbdemo.csv")
-View(data)
+#View(data)
 data
 ```
 The data set contains variables on $200$ students. We will focus on a small subset of predictors. The predictor variables will be socio-economic status `ses` (a three-level categorical variable) and writing score `write` (a quantitative variable). The outcome variable is program type `prog` (a three-level categorical variable). Since I am interested in just this subset, I will create a smaller data frame to analyze. 
@@ -29,6 +29,7 @@ Some exploratory data analysis is called for. The first idea is, probably to try
 plot(df,
      pch=20, col="lightblue")
 ```
+
 As we can see, this is not too useful. To look at the *association* between `ses` and `prog`, a two-way table might do the trick.
 
 ```{r}
@@ -36,6 +37,7 @@ tab=table(ses, prog)
 tab
 mosaicplot(tab)
 ```
+
 Which test might we use to test the independence hypothesis? 
 
 ```{r}
