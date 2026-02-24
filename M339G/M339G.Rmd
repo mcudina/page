@@ -331,6 +331,11 @@ More on logistic-regression.<br>
 
 [`R`-notebook for class](code/stocks-logistic-reg.Rmd): Logistic regression with the stock market
 
+---
+
+**Class 19: February 25th, 2026**<br>
+Even more on logistic regression.<br>
+
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
 
 <!--
@@ -365,9 +370,6 @@ Mock exam.<br>
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
 -->
 
----
-
-**Class 19: February 25th, 2026**<br>
 K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
