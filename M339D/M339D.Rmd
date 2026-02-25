@@ -318,9 +318,7 @@ Equity-linked contracts. <br>
 
 [Problem packet](problem-sets/m339d-equity-linked.pdf)
 
-<!--
-[Class notes](notes/m339d-oct-03-2025.pdf) 
--->
+[Class notes](notes/m339d-feb-23-2026.pdf) 
 
 **(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
 
@@ -329,6 +327,20 @@ Equity-linked contracts. <br>
 -->
 
 Put-call parity.<br>
+
+---
+
+**Class 19: February 25th, 2026**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+<!--
+[In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
+-->
+
+---
+
+**Class 20: February 27th, 2026**<br>
+Parity practice.<br>
 
 [Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
@@ -386,18 +398,6 @@ The binomial asset-pricing model. Realized returns of stocks.<br>
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
----
-
-**Class 19: February 25th, 2026**<br>
-<span style="color: red;">**In-Term One**</span><br>
-
-<!--
-[In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
--->
-
----
-
-**Class 20: February 27th, 2026**<br>
 Forward trees.<br>
 
 ---
