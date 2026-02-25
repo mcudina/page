@@ -362,14 +362,23 @@ Logistic regression with multiple response categories.<br>
 
 [Homework #6](hw/m339g-hw6-sample-one-solns.pdf) -- **solutions**
 
-<!--
 Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-probs.pdf) -- **problems** 
 
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
+
+<!--
+[In-Term One](exams/m339g-one-topics.pdf): Topics
+
+[Practice for In-Term One](exams/m339g-one-sample-probs.pdf) -- **problems** 
+
+[Practice for In-Term One](exams/m339g-one-sample-solns.pdf) -- **solutions** 
 -->
 
+---
+
+**Class 20: February 27th, 2026**<br>
 K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
@@ -384,17 +393,6 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
 
-<!--
-[In-Term One](exams/m339g-one-topics.pdf): Topics
-
-[Practice for In-Term One](exams/m339g-one-sample-probs.pdf) -- **problems** 
-
-[Practice for In-Term One](exams/m339g-one-sample-solns.pdf) -- **solutions** 
--->
-
----
-
-**Class 20: February 27th, 2026**<br>
 Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
