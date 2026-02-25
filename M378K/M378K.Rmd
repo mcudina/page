@@ -229,17 +229,20 @@ More on transformations of random variables. The triangle distribution.<br>
 ---
 
 **Class 18: February 23rd, 2026**<br>
-The $\chi^2-$distribution.<br>
+The $\chi^2-$distribution. The $F-$distribution.<br>
 
 [Zed Statistics video](https://youtu.be/80ffqpZdKiA?si=qzwSLzEZOKbDlRc7): The $\chi^2-$ distribution. 
 
-The $F-$distribution. Moment generating functions.<br>
+[Class notes](notes/m378k-feb-23-2026.pdf)
+
+---
+
+**Class 19: February 25th, 2026**<br>
+Moment generating functions.<br>
 
 [Problem Set #9](problem-sets/m378k-ps9-mgf-probs.pdf):  **Problems we will work on in class**
 
 <!--
-[Class notes](notes/m378k-oct-10-2025.pdf)
-
 [Homework #5](hw/m378k-hw5-transformations-solns.pdf) -- **solutions**
 
 [Homework #6](hw/m378k-hw6-mgf-probs.pdf) -- **due on Friday, October 17th, 2025**
@@ -274,9 +277,6 @@ De Moivre-Laplace.<br>
 -->
 
 
----
-
-**Class 19: February 25th, 2026**<br>
 The Central Limit Theorem.<br>
 
 [Problem Set #12](problem-sets/m378k-ps12-clt-probs.pdf):  **Problems we will work on in class**
