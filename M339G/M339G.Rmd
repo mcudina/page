@@ -377,6 +377,15 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
 
+[In-Class Work #2](problem-sets/m339g-ic2-knn-probs.pdf)- **skeleton**
+
+<!--
+[Class notes](notes/m339g-jan-14-2026.pdf)
+
+[In-Class Work #2](problem-sets/m339g-ic2-knn-solns.pdf)
+- **complete**
+-->
+
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
