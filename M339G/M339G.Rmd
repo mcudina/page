@@ -338,10 +338,6 @@ Even more on logistic regression.<br>
 
 [`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
 
-<!--
-[Class notes](notes/m339g-oct-03-2025.pdf)
--->
-
 Logistic regression with multiple response categories.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
@@ -350,9 +346,7 @@ Logistic regression with multiple response categories.<br>
 
 [Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
 
-<!--
-[Class notes](notes/m339g-oct-06-2025.pdf)
--->
+[Class notes](notes/m339g-feb-25-2026.pdf)
 
 [Data for class](code/hsbdemo.csv): School choice
 
@@ -362,19 +356,19 @@ Logistic regression with multiple response categories.<br>
 
 [Homework #6](hw/m339g-hw6-sample-one-solns.pdf) -- **solutions**
 
+---
+
 Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-probs.pdf) -- **problems** 
 
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
 
-<!--
 [In-Term One](exams/m339g-one-topics.pdf): Topics
 
 [Practice for In-Term One](exams/m339g-one-sample-probs.pdf) -- **problems** 
 
 [Practice for In-Term One](exams/m339g-one-sample-solns.pdf) -- **solutions** 
--->
 
 ---
 
