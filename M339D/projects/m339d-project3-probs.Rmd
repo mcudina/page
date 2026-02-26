@@ -1,8 +1,10 @@
 ---
-title: "Project #3: Elementary Monte Carlo. More on portfolios. Put prices."
-author: "Milica Cudina"
+title: 'Project #3'
+author: "Milica Čudina"
 date: "`r Sys.Date()`"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 urlcolor: blue
 ---
 <!-- The author of this template is Dr. Gordan Zitkovic.-->
@@ -23,24 +25,8 @@ knitr::opts_chunk$set(
 
 ---
 
-## Problem #1 **(10 points)**
-A weighted spinner has four different regions: blue, red, green, and yellow. The blue is twice as likely as red, the red is twice as likely as green, and the green is twice as likely as yellow. You are invited to play the game with the following outcomes:
-\begin{itemize}
-\item[$\bullet$] if the spinner lands on blue, you lose \$5;
-\item[$\bullet$] if the spinner lands on red, you win \$2; 
-\item[$\bullet$] if the spinner lands on green, you win \$10; 
-\item[$\bullet$] if the spinner lands on yellow, you win \$20. 
-\end{itemize}
-
-Use *Monte Carlo* simulation to figure out the fair price for entering this game. 
-
-## Problem #2 (10 points)
-Use *Monte Carlo* simulation to estimate the number $\pi$. 
-
-## Problem #3 (10 points)
-Use *Monte Carlo* to estimate the expected distance of a randomly chosen point in a unit square to the center of that square. 
-
-## Problem #4 (25 points)
+# More on Portfolios.
+## Problem #1 (25 points)
 Your initial wealth is exactly \$100. You are allowed to invest in
 shares of a particular stock. You are also allowed to both lend and
 borrow at the continuously compounded risk-free interest rate of
@@ -51,7 +37,7 @@ the opening stock price. This means that you can change the number of
 shares you own (if you decide to do so) and accordingly adapt your
 risk-free investment.
 
-Here is a rule you will use to rebalance your portfolio daily:
+You proceed to create the following ``rule'' according to which you will be rebalancing your portfolio:
 
 *I start by investing in one share of stock. Then, every day I will flip a fair coin. If the outcome is heads, I will buy one share of stock. If the outcome is tails, I will
   short one share. The balance of my wealth is to be invested at the
@@ -60,17 +46,11 @@ Here is a rule you will use to rebalance your portfolio daily:
 
 Over the following 10 days, you observe the following stock prices for a non-dividend-paying stock:
 
-\medskip
 
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
-\hline
-{\bf Day} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
-\hline
-{\bf Stock price} &100 & 80 & 64 & 80 & 64 & 80 & 100 & 80 & 64 & 80 & 100 \\
-\hline
-\end{tabular}
+|**Day** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|-----------|----|----|----|----|----|----|----|----|----|----|----|
+| **Stock price** | 100 | 80 | 64 | 80 | 64 | 80 | 100 | 80 | 64 | 80 | 100 |
 
-\medskip
 
 As the time passes you follow investment rules above to rebalance your portfolio. Complete the following table describing your portfolio \textbf{just before and just after} the rebalancing is done. 
 Even more precisely, for the $10$ days, both for "morning" and "evening" print out:
@@ -80,12 +60,13 @@ Even more precisely, for the $10$ days, both for "morning" and "evening" print o
 * the wealth in the stock, 
 * the total wealth. 
 
-## Problem #4 (20 points)
-Using *Monte Carlo* and the work you did in the previous problem, estimate the expected final wealth of a "noise trader" who uses the above strategy. Compare your estimate to the expected wealth you get by using the definition of expected value. 
+## Problem #2 (25 points)
+Using *Monte Carlo* and the work you did in the previous problem, estimate the expected final wealth of a "noise trader" who uses the above strategy. Outline an idea of how you would go about calculating the expected wealth using the definition of expectation. Compare the difficulty of the simulation-based approach to using the definition of expected value. 
 
-## Problem #5 (25 points)
+# Properties of European put prices. 
+## Problem #3 (25 points)
 ### Apple puts
-The file "apple-puts.csv" contains put prices observed on February 14th for European put options on the stocks of Apple Inc with expiry on May 19th and with varying strike prices. 
+The file "apple-puts.csv" contains put prices observed on February 14th for European call options on the stocks of Apple Inc with expiry on May 19th and with varying strike prices. 
 
 **(5 points)**
 Import the data into a data frame. Create a line plot of the mid price (defined as the midpoint between the bid and the ask price) as it depends on the strike. 
@@ -95,5 +76,27 @@ What do you notice about the monotonicity and convexity of the above curve?
 
 **(15 points)**
 **Prove** that the same conclusions regarding the monotonicity and convexity of the put prices with respect to the strike must hold in general **under the no arbitrage assumption**. 
+
+# Binomial Monte Carlo. 
+## Problem #4 (25 points)
+Let the continuously compounded, risk-free interest rate be $0.05$. 
+
+Consider a stock whose current price is \$80 and whose volatility is $0.2$. We will be pricing a variety of options using a *forward binomial tree*. 
+
+**(5 points)** 
+Price a one-year, \$85-strike European call option analytically using a $100-$period binomial tree. 
+
+**(5 points)** 
+Price a one-year, \$85-strike European call option using *Monte Carlo* with 10000 simulations with a $100-$period binomial tree. 
+
+**(5 points)** 
+Price a half-year, \$78-strike European put option analytically using a $100-$period binomial tree. 
+
+**(5 points)** 
+Price a half-year, \$78-strike European put option using *Monte Carlo* with 10000 simulations with a $100-$period binomial tree. 
+
+**(5 points)** 
+Comment on the accuracy of the *Monte Carlo* method. Which theorem from probability is useful here?
+
 
 
