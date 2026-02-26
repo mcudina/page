@@ -242,14 +242,17 @@ Moment generating functions.<br>
 
 [Problem Set #9](problem-sets/m378k-ps9-mgf-probs.pdf):  **Problems we will work on in class**
 
+[Class notes](notes/m378k-feb-25-2026.pdf)
+
+---
+
+**Class 20: February 27th, 2026**<br>
+More on moment generating functions.<br>
+
 <!--
 [Homework #5](hw/m378k-hw5-transformations-solns.pdf) -- **solutions**
 
 [Homework #6](hw/m378k-hw6-mgf-probs.pdf) -- **due on Friday, October 17th, 2025**
-
-More on the moment generating functions.<br>
-
-[Class notes](notes/m378k-oct-13-2025.pdf)
 
 [Problem Set #9](problem-sets/m378k-ps9-mgf-solns.pdf):  **Solutions**
 -->
@@ -289,9 +292,6 @@ The Central Limit Theorem.<br>
 [Homework #6](hw/m378k-hw6-mgf-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 20: February 27th, 2026**<br>
 More on the $\chi^2-$distribution.<br>
 
 [Mathematica demonstration: The Chi-Squared Distribution](http://demonstrations.wolfram.com/TheChiSquaredDistribution/)
