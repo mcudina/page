@@ -12,7 +12,7 @@ First, we import the data.
 
 ```{r}
 data<-read.csv("hsbdemo.csv")
-View(data)
+#View(data)
 data
 ```
 The data set contains variables on $200$ students. We will focus on a small subset of predictors. The predictor variables will be socio-economic status `ses` (a three-level categorical variable) and writing score `write` (a quantitative variable). The outcome variable is program type `prog` (a three-level categorical variable). Since I am interested in just this subset, I will create a smaller data frame to analyze. 
@@ -91,7 +91,7 @@ Here is what the object `mn.fit` looks like:
 ```{r}
 summary(mn.fit)
 ```
-Importantly, the coefficients above are **different** from the coefficients one sees in our textbook. However, let us look at the fitted probabilities for our data set. 
+Importantly, the coefficients above are **different** from the coefficients one sees in our slides. However, let us look at the fitted probabilities for our data set. 
 
 ```{r}
 fitted.ps <- fitted(mn.fit)

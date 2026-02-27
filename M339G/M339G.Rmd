@@ -386,6 +386,9 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 - **complete**
 -->
 
+---
+
+**Class 21: March 2nd, 2025**<br>
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
@@ -418,9 +421,6 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 [Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, October 24th, 2025**
 -->
 
----
-
-**Class 21: March 2nd, 2025**<br>
 Singular value decomposition <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
