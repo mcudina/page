@@ -322,10 +322,6 @@ Equity-linked contracts. <br>
 
 **(Enrichment material)** [Lecture Ten](lectures/m339d-lecture-ten-forwards-pricing.pdf): Pricing prepaid forwards and forwards on stocks.
 
-<!--
-[Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
--->
-
 Put-call parity.<br>
 
 ---
@@ -361,6 +357,8 @@ Chooser options.<br>
 **(Enrichment material)** [Lecture Fourteen](lectures/m339d-lecture-14-bounds-bull-spreads.pdf): Call/put-price bounds. Bull spreads.
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
+
+[Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
 
 ---
 
