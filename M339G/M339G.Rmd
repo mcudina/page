@@ -377,18 +377,30 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 
 [`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
 
+---
+
+**Class 21: March 2nd, 2025**<br>
+KNN practice.<br>
+
 [In-Class Work #2](problem-sets/m339g-ic2-knn-probs.pdf)- **skeleton**
 
-<!--
-[Class notes](notes/m339g-jan-14-2026.pdf)
+[Class notes](notes/m339g-mar-02-2026.pdf)
 
 [In-Class Work #2](problem-sets/m339g-ic2-knn-solns.pdf)
 - **complete**
+
+---
+
+**Class 22: March 4th, 2026**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+<!--
+[In-Term One](exams/m339g-one-solns.pdf) -- **solutions** 
 -->
 
 ---
 
-**Class 21: March 2nd, 2025**<br>
+**Class 23: March 6th, 2026**<br>
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
@@ -437,18 +449,6 @@ Singular value decomposition <span style="color: purple;">**(Section 12.2)**</sp
 [Extra-Credit Homework](hw/m339g-ec-hw-svd.pdf) -- **due on Friday, October 31st, 2025**
 -->
 
----
-
-**Class 22: March 4th, 2026**<br>
-<span style="color: red;">**In-Term One**</span><br>
-
-<!--
-[In-Term One](exams/m339g-one-solns.pdf) -- **solutions** 
--->
-
----
-
-**Class 23: March 6th, 2026**<br>
 Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-pca.pdf): PCA
