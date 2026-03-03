@@ -344,6 +344,8 @@ Parity practice.<br>
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
+[Homework #7](hw/m339d-hw7-parity-probs.pdf) -- **due on Friday, March 6th, 2026**
+
 Chooser options.<br>
 
 [Problem](problem-sets/m339d-chooser.pdf)
@@ -385,18 +387,16 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
 
-<!--
 [Problem Set #7](problem-sets/m339d-ps7-mc-in-class.Rmd): **Solutions**
--->
 
+---
+
+**Class 22: March 4th, 2026**<br>
 The binomial asset-pricing model. Realized returns of stocks.<br>
 
 <!--
 [Class notes](notes/m339d-oct-13-2025.pdf) 
 -->
-
-[Homework #7](hw/m339d-hw7-parity-probs.pdf) -- **due on Friday, March 6th, 2026**
-
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
@@ -420,9 +420,6 @@ Binomial option pricing: Pricing by replication.<br>
 [Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, October 31st, 2025**
 -->
 
----
-
-**Class 22: March 4th, 2026**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
 <!--
