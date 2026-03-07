@@ -301,9 +301,7 @@ More on the $\chi^2-$distribution. The $\Gamma-$distribution. The statistical se
 
 [The R-script from class](code/gamma-clt.R)
 
-<!--
-[Homework #7](hw/m378k-hw7-gamma-probs.pdf) -- **due on Friday, October 31st, 2025**
--->
+[Homework #7](hw/m378k-hw7-gamma-probs.pdf) -- **for practice; not to be handed in**
 
 ---
 
@@ -324,6 +322,8 @@ Order statistics.<br>
 
 [Problem Set #13](problem-sets/m378k-ps13-order-stats-solns.pdf):  **Solutions**
 
+[Homework #5](hw/m378k-hw5-transformations-solns.pdf) -- **solutions**
+
 ---
 
 **Class 24: March 9th, 2026**<br>
@@ -341,8 +341,6 @@ Estimators. Bias.<br>
 
 <!--
 [Class notes](notes/m378k-mar-07-2025.pdf)
-
-[Homework #5](hw/m378k-hw5-transformations-solns.pdf) -- **solutions**
 -->
 
 Mean squared error.<br>
