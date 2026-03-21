@@ -436,9 +436,7 @@ Singular value decomposition <span style="color: purple;">**(Section 12.2)**</sp
 
 [Slides by Hastie & Tibshirani](slides/ch12-intro.pdf): Introduction to PCA
 
-<!--
 [Class notes](notes/m339g-oct-13-2025.pdf)
--->
 
 ---
 
@@ -450,6 +448,7 @@ Singular value decomposition <span style="color: purple;">**(Section 12.2)**</sp
 
 ---
 
+**Class 25: March 11th, 2026**<br>
 Principal component analysis (PCA) <span style="color: purple;">**(Section 12.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-pca.pdf): PCA
@@ -470,6 +469,9 @@ Principal components regression <span style="color: purple;">**(Section 6.3.1)**
 
 [`R`-notebook for class](code/pcr-seat-position.Rmd): Principal component regression on seat positions
 
+---
+
+**Class 26: March 13th, 2026**<br>
 Principal components analysis and clustering <span style="color: purple;">**(Section 12.2 and 12.4.1)**</span>.<br>
 
 [UC Irvine MLR](https://archive.ics.uci.edu/dataset/236/seeds): Documentation for the `seeds` data set 
@@ -478,10 +480,6 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 [`R`-notebook for class](code/pca-kmeans.Rmd): Principal component analysis with K-means
 
-
----
-
-**Class 25: March 11th, 2026**<br>
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 <!--
@@ -490,9 +488,6 @@ Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</s
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
 
----
-
-**Class 26: March 13th, 2026**<br>
 More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>. Bivariate normal distribution.<br> 
 
 <!--

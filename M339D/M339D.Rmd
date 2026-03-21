@@ -331,9 +331,7 @@ Put-call parity.<br>
 **Class 19: February 25th, 2026**<br>
 <span style="color: red;">**In-Term One**</span><br>
 
-<!--
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
--->
 
 ---
 
@@ -412,20 +410,27 @@ Forward trees.<br>
 ---
 
 **Class 24: March 9th, 2026**<br>
+**No class. Instructor ill.**
+
+---
+
+**Class 25: March 11th, 2026**<br>
 Binomial option pricing: Pricing by replication.<br>
 
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing.pdf): **Problems**
 
-<!--
 [Class notes](notes/m339d-oct-17-2025.pdf) 
--->
+
+[Class notes](notes/m339d-oct-20-2025.pdf) 
 
 [Homework #8](hw/m339d-hw8-one-period.pdf) -- **due on Friday, March 27th, 2026**
 
+---
+
+**Class 26: March 13th, 2026**<br>
 Binomial option pricing: Risk-neutral probability.<br>
 
 <!--
-[Class notes](notes/m339d-oct-20-2025.pdf) 
 
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing-solns.pdf): **Solutions**
 
@@ -454,9 +459,6 @@ Multiple binomial periods.
 
 [Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, April 3rd, 2026**
 
----
-
-**Class 25: March 11th, 2026**<br>
 Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs.Rmd)
@@ -467,18 +469,18 @@ Monte Carlo for binomial option pricing. <br>
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class-contd.Rmd): Part II of solutions
 -->
 
----
-
-**Class 26: March 13th, 2026**<br>
 Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
 <!--
 [Class notes](notes/m339d-nov-3-2025.pdf) 
+-->
+[Homework #10](hw/m339d-hw10-normal.pdf) -- **for practice; not to be handed in**
 
-[Homework #10](hw/m339d-hw10-normal.pdf) -- **due on Friday, November 14th, 2025**
+[Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
 
+<!--
 [Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
 -->
 
@@ -562,7 +564,6 @@ Log-normal stock prices: Tail probabilities.<br>
 
 [Mock Exam](exams/m339d-mock-two-solns.pdf) -- **solutions** 
 
-[Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
 
 [In-Term Two](exams/m339d-two-topics.pdf): Topics
 

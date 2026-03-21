@@ -5,9 +5,10 @@ output:
   pdf_document: default
 ---
 
+# Unsupervised Learning
+
 **Here, I am adapting part of the lab associated with Chapter 12 of the textbook.** 
 
-# Unsupervised Learning
 ## Principal Components Analysis
 
 In this lab, we perform PCA on the `USArrests` data set, which is part of the base `R` package.
