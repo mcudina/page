@@ -480,13 +480,14 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-oct-22-2025.pdf)
--->
+[Class notes](notes/m339g-mar-13-2026.pdf)
+
+---
+
+**Class 27: March 23rd, 2026**<br>
+More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>. Bivariate normal distribution.<br> 
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
-
-More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>. Bivariate normal distribution.<br> 
 
 <!--
 [Class notes](notes/m339g-oct-24-2025.pdf)
@@ -494,9 +495,6 @@ More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>. Bivariate n
 [Homework #7](hw/m339g-hw7-k-means-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 27: March 23rd, 2026**<br>
 More on the bivariate normal distribution.<br> 
 
 <!--
