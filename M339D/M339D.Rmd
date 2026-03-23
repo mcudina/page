@@ -445,10 +445,11 @@ Binomial option pricing: Two periods.<br>
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-probs.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-oct-27-2025.pdf) 
--->
+[Class notes](notes/m339d-mar-23-2026.pdf) 
 
+---
+
+**Class 28: March 25th, 2026**<br>
 Multiple binomial periods. 
 
 <!--
@@ -500,9 +501,6 @@ The normal approximation to the binomial.<br>
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 -->
 
----
-
-**Class 28: March 25th, 2026**<br>
 The limiting behavior of stock prices. Moment generating functions. <br> 
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
