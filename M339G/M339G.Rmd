@@ -487,16 +487,16 @@ Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</s
 ---
 
 **Class 27: March 23rd, 2026**<br>
-More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>. Bivariate normal distribution.<br> 
+More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
 
-<!--
-[Class notes](notes/m339g-oct-24-2025.pdf)
--->
+[Class notes](notes/m339g-mar-23-2026.pdf)
 
-More on the bivariate normal distribution.<br> 
+---
 
+**Class 28: March 25th, 2026**<br>
+The bivariate normal distribution.<br> 
 <!--
 [Class notes](notes/m339g-oct-27-2025.pdf)
 -->
@@ -505,9 +505,6 @@ More on the bivariate normal distribution.<br>
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
 
----
-
-**Class 28: March 25th, 2026**<br>
 The multivariate normal distribution.<br> 
 
 <!--
