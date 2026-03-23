@@ -432,14 +432,15 @@ Binomial option pricing: Risk-neutral probability.<br>
 
 [Problem Set #9](problem-sets/m339d-ps9-bin-pricing-solns.pdf): **Solutions**
 
-<!--
-[Class notes](notes/m339d-oct-24-2025.pdf) 
--->
+[Class notes](notes/m339d-mar-13-2026.pdf) 
 
 **(Enrichment material)** [Lecture Seventeen](lectures/m339d-lecture-17-binomial-option-pricing-one-period.pdf): Binomial option pricing with continuous dividends.
 
 **(Enrichment material)** [Lecture Eighteen](lectures/m339d-lecture-18-forward-trees.pdf): Forward trees on continuous-dividend-paying stocks.
 
+---
+
+**Class 27: March 23rd, 2026**<br>
 Binomial option pricing: Two periods.<br>
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-probs.pdf): **Problems**
@@ -483,9 +484,6 @@ Review of the normal distribution.<br>
 [Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
 -->
 
----
-
-**Class 27: March 23rd, 2026**<br>
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
