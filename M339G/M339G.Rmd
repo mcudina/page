@@ -496,10 +496,9 @@ More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 ---
 
 **Class 28: March 25th, 2026**<br>
-The bivariate normal distribution.<br> 
-<!--
-[Class notes](notes/m339g-oct-27-2025.pdf)
--->
+Even more on LDA. The bivariate normal distribution.<br> 
+
+[Class notes](notes/m339g-mar-25-2026.pdf)
 
 [Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
 
