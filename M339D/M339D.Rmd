@@ -452,14 +452,15 @@ Binomial option pricing: Two periods.<br>
 **Class 28: March 25th, 2026**<br>
 Multiple binomial periods. 
 
-<!--
-[Class notes](notes/m339d-oct-29-2025.pdf) 
+[Class notes](notes/m339d-mar-25-2026.pdf) 
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-solns.pdf): **Solutions**
--->
 
 [Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, April 3rd, 2026**
 
+---
+
+**Class 29: March 27th, 2026**<br>
 Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs.Rmd)
@@ -507,12 +508,10 @@ The limiting behavior of stock prices. Moment generating functions. <br>
 
 [Class notes](notes/m339d-nov-07-2025.pdf) 
 
+<!--
 [Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
+-->
 
-
----
-
-**Class 29: March 27th, 2026**<br>
 The log-normal distribution. Jensen's inequality.<br>
 
 [Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
