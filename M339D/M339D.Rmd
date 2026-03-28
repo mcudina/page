@@ -467,6 +467,8 @@ Monte Carlo for binomial option pricing. <br>
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-in-class.Rmd): **Solutions**
 
+[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
+
 ---
 
 **Class 30: March 30th, 2026**<br>
@@ -482,9 +484,6 @@ Review of the normal distribution.<br>
 
 [Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
 
-<!--
-[Homework #8](hw/m339d-hw8-one-period-solns.pdf) -- **solutions**
--->
 
 The normal approximation to the binomial.<br>
 
