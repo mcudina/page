@@ -515,9 +515,18 @@ The bivariate normal distribution [cont'd].<br>
 ---
 
 **Class 30: March 30th, 2026**<br>
-More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+The bivariate normal distribution [practice].<br>
 
 [In-Class Work #3](problem-sets/m339g-ic3-bivariate-normal-probs.pdf) - **problems we will work on in class**
+
+[Class notes](notes/m339g-mar-30-2026.pdf)
+
+[In-Class Work #3](problem-sets/m339g-ic3-bivariate-normal-solns.pdf) - **solution**
+
+---
+
+**Class 31: April 1st, 2026**<br>
+More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
 
@@ -537,9 +546,6 @@ Even more on the linear discriminant analysis, quadratic discriminant analysis, 
 
 [Project #3](projects/m339g-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 31: April 1st, 2026**<br>
 Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
