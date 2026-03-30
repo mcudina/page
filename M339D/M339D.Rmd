@@ -484,7 +484,6 @@ Review of the normal distribution.<br>
 
 [Homework #10](hw/m339d-hw10-normal-solns.pdf) - **solutions**
 
-
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
@@ -495,10 +494,6 @@ The normal approximation to the binomial.<br>
 [Class notes](notes/m339d-mar-31-2025.pdf) 
 
 [Problem Set #12](problem-sets/m339d-ps12-dML-solns.pdf): **Solutions**
-
-[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, November 17th, 2025**
-
-[Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 -->
 
 The limiting behavior of stock prices. Moment generating functions. <br> 
@@ -585,11 +580,11 @@ Log-normal stock prices: Partial expectation.<br>
 [Homework #12](hw/m339d-hw12-BS.pdf) -- **not to be submitted; just for practice**
 
 [Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
-
-[Project #5](projects/m339d-project5-probs.pdf) -- **due on Monday, December 8th, 2025**
-
-[Project #5](projects/m339d-project5-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 -->
+
+[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 27th, 2026**
+
+[Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Project #4: Put-call parity. More Monte Carlo. The normal approximation to the binomial."
+title: "Project #4: Lognormal stock prices. Black-Scholes."
 author: "Milica Cudina"
 date: "`r Sys.Date()`"
 output: pdf_document
@@ -24,63 +24,83 @@ knitr::opts_chunk$set(
 ---
 
 ## Problem #1 (25 points)
-### Put-call parity
-**(5 points)**
-Using put-call parity, find the formula for the interest rate if all other ingredients are known. 
+Assume the **Black-Scholes model**.
+The continuously compounded, risk-free interest rate is $0.06.$ Let the current stock price of a non-dividend-paying stock be \$100. Let its volatility be $0.25$. 
 
 **(5 points)** 
-Based on the above, what can you say about the interest rates $r$ you expect to obtain for varying values of the strike price? Bear in mind the **standing assumptions** we made in the beginning of the semester. 
+Simulate 1000 values of the stock price at time $t=3$. 
+Draw a histogram of the obtained set of values.  
 
-**(10 points)**
-Based on the data set "apple-parity.csv", calculate the continuously compounded, risk-free interest rate for all the strike prices given. Be careful about how you use the *bid* and *ask/offer* prices of the options. Set $T=0.25$. Plot the values of the interest rate you obtain as they depend on the strike prices. 
+**(6 points)** 
+Superimpose the graph of the density of a lognormal distribution of $S(3)$ with the appropriate parameters onto the histogram obtained above. The command `dlnorm` should come in handy.  
 
-**(5 points)**
-What do you notice about the above plot? Does it or does it not agree with your prediction from the second question in the problem? Substantiate your answer. 
+**(2 points)** 
+Find the median of the set of simulated values you obtained above.
+
+**(2 points)** 
+Find the mean of the set of simulated values you obtained above.
+
+**(2 points)**
+What is the proportion of stock prices you 
+created in this way that above \$105? 
+
+**(5 points)** 
+What is the theoretical risk-neutral probability that the final asset price exceeds \$105?
+
+**(3 points)** 
+Comment on the comparison between the proportion and the risk-neutral probability you obtained above. Which theorem from probability is useful here?
+
 
 ## Problem #2 (25 points)
-To what do you attribute the discrepancies you observed in the previous problem? Think about it a bit and note your ideas. Then, consult the paper by *Brenner* and *Galai* uploaded into Canvas (under *Files* in the folder *articles*). Provide at least **four** substantiated reasons. 
-
-*Note that this question is worth a quarter of your score for this project! A few lines of your musings will give you hardly any credit at all.*
-
-## Problem #3 (25 points)
 Let the continuously compounded, risk-free interest rate be $0.05$. 
 
-Consider a stock whose current price is \$80 and whose volatility is $0.2$. We will be pricing a variety of options using a *forward binomial tree*. 
+Consider a stock whose current price is \$120 and whose volatility is $0.20$. We will be pricing a three-month, \$115-strike call option. 
 
-**(5 points)** 
-Price a one-year, \$85-strike European call option analytically using a $100-$period binomial tree. 
+### Part a: Analytic Black-Scholes (5 points)
+Price the option above using the Black-Scholes pricing formula. 
 
-**(5 points)** 
-Price a one-year, \$85-strike European call option using *Monte Carlo* with 10000 simulations with a $100-$period binomial tree. 
 
-**(5 points)** 
-Price a half-year, \$78-strike European put option analytically using a $100-$period binomial tree. 
+### Part b: Black-Scholes Monte Carlo with $Z$ (10 points)
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the standard normal distribution with 10000 simulations.
 
-**(5 points)** 
-Price a half-year, \$78-strike European put option using *Monte Carlo* with 10000 simulations with a $100-$period binomial tree. 
 
-**(5 points)** 
-Comment on the accuracy of the *Monte Carlo* method. Which theorem from probability is useful here?
 
-## Problem #4 (15 points)
-Let $\{X_n, n = 1, 2, \dots\}$ be a sequence of random variables such that 
-$$X_n \sim Binomial(n, p)$$ where $p$ is a constant between $0$ and $1$. 
+### Part c: Black-Scholes Monte Carlo with `rlnorm`` (10 points)
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the lognormal distribution with 10000 simulations.
 
-**(5 points)** 
-State the *DeMoivre-Laplace Theorem* (aka the *normal approximation to the binomial*) in the context of the above sequence of random variables. 
 
-**(5 points)**
-Let $p=0.78$. For $n=1000$, plot the **theoretical** histogram of $X_n$. Superimpose the appropriate density of the normal distribution on that histogram (according to the theorem referenced above). 
 
-**(5 points)** 
-Let $p=0.42$. 
-For $n=1000$, draw $10000$ simulated values of $X_n$ and plot the histogram of the draws. Superimpose the appropriate density of the normal distribution on that histogram (according to the theorem referenced above). 
+## Problem #3 (25 points)
+Let the continuously compounded, risk-free interest rate be $0.03$. 
 
-## Problem #5 (10 points)
-Let $\{Y_n, n = 1, 2, \dots\}$ be a sequence of random variables such that 
-$$Y_n \sim Binomial(n, p_n)$$ where $p_n$ is given by
-$$p_n=\frac{1}{1+e^{0.25\sqrt{1/n}}}$$.
 
-For $n=100, 1000, 5000, 10000$, draw $10000$ simulated values of $Y_n$ and plot the histogram of the draws. Does the **exact** theorem referenced in the previous problem apply to this situation or not? Substantiate your answer. 
+Consider a stock whose current price is \$90 and whose volatility is $0.30$. We will be pricing a half-year, \$95-strike put option. 
 
+### Part a: Analytic Black-Scholes (5 points)
+Price the option above using the Black-Scholes pricing formula. 
+
+
+### Part b: Black-Scholes Monte Carlo with $Z$ (10 points)
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the standard normal distribution with 10000 simulations.
+
+
+
+### Part c: Black-Scholes Monte Carlo with `rlnorm`` (10 points)
+Provide the *Monte Carlo* estimate of the price using the simulated draws from the lognormal distribution with 10000 simulations.
+
+
+
+## Problem #4 (25 points)
+Let the continuously compounded, risk-free interest rate be $0.04$. 
+
+Consider a stock whose volatility is $0.25$. 
+
+**(5 points)** First, we will be focusing on a one-year, \$100-strike European call option. Define a function which calculates the analytic Black-Scholes price of this call as a function of the initial asset price denoted by $s$. Then, plot the graph of that function. Let the domain of your plot be $[0,200]$. 
+
+
+**(10 points)** 
+Now, plot the graph of the above Black-Scholes price (as a function of the underlying stock price) one year, half a year, quarter year and a week prior to exercise date. Add the plot of the payoff function. Let the domain of your plot be $[50,150]$. Make sure that all the plots are in different colors. What do you notice as the exercise date approaches? What can you say about the call delta?
+
+**(10 points)** 
+Repeat the previous problem for an otherwise identical put option. 
 
