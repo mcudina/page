@@ -382,7 +382,7 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 **Class 21: March 2nd, 2025**<br>
 KNN practice.<br>
 
-[In-Class Work #2](problem-sets/m339g-ic2-knn-probs.pdf)- **skeleton**
+[In-Class Work #2](problem-sets/m339g-ic2-knn-probs.pdf) - **skeleton**
 
 [Class notes](notes/m339g-mar-02-2026.pdf)
 
@@ -516,6 +516,8 @@ The bivariate normal distribution [cont'd].<br>
 
 **Class 30: March 30th, 2026**<br>
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+
+[In-Class Work #3](problem-sets/m339g-ic3-bivariate-normal-probs.pdf) - **problems we will work on in class**
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
 
