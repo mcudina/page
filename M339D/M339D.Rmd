@@ -476,9 +476,7 @@ Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
-<!--
-[Class notes](notes/m339d-nov-3-2025.pdf) 
--->
+[Class notes](notes/m339d-mar-30-2026.pdf) 
 
 [Homework #10](hw/m339d-hw10-normal.pdf) -- **for practice; not to be handed in**
 
@@ -490,12 +488,13 @@ The normal approximation to the binomial.<br>
 
 [Problem Set #12](problem-sets/m339d-ps12-dML-probs.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-mar-31-2025.pdf) 
+[Class notes](notes/m339d-mar-31-2025.pdf): **Handwritten solutions to the problem set** 
 
 [Problem Set #12](problem-sets/m339d-ps12-dML-solns.pdf): **Solutions**
--->
 
+---
+
+**Class 31: April 1st, 2026**<br>
 The limiting behavior of stock prices. Moment generating functions. <br> 
 
 [Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
@@ -533,9 +532,6 @@ Log-normal stock prices: Parameter interpretation.<br>
 
 [Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, April 17th, 2026**
 
----
-
-**Class 31: April 1st, 2026**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
 <!--
