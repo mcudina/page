@@ -523,15 +523,28 @@ The bivariate normal distribution [practice].<br>
 
 [In-Class Work #3](problem-sets/m339g-ic3-bivariate-normal-solns.pdf) - **solution**
 
+[Homework #8](hw/m339g-hw8-lda-qda.pdf) -- **due on Friday, April 3rd, 2026**
+
+[Project #3](projects/m339g-project3-probs.pdf) -- **due on Monday, April 27th, 2026**
+
+[Project #3](projects/m339g-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
 ---
 
 **Class 31: April 1st, 2026**<br>
+Multivariate normal distributions.<br>
+
+[Class notes](notes/m339g-apr-01-2026.pdf)
+
 More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic): The Receiver Operating Characteristic (ROC)
 
+---
+
+**Class 32: April 3rd, 2025**<br>
 Even more on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
 [`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
@@ -540,11 +553,6 @@ Even more on the linear discriminant analysis, quadratic discriminant analysis, 
 
 [`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
 
-[Homework #8](hw/m339g-hw8-lda-qda.pdf) -- **due on Friday, April 3rd, 2026**
-
-[Project #3](projects/m339g-project3-probs.pdf) -- **due on Monday, April 27th, 2026**
-
-[Project #3](projects/m339g-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
 
@@ -558,9 +566,6 @@ Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<b
 
 [Homework #9](hw/m339g-hw9-reg-trees.pdf) -- **due on Friday, April 10th, 2026**
 
----
-
-**Class 32: April 3rd, 2025**<br>
 Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-pruning.pdf): Tree-based regression (pruning)
