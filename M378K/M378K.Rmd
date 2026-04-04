@@ -401,10 +401,11 @@ Approximate confidence intervals for the population proportion. <br>
 **Class 32: April 3rd, 2026**<br>
 Confidence intervals for the variance.<br>
 
-<!--
-[Class notes](notes/m378k-nov-12-2025.pdf)
--->
+[Class notes](notes/m378k-apr-03-2026.pdf)
 
+---
+
+**Class 33: April 6th, 2026**<br>
 Confidence intervals for the mean with the variance unknown.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/William_Sealy_Gosset): William Sealy Gosset 
@@ -431,10 +432,6 @@ Relative efficiency.<br>
 [Problem Set #17](problem-sets/m378k-ps17-rel-eff-solns.pdf):  **Solutions**
 -->
 
-
----
-
-**Class 33: April 6th, 2026**<br>
 Consistency.<br>
 
 [`R`-code](code/frequencies.R)
