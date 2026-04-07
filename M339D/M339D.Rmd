@@ -530,9 +530,9 @@ Log-normal stock prices: Parameter interpretation.<br>
 
 [Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks.pdf): **Problems**
 
-<!--
-[Class notes](notes/m339d-nov-12-2025.pdf): Lognormal stock prices: Mean. Median. 
+[Class notes](notes/m339d-apr-06-2026.pdf): Lognormal stock prices: Mean. Median. 
 
+<!--
 [Class notes](notes/m339d-ps13.pdf): Handwritten solutions to in-class problems. 
 
 [Problem Set #13](problem-sets/m339d-ps13-lognormal-stocks-solns.pdf): **Solutions**
@@ -542,6 +542,18 @@ Log-normal stock prices: Parameter interpretation.<br>
 
 [Homework #11](hw/m339d-hw11-lognormal-stocks.pdf) -- **due on Friday, April 17th, 2026**
 
+---
+
+**Class 34: April 8th, 2026**<br>
+<span style="color: red;">**In-Term Two**</span><br>
+
+<!--
+[In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
+-->
+
+---
+
+**Class 35: April 10th, 2026**<br>
 Log-normal stock prices: Tail probabilities.<br>
 
 <!--
@@ -568,22 +580,14 @@ The Black-Scholes pricing formula.<br>
 [Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
 -->
 
+---
+
 [Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 27th, 2026**
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-**Class 34: April 8th, 2026**<br>
-<span style="color: red;">**In-Term Two**</span><br>
-
-<!--
-[In-Term Two](exams/m339d-two-solns.pdf) -- **solutions** 
--->
-
----
-
-**Class 35: April 10th, 2026**<br>
 More on Black-Scholes pricing.<br>
 
 ---
