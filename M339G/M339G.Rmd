@@ -579,9 +579,12 @@ Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**<
 
 [Problem packet](problem-sets/m339g-pruning-classification.pdf)
 
-<!--
-[Class notes](notes/m339g-apr-02-2025.pdf): Pruning.
--->
+[Class notes](notes/m339g-apr-08-2026.pdf): Pruning.
+
+---
+
+**Class 35: April 10th, 2026**<br>
+More on regression trees.<br>
 
 [`tree` documentation](https://cran.r-project.org/web/packages/tree/tree.pdf)
 
@@ -625,9 +628,6 @@ Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 [Mock Exam](exams/m339g-mock-two-solns.pdf) -- **solutions** 
 -->
 
----
-
-**Class 35: April 10th, 2026**<br>
 Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-random-forests.pdf): Random forests

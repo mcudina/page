@@ -16,6 +16,7 @@ for (i in 1:10000){
   running.sum=running.sum+ind
   many.tosses=c(many.tosses, running.sum/i)
 }
+
 plot(many.tosses,
      main="Long-term frequencies",
      ylab="Running proportions",
