@@ -583,6 +583,14 @@ Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**<
 
 ---
 
+[In-Term Two](exams/m339g-two-topics.pdf): Topics
+
+[Practice for In-Term Two](exams/m339g-two-sample-probs.pdf) -- **problems** 
+
+[Practice for In-Term Two](exams/m339g-two-sample-solns.pdf) -- **solutions** 
+
+---
+
 **Class 35: April 10th, 2026**<br>
 More on regression trees.<br>
 
@@ -617,15 +625,6 @@ Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 <!--
 [Class notes](notes/m339g-nov-12-2025.pdf): 0.632
 
-[In-Term Two](exams/m339g-two-topics.pdf): Topics
-
-[Practice for In-Term Two](exams/m339g-two-sample-probs.pdf) -- **problems** 
-
-[Practice for In-Term Two](exams/m339g-two-sample-solns.pdf) -- **solutions** 
-
-[Mock Exam](exams/m339g-mock-two-probs.pdf) -- **problems** 
-
-[Mock Exam](exams/m339g-mock-two-solns.pdf) -- **solutions** 
 -->
 
 Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
