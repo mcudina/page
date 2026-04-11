@@ -45,8 +45,8 @@ tree.boston.big <- tree(medv ~ ., Boston, subset = train,
                                                mindev = 0))
 summary(tree.boston.big)
 
-#plot(tree.boston.big)
-#text(tree.boston.big, pretty = 0, cex=0.5)
+plot(tree.boston.big)
+text(tree.boston.big, pretty = 0, cex=0.5)
 ```
 
 
