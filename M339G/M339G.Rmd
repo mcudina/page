@@ -602,6 +602,11 @@ Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br
 
 [Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
 
+---
+
+**Class 36: April 13th, 2026**<br>
+Classification trees [practice].<br>
+
 <!--
 [Class notes](notes/m339g-apr-04-2025.pdf): Classification trees.
 -->
@@ -651,9 +656,6 @@ Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 [Homework #11](hw/m339g-hw11-more-trees.pdf) -- **due on Friday, December 5th, 2025**
 -->
 
----
-
-**Class 36: April 13th, 2026**<br>
 Lines, planes, hyperplanes.<br>
 
 <!--
