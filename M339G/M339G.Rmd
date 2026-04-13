@@ -652,9 +652,9 @@ Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 
 [`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
 
-<!--
-[Homework #11](hw/m339g-hw11-more-trees.pdf) -- **due on Friday, December 5th, 2025**
--->
+[Homework #11](hw/m339g-hw11-more-trees.pdf) -- **practice for the final exam; not to be handed in**
+
+[Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
 
 Lines, planes, hyperplanes.<br>
 
@@ -736,10 +736,6 @@ A [blog post](https://fivethirtyeight.com/features/science-isnt-broken/#part1) o
 The False Discovery Rate <span style="color: purple;">**(Section 13.4)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-false-discovery-rate.pdf): False Discovery Rate
-
-<!--
-[Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
--->
 
 <!--
 Odds and Ends.<br>
