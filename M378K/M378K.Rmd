@@ -448,9 +448,7 @@ Consistency.<br>
 ---
 
 **Class 35: April 10th, 2026**<br>
-Likelihood.<br>
-
-Maximum Likelihood Estimators.<br>
+Likelihood. Maximum Likelihood Estimators.<br>
 
 <!--
 [Class notes](notes/m378k-nov-17-2025.pdf)
@@ -460,9 +458,9 @@ Maximum Likelihood Estimators.<br>
 [Class notes](notes/m378k-nov-21-2025.pdf)
 -->
 
+<!--
 Sufficient statistics.<br>
 
-<!--
 [Class notes](notes/m378k-apr-11-2025.pdf)
 
 [Homework #9](hw/m378k-hw9-umvue-conf-int-solns.pdf) -- **solutions**
@@ -471,9 +469,13 @@ Sufficient statistics.<br>
 ---
 
 **Class 36: April 13th, 2026**<br>
-More on sufficient statistics. 
+More on MLE.<br>
+
+[Class notes](notes/m378k-apr-13-2026.pdf)
 
 <!--
+More on sufficient statistics. 
+
 [Class notes](notes/m378k-apr-14-2025.pdf)
 -->
 
