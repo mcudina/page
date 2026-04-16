@@ -556,31 +556,7 @@ Log-normal stock prices: Parameter interpretation.<br>
 **Class 35: April 10th, 2026**<br>
 More on log-normal stock prices.<br>
 
-Log-normal stock prices: Tail probabilities.<br>
-
-<!--
-[Class notes](notes/m339d-nov-14-2025.pdf): Tail probabilities.
--->
-
-Log-normal stock prices: Partial expectation.<br>
-
-The Black-Scholes pricing formula.<br>
-
-[Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
-
-[The original article by Black and Scholes](http://www.cs.princeton.edu/courses/archive/fall09/cos323/papers/black_scholes73.pdf) 
-
-[Problem Set #14](problem-sets/m339d-ps14-BS-probs.pdf): **Problems**
-
-<!--
-[Class notes](notes/m339d-nov-17-2025.pdf) 
-
-[Problem Set #14](problem-sets/m339d-ps14-BS-solns.pdf): **Solutions**
-
-[Homework #12](hw/m339d-hw12-BS.pdf) -- **not to be submitted; just for practice**
-
-[Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
--->
+[Class notes](notes/m339d-apr-10-2026.pdf): Mean/median.
 
 ---
 
@@ -591,21 +567,32 @@ The Black-Scholes pricing formula.<br>
 ---
 
 **Class 36: April 13th, 2026**<br>
-Forward-start options. Rolling insurance strategy.<br> 
+Log-normal stock prices: Tail probabilities.<br>
 
-[Problem](problem-sets/mfe-sp2007-p8.pdf)
-
-[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
-
-<!--
-[Class notes](notes/m339d-nov-19-2025.pdf) 
-
-[Class notes](notes/m339d-nov-21-2025.pdf) 
--->
+[Class notes](notes/m339d-apr-15-2026.pdf): Tail probabilities.
 
 ---
 
 **Class 37: April 15th, 2026**<br>
+Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.<br>
+
+[Wikipedia](http://en.wikipedia.org/wiki/Black%E2%80%93Scholes): Black-Scholes
+
+[The original article by Black and Scholes](http://www.cs.princeton.edu/courses/archive/fall09/cos323/papers/black_scholes73.pdf) 
+
+[Problem Set #14](problem-sets/m339d-ps14-BS-probs.pdf): **Problems**
+
+[Class notes](notes/m339d-apr-15-2026.pdf) 
+
+[Problem Set #14](problem-sets/m339d-ps14-BS-solns.pdf): **Solutions**
+
+[Homework #12](hw/m339d-hw12-BS.pdf) -- **not to be submitted; just for practice**
+
+[Homework #12](hw/m339d-hw12-BS-solns.pdf) -- **solutions**
+
+---
+
+**Class 38: April 17th, 2026**<br>
 Monte Carlo with Black-Scholes pricing. <br>
 
 [Problem Set #15](problem-sets/m339d-ps15-BS-mc.Rmd): Skeleton
@@ -618,7 +605,7 @@ Monte Carlo with Black-Scholes pricing. <br>
 
 ---
 
-**Class 38: April 17th, 2026**<br>
+**Class 39: April 20th, 2026**<br>
 Focus on the delta.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greeks_(finance)): Greeks 
@@ -628,11 +615,6 @@ Focus on the delta.<br>
 <!--
 [Class notes](notes/m339d-dec-01-2025.pdf) 
 -->
-
----
-
-**Class 39: April 20th, 2026**<br>
-More on the delta.<br>
 
 ---
 
@@ -659,7 +641,17 @@ More on delta hedging.<br>
 ---
 
 **Class 42: April 27th, 2026**<br>
-Derivatives in an actuarial context.<br>
+Forward-start options. Rolling insurance strategy.<br> 
+
+[Problem](problem-sets/mfe-sp2007-p8.pdf)
+
+[Problem packet](problem-sets/m339w-bs-forward-start-rolling.pdf)
+
+<!--
+[Class notes](notes/m339d-nov-19-2025.pdf) 
+
+[Class notes](notes/m339d-nov-21-2025.pdf) 
+-->
 
 <!--
 In-class final-paper workday.<br>
