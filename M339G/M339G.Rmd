@@ -639,11 +639,11 @@ Bagging <span style="color: purple;">**(Section 8.2.1)**</span>.<br>
 
 [`R`-script from class](code/0-632.R): 0.632 
 
-<!--
 [Class notes](notes/m339g-nov-12-2025.pdf): 0.632
 
--->
+---
 
+**Class 39: April 20th, 2026**<br>
 Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-random-forests.pdf): Random forests
@@ -677,9 +677,6 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 [Class notes](notes/m339g-nov-21-2025.pdf): Hyperplanes. Lagrange multipliers.
 -->
 
----
-
-**Class 39: April 20th, 2026**<br>
 Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
