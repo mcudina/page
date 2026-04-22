@@ -28,5 +28,5 @@ one.batch<-function(){
 all.batches=replicate(n.batches, one.batch())
 #all.batches
 
-mean(all.batches)
+(mean(all.batches))
 
