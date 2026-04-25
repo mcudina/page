@@ -648,9 +648,7 @@ Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 
 [Problem](problem-sets/srm-sample-p39.pdf)
 
-<!--
 [Class notes](notes/m339g-apr-09-2025.pdf): 0.632. Random forests.
--->
 
 Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 
@@ -662,18 +660,38 @@ Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 
 [Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
 
-Lines, planes, hyperplanes.<br>
+---
 
 <!--
-[Class notes](notes/m339g-nov-17-2025.pdf): Lines. Hyperplanes. -->
+[The Final Project](projects/m339g-final-project-probs.pdf) -- **due on Thursday, December 11th, 2025**
 
+[The Final Project](projects/m339g-final-project-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
+-->
+
+**Class 40: April 22nd, 2026**<br>
+Lines, planes, hyperplanes.<br>
+
+[Class notes](notes/m339g-nov-17-2025.pdf): Lines. Hyperplanes. 
 Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
 
-<!--
+---
+
+**Class 41: April 24th, 2026**<br>
+Lagrange multipliers.<br>
+
 [Class notes](notes/m339g-nov-21-2025.pdf): Hyperplanes. Lagrange multipliers.
--->
+
+---
+
+**Class 42: April 27th, 2026**<br>
+Problem-solving session.<br>
+
+
+---
 
 Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
@@ -693,26 +711,12 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 
 [Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
 
----
-
-<!--
-[The Final Project](projects/m339g-final-project-probs.pdf) -- **due on Thursday, December 11th, 2025**
-
-[The Final Project](projects/m339g-final-project-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
--->
-
-**Class 40: April 22nd, 2026**<br>
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
 
 [`R`-script from class](code/single-hypothesis.R)
 
----
-
-**Class 41: April 24th, 2026**<br>
 The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-multiple-testing.pdf): Multiple Testing
@@ -727,7 +731,6 @@ A [blog post](https://fivethirtyeight.com/features/science-isnt-broken/#part1) o
 
 ---
 
-**Class 42: April 27th, 2026**<br>
 The False Discovery Rate <span style="color: purple;">**(Section 13.4)**</span>.<br>
 
 [Slides by James & Witten](slides/ch13-false-discovery-rate.pdf): False Discovery Rate
