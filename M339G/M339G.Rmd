@@ -79,10 +79,6 @@ Orientation. `R` Markdown.<br>
 
 [The Whole Game](slides/intro.pdf)
 
-<!--
-[Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, January 23rd, 2026**
--->
-
 ---
 
 **Class 2: August 26th, 2026**<br>
@@ -114,6 +110,8 @@ Resampling Methods (Sampling Distribution and Univariate Bootstrap) <span style=
 [`R`-notebook from class](code/arsenic-empty.Rmd): Arsenic (prompts only)
 
 [`R`-notebook from class](code/arsenic-in-class.Rmd): Arsenic (complete)
+
+[Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, January 23rd, 2026**
 
 ---
 
