@@ -7,6 +7,7 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 First, you read the data from our csv file into a data.frame called `temperature`:
 ```{r}
 temperature<-read.csv("temperatures.csv")
@@ -75,8 +76,8 @@ hist(mu.hats,
      main="Histogram of estimates of the mean",
      xlab="Estimated means",
      col="peru")
-mu.hat=mean(mu.hats)
-print(mu.hat)
+mu.boot=mean(mu.hats)
+print(mu.boot)
 ```
 
 Of course, the boot $\hat \mu_{BOOT}$ conforms to the $\hat \mu$ from above. What about the confidence intervals?
@@ -89,7 +90,7 @@ quantile(mu.hats, c(0.025, 0.975))
 Second, the $2SE$ confidence interval:
 ```{r}
 se=sd(mu.hats)
-(mu.hat-se*qnorm(0.975))
-(mu.hat+se*qnorm(0.975))
+(mu.boot-se*qnorm(0.975))
+(mu.boot+se*qnorm(0.975))
 ```
 
