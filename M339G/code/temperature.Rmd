@@ -39,11 +39,11 @@ The acutal first bit of exploratory data analysis would be to check out the hist
 ```{r}
 hist(temp, 
      main="Human temperatures",
-     xlab="Temperature",
+     xlab="Temperature (F)",
      col="lavender")
 ```
 
-I do not see the histogram to be unimodal or symmetric, however the data are plentiful enough at $50$ for me to think that it's okay to use $t-$procedures. With the built-in `t.test`, I can figure out the confidence interval, e.g.
+I do not see the histogram to be unimodal or symmetric, however the data are plentiful enough at $50$ for me to think that it's okay to use $t-$procedures. With the built-in `t.test`, I can figure out the confidence interval. 
 
 ```{r}
 t.test(temp)
