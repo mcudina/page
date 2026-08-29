@@ -112,11 +112,11 @@ Confidence intervals [review]. Resampling Methods (Sampling Distribution and Uni
 
 [`R`-notebook from class](code/arsenic-in-class.Rmd): Arsenic (complete)
 
-<!--
-[Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, January 23rd, 2026**
+[Homework #1](hw/m339g-hw1-prereqs.pdf) -- **due on Friday, September 4th, 2026**
 
 ---
 
+<!--
 **Class 4: January 21st, 2026**<br>
 Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
