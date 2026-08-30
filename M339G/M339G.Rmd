@@ -116,16 +116,18 @@ Confidence intervals [review]. Resampling Methods (Sampling Distribution and Uni
 
 ---
 
-<!--
 **Class 4: January 21st, 2026**<br>
 Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-jan-21-2026.pdf)
+-->
 
 [Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
 
 [`R`-notebook from class](code/two-stock-portfolio.Rmd): Two-stock portfolio
 
+<!--
 [WMT data](data/WMT.csv)
 
 [IBM data](data/IBM.csv)
