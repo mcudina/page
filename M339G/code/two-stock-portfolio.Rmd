@@ -29,11 +29,7 @@ library(boot)
 ```
 
 The `Portfolio` data set in the `ISLR2` package is simulated data of $100$ pairs of returns, generated in the fashion described in Section 5.2.
-To illustrate the use of the bootstrap on this data, we must first
-create a function, `alpha.fn()`, which takes as input the $(X,Y)$ data
-as well as a vector indicating which observations should be used to
-estimate $\alpha$. The function then outputs the estimate for $\alpha$
-based on the selected observations.
+To illustrate the use of the bootstrap on this data, we must first create a function, `alpha.fn()`, which takes as input the $(X,Y)$ data as well as a vector indicating which observations should be used to estimate $\alpha$. The function then outputs the estimate for $\alpha$ based on the selected observations.
 
 ```{r chunk11}
 alpha.fn <- function(data, index) {
@@ -49,9 +45,7 @@ This function **returns**, or outputs, an  estimate for $\alpha$ based on applyi
 alpha.fn(Portfolio, 1:100)
 ```
 
-The next command  uses the `sample()` function to randomly select
-$100$ observations from the range $1$ to $100$, with replacement. This is equivalent
-to constructing a new bootstrap data set and recomputing $\hat{\alpha}$
+The next command  uses the `sample()` function to randomly select $100$ observations from the range $1$ to $100$, with replacement. This is equivalent to constructing a new bootstrap data set and recomputing $\hat{\alpha}$
 based on the new data set.
 
 ```{r chunk13}
@@ -61,10 +55,8 @@ alpha.fn(Portfolio, sample(100, 100, replace = T))
 ```
 
 We can implement a bootstrap analysis by performing this command many times, recording all of
-the corresponding estimates for $\alpha$, and computing the resulting
-standard deviation.
+the corresponding estimates for $\alpha$, and computing the resulting standard deviation.
 However, the `boot()` function automates this approach. Below we produce $R=1,000$ bootstrap estimates for $\alpha$.
-
 
 ```{r chunk14}
 boot(Portfolio, alpha.fn, R = 1000)
