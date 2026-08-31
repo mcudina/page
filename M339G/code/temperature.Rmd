@@ -34,7 +34,7 @@ sd(temp)
 ```
 
 
-The acutal first bit of exploratory data analysis would be to check out the histogram:
+The actual first bit of exploratory data analysis would be to check out the histogram:
 
 ```{r}
 hist(temp, 
@@ -64,7 +64,7 @@ We can also test for normality using Shapiro-Wilk:
 ```{r}
 shapiro.test(temp)
 ```
-Since the $p-$value is sizeable, there is not evidence to reject the normality hypothesis. 
+Since the $p-$value is sizable, there is not evidence to reject the normality hypothesis. 
 
 So, let's check if *bootstrap* would yield a similar confidence interval. As a rule, it's good to see if a "new tool" conforms with the results of an "old tool" in a setting when they both apply. 
 
@@ -89,7 +89,7 @@ First, the quantile $95\%-$confidence interval:
 quantile(mu.hats, c(0.025, 0.975))
 ```
 
-Second, the $2SE$ confidence interval:
+Second, the $SE$ confidence interval:
 ```{r}
 se=sd(mu.hats)
 (mu.boot-se*qnorm(0.975))
