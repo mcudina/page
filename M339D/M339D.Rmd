@@ -123,16 +123,22 @@ Transaction costs. <br>
 [Class notes](notes/m339d-jan-23-2026.pdf) 
 -->
 
+Outright purchase.<br>
+
+
+---
+
+**Class 6: September 4th, 2026**<br>
 Historical returns of stocks.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
 
+[Microsoft Data](data/MSFT.csv)
+
+[The R-notebook for class](code/m339d-msft-probs.Rmd)
+
 <!--
 [Homework #1](hw/m339d-hw1-prereq-solns.pdf) -- **solutions**
-
----
-
-**Class 6: January 26th, 2026**<br>
 
 [Homework #2](hw/m339d-hw2-prereq.pdf) -- **due on Friday, January 30th, 2026**
 
@@ -141,9 +147,8 @@ Historical returns of stocks.<br>
 **Class 7: January 28th, 2026**<br>
 
 
-[Microsoft Data](data/MSFT.csv)
 
-[The R-notebook for class](code/m339d-msft-probs.Rmd)
+
 
 [The Normal Distribution](http://demonstrations.wolfram.com/TheNormalDistribution/) from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Ian McLeod 
 
