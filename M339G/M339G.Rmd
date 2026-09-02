@@ -119,9 +119,7 @@ Confidence intervals [review]. Resampling Methods (Sampling Distribution and Uni
 **Class 4: August 31st, 2026**<br>
 Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Sections 5.2 and 5.3.4)**</span>.<br>
 
-<!--
 [Class notes](notes/m339g-jan-21-2026.pdf)
--->
 
 [Slides by Hastie & Tibshirani](slides/ch5-univariate-bootstrap.pdf): Univariate bootstrap
 
@@ -137,15 +135,14 @@ Resampling Methods (Bootstrap, cont’d) <span style="color: purple;">**(Section
 
 [Project #1](projects/m339g-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-<!--
-
 ---
 
-**Class 5: January 23rd, 2026**<br>
+**Class 5: September 2nd, 2026**<br>
 Prediction and inference <span style="color: purple;">**(Section 2.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch2-prediction.pdf): Prediction 
 
+<!--
 [Class notes](notes/m339g-jan-23-2026.pdf)
 
 [Homework #1](hw/m339g-hw1-prereqs-solns.pdf) -- **solutions**
