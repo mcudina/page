@@ -119,12 +119,9 @@ Transaction costs. <br>
 
 [Lecture Three](lectures/m339d-lecture-three-standing-assumptions-conventions.pdf): Standing Assumptions and conventions
 
-<!--
-[Class notes](notes/m339d-jan-23-2026.pdf) 
--->
-
 Outright purchase.<br>
 
+[Class notes](notes/m339d-sept-02-2026.pdf) 
 
 ---
 
@@ -141,52 +138,51 @@ Historical returns of stocks.<br>
 
 [Homework #2](hw/m339d-hw2-prereq-probs.pdf) -- **due on Friday, September 11th, 2026**
 
-<!--
-[Class notes](notes/m339d-jan-28-2026.pdf) 
+[Class notes](notes/m339d-sept-04-2026.pdf) 
 
 [The R-notebook from class](code/m339d-msft-solns.Rmd)
 
-
-
 ---
 
-**Class 7: January 28th, 2026**<br>
-
-
-
----
+**Project #1**
 
 [Alphabet data](data/goog.csv) -- **the data for Project #1**
 
 [Time plots in `R`](https://www.geeksforgeeks.org/draw-multiple-time-series-in-same-plot-in-r/)
 
-[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, February 9th, 2026**
+[Project #1](projects/m339d-project1-probs.pdf) -- **due on Monday, September 21st, 2026**
 
 [Project #1](projects/m339d-project1-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-**Class 8: January 30th, 2026**<br>
-Outright purchase. Short sales.<br>
+**Class 7: September 9th, 2026**<br>
+Short sales.<br>
 
 [Investopedia](https://www.investopedia.com/ask/answers/05/marginaccountshortsell.asp): On margin accounts for short sales
-
-[Class notes](notes/m339d-jan-30-2026.pdf)
 
 On portfolios. 
 
 [The R-notebook for class](code/m339d-project1-variation.Rmd): **Problems**
 
+<!--
 [The R-notebook from class](code/m339d-project1-variation-in-class-accessible.Rmd): **Complete solutions**
+-->
 
+---
+
+**Class 8: September 11th, 2026**<br>
+Payoff and profit.<br>
+
+[Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
+
+<!--
 [Homework #2](hw/m339d-hw2-prereq-solns.pdf) -- **solutions**
 
 ---
 
 **Class 9: February 2nd, 2026**<br>
-Payoff and profit.<br>
 
-[Lecture Four](lectures/m339d-lecture-four-payoff-profit.pdf): Initial cost, payoff and profit (the simplest case).
 
 [Problem Set #3](problem-sets/m339d-ps3-payoff-profit-probs.pdf):  **Problems we will work on in class**
 
