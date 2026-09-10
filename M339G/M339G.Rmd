@@ -170,20 +170,19 @@ Simple Linear Regression. <span style="color: purple;">**(Section 3.1)**</span>.
 
 ---
 
-<!--
-
-**Class 8: January 30th, 2026**<br>
-
-[Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, February 6th, 2026**
-
----
-
-**Class 9: February 2nd, 2026**<br>
+**Class 8: September 11th, 2026**<br>
 More on Resampling Methods (Sampling Distribution of the Slope Coefficient) <span style="color: purple;">**(Section 5.3.4)**</span>.<br>
 
 [`R`-notebook from class](code/slr-coeffs.Rmd): Bootstrap for simple linear regression
 
 [`R`-script from class](code/insulation-lm.R): Polynomial fit
+
+<!--
+[Homework #2](hw/m339g-hw2-regression.pdf) -- **due on Friday, February 6th, 2026**
+
+---
+
+**Class 9: February 2nd, 2026**<br>
 
 [Homework #3](hw/m339g-hw3-slr.pdf) -- **due on Friday, February 13th, 2026**
 

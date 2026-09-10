@@ -95,8 +95,7 @@ estimates obtained using the bootstrap.  Does this indicate a problem
 with the bootstrap? In fact, it suggests the opposite.  Recall that
 the standard formulas for the standard errors rely on certain assumptions. For example, they depend
 on the unknown parameter $\sigma^2$, the noise variance. We then estimate $\sigma^2$
-using the RSS. **Now, although the formulas for the standard errors do not rely on the linear model
-being correct, the estimate for $\sigma^2$ does.**
+using the RSS. **Now, although the formulas for the standard errors do not rely on the linear model being correct, the estimate for $\sigma^2$ does.**
 We **earlier** that there is a non-linear relationship in the data, and so the residuals from a linear fit will be inflated, and so will $\hat{\sigma}^2$.
 Secondly, the standard formulas assume (somewhat unrealistically) that the $x_i$ are fixed, and all the variability comes from the variation in the errors $\epsilon_i$.
 The bootstrap approach does not rely on any of these assumptions, and so it is
