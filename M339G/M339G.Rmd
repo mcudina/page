@@ -196,6 +196,8 @@ Simple Linear Regression: Cross Validation <span style="color: purple;">**(Secti
 **Class 10: September 16th, 2026**<br>
 Lines, planes, hyperplanes.<br>
 
+<!--
+[Class notes](notes/m339g-nov-17-2025.pdf): Lines. Hyperplanes. -->
 
 ---
 
@@ -678,9 +680,6 @@ Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 
 
 **Class 40: April 22nd, 2026**<br>
-Lines, planes, hyperplanes.<br>
-
-[Class notes](notes/m339g-nov-17-2025.pdf): Lines. Hyperplanes. 
 Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
