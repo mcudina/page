@@ -83,8 +83,7 @@ These results are consistent with our previous findings: a model that predicts `
 ## Leave-One-Out Cross-Validation
 
 The LOOCV estimate can be automatically computed for any generalized linear model  using the `glm()` and `cv.glm()` functions.  In the lab for Chapter 4, we used the `glm()` function to perform logistic regression by passing in  the `family = "binomial"` argument.
- But if we use `glm()` to fit a model without passing in the `family` argument, then it  performs linear regression, just like the `lm()` function.
-So for instance,
+ But if we use `glm()` to fit a model without passing in the `family` argument, then it  performs linear regression, just like the `lm()` function. So for instance,
 
 ```{r chunk6}
 glm.fit <- glm(mpg ~ horsepower, data = Auto)
