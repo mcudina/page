@@ -207,18 +207,19 @@ Lines, planes, hyperplanes.<br>
 **Class 11: September 18th, 2026**<br>
 Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
+[Slides by Hastie & Tibshirani](slides/ch3-multiple-linear-regression-intro.pdf): Multiple linear regression 
+
+[Wikipedia](https://en.wikipedia.org/wiki/Projection_matrix): Projection matrix
+
+[Wikipedia](https://en.wikipedia.org/wiki/Leverage_(statistics)): Leverage
+
+
 <!--
 Categorical predictors.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
 
 [`R`-notebook for class](code/carseats-dummies.Rmd): Qualitative/categorical predictors
-
-[Slides by Hastie & Tibshirani](slides/ch3-multiple-linear-regression-intro.pdf): Multiple linear regression 
-
-[Wikipedia](https://en.wikipedia.org/wiki/Projection_matrix): Projection matrix
-
-[Wikipedia](https://en.wikipedia.org/wiki/Leverage_(statistics)): Leverage
 
 [Homework #2](hw/m339g-hw2-regression-solns-accessible.html) -- **solutions**
 
