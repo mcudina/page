@@ -198,21 +198,21 @@ Lines, planes, hyperplanes.<br>
 
 [Class notes](notes/m339g-nov-17-2025.pdf): Lines. Hyperplanes. 
 
-[In-Class Work #2](problem-sets/m339g-ic2-lines-planes-hyperplanes-probs.pdf)- **skeleton**
+[In-Class Work #2](problem-sets/m339g-ic2-lines-planes-hyperplanes-probs.pdf) -- **skeleton**
 
-[In-Class Work #2](problem-sets/m339g-ic2-lines-planes-hyperplanes-solns.pdf)- **complete**
+[In-Class Work #2](problem-sets/m339g-ic2-lines-planes-hyperplanes-solns.pdf) -- **complete**
 
 ---
 
 **Class 11: September 18th, 2026**<br>
-Categorical predictors.<br>
+Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
 <!--
+Categorical predictors.<br>
+
 [Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
 
 [`R`-notebook for class](code/carseats-dummies.Rmd): Qualitative/categorical predictors
-
-Multiple linear regression <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-multiple-linear-regression-intro.pdf): Multiple linear regression 
 
