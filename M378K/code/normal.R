@@ -24,6 +24,7 @@ sims=rnorm(1000)
 #sims
 hist(sims)
 summary(sims)
+
 pnorm(1,mean=2,sd=1)
 
 sims=rnorm(1000,mean=100,sd=20)
