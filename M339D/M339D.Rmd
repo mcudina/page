@@ -218,31 +218,34 @@ European call options.<br>
 [Lecture Six](lectures/m339d-lecture-six-European-calls.pdf): European call options.
 
 <!--
+[Class notes](notes/m339d-feb-11-2026.pdf) 
 
 [Homework #3](hw/m339d-hw3-solns.pdf) -- **solutions**
 
+[Homework #4](hw/m339d-hw4-forwards-probs.pdf) -- **due on Friday, February 20th, 2026**
 
+[Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
+-->
 
 ---
 
 **Class 12: September 21st, 2026**<br>
+Hedging with European call options.<br>
+
+---
+
+**Class 13: September 23rd, 2026**<br>
+European put options. Moneyness.<br>
+
+[Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 
 ---
 
-**Class 13: February 11th, 2026**<br>
+**Class 14: September 25th, 2026**<br>
+Hedging using put options.<br>
 
-[Class notes](notes/m339d-feb-11-2026.pdf) 
-
-[Homework #4](hw/m339d-hw4-forwards-probs.pdf) -- **due on Friday, February 20th, 2026**
-
----
-
-**Class 14: February 13th, 2026**<br>
-More on European call options.<br>
-
-[Problem Set #5](problem-sets/m339d-ps5-calls.pdf):  **Problems**
-
+<!--
 [Class notes](notes/m339d-sept-24-2025.pdf) 
 
 [Problem Set #5](problem-sets/m339d-ps5-calls-solns.pdf):  **Solutions**
@@ -252,9 +255,6 @@ More on European call options.<br>
 ---
 
 **Class 15: February 16th, 2026**<br>
-European put options. Moneyness.<br>
-
-[Lecture Seven](lectures/m339d-lecture-seven-puts.pdf): European put options. Moneyness.
 
 [Problem Set #6](problem-sets/m339d-ps6-puts.pdf):  **Problems**
 
