@@ -219,15 +219,10 @@ Categorical predictors.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch3-dummies.pdf): Qualitative/categorical predictors
 
-<!--
-[Homework #2](hw/m339g-hw2-regression-solns-accessible.html) -- **solutions**
--->
-
 [Homework #4](hw/m339g-hw4-slr-probs.pdf) -- **due on Friday, September 25th, 2026**
 
 ---
 
-<!--
 **Class 12: February 9th, 2026**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
@@ -237,12 +232,14 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Slides by Hastie & Tibshirani](slides/ch3-mlr-hierarchy.pdf): Multiple linear regression (cont'd) 
 
+[Code from class](code/trees-in-class.Rmd): Cherry trees
+
 ---
 
+<!--
 **Class 13: February 11th, 2026**<br>
 Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.1)**</span>.<br>
 
-[Code from class](code/trees-in-class.Rmd): Cherry trees
 
 [Class notes](notes/m339g-feb-11-2026.pdf): $F-$distribution. 
 
