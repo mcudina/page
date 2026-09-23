@@ -245,6 +245,7 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 <!--
 [Class notes](notes/m339g-feb-11-2026.pdf): $F-$distribution. 
+-->
 
 [My old class notes from *Math Stats*](notes/m378k-mar-07-2025.pdf): Sample variance. 
 
@@ -268,9 +269,11 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Code from class](code/mustangs.Rmd): Mustangs
 
-[Homework #4](hw/m339g-hw4-F-probs.pdf) -- **due on Friday, February 20th, 2026**
+<!--
+[Homework #4](hw/m339g-hw4-F-probs.pdf) -- **due on Friday, , 2026**
 
 ---
+
 
 **Class 14: February 13th, 2026**<br>
 Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
