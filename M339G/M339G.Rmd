@@ -267,8 +267,7 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 
 [Code from class](code/mustangs.Rmd): Mustangs
 
-<!--
-[Homework #4](hw/m339g-hw4-F-probs.pdf) -- **due on Friday, , 2026**
+[Homework #4](hw/m339g-hw4-F-probs.pdf) -- **due on Friday, October 2nd, 2026**
 
 ---
 
@@ -276,6 +275,7 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 **Class 14: February 13th, 2026**<br>
 Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
+<!--
 [Slides by Hastie & Tibshirani](slides/ch7-linear-splines.pdf): Intro to Splines 
 
 [Homework #3](hw/m339g-hw3-slr-solns.pdf) -- **solutions**
