@@ -275,30 +275,24 @@ Multiple linear regression (cont'd) <span style="color: purple;">**(Section 3.2.
 **Class 14: September 25th, 2026**<br>
 Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
-<!--
 [Slides by Hastie & Tibshirani](slides/ch7-linear-splines.pdf): Intro to Splines 
 
-[Homework #3](hw/m339g-hw3-slr-solns.pdf) -- **solutions**
-
----
-
-**Class 15: February 16th, 2026**<br>
-More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
-
+<!--
 [Class notes](notes/m339g-feb-16-2026.pdf)
+-->
 
 [Data for class](code/salesadv.csv): Sales
 
 [Code for class](code/ads.Rmd): Ads
 
+---
+
+**Class 15: September 28th, 2026**<br>
+More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
+
 [Slides by Hastie & Tibshirani](slides/ch7-cubic-splines.pdf): Cubic Splines
 
 [`R`-notebook from class](code/splines.Rmd): Splines 
-
----
- 
-**Class 16: February 18th, 2026**<br>
-More on splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Code for class](code/splines-validation.Rmd): Splines with validation
 
@@ -308,17 +302,23 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 
 [Slides by Hastie & Tibshirani](slides/ch2-interpretability.pdf): Bias-variance trade-off and interpretability
 
+---
+ 
+**Class 16: September 30th, 2026**<br>
 Introduction to Classification.<br>
 
+<!--
 [Class notes](notes/m339g-feb-18-2026.pdf)
+-->
 
 ---
 
-**Class 17: February 20th, 2026**<br>
+**Class 17: October 2nd, 2026**<br>
 Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
 
+<!--
 Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.<br>
 
 [Class notes](notes/m339g-feb-20-2026.pdf)
