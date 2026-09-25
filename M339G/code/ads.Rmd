@@ -45,7 +45,7 @@ library(splines)
 Then, we do create a fit with `degree=1` - meaning that it's a linear spline. Note, that we specify a single knot at $50$. 
 
 ```{r}
-lm.fit.ls<-lm(sales~bs(adv,knots=c(50),degree=1),data=data)
+lm.fit.ls<-lm(sales ~ bs(adv,knots=c(50),degree=1),data=data)
 summary(lm.fit.ls)
 ```
 

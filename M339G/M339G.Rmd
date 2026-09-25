@@ -277,9 +277,7 @@ Splines <span style="color: purple;">**(Section 7.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch7-linear-splines.pdf): Intro to Splines 
 
-<!--
-[Class notes](notes/m339g-feb-16-2026.pdf)
--->
+[Class notes](notes/m339g-sept-25-2026.pdf)
 
 [Data for class](code/salesadv.csv): Sales
 
