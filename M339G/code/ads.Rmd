@@ -65,6 +65,7 @@ lines(adv.mesh,predictions$fit,col="red", lwd=2)
 lines(adv.mesh,predictions$fit+2*predictions$se, col="blue")
 lines(adv.mesh,predictions$fit-2*predictions$se, col="blue")
 ```
+
 Of course, we might be interested in the basis functions used in this implementation. 
 
 
