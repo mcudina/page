@@ -258,19 +258,6 @@ Hedging using European put options.<br>
 
 [Problem Set #8](problem-sets/m339d-ps8-puts-hedging-solns.pdf):  **Solutions**
 
-<!--
-
-
----
-
-**Class 15: February 16th, 2026**<br>
-
-
-
-**(An interesting read)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
-
-**(Another interesting read)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
-
 [Homework #6](hw/m339d-hw6-puts.pdf) -- **for practice; not to be handed in**
 
 [Homework #6](hw/m339d-hw6-puts-solns.pdf) -- **solutions**
@@ -278,9 +265,21 @@ Hedging using European put options.<br>
 **(Enrichment material)** [Lecture Eight](lectures/m339d-lecture-eight-collars-hedging.pdf): Collars.
 
 ---
+
+**(An interesting read)** [Employee stock options](http://en.wikipedia.org/wiki/Employee_stock_option)
+
+**(Another interesting read)** [Life Assurance Act (1774)](http://en.wikipedia.org/wiki/Life_Assurance_Act_1774)
+
+---
+
+**Class 15: September 28th, 2026**<br>
+
+
+---
  
-**Class 16: February 18th, 2026**<br>
-Review. Finite probability spaces [revisited]. Arbitrage portfolios.<br>
+**Class 16: September 30th, 2026**<br>
+<!--
+Finite probability spaces [revisited]. Arbitrage portfolios.<br>
 
 [Class notes](notes/m339d-feb-18-2026.pdf) 
 
@@ -294,13 +293,6 @@ Review. Finite probability spaces [revisited]. Arbitrage portfolios.<br>
 
 **Class 17: February 20th, 2026**<br>
 <!--
-Mock exam.<br>
-
-[Mock Exam](exams/m339d-mock-exam-probs.pdf) -- **problems** 
-
-[Mock Exam](exams/m339d-mock-exam-solns.pdf) -- **solutions**
-
-
 Law of the Unique Price. Replicating portfolios.<br>
 
 [Class notes](notes/m339d-feb-20-2026.pdf) 
