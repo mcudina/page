@@ -301,12 +301,33 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 [Slides by Hastie & Tibshirani](slides/ch2-interpretability.pdf): Bias-variance trade-off and interpretability
 
 ---
- 
+
+[Mauna Loa data](projects/mauna-loa.csv)
+
+[Project #2](projects/m339g-project2-probs.html) -- **due on Monday, October 26th, 2026**
+
+[Project #2](projects/m339g-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+
+---
+
 **Class 16: September 30th, 2026**<br>
 Introduction to Classification.<br>
 
 <!--
 [Class notes](notes/m339g-feb-18-2026.pdf)
+-->
+
+K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
+
+[`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
+
+[In-Class Work #4](problem-sets/m339g-ic4-knn-probs.pdf) - **skeleton**
+
+<!--
+[Class notes](notes/m339g-mar-02-2026.pdf)
+
+[In-Class Work #2](problem-sets/m339g-ic2-knn-solns.pdf)
+- **complete**
 -->
 
 ---
@@ -316,23 +337,15 @@ Regression vs Classification Problems <span style="color: purple;">**(Section 2.
 
 [Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
 
-<!--
 Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.<br>
 
+<!--
 [Class notes](notes/m339g-feb-20-2026.pdf)
-
-[Homework #4](hw/m339g-hw4-F-solns.pdf) -- **solutions**
-
----
-
-[Mauna Loa data](projects/mauna-loa.csv)
-
-[Project #2](projects/m339g-project2-probs.html) -- **due on Monday, March 9th, 2026**
-
-[Project #2](projects/m339g-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
+-->
 
 ---
 
+<!--
 **Class 18: February 23rd, 2026**<br>
 More on logistic-regression.<br>
 
@@ -384,21 +397,13 @@ Mock exam.<br>
 ---
 
 **Class 20: February 27th, 2026**<br>
-K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
-[`R`-notebook for class](code/knn-caravans.Rmd): KNN for insurance policies
+
 
 ---
 
 **Class 21: March 2nd, 2025**<br>
-KNN practice.<br>
 
-[In-Class Work #2](problem-sets/m339g-ic2-knn-probs.pdf) - **skeleton**
-
-[Class notes](notes/m339g-mar-02-2026.pdf)
-
-[In-Class Work #2](problem-sets/m339g-ic2-knn-solns.pdf)
-- **complete**
 
 ---
 
