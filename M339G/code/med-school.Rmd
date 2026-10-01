@@ -35,9 +35,9 @@ How do we predict with this model?
 
 ```{r}
 #we'll look at an imaginary student with GPA equal to 3.86
-violet=data.frame(GPA=3.86)
-violet.prob=predict(glm.fits,violet,type="response")
-violet.prob
+philomena=data.frame(GPA=3.86)
+philomena.prob=predict(glm.fits,philomena,type="response")
+philomena.prob
 ```
 
 What about the probability of being accepted as a function of the GPA?

@@ -335,24 +335,26 @@ Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.
 [Class notes](notes/m339g-feb-20-2026.pdf)
 -->
 
----
-
-<!--
-**Class 18: February 23rd, 2026**<br>
-More on logistic-regression.<br>
-
 [Slides by Hastie & Tibshirani](slides/ch4-classification.pdf): Logistic regression
 
 [Wikipedia](https://en.wikipedia.org/wiki/Stock_market_index): Stock market index
 
 [`R`-notebook for class](code/stocks-logistic-reg.Rmd): Logistic regression with the stock market
 
+[`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
+
+---
+
+**Class 18: October 5th, 2026**<br>
+More on logistic-regression.<br>
+
+<!--
+
 ---
 
 **Class 19: February 25th, 2026**<br>
 Even more on logistic regression.<br>
 
-[`R`-notebook for class](code/med-school.Rmd): Logistic regression with medical school
 
 Logistic regression with multiple response categories.<br>
 
