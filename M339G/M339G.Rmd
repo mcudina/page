@@ -313,9 +313,9 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 **Class 16: September 30th, 2026**<br>
 Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
-[Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
-
 [Class notes](notes/m339g-sept-30-2026.pdf)
+
+[Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
 
 K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
