@@ -311,11 +311,11 @@ The Trade-Off Between Prediction Accuracy and Model Interpretability <span style
 ---
 
 **Class 16: September 30th, 2026**<br>
-Introduction to Classification.<br>
+Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-feb-18-2026.pdf)
--->
+[Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
+
+[Class notes](notes/m339g-sept-30-2026.pdf)
 
 K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</span>.<br>
 
@@ -323,20 +323,12 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 
 [In-Class Work #4](problem-sets/m339g-ic4-knn-probs.pdf) - **skeleton**
 
-[Class notes](notes/m339g-sept-30-2026.pdf)
-
-<!--
-[In-Class Work #2](problem-sets/m339g-ic2-knn-solns.pdf)
+[In-Class Work #4](problem-sets/m339g-ic4-knn-solns.pdf)
 - **complete**
--->
 
 ---
 
 **Class 17: October 2nd, 2026**<br>
-Regression vs Classification Problems <span style="color: purple;">**(Section 2.1.5)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch2-classification.pdf): Approaches to classification
-
 Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.<br>
 
 <!--
