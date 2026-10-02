@@ -331,11 +331,11 @@ K-Nearest Neighbors <span style="color: purple;">**(Section 2.2.3, 4.7.6)**</spa
 **Class 17: October 2nd, 2026**<br>
 Logistic regression <span style="color: purple;">**(Sections 4.2, 4.3)**</span>.<br>
 
-<!--
-[Class notes](notes/m339g-feb-20-2026.pdf)
--->
+[Class notes](notes/m339g-oct-02-2026.pdf)
 
 [Slides by Hastie & Tibshirani](slides/ch4-classification.pdf): Logistic regression
+
+[Homework #6](hw/m339g-hw6-logistic-probs.pdf) -- **due on Friday, October 9th, 2026**
 
 ---
 
@@ -356,7 +356,6 @@ Logistic regression with multiple response categories.<br>
 <!--
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
 
-[Homework #5](hw/m339g-hw5-logistic-probs.pdf) -- **for practice, not to be handed in**
 
 [Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
 
