@@ -307,15 +307,46 @@ Equity-linked contracts. <br>
 
 [Problem Set #9](problem-sets/m339d-ps9-equity-linked-probs.pdf):  **Problems**
 
-<!--
-[Class notes](notes/m339d-feb-23-2026.pdf) 
+[Class notes](notes/m339d-oct-02-2026.pdf) 
 
 [Problem Set #9](problem-sets/m339d-ps9-equity-linked-solns.pdf):  **Solutions**
 
--->
+---
 
+**Class 18: October 5th, 2026**<br>
+Put-call parity.<br>
+
+[Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
 <!--
+[Class notes](notes/m339d-oct-06-2025.pdf) 
+-->
+
+**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
+
+<!--
+[Homework #7](hw/m339d-hw7-parity-probs.pdf) -- **due on Friday, March 6th, 2026**
+-->
+
+Chooser options.<br>
+
+[Problem](problem-sets/m339d-chooser.pdf)
+
+<!--
+[Class notes](notes/m339d-feb-24-2025.pdf) 
+-->
+
+**(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
+
+**(Enrichment material)** [Lecture Thirteen](lectures/m339d-lecture-13-exchange-options.pdf): Exchange options
+
+**(Enrichment material)** [Lecture Fourteen](lectures/m339d-lecture-14-bounds-bull-spreads.pdf): Call/put-price bounds. Bull spreads.
+
+**(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
+
+<!--
+---
+
 **Project #2**
 
 [Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for a problem in the project**
@@ -336,11 +367,6 @@ Equity-linked contracts. <br>
 
 <!--
 
-
-
-**Class 18: February 23rd, 2026**<br>
-Put-call parity.<br>
-
 ---
 
 **Class 19: February 25th, 2026**<br>
@@ -351,29 +377,8 @@ Put-call parity.<br>
 ---
 
 **Class 20: February 27th, 2026**<br>
-Parity practice.<br>
 
-[Problem packet](problem-sets/m339d-parity-no-div.pdf)
 
-[Class notes](notes/m339d-oct-06-2025.pdf) 
-
-**(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
-
-[Homework #7](hw/m339d-hw7-parity-probs.pdf) -- **due on Friday, March 6th, 2026**
-
-Chooser options.<br>
-
-[Problem](problem-sets/m339d-chooser.pdf)
-
-[Class notes](notes/m339d-feb-24-2025.pdf) 
-
-**(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
-
-**(Enrichment material)** [Lecture Thirteen](lectures/m339d-lecture-13-exchange-options.pdf): Exchange options
-
-**(Enrichment material)** [Lecture Fourteen](lectures/m339d-lecture-14-bounds-bull-spreads.pdf): Call/put-price bounds. Bull spreads.
-
-**(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
 [Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
 
