@@ -131,7 +131,7 @@ pred.mn
 
 ## `glmnet`
 
-Here, we need to install and load a package create by Hastie et al. 
+Here, we need to install and load a package created by Hastie et al. 
 
 ```{r}
 #install.packages("glmnet")

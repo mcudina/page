@@ -355,9 +355,9 @@ More on logistic-regression.<br>
 **Class 19: October 7th, 2026**<br>
 Logistic regression with multiple response categories.<br>
 
-<!--
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
 
+<!--
 
 [Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
 
@@ -366,6 +366,15 @@ Logistic regression with multiple response categories.<br>
 [Data for class](code/hsbdemo.csv): School choice
 
 [`R`-notebook for class](code/vocation.Rmd): Multiclass logistic regression 
+
+Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
+
+[`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
+
+[Class notes](notes/m339g-vif.pdf): VIF
+
+[`R`-notebook for class](code/vif.Rmd): Variance inflation factor
+
 
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
 
@@ -408,14 +417,6 @@ Mock exam.<br>
 ---
 
 **Class 23: March 6th, 2026**<br>
-Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
-
-[`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
-
-[Class notes](notes/m339g-vif.pdf): VIF
-
-[`R`-notebook for class](code/vif.Rmd): Variance inflation factor
-
 Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning

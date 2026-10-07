@@ -17,7 +17,7 @@ Next, we look at the included data set:
 
 ```{r}
 data<-MedGPA
-#View(data)
+View(data)
 #mean(data$Acceptance==0)
 data$Acceptance <- as.factor(data$Acceptance)
 attach(data)
