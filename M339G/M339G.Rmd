@@ -359,15 +359,21 @@ Logistic regression with multiple response categories.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch4-multi-logistic.pdf): Logistic regression with multiple response categories
 
-<!--
-
-[Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
-
 [Class notes](notes/m339g-feb-25-2026.pdf)
 
 [Data for class](code/hsbdemo.csv): School choice
 
 [`R`-notebook for class](code/vocation.Rmd): Multiclass logistic regression 
+
+---
+
+**In-Term One**
+
+[In-Term One](exams/m339g-one-topics.pdf): Topics
+
+
+<!--
+[Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
 
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
@@ -376,7 +382,6 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 [Class notes](notes/m339g-vif.pdf): VIF
 
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
-
 
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
 
@@ -390,7 +395,6 @@ Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
 
-[In-Term One](exams/m339g-one-topics.pdf): Topics
 
 [Practice for In-Term One](exams/m339g-one-sample-probs.pdf) -- **problems** 
 
