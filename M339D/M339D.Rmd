@@ -328,6 +328,14 @@ Put-call parity.<br>
 [Homework #7](hw/m339d-hw7-parity-probs.pdf) -- **due on Friday, March 6th, 2026**
 -->
 
+---
+
+**Class 19: October 7th, 2026**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+---
+
+**Class 20: October 9th, 2026**<br>
 Chooser options.<br>
 
 [Problem](problem-sets/m339d-chooser.pdf)
@@ -343,6 +351,20 @@ Chooser options.<br>
 **(Enrichment material)** [Lecture Fourteen](lectures/m339d-lecture-14-bounds-bull-spreads.pdf): Call/put-price bounds. Bull spreads.
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
+
+Random number generation.<br>
+
+[Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
+
+[Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister): Mersenne twister
+
+[An atmospheric RNG](https://www.random.org/)
+
+The Strong Law of Large Numbers. Monte Carlo simulations.<br>
+
+[Lecture notes](lectures/m339d-slln-monte-carlo.pdf): The Monte Carlo method.
+
+[Problem Set #10](problem-sets/m339d-ps10-mc.Rmd)
 
 <!--
 ---
@@ -367,18 +389,8 @@ Chooser options.<br>
 
 <!--
 
----
-
-**Class 19: February 25th, 2026**<br>
-<span style="color: red;">**In-Term One**</span><br>
 
 [In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
-
----
-
-**Class 20: February 27th, 2026**<br>
-
-
 
 [Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
 
@@ -393,19 +405,6 @@ Chooser options.<br>
 ---
 
 **Class 21: March 2nd, 2026**<br>
-Random number generation.<br>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
-
-[Wikipedia](https://en.wikipedia.org/wiki/Mersenne_Twister): Mersenne twister
-
-[An atmospheric RNG](https://www.random.org/)
-
-The Strong Law of Large Numbers. Monte Carlo simulations.<br>
-
-[Lecture notes](lectures/m339d-slln-monte-carlo.pdf): The Monte Carlo method.
-
-[Problem Set #7](problem-sets/m339d-ps7-mc.Rmd)
 
 [Problem Set #7](problem-sets/m339d-ps7-mc-in-class.Rmd): **Solutions**
 

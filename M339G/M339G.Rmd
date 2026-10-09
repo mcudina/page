@@ -371,10 +371,9 @@ Logistic regression with multiple response categories.<br>
 
 [In-Term One](exams/m339g-one-topics.pdf): Topics
 
+---
 
-<!--
-[Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
-
+**Class 20: October 9th, 2026**<br>
 Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 
 [`R`-notebook for class](code/collinearity.Rmd): Simulated collinearity
@@ -382,6 +381,27 @@ Collinearity <span style="color: purple;">**(Section 3.3.3)**</span>.<br>
 [Class notes](notes/m339g-vif.pdf): VIF
 
 [`R`-notebook for class](code/vif.Rmd): Variance inflation factor
+
+Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
+
+K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch12-clustering.pdf): K-Means Clustering 
+
+[Towards Data Science](https://towardsdatascience.com/three-versions-of-k-means-cf939b65f4ea): K-Means Clustering
+
+[Medium](https://medium.com/analytics-vidhya/comparison-of-initialization-strategies-for-k-means-d5ddd8b0350e): More on Initialization for K-Means Clustering
+
+[UC Irvine MLR](https://archive.ics.uci.edu/dataset/267/banknote+authentication): Data documentation with expanded data set
+
+[Data for class](code/banknotes.csv): Banknotes
+
+[Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
+
+<!--
+[Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
 
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
 
@@ -400,9 +420,6 @@ Mock exam.<br>
 
 [Practice for In-Term One](exams/m339g-one-sample-solns.pdf) -- **solutions** 
 
----
-
-**Class 20: February 27th, 2026**<br>
 
 
 
@@ -423,23 +440,6 @@ Mock exam.<br>
 ---
 
 **Class 23: March 6th, 2026**<br>
-Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1.4)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
-
-K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch12-clustering.pdf): K-Means Clustering 
-
-[Towards Data Science](https://towardsdatascience.com/three-versions-of-k-means-cf939b65f4ea): K-Means Clustering
-
-[Medium](https://medium.com/analytics-vidhya/comparison-of-initialization-strategies-for-k-means-d5ddd8b0350e): More on Initialization for K-Means Clustering
-
-[UC Irvine MLR](https://archive.ics.uci.edu/dataset/267/banknote+authentication): Data documentation with expanded data set
-
-[Data for class](code/banknotes.csv): Banknotes
-
-[Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
 
 [Homework #7](hw/m339g-hw7-k-means.pdf) -- **due on Friday, March 13th, 2026**
 
