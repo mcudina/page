@@ -322,9 +322,23 @@ Put-call parity.<br>
 
 **(Enrichment material)** [Lecture Eleven](lectures/m339d-lecture-eleven-put-call-parity.pdf): Put-call Parity with dividends. 
 
-<!--
-[Homework #7](hw/m339d-hw7-parity-probs.pdf) -- **due on Friday, March 6th, 2026**
--->
+---
+
+**Project #2**
+
+[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for a problem in the project**
+
+[Dow data](data/dow.csv) -- **data for Project #2**
+
+[Dow futures data](data/dow-futures.csv) -- **data for Project #2**
+
+[Apple call data](data/apple-calls.csv) -- **data for Project #2**
+
+[Apple parity](data/apple-parity.csv) -- **more data for Project #2**
+
+[Project #2](projects/m339d-project2-probs.html) -- **due on Monday, October 19th, 2026**
+
+[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
@@ -340,6 +354,10 @@ Chooser options.<br>
 
 <!--
 [Class notes](notes/m339d-feb-24-2025.pdf) 
+-->
+
+<!--
+[Homework #7](hw/m339d-hw7-parity-probs.pdf) -- **due on Friday, March 6th, 2026**
 -->
 
 **(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
@@ -365,25 +383,6 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 [Problem Set #10](problem-sets/m339d-ps10-mc.Rmd)
 
 <!--
----
-
-**Project #2**
-
-[Notes](notes/m339d-convexity.pdf): Convexity of functions - **useful for a problem in the project**
-
-[Dow data](data/dow.csv) -- **data for Project #2**
-
-[Dow futures data](data/dow-futures.csv) -- **data for Project #2**
-
-[Apple call data](data/apple-calls.csv) -- **data for Project #2**
-
-[Apple parity](data/apple-parity.csv) -- **more data for Project #2**
-
-[Project #2](projects/m339d-project2-probs.html) -- **due on Monday, October 19th, 2026**
-
-[Project #2](projects/m339d-project2-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
-
----
 
 <!--
 
