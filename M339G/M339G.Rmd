@@ -390,6 +390,9 @@ Supervised vs Unsupervised Learning  <span style="color: purple;">**(Section 2.1
 
 [Slides by Hastie & Tibshirani](slides/ch1-supervised-unsupervised.pdf): Supervised vs. unsupervised learning
 
+---
+
+**Class 21: October 12th, 2025**<br>
 K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch12-clustering.pdf): K-Means Clustering 
@@ -404,9 +407,15 @@ K-Means Clustering <span style="color: purple;">**(Section 12.4.1)**</span>.<br>
 
 [Code for class](code/banknotes-k-means.Rmd): K-Means Clustering
 
-<!--
-[Homework #5](hw/m339g-hw5-logistic-solns.pdf) -- **solutions**
+---
 
+**Class 22: October 14th, 2026**<br>
+<span style="color: red;">**In-Term One**</span><br>
+
+---
+
+
+<!--
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
 
 [Homework #6](hw/m339g-hw6-sample-one-solns.pdf) -- **solutions**
@@ -419,19 +428,7 @@ Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
 
----
-
-**Class 21: March 2nd, 2025**<br>
-
-
----
-
-**Class 22: March 4th, 2026**<br>
-<span style="color: red;">**In-Term One**</span><br>
-
-
 [In-Term One](exams/m339g-one-solns.pdf) -- **solutions** 
-
 
 ---
 
