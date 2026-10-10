@@ -354,9 +354,9 @@ Chooser options.<br>
 
 [Class notes](notes/m339d-oct-09-2026.pdf) 
 
-<!--
-[Homework #7](hw/m339d-hw7-parity-probs.pdf) -- **due on Friday, March 6th, 2026**
--->
+[Homework #7](hw/m339d-hw7-parity-chooser-probs.pdf) -- **due on Friday, October 16th, 2026**
+
+---
 
 **(Enrichment material)** [Lecture Twelve](lectures/m339d-lecture-twelve-gap-options.pdf): Gap options.
 
@@ -366,6 +366,9 @@ Chooser options.<br>
 
 **(Enrichment material)** [Lecture Fifteen](lectures/m339d-lecture-15-convexity-butterfly.pdf): Call-price convexity.
 
+---
+
+**Class 21: October 12th, 2026**<br>
 Random number generation.<br>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Random_number_generation): Random number generation
@@ -382,13 +385,6 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 <!--
 
-<!--
-
-
-[In-Term One](exams/m339d-one-solns.pdf) -- **solutions** 
-
-[Homework #5](hw/m339d-hw5-calls-solns.pdf) -- **solutions**
-
 ---
 
 [Apple put data](data/apple-puts.csv) -- **the data for Project #3**
@@ -397,9 +393,6 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 
 [Project #3](projects/m339d-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 21: March 2nd, 2026**<br>
 
 [Problem Set #7](problem-sets/m339d-ps7-mc-in-class.Rmd): **Solutions**
 
