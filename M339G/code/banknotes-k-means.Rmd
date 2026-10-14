@@ -26,7 +26,7 @@ The function `kmeans()` performs $K$-means clustering in
 `R`. 
 
 ```{r}
-km.out <- kmeans(notes, 2, nstart = 20)
+km.out <- kmeans(notes, 5, nstart = 20)
 km.out
 #here are the cluster assignments
 km.out$cluster
