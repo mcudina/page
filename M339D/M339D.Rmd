@@ -388,13 +388,9 @@ The Strong Law of Large Numbers. Monte Carlo simulations.<br>
 ---
 
 **Class 22: October 14th, 2026**<br>
-The binomial asset-pricing model. Realized returns of stocks. Forward trees.<br>
+The binomial asset-pricing model. Realized returns of stocks.<br> 
 
-<!--
-[Class notes](notes/m339d-oct-13-2025.pdf) 
-
-[Class notes](notes/m339d-mar-06-2026.pdf) 
--->
+[Class notes](notes/m339d-oct-14-2026.pdf) 
 
 **(Enrichment material)** [Lecture Sixteen](lectures/m339d-lecture-16-binomial-asset-pricing.pdf): The binomial asset-pricing model with continuous dividends.
 
@@ -403,6 +399,9 @@ The binomial asset-pricing model. Realized returns of stocks. Forward trees.<br>
 <!--
 
 **Class 23: March 6th, 2026**<br>
+Forward trees.<br>
+
+[Class notes](notes/m339d-mar-06-2026.pdf) 
 
 [Homework #7](hw/m339d-hw7-parity-solns.pdf) -- **solutions**
 
