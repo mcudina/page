@@ -283,9 +283,7 @@ More on the $\chi^2-$distribution. The $\Gamma-$distribution. The statistical se
 
 [A $\chi^2-$table](notes/chi-squared-table-better.pdf)
 
-<!--
-[Class notes](notes/m378k-mar-04-2026.pdf)
--->
+[Class notes](notes/m378k-oct-14-2026.pdf)
 
 [The R-script from class](code/gamma-clt.R)
 
