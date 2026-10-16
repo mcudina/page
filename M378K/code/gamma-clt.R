@@ -49,7 +49,7 @@ avg.gamma<-function(n, k, tau){
 n.batches=31
 avgs=replicate(n.batches, avg.gamma(nsims, k, tau))
 #plot the histogram
-hist(avgs, col="bisque", prob=TRUE)
+hist(avgs, col="bisque", breaks=10, prob=TRUE)
 #theoretical parameters of the bell curve
 mu.norm=k*tau
 sigma.norm=sqrt(k*tau^2)/sqrt(nsims)
