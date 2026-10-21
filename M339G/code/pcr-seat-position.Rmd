@@ -64,6 +64,7 @@ pr.out$x=-pr.out$x
 biplot(pr.out,scale=0, cex=0.5, xlabs=rep("*", length(Ht)),
        col=c("lightblue", "red"))
 ```
+
 Let's look at the variance explained. 
 
 ```{r}
@@ -109,6 +110,7 @@ pcr.fit=pcr(hipcenter~.,data=training,scale=TRUE, validation="CV")
 summary(pcr.fit)
 validationplot(pcr.fit,val.type="MSEP", legendpos = t(c(1.5,2500)))
 ```
+
 Note that the RMSE for $1$ principal component is $30.26$. This implies that the MSE is $30.26^2= 915.6676$. 
 
 Now, we look at the performance on the testing set with $1$ principal component. 
