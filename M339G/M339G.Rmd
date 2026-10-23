@@ -478,6 +478,11 @@ Principal components analysis and clustering <span style="color: purple;">**(Sec
 **Class 26: October 23rd, 2026**<br>
 Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
+<!--
+[Class notes](notes/m339g-mar-13-2026.pdf)
+-->
+
+[Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
 
 ---
 
@@ -498,9 +503,6 @@ Mock exam.<br>
 
 ---
 
-
-[Class notes](notes/m339g-mar-13-2026.pdf)
-
 [Homework #7](hw/m339g-hw7-k-means-solns.pdf) -- **solutions**
 
 ---
@@ -508,7 +510,6 @@ Mock exam.<br>
 **Class 27: March 23rd, 2026**<br>
 More on LDA <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
 
-[Slides by Hastie & Tibshirani](slides/ch4-lda-intro.pdf): Linear discriminant analysis for $p=1$
 
 [Class notes](notes/m339g-mar-23-2026.pdf)
 
