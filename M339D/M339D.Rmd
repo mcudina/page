@@ -454,6 +454,9 @@ Binomial option pricing: Two periods.<br>
 **Class 27: October 26th, 2026**<br>
 Multiple binomial periods. 
 
+[Problem Set #15](problem-sets/m339d-ps15-multi-periods-probs.pdf): **Problems**
+
+
 ---
 
 **Class 28: October 28th, 2026**<br>
@@ -479,16 +482,11 @@ Monte Carlo for binomial option pricing. <br>
 
 ---
 
-[Problem Set #10](problem-sets/m339d-ps10-two-periods-probs.pdf): **Problems**
-
-[Class notes](notes/m339d-mar-23-2026.pdf) 
-
 [Class notes](notes/m339d-mar-25-2026.pdf) 
 
 [Problem Set #10](problem-sets/m339d-ps10-two-periods-solns.pdf): **Solutions**
 
 [Homework #9](hw/m339d-hw9-binom.pdf) -- **due on Friday, April 3rd, 2026**
-
 
 [Problem Set #11](problem-sets/m339d-ps11-binomial-mc-probs.Rmd)
 
