@@ -489,9 +489,20 @@ Linear discriminant analysis <span style="color: purple;">**(Section 4.4.1)**</s
 **Class 27: October 26th, 2026**<br>
 The bivariate normal distribution.<br> 
 
+[Class notes](notes/m339g-oct-26-2026.pdf)
+
 ---
 
 **Class 28: October 28th, 2026**<br>
+The bivariate normal distribution [practice].<br>
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
+
+[Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
+
+---
+
+**Class 29: October 30th, 2026**<br>
 
 <!--
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
@@ -506,20 +517,13 @@ Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
 
----
-
-**Class 29: March 27th, 2026**<br>
 
 [Class notes](notes/m339g-mar-27-2026.pdf)
 
-[Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalDistribution/): The Bivariate Normal Distribution
-
-[Mathematica demonstration](https://demonstrations.wolfram.com/TheBivariateNormalAndConditionalDistributions/): The Bivariate Normal and Conditional Distributions
 
 ---
 
 **Class 30: March 30th, 2026**<br>
-The bivariate normal distribution [practice].<br>
 
 [In-Class Work #3](problem-sets/m339g-ic3-bivariate-normal-probs.pdf) - **problems we will work on in class**
 
