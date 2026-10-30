@@ -465,7 +465,9 @@ Multiple binomial periods.
 **Class 28: October 28th, 2026**<br>
 Monte Carlo for binomial option pricing. <br>
 
-[Problem Set #16](problem-sets/m339d-ps16-binomial-mc-probs.Rmd)
+[Problem Set #16](problem-sets/m339d-ps16-binomial-mc-probs.Rmd) -- **Skeleton**
+
+[Problem Set #16](problem-sets/m339d-ps16-binomial-mc-in-class.Rmd) -- **Complete**
 
 ---
 
