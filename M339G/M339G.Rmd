@@ -507,6 +507,18 @@ The bivariate normal distribution [practice].<br>
 ---
 
 **Class 29: October 30th, 2026**<br>
+Multivariate normal distributions.<br>
+
+<!--
+[Class notes](notes/m339g-apr-01-2026.pdf)
+-->
+
+More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
+
+[Wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic): The Receiver Operating Characteristic (ROC)
+
 
 ---
 
@@ -540,15 +552,8 @@ Mock exam.<br>
 ---
 
 **Class 31: April 1st, 2026**<br>
-Multivariate normal distributions.<br>
 
-[Class notes](notes/m339g-apr-01-2026.pdf)
 
-More on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch4-lda.pdf): More on linear discriminant analysis 
-
-[Wikipedia](https://en.wikipedia.org/wiki/Receiver_operating_characteristic): The Receiver Operating Characteristic (ROC)
 
 ---
 
