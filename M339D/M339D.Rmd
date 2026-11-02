@@ -509,6 +509,24 @@ The normal approximation to the binomial.<br>
 ---
 
 **Class 30: November 2nd, 2026**<br>
+The limiting behavior of stock prices.<br> 
+
+<!--
+[Class notes](notes/m339d-apr-01-2026.pdf) 
+-->
+
+[Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
+
+Moment generating functions. The log-normal distribution. Jensen's inequality.<br>
+
+[Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
+
+<!--
+[Class notes](notes/m339d-apr-03-2026.pdf): mgf. The log-normal distribution. Jensen's inequality.
+-->
+
+[The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
+from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Chris Boucher 
 
 <!--
 
@@ -519,11 +537,7 @@ The normal approximation to the binomial.<br>
 ---
 
 **Class 31: April 1st, 2026**<br>
-The limiting behavior of stock prices.<br> 
 
-[Class notes](notes/m339d-apr-01-2026.pdf) 
-
-[Mathematica Code](code/m339d-binomial-tree-limit.nb): Binomial model limit 
 
 ---
 
@@ -536,14 +550,8 @@ The limiting behavior of stock prices.<br>
 ---
 
 **Class 32: April 3rd, 2026**<br>
-Moment generating functions. The log-normal distribution. Jensen's inequality.<br>
 
-[Lecture notes](lectures/m339w-lognormal.pdf): The lognormal distribution
 
-[Class notes](notes/m339d-apr-03-2026.pdf): mgf. The log-normal distribution. Jensen's inequality.
-
-[The Log Normal Distribution](http://demonstrations.wolfram.com/TheLogNormalDistribution/){.demonstrationHyperlink}
-from the [Wolfram Demonstrations Project](http://demonstrations.wolfram.com/){.demonstrationHyperlink} by Chris Boucher 
 
 [Homework #9](hw/m339d-hw9-binom-solns.pdf) -- **solutions**
 

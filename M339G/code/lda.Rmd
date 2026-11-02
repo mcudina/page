@@ -52,8 +52,8 @@ The `plot()` function produces plots of the *linear discriminants*, obtained by 
 
 The `predict()` function returns a list with three elements. The first element,  `class`,  contains LDA's predictions about the movement of the market. The second element, `posterior`, is a matrix whose $k$th column contains the posterior probability that the corresponding observation belongs to the $k$th class, computed from 
 $$
-\mathbb{P}[Y =k \,|\, X=x] 
-= \frac{\pi_kf_k(x)}{\sum_{j=1}^K \pi_j f_j(x)}
+\hat{\mathbb{P}}[Y =k \,|\, X=x]
+= \frac{\hat \pi_kf_k(x)}{\sum_{j=1}^K \hat \pi_j f_j(x)}
 $$
 
 Finally, `x` contains the linear discriminants, described earlier.
@@ -90,7 +90,7 @@ If we wanted to use a posterior probability threshold other than $50$ \% in orde
 is at least $90$ \%.
 
 ```{r chunk19}
-sum(lda.pred$posterior[, 1] > .51)
+sum(lda.pred$posterior[, 1] > 0.9)
 ```
 
 No days in 2005 meet that threshold! In fact, the greatest posterior probability of decrease in all of 2005 was $52.02$ \%.

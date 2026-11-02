@@ -524,6 +524,19 @@ More on the linear discriminant analysis, quadratic discriminant analysis, naive
 ---
 
 **Class 30: November 2nd, 2026**<br>
+Even more on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
+
+[`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
+
+[`partimat`](https://www.rdocumentation.org/packages/klaR/versions/1.7-3/topics/partimat): Documentation
+
+[`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
+
+Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
+
+[Problem packet](problem-sets/m339g-regression-trees.pdf)
 
 <!--
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
@@ -538,12 +551,7 @@ Mock exam.<br>
 
 [Mock Exam](exams/m339g-mock-exam-solns.pdf) -- **solutions** 
 
-
-
-[Class notes](notes/m339g-mar-30-2026.pdf)
-
-[In-Class Work #3](problem-sets/m339g-ic3-bivariate-normal-solns.pdf) - **solution**
-
+---
 
 [Project #3](projects/m339g-project3-probs.pdf) -- **due on Monday, April 27th, 2026**
 
@@ -558,24 +566,11 @@ Mock exam.<br>
 ---
 
 **Class 32: April 3rd, 2025**<br>
-Even more on the linear discriminant analysis, quadratic discriminant analysis, naive Bayes <span style="color: purple;">**(Section 4.4.1)**</span>.<br>
-
-[`R`-notebook for class](code/lda.Rmd): LDA, QDA, and Naive Bayes
-
-[`partimat`](https://www.rdocumentation.org/packages/klaR/versions/1.7-3/topics/partimat): Documentation
-
-[`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
-
 [Homework #8](hw/m339g-hw8-lda-qda-solns.pdf) -- **solutions**
 
 ---
 
 **Class 33: April 6th, 2026**<br>
-Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
-
-[Problem packet](problem-sets/m339g-regression-trees.pdf)
 
 <!--
 [Class notes](notes/m339g-mar-31-2025.pdf): Regression trees.
