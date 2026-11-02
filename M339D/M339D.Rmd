@@ -490,10 +490,6 @@ Review of the normal distribution.<br>
 
 [Standard normal table](notes/std-normal-table.pdf)
 
-<!--
-[Class notes](notes/m339d-mar-30-2026.pdf) 
--->
-
 [Homework #11](hw/m339d-hw11-normal-probs.pdf) -- **for practice; not to be handed in**
 
 [Homework #11](hw/m339d-hw11-normal-solns.pdf) - **solutions**
@@ -501,6 +497,8 @@ Review of the normal distribution.<br>
 The normal approximation to the binomial.<br>
 
 [Open Intro Stats Video](https://youtu.be/VvksxAZAlrQ): The normal approximation to the binomial. 
+
+[Class notes](notes/m339d-oct-30-2026.pdf) 
 
 <!--
 [Problem Set #12](problem-sets/m339d-ps12-dML-probs.pdf): **Problems**
