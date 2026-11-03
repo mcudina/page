@@ -532,6 +532,9 @@ Even more on the linear discriminant analysis, quadratic discriminant analysis, 
 
 [`R`-notebook for class](code/lda-banknotes.Rmd): Partition plots
 
+---
+
+**Class 31: November 4th, 2026**<br>
 Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch8-tree-based-regression.pdf): Tree-based regression
@@ -557,9 +560,6 @@ Mock exam.<br>
 
 [Project #3](projects/m339g-project3-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 31: April 1st, 2026**<br>
 
 
 
