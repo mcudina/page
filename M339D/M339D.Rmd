@@ -559,6 +559,11 @@ Log-normal stock prices: Parameter interpretation.<br>
 ---
 
 **Class 33: November 9th, 2026**<br>
+Log-normal stock prices: Tail probabilities.<br>
+
+<!--
+[Class notes](notes/m339d-apr-13-2026.pdf): Tail probabilities.
+-->
 
 ---
 
@@ -581,9 +586,7 @@ Log-normal stock prices: Parameter interpretation.<br>
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-Log-normal stock prices: Tail probabilities.<br>
 
-[Class notes](notes/m339d-apr-13-2026.pdf): Tail probabilities.
 
 ---
 
