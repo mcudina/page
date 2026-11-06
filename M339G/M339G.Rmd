@@ -579,10 +579,17 @@ More on regression trees.<br>
 ---
 
 **Class 33: November 9th, 2026**<br>
+Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
 
 ---
 
 **Class 34: November 11th, 2026**<br>
+
+---
+
+**Class 35: November 13th, 2026**<br>
 
 <!--
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
@@ -611,12 +618,6 @@ Mock exam.<br>
 
 [Practice for In-Term Two](exams/m339g-two-sample-solns.pdf) -- **solutions** 
 
----
-
-**Class 35: April 10th, 2026**<br>
-Classification trees <span style="color: purple;">**(Section 8.1.2)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch8-classification-trees.pdf): Tree-based classification
 
 [Homework #9](hw/m339g-hw9-reg-trees-solns.pdf) -- **solutions**
 
