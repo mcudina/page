@@ -560,10 +560,23 @@ Tree-based regression <span style="color: purple;">**(Section 8.1.1)**</span>.<b
 ---
 
 **Class 32: November 6th, 2026**<br>
+Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch8-pruning.pdf): Tree-based regression (pruning)
+
+[In-Class Work #9](problem-sets/m339g-ic9-pruning-probs.pdf) - **problems**
+
+<!--
+[In-Class Work #9](problem-sets/m339g-ic9-pruning-solns.pdf) - **solutions**
+-->
 
 ---
 
 **Class 33: November 9th, 2026**<br>
+
+---
+
+**Class 34: November 11th, 2026**<br>
 
 <!--
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
@@ -580,14 +593,6 @@ Mock exam.<br>
 
 
 <!--
-
----
-
-**Class 34: April 8th, 2026**<br>
-Tree-based regression: pruning <span style="color: purple;">**(Section 8.1.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch8-pruning.pdf): Tree-based regression (pruning)
-
 [Problem packet](problem-sets/m339g-pruning-classification.pdf)
 
 [Class notes](notes/m339g-apr-08-2026.pdf): Pruning.
