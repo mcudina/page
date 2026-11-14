@@ -636,6 +636,17 @@ Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 ---
 
 **Class 36: November 16th, 2026**<br>
+Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch8-boosting.pdf): Boosting
+
+[`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
+
+<!--
+[Homework #11](hw/m339g-hw11-more-trees.pdf) -- **practice for the final exam; not to be handed in**
+
+[Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
+-->
 
 ---
 
@@ -649,6 +660,10 @@ Random forests <span style="color: purple;">**(Section 8.2.2)**</span>.<br>
 ---
 
 **Class 39: November 30th, 2026**<br>
+
+---
+
+**Class 40: April 22nd, 2026**<br>
 
 <!--
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
@@ -665,27 +680,12 @@ Mock exam.<br>
 
 ---
 
-Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch8-boosting.pdf): Boosting
-
-[`R`-notebook for class](code/bagging-random-forests.Rmd): Bagging, random forests, boosting. 
-
-[Homework #11](hw/m339g-hw11-more-trees.pdf) -- **practice for the final exam; not to be handed in**
-
-[Homework #11](hw/m339g-hw11-more-trees-solns.pdf) -- **solutions**
-
----
-
-
 [The Final Project](projects/m339g-final-project-probs.pdf) -- **due on Thursday, December 11th, 2025**
 
 [The Final Project](projects/m339g-final-project-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
 ---
 
-
-**Class 40: April 22nd, 2026**<br>
 Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
