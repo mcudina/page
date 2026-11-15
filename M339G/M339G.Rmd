@@ -642,6 +642,17 @@ Boosting <span style="color: purple;">**(Section 8.2.3)**</span>.<br>
 
 [Homework #12](hw/m339g-hw12-more-trees-probs.pdf) -- **due on Friday, December 4th, 2026**
 
+Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
+
+<!--
+[Class notes](notes/m339g-nov-21-2025.pdf): Hyperplanes. Lagrange multipliers.
+
+[In-Class Work #11](problem-sets/m339g-ic11-mmc-solns.pdf) - **solutions**
+
+-->
+
 ---
 
 **Class 37: November 18th, 2026**<br>
@@ -680,16 +691,7 @@ Mock exam.<br>
 
 ---
 
-Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch9-maximal-margin-classifier.pdf): Maximal margin classifier
-
----
-
 **Class 41: April 24th, 2026**<br>
-Lagrange multipliers.<br>
-
-[Class notes](notes/m339g-nov-21-2025.pdf): Hyperplanes. Lagrange multipliers.
 
 
 ---
