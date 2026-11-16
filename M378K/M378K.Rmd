@@ -439,13 +439,23 @@ Maximum Likelihood Estimators.<br>
 ---
 
 **Class 36: November 16th, 2026**<br>
+Hypothesis testing.<br>
 
 <!--
+[Class notes](notes/m378k-apr-15-2026.pdf)
+-->
 
+[`R` code on hypothesis testing](code/single-hypothesis.R)
+
+Hypothesis testing practice.<br>
+
+[Problem Set #19](problem-sets/m378k-ps19-hypothesis-testing-probs.pdf):  **Problems we will work on in class**
+
+
+<!--
 
 [Class notes](notes/m378k-apr-10-2026.pdf)
 
-<!--
 [Class notes](notes/m378k-nov-19-2025.pdf)
 
 [Class notes](notes/m378k-nov-21-2025.pdf)
@@ -467,9 +477,6 @@ More on sufficient statistics.
 ---
 
 **Class 37: April 15th, 2026**<br>
-Hypothesis testing.<br>
-
-[Class notes](notes/m378k-apr-15-2026.pdf)
 
 ---
 
@@ -491,11 +498,6 @@ MLE practice.<br>
 ---
 
 **Class 39: April 20th, 2026**<br>
-Hypothesis testing practice.<br>
-
-[`R` code on hypothesis testing](code/single-hypothesis.R)
-
-[Problem Set #19](problem-sets/m378k-ps19-hypothesis-testing-probs.pdf):  **Problems we will work on in class**
 
 [Class notes](notes/m378k-apr-20-2026.pdf)
 
