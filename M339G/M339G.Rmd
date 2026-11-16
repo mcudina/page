@@ -648,11 +648,7 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 
 [In-Class Work #11](problem-sets/m339g-ic11-mmc-probs.pdf) - **skeleton**
 
-<!--
-[Class notes](notes/m339g-nov-21-2025.pdf): Hyperplanes. Lagrange multipliers.
-
-[In-Class Work #11](problem-sets/m339g-ic11-mmc-solns.pdf) - **complete**
--->
+[Class notes](notes/m339g-nov-16-2026.pdf): Lagrange multipliers.
 
 ---
 
@@ -662,6 +658,11 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 ---
 
 **Class 38: November 20th, 2026**<br>
+More on the maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
+
+<!--
+[In-Class Work #11](problem-sets/m339g-ic11-mmc-solns.pdf) - **complete**
+-->
 
 ---
 
@@ -669,7 +670,15 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 
 ---
 
-**Class 40: April 22nd, 2026**<br>
+**Class 40: December 2nd, 2026**<br>
+
+---
+
+**Class 41: December 4th, 2026**<br>
+
+---
+
+**Class 42: December 7th, 2026**<br>
 
 <!--
 [Homework #6](hw/m339g-hw6-sample-one-probs.pdf) -- **for practice; not to be handed in**
@@ -690,14 +699,6 @@ Mock exam.<br>
 
 [The Final Project](projects/m339g-final-project-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
----
-
-**Class 41: April 24th, 2026**<br>
-
-
----
-
-**Class 42: April 27th, 2026**<br>
 Problem-solving session.<br>
 
 [In-Class Work #4](problem-sets/m339g-ic4-last-day-probs.pdf) - **problems we will work on in class**
