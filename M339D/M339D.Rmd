@@ -581,18 +581,19 @@ Log-normal stock prices: Tail probabilities.<br>
 
 **Class 36: November 16th, 2026**<br>
 
-<!--
 
 ---
 
-[Project #4](projects/m339d-project4-probs.pdf) -- **due on Monday, April 27th, 2026**
+**Project #4**
+
+[Project #4](projects/m339d-project4-probs.html) -- **due on Monday, December 7th, 2026**
 
 [Project #4](projects/m339d-project4-probs.Rmd) - this is the Rmd file which you are more than welcome to use to neatly complete your project 
 
-
-
 ---
 
+<!--
+<!--
 **Class 37: April 15th, 2026**<br>
 Log-normal stock prices: Partial expectation. The Black-Scholes pricing formula.<br>
 
