@@ -668,6 +668,19 @@ Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.
 
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
 
+<!--
+[Class notes](notes/m339g-nov-22-2024.pdf): Support vector classifier. 
+-->
+
+[`R`-notebook for class](code/support-vector-classifier.Rmd): Support vector classifier. 
+
+Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<br>
+
+[Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
+
+[Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
+
+
 ---
 
 **Class 39: November 30th, 2026**<br>
@@ -713,18 +726,8 @@ Problem-solving session.<br>
 
 
 <!--
-[Class notes](notes/m339g-nov-22-2024.pdf): Support vector classifier. 
-
-More on the support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
 
-[`R`-notebook for class](code/support-vector-classifier.Rmd): Support vector classifier. 
-
-Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<br>
-
-[Slides by Hastie & Tibshirani](slides/ch9-nonlinearity.pdf): Inspiration for support vector machines
-
-[Slides by Hastie & Tibshirani](slides/ch9-svm.pdf): Support vector machines
 
 A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
 
