@@ -660,17 +660,13 @@ Maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.
 **Class 38: November 20th, 2026**<br>
 More on the maximal margin classifier <span style="color: purple;">**(Section 9.1)**</span>.<br>
 
-<!--
 [In-Class Work #11](problem-sets/m339g-ic11-mmc-solns.pdf) - **complete**
--->
 
 Support vector classifier <span style="color: purple;">**(Section 9.2)**</span>.<br>
 
 [Slides by Hastie & Tibshirani](slides/ch9-support-vector-classifier.pdf): Support vector classifier
 
-<!--
 [Class notes](notes/m339g-nov-22-2024.pdf): Support vector classifier. 
--->
 
 [`R`-notebook for class](code/support-vector-classifier.Rmd): Support vector classifier. 
 
