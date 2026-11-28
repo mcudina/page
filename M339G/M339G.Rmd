@@ -680,6 +680,12 @@ Support vector machines <span style="color: purple;">**(Section 9.3)**</span>.<b
 ---
 
 **Class 39: November 30th, 2026**<br>
+A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
+
+[Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
+
+[`R`-script from class](code/single-hypothesis.R)
+
 
 ---
 
@@ -724,12 +730,6 @@ Problem-solving session.<br>
 <!--
 
 
-
-A Quick Review of Hypothesis Testing <span style="color: purple;">**(Section 13.1)**</span>.<br>
-
-[Slides by James & Witten](slides/ch13-quick-hypothesis.pdf): Review of Hypothesis Testing
-
-[`R`-script from class](code/single-hypothesis.R)
 
 The Challenge of Multiple Testing <span style="color: purple;">**(Section 13.2)**</span>.<br>
 
